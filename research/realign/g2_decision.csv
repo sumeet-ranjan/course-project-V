@@ -1,0 +1,169 @@
+event,group,role,nse_symbol,match_for,pool,note
+E_NCR_GRAP_2024,confirmed,exposed,NBCC,,,names the ban in its own Q3 FY25 call (G3)
+E_NCR_GRAP_2024,confirmed,exposed,DLF,,,names the ban in its own Q3 FY25 call (G3)
+E_NCR_GRAP_2024,unconfirmed,exposed,ANANTRAJ,,,"exposed (NCR plant cost >= 25%), no disclosure found (G3)"
+E_NCR_GRAP_2024,unconfirmed,exposed,PARSVNATH,,,"exposed (NCR plant cost >= 25%), no disclosure found (G3)"
+E_NCR_GRAP_2024,unconfirmed,exposed,UNITECH,,,"exposed (NCR plant cost >= 25%), no disclosure found (G3)"
+E_NCR_GRAP_2024,controls,control,BRIGADE,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+E_NCR_GRAP_2024,controls,control,PURVA,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+E_NCR_GRAP_2024,controls,control,AJMERA,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+E_NCR_GRAP_2024,controls,control,RUSTOMJEE,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+E_NCR_GRAP_2024,controls,control,KOLTEPATIL,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+E_NCR_GRAP_2024,controls,control,SUNTECK,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+E_NCR_GRAP_2024,controls,control,LODHA,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+E_NCR_GRAP_2024,controls,control,VASCONEQ,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+E_NCR_GRAP_2024,controls_nn,control_nn,BRIGADE,NBCC,,nearest two by size; ratio 1.10
+E_NCR_GRAP_2024,controls_nn,control_nn,RUSTOMJEE,NBCC,,nearest two by size; ratio 0.38
+E_NCR_GRAP_2024,controls_nn,control_nn,LODHA,DLF,,nearest two by size; ratio 0.65
+E_NCR_GRAP_2024,controls_nn,control_nn,BRIGADE,DLF,,nearest two by size; ratio 0.14
+E_NCR_GRAP_2024,controls_nn,control_nn,BRIGADE,ANANTRAJ,,nearest two by size; ratio 1.10
+E_NCR_GRAP_2024,controls_nn,control_nn,RUSTOMJEE,ANANTRAJ,,nearest two by size; ratio 0.38
+E_NCR_GRAP_2024,controls_nn,control_nn,VASCONEQ,PARSVNATH,,nearest two by size; ratio 1.57
+E_NCR_GRAP_2024,controls_nn,control_nn,KOLTEPATIL,PARSVNATH,,nearest two by size; ratio 4.05
+E_NCR_GRAP_2024,controls_nn,control_nn,KOLTEPATIL,UNITECH,,nearest two by size; ratio 1.33
+E_NCR_GRAP_2024,controls_nn,control_nn,AJMERA,UNITECH,,nearest two by size; ratio 1.46
+E_NCR_GRAP_2024,within_zone,within_zone,MARUTI,,,"NCR plants, not under the construction ban"
+E_NCR_GRAP_2024,within_zone,within_zone,MAXHEALTH,,,"NCR plants, not under the construction ban"
+E_NCR_GRAP_2024,within_zone,within_zone,TATACOMM,,,"NCR plants, not under the construction ban"
+E_NCR_GRAP_2024,within_zone,within_zone,FORTIS,,,"NCR plants, not under the construction ban"
+E_NCR_GRAP_2024,within_zone,within_zone,RPOWER,,,"NCR plants, not under the construction ban"
+E_NCR_GRAP_2024,within_zone,within_zone,RVNL,,,"NCR plants, not under the construction ban"
+E_NCR_GRAP_2024,psu_benchmark,benchmark,NIFTY_PSE,NBCC,,Nifty PSE index (Yahoo ^CNXPSE); NBCC is a PSU
+E_NCR_GRAP_2024B,confirmed,exposed,NBCC,,,names the ban in its own Q3 FY25 call (G3)
+E_NCR_GRAP_2024B,confirmed,exposed,DLF,,,names the ban in its own Q3 FY25 call (G3)
+E_NCR_GRAP_2024B,unconfirmed,exposed,ANANTRAJ,,,"exposed (NCR plant cost >= 25%), no disclosure found (G3)"
+E_NCR_GRAP_2024B,unconfirmed,exposed,PARSVNATH,,,"exposed (NCR plant cost >= 25%), no disclosure found (G3)"
+E_NCR_GRAP_2024B,unconfirmed,exposed,UNITECH,,,"exposed (NCR plant cost >= 25%), no disclosure found (G3)"
+E_NCR_GRAP_2024B,controls,control,BRIGADE,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+E_NCR_GRAP_2024B,controls,control,PURVA,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+E_NCR_GRAP_2024B,controls,control,AJMERA,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+E_NCR_GRAP_2024B,controls,control,RUSTOMJEE,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+E_NCR_GRAP_2024B,controls,control,KOLTEPATIL,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+E_NCR_GRAP_2024B,controls,control,SUNTECK,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+E_NCR_GRAP_2024B,controls,control,LODHA,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+E_NCR_GRAP_2024B,controls,control,VASCONEQ,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+E_NCR_GRAP_2024B,controls_nn,control_nn,BRIGADE,NBCC,,nearest two by size; ratio 1.10
+E_NCR_GRAP_2024B,controls_nn,control_nn,RUSTOMJEE,NBCC,,nearest two by size; ratio 0.38
+E_NCR_GRAP_2024B,controls_nn,control_nn,LODHA,DLF,,nearest two by size; ratio 0.65
+E_NCR_GRAP_2024B,controls_nn,control_nn,BRIGADE,DLF,,nearest two by size; ratio 0.14
+E_NCR_GRAP_2024B,controls_nn,control_nn,BRIGADE,ANANTRAJ,,nearest two by size; ratio 1.10
+E_NCR_GRAP_2024B,controls_nn,control_nn,RUSTOMJEE,ANANTRAJ,,nearest two by size; ratio 0.38
+E_NCR_GRAP_2024B,controls_nn,control_nn,VASCONEQ,PARSVNATH,,nearest two by size; ratio 1.57
+E_NCR_GRAP_2024B,controls_nn,control_nn,KOLTEPATIL,PARSVNATH,,nearest two by size; ratio 4.05
+E_NCR_GRAP_2024B,controls_nn,control_nn,KOLTEPATIL,UNITECH,,nearest two by size; ratio 1.33
+E_NCR_GRAP_2024B,controls_nn,control_nn,AJMERA,UNITECH,,nearest two by size; ratio 1.46
+E_NCR_GRAP_2024B,within_zone,within_zone,MARUTI,,,"NCR plants, not under the construction ban"
+E_NCR_GRAP_2024B,within_zone,within_zone,MAXHEALTH,,,"NCR plants, not under the construction ban"
+E_NCR_GRAP_2024B,within_zone,within_zone,TATACOMM,,,"NCR plants, not under the construction ban"
+E_NCR_GRAP_2024B,within_zone,within_zone,FORTIS,,,"NCR plants, not under the construction ban"
+E_NCR_GRAP_2024B,within_zone,within_zone,RPOWER,,,"NCR plants, not under the construction ban"
+E_NCR_GRAP_2024B,within_zone,within_zone,RVNL,,,"NCR plants, not under the construction ban"
+E_NCR_GRAP_2024B,psu_benchmark,benchmark,NIFTY_PSE,NBCC,,Nifty PSE index (Yahoo ^CNXPSE); NBCC is a PSU
+NCR_S3_2022,confirmed,exposed,NBCC,,,names the ban in its own Q3 FY25 call (G3)
+NCR_S3_2022,confirmed,exposed,DLF,,,names the ban in its own Q3 FY25 call (G3)
+NCR_S3_2022,unconfirmed,exposed,ANANTRAJ,,,"exposed (NCR plant cost >= 25%), no disclosure found (G3)"
+NCR_S3_2022,unconfirmed,exposed,PARSVNATH,,,"exposed (NCR plant cost >= 25%), no disclosure found (G3)"
+NCR_S3_2022,unconfirmed,exposed,UNITECH,,,"exposed (NCR plant cost >= 25%), no disclosure found (G3)"
+NCR_S3_2022,controls,control,BRIGADE,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+NCR_S3_2022,controls,control,PURVA,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+NCR_S3_2022,controls,control,AJMERA,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+NCR_S3_2022,controls,control,RUSTOMJEE,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+NCR_S3_2022,controls,control,KOLTEPATIL,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+NCR_S3_2022,controls,control,SUNTECK,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+NCR_S3_2022,controls,control,LODHA,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+NCR_S3_2022,controls,control,VASCONEQ,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+NCR_S3_2022,controls_nn,control_nn,BRIGADE,NBCC,,nearest two by size; ratio 1.10
+NCR_S3_2022,controls_nn,control_nn,RUSTOMJEE,NBCC,,nearest two by size; ratio 0.38
+NCR_S3_2022,controls_nn,control_nn,LODHA,DLF,,nearest two by size; ratio 0.65
+NCR_S3_2022,controls_nn,control_nn,BRIGADE,DLF,,nearest two by size; ratio 0.14
+NCR_S3_2022,controls_nn,control_nn,BRIGADE,ANANTRAJ,,nearest two by size; ratio 1.10
+NCR_S3_2022,controls_nn,control_nn,RUSTOMJEE,ANANTRAJ,,nearest two by size; ratio 0.38
+NCR_S3_2022,controls_nn,control_nn,VASCONEQ,PARSVNATH,,nearest two by size; ratio 1.57
+NCR_S3_2022,controls_nn,control_nn,KOLTEPATIL,PARSVNATH,,nearest two by size; ratio 4.05
+NCR_S3_2022,controls_nn,control_nn,KOLTEPATIL,UNITECH,,nearest two by size; ratio 1.33
+NCR_S3_2022,controls_nn,control_nn,AJMERA,UNITECH,,nearest two by size; ratio 1.46
+NCR_S3_2022,within_zone,within_zone,MARUTI,,,"NCR plants, not under the construction ban"
+NCR_S3_2022,within_zone,within_zone,MAXHEALTH,,,"NCR plants, not under the construction ban"
+NCR_S3_2022,within_zone,within_zone,TATACOMM,,,"NCR plants, not under the construction ban"
+NCR_S3_2022,within_zone,within_zone,FORTIS,,,"NCR plants, not under the construction ban"
+NCR_S3_2022,within_zone,within_zone,RPOWER,,,"NCR plants, not under the construction ban"
+NCR_S3_2022,within_zone,within_zone,RVNL,,,"NCR plants, not under the construction ban"
+NCR_S3_2022,psu_benchmark,benchmark,NIFTY_PSE,NBCC,,Nifty PSE index (Yahoo ^CNXPSE); NBCC is a PSU
+NCR_S3_2023,confirmed,exposed,NBCC,,,names the ban in its own Q3 FY25 call (G3)
+NCR_S3_2023,confirmed,exposed,DLF,,,names the ban in its own Q3 FY25 call (G3)
+NCR_S3_2023,unconfirmed,exposed,ANANTRAJ,,,"exposed (NCR plant cost >= 25%), no disclosure found (G3)"
+NCR_S3_2023,unconfirmed,exposed,PARSVNATH,,,"exposed (NCR plant cost >= 25%), no disclosure found (G3)"
+NCR_S3_2023,unconfirmed,exposed,UNITECH,,,"exposed (NCR plant cost >= 25%), no disclosure found (G3)"
+NCR_S3_2023,controls,control,BRIGADE,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+NCR_S3_2023,controls,control,PURVA,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+NCR_S3_2023,controls,control,AJMERA,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+NCR_S3_2023,controls,control,RUSTOMJEE,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+NCR_S3_2023,controls,control,KOLTEPATIL,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+NCR_S3_2023,controls,control,SUNTECK,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+NCR_S3_2023,controls,control,LODHA,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+NCR_S3_2023,controls,control,VASCONEQ,,,"developer with no NCR project (own Q2 FY25 deck, or pack plants for LODHA/VASCONEQ)"
+NCR_S3_2023,controls_nn,control_nn,BRIGADE,NBCC,,nearest two by size; ratio 1.10
+NCR_S3_2023,controls_nn,control_nn,RUSTOMJEE,NBCC,,nearest two by size; ratio 0.38
+NCR_S3_2023,controls_nn,control_nn,LODHA,DLF,,nearest two by size; ratio 0.65
+NCR_S3_2023,controls_nn,control_nn,BRIGADE,DLF,,nearest two by size; ratio 0.14
+NCR_S3_2023,controls_nn,control_nn,BRIGADE,ANANTRAJ,,nearest two by size; ratio 1.10
+NCR_S3_2023,controls_nn,control_nn,RUSTOMJEE,ANANTRAJ,,nearest two by size; ratio 0.38
+NCR_S3_2023,controls_nn,control_nn,VASCONEQ,PARSVNATH,,nearest two by size; ratio 1.57
+NCR_S3_2023,controls_nn,control_nn,KOLTEPATIL,PARSVNATH,,nearest two by size; ratio 4.05
+NCR_S3_2023,controls_nn,control_nn,KOLTEPATIL,UNITECH,,nearest two by size; ratio 1.33
+NCR_S3_2023,controls_nn,control_nn,AJMERA,UNITECH,,nearest two by size; ratio 1.46
+NCR_S3_2023,within_zone,within_zone,MARUTI,,,"NCR plants, not under the construction ban"
+NCR_S3_2023,within_zone,within_zone,MAXHEALTH,,,"NCR plants, not under the construction ban"
+NCR_S3_2023,within_zone,within_zone,TATACOMM,,,"NCR plants, not under the construction ban"
+NCR_S3_2023,within_zone,within_zone,FORTIS,,,"NCR plants, not under the construction ban"
+NCR_S3_2023,within_zone,within_zone,RPOWER,,,"NCR plants, not under the construction ban"
+NCR_S3_2023,within_zone,within_zone,RVNL,,,"NCR plants, not under the construction ban"
+NCR_S3_2023,psu_benchmark,benchmark,NIFTY_PSE,NBCC,,Nifty PSE index (Yahoo ^CNXPSE); NBCC is a PSU
+E_GJ_FLOOD_2024,pack_footprint,exposed,KIRIINDUS,,specialty,fertiliser share of plant cost 0.00
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,SUDARSCHEM,KIRIINDUS,specialty,nearest two by size within the specialty pool; ratio 3.44; NOT size-matched
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,CLEAN,KIRIINDUS,specialty,nearest two by size within the specialty pool; ratio 7.01; NOT size-matched
+E_GJ_FLOOD_2024,pack_footprint,exposed,GUJALKALI,,specialty,fertiliser share of plant cost 0.00
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,SUDARSCHEM,GUJALKALI,specialty,nearest two by size within the specialty pool; ratio 1.46
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,CLEAN,GUJALKALI,specialty,nearest two by size within the specialty pool; ratio 2.98; NOT size-matched
+E_GJ_FLOOD_2024,pack_footprint,exposed,BODALCHEM,,specialty,fertiliser share of plant cost 0.03
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,SUDARSCHEM,BODALCHEM,specialty,nearest two by size within the specialty pool; ratio 7.95; NOT size-matched
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,CLEAN,BODALCHEM,specialty,nearest two by size within the specialty pool; ratio 16.22; NOT size-matched
+E_GJ_FLOOD_2024,pack_footprint,exposed,GNFC,,fertiliser,fertiliser share of plant cost 0.29
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,PARADEEP,GNFC,fertiliser,nearest two by size within the fertiliser pool; ratio 0.99
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,NFL,GNFC,fertiliser,nearest two by size within the fertiliser pool; ratio 0.75
+E_GJ_FLOOD_2024,pack_footprint,exposed,SRF,,specialty,fertiliser share of plant cost 0.00
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,VINATIORGA,SRF,specialty,nearest two by size within the specialty pool; ratio 0.28; NOT size-matched
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,CLEAN,SRF,specialty,nearest two by size within the specialty pool; ratio 0.22; NOT size-matched
+E_GJ_FLOOD_2024,pack_footprint,exposed,GSFC,,fertiliser,fertiliser share of plant cost 0.50
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,PARADEEP,GSFC,fertiliser,nearest two by size within the fertiliser pool; ratio 0.99
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,NFL,GSFC,fertiliser,nearest two by size within the fertiliser pool; ratio 0.75
+E_GJ_FLOOD_2024,pack_footprint,exposed,AARTIIND,,specialty,fertiliser share of plant cost 0.01
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,VINATIORGA,AARTIIND,specialty,nearest two by size within the specialty pool; ratio 0.91
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,CLEAN,AARTIIND,specialty,nearest two by size within the specialty pool; ratio 0.73
+E_GJ_FLOOD_2024,pack_footprint,exposed,UPL,,specialty,fertiliser share of plant cost 0.00
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,VINATIORGA,UPL,specialty,nearest two by size within the specialty pool; ratio 0.44; NOT size-matched
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,CLEAN,UPL,specialty,nearest two by size within the specialty pool; ratio 0.35; NOT size-matched
+E_GJ_FLOOD_2024,pack_footprint,exposed,DCMSHRIRAM,,specialty,fertiliser share of plant cost 0.01
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,CLEAN,DCMSHRIRAM,specialty,nearest two by size within the specialty pool; ratio 0.90
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,VINATIORGA,DCMSHRIRAM,specialty,nearest two by size within the specialty pool; ratio 1.12
+E_GJ_FLOOD_2024,pack_footprint,exposed,ZUARI,,fertiliser,fertiliser share of plant cost 1.00
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,NFL,ZUARI,fertiliser,nearest two by size within the fertiliser pool; ratio 7.95; NOT size-matched
+E_GJ_FLOOD_2024,pack_footprint_nn,control_nn,PARADEEP,ZUARI,fertiliser,nearest two by size within the fertiliser pool; ratio 10.48; NOT size-matched
+E_GJ_FLOOD_2024,vadodara_sites,exposed,BODALCHEM,,specialty,fertiliser share of plant cost 0.03
+E_GJ_FLOOD_2024,vadodara_sites_nn,control_nn,SUDARSCHEM,BODALCHEM,specialty,nearest two by size within the specialty pool; ratio 7.95; NOT size-matched
+E_GJ_FLOOD_2024,vadodara_sites_nn,control_nn,CLEAN,BODALCHEM,specialty,nearest two by size within the specialty pool; ratio 16.22; NOT size-matched
+E_GJ_FLOOD_2024,vadodara_sites,exposed,GSFC,,fertiliser,fertiliser share of plant cost 0.50
+E_GJ_FLOOD_2024,vadodara_sites_nn,control_nn,PARADEEP,GSFC,fertiliser,nearest two by size within the fertiliser pool; ratio 0.99
+E_GJ_FLOOD_2024,vadodara_sites_nn,control_nn,NFL,GSFC,fertiliser,nearest two by size within the fertiliser pool; ratio 0.75
+E_GJ_FLOOD_2024,vadodara_sites,exposed,GUJALKALI,,specialty,fertiliser share of plant cost 0.00
+E_GJ_FLOOD_2024,vadodara_sites_nn,control_nn,SUDARSCHEM,GUJALKALI,specialty,nearest two by size within the specialty pool; ratio 1.46
+E_GJ_FLOOD_2024,vadodara_sites_nn,control_nn,CLEAN,GUJALKALI,specialty,nearest two by size within the specialty pool; ratio 2.98; NOT size-matched
+E_GJ_FLOOD_2024,vadodara_sites,exposed,KIRIINDUS,,specialty,fertiliser share of plant cost 0.00
+E_GJ_FLOOD_2024,vadodara_sites_nn,control_nn,SUDARSCHEM,KIRIINDUS,specialty,nearest two by size within the specialty pool; ratio 3.44; NOT size-matched
+E_GJ_FLOOD_2024,vadodara_sites_nn,control_nn,CLEAN,KIRIINDUS,specialty,nearest two by size within the specialty pool; ratio 7.01; NOT size-matched
+E_GJ_FLOOD_2024,controls,control,CHAMBLFERT,,fertiliser,no plant in Gujarat (own FY2023-24 document)
+E_GJ_FLOOD_2024,controls,control,NFL,,fertiliser,no plant in Gujarat (own FY2023-24 document)
+E_GJ_FLOOD_2024,controls,control,PARADEEP,,fertiliser,no plant in Gujarat (own FY2023-24 document)
+E_GJ_FLOOD_2024,controls,control,VINATIORGA,,specialty,no plant in Gujarat (own FY2023-24 document)
+E_GJ_FLOOD_2024,controls,control,CLEAN,,specialty,no plant in Gujarat (own FY2023-24 document)
+E_GJ_FLOOD_2024,controls,control,SUDARSCHEM,,specialty,no plant in Gujarat (own FY2023-24 document)

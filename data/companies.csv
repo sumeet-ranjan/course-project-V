@@ -1,0 +1,82 @@
+nse_symbol,co_code,company,primary_industry,n_plants,total_project_cost_cr,role
+AARTIIND,3998,AARTI INDUSTRIES LTD.,Organic chemicals,54,43609.6,directly_exposed
+ACC,23354,A C C LTD.,Cement,87,286008.0,chain_neighbour
+ADANIENT,5747,ADANI ENTERPRISES LTD.,Processed foods,29,1778690.0,chain_neighbour
+ADANIGREEN,527121,ADANI GREEN ENERGY LTD.,Renewable electricity,32,1890422.8,control
+ADANIPOWER,5757,ADANI POWER LTD.,Conventional electricity,22,1098500.0,control
+ANANTRAJ,14897,ANANT RAJ LTD.,Housing construction,21,82720.1,directly_exposed
+ANSALAPI,16823,ANSAL PROPERTIES & INFRASTRUCTURE LTD.,Housing construction,55,1345451.5,directly_exposed
+APOLLOHOSP,18102,APOLLO HOSPITALS ENTERPRISE LTD.,Health services,100,140224.5,directly_exposed
+APOLLOTYRE,18151,APOLLO TYRES LTD.,Tyres   tubes,25,118520.0,directly_exposed
+ASSAMCO,23217,ASSAM COMPANY INDIA LTD.,Shipping transport infrastructure services,4,61750.0,directly_exposed
+BODALCHEM,61622,BODAL CHEMICALS LTD.,Dyes   pigments,21,27260.0,directly_exposed
+BORORENEW,37935,BOROSIL RENEWABLES LTD.,Glass   glassware,6,27870.0,directly_exposed
+BPCL,33873,BHARAT PETROLEUM CORPN. LTD.,Natural gas trading   distribution,167,1392302.5,chain_neighbour
+CEATLTD,43155,CEAT LTD.,Tyres   tubes,24,84455.0,directly_exposed
+DCMDAEWOO,54985,DAEWOO MOTORS INDIA LTD.,Passenger vehicles,3,51145.2,directly_exposed
+DCMSHRIRAM,53473,D C M SHRIRAM LTD.,Inorganic chemicals,49,67643.7,directly_exposed
+DLF,53993,D L F LTD.,Housing construction,105,631421.8,directly_exposed
+ELECTROSL,378125,E S L STEEL LTD.,Steel,4,410180.8,chain_neighbour
+ESSAROIL,69497,NAYARA ENERGY LTD.,Crude oil   natural gas,22,1931612.2,control
+ESTL,69506,ARCELORMITTAL NIPPON STEEL INDIA LTD.,Steel,48,4405861.6,chain_neighbour
+FORTIS,74601,FORTIS HEALTHCARE LTD.,Health services,50,91535.0,directly_exposed
+GAIL,79498,G A I L (INDIA) LTD.,Natural gas trading   distribution,98,1848998.8,chain_neighbour
+GNFC,86816,GUJARAT NARMADA VALLEY FERTILIZERS & CHEMICALS LTD.,Inorganic chemicals,34,122182.9,directly_exposed
+GSFC,86913,GUJARAT STATE FERTILIZERS & CHEMICALS LTD.,Organic chemicals,47,186392.3,directly_exposed
+GUJALKALI,86604,GUJARAT ALKALIES & CHEMICALS LTD.,Inorganic chemicals,56,210657.2,directly_exposed
+HCC,93997,HINDUSTAN CONSTRUCTION CO. LTD.,Renewable electricity,3,520000.0,chain_neighbour
+HINDUNILVR,94080,HINDUSTAN UNILEVER LTD.,"Cosmetics, toiletries, soaps   detergents",29,50435.8,directly_exposed
+IGL,99905,INDRAPRASTHA GAS LTD.,Natural gas trading   distribution,22,66370.0,directly_exposed
+INDORAMA,99476,INDO RAMA SYNTHETICS (INDIA) LTD.,Man-made filaments   fibres,20,135144.9,directly_exposed
+IOC,98907,INDIAN OIL CORPN. LTD.,Storage   distribution,458,5602494.6,chain_neighbour
+IPCL,98928,INDIAN PETROCHEMICALS CORPN. LTD. [MERGED],Organic chemicals,15,114250.4,directly_exposed
+IVRCLINFRA,97156,I V R C L LTD.,Housing construction,14,63859.9,directly_exposed
+JINDALSAW,214966,JINDAL SAW LTD.,Steel pipes   tubes,23,96129.3,directly_exposed
+JINDALSTEL,109856,JINDAL STEEL & POWER LTD.,Steel,70,1677412.6,chain_neighbour
+JKTYRE,103877,J K TYRE & INDS. LTD.,Tyres   tubes,22,93530.0,directly_exposed
+JPASSOCIAT,108841,JAIPRAKASH ASSOCIATES LTD.,Cement,59,671070.3,directly_exposed
+JSL,339130,JINDAL STAINLESS LTD.,Steel,26,368630.0,chain_neighbour
+JSWISPAT,102962,J S W ISPAT STEEL LTD. [MERGED],Steel,9,30200.0,directly_exposed
+JSWSTEEL,109874,J S W STEEL LTD.,Steel,74,1479829.0,chain_neighbour
+KIRIINDUS,121100,KIRI INDUSTRIES LTD.,Organic chemicals,3,29550.0,directly_exposed
+LODHA,129286,MACROTECH DEVELOPERS LTD.,Housing construction,106,419906.4,chain_neighbour
+MARUTI,140829,MARUTI SUZUKI INDIA LTD.,Passenger vehicles,52,501772.5,directly_exposed
+MAXHEALTH,324892,MAX HEALTHCARE INSTITUTE LTD.,Health services,14,25900.0,directly_exposed
+MFL,375683,MEGHMANI FINECHEM LTD.,Inorganic chemicals,16,28224.0,directly_exposed
+MODTHREAD,147693,MODERN THREADS (INDIA) LTD.,Conventional electricity,4,24132.7,directly_exposed
+MRF,132572,M R F LTD.,Tyres   tubes,16,132590.0,directly_exposed
+MRPL,138385,MANGALORE REFINERY & PETROCHEMICALS LTD.,Refinery,28,681695.2,control
+MURLIIND,151103,MURLI INDUSTRIES LTD.,Conventional electricity,12,26473.9,directly_exposed
+NATIONALUM,155529,NATIONAL ALUMINIUM CO. LTD.,Aluminium   aluminium products,56,1504215.7,chain_neighbour
+NBCC,155548,N B C C (INDIA) LTD.,Housing construction,67,300165.4,directly_exposed
+NECLIFE,243276,NECTAR LIFESCIENCES LTD.,Drugs   pharmaceuticals,10,48400.0,directly_exposed
+NMDC,155630,N M D C LTD.,Minerals,40,690705.1,chain_neighbour
+NOVAIRNSTL,161841,NOVA IRON & STEEL LTD.,Sponge iron,3,110179.0,directly_exposed
+NTPC,155695,N T P C LTD.,Conventional electricity,268,7290654.9,chain_neighbour
+PARSVNATH,171787,PARSVNATH DEVELOPERS LTD.,Housing construction,75,142735.4,directly_exposed
+PETRONET,174683,PETRONET L N G LTD.,Natural gas trading   distribution,21,587052.5,directly_exposed
+QVC,375467,Q V C REALTY CO. LTD.,Housing construction,5,44800.0,directly_exposed
+RAJESHEXPO,190998,RAJESH EXPORTS LTD.,Housing construction,8,389000.0,chain_neighbour
+RAJPALAYAM,190319,RAJAPALAYAM MILLS LTD.,Cotton   blended yarn,11,14860.0,directly_exposed
+RELIANCE,196667,RELIANCE INDUSTRIES LTD.,Crude oil   natural gas,165,6522076.3,chain_neighbour
+RELINFRA,27747,RELIANCE INFRASTRUCTURE LTD.,Conventional electricity,26,1660532.9,chain_neighbour
+RPOWER,196608,RELIANCE POWER LTD.,Conventional electricity,10,768940.0,directly_exposed
+RVNL,329799,RAIL VIKAS NIGAM LTD.,Railway transport infrastructure services,20,264370.3,directly_exposed
+SAIL,236460,STEEL AUTHORITY OF INDIA LTD.,Steel,133,3083582.8,chain_neighbour
+SAURASHCEM,214613,SAURASHTRA CEMENT LTD.,Conventional electricity,3,7050.0,directly_exposed
+SHREECEM,222402,SHREE CEMENT LTD.,Cement,94,461877.4,chain_neighbour
+SKIL,95119,SKIL INFRASTRUCTURE LTD.,Air transport infrastructure services,2,43920.0,directly_exposed
+SRF,204866,S R F LTD.,Other chemical products,91,194282.19999999998,directly_exposed
+TATACOMM,265414,TATA COMMUNICATIONS LTD.,Telecommunication services,16,27932.9,directly_exposed
+TATAMETALI,248154,TATA METALIKS LTD.,Steel,12,366266.8,chain_neighbour
+TATASTEEL,248136,TATA STEEL LTD.,Steel,87,2279318.2,chain_neighbour
+TATASTLBSL,35222,TATA STEEL B S L LTD.,Steel,30,1123602.8,chain_neighbour
+TORNTPOWER,372076,TORRENT POWER LTD.,Conventional electricity,29,1606126.1,control
+ULTRACEMCO,125123,ULTRATECH CEMENT LTD.,Cement,125,876166.0,chain_neighbour
+UNITECH,257777,UNITECH LTD.,Housing construction,77,156864.4,directly_exposed
+UPL,215829,U P L LTD.,Pesticides,22,125684.5,directly_exposed
+VASCONEQ,263122,VASCON ENGINEERS LTD.,Housing construction,32,41837.3,directly_exposed
+VEDL,216946,VEDANTA LTD.,Crude oil   natural gas,82,2371660.9,chain_neighbour
+VHL,262638,VARDHMAN HOLDINGS LTD.,Cotton   blended yarn,11,5035.3,directly_exposed
+VIPULLTD,14464,VIPUL LTD.,Housing construction,13,29510.0,directly_exposed
+ZUARI,397515,ZUARI AGRO CHEMICALS LTD.,Fertilisers,5,98300.0,directly_exposed

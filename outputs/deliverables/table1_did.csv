@@ -1,0 +1,9 @@
+event,group,outcome,post_quarters,coef,se_cluster_firm,p,n_obs,n_firms,n_exposed
+E_NCR_GRAP_2024,confirmed,sales_growth_yoy_pct,2024-12-31 & 2025-03-31,-17.0332,40.0579,0.6707,50,10,2
+E_NCR_GRAP_2024,confirmed,operating_margin_pct,2024-12-31 & 2025-03-31,-4.0758,5.5289,0.461,90,10,2
+E_NCR_GRAP_2024,unconfirmed,sales_growth_yoy_pct,2024-12-31 & 2025-03-31,-38.0596,43.2402,0.3788,58,11,3
+E_NCR_GRAP_2024,unconfirmed,operating_margin_pct,2024-12-31 & 2025-03-31,136.4099,131.9993,0.3014,99,11,3
+E_GJ_FLOOD_2024,pack_footprint,sales_growth_yoy_pct,2024-09-30 & 2024-12-31,36.9747,34.0844,0.278,80,16,10
+E_GJ_FLOOD_2024,pack_footprint,operating_margin_pct,2024-09-30 & 2024-12-31,-1.8657,1.6383,0.2548,144,16,10
+E_GJ_FLOOD_2024,vadodara_sites,sales_growth_yoy_pct,2024-09-30 & 2024-12-31,39.9371,36.0777,0.2683,50,10,4
+E_GJ_FLOOD_2024,vadodara_sites,operating_margin_pct,2024-09-30 & 2024-12-31,-1.9336,3.1049,0.5334,90,10,4

@@ -1,0 +1,200 @@
+supplier,buyer,supplier_industry,buyer_industry,hint,status
+ACC,ANANTRAJ,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ACC,ANSALAPI,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ACC,DLF,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ACC,IVRCLINFRA,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ACC,LODHA,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ACC,NBCC,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ACC,PARSVNATH,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ACC,QVC,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ACC,RAJESHEXPO,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ACC,UNITECH,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ACC,VASCONEQ,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ACC,VIPULLTD,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+JPASSOCIAT,ANANTRAJ,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+JPASSOCIAT,ANSALAPI,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+JPASSOCIAT,DLF,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+JPASSOCIAT,IVRCLINFRA,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+JPASSOCIAT,LODHA,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+JPASSOCIAT,NBCC,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+JPASSOCIAT,PARSVNATH,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+JPASSOCIAT,QVC,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+JPASSOCIAT,RAJESHEXPO,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+JPASSOCIAT,UNITECH,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+JPASSOCIAT,VASCONEQ,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+JPASSOCIAT,VIPULLTD,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+SHREECEM,ANANTRAJ,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+SHREECEM,ANSALAPI,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+SHREECEM,DLF,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+SHREECEM,IVRCLINFRA,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+SHREECEM,LODHA,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+SHREECEM,NBCC,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+SHREECEM,PARSVNATH,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+SHREECEM,QVC,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+SHREECEM,RAJESHEXPO,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+SHREECEM,UNITECH,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+SHREECEM,VASCONEQ,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+SHREECEM,VIPULLTD,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ULTRACEMCO,ANANTRAJ,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ULTRACEMCO,ANSALAPI,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ULTRACEMCO,DLF,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ULTRACEMCO,IVRCLINFRA,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ULTRACEMCO,LODHA,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ULTRACEMCO,NBCC,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ULTRACEMCO,PARSVNATH,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ULTRACEMCO,QVC,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ULTRACEMCO,RAJESHEXPO,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ULTRACEMCO,UNITECH,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ULTRACEMCO,VASCONEQ,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ULTRACEMCO,VIPULLTD,Cement,Housing construction,cement->construction,HYPOTHESIS_verify_from_disclosures
+ELECTROSL,ANANTRAJ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ELECTROSL,ANSALAPI,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ELECTROSL,DLF,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ELECTROSL,IVRCLINFRA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ELECTROSL,LODHA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ELECTROSL,NBCC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ELECTROSL,PARSVNATH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ELECTROSL,QVC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ELECTROSL,RAJESHEXPO,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ELECTROSL,UNITECH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ELECTROSL,VASCONEQ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ELECTROSL,VIPULLTD,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ESTL,ANANTRAJ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ESTL,ANSALAPI,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ESTL,DLF,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ESTL,IVRCLINFRA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ESTL,LODHA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ESTL,NBCC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ESTL,PARSVNATH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ESTL,QVC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ESTL,RAJESHEXPO,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ESTL,UNITECH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ESTL,VASCONEQ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+ESTL,VIPULLTD,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSAW,ANANTRAJ,Steel pipes   tubes,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSAW,ANSALAPI,Steel pipes   tubes,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSAW,DLF,Steel pipes   tubes,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSAW,IVRCLINFRA,Steel pipes   tubes,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSAW,LODHA,Steel pipes   tubes,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSAW,NBCC,Steel pipes   tubes,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSAW,PARSVNATH,Steel pipes   tubes,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSAW,QVC,Steel pipes   tubes,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSAW,RAJESHEXPO,Steel pipes   tubes,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSAW,UNITECH,Steel pipes   tubes,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSAW,VASCONEQ,Steel pipes   tubes,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSAW,VIPULLTD,Steel pipes   tubes,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSTEL,ANANTRAJ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSTEL,ANSALAPI,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSTEL,DLF,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSTEL,IVRCLINFRA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSTEL,LODHA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSTEL,NBCC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSTEL,PARSVNATH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSTEL,QVC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSTEL,RAJESHEXPO,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSTEL,UNITECH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSTEL,VASCONEQ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JINDALSTEL,VIPULLTD,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSL,ANANTRAJ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSL,ANSALAPI,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSL,DLF,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSL,IVRCLINFRA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSL,LODHA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSL,NBCC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSL,PARSVNATH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSL,QVC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSL,RAJESHEXPO,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSL,UNITECH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSL,VASCONEQ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSL,VIPULLTD,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWISPAT,ANANTRAJ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWISPAT,ANSALAPI,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWISPAT,DLF,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWISPAT,IVRCLINFRA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWISPAT,LODHA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWISPAT,NBCC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWISPAT,PARSVNATH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWISPAT,QVC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWISPAT,RAJESHEXPO,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWISPAT,UNITECH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWISPAT,VASCONEQ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWISPAT,VIPULLTD,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWSTEEL,ANANTRAJ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWSTEEL,ANSALAPI,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWSTEEL,DLF,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWSTEEL,IVRCLINFRA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWSTEEL,LODHA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWSTEEL,NBCC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWSTEEL,PARSVNATH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWSTEEL,QVC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWSTEEL,RAJESHEXPO,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWSTEEL,UNITECH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWSTEEL,VASCONEQ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+JSWSTEEL,VIPULLTD,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+SAIL,ANANTRAJ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+SAIL,ANSALAPI,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+SAIL,DLF,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+SAIL,IVRCLINFRA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+SAIL,LODHA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+SAIL,NBCC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+SAIL,PARSVNATH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+SAIL,QVC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+SAIL,RAJESHEXPO,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+SAIL,UNITECH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+SAIL,VASCONEQ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+SAIL,VIPULLTD,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATAMETALI,ANANTRAJ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATAMETALI,ANSALAPI,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATAMETALI,DLF,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATAMETALI,IVRCLINFRA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATAMETALI,LODHA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATAMETALI,NBCC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATAMETALI,PARSVNATH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATAMETALI,QVC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATAMETALI,RAJESHEXPO,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATAMETALI,UNITECH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATAMETALI,VASCONEQ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATAMETALI,VIPULLTD,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTEEL,ANANTRAJ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTEEL,ANSALAPI,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTEEL,DLF,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTEEL,IVRCLINFRA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTEEL,LODHA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTEEL,NBCC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTEEL,PARSVNATH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTEEL,QVC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTEEL,RAJESHEXPO,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTEEL,UNITECH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTEEL,VASCONEQ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTEEL,VIPULLTD,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTLBSL,ANANTRAJ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTLBSL,ANSALAPI,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTLBSL,DLF,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTLBSL,IVRCLINFRA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTLBSL,LODHA,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTLBSL,NBCC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTLBSL,PARSVNATH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTLBSL,QVC,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTLBSL,RAJESHEXPO,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTLBSL,UNITECH,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTLBSL,VASCONEQ,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+TATASTLBSL,VIPULLTD,Steel,Housing construction,steel->construction,HYPOTHESIS_verify_from_disclosures
+NOVAIRNSTL,ELECTROSL,Sponge iron,Steel,iron->steel,HYPOTHESIS_verify_from_disclosures
+NOVAIRNSTL,ESTL,Sponge iron,Steel,iron->steel,HYPOTHESIS_verify_from_disclosures
+NOVAIRNSTL,JINDALSAW,Sponge iron,Steel pipes   tubes,iron->steel,HYPOTHESIS_verify_from_disclosures
+NOVAIRNSTL,JINDALSTEL,Sponge iron,Steel,iron->steel,HYPOTHESIS_verify_from_disclosures
+NOVAIRNSTL,JSL,Sponge iron,Steel,iron->steel,HYPOTHESIS_verify_from_disclosures
+NOVAIRNSTL,JSWISPAT,Sponge iron,Steel,iron->steel,HYPOTHESIS_verify_from_disclosures
+NOVAIRNSTL,JSWSTEEL,Sponge iron,Steel,iron->steel,HYPOTHESIS_verify_from_disclosures
+NOVAIRNSTL,SAIL,Sponge iron,Steel,iron->steel,HYPOTHESIS_verify_from_disclosures
+NOVAIRNSTL,TATAMETALI,Sponge iron,Steel,iron->steel,HYPOTHESIS_verify_from_disclosures
+NOVAIRNSTL,TATASTEEL,Sponge iron,Steel,iron->steel,HYPOTHESIS_verify_from_disclosures
+NOVAIRNSTL,TATASTLBSL,Sponge iron,Steel,iron->steel,HYPOTHESIS_verify_from_disclosures
+AARTIIND,NECLIFE,Organic chemicals,Drugs   pharmaceuticals,organic chem->pharmaceutic,HYPOTHESIS_verify_from_disclosures
+DCMSHRIRAM,NECLIFE,Inorganic chemicals,Drugs   pharmaceuticals,organic chem->pharmaceutic,HYPOTHESIS_verify_from_disclosures
+GNFC,NECLIFE,Inorganic chemicals,Drugs   pharmaceuticals,organic chem->pharmaceutic,HYPOTHESIS_verify_from_disclosures
+GSFC,NECLIFE,Organic chemicals,Drugs   pharmaceuticals,organic chem->pharmaceutic,HYPOTHESIS_verify_from_disclosures
+GUJALKALI,NECLIFE,Inorganic chemicals,Drugs   pharmaceuticals,organic chem->pharmaceutic,HYPOTHESIS_verify_from_disclosures
+IPCL,NECLIFE,Organic chemicals,Drugs   pharmaceuticals,organic chem->pharmaceutic,HYPOTHESIS_verify_from_disclosures
+KIRIINDUS,NECLIFE,Organic chemicals,Drugs   pharmaceuticals,organic chem->pharmaceutic,HYPOTHESIS_verify_from_disclosures
+MFL,NECLIFE,Inorganic chemicals,Drugs   pharmaceuticals,organic chem->pharmaceutic,HYPOTHESIS_verify_from_disclosures

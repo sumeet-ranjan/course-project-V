@@ -1,0 +1,359 @@
+Transcript of AHEL Q3 FY24 Earnings Call Page 1 of 14 
+
+# Apollo Hospitals Enterprise Limited 
+
+# Q3 FY24 Earnings Conference Call 
+
+# February 09, 2024 
+
+Moderator: Ladies and gentlemen, good day, and welcome to Apollo Hospitals Limited Q3FY 24 earnings conference call. As a reminder, all participant lines will be in the listen-only mode, and there will be an opportunity for you to ask questions after the presentation concludes. Should you need assistance during the conference call, please signal an operator by pressing ‘star’ then ‘zero’ on your touchtone phone. Please note that this conference is being recorded. I now hand the conference over to Mr. Mayank Vaswani from CDR India. Thank you, and over to you. 
+
+Mayank Vaswani: Good afternoon, everyone, and thank you for joining us on this call hosted by Apollo Hospitals Limited to discuss the financial results for the third quarter of financial year 2023-24, which were announced yesterday. We have with us on the call the senior management team, represented by Mrs. Suneeta Reddy –Managing Director; Dr. Hariprasad – President of the Hospitals Division; Mr. A. Krishnan – Group CFO; Mr. Sriram Iyer – CEO of AHLL; Mr. Obul Reddy – CFO of the Pharmacy Division; and Mr. Sanjiv Gupta – CFO of Apollo 24/7. 
+
+Before we begin, I would like to mention that some of the statements made in today's discussion may be forward-looking in nature and may involve risks and uncertainties. Please note the disclaimer mentioning these risks and uncertainties on Slide 2 of the investor presentation shared with all of you earlier. Documents relating to our financial performance have been circulated, and these have also been posted on the corporate website. 
+
+I would now like to turn the call over to Mrs. Suneeta Reddy for her opening remarks. Thank you, and over to you, ma'am. 
+
+Suneeta Reddy: Thank you, Mayank. Good afternoon, everyone. Thank you for taking time out to join this earnings call. I believe that all of you have received our earning documents, which we shared earlier today. 
+
+We are pleased to report a strong performance in the third quarter of the financial year 2023–24. While there was undoubtedly been some impact from seasonality, holidays and the cyclone in Chennai, we have reported double-digit growth in revenues and ARPOB this quarter on a year-on-year basis. Further, there has been continued progress in strategic imperatives such as further improvement in specialty mix, an enhanced payer mix, clinical augmentation and digitization. 
+
+Our Healthcare Services business witnessed a strong 12% year-on-year revenue growth in Q3 FY24, sustaining the pace of growth from the start of the fiscal year. Volume growth has contributed about half of the revenue growth, while the rest has come through pricing, payer and case mix improvements. Transcript of AHEL Q3 FY24 Earnings Call Page 2 of 14 
+
+Within this, the insurance revenues grew by 16% and contributed to 43% of total hospital IP revenue. 
+
+Overall occupancy across the group was at a healthy 66%. This was achieved despite a reduction in ALOS and a planned calibration of institutional volumes. 
+
+ARPOB on an overall basis increased 10% year-on-year to INR 56,368. 
+
+Against this backdrop, let me take you through our financial results: 
+
+Consolidated revenue grew by 14% to INR 4,851 crore. Healthcare Services grew by 12% to INR 2,464 crore. 
+
+Revenues from Apollo HealthCo were at INR 2,049 crore in Q3 FY24, a growth of 17% year-on-year. Revenues from Apollo Health & Lifestyle registered a growth of 8% year-on-year at INR 338 crore in Q3 FY24. The diagnostics vertical within AHLL recorded revenue growth of 19% year-on-year and was at INR 112 crore. 
+
+Consolidated EBITDA was at INR 614 crore, an increase of 21% year-on-year. Within this, Healthcare Services EBITDA was at INR 586 crore, registering an 8% growth year-on-year. Healthcare Services margins were at 23.8%. 
+
+The margin impact was due to the reduced share of elective and surgical revenue in the revenue mix due to the holiday and festive season, as well as investments in clinical talent that have been made to strengthen our clinical profile, which is yet to be fully optimized. 
+
+The pharmacy distribution business in Apollo HealthCo recorded an EBITDA of INR 134 crore, a year-on-year growth of 8%. In a significant milestone, Apollo HealthCo has reported a positive EBITDA of INR 2 crore, registering a break-even performance for the quarter, one quarter ahead of guidance. 
+
+AHLL recorded an EBITDA of INR 26 crore in Q3 FY24. 
+
+Consolidated PAT was INR 245 crore, a growth of 56% year-on-year. Healthcare Services PAT was at INR 287 crore, up by 10%. 
+
+Within the Healthcare Services business, we have delivered a ROCE of 26.5% with a balance ROCE across all our geographies, metros, Tier 1 and Tier 2. 
+
+Looking ahead, we believe a healthy mix of metro and non-metro bids will lead to further improvement in ROCE. 
+
+We have also carefully studied the key markets and micro markets in the country, the demand-supply gap, and have set in motion a plan to add 2,000 beds over the next 4 years at a cost to INR 3,000 crore. This plan is well underway, and we would operationalize our hospitals in Pune, Hyderabad and Kolkata as well as the brownfield expansion in Bangalore in FY25. 
+
+Private label and generics business contributed 16.55% of total pharmacy revenues with an improvement of 55 basis points over last year. Transcript of AHEL Q3 FY24 Earnings Call Page 3 of 14 
+
+The platform GMV of 24/7 was INR 658 crore, a growth of 21% on a sequential quarter basis. 
+
+We are committed to achieving break-even for Apollo 24/7 digital business within AHLL in the next 6 to 8 quarters. 
+
+We have begun to see the effects of our integrated network, with traction on net new footfalls coming into the system as well as more people consuming our services across the formats. We had over 4,50,000 new registrations this quarter within hospitals and over 1,60,000 incremental footfalls in the AHLL vertical compared to the same quarter last year. Our digital platform 24/7 added 2 million new users this quarter. 
+
+We believe that this comprehensive platform, with opportunities for improving our offering on consumer experience and lifetime value, offers us a competitive moat and headroom for accelerated growth. With each of our verticals delivering on the strategic promise, the network effect will deliver a holistic solution for the consumer and lasting relationship. 
+
+I would like to highlight that Apollo Hospitals has emerged as the first private hospital group in India to have successfully completed CAR-T cell program; the group will now provide access to ‘Made in India’ CAR-T cell therapy, a state-of-the-art treatment option for cancer patients. This is in keeping with the spirit of clinical pioneer ship that we have always stood for. Our efforts to offer outstanding clinical programs and technologies and deliver the best clinical outcomes for those who trust us has always been at the core of our DNA. 
+
+On that note, I would like to hand over to our moderator and open the line for questions and answers. I have with me Dr. Hariprasad; our CFO, Krishnan; Sriram Iyer from AHLL, Obul Reddy and Sanjiv from Apollo HealthCo with me ready to take all of your questions. Thank you. 
+
+Moderator: Thank you very much. We'll take a first question from the line of Damayanti Kerai from HSBC. Please go ahead. 
+
+Damayanti Kerai: My first question is on margin trajectory for hospital segment. So ma'am, obviously, you mentioned you are investing in clinical talent for new facility, etcetera. And we have seen margins falling off from, say, mid-20s to around 23%, 23.5% or so. So, can you elaborate like how should we look at this margin profile over next few quarters? Because you have a couple of hospitals commencing operation in FY25. So that's my question on hospital margins.  
+
+> Krishnan Akhileswaran:
+
+So, two points. As we said, this quarter has been, as you know, a base of a seasonal low quarter. So going forward, our focus clearly is to work on three levers. The one lever is the inflation volume increase that we have been speaking of. And clearly, there are plans as part of our annual operating plan discussions, etcetera, to push each of the units on increasing the inpatient volumes across their facilities, and that's what we are working on. That should help us get closer to the 70% as close to possible or even 70% next year, which is our internal target. 
+
+Second is clinical programs. If you look at the clinical programs that we are now focusing on, there is significant focus on oncology, neurosciences, some high-end Transcript of AHEL Q3 FY24 Earnings Call Page 4 of 14 
+
+cardiac, etcetera. Some of them, we believe will further increase our utilization in some of our units, and that should also flow-through through the margins. So, these are two significant levers on the revenue side. 
+
+And on the cost side, as we already have spoken, one is this whole lever that we have of the doctors' fees because having invested a bit ahead of the curve, next year, we should be able to see that getting rationalized a bit and that should also help us see our margins go up. Internally, we would like to believe that there is an opportunity to increase the margins by at least 200 basis points over the next few quarters. And that's our internal way of looking at it. 
+
+Damayanti Kerai: So, this 200-basis point margin improvement is for existing set of beds or whatever like new beds will come cumulatively, you're talking about the sort of...  
+
+> Krishnan Akhileswaran:
+
+New beds will come more by Q4 of the next fiscal. So, I think first is to get this done by the next fiscal, and we will obviously have to then take. But the base of the EBITDA that we have is so big now that some of the new beds should not alter and they are all the new beds that are coming if you look at it, Calcutta, Hyderabad, the way we are looking at Bangalore. Bangalore is very close to our existing hospital. So, you should look at it more as adjacent to our existing hospital, which should not impact our EBITDA significantly. 
+
+So, I think next year, focus is to increase it by 200 basis points. At the end of next fiscal, we hopefully get all these hospitals there, and we will show that separately. I wouldn't like to guide for now on what would be their EBITDA losses, but it will be very miniscule. 
+
+Damayanti Kerai: Okay. That's helpful. My second question is on 24/7 platform. So obviously, with improving profitability you are now expecting breakeven for this in next six to eight quarters. So what is plan for this? Like are you still looking for fundraise? Or do you want to put out separate IPO, etcetera? So, any plan for 24/7 in say next two to three years? 
+
+Suneeta Reddy: So currently, 24/7, in terms of cash is it's self-sustaining, so does not require a cash infusion, but we are looking at maybe at some time, if we require some cash, we are open to the idea. Let me just leave it at that, because we are looking at growth coming from 24/7 and achieving profitability between the sixth and eighth quarter of operations. 
+
+Damayanti Kerai: Okay. Thank you. I'll get back in the queue. 
+
+Moderator: Thank you. We have a next question from the line of Kunal Dhamesha from Macquarie. Please go ahead. 
+
+Kunal Dhamesha: So, the first question on the 24/7 GMV guidance that we had for FY24 of around INR 3,000 crore. We have roughly done INR 2,000+ crore year to date. So, what is our expectation for full year and the next year? So, while we have achieved the breakeven at HealthCo level a quarter earlier than guided, that is good, but has that impacted the growth prospect of this business? 
+
+Sanjiv Gupta: So I think INR 3,000 crore was the guidance that we had given it for FY24 as far as digital GMV are concerned. I think we need to hit something like INR 2,750 crore to Transcript of AHEL Q3 FY24 Earnings Call Page 5 of 14 
+
+about INR 2,800 crore. So that will be the final number versus INR 3,000 crore mark. And this would mean about 75% to 80% increase in GMV for FY24 versus FY23. We expect to continue to show a robust growth anything between 60% to 70% for the next year also versus this year. That's on the first question. 
+
+The second question is that on six to eight quarters profitability. Absolutely, we've got the clear (inaudible 15:20 min.) with respect to increasing the GMV, increasing the margin line for each of the firing engines that we have today, which is the pharmacy, diagnostic, consultation. And as well as doing the right thing for the fixed expenses that the Company has it. And whatever right things are required to be done, they would be taken care. And as we step into the annual operating plan for the next year, I think maybe when we meet next, we'll have a little more understanding about this. But as we see, we have a detailed action plan to turn digital division also in the next six to eight quarters. 
+
+Kunal Dhamesha: But sir, for, let's say, for 60% to 70% growth next year, you should have at least some sequential growth, right; so versus this quarter sequential there is a decline of around 10%, right? So, I mean, is it a top task or is there something one-off in this quarter, which has...? 
+
+Sanjiv Gupta: Yes, this is something one-off. Q3 has been a transition quarter for the Company. And because of the holidays and the festivals, we have seen a slight dip in the GMV. But if I look at the January numbers and Q4 numbers, we are back into the growth, and you will notice this once we publish our Q4 numbers. So, nothing to worry. This is just one-off. 
+
+Kunal Dhamesha: Thank you. And the second question is on the Healthcare Services business. Again, just going back to our guidance of around 15% revenue growth for FY24 versus we have done 13% year-to-date. Now I think seasonality would not matter on a year-to-date basis, right? So where are we seeing this growth for FY24 now for the Healthcare Services business? And what is the outlook for the next year? 
+
+Suneeta Reddy: I think we are targeted to grow at 15%. This quarter was because of the holidays. So, leaving out holidays, I think we are confident of achieving at least 14% growth for the Healthcare Services. 
+
+Kunal Dhamesha: For the full year. And for next year, any broad idea would like to know? 
+
+Suneeta Reddy: No, I think broad idea is that this trajectory has been good. So we are looking at 15% revenue growth. 
+
+Kunal Dhamesha: Thank you. 
+
+Moderator: Thank you. We have a next question from the line of Bino P from Elara Capital. Please go ahead. 
+
+Bino Pathiparampil: You commented a bit on the pharmacy business margin improvement that is excluding the 24/7 costs. I can see that the other expenses have, the overall expenses have come down Q-o-Q. The margin is up compared to last few quarters. Anything changing there? Transcript of AHEL Q3 FY24 Earnings Call Page 6 of 14 
+
+Obul Reddy: I think we have, you know last year we have informed you that we have invested on the infrastructure required to create online services and the costs were a little high. And as business matures and we have planned those controls and then you can see that improvement in the margins. And lesser discounts also contributed to the margin. 
+
+Bino Pathiparampil: Okay. Second on this Rourkela SAIL Hospital, which you have inaugurated. Under which cluster will you add the beds and the revenue?  
+
+> Krishnan Akhileswaran:
+
+So, Rourkela is just added very recently now. So, it's part of the existing, it's a 50-bed that has just got commissioned. It's a 250-bedded capacity hospital, but only 50 has got operationalized. So, it will get operationalized over the next three quarters. So, it's part of the overall Healthcare Services. It's a small number yet. 
+
+Bino Pathiparampil: My question was the healthcare you divide into Tamil Nadu, North, East, West, etcetera, right? Where would that?  
+
+> Krishnan Akhileswaran:
+
+East. 
+
+Bino Pathiparampil: Okay. And sir, in this quarter, I see there is an increase of about 42 beds operational beds in East and about 100 beds in North. Where is that coming from?  
+
+> Krishnan Akhileswaran:
+
+East is what we said, right. Rourkela is also adding to that. And in North, it is Indore. Indore, we have added a brownfield, we have done a 100-bedded expansion. 
+
+Bino Pathiparampil: In Indore, we have done a 100-bed expansion. Okay. 
+
+Moderator: We have a next question from the line of Neha Manpuria from Bank of America. Please go ahead. 
+
+Neha Manpuria: My first question is on the expansion plan. If I look at the timelines for Pune. From what I remember from the previous presentation, this was mentioned in the first quarter, but we have seemed to have delayed it to the later part of the fiscal. Any specific reason, I mean, of the significant delay in commissioning of that project? 
+
+Suneeta Reddy: Yes. So, the current hospital project, you know we have 220 beds, but we have the capacity to add another 200 beds. So, we are building the superstructure, so that we can gradually add 100 beds every year post this year. 
+
+Neha Manpuria: Okay. So, it is just to complete the superstructure for the additional beds. 
+
+Suneeta Reddy: Yes. 
+
+Neha Manpuria: Understood. And my second question on 24/7 and the comment that you mentioned of achieving break-even in 6 to 8 quarters. Would that be possible with the existing services that we have in 24/7? Or would that target require us to add more services to the platform that we have talked about in the past, subscription, insurance, etcetera. Would that be key to getting to that break-even in 24/7 because from the existing business, given your GMV guidance, I am not able to get to the math of breakeven in 6 to 8 quarters? Transcript of AHEL Q3 FY24 Earnings Call Page 7 of 14 
+
+Sanjiv Gupta: No, I think, see it has to be a mix of the new set of verticals also, which provides you better margins. And we talked about the entire digital therapeutics as one of the offerings. And some time back, we also talked about the insurance distribution. In fact, the insurance distribution is something which we started properly from January this year. And apart from these two verticals, obviously, the entire monetization of the app and the website is still not being done as much as we would like to do it. 
+
+So, I think these three particular offerings, which is digital therapeutic, insurance and app monetization, these are the three segments, we could give you a better margin line. In fact, the entire earnings that you earn out of these three verticals would go back or flow back down to EBITDA. So, I think, coupled with the existing offerings of pharma, diagno and consult, these are the three things that we should be seeing as we move forward. And together, all the 6 months should help us achieve this target. 
+
+Neha Manpuria: And sir, for digital therapeutics sir, app monetization, what sort of timeline should we start seeing this being, let's say, a driver? Would it take a couple of quarters for that to happen? Like for insurance, you mentioned you've started module from this month? 
+
+Sanjiv Gupta: Yes. So, app monetization is something which we can expect to start from Q1. And as far as the digital therapeutics is concerned, I think that is also work is getting done on the product and the tech side of the solutions. And I think something like in Q1 and Q2, we should also be seeing certain subscription-led module for digital therapeutics to also be ruled out of 24/7. 
+
+Moderator: The next question is from the line of Shyam Srinivasan from Goldman Sachs. Please go ahead. 
+
+Shyam Srinivasan: Just first one on AHLL. Apart from diagnostics, I think the other segments of it have been like slow growth for the 9 months, even for quarter 3. Anything that we need to keep in mind? Is there a; would we say an outlook where it goes back to a double-digit growth for the other segments as well? 
+
+Sriram Iyer: So on the specialty formats, we had a lot of centers that were coming up this year, and most of them have got commissioned in quarter 3 and some of them are expected to get commissioned in quarter 4. So, since we are transitioning from the older center to the newer center, there was obviously a transition time and because of which you see a muted growth in the YTD this year. And we are confident that we should go back to a double-digit growth starting the next financial year. 
+
+Shyam Srinivasan: Yes, Sriram, but when I look at like footfalls, I still see volume growth. So, what explains that discrepancy between volume growth and revenue growth being much subdued? 
+
+Sriram Iyer: See what has happened is that the volume growth is primarily to be with OP footfalls, but specifically in our Cradles and Spectras, these are the centers where we have gone, moved into different centers. We didn't have enough rooms available. So that is why the entire challenge that you see with respect to the volume growth. Also, we had a significant challenge in quarter 3. Because of Chennai as well, so we had a couple of centers in Chennai. There was an Transcript of AHEL Q3 FY24 Earnings Call Page 8 of 14 
+
+extended delay for us to recuperate back to the business. So that also caused this. So those are primarily the two reasons. And as I said, we'll be back to a double-digit growth, and we are expected to commission some of the centers in this quarter, in the quarter 4. 
+
+Shyam Srinivasan: Got it. Helpful. And just last point on the AHLL, on diagnostics, right? So, we have done about 19%, 20% growth, but the variation just looking at from an industry seems to be all over the place, right? So have low single-digit growth to companies like you're growing 20%. So, anything you can speak from, you know obviously, you are starting from a lower base and maybe your margin trajectory is lower. But just want to understand what's happening there? And is it the case that hospitals are able to keep or hospital chains are able to keep their patients more within themselves? 
+
+Sriram Iyer: Yes. I can talk about what we are really doing. So as you rightly said, the industry, all the listed players are growing anywhere between 10% to 12%. And out of that 10% to 12%, the volume growth is pretty much in single digits. So, most of the growth has been driven by price. The good thing for us is that our entire growth has been led by volume. So, the focus on really driving expansion, opening centers and investing in new labs over the period of years is giving this kind of results. 
+
+So, we are bullish that we'll be able to sustain a 20% kind of growth levels. And we will be hitting this year at INR 470 crore of topline. And as I said, our outlook for this quarter also is a 20% kind of growth levels. And with respect to the industry, I think at some point of time, I think the industry is also getting mature in that sense. There is some price play that is coming into this one. So, we've seen some bit of price rationalization happening in the market from across the industry. 
+
+So, I think all that is also coming into play where the volume growth is slightly becoming challenging. But as I said, we are positioned well, and we'll continue to invest on diagnostic business, and we have an outlook of 20% growth in the coming year as well. 
+
+Shyam Srinivasan: Understood. Helpful. Just a second question on Apollo 24/7. I'll be brief. We had 2 million registered users add up, but our daily active users have kind of come off. Is there a way in which we represent this number? Is it average versus period end? If you could help us, please? 
+
+Sanjiv Gupta: Yes. That's the average numbers and what happens is that typically in the e-commerce when you get to the registered users, it takes a little bit of time before they start transacting into your system. And this is a little cyclical in nature. But as you move forward, you would see that the impact of adding new customers into the daily active users and weekly active users will start doing that. 
+
+Shyam Srinivasan: Just a request here because when we want to compare with historical numbers, it becomes very difficult. Like, last time, I think we had 8.8 lakhs or 8.5 lakhs. Now it is 6 lakhs. And now you're saying it's average. So, for us to see whether traction is happening because the registered users are going up. But if the active users are not following, it's a request because if you change these parameters, then it's difficult for us to compare with historical numbers? Transcript of AHEL Q3 FY24 Earnings Call Page 9 of 14 
+
+Sanjiv Gupta: No, it's the same apple to apple. It's just as far as the Q3 is concerned, as I said earlier also, this is the period where we saw the seasonality impact because of the holidays and festivals. But otherwise, the corresponding numbers are similar. And as I said previously, when you add customer base, which is about 2 million for the entire quarter, the impact of that will start happening from the current quarter onwards. And maybe going forward, we'll start presenting certain key metrics also, so that you all are well informed about those numbers and then compare it versus the previous quarters. 
+
+Shyam Srinivasan: Perfect. Last question is on the GMV split. If you could give us some broad on what are the key line items in the GMV? 
+
+Sanjiv Gupta: So, INR 658 crore to GMV for Q3 is about 50% is on the pharmacy, about 35% is the IP, OP, which is the funnel to the hospitals, and the rest about 20% is towards the diagnostic and the consultation. 
+
+Shyam Srinivasan: And versus Q2, is it very dramatically different? 
+
+Sanjiv Gupta: Not exactly, there's a slight drop in the hospital side of the business. I think that's to do with the seasonality. But otherwise, I think nothing worries us from that point of view, just the seasonality impact of Q3. 
+
+Moderator: We have a next question from the line of Nitin Agarwal from DAM Capital. Please go ahead. 
+
+Nitin Agarwal: On the offline pharmacy, can you give us a nine-month growth number for the offline business and the outlook that we have for the growth and profitability for this piece for the next couple of years? 
+
+Obul Reddy: Pure offline business has grown at 19.4%, and we continue to grow around 20%, 22%. This is slightly because of the lower number of pharmacies we added during the year, which we are going to ramp up going forward. 
+
+Nitin Agarwal: And Mr. Reddy, how do you see that playing over the next two years, 20% CAGR we are on? 
+
+Obul Reddy: We will be between the 20%, 22% as we guided always. And this year, because of the lower number of stores and as I said, we'll be going back to the regular normal increase, and we assure you that we'll be around that percentage. 
+
+Nitin Agarwal: And how does one look at profitability on this piece now over the next couple of years? 
+
+Obul Reddy: Profitability, we have improved a lot. It will improve further. But I can't guide you the exact number. You have seen this quarter a substantial improvement. We further have headroom to improve on that with the cost rationalization and growing the matured stores where we are focusing now. 
+
+Nitin Agarwal: Okay. So, if I would, it's fair to say that with the guidance that we have, the digital business will be breaking on its own over the next six to eight quarters, will effectively the offline EBITDA should pretty much start, should be equivalent to the overall HealthCo EBITDA as you go forward six to eight quarters. Transcript of AHEL Q3 FY24 Earnings Call Page 10 of 14 
+
+Obul Reddy: I agree with you, but this will have independent growth, whereas they will be achieving with their own revenues and cost rationalization.  
+
+> Krishnan Akhileswaran:
+
+But you're right, Nitin. 
+
+Obul Reddy: You are right. On a comparative basis but…  
+
+> Krishnan Akhileswaran:
+
+It should flow through to Apollo Health Co. 
+
+Nitin Agarwal: Yes. So we're looking potentially at INR 800 crore to INR 1,000 crore EBITDA on the overall Health Co business over the next couple of years? 
+
+Obul Reddy: Couple of years, yes. Yes, you can take that about 20% year-on-year growth. 
+
+Moderator: Thank you. The next question is from the line of Dheeresh Pathak from WhiteOak. Please go ahead. 
+
+Dheeresh Pathak: I'm referring to Slide no. 24 of the deck. So there, on right-hand side, you mentioned omnichannel pharmacy revenue right, which is INR 2,583 crore. And on the left-hand side, the total health revenue in the grid is INR 2,049 crore. So, the difference is INR 534 crore. So obviously, there is some 24/7 revenue also in here, but the bulk of the difference is the front-end Apollo Pharmacy, right. That is the way to understand, right. When you say omnichannel pharmacy, that is what you refer to, right? But in the omnichannel pharmacy, do you also include 24/7 revenue, or do you exclude the 24/7 revenue? 
+
+Obul Reddy: We exclude the 24/7 revenue. 
+
+Dheeresh Pathak: How much is that sir?  
+
+> Krishnan Akhileswaran:
+
+Sanjiv, what was that revenue for Y-T-D? Would you have that number offhand? 
+
+Sanjiv Gupta: That would be in the range of about, for the quarter, we are roughly INR 300 crore – INR 325 crore.  
+
+> Krishnan Akhileswaran:
+
+No, revenue. 
+
+Dheeresh Pathak: Revenue of INR 24/7? 
+
+Sanjiv Gupta: Yes, in the front end. 
+
+Dheeresh Pathak: No, not front end.  
+
+> Krishnan Akhileswaran:
+
+Only 24/7 he is saying – 
+
+Obul Reddy: Digital revenue.  
+
+> Krishnan Akhileswaran:
+
+Digital. Only digital, Sanjiv. 
+
+Sanjiv Gupta: Yes. So digital revenue is in the same slide, we can refer to digital revenue of INR 225 crore. And if you are referring to... Transcript of AHEL Q3 FY24 Earnings Call Page 11 of 14 
+
+Dheeresh Pathak: No, sir. That is online distribution as well as 24/7. I want you to split the online distribution and 24/7 in to two.  
+
+> Krishnan Akhileswaran:
+
+He is asking only IP, OP and diagnostics and consults related revenues that you have. 
+
+Sanjiv Gupta: Yes, understood. So that would be in the range of about INR 15 crore for the quarter. 
+
+Dheeresh Pathak: INR 15 crore for the quarter, okay. And when you refer to on track to achieve INR 1,000 crore revenue, 6% EBITDA. This is the omnichannel pharmacy business, including the front-end Apollo Pharmacy, but excluding this 24/7 INR 15 crore a quarter and the 6% is the pre AS 116, right, margin? 
+
+Obul Reddy: That's right, where we are currently at about INR 5.85 crore. 
+
+Dheeresh Pathak: Okay. So, this INR 15 crore on a GMV of INR 657 crore, it looks like less than 3% take rate, is that the right way to look...  
+
+> Krishnan Akhileswaran:
+
+INR 657 crore includes the pharmacy also. So, the INR 657 crore includes the pharmacy as well. So, you have to exclude that pharmacy and then look at the take rate. 
+
+Dheeresh Pathak: Okay. So, take out INR 200 crore roughly, so INR 467 crore. So INR 15 crore on INR 457 crore, that will still be...  
+
+> Krishnan Akhileswaran:
+
+50% is at pharmacy, 25% plus 25%, we said it's IP, OP and diagnostics. So maybe you can get offline to understand this from Sanjiv. 
+
+Moderator: The next question is from the line of Arkopratim Pal from Sanjay Agarwal Broking. Please go ahead. 
+
+Arkopratim Pal:  My first question is, could you please share industry report on average occupancy rate within your hospital network for the month of December 2023? And how much it is growth as compared to December 2022? 
+
+Suneeta Reddy: That's 66% monthly numbers...  
+
+> Krishnan Akhileswaran:
+
+You will have to come offline and take it from our Investor Relations, Krishnakumar. You can reach out to him, and he can provide you some guidance around that. The occupancy rate is also to do with the average length of stay, which has come down across the system. So, if you look at year-on-year, we have been growing volumes at almost around 7%, excluding institution. We brought down some of the institutional cases. So, while we are showing a 5.5% or 5.6% growth on inpatient volumes, if you look at the inpatient volumes December-to-December, only on the institutional and retail, which constitutes around 80%, 85% of our business, that has grown by a healthy 7.5% at volume. 
+
+Arkopratim Pal:  Okay. I understand. And my second question is based on current industry trends and your understanding of the healthcare landscape, what is your expectation about the demand scenario of the current and coming quarters compared to last quarter? Transcript of AHEL Q3 FY24 Earnings Call Page 12 of 14 
+
+Suneeta Reddy: So, I think the structural demand is intact. And what we're seeing is that more people now have access to private insurance. And that's why we're seeing a significant growth in this segment. So, definitely more people who can afford corporate healthcare, and therefore, demand is increasing. And this is happening not only in the metros, but in Tier 1 and Tier 2 cities as well. 
+
+Moderator: Thank you. We have a next question from the line of Siddhanth Kanodia, an Individual Investor. Please go ahead. 
+
+Siddhant Kanodia: I have a couple of questions. My first question is regarding, like in last couple of years, medical tourism in India has seen quite a good uptick, especially in the Delhi-NCR region. So, like we are coming up with the Gurugram facility, so why aren't we looking to do brownfield in our existing Delhi facility? 
+
+Suneeta Reddy: So, as you know that existing Delhi facility is a joint venture with the Delhi Government, but we are looking at an expansion there. Our International patient revenue there is 15% of total revenues. We do believe that Gurgaon, which will be 100% owned by AHEL, will definitely offer an opportunity for us to increase our International patient revenue because of its location and because of the doctors and the clinical portfolio that we will offer there. 
+
+Siddhant Kanodia: All right. I'm just asking about the brownfield, if the ramp-up happens a lot faster in brownfield, plus if we have... 
+
+Suneeta Reddy: Yes, we are adding, currently, we are adding 50 beds. We are adding a new, a huge neuro department, neurology. So, simultaneous brownfield in the old hospital at Indraprastha and new hospital coming up in Gurgaon. 
+
+Siddhant Kanodia: Okay. So, there are plans to do brownfield as well. And my second question is that there was this article involving some kidney racket, which accused Apollo. So, we haven't heard anything, have we gotten any clean chit or what is the status so far? 
+
+Suneeta Reddy: So, the status is there has been no negative finding. And this much I can say with confidence because we were fully compliant with Board, with all Government regulation. So, there has been no finding. 
+
+Siddhant Kanodia: So, there hasn't been any negative finding. Okay. 
+
+Siddhant Kanodia: Thank you ma'am. That's it from my side. 
+
+Moderator: We have a next question from the line of Kunal Dhamesha from Macquarie. Please go ahead. 
+
+Kunal Dhamesha: Just one on the broader industry side. This proposed move to the 100% cashless health insurance, what could be the impact on the hospital industry and specifically for Apollo?  
+
+> Krishnan Akhileswaran:
+
+For us, I don't see any impact coming out of this, any negative impact coming out of this because all our insurance businesses are all cashless. We have all empanelment across all large insurance companies at cashless. So, working capital continues per se, as such. Of course, we are also ensuring that I think the one good thing which can come out of this is as everything becomes cashless, I think the larger industry will expect greater, faster payments from the insurance Transcript of AHEL Q3 FY24 Earnings Call Page 13 of 14 
+
+companies also. And we are hoping that some of that should hopefully come faster, and it should ideally for people like us should shorten the receivables period also. But otherwise, for us, nothing significant for now. 
+
+Kunal Dhamesha: Sure. And the second question on the INR 100 crore incremental doctor expenses that we have incurred this year. Can we say that it is primary attributable to the 150 beds, which we have added in Indore and Rourkela or some Eastern region and Northern region?  
+
+> Krishnan Akhileswaran:
+
+Not only that, it is something that we are planning across the system because we clearly have 66% occupancy to move to 70%, and we have even opportunity to grow some of the clinical programs as we spoke, right. So clearly, it is acombination of this and some of the clinical programs that we are planning. 
+
+Suneeta Reddy: So, there was a growth in oncology of 17%, urology of 14%. And all this growth is attributable to the new doctors that we've hired. 
+
+Kunal Dhamesha: Sure. And the last one, if you can share the take rates for the service lines for 24/7, the consultation, pharmacy delivery and diagnostics? 
+
+Sanjiv Gupta: So, on the pharmacy side,  as you know that the entire pharmacy comes back to us as a revenue, as pharmacy distribution to get the same revenue to us . As far as the consultation fees is concerned, consultation moves anything between 5% to 7% depending upon the category of the doctor and whether it is clinic or the hospital. On the diagnostic side, it is roughly between 15% to 18%, depending upon the volumes as well as the class of diagnostics. 
+
+Kunal Dhamesha: Sure. Thank you and all the best. 
+
+Moderator: Thank you. Ladies and gentlemen, that was the last question for today. I now hand the conference over to the management for closing comments. Over to you. 
+
+Suneeta Reddy: Ladies and gentlemen, thank you for participating in our conference call. We truly believe that as we look ahead, we are confident that in the upcoming quarters, there would be very strong growth. We have delivered ahead of time on EBITDA break-even for Apollo HealthCo. And I am sure we will continue to deliver on our strategic intent. 
+
+With our network maintaining strong occupancies and ongoing expansions in key facilities, we are well prepared to seize emerging growth opportunities. 
+
+I would also like to emphasize that our unwavering confidence in the investments we've made and the solutions that we're working on. These efforts will surely differentiate us because they are anchored in a strong clinical core with convenience and access is key enablers. 
+
+Once again, thank you for joining the call, and we look forward to connecting with you in the future. 
+
+Moderator: Thank you, ma'am. On behalf of Apollo Hospitals Limited, that concludes this conference. Thank you for joining us, and you may now disconnect your lines. Transcript of AHEL Q3 FY24 Earnings Call Page 14 of 14 
+
+# Disclaimer: This is a transcription and may contain transcription errors. The transcript has been edited for clarity. The Company takes no responsibility of such errors, although an effort has been made to ensure high level of accuracy .

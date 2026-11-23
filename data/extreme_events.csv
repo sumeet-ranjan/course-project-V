@@ -1,0 +1,5 @@
+event_id,type,name,start,end,note,affected_district_keywords,is_key_event
+E_NCR_GRAP_2024,pollution_shutdown,"Delhi-NCR GRAP-IV construction/industry halt (Nov 2024; recurs Nov-22, Nov-23)",2024-11-05,2024-11-22,"CAQM GRAP Stage-IV: non-essential construction banned, industrial fuel curbs across NCR.",delhi|gautam|ghaziabad|faridabad|gurugram|gurgaon|sonipat|jhajjar|meerut|baghpat|noida,True
+E_GJ_FLOOD_2024,flood,Gujarat floods — Vadodara/central Gujarat (Aug-Sep 2024; also 2023),2024-08-25,2024-09-05,Vishwamitri/Narmada basin flooding submerges Vadodara-Bharuch chemical estates.,vadodara|bharuch|panchmahal|anand|kheda|dang|navsari|tapi,True
+E_HP_FLOOD_2023,flood,Himachal Pradesh floods/landslides (Jul 2023),2023-07-08,2023-07-25,Monsoon floods hit Baddi-Barotiwala-Nalagarh (Solan) pharma/industrial belt.,solan|sirmaur|shimla|mandi|kullu|bilaspur|una|hamirpur,False
+E_CHE_FLOOD_2023,flood,Chennai cyclone Michaung floods (Dec 2023),2023-12-04,2023-12-12,Cyclone Michaung floods Chennai auto/electronics belt.,chennai|kancheepuram|kanchipuram|chengalpattu|tiruvallur|villupuram,False

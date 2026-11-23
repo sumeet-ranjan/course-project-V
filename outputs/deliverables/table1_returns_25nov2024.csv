@@ -1,0 +1,17 @@
+nse_symbol,role,raw_return_25nov,abnormal_return_25nov
+NBCC,confirmed,0.0632,0.0314
+DLF,confirmed,0.0248,0.0012
+ANANTRAJ,unconfirmed,-0.0053,-0.0327
+PARSVNATH,unconfirmed,0.0119,-0.002
+UNITECH,unconfirmed,0.0294,0.0108
+BRIGADE,controls,0.028,0.0079
+PURVA,controls,0.0499,0.026
+AJMERA,controls,0.037,0.0167
+RUSTOMJEE,controls,0.0234,0.0099
+KOLTEPATIL,controls,0.0147,-0.0007
+SUNTECK,controls,0.0013,-0.0128
+LODHA,controls,-0.0141,-0.0344
+VASCONEQ,controls,0.021,-0.0034
+NIFTY_PSE,benchmark index,0.0254,-0.0007
+NIFTY_REALTY,benchmark index,0.0221,0.0011
+NIFTY500 (market),market,0.0148,

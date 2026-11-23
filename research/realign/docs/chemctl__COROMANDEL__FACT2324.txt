@@ -1,0 +1,440 @@
+Title: Factsheet FY 2023-24
+
+URL Source: https://www.coromandel.biz/wp-content/uploads/2025/02/Coromandel-Factsheet-2023-24.pdf
+
+Published Time: Wed, 12 Feb 2025 07:17:26 GMT
+
+Number of Pages: 15
+
+Markdown Content:
+FACTSHEET FY 2023-24 
+
+# Coromandel International Limited Contents 
+
+1. Governance ................................................................................................................... 3
+
+1.1. Operational Segments ............................................................................................ 3
+
+1.2. Share of Independent Directors ............................................................................... 3
+
+1.3. Board Attendance ................................................................................................... 3
+
+1.4. Board Mandate for Directorship & Election Process .................................................. 3
+
+1.5. CEO Variable Compensation ................................................................................... 4
+
+1.6. Materiality Assessment ........................................................................................... 4
+
+1.7. Risk Management ................................................................................................... 6
+
+1.8. Risk Culture ............................................................................................................ 6
+
+1.9. Code of Conduct: Systems/ Procedures .................................................................. 7
+
+1.10. Monetary Contributions .......................................................................................... 7
+
+1.11. Supplier Code of Conduct ....................................................................................... 7
+
+1.12. Supplier Screening ................................................................................................. 8
+
+1.13. IT Security & Cybersecurity ..................................................................................... 8
+
+2. Environment .................................................................................................................. 8
+
+2.1. Return on Environmental Investment ....................................................................... 8
+
+2.2. Energy Management Programs ................................................................................ 9
+
+2.3. Waste Management programs ................................................................................. 9
+
+2.4. Hazardous Wast Recycled/Reused and Disposed .................................................... 9
+
+2.5. Chemical Oxygen Demand (COD) ........................................................................... 9
+
+2.6. Water Management Programs ............................................................................... 10 
+
+2.7. Water Risk Management Programs ........................................................................ 10 
+
+2.8. Water-related Incidents ........................................................................................ 10 
+
+2.9. Scope 2 Emissions ............................................................................................... 10 
+
+2.10. Climate-Related Management Incentives .............................................................. 10 
+
+2.11. Biodiversity Commitment ..................................................................................... 11 
+
+2.12. Life Cycle Assessment (LCA) ................................................................................. 11 
+
+2.13. Exposure to Hazardous Substances ...................................................................... 11 
+
+3. Social .......................................................................................................................... 11 
+
+3.1. Employee Support Program ................................................................................... 11 
+
+3.2. Employee Wellbeing ............................................................................................. 12 
+
+3.3. Employee Development Programs ......................................................................... 12 
+
+3.4. Turnover Rate ....................................................................................................... 13 
+
+3.5. Long-Term Incentives for Employees ...................................................................... 13 3.6. OHS Programs ...................................................................................................... 13 
+
+3.7. Stakeholder Engagement ...................................................................................... 13 The disclosures cover all activities and operations included in Coromandel’s Integrated Report for FY23-24 (including non-financial reporting), representing more than 90% of the revenue of the company. 
+
+# 1. Governance 
+
+# 1.1. Operational Segments 
+
+The Company operates through the following two segments: 
+
+(i)  Nutrient and other allied business 
+
+(ii)  Crop Protection 
+
+Percentage breakup of turnover has been provided below: 
+
+S. No.  Product / Service  NIC Code  % of Turnover 
+
+(Consolidated) 
+
+1 Nutrient & Other Allied Business  20122  89% 
+
+2 Crop Protection Business  20211  11% 
+
+# 1.2. Share of Independent Directors 
+
+In compliance with regulatory requirements, our organization maintains a strong governance structure where the Chairman of the Board of Directors is an executive director, we adhere to the mandate that at least half of our Board consists of independent directors, ensuring robust oversight and the integrity of our decision-making processes. Currently, we exceed this requirement, with 6 out of 11 directors being independent, ensuring that 55% of our Board members are independent. This composition underscores our commitment to sustainable and accountable corporate practices. 
+
+# 1.3. Board Attendance 
+
+In compliance with Indian regulatory requirements, our Board of Directors are obligated to hold a minimum of four meetings each year, ensuring that the interval between two successive meetings does not exceed 120 days. It is also incumbent upon each director to participate in at least one meeting during the financial year, effectively mandating a minimum attendance rate of 25%. We take pride in reporting that our Board has demonstrated an exemplary commitment to governance, with an average attendance rate exceeding 97% at these meetings, which is a testament to our dedication to responsible corporate management. 
+
+# 1.4. Board Mandate for Directorship & Election Process 
+
+As per SEBI’s Listing Obligations and Disclosure Requirements, the directors of listed entities have to comply with the following conditions with respect to the maximum number of directorships, including any alternate directorships that can be held by them at any point of time. 
+
+A person shall not be a director in more than eight listed entities with effect from April 1, 2019, and in not more than seven listed entities with effect from April 1, 2020: Provided that a person shall not serve as an independent director in more than seven listed entities. Additionally, in accordance with the SEBI LODR Regulations, the directors are elected individually by a majority of the votes cast by the shareholders at the General Meeting/Postal Ballot as per their terms of appointment. 
+
+Coromandel complies by these regulations and follows the SEBI mandate while appointing the directors of the company. 
+
+# 1.5. CEO Variable Compensation 
+
+The variable compensation of Chief Executive Officer is determined through acomprehensive evaluation of various financial metrics in addition to meeting strategic objectives of the company, as set out in the Balanced Score Card. These metrics not only measure the company's performance, but also reflect the CEO's strategic progress and operational effectiveness. Some of the key financial metrices used in Balanced Scorecard includes Profit Before Tax (PBT), demonstrating the profitability of its operations before tax obligations; Return on Capital Employed (ROCE), a ratio that indicates efficiency in capital utilization; the ratio of Corporate Cash Fixed Cost to Contribution, which assesses the financial efficiency of operations. 
+
+# 1.6. Materiality Assessment 
+
+The Company conducts materiality assessment every 2 years or more which is reviewed by the Senior Management. The materiality assessment process is closely intertwined with the Enterprise Risk Management (ERM), underscoring the interconnection between risks and material issues. Stakeholder engagement forms a critical part of the process as well, as the company recognizes the value of both internal and external stakeholders' viewpoints in identifying and prioritizing material aspects. 
+
+Below mentioned are the details regarding the material issues identified for the external stakeholders. 
+
+Customer Centricity  Enabling Sustainable Agriculture 
+
+Cause of the impact 
+
+For Customer Centricity, the impact is generated through the development of products and services that are tailored to the specific needs of farmers, enhancing crop yields and sustainability. By focusing on customer feedback, the company can develop solutions more effectively, ensuring higher satisfaction and loyalty. 
+
+Offering balanced nutrition, integrated pest management solutions, and soil health products helps improves soil health, improves crop yields, and promotes sustainable agriculture, leading to healthier ecosystems and promoting biodiversity. Providing training and advisory services on sustainable practices enhances crop yields and profitability, supporting local economies, and ensuring food security. 
+
+External 
+
+stakeholders and impact 
+
+At Coromandel, we uphold a farmer-centric philosophy. 
+
+Sustainable agricultural practices helps promote healthier ecosystems through driving Customer Centricity  Enabling Sustainable Agriculture 
+
+areas evaluated 
+
+This includes close communication with farmers and responding to evolving technological, climatic, and market dynamics. Customer feedback helps tailor specialized solutions to meet their unique needs and drive farm sustainability and prosperity. 
+
+.
+
+resource use efficiency and promoting integrated farm management. It also promotes biodiversity and improve soil health, contributing to long-term environmental sustainability. 
+
+For society, sustainable agriculture supports efficient farm practices, improving crop yields and ensuring food security. 
+
+For consumers, sustainable agriculture ensures access to healthier, safer food. It also aligns with growing consumer preferences for environmentally friendly output. 
+
+Topic relevance on external stakeholders 
+
+By focusing on customer needs, we can develop products that promote sustainable farming practices and improve farm yields. This leads to improving soil health and driving environmental stewardship, benefiting the broader community. 
+
+Sustainable agricultural practices are vital for societal stakeholders and the environment. It addresses resource efficiency, improve farm yields & prosperity, and drive social equity by promoting healthier ecosystems, and ensuring food security. This fosters a resilient and equitable food system, benefiting the planet, people, and future generations. 
+
+Output metric 
+
+Coromandel carries out customer satisfaction survey and Net Promoter Score (NPS) study to capture customer insights and strategizes its market related initiatives as per the outcome of the study. In FY 2023-24 Fertilizer division of the company achieved the NPS score of 51 out of 100 which signifies that among the surveyed customers, a higher proportion demonstrated a positive inclination toward recommending Gromor brand 
+
+With 48% of products being resource-efficient, it indicates that nearly half of the agricultural inputs or practices used are designed to minimize waste and maximize productivity, contributing to more sustainable farming operations. During the year, the company introduced drone spraying operations offering game-changing solution to water conservation in agriculture and covering over 28,000 acres. Compared to conventional practices, drone-based spraying 1.7. Risk Management 
+
+Below mentioned are the details of the top two risks identified as part of the risk management process. 
+
+Risk Description 
+
+Impact 
+
+(Score 1-5) 
+
+Likelihood 
+
+(Score 1-5) 
+
+Mitigation actions 
+
+Gaseous emission during production/ Leakage of hazardous chemicals 
+
+4 3 
+
+> •
+
+Proper follow up of safety critical equipment Inspection Schedules / Calibration of sensors at periodical intervals etc.  
+
+> •
+
+Close loop handling systems in place. 
+
+Non-Disposal of hazardous waste as required by law 
+
+4 3 
+
+> •
+
+GPS Tracking of vehicles / Disposal to authorized vendors / Online manifest system / Periodical audits of the TSDF Vendor.  
+
+> •
+
+Enhancing additional monitoring controls 
+
+# 1.8. Risk Culture 
+
+Our balanced scorecard integrates financial incentives tied to risk management metrics. This includes initiatives like: 
+
+a.  Conducting Cyber audits & IT security infra to address risks related to Data security 
+
+b.  New product development to diversify product concentration risk 
+
+Customer Centricity  Enabling Sustainable Agriculture 
+
+fertilizers to others within the farming community. 
+
+can reduce the water consumption during inputs application by upto 90%. 
+
+Impact valuation 
+
+Customer satisfaction score  % of resource efficient products 
+
+Impact metric 
+
+Increase in the Customer Satisfaction Score 
+
+Increase in the percentage of resource-efficient products and practices, aiming to enhance the sustainability profile of the agricultural operations. c.  Strengthening backward integration capabilities to mitigate supply chain related risks 
+
+d.  Safety KPIs to drive safe material handling related risks 
+
+# 1.9. Code of Conduct: Systems/ Procedures 
+
+The Company has strong mechanisms in place to assure effective implementation of the Codes of Conduct. This includes: 
+
+Compliance linked to employee remuneration: The adherence to code of conduct like completion of mandatory trainings is linked to employee's balanced scorecard which ultimately affects their variable component of their compensation. 
+
+Employee performance appraisal systems integrate compliance/codes of conduct: At Coromandel, all employees have to compulsorily undergo training on Coromandel Guide to Business Conduct (CGBC), POSH, Whistle Blower policies, Murugappa Values (Integrity, Passion, Quality, Respect, Responsibility) annually. It is mandatory for 100% employees to complete the training. 
+
+Disciplinary actions in case of breach, i.e. warning, dismissal, zero tolerance policy: Company has a Zero Tolerance in case of deviation or breach of Code of Conduct. 
+
+Compliance system is certified/audited/verified by third party: Entity Level Controls (Appraisal, Recruitment, Exits, Policy changes) are audited by Internal audit team. Additionally, ELCs are audited by external auditors. 
+
+# 1.10. Monetary Contributions 
+
+Monetary contributions made by the organization during the previous four years have been outlined below: 
+
+Currency  FY2020-21  FY2021-22  FY2022-23  FY2023-24 
+
+Total contributions & other spending 
+
+INR  - - 40,00,000  25,50,00,000 
+
+In 2022-23 and 2023-24, the contributions were made to Triumph Electoral Trust. 
+
+Apart from contribution to electoral trust, Coromandel did not make any contributions to and spending for political campaigns, political organizations, lobbyists or lobbying organizations, trade associations and other tax-exempt groups 
+
+# 1.11. Supplier Code of Conduct 
+
+In addition to the Sustainable Procurement & Supply Chain Policy (Sustainable-Procurement-policy.pdf ), Coromandel is committed to drive fair practices across its supply chain. 
+
+The suppliers are expected to adhere to the highest standards of fair and ethical labour practices. This includes an absolute prohibition against any form of forced or compulsory labour, with all workers retaining the right to terminate their employment freely and at will. The company maintains a zero-tolerance policy towards discrimination and harassment in any form, ensuring that all individuals are treated with the respect and dignity they deserve, irrespective of their background. The company endorses the rights of all workers to join associations and participate in collective bargaining without fear of retaliation. In terms of environmental stewardship, Coromandel expects its suppliers to manage waste responsibly and actively prevent pollution, adopting practices that mitigate environmental damage. The company expects suppliers to conserve biodiversity, preventing deforestation, and promoting responsible land use. Additionally, it expects its suppliers to refrain from engaging in anti-competitive practices to protect the principles of a fair marketplace and uphold the interests of consumers. Coromandel’s commitment to ethical sourcing is demonstrated through regular reviews of our purchasing practices, ensuring they are in sync with its Supplier Code of Conduct and meet ESG standards. We proactively manage ESG risks by providing comprehensive training to our customers and internal stakeholders. 
+
+# 1.12. Supplier Screening 
+
+Supplier Screening  FY 2023-24 
+
+Total number of Tier-1 suppliers  9351 
+
+Total number of significant suppliers* in Tier-1  42 
+
+% of total spend on significant suppliers in Tier-1  55% 
+
+Total number of significant suppliers (Tier-1 and non Tier-1)  42 
+
+* based on > Rs 25 Cr annual purchase value of products 
+
+# 1.13. IT Security & Cybersecurity 
+
+Mr. Sanjay Sinha, Executive Vice President and Chief Information Officer, is responsible for overseeing and implementing comprehensive cybersecurity strategies to protect the organization's IT infrastructure, data assets, and digital operations. 
+
+Coromandel has internal IT policy in place which has been prepared in line with the ISO 27001 framework. 
+
+# 2. Environment 
+
+# 2.1. Return on Environmental Investment 
+
+Details pertaining to the Coromandel’s Return on Environmental Investment are provided below: 
+
+Rs Cr  2020  2021  2022  2023 
+
+Capital investments  23.06  39.18  41.32  59.93 
+
+Operating expenses  66.62  64.14  84.46  79.78 Savings, cost avoidance, income, tax incentives, etc. 
+
+35.18  28.02  12.87  9.85 
+
+Coverage (%)  100  100  100  100 
+
+# 2.2. Energy Management Programs 
+
+Coromandel has implemented comprehensive energy management programs that encompass a variety of strategies to enhance energy performance. These programs include energy audits to identify opportunities for improvement, followed by setting quantified targets to achieve energy savings. Specific actions are taken to reduce energy usage, and progress is continuously evaluated to ensure effective reduction in energy consumption. Additionally, Coromandel emphasizes the use of clean or green energy sources, such as renewable energy, and invests in innovation and research and development (R&D) to further decrease energy consumption. To support these initiatives, energy efficiency training is provided to employees, raising awareness and promoting a culture of energy conservation within the organization. 
+
+# 2.3. Waste Management programs 
+
+Coromandel has implemented comprehensive waste management programs that focus on key aspects of waste reduction and sustainability. These initiatives include waste audits to identify areas for improvement, followed by the action plans to reduce waste generation. Quantified targets are established to minimize waste, and substantial investments are made in innovation and research and development (R&D) to support these goals. Employees receive training on waste reduction to increase their awareness and involvement in these efforts. Furthermore, Coromandel incorporates recycling programs to lessen the amount of waste sent to landfills. 
+
+# 2.4. Hazardous Wast Recycled/Reused and Disposed 
+
+Unit  FY 2021  FY 2022  FY 2023  FY 2024 
+
+Hazardous Waste Recycled 
+
+Metric tonnes  26,563  29,464  38,737  39,484 
+
+Hazardous Waste Disposed 
+
+Metric tonnes  4,112  1,691  3,394  11,472 
+
+# 2.5. Chemical Oxygen Demand (COD) 
+
+Unit  FY 2021  FY 2022  FY 2023  FY 2024 
+
+COD  Metric tonnes  33.11  37.16  26.04  40.56 
+
+Data Coverage 
+
+Operations (%)  100  100  100  100 2.6. Water Management Programs 
+
+Coromandel has developed comprehensive water efficiency management programs that address several key elements to enhance water sustainability. These programs include a thorough water use assessment to identify opportunities for improving water efficiency. Specific actions are implemented to reduce water consumption. Most of the sites are practicing Zero Liquid Discharge, and wherever it is not in place wastewater is discharged after proper treatment. Quantified targets are established to ensure a systematic reduction in water use, and water recycling practices are applied to maximize resource utilization. Additionally, employees receive awareness training on water efficiency management programs to foster a culture of conservation and responsible water use within the organization. 
+
+# 2.7. Water Risk Management Programs 
+
+As part of Coromandel's Enterprise Risk Management (ERM) process and business continuity plan, the company thoroughly considers various water-related risks. This includes assessing dependency-related and impact-related water risks, evaluating future water quantities available, and identifying potential water quality-related risks. Additionally, Coromandel assesses the impacts on local stakeholders and anticipates future potential regulatory changes at a local level to ensure sustainable water management and business resilience. 
+
+# 2.8. Water-related Incidents 
+
+Coromandel has not faced any business impact owing to water related incidents as outlined below: 
+
+Description  Unit  FY 2021  FY 2022  FY 2023  FY 2024 
+
+Total actual & opportunity costs arising out of water-related incidents 
+
+INR  0 0 0 0
+
+# 2.9. Scope 2 Emissions 
+
+Description  Unit  FY 2021  FY 2022  FY 2023  FY 2024 
+
+Location-based  tCO2e  1,25,956  1,34,703  171,757  1,71,739 
+
+Market-based  tCO2e  1,25,287  1,33,855  1,67,471  1,67,508 
+
+Data Coverage  % 100  100  100  100 
+
+# 2.10. Climate-Related Management Incentives 
+
+In today's competitive market, fostering innovation and sustainability is crucial for long-term success. Recognizing this, Coromandel has integrated resource efficiency into its strategic objectives. As part of the business scorecard, business heads are incentivized to develop new products that demonstrate resource efficiency during the user phase. This approach not only drives environmental responsibility but also enhances the company's market position and operational efficiency. Further, as part of its ESG commitments, Coromandel has considered targets to introduce solutions targeting resource use efficiency. 
+
+# 2.11. Biodiversity Commitment 
+
+(Addendum to Environmental Policy - Environmental-Policy.pdf )
+
+At Coromandel, we are committed to fostering a positive impact on biodiversity, aiming to achieve a net positive impact (NPI). The company aims to attaining no net loss in the ecosystems. Coromandel recognizes the importance of a collective effort within its value chain and engages closely with all stakeholders to promote awareness and collaboration on biodiversity conservation. Coromandel adheres to a mitigation hierarchy that prioritizes avoidance, minimization, and offsetting of potential adverse impacts on biodiversity. 
+
+# 2.12. Life Cycle Assessment (LCA) 
+
+The Life Cycle Assessment (LCA) was conducted for a specified crop protection product using a thorough and meticulous approach to understand the environmental and health impacts/risks associated with the product's entire life span—from raw material extraction (cradle) to disposal (grave). The product contributes to 1.8% of the company's total revenue, indicating its significance within the company's portfolio. This comprehensive assessment covered various resource use impacts, including abiotic depletion (fossil fuels, minerals), water depletion, and ecological consequences such as acidification, ecotoxicity, eutrophication, global warming, ozone depletion, and photochemical ozone formation. Additionally, human health impacts like human toxicity and ionizing radiation were evaluated. 
+
+The LCA's findings were pivotal in identifying key areas for environmental performance improvement. Based on the LCA solvent recovery and reuse (involving solvents like toluene, dimethyl formamide, and acetonitrile) were proposed as measures to reduce greenhouse gas emissions by 37% and overall environmental impact by 26%. These improvements not only contribute to the company's environmental responsibility but also align with broader global sustainability goals. 
+
+# 2.13. Exposure to Hazardous Substances 
+
+None of the company’s products are part of the restricted substances in the Annex XVII of REACH Regulation. 
+
+# 3. Social 
+
+# 3.1. Employee Support Program 
+
+Coromandel has Work from Home Policy in place for all management staff across all SBUs involving performing job’s duties remotely towards supporting employee during extreme needy situations. 
+
+Coromandel provides maternity leave of 26 weeks and paternity leave of 5 days to the employees. 3.2. Employee Wellbeing 
+
+Coromandel undertook Trust Index© Survey during October – November 2022 to listen to the voices of its employees. In line with survey outcomes of Great Place to Work, the leadership team at Coromandel continued to review the key engagement agenda for the organization through specific action plans for 300 managers. Steering committees were formed at leadership level to nurture employee engagement through the identified pillars i.e. Performance, Communication, Rewards and Recognition and collaboration. 
+
+More than 5,000 employees across the organization were given an opportunity to share feedback on their experience at Coromandel as part of the Survey and achieved a survey score of 75% with almost 100% coverage. 
+
+The Trust Model of GPTW consists of 5 dimensions along which employee experiences at workplaces are assessed and forms the foundation of the Trust Index employee survey. 5 dimensions are (i) Credibility, (ii) Respect, (iii) Fairness, (iv) Pride and (v) Camaraderie. The survey captures the responses covering aspects like job satisfaction, motivation, work life balance & stress management. 
+
+# 3.3. Employee Development Programs 
+
+Program 1  Program 2 
+
+Name & Description of the program 
+
+Assessment Center/Development Center-DDI & SHL 
+
+Senior Leadership Development Program (SLDP) in partnership with ISB 
+
+Business benefits of the program 
+
+The assessment was critical in identifying the competency-based gaps and create a development plan for the individuals. 
+
+The assessment was central in charting out the leadership development journey and succession planning exercise for the organization. 
+
+Equipping leaders with entrepreneurial skills and strategic vision that supports innovation and inspire solutions. 
+
+Enabling leaders to navigate effectively through uncertainty and increasing resilience to embrace change and disruption 
+
+Quantitative impact of business benefits (monetary or non-monetary) 
+
+a. Clear roadmap is available with respect to succession planning 
+
+b. A detailed plan for Competency based development of the individuals is created. 
+
+Developing organizational culture and customer-centric approach to sustain growth and achieve execution excellence. 
+
+% of FTEs participating in the program 
+
+78% coverage in identified levels (MG6-MG8A)  0.49% 3.4. Turnover Rate 
+
+Description  FY 2021  FY 2022  FY 2023  FY 2024 
+
+Voluntary Turnover Rate of Permanent Employees  11.4%  18.1%  21.9%  25.5% 
+
+# 3.5. Long-Term Incentives for Employees 
+
+The Company recognises long service (> 25 years) and in appreciation presents awards to the employees. Based on the years of service and contribution to the company, the employees are felicitated with silver salver. 100% of the employees are applicable for this award. 
+
+# 3.6. OHS Programs 
+
+In our pursuit of a safer and healthier work environment, we have established a comprehensive approach that prioritizes and integrates action plans with quantified targets aimed at mitigating identified risks. These plans are meticulously evaluated to measure progress in reducing and preventing health issues and risks, ensuring that we are on track to meet our stringent targets. Regular internal inspections are conducted as a proactive measure to maintain our high standards of occupational health and safety (OHS). Furthermore, we have implemented rigorous procedures to thoroughly investigate any work-related injuries, ill health, diseases, and incidents, with the goal of preventing recurrence and continuously improving our OHS practices. This commitment to health and safety extends to our contractual relationships, where OHS criteria are a critical consideration, reflecting our dedication to the well-being of all individuals associated with our operations. 
+
+# 3.7. Stakeholder Engagement 
+
+Our organization's approach to community and stakeholder relations is underpinned by a series of firm commitments and reinforced by the implementation of strategic programs. We are committed to the thorough identification of affected communities and a broad spectrum of local stakeholders, ensuring that our operations are considerate of all relevant parties. This includes a focused effort to recognize and address the needs of vulnerable groups within these communities. Our engagement strategy is meticulously designed to include local stakeholders, fostering a culture of active participation and mutual respect. Furthermore, we uphold a commitment to maintaining a transparent and accessible complaints and grievance mechanism, allowing community members to voice concerns confidently, knowing they will be addressed promptly and effectively. 
+
+Complementing these commitments, we have instituted programs that establish clear communication channels, enabling stakeholders to engage with us directly. We conduct regular surveys and reviews to capture the perceptions of local stakeholders regarding our engagement efforts, providing valuable insights that guide the continuous improvement of our strategies. Additionally, we ensure that our stakeholder engagement programs are consistently applied across all local operations, affirming our dedication to equitable and responsible community involvement across the diverse regions in which we operate. Together, these commitments and programs form the cornerstone of our pledge to sustain positive and enduring relationships with the communities at the heart of our business.

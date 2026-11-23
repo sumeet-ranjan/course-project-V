@@ -1,0 +1,38 @@
+date,sensor,plant_id,nse_symbol,sub_area,clear_frac,water_frac_of_clear,pre_water,new_water,new_scl_water
+2023-12-06,Sentinel-2,417,APOLLOTYRE,other zone,0.809,0.137,0.002,0.135,0.0
+2023-12-06,Sentinel-2,3127,SRF,other zone,0.453,0.135,0.005,0.131,0.0
+2023-12-06,Sentinel-2,3793,VASCONEQ,Chennai city,0.522,0.262,0.027,0.235,0.0
+2023-12-06,Sentinel-2,368,APOLLOHOSP,Chennai city,0.531,0.079,0.011,0.068,0.003
+2023-12-06,Sentinel-2,391,APOLLOHOSP,Chennai city,0.812,0.026,0.006,0.02,0.0
+2023-12-06,Sentinel-2,394,APOLLOHOSP,Chennai city,0.905,0.058,0.005,0.052,0.001
+2023-12-06,Sentinel-2,417,APOLLOTYRE,other zone,0.801,0.061,0.002,0.059,0.0
+2023-12-06,Sentinel-2,1164,HINDUNILVR,Chennai city,0.512,0.181,0.004,0.177,0.0
+2023-12-06,Sentinel-2,1687,INDORAMA,Manali-Ennore,0.908,0.05,0.058,-0.008,-0.022
+2023-12-06,Sentinel-2,2004,MRF,Manali-Ennore,0.969,0.191,0.24,-0.049,-0.105
+2023-12-06,Sentinel-2,3119,SRF,Manali-Ennore,0.467,0.287,0.029,0.259,0.005
+2023-12-06,Sentinel-2,3122,SRF,Manali-Ennore,0.818,0.335,0.06,0.275,-0.036
+2023-12-06,Sentinel-2,3793,VASCONEQ,Chennai city,0.513,0.192,0.027,0.165,0.0
+2023-12-11,Sentinel-2,417,APOLLOTYRE,other zone,0.339,0.312,0.002,0.31,0.0
+2023-12-11,Sentinel-2,1173,HINDUNILVR,other zone,0.687,0.026,0.043,-0.017,0.0
+2023-12-11,Sentinel-2,2013,MRF,Gummidipoondi,1.0,0.016,0.014,0.002,0.002
+2023-12-11,Sentinel-2,3105,SRF,Gummidipoondi,0.929,0.005,0.009,-0.004,0.0
+2023-12-11,Sentinel-2,3123,SRF,Gummidipoondi,1.0,0.325,0.328,-0.003,0.137
+2023-12-11,Sentinel-2,3125,SRF,Gummidipoondi,0.981,0.004,0.008,-0.004,0.0
+2023-12-11,Sentinel-2,3128,SRF,Gummidipoondi,0.981,0.004,0.008,-0.004,0.0
+2023-12-11,Sentinel-2,3130,SRF,Gummidipoondi,1.0,0.058,0.026,0.031,0.0
+2023-12-11,Sentinel-2,324,APOLLOHOSP,Chennai city,0.33,0.077,0.064,0.013,0.0
+2023-12-11,Sentinel-2,331,APOLLOHOSP,Chennai city,0.787,0.169,0.031,0.138,0.0
+2023-12-11,Sentinel-2,391,APOLLOHOSP,Chennai city,0.984,0.008,0.006,0.002,0.0
+2023-12-11,Sentinel-2,1173,HINDUNILVR,other zone,0.642,0.029,0.043,-0.014,0.0
+2023-12-11,Sentinel-2,1687,INDORAMA,Manali-Ennore,1.0,0.072,0.058,0.015,0.021
+2023-12-11,Sentinel-2,2004,MRF,Manali-Ennore,0.938,0.338,0.24,0.098,0.039
+2023-12-11,Sentinel-2,2013,MRF,Gummidipoondi,1.0,0.016,0.014,0.001,0.002
+2023-12-11,Sentinel-2,3105,SRF,Gummidipoondi,0.929,0.004,0.009,-0.005,0.0
+2023-12-11,Sentinel-2,3119,SRF,Manali-Ennore,0.662,0.597,0.029,0.568,0.002
+2023-12-11,Sentinel-2,3122,SRF,Manali-Ennore,0.872,0.16,0.06,0.1,0.031
+2023-12-11,Sentinel-2,3123,SRF,Gummidipoondi,1.0,0.283,0.328,-0.045,0.137
+2023-12-11,Sentinel-2,3125,SRF,Gummidipoondi,0.981,0.004,0.008,-0.003,0.0
+2023-12-11,Sentinel-2,3128,SRF,Gummidipoondi,0.981,0.004,0.008,-0.003,0.0
+2023-12-11,Sentinel-2,3130,SRF,Gummidipoondi,1.0,0.061,0.026,0.034,0.0
+2023-12-07,landsat-8,682,CEATLTD,Sriperumbudur-Oragadam,0.935,0.0,,,
+2023-12-07,landsat-8,683,CEATLTD,Sriperumbudur-Oragadam,0.468,0.0,,,

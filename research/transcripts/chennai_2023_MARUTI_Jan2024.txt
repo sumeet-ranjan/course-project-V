@@ -1,0 +1,237 @@
+## Transcript
+
+45 turns · 4 835 words · 2 from management, 4 analysts
+
+### Prepared remarks
+
+### Questions and answers
+
+### Prepared remarks
+
+**Operator**
+
+Ladies and gentlemen, Good day, and welcome to the Q3 FY '24 Earnings Conference Call of Maruti Suzuki India Limited. [Operator Instructions] Please note that this conference is being recorded. I now hand the conference over to Mr. Pranav Ambaprasad. Thank you, and over to you, sir.
+
+**Pranav Ambaprasad**Management
+
+Thank you, Sagar. Ladies and gentlemen, good afternoon, once again. Welcome you all to the Q3 FY '24 earnings call. May I introduce you to the management team from Maruti Suzuki. Today, we have with us our Chief Investor Relations Officer, Mr. Rahul Bharti; and CFO, Mr. Arnab Roy.
+
+Before we begin, may I remind you of the safe harbor. We may be making some forward-looking statements that have to be understood in conjunction with uncertainty and the risks that the company faces. I also like to inform you that the call is being recorded and the audio recording and the transcript will be available at our website. May please note that in case of any inadvertent error during this live audio call, the transcript will be provided with the corrected information.
+
+The con call will begin with a brief statement on the performance and outlook of our business by the Chief Investor Relations Officer and Executive Officer, Corporate Planning, Mr. Rahul Bharti. After which, we'll be happy to receive your questions. I would now like to invite our Chief Investor Relations Officer, Mr. Rahul Bharti. Over to you, sir.
+
+**Rahul Bharti**Management
+
+Thanks, Pranav. Good afternoon, ladies and gentlemen, and thank you for joining us. Today, I'll share the overview of the industry and sales performance, followed by the business performance of the company. The Indian passenger vehicle industry registered a record sale of 4.1 million units in the calendar year 2023, making it the third largest market in the world and ourselves a proud industry.
+
+In the industry, the share of utility vehicle segment continued to expand. In quarter 3, the share of SUVs increased about 53%. Together with MUV, the share of UV in the industry is about 63%. In terms of fuel type, the share of CNG vehicles in the industry further expanded to about 16.5% in quarter 3. Hybrid vehicles have also seen good traction, and now the share of hybrid vehicles are at 2%.
+
+I would also like to share some of the sustainability initiatives of the company. As you may be aware, for an automobile company, the carbon emissions from its products contribute about 80% of the total emissions. As for the last release, fuel efficiency compliance report from Ministry of Road Transport, the company has the lowest carbon emitting fleet in financial year '21, '22.
+
+The second phase of CAFE regulations was implemented in the last financial year, where the CO2 emission targets were tightened. The results are yet to be released, but Maruti Suzuki is confident of meeting its target and very hopeful on maintaining the leadership in terms of lowest carbon emitting fleet. And this is also because the company has embraced multiple powertrain approach rather than focusing on a single technology to reduce the carbon footprint.
+
+In CNG, a strong portfolio of 14 vehicles is helping the company in lowering the carbon emissions. Also, CNG fuel vehicles have lower running costs. In quarter 3, with sales of over 127,000 units, the contribution of CNG vehicles in our sales has increased to an all-time high of 30%. In future, the company is exploring the option of compressed biogas.
+
+The company is on course to start production of battery electric vehicle in 2024. In addition to serving the domestic market, this meant SUV segment product will be exported to developed markets such as Japan and Europe. Apart from products, the company also focuses on reducing the carbon emission in its operations. Use of railway in dispatches of vehicles is one such initiative.
+
+In 2023, a record 422,000 vehicles were dispatched through railways. The share of railways in total vehicle dispatches has now increased to over 20%. The upcoming railway siding in Manesar plant will further help in increasing vehicle dispatches through railways. With the objective to increase the use of renewable power in next financial year, the company is planning to increase its solar power generation capacity from 26.3 megawatts to over 48 megawatts.
+
+Let me now share some of the business highlights for the company. In calendar year 2023, Maruti Suzuki crossed the annual sales milestone of 2 million units, which is its highest ever sales in a calendar year. With its highest ever exports of about 270,000 units in calendar year '23, the company continues to be the largest exporter of passenger vehicles from India. With the good market acceptance of its all 7 utility vehicles ranging from entry SUV, Fronx to top of the line Invicto, the company continues to be a market leader in utility vehicle segment.
+
+During this financial year, the Grand Vitara became the fastest mid-SUV to clock the 1 lakh sales milestone. Now Fronx SUV has set a new benchmark in the passenger vehicle category, by becoming the only new model launch to clock 1 lakh sales in 10 months. The company is optimistic on the growth prospects of domestic market as well as the export potential of cars from India.
+
+It is planning a twofold increase in its annual production capacity to about 4 million by 2030, '31. The setting up of a greenfield project in Kharkhoda, Haryana is part of our ambitious plans. Construction is already in progress at Kharkhoda and first plant with annual production capacity of 250,000 units is on course to be operational in 2025. The company has faced to setup 4 such plants with a total capacity of 1 million units in Kharkhoda.
+
+Next, in Gujarat, recently in the vibrant Gujarat Summit 2024, the company signed an MOU with the government of Gujarat as a preference to set up a new automobile manufacturing facility. This is subject to availability of a suitable land. This new plant in Gujarat is aimed to start operation in '28, '29. In the future, the annual production capacity is expected to become 1 million units, with total investment of INR 35,000 crores.
+
+After finalization of land and new approvals from Maruti Suzuki Board, the exact location of plant will be shared. You might also recall that when we interacted during the last investor call in October '23, the voting on the proposal to acquire SMG, Suzuki Motor Gujarat, was in progress. With over 98% votes in favor of the proposal, the acquisition has been approved by shareholders.
+
+We would like to thank all the shareholders for their support and alignment and thinking with the management. Now SMG has become a fully owned subsidiary of Maruti Suzuki. The effect of SMG becoming the company's subsidiary has been incorporated in the consolidated financial statements also. Principally, the SMG's cost and revenue items have been adjusted to their natural heads.
+
+The raw material costs and stand-alone results also includes employee costs, manufacturing overheads and operating income of SMG. So these 3 items have been removed from raw material costs and adjusted into the natural heads in the consolidated results. Effectively, in consolidated statement, the EBITDA margin has adjusted upwards while the EBIT margin, as we have mentioned before, is largely at [ similar ] level.
+
+Now we come to the highlights of the quarter 3. The company sold a total of 501,207 vehicles during the quarter. Sales in the domestic market were 429,422 units. The company exported 71,785 cars, the highest ever in any quarter. The same period in the previous year saw total sales of 465,911 units, comprising 403,929 units in domestic and 61,982 units in the export market.
+
+Growth in net sales outpaced the growth in sales volume due to a higher contribution of utility vehicles in total sales volume. And with this, the ASP increased by 6%. The net profit for the quarter rose to INR 31,300 million from INR 23,513 million in the quarter, a year-on-year growth of over 33%. This was on account of higher sales volume, cost reduction efforts, slightly favorable commodity prices and higher nonoperating income.
+
+Now, I come to the highlights of 9 months, April to December '23, '24. In this 9-month period, the company recorded its highest ever 9 monthly sales volume, net sales, operating profit and net profit. The company sold a total of [ 1,552,292 ] vehicles, registering a growth of 6.9% over the same period previous year. Out of the total sales volume, 1,346,965 units were sold in the domestic market, and 204,327 units was exported.
+
+The company registered net sales of INR 982,403 million, a growth of 22.3% over the same period previous year. It may be interesting to note that our revenue from operations has now crossed the INR 1 lakh crore mark in the 9-month period, which we had done in the last full financial year. Even on a full year basis, very limited manufacturing companies have reached this milestone.
+
+And on that note, may I request your questions, feedback and any other observations that you may have. Thank you.
+
+**Operator**
+
+[Operator Instructions] The first question is from the line of Pramod Kumar from UBS.
+
+### Questions and answers
+
+**Pramod Kumar**Analyst
+
+Rahul, just wanted to clarify if there were any one-offs in the quarterly results. And also if you can just share the discounts per car given the high retail velocity. And then I will follow up on the margins.
+
+**Rahul Bharti**Management
+
+Okay. No real one-off as such. The discount in the quarter was at on wholesales as we distribute our wholesale was INR 23,300 approximately. Sequentially, over Q2 of INR 17,700 per vehicle. Just to keep in mind that this is distributed over wholesale, while actually, we give the discount on retail in the market.
+
+**Pramod Kumar**Analyst
+
+Fair enough. So given that, I think the margin numbers look pretty interesting because you were closer to 13% last quarter with the best of the utilization and the best of the wholesale and with operating -- despite operating deleverage and higher discounting. And I presume some of this should roll off. How should one of the margin outlook from here on? Is it kind of would you say probable that Maruti's margin band has now moved to the double-digit range at the EBITDA level?
+
+**Rahul Bharti**Management
+
+See, we never comment on margin outlook, but we can certainly discuss the margin drivers individually and you're well aware of the drivers. The biggest factor that affects us is the volume. And you would be aware in the auto sector, the fourth quarter is generally a good quarter because of the cyclicity, the seasonality. And the second element is since in a calendar year-end, we tried to minimize the stock at dealerships. So quarter 3 is generally where retail exceeds wholesale. In quarter 4, generally, if you try to recover that stock, you need a healthy stock in the market also. So it is the reverse. So to that extent, the discounting should have an [indiscernible], which is positive for us. We have also taken a price increase, which is also in the public domain of the order of about 0.45%. So that may help.
+
+In commodities, steel may show some upward movement, while we expect some continuation of the past benefit on PGM, palladium, rhodium, et cetera. On ForEx, we gained somewhat in quarter 3 on direct imports. And you know that indirect imports happens with the lag so that benefit should continue in quarter 4. Of course, for direct imports, the rates which are prevalent in quarter 4 will apply, and we don't know. All of us -- it's in the future, so we don't know that. And of course, the volume -- we are all dependent on the volume uncertainty in the market. So that continues.
+
+**Pramod Kumar**Analyst
+
+Fair enough, sir. And second question is on the retail scenario and the inventory situation because you have FADA coming on and off and talking about very high -- alarming levels of inventory in the car industry, led by small cars. So if you can just help us understand where does our inventories stand at the end of the quarter? And if you have the data refresh for what could be the likely month-end inventory for the dealers at your end, that will be really helpful. And within that, how is the small car inventory come down over the last few quarters, because we've seen the wholesale kind of correct more meaningfully there. So if you can just help us understand the inventory situation because that could have a -- especially the small car inventory could have an impact on the discounting from here on, right? So if you can just help us understand that on the inventory situation.
+
+**Rahul Bharti**Management
+
+See, I won't be able to comment on the FADA data, but whatever little I understand there's a lot to do with the fine print and the assumptions. At least, Maruti Suzuki had a very healthy and low closing stock as a quarter end below 45,000 units. So we started the new year light and ready to receive many more cars in the dealerships. There is nothing of concern as far as inventories in the market is concerned. It's a normal healthy situation, and we have pending bookings at the end of the quarter of about 215,000. So nothing of concern as you pointed out.
+
+**Operator**
+
+The next question is from the line of Gunjan Prithyani from Bank of America.
+
+**Gunjan Prithyani**Analyst
+
+Couple of questions from my side. Firstly, just the extension of the data that you were giving on discounts. Can you also talk about the retail that happened in quarter 3?
+
+**Rahul Bharti**Management
+
+So retail in quarter 3 was much higher than wholesale. We retailed about 530,000 vehicles. That was a reduction of about 115,000 stock.
+
+**Gunjan Prithyani**Analyst
+
+Okay. Got it. And any meaningful change to the royalty numbers? Or is it stays in that same range, 3.7%, 3.8%?
+
+**Rahul Bharti**Management
+
+The royalty stands at 3.5%. It is sequentially lower by 30 basis points, but you would know it depends on the product -- the new models entering the scope and the models going out of -- going on discounted royalty rate. So this figure keeps hovering between 3.5% to 4%.
+
+**Gunjan Prithyani**Analyst
+
+Okay. Got it. Now my question is more on the growth. How should we think about growth going into fiscal 2025? What are we seeing in terms of customer bookings, inquiries? And more particularly in context of Maruti, I mean, if you can cover this mini and compact car portfolio continues to sort of shrink. So one industry growth and how do you see Maruti in that context faring in line below because we have a higher exposure to mass segment? A little bit of thoughts around that.
+
+**Rahul Bharti**Management
+
+Right. So before I go to the growth in next year, I have to mention that India is at a high base already. This year, we may close at about 4.18 million or 4.19 million or 4.2 million. There have been some preliminary estimates by SIAM on the next year growth numbers. They are yet to be finalized, but they are such -- at the CEO level. The preliminary information that was discussed in SIAM yesterday in the SIAM Looking Ahead Conclave was 4.3 million for next financial year, '24, '25. Of course, Maruti intent will be to grow faster. And you're right, it has -- the growth could be much better had it not been for the small car segment. And the small car segment is shrinking both in absolute terms and in percentage terms, obviously. We are expecting that the cost went up suddenly because of regulatory intensity, too many regulations happen together.
+
+Finally, it's a function of affordability. There are so many people out there who want to buy a car. Affordability is the only big hurdle in simple economics. And we think when the income growth will catch up with the higher cost of acquisition, small car growth should come back. So we are putting our hopes on small car segment to come back sometime in the future, but not immediately.
+
+**Gunjan Prithyani**Analyst
+
+Okay. Got it. And the second question I had was on the product side. When you look at your entire portfolio, we've done a lot in terms of plugging the SUV gap. But when you think across the portfolio, are there any more white spaces that we are looking to address in the next 12, 18 months? Anything where -- I mean, in particular, let's say, the micro UV space, we are still not present there. So is that something we should expect as part of the plan, maybe not in 1 year, but from a next 2-, 3-year perspective?
+
+**Rahul Bharti**Management
+
+Gunjan, we've mentioned that we will be having 28 models by the turn of the decade, which means we have to grow by at least 10 more models. And if some existing models need to be refreshed, that is additional. So certainly, there is a model pipeline since -- and of course, the model pipeline has to reflect the need of the market as the consumer pull in the market. So we will be there where the consumer needs us to be there. One model that I can specifically talk about is our EV that will be -- that we will have the start of production in this calendar year. We -- I mentioned it will be exported also, but we'll be covering all segments that are important from a volume point of view.
+
+**Operator**
+
+The next question is from the line of Raghunandhan N. L. from Nuvama Research.
+
+**Raghunandhan N. L.**Analyst
+
+Congratulations, sir, on stellar numbers. A couple of questions. Firstly, first-time buyer share has reduced to less than 40% currently versus closer to 50% pre-COVID. How would you see the triggers for recovery in the first-time buyer demand? And any signs you are seeing which could trigger this recovery?
+
+**Rahul Bharti**Management
+
+Raghunandhan, very interesting question. We are also watching this carefully. The highest we had reached recently was in financial year 2021 of 47%. And it went to a low of 38% in the last quarter, quarter 2. In this quarter 3, it has inched upwards to 41%, but it is too premature to conclude whether it's a green shoot of recovery or it's just noise or some quarter-specific phenomena. So we would like a more sustained trend before we can make any conclusion.
+
+**Raghunandhan N. L.**Analyst
+
+Got it, sir. And my second question on the order book, we still have lots of spending orders on the CNG automatic vehicles. Can you throw some color on how you're trying to address these production supply constraints?
+
+**Rahul Bharti**Management
+
+Okay. See the good part is that the semiconductor issue is now -- has been resolved as of now, at least in the foreseeable immediate future. We don't have any such issue. Our capacity is roughly production capacity, which might be the next bottleneck is about 22 lakh -- 2.2 million per year. And if you notice, in quarter 2, we did that kind of numbers. And so we need some headroom in capacity for -- if we have to attain growth. So -- of course, in Manesar, we had shared that we'll have about 100,000 capacity coming by March '24. And we could also utilize Gujarat more. And by -- in the year '25, we should have the Kharkhoda plant, the first line of 250,000. Of course, there's a ramp-up, you don't get full capacity on day 1. So that capacity should come. But immediately, there are some minor bottlenecks that are holding up CNG supplies, that should get resolved soon.
+
+**Raghunandhan N. L.**Analyst
+
+Very helpful. Just one last question on the upcoming BEV to be launched in '24. Historically, Maruti has always been providing the best cost of ownership for customers, can you throw some color whether this will continue in EVs considering the dedicated platform and aggressive localization efforts.
+
+**Rahul Bharti**Management
+
+See, the interesting phenomena about EVs in India is that the customer profile is very different from what we have seen in the IC engine cars. So it's not necessary that the same parameters hold top most in the mind of the customer. Typically, this is a higher segment customer who has charging infrastructure at home who would most likely use it for commute to office and has a predictable usage profile in terms of kilometers run, et cetera. So the first SUV that we are launching in the EV space is an upmarket vehicle. It's bigger than the Grand Vitara. It has a high range, 550-kilometer range, battery of 60-kilowatt hours. So of course, the range anxiety is something that we have taken care of extremely well. So it's a high-spec vehicle, and we are hopeful that customers will receive it well.
+
+**Operator**
+
+The next question is from the line of Vipul Agarwal from HSBC.
+
+**Unknown Analyst**
+
+My question is on CNG penetration. How is it shaping up in the southern part of the country, given there is a strong penetration of CNG pumps at a -- what is the simultaneous increase in the CNG vehicles overall from an industry perspective? And how it's working for Maruti?
+
+**Rahul Bharti**Management
+
+Also, yes, the CGD infrastructure helps a lot in CNG penetration. And you're right, some new geographies are getting added, and that is helping CNG sales. We have reached a penetration of 30.8%. And we see headroom going further. And the reason why we are hopeful is there are some models where the penetration is more than 50%. Ertiga, for example, is 57% CNG. WagonR, 50%. Dzire 44%. Similarly, there are cities with high CNG penetration. Delhi has 47% CNG penetration in those models. Pune -- of course, Gujarat traditionally -- Delhi, Mumbai, Gujarat used to be traditional CNG markets, but now Pune has picked up big time. So new cities where you are able to reach a critical mass of stations, we find good absorption of CNG. And we are in good contact with the CGD companies to have joint promotion schemes, et cetera, because for them, we sell one CNG car. But with that customer, they get to sell the fuel forever at least, let's say, for the next 10 years. So they are also quite interested in partnerships for joint promotion.
+
+**Unknown Analyst**
+
+Second, a follow-up question on the Maruti CNG portfolio. So Maruti model mostly have single cylinder CNG, while competition has [ around ] 12 cylinder CNG variant, which provides better boot space. So what is Maruti's strategy to counter the same or -- do we expect any launches in the similar lines?
+
+**Rahul Bharti**Management
+
+It is a good feedback, good input, and we are also monitoring consumer insights. So there are other technologies also. We are -- it is in our active consideration, and we are keenly aware of this.
+
+**Unknown Analyst**
+
+Sir, my second question is on export market. Can you talk about export strategy for the next 3 to 5 years? Like what all models you plan to launch and how the existing models are doing? And are we also facing some challenges from this Red Sea issue, which is going on?
+
+**Rahul Bharti**Management
+
+I'll take your last question first. We are seeing some kind of logistical challenges because of the Red Sea issue. And there may be some increase in cost because of risk or because of rerouting of vessels, but should not be significant. The time of the -- the lead time of dispatches might change, and there may be some uncertainty in vessels coming -- picking up their consignments, et cetera. That's a small issue, which is -- which happens very commonly in the export business. So last year -- last calendar year, we did a high of 270,000, our highest ever. And we should be able to better it in the future years also. We've expressed our ambition to go up to at least 750,000 by the turn of the decade.
+
+And Africa is turning out to be a good market. Then we have Middle East. Middle East has picked up quite well recently for a number of reasons. The government is also signing some FTAs where we get some advantage in duty. UAE, there's an FTA. The Gulf countries -- 6 Gulf countries, there's an FTA under consideration and that helps. Latin America is next. Of course, the traditional markets of ASEAN and Oceania. With our EV, we will reenter Europe and Japan. And you asked about some models also, yes.
+
+**Unknown Analyst**
+
+Any new model launches you are expecting in exports?
+
+**Rahul Bharti**Management
+
+No. We normally sell from our existing portfolio. Jimny 3 door was the only unique one, which we were selling in exports, but not in domestic. Now we have the Jimny 5 door. So we have believed -- the top models are Baleno, Dzire, Jimny, Swift and Grand Vitara.
+
+**Operator**
+
+The next question is from the line of Amyn Pirani from JPMorgan.
+
+**Amyn Pirani**Analyst
+
+Two questions from my side. First of all, just a bookkeeping question on the margin improvement. Y-o-Y the margins have improved quarter-on-quarter, they have declined. So can you just maybe spell out the key 2 or 3 reasons for the margin improvement on the Y-o-Y basis? And what's happened sequentially?
+
+**Rahul Bharti**Management
+
+Okay. Since the sequential structure is closer, I'll talk about sequential first. So first of all, as I had mentioned in the past, the operating leverage is the largest lever. So we gained about 110 basis points on the operating leverage -- sorry, we lost on that account because quarter 3, as you know, has lower wholesale and more retail. Discounts were up by -- so that impacted by about 70 basis points. Advertisement was up by about 30 basis points, so that there was a net negative about 210 basis points. On the positive, as I had mentioned, we gained somewhat on ForEx, about 30 basis points, royalty 30 basis points. Commodity, I mentioned. Steel was marginally up, but we gained somewhat on PGM. So that was an impact of about 10 basis points. So gain of about 70 basis points. So on the whole, sequentially, on EBIT, we had about 130 basis points fall from 11.2% in quarter 2 to 9.9% in this quarter, in quarter 3.
+
+**Amyn Pirani**Analyst
+
+Okay. That's helpful. My second question is more on this -- again on this issue of first-time buyer and the small car weakness. I mean, do we need to start delineating both these things in the sense that are you seeing a lot of first-time buyer actually moving from -- moving upwards from smaller cars like WagonR Celerio and maybe going straight into these micro SUVs or even within your portfolio to a Swift or a Baleno. How should we think about that because what is also happening is that while there's a lot of model launch momentum on micro SUVs and even more refreshers happening on the slightly bigger cars in the entry-level cars, while you are still around, a lot of people have exited the models. And while you're refreshing, these are still 10-, 15-, 20-year old models. So how do you -- how should we think about this?
+
+**Rahul Bharti**Management
+
+See this phenomena exists, but it is not the large part which explains this. So there is some amount of skipping off levels, but the whole small car degrowth cannot be explained only because of this. Otherwise, the total growth of the industry would have been much higher. So I would imagine that while there are some customers who are skipping levels and which is a very positive sign, there are many of them who are expecting the prices to be more benign and affordable for them to consider a purchase. Just consider, we had a price point of INR 2.5 lakh with the Alto 800. That price point has vanished. Now the minimum price at which you can buy a car in India is above INR 4 lakhs. And even at that price point, not much sale happens. So we are waiting for the income growth to -- in that segment of the population, and that is relevant to catch up, and then we can hope for some small car segment improvement.
+
+**Amyn Pirani**Analyst
+
+So Rahul, if I can just...
+
+**Rahul Bharti**Management
+
+I just give you some relevant numbers. For industry, the total hatches from '22, '23, there were about 945 -- sorry, for Maruti, there were about 945,000, and it has come down to 836,000. In industry, the total hatch segment has now -- in this last quarter, has come down to 25%. And at the peak, it was -- in '17, '18, it was at 47%. So it's a huge shrinkage.
+
+**Amyn Pirani**Analyst
+
+If I can just squeeze in a follow-up on this. Assuming that the affordability and the income levels of the first time buyer improve, say, 6, 12, 15 months on the line. And whenever they come back, in your opinion, do you think they will come back at the lower end hatch level? Or do you think they will come at the upper end hatch and the micro SUV level? And if they do come at a lower hatch level, do you -- will you also need to make some exciting product launches there? Just trying to understand how you're thinking about it.
+
+**Rahul Bharti**Management
+
+So it depends on the shape of the pyramid, the consumer pyramid. And of course, the demand has to -- whenever this -- such a phenomena happens, it starts from the upper end. So you're right, it will start from the upper end and then go down deeper. That's a natural continuous progression that we have seen. And we have got some exciting products. In that segment, you need a very critical balance of all the parameters that the customer looks for. So -- and that is continuously being researched. Of course, infotainment, features, some kind of [indiscernible] those are larger trends that are affecting India.
+
+**Operator**
+
+Ladies and gentlemen, that was the last question for today. With this, we conclude today's conference call. On behalf of Maruti Suzuki India Limited, we thank you for joining us, and you may now disconnect your lines.

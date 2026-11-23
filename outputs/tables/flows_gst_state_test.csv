@@ -1,0 +1,10 @@
+event,state,collection_month,comparison_year_month,state_share_of_7,bump_event_pp,bump_comparison_pp,difference_pp,difference_pct_of_state,placebo_share_with_larger_abs_pct,placebo_n
+Chennai Dec 2023,Tamil Nadu,Jan 2024,Jan 2025,0.111,-0.958,-0.165,-0.793,-7.12,0.153,98
+Gujarat Aug 2024,Gujarat,Sep 2024,Sep 2023,0.121,-0.247,0.6,-0.847,-7.013,0.173,98
+Gujarat Sep 2023,Gujarat,Oct 2023,Oct 2024,0.114,-1.622,-0.618,-1.004,-8.794,0.102,98
+Delhi ban Nov 2024,Delhi,Dec 2024,Dec 2023,0.064,-0.215,-0.147,-0.068,-1.065,0.847,98
+Delhi ban Nov 2024,Haryana,Dec 2024,Dec 2023,0.119,1.256,-1.248,2.504,20.976,0.02,98
+Delhi ban Nov 2024,Uttar Pradesh,Dec 2024,Dec 2023,0.093,-0.716,-0.344,-0.372,-3.995,0.388,98
+Delhi ban Dec 2024,Delhi,Jan 2025,Jan 2024,0.065,-0.058,0.119,-0.177,-2.741,0.551,98
+Delhi ban Dec 2024,Haryana,Jan 2025,Jan 2024,0.107,-0.688,1.04,-1.728,-16.185,0.051,98
+Delhi ban Dec 2024,Uttar Pradesh,Jan 2025,Jan 2024,0.099,0.245,0.055,0.19,1.923,0.684,98

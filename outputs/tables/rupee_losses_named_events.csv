@@ -1,0 +1,6 @@
+event,set,n,market_cap_before_cr,value_change_vs_unexposed_cr,pct_of_mcap,largest_losers
+"Chennai Michaung, days 0 to +5",all exposed firms,7,732957.6300698945,-34018.49271928898,-4.641263194987818,"HINDUNILVR -28,876; APOLLOHOSP -3,131; JKTYRE -1,004"
+"Chennai Michaung, days 0 to +5",excluding Hindustan Unilever,6,130513.98014489448,-5142.307834509156,-3.940043686354711,"APOLLOHOSP -3,131; JKTYRE -1,004; APOLLOTYRE -734"
+"GRAP-IV 18 Nov 2024, days -1 to +1",all exposed firms,12,913546.2875381293,-17120.088720669253,-1.8740253180608215,"IGL -7,430; MARUTI -7,259; MAXHEALTH -2,096"
+"GRAP-IV 18 Nov 2024, days -1 to +1",excluding IGL (fell on a gas-allocation cut),11,885062.992300034,-9689.77892529901,-1.0948123477762812,"MARUTI -7,259; MAXHEALTH -2,096; ANANTRAJ -1,338"
+"Gujarat flood 2024, days 0 to +20",all exposed firms,15,321163.40666730946,-8715.238047565625,-2.71364603396229,"PETRONET -7,186; AARTIIND -2,251; DCMSHRIRAM -1,106"

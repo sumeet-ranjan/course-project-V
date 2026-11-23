@@ -1,0 +1,685 @@
+event_id,plant_id,nse_symbol,dist_name,lat,lon,industry,plant_share,coord_ok,passes_before,flood_px_500_before,flood_px_1000_before,nearest_flood_m_before,passes_event,flood_px_500_event,flood_px_1000_event,nearest_flood_m_event,passes_after,flood_px_500_after,flood_px_1000_after,nearest_flood_m_after,observed_event,event_pass_dates,on_flood_pixel,flood250,flood500,flood1000,new_flood500,excluded_frac_500
+E_GJ_FLOOD_2024,88,AARTIIND,Bharuch,21.7263,73.0028,Drugs   pharmaceuticals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6002
+E_GJ_FLOOD_2024,90,AARTIIND,Bharuch,21.6569,73.128,Other chemical products,0.0092,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3141
+E_GJ_FLOOD_2024,91,AARTIIND,Bharuch,21.6373,73.1311,Drugs   pharmaceuticals,0.0092,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1392
+E_GJ_FLOOD_2024,92,AARTIIND,Bharuch,21.7092,72.5842,Other chemical products,0.0172,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4809
+E_GJ_FLOOD_2024,93,AARTIIND,Bharuch,21.7145,72.6199,Natural gas trading   distribution,0.0013,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1698
+E_GJ_FLOOD_2024,94,AARTIIND,Bharuch,21.6864,72.5445,Organic chemicals,0.0409,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1933
+E_GJ_FLOOD_2024,95,AARTIIND,Bharuch,21.6566,73.1276,Organic chemicals,0.002,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.308
+E_GJ_FLOOD_2024,99,AARTIIND,Bharuch,21.6132,73.1351,Organic chemicals,0.3829,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2922
+E_GJ_FLOOD_2024,100,AARTIIND,Bharuch,21.7236,73.155,Inorganic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4539
+E_GJ_FLOOD_2024,101,AARTIIND,Bharuch,21.6534,73.1263,Inorganic chemicals,0.0587,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2494
+E_GJ_FLOOD_2024,102,AARTIIND,Bharuch,21.6566,73.1278,Other chemical products,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3146
+E_GJ_FLOOD_2024,103,AARTIIND,Bharuch,21.7237,73.1555,Inorganic chemicals,0.0138,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4319
+E_GJ_FLOOD_2024,104,AARTIIND,Bharuch,21.7191,73.1495,Drugs   pharmaceuticals,0.0172,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5696
+E_GJ_FLOOD_2024,105,AARTIIND,Bharuch,21.6566,73.1278,Fertilisers,0.008,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3146
+E_GJ_FLOOD_2024,106,AARTIIND,Bharuch,21.6136,73.1362,Organic chemicals,0.0205,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3621
+E_GJ_FLOOD_2024,119,AARTIIND,Bharuch,21.7051,72.9959,Organic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7139
+E_GJ_FLOOD_2024,126,AARTIIND,Bharuch,21.7235,72.6105,Organic chemicals,0.0092,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1305
+E_GJ_FLOOD_2024,146,ADANIENT,Bharuch,21.7042,72.5785,Processed foods,0.0002,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4227
+E_GJ_FLOOD_2024,229,ANANTRAJ,Bharuch,21.7193,73.157,Ceramic products,0.0073,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6002
+E_GJ_FLOOD_2024,407,APOLLOTYRE,Vadodara,22.2901,73.3708,Tyres   tubes,0.0169,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4335
+E_GJ_FLOOD_2024,408,APOLLOTYRE,Vadodara,22.2891,73.3612,Tyres   tubes,0.0127,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.13
+E_GJ_FLOOD_2024,409,APOLLOTYRE,Vadodara,22.2901,73.37,Tyres   tubes,0.0253,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.436
+E_GJ_FLOOD_2024,415,APOLLOTYRE,Vadodara,22.2901,73.3708,Tyres   tubes,0.0169,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4335
+E_GJ_FLOOD_2024,418,APOLLOTYRE,Vadodara,22.2901,73.3708,Tyres   tubes,0.0106,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4335
+E_GJ_FLOOD_2024,419,APOLLOTYRE,Vadodara,21.7327,73.0372,Tyres   tubes,0.0079,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.049
+E_GJ_FLOOD_2024,421,APOLLOTYRE,Vadodara,22.2906,73.3697,Tyres   tubes,0.0177,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4426
+E_GJ_FLOOD_2024,422,APOLLOTYRE,Vadodara,22.2901,73.3708,Tyres   tubes,0.0143,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4335
+E_GJ_FLOOD_2024,424,APOLLOTYRE,Vadodara,22.3026,73.3969,Tyres   tubes,0.0169,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4176
+E_GJ_FLOOD_2024,474,ASSAMCO,Bharuch,21.7048,72.9958,Conventional electricity,0.5951,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7318
+E_GJ_FLOOD_2024,475,ASSAMCO,Bharuch,21.6985,72.5188,Shipping transport infrastructure services,0.081,True,0,,,,1,0.0,0.0,,0,,,,True,2024-08-28,False,False,False,False,False,0.0163
+E_GJ_FLOOD_2024,476,ASSAMCO,Bharuch,21.9903,73.4596,Shipping transport infrastructure services,0.3239,True,1,0.0,160.0,778.2031,1,0.0,161.0,778.2031,1,0.0,119.0,778.2031,True,2024-08-28,False,False,False,True,False,0.8123
+E_GJ_FLOOD_2024,645,BODALCHEM,Bharuch,21.7125,72.585,Dyes   pigments,0.0367,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5089
+E_GJ_FLOOD_2024,646,BODALCHEM,Vadodara,22.1873,72.8949,Conventional electricity,0.0128,True,1,0.0,0.0,,1,0.0,0.0,1245.7929,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2973
+E_GJ_FLOOD_2024,647,BODALCHEM,Vadodara,22.1795,72.884,Dyes   pigments,0.0561,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2749
+E_GJ_FLOOD_2024,648,BODALCHEM,Vadodara,22.1961,72.8826,Dyes   pigments,0.0095,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1749
+E_GJ_FLOOD_2024,649,BODALCHEM,Vadodara,22.1763,72.8824,Organic chemicals,0.0073,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1877
+E_GJ_FLOOD_2024,650,BODALCHEM,Vadodara,22.2394,73.0848,Dyes   pigments,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7787
+E_GJ_FLOOD_2024,651,BODALCHEM,Vadodara,22.181,72.8792,Dyes   pigments,0.0183,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2412
+E_GJ_FLOOD_2024,652,BODALCHEM,Vadodara,22.2315,72.8749,Dyes   pigments,0.0165,True,1,0.0,100.0,772.0104,1,0.0,205.0,761.5773,1,0.0,183.0,761.5773,True,2024-08-28,False,False,False,True,False,0.0
+E_GJ_FLOOD_2024,653,BODALCHEM,Vadodara,22.1761,72.8825,Inorganic chemicals,0.0227,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1826
+E_GJ_FLOOD_2024,656,BODALCHEM,Bharuch,21.8015,72.8526,Inorganic chemicals,0.4292,True,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2024,657,BODALCHEM,Bharuch,21.7749,72.8239,Organic chemicals,0.0807,True,1,0.0,0.0,,1,0.0,558.0,523.4501,1,0.0,149.0,660.303,True,2024-08-28,False,False,False,True,False,0.0087
+E_GJ_FLOOD_2024,658,BODALCHEM,Bharuch,21.7761,72.8264,Inorganic chemicals,0.0459,True,1,0.0,0.0,,1,198.0,853.0,272.0294,1,78.0,233.0,388.3298,True,2024-08-28,False,False,True,True,True,0.0
+E_GJ_FLOOD_2024,659,BODALCHEM,Vadodara,22.246,73.1612,Dyes   pigments,0.0,True,1,0.0,0.0,,1,0.0,181.0,761.5773,1,0.0,0.0,,True,2024-08-28,False,False,False,True,False,0.1458
+E_GJ_FLOOD_2024,660,BODALCHEM,Vadodara,22.1767,72.8822,Dyes   pigments,0.0125,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1984
+E_GJ_FLOOD_2024,661,BODALCHEM,Vadodara,22.3071,73.1816,Fertilisers,0.0257,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7496
+E_GJ_FLOOD_2024,662,BODALCHEM,Bharuch,22.1791,72.8806,Conventional electricity,0.0954,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3197
+E_GJ_FLOOD_2024,664,BODALCHEM,Vadodara,22.1799,72.8802,Dyes   pigments,0.0132,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3121
+E_GJ_FLOOD_2024,667,BORORENEW,Bharuch,21.6842,73.1044,Glass   glassware,0.2332,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5456
+E_GJ_FLOOD_2024,668,BORORENEW,Bharuch,21.6843,73.1045,Glass   glassware,0.5023,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5456
+E_GJ_FLOOD_2024,669,BORORENEW,Bharuch,21.6843,73.1045,Glass   glassware,0.2332,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5574
+E_GJ_FLOOD_2024,676,CEATLTD,Panch Mahals,22.5571,73.4439,Tyres   tubes,0.0036,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2881
+E_GJ_FLOOD_2024,677,CEATLTD,Panch Mahals,22.556,73.4431,Tyres   tubes,0.077,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3228
+E_GJ_FLOOD_2024,678,CEATLTD,Panch Mahals,22.5574,73.4437,Tyres   tubes,0.0728,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2794
+E_GJ_FLOOD_2024,679,CEATLTD,Panch Mahals,22.5046,73.4712,Tyres   tubes,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6099
+E_GJ_FLOOD_2024,680,CEATLTD,Panch Mahals,22.5559,73.4431,Tyres   tubes,0.0533,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3228
+E_GJ_FLOOD_2024,681,CEATLTD,Bharuch,21.7192,73.1497,Tyres   tubes,0.0592,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.563
+E_GJ_FLOOD_2024,694,CEATLTD,Vadodara,22.5461,73.4625,Tyres   tubes,0.0592,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5186
+E_GJ_FLOOD_2024,703,DCMSHRIRAM,Bharuch,21.7076,72.9894,Inorganic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6996
+E_GJ_FLOOD_2024,704,DCMSHRIRAM,Bharuch,21.7051,72.9959,Inorganic chemicals,0.0064,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7139
+E_GJ_FLOOD_2024,705,DCMSHRIRAM,Bharuch,21.6555,73.1328,Inorganic chemicals,0.0037,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3024
+E_GJ_FLOOD_2024,706,DCMSHRIRAM,Bharuch,21.7077,72.9945,Caustic soda,0.0095,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5599
+E_GJ_FLOOD_2024,707,DCMSHRIRAM,Bharuch,21.7051,72.9959,Caustic soda,0.0167,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7139
+E_GJ_FLOOD_2024,708,DCMSHRIRAM,Bharuch,21.7051,72.9959,Caustic soda,0.1552,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7139
+E_GJ_FLOOD_2024,709,DCMSHRIRAM,Bharuch,21.706,72.997,Inorganic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6966
+E_GJ_FLOOD_2024,710,DCMSHRIRAM,Bharuch,21.7069,72.9947,Other chemical products,0.1478,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6145
+E_GJ_FLOOD_2024,714,DCMSHRIRAM,Bharuch,21.7044,72.997,Inorganic chemicals,0.0035,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7578
+E_GJ_FLOOD_2024,724,DCMSHRIRAM,Bharuch,21.6578,73.1375,Caustic soda,0.0263,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3559
+E_GJ_FLOOD_2024,725,DCMSHRIRAM,Bharuch,21.6578,73.1375,Caustic soda,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3559
+E_GJ_FLOOD_2024,726,DCMSHRIRAM,Bharuch,21.7191,73.1497,Caustic soda,0.0887,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5778
+E_GJ_FLOOD_2024,856,MFL,Bharuch,21.6141,73.034,Other chemical products,0.0027,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7863
+E_GJ_FLOOD_2024,858,MFL,Bharuch,21.726,72.6157,Pesticides,0.0248,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.0954
+E_GJ_FLOOD_2024,859,MFL,Bharuch,21.7169,72.5804,Inorganic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3233
+E_GJ_FLOOD_2024,860,MFL,Bharuch,21.7183,72.6124,Inorganic chemicals,0.1964,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.308
+E_GJ_FLOOD_2024,861,MFL,Bharuch,21.7129,72.582,Inorganic chemicals,0.023,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4702
+E_GJ_FLOOD_2024,862,MFL,Bharuch,21.7172,72.6098,Caustic soda,0.0815,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2341
+E_GJ_FLOOD_2024,863,MFL,Bharuch,21.7157,72.6068,Polymers,0.0886,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1754
+E_GJ_FLOOD_2024,864,MFL,Bharuch,21.7171,72.6093,Polymers,0.0673,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2254
+E_GJ_FLOOD_2024,865,MFL,Bharuch,21.7175,72.6092,Organic chemicals,0.0638,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2336
+E_GJ_FLOOD_2024,866,MFL,Bharuch,21.7175,72.6093,Polymers,0.0089,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2356
+E_GJ_FLOOD_2024,867,MFL,Bharuch,21.7153,72.6032,Other chemical products,0.0974,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1866
+E_GJ_FLOOD_2024,868,MFL,Bharuch,21.7129,72.582,Inorganic chemicals,0.1417,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4702
+E_GJ_FLOOD_2024,869,MFL,Bharuch,21.7045,72.6394,Pesticides,0.124,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4156
+E_GJ_FLOOD_2024,870,MFL,Bharuch,21.74,72.6661,Organic chemicals,0.0567,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1137
+E_GJ_FLOOD_2024,871,MFL,Bharuch,21.542,72.9992,Dyes   pigments,0.0126,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2978
+E_GJ_FLOOD_2024,935,GAIL,Anand,22.202,69.8644,Crude oil   natural gas,0.0009,False,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2024,943,GAIL,Bharuch,21.7231,72.5594,Synthetic rubber,0.0139,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1382
+E_GJ_FLOOD_2024,1011,GAIL,Vadodara,22.2946,73.2034,Conventional electricity,0.0002,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.8567
+E_GJ_FLOOD_2024,1021,GUJALKALI,Bharuch,21.7137,72.5811,Inorganic chemicals,0.0012,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4457
+E_GJ_FLOOD_2024,1022,GUJALKALI,Bharuch,21.7254,73.0028,Inorganic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6007
+E_GJ_FLOOD_2024,1024,GUJALKALI,Vadodara,22.3063,73.1854,Inorganic chemicals,0.0004,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7557
+E_GJ_FLOOD_2024,1027,GUJALKALI,Bharuch,21.7034,72.5972,Conventional electricity,0.0151,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4712
+E_GJ_FLOOD_2024,1028,GUJALKALI,Bharuch,21.7045,72.5958,Inorganic chemicals,0.0017,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3957
+E_GJ_FLOOD_2024,1029,GUJALKALI,Bharuch,21.7057,72.5957,Inorganic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3738
+E_GJ_FLOOD_2024,1030,GUJALKALI,Bharuch,21.708,72.5991,Caustic soda,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2886
+E_GJ_FLOOD_2024,1031,GUJALKALI,Bharuch,21.7088,72.603,Caustic soda,0.0019,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2703
+E_GJ_FLOOD_2024,1032,GUJALKALI,Bharuch,21.7089,72.6023,Caustic soda,0.0019,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2743
+E_GJ_FLOOD_2024,1033,GUJALKALI,Bharuch,21.7052,72.596,Caustic soda,0.0261,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3616
+E_GJ_FLOOD_2024,1034,GUJALKALI,Bharuch,21.7066,72.5968,Caustic soda,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.335
+E_GJ_FLOOD_2024,1035,GUJALKALI,Bharuch,22.3965,73.1165,Caustic soda,0.0004,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6206
+E_GJ_FLOOD_2024,1036,GUJALKALI,Bharuch,21.7087,72.6037,Caustic soda,0.0009,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2611
+E_GJ_FLOOD_2024,1037,GUJALKALI,Bharuch,21.7088,72.6039,Caustic soda,0.0147,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.257
+E_GJ_FLOOD_2024,1038,GUJALKALI,Bharuch,21.7005,72.5894,Caustic soda,0.0301,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3585
+E_GJ_FLOOD_2024,1039,GUJALKALI,Bharuch,21.7055,72.5956,Organic chemicals,0.0403,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3717
+E_GJ_FLOOD_2024,1040,GUJALKALI,Bharuch,21.737,72.5558,Organic chemicals,0.0166,True,1,0.0,0.0,,1,0.0,49.0,804.9845,1,0.0,172.0,817.0679,True,2024-08-28,False,False,False,True,False,0.3585
+E_GJ_FLOOD_2024,1041,GUJALKALI,Bharuch,21.7445,72.6079,Conventional electricity,0.0154,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.0597
+E_GJ_FLOOD_2024,1042,GUJALKALI,Bharuch,21.7271,73.0031,Organic chemicals,0.0038,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6267
+E_GJ_FLOOD_2024,1043,GUJALKALI,Bharuch,21.7257,73.0033,Organic chemicals,0.0071,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6181
+E_GJ_FLOOD_2024,1044,GUJALKALI,Bharuch,21.7092,72.6042,Aluminium   aluminium products,0.0006,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2478
+E_GJ_FLOOD_2024,1045,GUJALKALI,Bharuch,21.7129,72.5819,Conventional electricity,0.019,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4671
+E_GJ_FLOOD_2024,1046,GUJALKALI,Bharuch,21.7148,72.5847,Inorganic chemicals,0.0192,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4187
+E_GJ_FLOOD_2024,1047,GUJALKALI,Bharuch,21.714,72.5806,Inorganic chemicals,0.0047,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4539
+E_GJ_FLOOD_2024,1048,GUJALKALI,Bharuch,21.6957,72.5356,Inorganic chemicals,0.0047,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5854
+E_GJ_FLOOD_2024,1049,GUJALKALI,Bharuch,21.7051,72.5952,Inorganic chemicals,0.0053,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3881
+E_GJ_FLOOD_2024,1050,GUJALKALI,Bharuch,21.7053,72.5952,Inorganic chemicals,0.0068,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3865
+E_GJ_FLOOD_2024,1051,GUJALKALI,Bharuch,21.7088,72.5928,Organic chemicals,0.4747,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.306
+E_GJ_FLOOD_2024,1052,GUJALKALI,Bharuch,21.7091,72.6039,Inorganic chemicals,0.0247,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2596
+E_GJ_FLOOD_2024,1053,GUJALKALI,Bharuch,21.705,72.5958,Inorganic chemicals,0.006,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3779
+E_GJ_FLOOD_2024,1054,GUJALKALI,Bharuch,21.709,72.6039,Polymers,0.1187,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2565
+E_GJ_FLOOD_2024,1055,GUJALKALI,Bharuch,21.7054,72.5955,Inorganic chemicals,0.0047,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3789
+E_GJ_FLOOD_2024,1056,GUJALKALI,Bharuch,21.7129,72.582,Other chemical products,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4702
+E_GJ_FLOOD_2024,1057,GUJALKALI,Bharuch,21.7138,72.583,Inorganic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4666
+E_GJ_FLOOD_2024,1058,GUJALKALI,Bharuch,21.7053,72.5942,Inorganic chemicals,0.0012,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4029
+E_GJ_FLOOD_2024,1060,GUJALKALI,Bharuch,21.7055,72.5955,Inorganic chemicals,0.0052,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3789
+E_GJ_FLOOD_2024,1061,GUJALKALI,Bharuch,21.7248,73.0012,Inorganic chemicals,0.0056,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5533
+E_GJ_FLOOD_2024,1064,GUJALKALI,Bharuch,21.714,72.5788,Inorganic chemicals,0.0007,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4192
+E_GJ_FLOOD_2024,1069,GUJALKALI,Vadodara,22.3965,73.1165,Inorganic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6206
+E_GJ_FLOOD_2024,1070,GUJALKALI,Vadodara,22.3952,73.1175,Inorganic chemicals,0.0019,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6435
+E_GJ_FLOOD_2024,1071,GUJALKALI,Vadodara,22.3951,73.1177,Organic chemicals,0.0057,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6492
+E_GJ_FLOOD_2024,1072,GUJALKALI,Vadodara,22.3072,73.1812,Inorganic chemicals,0.001,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7613
+E_GJ_FLOOD_2024,1073,GUJALKALI,Vadodara,22.3076,73.1849,Inorganic chemicals,0.0007,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6986
+E_GJ_FLOOD_2024,1074,GUJALKALI,Vadodara,22.3072,73.1812,Inorganic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7613
+E_GJ_FLOOD_2024,1076,GNFC,Bharuch,21.7403,73.0103,Organic chemicals,0.0,True,1,0.0,11.0,957.0789,1,0.0,9.0,966.0228,1,0.0,13.0,957.0789,True,2024-08-28,False,False,False,True,False,0.641
+E_GJ_FLOOD_2024,1077,GNFC,Bharuch,21.7108,73.0127,Inorganic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3575
+E_GJ_FLOOD_2024,1078,GNFC,Bharuch,21.7305,73.0237,Inorganic chemicals,0.0995,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5844
+E_GJ_FLOOD_2024,1079,GNFC,Bharuch,21.7331,73.0057,Fertilisers,0.0149,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5482
+E_GJ_FLOOD_2024,1080,GNFC,Bharuch,21.7361,73.011,Conventional electricity,0.0123,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6058
+E_GJ_FLOOD_2024,1081,GNFC,Bharuch,21.7359,73.0108,Inorganic chemicals,0.009,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6109
+E_GJ_FLOOD_2024,1082,GNFC,Bharuch,21.6983,72.9985,Inorganic chemicals,0.0,True,1,0.0,0.0,,1,2.0,198.0,481.6638,1,0.0,0.0,,True,2024-08-28,False,False,False,True,False,0.4661
+E_GJ_FLOOD_2024,1083,GNFC,Bharuch,21.736,73.0109,Organic chemicals,0.0102,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6058
+E_GJ_FLOOD_2024,1084,GNFC,Bharuch,21.7366,73.0103,Organic chemicals,0.0009,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6043
+E_GJ_FLOOD_2024,1085,GNFC,Bharuch,21.7123,73.0115,Organic chemicals,0.0043,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3361
+E_GJ_FLOOD_2024,1086,GNFC,Bharuch,21.6994,72.9984,Telecommunication services,0.0082,True,1,0.0,0.0,,1,0.0,135.0,602.9925,1,0.0,0.0,,True,2024-08-28,False,False,False,True,False,0.5757
+E_GJ_FLOOD_2024,1087,GNFC,Bharuch,21.7261,72.9968,Organic chemicals,0.0749,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3717
+E_GJ_FLOOD_2024,1088,GNFC,Bharuch,21.7355,73.0095,Vegetable oils   products,0.0041,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6237
+E_GJ_FLOOD_2024,1089,GNFC,Bharuch,21.7364,73.0095,Inorganic chemicals,0.0025,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.613
+E_GJ_FLOOD_2024,1090,GNFC,Bharuch,21.7433,73.0035,Fertilisers,0.135,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1749
+E_GJ_FLOOD_2024,1091,GNFC,Bharuch,21.7064,72.9956,Inorganic chemicals,0.0778,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6563
+E_GJ_FLOOD_2024,1092,GNFC,Bharuch,21.7305,73.0237,Inorganic chemicals,0.0214,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5844
+E_GJ_FLOOD_2024,1094,GNFC,Bharuch,21.7265,73.0239,Inorganic chemicals,0.0026,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6374
+E_GJ_FLOOD_2024,1095,GNFC,Bharuch,21.7129,72.582,Renewable electricity,0.0213,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4702
+E_GJ_FLOOD_2024,1096,GNFC,Bharuch,21.7461,73.0098,Conventional electricity,0.0354,True,1,35.0,185.0,394.4617,1,32.0,174.0,400.0,1,37.0,205.0,384.1875,True,2024-08-28,False,False,True,True,False,0.4258
+E_GJ_FLOOD_2024,1097,GNFC,Bharuch,21.6937,72.6693,Organic chemicals,0.1634,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,3.0,994.5853,True,2024-08-28,False,False,False,False,False,0.2851
+E_GJ_FLOOD_2024,1098,GNFC,Bharuch,21.7054,72.9961,Inorganic chemicals,0.0074,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7047
+E_GJ_FLOOD_2024,1099,GNFC,Bharuch,21.7427,73.0108,Organic chemicals,0.0181,True,1,0.0,106.0,680.0,1,0.0,100.0,689.6376,1,0.0,111.0,680.0,True,2024-08-28,False,False,False,True,False,0.5829
+E_GJ_FLOOD_2024,1101,GNFC,Bharuch,21.7372,73.0088,Organic chemicals,0.0205,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5977
+E_GJ_FLOOD_2024,1102,GNFC,Bharuch,21.736,73.011,Fertilisers,0.0188,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6058
+E_GJ_FLOOD_2024,1103,GNFC,Bharuch,21.7409,73.0139,Inorganic chemicals,0.0067,True,1,0.0,40.0,865.7944,1,0.0,37.0,865.7944,1,0.0,42.0,880.9086,True,2024-08-28,False,False,False,True,False,0.4926
+E_GJ_FLOOD_2024,1104,GNFC,Bharuch,21.7344,73.0071,Other textiles,0.0876,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5982
+E_GJ_FLOOD_2024,1106,GNFC,Bharuch,21.7364,73.0095,Organic chemicals,0.0011,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6124
+E_GJ_FLOOD_2024,1107,GNFC,Bharuch,21.7368,73.0082,Inorganic chemicals,0.0047,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5834
+E_GJ_FLOOD_2024,1108,GNFC,Bharuch,21.727,72.9925,Fertilisers,0.0018,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2126
+E_GJ_FLOOD_2024,1109,GNFC,Bharuch,21.6993,72.9989,Inorganic chemicals,0.003,True,1,0.0,0.0,,1,0.0,134.0,588.5576,1,0.0,0.0,,True,2024-08-28,False,False,False,True,False,0.5492
+E_GJ_FLOOD_2024,1110,GSFC,Bharuch,21.7051,72.9958,Organic chemicals,0.0268,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7139
+E_GJ_FLOOD_2024,1112,GSFC,Vadodara,22.3737,73.1489,Inorganic chemicals,0.0598,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.614
+E_GJ_FLOOD_2024,1113,GSFC,Vadodara,22.3728,73.1412,Organic chemicals,0.0017,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4365
+E_GJ_FLOOD_2024,1114,GSFC,Vadodara,22.3752,73.1541,Organic chemicals,0.0314,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7705
+E_GJ_FLOOD_2024,1117,GSFC,Vadodara,22.3747,73.1527,Conventional electricity,0.0072,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7613
+E_GJ_FLOOD_2024,1118,GSFC,Bharuch,21.7309,72.5609,Fertilisers,0.4292,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3269
+E_GJ_FLOOD_2024,1119,GSFC,Bharuch,21.7302,72.6436,Organic chemicals,0.0429,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.0194
+E_GJ_FLOOD_2024,1120,GSFC,Bharuch,21.7129,72.5821,Organic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4707
+E_GJ_FLOOD_2024,1121,GSFC,Vadodara,22.3762,73.1424,Organic chemicals,0.0075,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4309
+E_GJ_FLOOD_2024,1122,GSFC,Vadodara,22.3752,73.1548,Organic chemicals,0.0161,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7511
+E_GJ_FLOOD_2024,1123,GSFC,Vadodara,22.3788,73.1496,Fertilisers,0.0019,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6558
+E_GJ_FLOOD_2024,1126,GSFC,Vadodara,22.3733,73.1497,Organic chemicals,0.0004,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6609
+E_GJ_FLOOD_2024,1127,GSFC,Vadodara,22.3736,73.1497,Organic chemicals,0.0064,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6614
+E_GJ_FLOOD_2024,1129,GSFC,Vadodara,22.3053,73.1792,Man-made filaments   fibres,0.0017,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.8312
+E_GJ_FLOOD_2024,1137,GSFC,Vadodara,22.3811,73.1446,Inorganic chemicals,0.003,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5747
+E_GJ_FLOOD_2024,1140,GSFC,Vadodara,22.3801,73.1453,Fertilisers,0.0005,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5732
+E_GJ_FLOOD_2024,1141,GSFC,Vadodara,22.3742,73.1535,Fertilisers,0.0059,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7817
+E_GJ_FLOOD_2024,1142,GSFC,Vadodara,22.2795,73.1691,Polymers,0.0268,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5808
+E_GJ_FLOOD_2024,1143,GSFC,Vadodara,22.2987,73.189,Organic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5614
+E_GJ_FLOOD_2024,1144,GSFC,Vadodara,22.3066,73.18,Organic chemicals,0.0038,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.8062
+E_GJ_FLOOD_2024,1145,GSFC,Vadodara,22.3073,73.1811,Organic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7608
+E_GJ_FLOOD_2024,1146,GSFC,Vadodara,22.3724,73.1891,Education,0.0054,True,1,0.0,0.0,,1,0.0,60.0,902.4411,1,0.0,0.0,,True,2024-08-28,False,False,False,True,False,0.2346
+E_GJ_FLOOD_2024,1147,GSFC,Vadodara,22.3061,73.1819,Drugs   pharmaceuticals,0.0054,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7685
+E_GJ_FLOOD_2024,1148,GSFC,Vadodara,22.3742,73.1498,Inorganic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6599
+E_GJ_FLOOD_2024,1149,GSFC,Vadodara,22.3742,73.1518,Organic chemicals,0.0537,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7481
+E_GJ_FLOOD_2024,1150,GSFC,Vadodara,22.3539,73.1774,Man-made filaments   fibres,0.0121,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2749
+E_GJ_FLOOD_2024,1151,GSFC,Vadodara,22.374,73.1491,Man-made filaments   fibres,0.0075,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6308
+E_GJ_FLOOD_2024,1152,GSFC,Vadodara,22.3742,73.1535,Inorganic chemicals,0.0139,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7817
+E_GJ_FLOOD_2024,1153,GSFC,Vadodara,22.3051,73.1828,Inorganic chemicals,0.0134,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7894
+E_GJ_FLOOD_2024,1154,GSFC,Vadodara,22.3751,73.1542,Inorganic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7715
+E_GJ_FLOOD_2024,1155,GSFC,Vadodara,22.2976,73.1881,Inorganic chemicals,0.0002,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4437
+E_GJ_FLOOD_2024,1156,GSFC,Vadodara,22.3072,73.1812,Fertilisers,0.0027,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7613
+E_GJ_FLOOD_2024,1256,IOC,Vadodara,22.3532,73.1135,Other construction materials,0.0004,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3468
+E_GJ_FLOOD_2024,1290,IOC,Bharuch,21.7129,72.582,Organic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4702
+E_GJ_FLOOD_2024,1310,IOC,Vadodara,22.3733,73.1895,Organic chemicals,0.0078,True,1,0.0,0.0,,1,0.0,118.0,841.1896,1,0.0,0.0,,True,2024-08-28,False,False,False,True,False,0.2279
+E_GJ_FLOOD_2024,1326,IOC,Bharuch,21.8864,72.658,Storage   distribution,0.0001,True,1,0.0,0.0,,1,0.0,103.0,622.8965,1,0.0,0.0,,True,2024-08-28,False,False,False,True,False,0.257
+E_GJ_FLOOD_2024,1334,IOC,Vadodara,22.3714,73.1267,Refinery,0.0007,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.8659
+E_GJ_FLOOD_2024,1384,IOC,Vadodara,22.3704,73.12,Renewable electricity,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.9643
+E_GJ_FLOOD_2024,1386,IOC,Vadodara,22.3764,73.1207,Electricity transmission,0.0004,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.9036
+E_GJ_FLOOD_2024,1437,IOC,Vadodara,22.3581,73.1143,Conventional electricity,0.0007,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6028
+E_GJ_FLOOD_2024,1438,IOC,Vadodara,22.3741,73.1219,Refinery,0.0006,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.9322
+E_GJ_FLOOD_2024,1439,IOC,Vadodara,22.3695,73.1154,Refinery,0.0023,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.9184
+E_GJ_FLOOD_2024,1440,IOC,Vadodara,22.3713,73.1175,Organic chemicals,0.003,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.9102
+E_GJ_FLOOD_2024,1441,IOC,Vadodara,22.3581,73.1143,Refinery,0.006,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6028
+E_GJ_FLOOD_2024,1442,IOC,Vadodara,22.3714,73.112,Refinery,0.0428,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7991
+E_GJ_FLOOD_2024,1443,IOC,Vadodara,22.3821,73.1151,Refinery,0.003,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.8399
+E_GJ_FLOOD_2024,1444,IOC,Vadodara,22.3539,73.1129,Refinery,0.0078,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3952
+E_GJ_FLOOD_2024,1445,IOC,Vadodara,22.3583,73.1153,Refinery,0.0013,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6181
+E_GJ_FLOOD_2024,1446,IOC,Vadodara,22.3545,73.1135,Renewable electricity,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.436
+E_GJ_FLOOD_2024,1447,IOC,Vadodara,22.3696,73.1207,Renewable electricity,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.9801
+E_GJ_FLOOD_2024,1448,IOC,Vadodara,22.3585,73.1334,Other miscellaneous services,0.0003,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.563
+E_GJ_FLOOD_2024,1450,IOC,Vadodara,19.0977,74.7463,Storage   distribution,0.004,False,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2024,1452,IOC,Vadodara,22.3581,73.1143,Storage   distribution,0.0005,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6028
+E_GJ_FLOOD_2024,1592,IOC,Vadodara,22.3665,73.1187,Refinery,0.0013,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.9429
+E_GJ_FLOOD_2024,1593,IOC,Vadodara,22.3718,73.1212,Refinery,0.0123,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.9281
+E_GJ_FLOOD_2024,1598,IOC,Vadodara,22.3706,73.1128,Storage   distribution,0.0016,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.844
+E_GJ_FLOOD_2024,1605,IOC,Vadodara,22.562,73.2173,Conventional electricity,0.003,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.152
+E_GJ_FLOOD_2024,1644,IOC,Vadodara,22.3581,73.1143,Organic chemicals,0.0143,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6028
+E_GJ_FLOOD_2024,1645,IOC,Vadodara,22.3716,73.1114,Refinery,0.001,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7644
+E_GJ_FLOOD_2024,1646,IOC,Vadodara,22.3741,73.1234,Organic chemicals,0.0022,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.9352
+E_GJ_FLOOD_2024,1647,IOC,Vadodara,22.3749,73.1184,Refinery,0.0015,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.8664
+E_GJ_FLOOD_2024,1662,IPCL,Vadodara,22.3571,73.1152,Organic chemicals,0.0038,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.562
+E_GJ_FLOOD_2024,1663,IPCL,Bharuch,21.6865,72.5829,Conventional electricity,0.0184,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5273
+E_GJ_FLOOD_2024,1665,IPCL,Bharuch,21.8894,72.6594,Organic chemicals,0.0525,True,1,0.0,0.0,,1,0.0,89.0,869.2526,1,0.0,0.0,,True,2024-08-28,False,False,False,True,False,0.1999
+E_GJ_FLOOD_2024,1666,IPCL,Bharuch,21.684,72.5687,Polymers,0.1562,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.8129
+E_GJ_FLOOD_2024,1667,IPCL,Bharuch,21.6861,72.5737,Organic chemicals,0.3063,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6905
+E_GJ_FLOOD_2024,1668,IPCL,Vadodara,22.3139,73.1748,Synthetic rubber,0.0131,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.719
+E_GJ_FLOOD_2024,1669,IPCL,Vadodara,22.3793,73.1064,Polymers,0.0175,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6043
+E_GJ_FLOOD_2024,1673,IPCL,Bharuch,21.8887,72.6586,Organic chemicals,0.2188,True,1,0.0,0.0,,1,0.0,41.0,860.2325,1,0.0,0.0,,True,2024-08-28,False,False,False,True,False,0.2448
+E_GJ_FLOOD_2024,1674,IPCL,Vadodara,22.3827,73.115,Organic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.8511
+E_GJ_FLOOD_2024,1675,IPCL,Vadodara,22.3517,73.158,Organic chemicals,0.105,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1724
+E_GJ_FLOOD_2024,1854,JPASSOCIAT,Kheda,22.7506,72.6847,Cement,0.0,True,1,0.0,0.0,,1,3.0,753.0,488.2622,1,98.0,461.0,393.9543,True,2024-08-28,False,False,False,True,False,0.6966
+E_GJ_FLOOD_2024,1855,JPASSOCIAT,Kheda,22.867,73.361,Cement,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.8608
+E_GJ_FLOOD_2024,2001,KIRIINDUS,Bharuch,21.7233,72.5982,Organic chemicals,0.9814,True,1,46.0,94.0,368.7818,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.0535
+E_GJ_FLOOD_2024,2002,KIRIINDUS,Vadodara,22.3061,73.182,Inorganic chemicals,0.0186,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7685
+E_GJ_FLOOD_2024,2003,KIRIINDUS,Vadodara,22.3703,73.1499,Organic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6961
+E_GJ_FLOOD_2024,2008,MRF,Bharuch,21.717,72.5804,Tyres   tubes,0.3017,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3233
+E_GJ_FLOOD_2024,2220,MODTHREAD,Bharuch,21.7383,72.995,Conventional electricity,0.2486,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1188
+E_GJ_FLOOD_2024,2221,MODTHREAD,Bharuch,21.7384,72.9889,Organic chemicals,0.7044,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1474
+E_GJ_FLOOD_2024,2411,NTPC,Anand,22.2346,72.7605,Conventional electricity,0.0088,True,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2024,2430,NTPC,Bharuch,21.8861,72.6603,Conventional electricity,0.0053,True,1,0.0,0.0,,1,0.0,144.0,538.5165,1,0.0,0.0,,True,2024-08-28,False,False,False,True,False,0.2478
+E_GJ_FLOOD_2024,2431,NTPC,Bharuch,21.8869,72.6585,Renewable electricity,0.0001,True,1,0.0,0.0,,1,0.0,89.0,660.0,1,0.0,0.0,,True,2024-08-28,False,False,False,True,False,0.2591
+E_GJ_FLOOD_2024,2441,NTPC,Bharuch,21.8241,73.1141,Conventional electricity,0.003,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.8317
+E_GJ_FLOOD_2024,2696,NECLIFE,Bharuch,20.6099,72.9262,Drugs   pharmaceuticals,0.7231,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.9046
+E_GJ_FLOOD_2024,2778,PETRONET,Bharuch,21.7309,72.561,Conventional electricity,0.0715,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3269
+E_GJ_FLOOD_2024,2779,PETRONET,Bharuch,21.6749,72.5348,Natural gas trading   distribution,0.0503,True,1,0.0,0.0,1244.8293,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4513
+E_GJ_FLOOD_2024,2780,PETRONET,Bharuch,21.6722,72.534,Natural gas trading   distribution,0.0358,True,1,0.0,0.0,1160.1724,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.307
+E_GJ_FLOOD_2024,2781,PETRONET,Bharuch,21.6789,72.5391,Natural gas trading   distribution,0.0046,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3794
+E_GJ_FLOOD_2024,2782,PETRONET,Bharuch,21.6749,72.5349,Transport logistics services,0.0,True,1,0.0,0.0,1230.4471,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4595
+E_GJ_FLOOD_2024,2783,PETRONET,Bharuch,21.6604,72.1565,Refinery,0.3524,False,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2024,2784,PETRONET,Bharuch,21.675,72.5214,Shipping transport infrastructure services,0.017,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.0
+E_GJ_FLOOD_2024,2785,PETRONET,Bharuch,21.6635,72.5105,Shipping transport infrastructure services,0.0281,True,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2024,2792,PETRONET,Bharuch,21.6669,72.5737,Shipping transport infrastructure services,0.0077,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4013
+E_GJ_FLOOD_2024,2846,RELIANCE,Vadodara,22.3053,73.1795,Organic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.8256
+E_GJ_FLOOD_2024,2871,RELIANCE,Bharuch,21.6848,72.5748,Organic chemicals,0.0203,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7257
+E_GJ_FLOOD_2024,2872,RELIANCE,Bharuch,21.727,72.5643,Health services,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2427
+E_GJ_FLOOD_2024,2873,RELIANCE,Bharuch,21.7129,72.582,Organic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4702
+E_GJ_FLOOD_2024,2874,RELIANCE,Bharuch,21.7256,72.5433,Man-made filaments   fibres,0.0,True,1,0.0,0.0,,1,0.0,0.0,1111.3955,1,0.0,0.0,1132.0777,True,2024-08-28,False,False,False,False,False,0.3422
+E_GJ_FLOOD_2024,2875,RELIANCE,Bharuch,21.6846,72.575,Organic chemicals,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7292
+E_GJ_FLOOD_2024,2876,RELIANCE,Bharuch,21.6988,72.5967,Conventional electricity,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3503
+E_GJ_FLOOD_2024,2885,RELIANCE,Bharuch,21.8864,72.658,Organic chemicals,0.0,True,1,0.0,0.0,,1,0.0,103.0,622.8965,1,0.0,0.0,,True,2024-08-28,False,False,False,True,False,0.257
+E_GJ_FLOOD_2024,2886,RELIANCE,Bharuch,21.7309,73.011,Organic chemicals,0.0015,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6313
+E_GJ_FLOOD_2024,2983,RELIANCE,Bharuch,21.1733,72.6787,Organic chemicals,0.0011,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7058
+E_GJ_FLOOD_2024,2998,RELIANCE,Vadodara,22.2775,73.1707,Man-made filaments   fibres,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4156
+E_GJ_FLOOD_2024,2999,RELIANCE,Vadodara,22.3855,73.1124,Organic chemicals,0.0035,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.8496
+E_GJ_FLOOD_2024,3000,RELIANCE,Vadodara,22.3425,73.2139,Education,0.0008,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3279
+E_GJ_FLOOD_2024,3001,RELIANCE,Vadodara,22.3724,73.1062,Polymers,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5227
+E_GJ_FLOOD_2024,3002,RELIANCE,Vadodara,22.3727,73.1061,Synthetic rubber,0.0008,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5324
+E_GJ_FLOOD_2024,3003,RELIANCE,Vadodara,22.3069,73.1812,Other textiles,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.7874
+E_GJ_FLOOD_2024,3006,RELIANCE,Vadodara,22.7556,73.6207,Renewable electricity,0.0007,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2636
+E_GJ_FLOOD_2024,3012,RELINFRA,Bharuch,21.7121,72.5841,Conventional electricity,0.0011,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5258
+E_GJ_FLOOD_2024,3013,RELINFRA,Bharuch,21.7238,72.5716,Conventional electricity,0.0105,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1933
+E_GJ_FLOOD_2024,3051,SRF,Bharuch,21.7055,72.6384,Electricity transmission,0.0076,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4691
+E_GJ_FLOOD_2024,3052,SRF,Bharuch,21.7114,72.6311,Other chemical products,0.0021,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2519
+E_GJ_FLOOD_2024,3053,SRF,Bharuch,21.7089,72.6476,Other chemical products,0.0037,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.156
+E_GJ_FLOOD_2024,3054,SRF,Bharuch,21.7139,72.5986,Other chemical products,0.0014,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1877
+E_GJ_FLOOD_2024,3055,SRF,Bharuch,21.7108,72.6327,Pesticides,0.0057,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2963
+E_GJ_FLOOD_2024,3056,SRF,Bharuch,21.7212,72.627,Pesticides,0.0132,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.0423
+E_GJ_FLOOD_2024,3057,SRF,Bharuch,21.7119,72.6316,Other chemical products,0.0121,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2606
+E_GJ_FLOOD_2024,3058,SRF,Bharuch,21.7093,72.6094,Other chemical products,0.0132,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1356
+E_GJ_FLOOD_2024,3059,SRF,Bharuch,21.7089,72.6476,Pesticides,0.004,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.156
+E_GJ_FLOOD_2024,3060,SRF,Bharuch,21.7309,72.5609,Conventional electricity,0.0026,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3269
+E_GJ_FLOOD_2024,3061,SRF,Bharuch,21.7117,72.6315,Organic chemicals,0.0198,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.256
+E_GJ_FLOOD_2024,3062,SRF,Bharuch,21.7123,72.5849,Organic chemicals,0.0085,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5125
+E_GJ_FLOOD_2024,3063,SRF,Bharuch,21.6905,72.276,Other chemical products,0.0003,False,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2024,3064,SRF,Bharuch,21.7036,72.6256,Other chemical products,0.0044,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1968
+E_GJ_FLOOD_2024,3065,SRF,Bharuch,21.7129,72.582,Organic chemicals,0.0022,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4702
+E_GJ_FLOOD_2024,3066,SRF,Bharuch,21.7297,72.6206,Other chemical products,0.0283,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.0495
+E_GJ_FLOOD_2024,3067,SRF,Bharuch,21.7114,72.6322,Other chemical products,0.0034,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2723
+E_GJ_FLOOD_2024,3068,SRF,Bharuch,21.7044,72.6256,Other chemical products,0.0188,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1979
+E_GJ_FLOOD_2024,3069,SRF,Bharuch,21.7118,72.6316,Inorganic chemicals,0.0246,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2606
+E_GJ_FLOOD_2024,3070,SRF,Bharuch,21.7036,72.6256,Other chemical products,0.0041,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1968
+E_GJ_FLOOD_2024,3071,SRF,Bharuch,21.7227,72.653,Commercial complexes,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1596
+E_GJ_FLOOD_2024,3072,SRF,Bharuch,21.7041,72.6255,Other chemical products,0.0089,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1968
+E_GJ_FLOOD_2024,3073,SRF,Bharuch,21.7129,72.582,Other chemical products,0.0093,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4702
+E_GJ_FLOOD_2024,3074,SRF,Bharuch,21.7101,72.6352,Other chemical products,0.0208,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3422
+E_GJ_FLOOD_2024,3075,SRF,Bharuch,21.7117,72.6306,Other chemical products,0.006,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2249
+E_GJ_FLOOD_2024,3076,SRF,Bharuch,21.7064,72.6335,Other chemical products,0.0012,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4727
+E_GJ_FLOOD_2024,3077,SRF,Bharuch,21.7117,72.6322,Other chemical products,0.0009,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2642
+E_GJ_FLOOD_2024,3078,SRF,Bharuch,21.7097,72.5866,Inorganic chemicals,0.0042,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4452
+E_GJ_FLOOD_2024,3079,SRF,Bharuch,21.7088,72.6348,Other chemical products,0.003,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4054
+E_GJ_FLOOD_2024,3080,SRF,Bharuch,21.7431,72.662,Other chemical products,0.386,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.0612
+E_GJ_FLOOD_2024,3081,SRF,Bharuch,21.7117,72.6315,Drugs   pharmaceuticals,0.0115,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2585
+E_GJ_FLOOD_2024,3082,SRF,Bharuch,21.7129,72.5812,Other chemical products,0.0032,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4493
+E_GJ_FLOOD_2024,3083,SRF,Bharuch,21.7062,72.6334,Other chemical products,0.0026,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4707
+E_GJ_FLOOD_2024,3084,SRF,Bharuch,21.7115,72.6318,Polymers,0.0252,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2657
+E_GJ_FLOOD_2024,3085,SRF,Bharuch,21.7129,72.582,Other chemical products,0.0013,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4702
+E_GJ_FLOOD_2024,3086,SRF,Bharuch,21.7293,72.6489,Other chemical products,0.0015,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.0699
+E_GJ_FLOOD_2024,3087,SRF,Bharuch,21.7044,72.6263,Other chemical products,0.0026,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2152
+E_GJ_FLOOD_2024,3088,SRF,Bharuch,21.7129,72.582,Other chemical products,0.0023,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4702
+E_GJ_FLOOD_2024,3089,SRF,Bharuch,21.7057,72.6369,Other chemical products,0.0044,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5227
+E_GJ_FLOOD_2024,3090,SRF,Bharuch,21.7043,72.6251,Other chemical products,0.0027,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1948
+E_GJ_FLOOD_2024,3091,SRF,Bharuch,21.7119,72.6316,Other chemical products,0.0085,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2606
+E_GJ_FLOOD_2024,3092,SRF,Bharuch,21.7249,72.622,Other chemical products,0.0038,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.0326
+E_GJ_FLOOD_2024,3093,SRF,Bharuch,21.6604,72.1565,Other chemical products,0.0027,False,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2024,3094,SRF,Bharuch,21.7073,72.6374,Other chemical products,0.0018,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4595
+E_GJ_FLOOD_2024,3095,SRF,Bharuch,21.7116,72.6324,Other chemical products,0.0012,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2667
+E_GJ_FLOOD_2024,3096,SRF,Bharuch,21.7114,72.6322,Other chemical products,0.0027,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2723
+E_GJ_FLOOD_2024,3097,SRF,Bharuch,21.7132,72.5843,Polymers,0.0306,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5003
+E_GJ_FLOOD_2024,3098,SRF,Bharuch,21.7119,72.6306,Other chemical products,0.006,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.232
+E_GJ_FLOOD_2024,3099,SRF,Bharuch,21.7201,72.6201,Pesticides,0.0653,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1617
+E_GJ_FLOOD_2024,3100,SRF,Bharuch,21.7121,72.6335,Inorganic chemicals,0.0058,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.2718
+E_GJ_FLOOD_2024,3540,UPL,Bharuch,21.9937,72.8691,Renewable electricity,0.0013,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.6334
+E_GJ_FLOOD_2024,3541,UPL,Bharuch,21.8833,72.9031,Renewable electricity,0.0013,True,1,0.0,0.0,,1,596.0,2285.0,82.4621,1,0.0,0.0,,True,2024-08-28,False,True,True,True,True,0.0337
+E_GJ_FLOOD_2024,3542,UPL,Bharuch,21.9147,72.8996,Renewable electricity,0.0013,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1397
+E_GJ_FLOOD_2024,3543,UPL,Bharuch,21.6257,73.0127,Pesticides,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4819
+E_GJ_FLOOD_2024,3545,UPL,Bharuch,21.6419,73.1314,Organic chemicals,0.0383,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1871
+E_GJ_FLOOD_2024,3546,UPL,Bharuch,21.7162,72.5806,Pesticides,0.19,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3687
+E_GJ_FLOOD_2024,3547,UPL,Panch Mahals,22.4568,73.4767,Pesticides,0.0192,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4518
+E_GJ_FLOOD_2024,3549,UPL,Bharuch,21.7194,73.1499,Other chemical products,0.1531,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.539
+E_GJ_FLOOD_2024,3550,UPL,Bharuch,21.6514,73.1324,Pesticides,0.0377,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5064
+E_GJ_FLOOD_2024,3551,UPL,Bharuch,21.6198,73.1268,Pesticides,0.0655,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.3503
+E_GJ_FLOOD_2024,3552,UPL,Bharuch,21.7737,72.6329,Other chemical products,0.0286,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.0046
+E_GJ_FLOOD_2024,3554,UPL,Bharuch,21.8928,72.9092,Renewable electricity,0.0036,True,1,0.0,0.0,,1,579.0,2776.0,100.0,1,0.0,655.0,538.5165,True,2024-08-28,False,True,True,True,True,0.0581
+E_GJ_FLOOD_2024,3555,UPL,Bharuch,21.9158,72.8991,Renewable electricity,0.0036,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.1397
+E_GJ_FLOOD_2024,3556,UPL,Bharuch,21.1682,72.8077,Renewable electricity,0.0011,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.511
+E_GJ_FLOOD_2024,3832,VEDL,Kheda,22.6668,72.6666,Crude oil   natural gas,0.0,True,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2024,3833,VEDL,Vadodara,22.25,73.0833,Crude oil   natural gas,0.0,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.4426
+E_GJ_FLOOD_2024,3902,ZUARI,Bharuch,21.698,72.534,Fertilisers,0.4069,True,1,0.0,0.0,,1,0.0,0.0,,1,0.0,0.0,,True,2024-08-28,False,False,False,False,False,0.5523
+E_GJ_FLOOD_2023,88,AARTIIND,Bharuch,21.7263,73.0028,Drugs   pharmaceuticals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,90,AARTIIND,Bharuch,21.6569,73.128,Other chemical products,0.0092,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,91,AARTIIND,Bharuch,21.6373,73.1311,Drugs   pharmaceuticals,0.0092,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,92,AARTIIND,Bharuch,21.7092,72.5842,Other chemical products,0.0172,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,93,AARTIIND,Bharuch,21.7145,72.6199,Natural gas trading   distribution,0.0013,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,94,AARTIIND,Bharuch,21.6864,72.5445,Organic chemicals,0.0409,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,95,AARTIIND,Bharuch,21.6566,73.1276,Organic chemicals,0.002,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,99,AARTIIND,Bharuch,21.6132,73.1351,Organic chemicals,0.3829,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,100,AARTIIND,Bharuch,21.7236,73.155,Inorganic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,101,AARTIIND,Bharuch,21.6534,73.1263,Inorganic chemicals,0.0587,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,102,AARTIIND,Bharuch,21.6566,73.1278,Other chemical products,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,103,AARTIIND,Bharuch,21.7237,73.1555,Inorganic chemicals,0.0138,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,104,AARTIIND,Bharuch,21.7191,73.1495,Drugs   pharmaceuticals,0.0172,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,105,AARTIIND,Bharuch,21.6566,73.1278,Fertilisers,0.008,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,106,AARTIIND,Bharuch,21.6136,73.1362,Organic chemicals,0.0205,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,119,AARTIIND,Bharuch,21.7051,72.9959,Organic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,126,AARTIIND,Bharuch,21.7235,72.6105,Organic chemicals,0.0092,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,146,ADANIENT,Bharuch,21.7042,72.5785,Processed foods,0.0002,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,229,ANANTRAJ,Bharuch,21.7193,73.157,Ceramic products,0.0073,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,407,APOLLOTYRE,Vadodara,22.2901,73.3708,Tyres   tubes,0.0169,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,408,APOLLOTYRE,Vadodara,22.2891,73.3612,Tyres   tubes,0.0127,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,409,APOLLOTYRE,Vadodara,22.2901,73.37,Tyres   tubes,0.0253,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,415,APOLLOTYRE,Vadodara,22.2901,73.3708,Tyres   tubes,0.0169,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,418,APOLLOTYRE,Vadodara,22.2901,73.3708,Tyres   tubes,0.0106,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,419,APOLLOTYRE,Vadodara,21.7327,73.0372,Tyres   tubes,0.0079,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,421,APOLLOTYRE,Vadodara,22.2906,73.3697,Tyres   tubes,0.0177,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,422,APOLLOTYRE,Vadodara,22.2901,73.3708,Tyres   tubes,0.0143,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,424,APOLLOTYRE,Vadodara,22.3026,73.3969,Tyres   tubes,0.0169,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,474,ASSAMCO,Bharuch,21.7048,72.9958,Conventional electricity,0.5951,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,475,ASSAMCO,Bharuch,21.6985,72.5188,Shipping transport infrastructure services,0.081,True,0,,,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,476,ASSAMCO,Bharuch,21.9903,73.4596,Shipping transport infrastructure services,0.3239,True,1,0.0,0.0,,0,,,,1,0.0,150.0,778.2031,False,,,,,,,
+E_GJ_FLOOD_2023,645,BODALCHEM,Bharuch,21.7125,72.585,Dyes   pigments,0.0367,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,646,BODALCHEM,Vadodara,22.1873,72.8949,Conventional electricity,0.0128,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,647,BODALCHEM,Vadodara,22.1795,72.884,Dyes   pigments,0.0561,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,648,BODALCHEM,Vadodara,22.1961,72.8826,Dyes   pigments,0.0095,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,649,BODALCHEM,Vadodara,22.1763,72.8824,Organic chemicals,0.0073,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,650,BODALCHEM,Vadodara,22.2394,73.0848,Dyes   pigments,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,651,BODALCHEM,Vadodara,22.181,72.8792,Dyes   pigments,0.0183,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,652,BODALCHEM,Vadodara,22.2315,72.8749,Dyes   pigments,0.0165,True,1,0.0,70.0,800.9994,0,,,,1,0.0,194.0,761.5773,False,,,,,,,
+E_GJ_FLOOD_2023,653,BODALCHEM,Vadodara,22.1761,72.8825,Inorganic chemicals,0.0227,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,656,BODALCHEM,Bharuch,21.8015,72.8526,Inorganic chemicals,0.4292,True,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2023,657,BODALCHEM,Bharuch,21.7749,72.8239,Organic chemicals,0.0807,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,658,BODALCHEM,Bharuch,21.7761,72.8264,Inorganic chemicals,0.0459,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,659,BODALCHEM,Vadodara,22.246,73.1612,Dyes   pigments,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,660,BODALCHEM,Vadodara,22.1767,72.8822,Dyes   pigments,0.0125,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,661,BODALCHEM,Vadodara,22.3071,73.1816,Fertilisers,0.0257,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,662,BODALCHEM,Bharuch,22.1791,72.8806,Conventional electricity,0.0954,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,664,BODALCHEM,Vadodara,22.1799,72.8802,Dyes   pigments,0.0132,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,667,BORORENEW,Bharuch,21.6842,73.1044,Glass   glassware,0.2332,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,668,BORORENEW,Bharuch,21.6843,73.1045,Glass   glassware,0.5023,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,669,BORORENEW,Bharuch,21.6843,73.1045,Glass   glassware,0.2332,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,676,CEATLTD,Panch Mahals,22.5571,73.4439,Tyres   tubes,0.0036,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,677,CEATLTD,Panch Mahals,22.556,73.4431,Tyres   tubes,0.077,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,678,CEATLTD,Panch Mahals,22.5574,73.4437,Tyres   tubes,0.0728,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,679,CEATLTD,Panch Mahals,22.5046,73.4712,Tyres   tubes,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,680,CEATLTD,Panch Mahals,22.5559,73.4431,Tyres   tubes,0.0533,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,681,CEATLTD,Bharuch,21.7192,73.1497,Tyres   tubes,0.0592,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,694,CEATLTD,Vadodara,22.5461,73.4625,Tyres   tubes,0.0592,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,703,DCMSHRIRAM,Bharuch,21.7076,72.9894,Inorganic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,704,DCMSHRIRAM,Bharuch,21.7051,72.9959,Inorganic chemicals,0.0064,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,705,DCMSHRIRAM,Bharuch,21.6555,73.1328,Inorganic chemicals,0.0037,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,706,DCMSHRIRAM,Bharuch,21.7077,72.9945,Caustic soda,0.0095,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,707,DCMSHRIRAM,Bharuch,21.7051,72.9959,Caustic soda,0.0167,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,708,DCMSHRIRAM,Bharuch,21.7051,72.9959,Caustic soda,0.1552,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,709,DCMSHRIRAM,Bharuch,21.706,72.997,Inorganic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,710,DCMSHRIRAM,Bharuch,21.7069,72.9947,Other chemical products,0.1478,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,714,DCMSHRIRAM,Bharuch,21.7044,72.997,Inorganic chemicals,0.0035,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,724,DCMSHRIRAM,Bharuch,21.6578,73.1375,Caustic soda,0.0263,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,725,DCMSHRIRAM,Bharuch,21.6578,73.1375,Caustic soda,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,726,DCMSHRIRAM,Bharuch,21.7191,73.1497,Caustic soda,0.0887,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,856,MFL,Bharuch,21.6141,73.034,Other chemical products,0.0027,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,858,MFL,Bharuch,21.726,72.6157,Pesticides,0.0248,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,859,MFL,Bharuch,21.7169,72.5804,Inorganic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,860,MFL,Bharuch,21.7183,72.6124,Inorganic chemicals,0.1964,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,861,MFL,Bharuch,21.7129,72.582,Inorganic chemicals,0.023,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,862,MFL,Bharuch,21.7172,72.6098,Caustic soda,0.0815,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,863,MFL,Bharuch,21.7157,72.6068,Polymers,0.0886,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,864,MFL,Bharuch,21.7171,72.6093,Polymers,0.0673,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,865,MFL,Bharuch,21.7175,72.6092,Organic chemicals,0.0638,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,866,MFL,Bharuch,21.7175,72.6093,Polymers,0.0089,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,867,MFL,Bharuch,21.7153,72.6032,Other chemical products,0.0974,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,868,MFL,Bharuch,21.7129,72.582,Inorganic chemicals,0.1417,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,869,MFL,Bharuch,21.7045,72.6394,Pesticides,0.124,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,870,MFL,Bharuch,21.74,72.6661,Organic chemicals,0.0567,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,871,MFL,Bharuch,21.542,72.9992,Dyes   pigments,0.0126,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,935,GAIL,Anand,22.202,69.8644,Crude oil   natural gas,0.0009,False,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2023,943,GAIL,Bharuch,21.7231,72.5594,Synthetic rubber,0.0139,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1011,GAIL,Vadodara,22.2946,73.2034,Conventional electricity,0.0002,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1021,GUJALKALI,Bharuch,21.7137,72.5811,Inorganic chemicals,0.0012,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1022,GUJALKALI,Bharuch,21.7254,73.0028,Inorganic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1024,GUJALKALI,Vadodara,22.3063,73.1854,Inorganic chemicals,0.0004,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1027,GUJALKALI,Bharuch,21.7034,72.5972,Conventional electricity,0.0151,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1028,GUJALKALI,Bharuch,21.7045,72.5958,Inorganic chemicals,0.0017,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1029,GUJALKALI,Bharuch,21.7057,72.5957,Inorganic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1030,GUJALKALI,Bharuch,21.708,72.5991,Caustic soda,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1031,GUJALKALI,Bharuch,21.7088,72.603,Caustic soda,0.0019,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1032,GUJALKALI,Bharuch,21.7089,72.6023,Caustic soda,0.0019,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1033,GUJALKALI,Bharuch,21.7052,72.596,Caustic soda,0.0261,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1034,GUJALKALI,Bharuch,21.7066,72.5968,Caustic soda,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1035,GUJALKALI,Bharuch,22.3965,73.1165,Caustic soda,0.0004,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1036,GUJALKALI,Bharuch,21.7087,72.6037,Caustic soda,0.0009,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1037,GUJALKALI,Bharuch,21.7088,72.6039,Caustic soda,0.0147,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1038,GUJALKALI,Bharuch,21.7005,72.5894,Caustic soda,0.0301,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1039,GUJALKALI,Bharuch,21.7055,72.5956,Organic chemicals,0.0403,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1040,GUJALKALI,Bharuch,21.737,72.5558,Organic chemicals,0.0166,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1041,GUJALKALI,Bharuch,21.7445,72.6079,Conventional electricity,0.0154,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1042,GUJALKALI,Bharuch,21.7271,73.0031,Organic chemicals,0.0038,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1043,GUJALKALI,Bharuch,21.7257,73.0033,Organic chemicals,0.0071,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1044,GUJALKALI,Bharuch,21.7092,72.6042,Aluminium   aluminium products,0.0006,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1045,GUJALKALI,Bharuch,21.7129,72.5819,Conventional electricity,0.019,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1046,GUJALKALI,Bharuch,21.7148,72.5847,Inorganic chemicals,0.0192,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1047,GUJALKALI,Bharuch,21.714,72.5806,Inorganic chemicals,0.0047,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1048,GUJALKALI,Bharuch,21.6957,72.5356,Inorganic chemicals,0.0047,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1049,GUJALKALI,Bharuch,21.7051,72.5952,Inorganic chemicals,0.0053,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1050,GUJALKALI,Bharuch,21.7053,72.5952,Inorganic chemicals,0.0068,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1051,GUJALKALI,Bharuch,21.7088,72.5928,Organic chemicals,0.4747,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1052,GUJALKALI,Bharuch,21.7091,72.6039,Inorganic chemicals,0.0247,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1053,GUJALKALI,Bharuch,21.705,72.5958,Inorganic chemicals,0.006,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1054,GUJALKALI,Bharuch,21.709,72.6039,Polymers,0.1187,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1055,GUJALKALI,Bharuch,21.7054,72.5955,Inorganic chemicals,0.0047,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1056,GUJALKALI,Bharuch,21.7129,72.582,Other chemical products,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1057,GUJALKALI,Bharuch,21.7138,72.583,Inorganic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1058,GUJALKALI,Bharuch,21.7053,72.5942,Inorganic chemicals,0.0012,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1060,GUJALKALI,Bharuch,21.7055,72.5955,Inorganic chemicals,0.0052,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1061,GUJALKALI,Bharuch,21.7248,73.0012,Inorganic chemicals,0.0056,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1064,GUJALKALI,Bharuch,21.714,72.5788,Inorganic chemicals,0.0007,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1069,GUJALKALI,Vadodara,22.3965,73.1165,Inorganic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1070,GUJALKALI,Vadodara,22.3952,73.1175,Inorganic chemicals,0.0019,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1071,GUJALKALI,Vadodara,22.3951,73.1177,Organic chemicals,0.0057,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1072,GUJALKALI,Vadodara,22.3072,73.1812,Inorganic chemicals,0.001,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1073,GUJALKALI,Vadodara,22.3076,73.1849,Inorganic chemicals,0.0007,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1074,GUJALKALI,Vadodara,22.3072,73.1812,Inorganic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1076,GNFC,Bharuch,21.7403,73.0103,Organic chemicals,0.0,True,1,0.0,16.0,957.0789,0,,,,1,0.0,11.0,957.0789,False,,,,,,,
+E_GJ_FLOOD_2023,1077,GNFC,Bharuch,21.7108,73.0127,Inorganic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1078,GNFC,Bharuch,21.7305,73.0237,Inorganic chemicals,0.0995,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1079,GNFC,Bharuch,21.7331,73.0057,Fertilisers,0.0149,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1080,GNFC,Bharuch,21.7361,73.011,Conventional electricity,0.0123,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1081,GNFC,Bharuch,21.7359,73.0108,Inorganic chemicals,0.009,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1082,GNFC,Bharuch,21.6983,72.9985,Inorganic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,7.0,209.0,463.8965,False,,,,,,,
+E_GJ_FLOOD_2023,1083,GNFC,Bharuch,21.736,73.0109,Organic chemicals,0.0102,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1084,GNFC,Bharuch,21.7366,73.0103,Organic chemicals,0.0009,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1085,GNFC,Bharuch,21.7123,73.0115,Organic chemicals,0.0043,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1086,GNFC,Bharuch,21.6994,72.9984,Telecommunication services,0.0082,True,1,0.0,0.0,,0,,,,1,0.0,158.0,581.3777,False,,,,,,,
+E_GJ_FLOOD_2023,1087,GNFC,Bharuch,21.7261,72.9968,Organic chemicals,0.0749,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1088,GNFC,Bharuch,21.7355,73.0095,Vegetable oils   products,0.0041,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1089,GNFC,Bharuch,21.7364,73.0095,Inorganic chemicals,0.0025,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1090,GNFC,Bharuch,21.7433,73.0035,Fertilisers,0.135,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1091,GNFC,Bharuch,21.7064,72.9956,Inorganic chemicals,0.0778,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1092,GNFC,Bharuch,21.7305,73.0237,Inorganic chemicals,0.0214,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1094,GNFC,Bharuch,21.7265,73.0239,Inorganic chemicals,0.0026,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1095,GNFC,Bharuch,21.7129,72.582,Renewable electricity,0.0213,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1096,GNFC,Bharuch,21.7461,73.0098,Conventional electricity,0.0354,True,1,42.0,203.0,384.1875,0,,,,1,30.0,196.0,394.4617,False,,,,,,,
+E_GJ_FLOOD_2023,1097,GNFC,Bharuch,21.6937,72.6693,Organic chemicals,0.1634,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1098,GNFC,Bharuch,21.7054,72.9961,Inorganic chemicals,0.0074,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1099,GNFC,Bharuch,21.7427,73.0108,Organic chemicals,0.0181,True,1,0.0,121.0,680.0,0,,,,1,0.0,102.0,680.0,False,,,,,,,
+E_GJ_FLOOD_2023,1101,GNFC,Bharuch,21.7372,73.0088,Organic chemicals,0.0205,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1102,GNFC,Bharuch,21.736,73.011,Fertilisers,0.0188,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1103,GNFC,Bharuch,21.7409,73.0139,Inorganic chemicals,0.0067,True,1,0.0,52.0,863.7129,0,,,,1,0.0,39.0,863.7129,False,,,,,,,
+E_GJ_FLOOD_2023,1104,GNFC,Bharuch,21.7344,73.0071,Other textiles,0.0876,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1106,GNFC,Bharuch,21.7364,73.0095,Organic chemicals,0.0011,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1107,GNFC,Bharuch,21.7368,73.0082,Inorganic chemicals,0.0047,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1108,GNFC,Bharuch,21.727,72.9925,Fertilisers,0.0018,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1109,GNFC,Bharuch,21.6993,72.9989,Inorganic chemicals,0.003,True,1,0.0,0.0,,0,,,,1,0.0,158.0,560.0,False,,,,,,,
+E_GJ_FLOOD_2023,1110,GSFC,Bharuch,21.7051,72.9958,Organic chemicals,0.0268,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1112,GSFC,Vadodara,22.3737,73.1489,Inorganic chemicals,0.0598,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1113,GSFC,Vadodara,22.3728,73.1412,Organic chemicals,0.0017,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1114,GSFC,Vadodara,22.3752,73.1541,Organic chemicals,0.0314,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1117,GSFC,Vadodara,22.3747,73.1527,Conventional electricity,0.0072,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1118,GSFC,Bharuch,21.7309,72.5609,Fertilisers,0.4292,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1119,GSFC,Bharuch,21.7302,72.6436,Organic chemicals,0.0429,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1120,GSFC,Bharuch,21.7129,72.5821,Organic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1121,GSFC,Vadodara,22.3762,73.1424,Organic chemicals,0.0075,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1122,GSFC,Vadodara,22.3752,73.1548,Organic chemicals,0.0161,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1123,GSFC,Vadodara,22.3788,73.1496,Fertilisers,0.0019,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1126,GSFC,Vadodara,22.3733,73.1497,Organic chemicals,0.0004,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1127,GSFC,Vadodara,22.3736,73.1497,Organic chemicals,0.0064,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1129,GSFC,Vadodara,22.3053,73.1792,Man-made filaments   fibres,0.0017,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1137,GSFC,Vadodara,22.3811,73.1446,Inorganic chemicals,0.003,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1140,GSFC,Vadodara,22.3801,73.1453,Fertilisers,0.0005,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1141,GSFC,Vadodara,22.3742,73.1535,Fertilisers,0.0059,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1142,GSFC,Vadodara,22.2795,73.1691,Polymers,0.0268,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1143,GSFC,Vadodara,22.2987,73.189,Organic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1144,GSFC,Vadodara,22.3066,73.18,Organic chemicals,0.0038,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1145,GSFC,Vadodara,22.3073,73.1811,Organic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1146,GSFC,Vadodara,22.3724,73.1891,Education,0.0054,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1147,GSFC,Vadodara,22.3061,73.1819,Drugs   pharmaceuticals,0.0054,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1148,GSFC,Vadodara,22.3742,73.1498,Inorganic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1149,GSFC,Vadodara,22.3742,73.1518,Organic chemicals,0.0537,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1150,GSFC,Vadodara,22.3539,73.1774,Man-made filaments   fibres,0.0121,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1151,GSFC,Vadodara,22.374,73.1491,Man-made filaments   fibres,0.0075,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1152,GSFC,Vadodara,22.3742,73.1535,Inorganic chemicals,0.0139,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1153,GSFC,Vadodara,22.3051,73.1828,Inorganic chemicals,0.0134,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1154,GSFC,Vadodara,22.3751,73.1542,Inorganic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1155,GSFC,Vadodara,22.2976,73.1881,Inorganic chemicals,0.0002,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1156,GSFC,Vadodara,22.3072,73.1812,Fertilisers,0.0027,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1256,IOC,Vadodara,22.3532,73.1135,Other construction materials,0.0004,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1290,IOC,Bharuch,21.7129,72.582,Organic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1310,IOC,Vadodara,22.3733,73.1895,Organic chemicals,0.0078,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1326,IOC,Bharuch,21.8864,72.658,Storage   distribution,0.0001,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1334,IOC,Vadodara,22.3714,73.1267,Refinery,0.0007,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1384,IOC,Vadodara,22.3704,73.12,Renewable electricity,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1386,IOC,Vadodara,22.3764,73.1207,Electricity transmission,0.0004,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1437,IOC,Vadodara,22.3581,73.1143,Conventional electricity,0.0007,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1438,IOC,Vadodara,22.3741,73.1219,Refinery,0.0006,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1439,IOC,Vadodara,22.3695,73.1154,Refinery,0.0023,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1440,IOC,Vadodara,22.3713,73.1175,Organic chemicals,0.003,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1441,IOC,Vadodara,22.3581,73.1143,Refinery,0.006,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1442,IOC,Vadodara,22.3714,73.112,Refinery,0.0428,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1443,IOC,Vadodara,22.3821,73.1151,Refinery,0.003,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1444,IOC,Vadodara,22.3539,73.1129,Refinery,0.0078,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1445,IOC,Vadodara,22.3583,73.1153,Refinery,0.0013,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1446,IOC,Vadodara,22.3545,73.1135,Renewable electricity,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1447,IOC,Vadodara,22.3696,73.1207,Renewable electricity,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1448,IOC,Vadodara,22.3585,73.1334,Other miscellaneous services,0.0003,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1450,IOC,Vadodara,19.0977,74.7463,Storage   distribution,0.004,False,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2023,1452,IOC,Vadodara,22.3581,73.1143,Storage   distribution,0.0005,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1592,IOC,Vadodara,22.3665,73.1187,Refinery,0.0013,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1593,IOC,Vadodara,22.3718,73.1212,Refinery,0.0123,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1598,IOC,Vadodara,22.3706,73.1128,Storage   distribution,0.0016,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1605,IOC,Vadodara,22.562,73.2173,Conventional electricity,0.003,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1644,IOC,Vadodara,22.3581,73.1143,Organic chemicals,0.0143,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1645,IOC,Vadodara,22.3716,73.1114,Refinery,0.001,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1646,IOC,Vadodara,22.3741,73.1234,Organic chemicals,0.0022,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1647,IOC,Vadodara,22.3749,73.1184,Refinery,0.0015,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1662,IPCL,Vadodara,22.3571,73.1152,Organic chemicals,0.0038,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1663,IPCL,Bharuch,21.6865,72.5829,Conventional electricity,0.0184,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1665,IPCL,Bharuch,21.8894,72.6594,Organic chemicals,0.0525,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1666,IPCL,Bharuch,21.684,72.5687,Polymers,0.1562,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1667,IPCL,Bharuch,21.6861,72.5737,Organic chemicals,0.3063,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1668,IPCL,Vadodara,22.3139,73.1748,Synthetic rubber,0.0131,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1669,IPCL,Vadodara,22.3793,73.1064,Polymers,0.0175,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1673,IPCL,Bharuch,21.8887,72.6586,Organic chemicals,0.2188,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1674,IPCL,Vadodara,22.3827,73.115,Organic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1675,IPCL,Vadodara,22.3517,73.158,Organic chemicals,0.105,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,1854,JPASSOCIAT,Kheda,22.7506,72.6847,Cement,0.0,True,1,0.0,0.0,,0,,,,1,0.0,61.0,768.3749,False,,,,,,,
+E_GJ_FLOOD_2023,1855,JPASSOCIAT,Kheda,22.867,73.361,Cement,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2001,KIRIINDUS,Bharuch,21.7233,72.5982,Organic chemicals,0.9814,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2002,KIRIINDUS,Vadodara,22.3061,73.182,Inorganic chemicals,0.0186,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2003,KIRIINDUS,Vadodara,22.3703,73.1499,Organic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2008,MRF,Bharuch,21.717,72.5804,Tyres   tubes,0.3017,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2220,MODTHREAD,Bharuch,21.7383,72.995,Conventional electricity,0.2486,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2221,MODTHREAD,Bharuch,21.7384,72.9889,Organic chemicals,0.7044,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2411,NTPC,Anand,22.2346,72.7605,Conventional electricity,0.0088,True,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2023,2430,NTPC,Bharuch,21.8861,72.6603,Conventional electricity,0.0053,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2431,NTPC,Bharuch,21.8869,72.6585,Renewable electricity,0.0001,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2441,NTPC,Bharuch,21.8241,73.1141,Conventional electricity,0.003,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2696,NECLIFE,Bharuch,20.6099,72.9262,Drugs   pharmaceuticals,0.7231,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2778,PETRONET,Bharuch,21.7309,72.561,Conventional electricity,0.0715,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2779,PETRONET,Bharuch,21.6749,72.5348,Natural gas trading   distribution,0.0503,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2780,PETRONET,Bharuch,21.6722,72.534,Natural gas trading   distribution,0.0358,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2781,PETRONET,Bharuch,21.6789,72.5391,Natural gas trading   distribution,0.0046,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2782,PETRONET,Bharuch,21.6749,72.5349,Transport logistics services,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2783,PETRONET,Bharuch,21.6604,72.1565,Refinery,0.3524,False,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2023,2784,PETRONET,Bharuch,21.675,72.5214,Shipping transport infrastructure services,0.017,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2785,PETRONET,Bharuch,21.6635,72.5105,Shipping transport infrastructure services,0.0281,True,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2023,2792,PETRONET,Bharuch,21.6669,72.5737,Shipping transport infrastructure services,0.0077,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2846,RELIANCE,Vadodara,22.3053,73.1795,Organic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2871,RELIANCE,Bharuch,21.6848,72.5748,Organic chemicals,0.0203,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2872,RELIANCE,Bharuch,21.727,72.5643,Health services,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2873,RELIANCE,Bharuch,21.7129,72.582,Organic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2874,RELIANCE,Bharuch,21.7256,72.5433,Man-made filaments   fibres,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2875,RELIANCE,Bharuch,21.6846,72.575,Organic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2876,RELIANCE,Bharuch,21.6988,72.5967,Conventional electricity,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2885,RELIANCE,Bharuch,21.8864,72.658,Organic chemicals,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2886,RELIANCE,Bharuch,21.7309,73.011,Organic chemicals,0.0015,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2983,RELIANCE,Bharuch,21.1733,72.6787,Organic chemicals,0.0011,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2998,RELIANCE,Vadodara,22.2775,73.1707,Man-made filaments   fibres,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,2999,RELIANCE,Vadodara,22.3855,73.1124,Organic chemicals,0.0035,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3000,RELIANCE,Vadodara,22.3425,73.2139,Education,0.0008,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3001,RELIANCE,Vadodara,22.3724,73.1062,Polymers,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3002,RELIANCE,Vadodara,22.3727,73.1061,Synthetic rubber,0.0008,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3003,RELIANCE,Vadodara,22.3069,73.1812,Other textiles,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3006,RELIANCE,Vadodara,22.7556,73.6207,Renewable electricity,0.0007,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3012,RELINFRA,Bharuch,21.7121,72.5841,Conventional electricity,0.0011,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3013,RELINFRA,Bharuch,21.7238,72.5716,Conventional electricity,0.0105,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3051,SRF,Bharuch,21.7055,72.6384,Electricity transmission,0.0076,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3052,SRF,Bharuch,21.7114,72.6311,Other chemical products,0.0021,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3053,SRF,Bharuch,21.7089,72.6476,Other chemical products,0.0037,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3054,SRF,Bharuch,21.7139,72.5986,Other chemical products,0.0014,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3055,SRF,Bharuch,21.7108,72.6327,Pesticides,0.0057,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3056,SRF,Bharuch,21.7212,72.627,Pesticides,0.0132,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3057,SRF,Bharuch,21.7119,72.6316,Other chemical products,0.0121,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3058,SRF,Bharuch,21.7093,72.6094,Other chemical products,0.0132,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3059,SRF,Bharuch,21.7089,72.6476,Pesticides,0.004,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3060,SRF,Bharuch,21.7309,72.5609,Conventional electricity,0.0026,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3061,SRF,Bharuch,21.7117,72.6315,Organic chemicals,0.0198,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3062,SRF,Bharuch,21.7123,72.5849,Organic chemicals,0.0085,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3063,SRF,Bharuch,21.6905,72.276,Other chemical products,0.0003,False,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2023,3064,SRF,Bharuch,21.7036,72.6256,Other chemical products,0.0044,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3065,SRF,Bharuch,21.7129,72.582,Organic chemicals,0.0022,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3066,SRF,Bharuch,21.7297,72.6206,Other chemical products,0.0283,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3067,SRF,Bharuch,21.7114,72.6322,Other chemical products,0.0034,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3068,SRF,Bharuch,21.7044,72.6256,Other chemical products,0.0188,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3069,SRF,Bharuch,21.7118,72.6316,Inorganic chemicals,0.0246,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3070,SRF,Bharuch,21.7036,72.6256,Other chemical products,0.0041,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3071,SRF,Bharuch,21.7227,72.653,Commercial complexes,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3072,SRF,Bharuch,21.7041,72.6255,Other chemical products,0.0089,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3073,SRF,Bharuch,21.7129,72.582,Other chemical products,0.0093,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3074,SRF,Bharuch,21.7101,72.6352,Other chemical products,0.0208,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3075,SRF,Bharuch,21.7117,72.6306,Other chemical products,0.006,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3076,SRF,Bharuch,21.7064,72.6335,Other chemical products,0.0012,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3077,SRF,Bharuch,21.7117,72.6322,Other chemical products,0.0009,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3078,SRF,Bharuch,21.7097,72.5866,Inorganic chemicals,0.0042,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3079,SRF,Bharuch,21.7088,72.6348,Other chemical products,0.003,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3080,SRF,Bharuch,21.7431,72.662,Other chemical products,0.386,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3081,SRF,Bharuch,21.7117,72.6315,Drugs   pharmaceuticals,0.0115,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3082,SRF,Bharuch,21.7129,72.5812,Other chemical products,0.0032,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3083,SRF,Bharuch,21.7062,72.6334,Other chemical products,0.0026,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3084,SRF,Bharuch,21.7115,72.6318,Polymers,0.0252,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3085,SRF,Bharuch,21.7129,72.582,Other chemical products,0.0013,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3086,SRF,Bharuch,21.7293,72.6489,Other chemical products,0.0015,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3087,SRF,Bharuch,21.7044,72.6263,Other chemical products,0.0026,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3088,SRF,Bharuch,21.7129,72.582,Other chemical products,0.0023,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3089,SRF,Bharuch,21.7057,72.6369,Other chemical products,0.0044,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3090,SRF,Bharuch,21.7043,72.6251,Other chemical products,0.0027,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3091,SRF,Bharuch,21.7119,72.6316,Other chemical products,0.0085,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3092,SRF,Bharuch,21.7249,72.622,Other chemical products,0.0038,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3093,SRF,Bharuch,21.6604,72.1565,Other chemical products,0.0027,False,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2023,3094,SRF,Bharuch,21.7073,72.6374,Other chemical products,0.0018,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3095,SRF,Bharuch,21.7116,72.6324,Other chemical products,0.0012,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3096,SRF,Bharuch,21.7114,72.6322,Other chemical products,0.0027,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3097,SRF,Bharuch,21.7132,72.5843,Polymers,0.0306,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3098,SRF,Bharuch,21.7119,72.6306,Other chemical products,0.006,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3099,SRF,Bharuch,21.7201,72.6201,Pesticides,0.0653,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3100,SRF,Bharuch,21.7121,72.6335,Inorganic chemicals,0.0058,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3540,UPL,Bharuch,21.9937,72.8691,Renewable electricity,0.0013,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3541,UPL,Bharuch,21.8833,72.9031,Renewable electricity,0.0013,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3542,UPL,Bharuch,21.9147,72.8996,Renewable electricity,0.0013,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3543,UPL,Bharuch,21.6257,73.0127,Pesticides,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3545,UPL,Bharuch,21.6419,73.1314,Organic chemicals,0.0383,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3546,UPL,Bharuch,21.7162,72.5806,Pesticides,0.19,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3547,UPL,Panch Mahals,22.4568,73.4767,Pesticides,0.0192,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3549,UPL,Bharuch,21.7194,73.1499,Other chemical products,0.1531,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3550,UPL,Bharuch,21.6514,73.1324,Pesticides,0.0377,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3551,UPL,Bharuch,21.6198,73.1268,Pesticides,0.0655,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3552,UPL,Bharuch,21.7737,72.6329,Other chemical products,0.0286,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3554,UPL,Bharuch,21.8928,72.9092,Renewable electricity,0.0036,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3555,UPL,Bharuch,21.9158,72.8991,Renewable electricity,0.0036,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3556,UPL,Bharuch,21.1682,72.8077,Renewable electricity,0.0011,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3832,VEDL,Kheda,22.6668,72.6666,Crude oil   natural gas,0.0,True,0,,,,0,,,,0,,,,False,,,,,,,
+E_GJ_FLOOD_2023,3833,VEDL,Vadodara,22.25,73.0833,Crude oil   natural gas,0.0,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,
+E_GJ_FLOOD_2023,3902,ZUARI,Bharuch,21.698,72.534,Fertilisers,0.4069,True,1,0.0,0.0,,0,,,,1,0.0,0.0,,False,,,,,,,

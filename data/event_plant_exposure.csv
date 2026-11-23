@@ -1,0 +1,814 @@
+event_id,nse_symbol,plant_lat,plant_lon,district,industry,plant_project_cost_cr
+E_NCR_GRAP_2024,ACC,28.4735,77.3026,Faridabad,Other construction materials,0.0
+E_NCR_GRAP_2024,ACC,28.5454,77.4633,Ghaziabad,Cement,40.0
+E_NCR_GRAP_2024,ADANIENT,28.5345,77.3847,Gautam Buddha Nagar,ITES,0.0
+E_NCR_GRAP_2024,ANANTRAJ,28.659,77.1955,West Delhi,Retail trading,1500.0
+E_NCR_GRAP_2024,ANANTRAJ,28.3733,76.9033,Gautam Buddha Nagar,Computer software,6700.0
+E_NCR_GRAP_2024,ANANTRAJ,28.3912,77.0941,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,ANANTRAJ,28.3935,76.9107,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,ANANTRAJ,28.7937,77.1556,North West Delhi,Transport logistics services,500.0
+E_NCR_GRAP_2024,ANANTRAJ,28.3543,76.9397,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,ANANTRAJ,28.3544,76.9395,Gurgaon,Hotels   restaurants,0.0
+E_NCR_GRAP_2024,ANANTRAJ,28.3733,76.9033,Gurgaon,Computer software,15250.0
+E_NCR_GRAP_2024,ANANTRAJ,28.5169,77.173,New Delhi,Commercial complexes,1750.1
+E_NCR_GRAP_2024,ANANTRAJ,28.6409,77.1988,New Delhi,Housing construction,1700.0
+E_NCR_GRAP_2024,ANANTRAJ,28.9267,77.0971,Sonipat,Computer software,11000.0
+E_NCR_GRAP_2024,ANANTRAJ,28.5225,77.1001,New Delhi,Hotels   restaurants,1130.0
+E_NCR_GRAP_2024,ANANTRAJ,28.4836,77.1878,South West Delhi,Hotels   restaurants,1260.0
+E_NCR_GRAP_2024,ANANTRAJ,28.397,77.0863,Gurgaon,Commercial complexes,0.0
+E_NCR_GRAP_2024,ANANTRAJ,28.3975,77.0864,Gurgaon,Commercial complexes,0.0
+E_NCR_GRAP_2024,ANANTRAJ,28.3946,77.0829,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,ANANTRAJ,28.4712,77.1892,New Delhi,Hotels   restaurants,1250.0
+E_NCR_GRAP_2024,ANSALAPI,28.5624,77.225,New Delhi,Retail trading,1300.0
+E_NCR_GRAP_2024,ANSALAPI,28.6287,77.2147,NCT of Delhi Districts,Hotels   restaurants,0.0
+E_NCR_GRAP_2024,ANSALAPI,28.6721,77.4525,Ghaziabad,Housing construction,0.0
+E_NCR_GRAP_2024,ANSALAPI,28.631,77.4442,Ghaziabad,Housing construction,460000.0
+E_NCR_GRAP_2024,ANSALAPI,28.6309,77.4442,Ghaziabad,Housing construction,114590.0
+E_NCR_GRAP_2024,ANSALAPI,28.6275,77.2236,Ghaziabad,Retail trading,0.0
+E_NCR_GRAP_2024,ANSALAPI,28.4645,77.5083,Gautam Buddha Nagar,Retail trading,0.0
+E_NCR_GRAP_2024,ANSALAPI,28.3623,77.5412,Gautam Buddha Nagar,Housing construction,0.0
+E_NCR_GRAP_2024,ANSALAPI,28.3817,77.0975,Gurgaon,Housing construction,10000.0
+E_NCR_GRAP_2024,ANSALAPI,28.2763,76.8697,Gurgaon,Commercial complexes,1000.0
+E_NCR_GRAP_2024,ANSALAPI,28.4528,77.0274,Gurgaon,Retail trading,550.0
+E_NCR_GRAP_2024,ANSALAPI,28.4595,77.0266,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,ANSALAPI,28.91,77.1102,Sonipat,Housing construction,1610.0
+E_NCR_GRAP_2024,ANSALAPI,28.8686,77.1168,Sonipat,Housing construction,0.0
+E_NCR_GRAP_2024,ANSALAPI,28.9909,77.7008,Meerut,Retail trading,1000.0
+E_NCR_GRAP_2024,ANSALAPI,29.04,77.0849,Sonipat,Other agricultural products,9000.0
+E_NCR_GRAP_2024,ANSALAPI,28.5003,77.4079,Gautam Buddha Nagar,Commercial complexes,0.0
+E_NCR_GRAP_2024,ANSALAPI,28.5627,77.225,South Delhi,Retail trading,2500.0
+E_NCR_GRAP_2024,ANSALAPI,28.9226,77.0676,Sonipat,Housing construction,0.0
+E_NCR_GRAP_2024,ANSALAPI,28.436,77.1366,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,APOLLOHOSP,28.4595,77.0267,Gurgaon,Health services,4000.0
+E_NCR_GRAP_2024,APOLLOHOSP,28.7041,77.1025,NCT of Delhi Districts,Education,250.0
+E_NCR_GRAP_2024,APOLLOHOSP,28.5413,77.2835,NCT of Delhi Districts,Health services,244.0
+E_NCR_GRAP_2024,APOLLOHOSP,28.6354,77.2247,NCT of Delhi Districts,Health services,2500.0
+E_NCR_GRAP_2024,APOLLOHOSP,28.541,77.2832,NCT of Delhi Districts,Health services,0.0
+E_NCR_GRAP_2024,APOLLOHOSP,28.5413,77.2835,NCT of Delhi Districts,Health services,300.0
+E_NCR_GRAP_2024,BPCL,28.276,77.3145,Faridabad,Storage   distribution,379.8
+E_NCR_GRAP_2024,DCMSHRIRAM,28.6256,77.1711,NCT of Delhi Districts,Cotton   blended yarn,85.7
+E_NCR_GRAP_2024,DLF,28.5915,77.1719,New Delhi,Retail trading,0.0
+E_NCR_GRAP_2024,DLF,28.6341,77.2119,New Delhi,Commercial complexes,0.0
+E_NCR_GRAP_2024,DLF,28.4654,77.0831,Gurgaon,Commercial complexes,12000.0
+E_NCR_GRAP_2024,DLF,28.5434,77.1569,New Delhi,Retail trading,3000.0
+E_NCR_GRAP_2024,DLF,28.5481,77.2381,South Delhi,Health services,0.0
+E_NCR_GRAP_2024,DLF,28.4435,77.1016,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,DLF,28.4065,77.0149,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,DLF,28.4486,77.1011,Gurgaon,Housing construction,9000.0
+E_NCR_GRAP_2024,DLF,28.4506,77.0999,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,DLF,28.4381,76.958,Gurgaon,Commercial complexes,0.0
+E_NCR_GRAP_2024,DLF,28.3926,77.022,Gurgaon,Commercial complexes,0.0
+E_NCR_GRAP_2024,DLF,28.5025,77.0901,Gurgaon,Commercial complexes,15000.0
+E_NCR_GRAP_2024,DLF,28.4947,77.0893,Gurgaon,Commercial complexes,0.0
+E_NCR_GRAP_2024,DLF,28.4958,77.0938,Gurgaon,Housing construction,1083.7
+E_NCR_GRAP_2024,DLF,28.404,76.9176,Gurgaon,Housing construction,80000.0
+E_NCR_GRAP_2024,DLF,28.4543,77.1059,Gurgaon,Other recreational   allied services,0.0
+E_NCR_GRAP_2024,DLF,28.4433,77.1086,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,DLF,28.4459,77.1059,Gurgaon,Commercial complexes,1164.0
+E_NCR_GRAP_2024,DLF,28.4792,77.0918,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,DLF,28.4568,77.0983,Gurgaon,Commercial complexes,0.0
+E_NCR_GRAP_2024,DLF,28.4524,77.0276,Gurgaon,Health services,2250.0
+E_NCR_GRAP_2024,DLF,28.4608,77.099,Gurgaon,Housing construction,5000.0
+E_NCR_GRAP_2024,DLF,28.4446,77.0316,Gurgaon,Retail trading,17000.0
+E_NCR_GRAP_2024,DLF,28.3951,76.927,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,DLF,28.3875,76.991,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,DLF,28.4436,77.1115,Gurgaon,Housing construction,13370.0
+E_NCR_GRAP_2024,DLF,28.3858,76.9686,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,DLF,28.403,76.9812,Gurgaon,Computer software,4849.2
+E_NCR_GRAP_2024,DLF,28.4654,77.0228,Gurgaon,Computer software,7939.5
+E_NCR_GRAP_2024,DLF,28.4654,77.0228,Gurgaon,Computer software,7615.4
+E_NCR_GRAP_2024,DLF,28.4077,77.062,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,DLF,28.5385,77.2899,New Delhi,Commercial complexes,8000.0
+E_NCR_GRAP_2024,DLF,28.6625,77.1407,New Delhi,Housing construction,12500.0
+E_NCR_GRAP_2024,DLF,28.635,77.2251,NCT of Delhi,Retail trading,30000.0
+E_NCR_GRAP_2024,DLF,28.6636,77.1544,New Delhi,Housing construction,0.0
+E_NCR_GRAP_2024,DLF,28.5235,77.1949,South Delhi,Housing construction,7000.0
+E_NCR_GRAP_2024,DLF,28.6356,77.2243,New Delhi,Retail trading,0.0
+E_NCR_GRAP_2024,DLF,28.4041,76.923,Gurgaon,Commercial complexes,0.0
+E_NCR_GRAP_2024,DLF,28.5356,77.3897,Gautam Buddha Nagar,ITES,1300.0
+E_NCR_GRAP_2024,DLF,28.4965,77.429,Gautam Buddha Nagar,Computer software,1500.0
+E_NCR_GRAP_2024,DLF,28.5675,77.3211,Gautam Buddha Nagar,Retail trading,17000.0
+E_NCR_GRAP_2024,DLF,28.5192,77.28,South Delhi,Commercial complexes,7500.0
+E_NCR_GRAP_2024,DLF,28.9278,77.0965,Sonipat,Computer software,0.0
+E_NCR_GRAP_2024,DLF,28.6604,77.1411,West Delhi,Housing construction,0.0
+E_NCR_GRAP_2024,DLF,28.6524,77.1288,West Delhi,Housing construction,0.0
+E_NCR_GRAP_2024,DLF,28.4586,77.0263,Gurgaon,Computer software,0.0
+E_NCR_GRAP_2024,DLF,28.4557,77.0586,Gurgaon,Computer software,0.0
+E_NCR_GRAP_2024,DLF,28.9265,77.092,Sonipat,Commercial complexes,0.0
+E_NCR_GRAP_2024,DCMDAEWOO,28.5146,77.4888,Ghaziabad,Conventional electricity,1400.0
+E_NCR_GRAP_2024,DCMDAEWOO,28.5246,77.4644,Ghaziabad,Passenger vehicles,15000.0
+E_NCR_GRAP_2024,DCMDAEWOO,28.5303,77.463,Ghaziabad,Passenger vehicles,34745.2
+E_NCR_GRAP_2024,FORTIS,28.4572,77.0732,Gurgaon,Health services,1600.0
+E_NCR_GRAP_2024,FORTIS,28.4661,77.099,Gurgaon,Health services,4500.0
+E_NCR_GRAP_2024,FORTIS,28.6359,77.2267,NCT of Delhi Districts,Health services,1000.0
+E_NCR_GRAP_2024,FORTIS,28.4634,77.0177,Gurgaon,Health services,1000.0
+E_NCR_GRAP_2024,FORTIS,28.5979,77.2879,NCT of Delhi Districts,Health services,300.0
+E_NCR_GRAP_2024,FORTIS,28.6349,77.2254,NCT of Delhi Districts,Health services,12500.0
+E_NCR_GRAP_2024,FORTIS,28.6186,77.3729,Ghaziabad,Health services,1200.0
+E_NCR_GRAP_2024,FORTIS,28.7092,77.1702,North West Delhi,Health services,2500.0
+E_NCR_GRAP_2024,FORTIS,28.472,77.4931,Gautam Buddha Nagar,Health services,11500.0
+E_NCR_GRAP_2024,GAIL,28.5675,77.1873,NCT of Delhi Districts,Natural gas trading   distribution,98.0
+E_NCR_GRAP_2024,GAIL,28.7325,77.3125,Ghaziabad,Storage   distribution,12290.0
+E_NCR_GRAP_2024,GAIL,28.3508,76.9389,Gurgaon,Natural gas trading   distribution,36.5
+E_NCR_GRAP_2024,IVRCLINFRA,28.5559,77.3896,Ghaziabad,Housing construction,0.0
+E_NCR_GRAP_2024,IVRCLINFRA,28.5363,77.3902,Ghaziabad,Computer software,0.0
+E_NCR_GRAP_2024,IOC,28.5396,77.0575,South West Delhi,Storage   distribution,97.9
+E_NCR_GRAP_2024,IOC,28.8059,77.024,NCT of Delhi,Other miscellaneous services,0.0
+E_NCR_GRAP_2024,IOC,28.385,77.3295,Faridabad,Refinery,0.0
+E_NCR_GRAP_2024,IOC,28.384,77.3331,Faridabad,Other chemical products,530.0
+E_NCR_GRAP_2024,IOC,28.384,77.3332,Faridabad,Other chemical products,32000.0
+E_NCR_GRAP_2024,IOC,28.456,77.0272,Gurgaon,Storage   distribution,280.4
+E_NCR_GRAP_2024,IOC,28.2583,77.3201,Faridabad,"Lubricants, etc.",960.0
+E_NCR_GRAP_2024,IOC,28.9466,77.6579,Meerut,Storage   distribution,75.0
+E_NCR_GRAP_2024,IOC,28.6408,77.2543,New Delhi,Inorganic chemicals,400.0
+E_NCR_GRAP_2024,IOC,28.538,77.0583,South West Delhi,Storage   distribution,590.0
+E_NCR_GRAP_2024,IOC,28.9809,77.7409,Meerut,Storage   distribution,590.0
+E_NCR_GRAP_2024,IOC,28.6907,76.9748,West Delhi,Storage   distribution,590.0
+E_NCR_GRAP_2024,IOC,28.6898,76.9865,West Delhi,Storage   distribution,175.0
+E_NCR_GRAP_2024,IGL,28.7035,77.0913,NCT of Delhi Districts,Natural gas trading   distribution,1200.0
+E_NCR_GRAP_2024,IGL,28.414,77.3369,Faridabad,Natural gas trading   distribution,1200.0
+E_NCR_GRAP_2024,IGL,28.5299,77.3931,Ghaziabad,Natural gas trading   distribution,1200.0
+E_NCR_GRAP_2024,IGL,28.61,77.2622,NCT of Delhi Districts,Natural gas trading   distribution,5370.0
+E_NCR_GRAP_2024,IGL,28.4995,77.2894,NCT of Delhi Districts,Natural gas trading   distribution,5000.0
+E_NCR_GRAP_2024,IGL,28.6294,77.2245,NCT of Delhi Districts,Natural gas trading   distribution,4800.0
+E_NCR_GRAP_2024,IGL,28.7305,77.7759,Ghaziabad,Natural gas trading   distribution,0.0
+E_NCR_GRAP_2024,IGL,28.4361,77.0284,Gurgaon,Natural gas trading   distribution,0.0
+E_NCR_GRAP_2024,IGL,28.9839,77.7061,Meerut,Natural gas trading   distribution,0.0
+E_NCR_GRAP_2024,IGL,28.6561,77.2318,North Delhi,Natural gas trading   distribution,11000.0
+E_NCR_GRAP_2024,IGL,28.6522,77.1921,New Delhi,Natural gas trading   distribution,11000.0
+E_NCR_GRAP_2024,IGL,28.6067,76.9906,South West Delhi,Natural gas trading   distribution,11000.0
+E_NCR_GRAP_2024,IGL,28.5104,77.2671,South Delhi,Natural gas trading   distribution,11000.0
+E_NCR_GRAP_2024,IGL,28.6141,77.2089,NCT of Delhi Districts,Miscellaneous manufactured articles,1100.0
+E_NCR_GRAP_2024,JSWISPAT,28.5512,77.3934,Ghaziabad,Air transport infrastructure services,21000.0
+E_NCR_GRAP_2024,JPASSOCIAT,28.3612,77.5495,Gautam Buddha Nagar,Other recreational   allied services,0.0
+E_NCR_GRAP_2024,JPASSOCIAT,28.407,77.5149,Gautam Buddha Nagar,Housing construction,0.0
+E_NCR_GRAP_2024,JPASSOCIAT,28.5224,77.3644,Ghaziabad,Hotels   restaurants,0.0
+E_NCR_GRAP_2024,JPASSOCIAT,28.314,77.5254,Gautam Buddha Nagar,Other electronics,343990.0
+E_NCR_GRAP_2024,JPASSOCIAT,28.4785,77.3322,Gautam Buddha Nagar,Housing construction,6300.0
+E_NCR_GRAP_2024,JPASSOCIAT,28.5222,77.3661,Gautam Buddha Nagar,Housing construction,1030.3
+E_NCR_GRAP_2024,JPASSOCIAT,28.4367,77.3273,Gautam Buddha Nagar,Housing construction,0.0
+E_NCR_GRAP_2024,JPASSOCIAT,28.5676,77.3554,Gautam Buddha Nagar,Housing construction,0.0
+E_NCR_GRAP_2024,JPASSOCIAT,28.5152,77.3714,Gautam Buddha Nagar,Health services,6000.0
+E_NCR_GRAP_2024,JPASSOCIAT,28.5348,77.3332,Gautam Buddha Nagar,Housing construction,0.0
+E_NCR_GRAP_2024,MARUTI,28.3661,76.8906,Gurgaon,Aluminium   aluminium products,1150.0
+E_NCR_GRAP_2024,MARUTI,28.3721,76.8976,Gurgaon,Aluminium   aluminium products,1200.0
+E_NCR_GRAP_2024,MARUTI,28.4959,77.0691,Gurgaon,Engines,10000.0
+E_NCR_GRAP_2024,MARUTI,28.4646,77.0351,Gurgaon,Engines,7500.0
+E_NCR_GRAP_2024,MARUTI,28.4966,77.0691,Gurgaon,Engines,9500.0
+E_NCR_GRAP_2024,MARUTI,28.4943,77.0718,Gurgaon,Engines,12500.0
+E_NCR_GRAP_2024,MARUTI,28.4956,77.0687,Gurgaon,Passenger vehicles,2900.0
+E_NCR_GRAP_2024,MARUTI,28.4954,77.0656,Gurgaon,Passenger vehicles,0.0
+E_NCR_GRAP_2024,MARUTI,28.3657,76.8954,Gurgaon,Renewable electricity,200.0
+E_NCR_GRAP_2024,MARUTI,28.8758,76.9129,Sonipat,Passenger vehicles,110000.0
+E_NCR_GRAP_2024,MARUTI,28.8735,76.9013,Sonipat,Passenger vehicles,70000.0
+E_NCR_GRAP_2024,MARUTI,28.5027,77.0615,Gurgaon,Passenger vehicles,17000.0
+E_NCR_GRAP_2024,MARUTI,28.4969,77.0764,Gurgaon,Passenger vehicles,19250.0
+E_NCR_GRAP_2024,MARUTI,28.3676,76.8896,Gurgaon,Renewable electricity,1300.0
+E_NCR_GRAP_2024,MARUTI,28.3639,76.8917,Gurgaon,Passenger vehicles,9760.0
+E_NCR_GRAP_2024,MARUTI,28.3658,76.8956,Gurgaon,Renewable electricity,19.5
+E_NCR_GRAP_2024,MARUTI,28.3913,76.9282,Gurgaon,Renewable electricity,103.0
+E_NCR_GRAP_2024,MARUTI,28.3664,76.8904,Gurgaon,Passenger vehicles,21000.0
+E_NCR_GRAP_2024,MARUTI,28.3664,76.8904,Gurgaon,Passenger vehicles,21000.0
+E_NCR_GRAP_2024,MARUTI,28.4965,77.0619,Gurgaon,Other automobile ancillaries,12000.0
+E_NCR_GRAP_2024,MARUTI,28.494,77.0651,Gurgaon,Passenger vehicles,0.0
+E_NCR_GRAP_2024,MARUTI,28.4956,77.0686,Gurgaon,Passenger vehicles,7000.0
+E_NCR_GRAP_2024,MARUTI,28.496,77.0694,Gurgaon,Passenger vehicles,15000.0
+E_NCR_GRAP_2024,MARUTI,28.5027,77.0615,Gurgaon,Passenger vehicles,12000.0
+E_NCR_GRAP_2024,MARUTI,28.3181,76.8192,Gurgaon,Education,0.0
+E_NCR_GRAP_2024,MARUTI,28.5403,77.1544,South West Delhi,Commercial complexes,900.0
+E_NCR_GRAP_2024,MARUTI,28.367,76.892,Gurgaon,Passenger vehicles,6000.0
+E_NCR_GRAP_2024,MAXHEALTH,28.5847,77.0572,South West Delhi,Health services,0.0
+E_NCR_GRAP_2024,MAXHEALTH,28.7158,77.1512,Gautam Buddha Nagar,Health services,0.0
+E_NCR_GRAP_2024,MAXHEALTH,28.4737,77.5027,Gautam Buddha Nagar,Education,10000.0
+E_NCR_GRAP_2024,MAXHEALTH,28.4612,77.0748,Gurgaon,Health services,650.0
+E_NCR_GRAP_2024,MAXHEALTH,28.4441,77.0928,Gurgaon,Health services,0.0
+E_NCR_GRAP_2024,MAXHEALTH,28.4248,77.0999,Gurgaon,Health services,0.0
+E_NCR_GRAP_2024,MAXHEALTH,28.5714,77.247,South Delhi,Health services,0.0
+E_NCR_GRAP_2024,MAXHEALTH,28.5276,77.2115,New Delhi,Health services,2250.0
+E_NCR_GRAP_2024,MAXHEALTH,28.6338,77.3087,New Delhi,Health services,2500.0
+E_NCR_GRAP_2024,MAXHEALTH,28.5272,77.2115,New Delhi,Health services,3200.0
+E_NCR_GRAP_2024,MAXHEALTH,28.5276,77.214,New Delhi,Health services,0.0
+E_NCR_GRAP_2024,MAXHEALTH,28.7279,77.1528,New Delhi,Health services,2100.0
+E_NCR_GRAP_2024,NBCC,28.5596,77.2203,North East Delhi,Commercial complexes,0.0
+E_NCR_GRAP_2024,NBCC,28.6386,77.159,New Delhi,Tourism,500.0
+E_NCR_GRAP_2024,NBCC,28.5195,77.1802,South West Delhi,Commercial complexes,0.0
+E_NCR_GRAP_2024,NBCC,28.5521,77.0634,New Delhi,Housing construction,4113.5
+E_NCR_GRAP_2024,NBCC,28.6079,77.1432,South West Delhi,Housing construction,0.0
+E_NCR_GRAP_2024,NBCC,28.4961,77.1389,South West Delhi,Housing construction,0.0
+E_NCR_GRAP_2024,NBCC,28.4559,76.9711,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,NBCC,28.424,76.9443,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,NBCC,28.6529,77.3023,East Delhi,Housing construction,11685.4
+E_NCR_GRAP_2024,NBCC,28.7323,77.2941,Baghpat,Housing construction,0.0
+E_NCR_GRAP_2024,NBCC,28.5704,77.2107,New Delhi,Housing construction,52980.0
+E_NCR_GRAP_2024,NBCC,28.6914,77.2149,North East Delhi,Education,0.0
+E_NCR_GRAP_2024,NBCC,28.5673,77.1955,South West Delhi,Housing construction,26940.0
+E_NCR_GRAP_2024,NBCC,28.5741,77.1865,South Delhi,Housing construction,54660.0
+E_NCR_GRAP_2024,NBCC,28.6179,77.2134,New Delhi,Commercial complexes,0.0
+E_NCR_GRAP_2024,NBCC,28.608,77.2227,New Delhi,Commercial complexes,1310.0
+E_NCR_GRAP_2024,NBCC,28.6494,77.1544,New Delhi,Commercial complexes,0.0
+E_NCR_GRAP_2024,NBCC,28.6298,77.2456,New Delhi,Education,4350.0
+E_NCR_GRAP_2024,NBCC,28.703,77.0978,New Delhi,Housing construction,0.0
+E_NCR_GRAP_2024,NBCC,28.6342,77.249,New Delhi,Commercial complexes,0.0
+E_NCR_GRAP_2024,NBCC,28.6184,77.2169,New Delhi,Commercial complexes,600.0
+E_NCR_GRAP_2024,NBCC,28.6218,77.2475,North East Delhi,Commercial complexes,2280.0
+E_NCR_GRAP_2024,NBCC,28.6067,77.2169,New Delhi,Commercial complexes,2260.0
+E_NCR_GRAP_2024,NBCC,28.5683,77.193,South West Delhi,Commercial complexes,0.0
+E_NCR_GRAP_2024,NBCC,28.5682,77.1932,South West Delhi,Commercial complexes,0.0
+E_NCR_GRAP_2024,NBCC,28.5684,77.1931,South West Delhi,Commercial complexes,0.0
+E_NCR_GRAP_2024,NBCC,28.5786,77.1831,South West Delhi,Housing construction,0.0
+E_NCR_GRAP_2024,NBCC,28.566,77.1767,New Delhi,Housing construction,460.0
+E_NCR_GRAP_2024,NBCC,28.7623,76.9934,New Delhi,Education,542.0
+E_NCR_GRAP_2024,NBCC,28.523,77.2134,New Delhi,Housing construction,375.3
+E_NCR_GRAP_2024,NBCC,28.5739,77.1995,South Delhi,Commercial complexes,0.0
+E_NCR_GRAP_2024,NBCC,28.5747,77.2013,South Delhi,Housing construction,116600.0
+E_NCR_GRAP_2024,NBCC,28.5245,77.2067,South Delhi,Retail trading,1200.0
+E_NCR_GRAP_2024,NBCC,28.5929,77.2421,Sonipat,Health services,2192.3
+E_NCR_GRAP_2024,NTPC,28.5078,77.319,South Delhi,Other recreational   allied services,4500.0
+E_NCR_GRAP_2024,NTPC,28.5042,77.3078,South Delhi,Renewable electricity,3000.0
+E_NCR_GRAP_2024,NTPC,28.5044,77.3076,South Delhi,Conventional electricity,2250.0
+E_NCR_GRAP_2024,NTPC,28.5072,77.3077,South Delhi,Conventional electricity,42000.0
+E_NCR_GRAP_2024,NTPC,28.5042,77.3078,South Delhi,Conventional electricity,5645.3
+E_NCR_GRAP_2024,NTPC,28.5977,77.6093,Gautam Buddha Nagar,Conventional electricity,0.0
+E_NCR_GRAP_2024,NTPC,28.5984,77.6089,Gautam Buddha Nagar,Conventional electricity,0.0
+E_NCR_GRAP_2024,NTPC,28.6,77.6072,Gautam Buddha Nagar,Conventional electricity,9792.0
+E_NCR_GRAP_2024,NTPC,28.551,77.5592,Gautam Buddha Nagar,Conventional electricity,15000.0
+E_NCR_GRAP_2024,NTPC,28.5945,77.6107,Gautam Buddha Nagar,Conventional electricity,16690.0
+E_NCR_GRAP_2024,NTPC,28.5943,77.6107,Gautam Buddha Nagar,Conventional electricity,26384.5
+E_NCR_GRAP_2024,NTPC,28.6002,77.6077,Gautam Buddha Nagar,Conventional electricity,25017.6
+E_NCR_GRAP_2024,NTPC,28.5605,77.5613,Gautam Buddha Nagar,Renewable electricity,485.9
+E_NCR_GRAP_2024,NTPC,28.3453,77.3531,Faridabad,Conventional electricity,9925.0
+E_NCR_GRAP_2024,NTPC,28.2942,77.3116,Faridabad,Renewable electricity,350.0
+E_NCR_GRAP_2024,NTPC,28.5043,77.464,Gautam Buddha Nagar,Renewable electricity,130.0
+E_NCR_GRAP_2024,NTPC,28.5361,77.3902,Gautam Buddha Nagar,Commercial complexes,2500.0
+E_NCR_GRAP_2024,PARSVNATH,28.4003,77.0496,Gurgaon,Commercial complexes,0.0
+E_NCR_GRAP_2024,PARSVNATH,28.6284,77.2214,New Delhi,Commercial complexes,3000.0
+E_NCR_GRAP_2024,PARSVNATH,28.5914,77.0462,NCT of Delhi Districts,Hotels   restaurants,0.0
+E_NCR_GRAP_2024,PARSVNATH,28.678,77.3948,Ghaziabad,Housing construction,841.7
+E_NCR_GRAP_2024,PARSVNATH,28.6768,77.3969,Ghaziabad,Housing construction,3264.6
+E_NCR_GRAP_2024,PARSVNATH,28.4815,77.5372,Ghaziabad,Housing construction,3250.0
+E_NCR_GRAP_2024,PARSVNATH,28.4447,77.099,Gurgaon,Housing construction,10000.0
+E_NCR_GRAP_2024,PARSVNATH,28.2753,77.0707,Gurgaon,Computer software,17250.0
+E_NCR_GRAP_2024,PARSVNATH,28.6707,77.2675,North East Delhi,Retail trading,1500.0
+E_NCR_GRAP_2024,PARSVNATH,28.6811,77.3757,Ghaziabad,Retail trading,0.0
+E_NCR_GRAP_2024,PARSVNATH,28.6389,77.1026,West Delhi,Housing construction,630.2
+E_NCR_GRAP_2024,PARSVNATH,28.6318,77.2066,New Delhi,Commercial complexes,2250.0
+E_NCR_GRAP_2024,PARSVNATH,28.6304,77.2052,New Delhi,Commercial complexes,0.0
+E_NCR_GRAP_2024,PARSVNATH,28.3835,77.3143,Faridabad,Retail trading,500.0
+E_NCR_GRAP_2024,PARSVNATH,28.4085,77.0409,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,PARSVNATH,28.6698,77.4536,Ghaziabad,Retail trading,0.0
+E_NCR_GRAP_2024,PARSVNATH,28.6603,77.3573,Ghaziabad,Housing construction,17500.0
+E_NCR_GRAP_2024,PARSVNATH,28.474,77.5456,Ghaziabad,Housing construction,2000.0
+E_NCR_GRAP_2024,PARSVNATH,28.4742,77.5048,Ghaziabad,Housing construction,0.0
+E_NCR_GRAP_2024,PARSVNATH,28.4034,77.0432,Gurgaon,Computer software,1350.0
+E_NCR_GRAP_2024,PARSVNATH,28.9308,77.0865,Sonipat,Retail trading,1200.0
+E_NCR_GRAP_2024,PARSVNATH,28.4267,77.0954,Sonipat,Housing construction,5000.0
+E_NCR_GRAP_2024,PARSVNATH,28.995,77.078,Sonipat,Housing construction,0.0
+E_NCR_GRAP_2024,PETRONET,28.6849,77.0753,NCT of Delhi,Storage   distribution,0.0
+E_NCR_GRAP_2024,QVC,28.5262,76.9848,Gurgaon,Housing construction,15000.0
+E_NCR_GRAP_2024,QVC,28.5251,77.0024,Gurgaon,Housing construction,25000.0
+E_NCR_GRAP_2024,RVNL,28.6485,77.3144,NCT of Delhi Districts,Railway transport infrastructure services,6000.0
+E_NCR_GRAP_2024,RVNL,28.6974,76.5852,Jhajjar,Railway transport infrastructure services,67530.0
+E_NCR_GRAP_2024,RVNL,28.5819,77.1859,New Delhi,Housing construction,0.0
+E_NCR_GRAP_2024,RPOWER,28.8134,77.028,North West Delhi,Conventional electricity,15670.0
+E_NCR_GRAP_2024,RPOWER,28.541,77.5603,Gautam Buddha Nagar,Conventional electricity,15670.0
+E_NCR_GRAP_2024,RPOWER,28.57,77.55,Gautam Buddha Nagar,Conventional electricity,224400.0
+E_NCR_GRAP_2024,RPOWER,28.5494,77.561,Gautam Buddha Nagar,Commercial complexes,0.0
+E_NCR_GRAP_2024,SHREECEM,28.5552,77.3766,Gautam Buddha Nagar,Other construction materials,0.0
+E_NCR_GRAP_2024,TATACOMM,28.6193,77.2252,NCT of Delhi Districts,Other miscellaneous services,0.0
+E_NCR_GRAP_2024,TATACOMM,28.5071,77.1437,NCT of Delhi Districts,Computer software,20000.0
+E_NCR_GRAP_2024,TATASTLBSL,28.661,77.3409,Ghaziabad,Steel,692.8
+E_NCR_GRAP_2024,TATASTLBSL,28.6493,77.332,Ghaziabad,Steel,6500.0
+E_NCR_GRAP_2024,ULTRACEMCO,28.4977,76.3847,Jhajjar,Cement,0.0
+E_NCR_GRAP_2024,UNITECH,28.7053,77.1094,NCT of Delhi Districts,Hotels   restaurants,900.0
+E_NCR_GRAP_2024,UNITECH,28.4117,77.0669,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.4432,77.0565,Gurgaon,Commercial complexes,400.0
+E_NCR_GRAP_2024,UNITECH,28.4812,77.1024,Gurgaon,Commercial complexes,2400.0
+E_NCR_GRAP_2024,UNITECH,28.4744,77.5053,Gautam Buddha Nagar,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.3667,77.5476,Gautam Buddha Nagar,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.4771,77.5469,Gautam Buddha Nagar,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.4415,77.5184,Gautam Buddha Nagar,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.4869,77.5659,Gautam Buddha Nagar,Housing construction,5564.4
+E_NCR_GRAP_2024,UNITECH,28.3926,77.0216,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.3954,77.0268,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.4125,77.068,Gurgaon,Computer software,1500.0
+E_NCR_GRAP_2024,UNITECH,28.3648,76.9572,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.4545,77.0419,Gurgaon,Commercial complexes,0.0
+E_NCR_GRAP_2024,UNITECH,28.4002,77.0193,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.3987,77.0397,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.3967,77.0359,Gurgaon,Housing construction,5000.0
+E_NCR_GRAP_2024,UNITECH,28.3504,77.0654,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.4078,77.0672,Gurgaon,Commercial complexes,0.0
+E_NCR_GRAP_2024,UNITECH,28.4103,77.0652,Gurgaon,Commercial complexes,0.0
+E_NCR_GRAP_2024,UNITECH,28.4245,77.0476,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.4648,77.0355,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.4099,77.0668,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.4048,77.0285,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.4083,77.0598,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.4044,77.0196,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.4071,77.03,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.4111,77.0596,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.4123,77.0681,Gurgaon,Housing construction,2500.0
+E_NCR_GRAP_2024,UNITECH,28.4133,77.0647,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.4164,77.0627,Gurgaon,Commercial complexes,0.0
+E_NCR_GRAP_2024,UNITECH,28.5784,77.3983,Gautam Buddha Nagar,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,19.07,73.0066,Gautam Buddha Nagar,Retail trading,0.0
+E_NCR_GRAP_2024,UNITECH,28.5675,77.3257,Gautam Buddha Nagar,Retail trading,0.0
+E_NCR_GRAP_2024,UNITECH,28.536,77.3856,Gautam Buddha Nagar,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.5455,77.3482,Gautam Buddha Nagar,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.6253,77.3628,Gautam Buddha Nagar,Housing construction,0.0
+E_NCR_GRAP_2024,UNITECH,28.5447,77.3518,Gautam Buddha Nagar,Housing construction,60000.0
+E_NCR_GRAP_2024,UNITECH,28.4432,77.0582,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,VIPULLTD,28.3924,77.3425,Faridabad,Commercial complexes,930.0
+E_NCR_GRAP_2024,VIPULLTD,28.3819,77.0518,Gurgaon,Computer software,12000.0
+E_NCR_GRAP_2024,VIPULLTD,28.4433,77.0948,Gurgaon,Commercial complexes,0.0
+E_NCR_GRAP_2024,VIPULLTD,28.48,77.09,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,VIPULLTD,28.3867,76.9485,Gurgaon,Housing construction,2720.0
+E_NCR_GRAP_2024,VIPULLTD,28.4223,77.0374,Gurgaon,Commercial complexes,0.0
+E_NCR_GRAP_2024,VIPULLTD,28.4595,77.0264,Gurgaon,Housing construction,0.0
+E_NCR_GRAP_2024,VIPULLTD,28.4131,77.037,Gurgaon,Housing construction,5000.0
+E_GJ_FLOOD_2024,AARTIIND,21.7263,73.0028,Bharuch,Drugs   pharmaceuticals,0.0
+E_GJ_FLOOD_2024,AARTIIND,21.6569,73.128,Bharuch,Other chemical products,400.0
+E_GJ_FLOOD_2024,AARTIIND,21.6373,73.1311,Bharuch,Drugs   pharmaceuticals,400.0
+E_GJ_FLOOD_2024,AARTIIND,21.7092,72.5842,Bharuch,Other chemical products,750.0
+E_GJ_FLOOD_2024,AARTIIND,21.7145,72.6199,Bharuch,Natural gas trading   distribution,55.0
+E_GJ_FLOOD_2024,AARTIIND,21.6864,72.5445,Bharuch,Organic chemicals,1784.0
+E_GJ_FLOOD_2024,AARTIIND,21.6566,73.1276,Bharuch,Organic chemicals,89.0
+E_GJ_FLOOD_2024,AARTIIND,21.6132,73.1351,Bharuch,Organic chemicals,16698.0
+E_GJ_FLOOD_2024,AARTIIND,21.7236,73.155,Bharuch,Inorganic chemicals,0.0
+E_GJ_FLOOD_2024,AARTIIND,21.6534,73.1263,Bharuch,Inorganic chemicals,2560.0
+E_GJ_FLOOD_2024,AARTIIND,21.6566,73.1278,Bharuch,Other chemical products,0.0
+E_GJ_FLOOD_2024,AARTIIND,21.7237,73.1555,Bharuch,Inorganic chemicals,600.0
+E_GJ_FLOOD_2024,AARTIIND,21.7191,73.1495,Bharuch,Drugs   pharmaceuticals,750.0
+E_GJ_FLOOD_2024,AARTIIND,21.6566,73.1278,Bharuch,Fertilisers,350.0
+E_GJ_FLOOD_2024,AARTIIND,21.6136,73.1362,Bharuch,Organic chemicals,892.0
+E_GJ_FLOOD_2024,AARTIIND,21.7051,72.9959,Bharuch,Organic chemicals,0.0
+E_GJ_FLOOD_2024,AARTIIND,21.7235,72.6105,Bharuch,Organic chemicals,400.0
+E_GJ_FLOOD_2024,ADANIENT,21.7042,72.5785,Bharuch,Processed foods,350.0
+E_GJ_FLOOD_2024,ANANTRAJ,21.7193,73.157,Bharuch,Ceramic products,600.0
+E_GJ_FLOOD_2024,APOLLOTYRE,22.2901,73.3708,Vadodara,Tyres   tubes,2000.0
+E_GJ_FLOOD_2024,APOLLOTYRE,22.2891,73.3612,Vadodara,Tyres   tubes,1500.0
+E_GJ_FLOOD_2024,APOLLOTYRE,22.2901,73.37,Vadodara,Tyres   tubes,3000.0
+E_GJ_FLOOD_2024,APOLLOTYRE,22.2901,73.3708,Vadodara,Tyres   tubes,2000.0
+E_GJ_FLOOD_2024,APOLLOTYRE,22.2901,73.3708,Vadodara,Tyres   tubes,1260.0
+E_GJ_FLOOD_2024,APOLLOTYRE,21.7327,73.0372,Vadodara,Tyres   tubes,940.0
+E_GJ_FLOOD_2024,APOLLOTYRE,22.2906,73.3697,Vadodara,Tyres   tubes,2100.0
+E_GJ_FLOOD_2024,APOLLOTYRE,22.2901,73.3708,Vadodara,Tyres   tubes,1700.0
+E_GJ_FLOOD_2024,APOLLOTYRE,22.3026,73.3969,Vadodara,Tyres   tubes,2000.0
+E_GJ_FLOOD_2024,ASSAMCO,21.7048,72.9958,Bharuch,Conventional electricity,36750.0
+E_GJ_FLOOD_2024,ASSAMCO,21.6985,72.5188,Bharuch,Shipping transport infrastructure services,5000.0
+E_GJ_FLOOD_2024,ASSAMCO,21.9903,73.4596,Bharuch,Shipping transport infrastructure services,20000.0
+E_GJ_FLOOD_2024,BODALCHEM,21.7125,72.585,Bharuch,Dyes   pigments,1000.0
+E_GJ_FLOOD_2024,BODALCHEM,22.1873,72.8949,Vadodara,Conventional electricity,350.0
+E_GJ_FLOOD_2024,BODALCHEM,22.1795,72.884,Vadodara,Dyes   pigments,1530.0
+E_GJ_FLOOD_2024,BODALCHEM,22.1961,72.8826,Vadodara,Dyes   pigments,260.0
+E_GJ_FLOOD_2024,BODALCHEM,22.1763,72.8824,Vadodara,Organic chemicals,200.0
+E_GJ_FLOOD_2024,BODALCHEM,22.2394,73.0848,Vadodara,Dyes   pigments,0.0
+E_GJ_FLOOD_2024,BODALCHEM,22.181,72.8792,Vadodara,Dyes   pigments,500.0
+E_GJ_FLOOD_2024,BODALCHEM,22.2315,72.8749,Vadodara,Dyes   pigments,450.0
+E_GJ_FLOOD_2024,BODALCHEM,22.1761,72.8825,Vadodara,Inorganic chemicals,620.0
+E_GJ_FLOOD_2024,BODALCHEM,21.8015,72.8526,Bharuch,Inorganic chemicals,11700.0
+E_GJ_FLOOD_2024,BODALCHEM,21.7749,72.8239,Bharuch,Organic chemicals,2200.0
+E_GJ_FLOOD_2024,BODALCHEM,21.7761,72.8264,Bharuch,Inorganic chemicals,1250.0
+E_GJ_FLOOD_2024,BODALCHEM,22.246,73.1612,Vadodara,Dyes   pigments,0.0
+E_GJ_FLOOD_2024,BODALCHEM,22.1767,72.8822,Vadodara,Dyes   pigments,340.0
+E_GJ_FLOOD_2024,BODALCHEM,22.3071,73.1816,Vadodara,Fertilisers,700.0
+E_GJ_FLOOD_2024,BODALCHEM,22.1791,72.8806,Bharuch,Conventional electricity,2600.0
+E_GJ_FLOOD_2024,BODALCHEM,22.1799,72.8802,Vadodara,Dyes   pigments,360.0
+E_GJ_FLOOD_2024,BORORENEW,21.6842,73.1044,Bharuch,Glass   glassware,6500.0
+E_GJ_FLOOD_2024,BORORENEW,21.6843,73.1045,Bharuch,Glass   glassware,14000.0
+E_GJ_FLOOD_2024,BORORENEW,21.6843,73.1045,Bharuch,Glass   glassware,6500.0
+E_GJ_FLOOD_2024,CEATLTD,21.7192,73.1497,Bharuch,Tyres   tubes,5000.0
+E_GJ_FLOOD_2024,CEATLTD,22.5461,73.4625,Vadodara,Tyres   tubes,5000.0
+E_GJ_FLOOD_2024,DCMSHRIRAM,21.7076,72.9894,Bharuch,Inorganic chemicals,0.0
+E_GJ_FLOOD_2024,DCMSHRIRAM,21.7051,72.9959,Bharuch,Inorganic chemicals,430.0
+E_GJ_FLOOD_2024,DCMSHRIRAM,21.6555,73.1328,Bharuch,Inorganic chemicals,250.0
+E_GJ_FLOOD_2024,DCMSHRIRAM,21.7077,72.9945,Bharuch,Caustic soda,640.0
+E_GJ_FLOOD_2024,DCMSHRIRAM,21.7051,72.9959,Bharuch,Caustic soda,1130.0
+E_GJ_FLOOD_2024,DCMSHRIRAM,21.7051,72.9959,Bharuch,Caustic soda,10500.0
+E_GJ_FLOOD_2024,DCMSHRIRAM,21.706,72.997,Bharuch,Inorganic chemicals,0.0
+E_GJ_FLOOD_2024,DCMSHRIRAM,21.7069,72.9947,Bharuch,Other chemical products,10000.0
+E_GJ_FLOOD_2024,DCMSHRIRAM,21.7044,72.997,Bharuch,Inorganic chemicals,240.0
+E_GJ_FLOOD_2024,DCMSHRIRAM,21.6578,73.1375,Bharuch,Caustic soda,1780.0
+E_GJ_FLOOD_2024,DCMSHRIRAM,21.6578,73.1375,Bharuch,Caustic soda,0.0
+E_GJ_FLOOD_2024,DCMSHRIRAM,21.7191,73.1497,Bharuch,Caustic soda,6000.0
+E_GJ_FLOOD_2024,MFL,21.6141,73.034,Bharuch,Other chemical products,75.0
+E_GJ_FLOOD_2024,MFL,21.726,72.6157,Bharuch,Pesticides,700.0
+E_GJ_FLOOD_2024,MFL,21.7169,72.5804,Bharuch,Inorganic chemicals,0.0
+E_GJ_FLOOD_2024,MFL,21.7183,72.6124,Bharuch,Inorganic chemicals,5542.0
+E_GJ_FLOOD_2024,MFL,21.7129,72.582,Bharuch,Inorganic chemicals,650.0
+E_GJ_FLOOD_2024,MFL,21.7172,72.6098,Bharuch,Caustic soda,2300.0
+E_GJ_FLOOD_2024,MFL,21.7157,72.6068,Bharuch,Polymers,2500.0
+E_GJ_FLOOD_2024,MFL,21.7171,72.6093,Bharuch,Polymers,1900.0
+E_GJ_FLOOD_2024,MFL,21.7175,72.6092,Bharuch,Organic chemicals,1800.0
+E_GJ_FLOOD_2024,MFL,21.7175,72.6093,Bharuch,Polymers,250.0
+E_GJ_FLOOD_2024,MFL,21.7153,72.6032,Bharuch,Other chemical products,2750.0
+E_GJ_FLOOD_2024,MFL,21.7129,72.582,Bharuch,Inorganic chemicals,4000.0
+E_GJ_FLOOD_2024,MFL,21.7045,72.6394,Bharuch,Pesticides,3500.0
+E_GJ_FLOOD_2024,MFL,21.74,72.6661,Bharuch,Organic chemicals,1600.0
+E_GJ_FLOOD_2024,MFL,21.542,72.9992,Bharuch,Dyes   pigments,357.0
+E_GJ_FLOOD_2024,GAIL,22.202,69.8644,Anand,Crude oil   natural gas,1600.0
+E_GJ_FLOOD_2024,GAIL,21.7231,72.5594,Bharuch,Synthetic rubber,25744.5
+E_GJ_FLOOD_2024,GAIL,22.2946,73.2034,Vadodara,Conventional electricity,350.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7137,72.5811,Bharuch,Inorganic chemicals,260.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7254,73.0028,Bharuch,Inorganic chemicals,0.0
+E_GJ_FLOOD_2024,GUJALKALI,22.3063,73.1854,Vadodara,Inorganic chemicals,80.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7034,72.5972,Bharuch,Conventional electricity,3180.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7045,72.5958,Bharuch,Inorganic chemicals,350.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7057,72.5957,Bharuch,Inorganic chemicals,0.0
+E_GJ_FLOOD_2024,GUJALKALI,21.708,72.5991,Bharuch,Caustic soda,0.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7088,72.603,Bharuch,Caustic soda,400.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7089,72.6023,Bharuch,Caustic soda,400.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7052,72.596,Bharuch,Caustic soda,5500.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7066,72.5968,Bharuch,Caustic soda,0.0
+E_GJ_FLOOD_2024,GUJALKALI,22.3965,73.1165,Bharuch,Caustic soda,92.8
+E_GJ_FLOOD_2024,GUJALKALI,21.7087,72.6037,Bharuch,Caustic soda,180.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7088,72.6039,Bharuch,Caustic soda,3100.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7005,72.5894,Bharuch,Caustic soda,6340.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7055,72.5956,Bharuch,Organic chemicals,8500.0
+E_GJ_FLOOD_2024,GUJALKALI,21.737,72.5558,Bharuch,Organic chemicals,3500.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7445,72.6079,Bharuch,Conventional electricity,3250.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7271,73.0031,Bharuch,Organic chemicals,800.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7257,73.0033,Bharuch,Organic chemicals,1500.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7092,72.6042,Bharuch,Aluminium   aluminium products,120.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7129,72.5819,Bharuch,Conventional electricity,4000.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7148,72.5847,Bharuch,Inorganic chemicals,4055.0
+E_GJ_FLOOD_2024,GUJALKALI,21.714,72.5806,Bharuch,Inorganic chemicals,982.5
+E_GJ_FLOOD_2024,GUJALKALI,21.6957,72.5356,Bharuch,Inorganic chemicals,980.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7051,72.5952,Bharuch,Inorganic chemicals,1120.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7053,72.5952,Bharuch,Inorganic chemicals,1432.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7088,72.5928,Bharuch,Organic chemicals,100000.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7091,72.6039,Bharuch,Inorganic chemicals,5200.0
+E_GJ_FLOOD_2024,GUJALKALI,21.705,72.5958,Bharuch,Inorganic chemicals,1260.0
+E_GJ_FLOOD_2024,GUJALKALI,21.709,72.6039,Bharuch,Polymers,25000.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7054,72.5955,Bharuch,Inorganic chemicals,1000.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7129,72.582,Bharuch,Other chemical products,0.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7138,72.583,Bharuch,Inorganic chemicals,0.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7053,72.5942,Bharuch,Inorganic chemicals,255.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7055,72.5955,Bharuch,Inorganic chemicals,1100.0
+E_GJ_FLOOD_2024,GUJALKALI,21.7248,73.0012,Bharuch,Inorganic chemicals,1190.0
+E_GJ_FLOOD_2024,GUJALKALI,21.714,72.5788,Bharuch,Inorganic chemicals,150.0
+E_GJ_FLOOD_2024,GUJALKALI,22.3965,73.1165,Vadodara,Inorganic chemicals,0.0
+E_GJ_FLOOD_2024,GUJALKALI,22.3952,73.1175,Vadodara,Inorganic chemicals,400.0
+E_GJ_FLOOD_2024,GUJALKALI,22.3951,73.1177,Vadodara,Organic chemicals,1200.0
+E_GJ_FLOOD_2024,GUJALKALI,22.3072,73.1812,Vadodara,Inorganic chemicals,220.0
+E_GJ_FLOOD_2024,GUJALKALI,22.3076,73.1849,Vadodara,Inorganic chemicals,150.0
+E_GJ_FLOOD_2024,GUJALKALI,22.3072,73.1812,Vadodara,Inorganic chemicals,0.0
+E_GJ_FLOOD_2024,GNFC,21.7403,73.0103,Bharuch,Organic chemicals,0.0
+E_GJ_FLOOD_2024,GNFC,21.7108,73.0127,Bharuch,Inorganic chemicals,0.0
+E_GJ_FLOOD_2024,GNFC,21.7305,73.0237,Bharuch,Inorganic chemicals,12160.0
+E_GJ_FLOOD_2024,GNFC,21.7331,73.0057,Bharuch,Fertilisers,1820.0
+E_GJ_FLOOD_2024,GNFC,21.7361,73.011,Bharuch,Conventional electricity,1500.0
+E_GJ_FLOOD_2024,GNFC,21.7359,73.0108,Bharuch,Inorganic chemicals,1100.0
+E_GJ_FLOOD_2024,GNFC,21.6983,72.9985,Bharuch,Inorganic chemicals,0.0
+E_GJ_FLOOD_2024,GNFC,21.736,73.0109,Bharuch,Organic chemicals,1243.4
+E_GJ_FLOOD_2024,GNFC,21.7366,73.0103,Bharuch,Organic chemicals,110.7
+E_GJ_FLOOD_2024,GNFC,21.7123,73.0115,Bharuch,Organic chemicals,530.0
+E_GJ_FLOOD_2024,GNFC,21.6994,72.9984,Bharuch,Telecommunication services,1000.0
+E_GJ_FLOOD_2024,GNFC,21.7261,72.9968,Bharuch,Organic chemicals,9150.0
+E_GJ_FLOOD_2024,GNFC,21.7355,73.0095,Bharuch,Vegetable oils   products,500.0
+E_GJ_FLOOD_2024,GNFC,21.7364,73.0095,Bharuch,Inorganic chemicals,300.0
+E_GJ_FLOOD_2024,GNFC,21.7433,73.0035,Bharuch,Fertilisers,16500.0
+E_GJ_FLOOD_2024,GNFC,21.7064,72.9956,Bharuch,Inorganic chemicals,9500.0
+E_GJ_FLOOD_2024,GNFC,21.7305,73.0237,Bharuch,Inorganic chemicals,2620.0
+E_GJ_FLOOD_2024,GNFC,21.7265,73.0239,Bharuch,Inorganic chemicals,320.0
+E_GJ_FLOOD_2024,GNFC,21.7129,72.582,Bharuch,Renewable electricity,2600.0
+E_GJ_FLOOD_2024,GNFC,21.7461,73.0098,Bharuch,Conventional electricity,4320.0
+E_GJ_FLOOD_2024,GNFC,21.6937,72.6693,Bharuch,Organic chemicals,19960.0
+E_GJ_FLOOD_2024,GNFC,21.7054,72.9961,Bharuch,Inorganic chemicals,910.0
+E_GJ_FLOOD_2024,GNFC,21.7427,73.0108,Bharuch,Organic chemicals,2210.0
+E_GJ_FLOOD_2024,GNFC,21.7372,73.0088,Bharuch,Organic chemicals,2500.0
+E_GJ_FLOOD_2024,GNFC,21.736,73.011,Bharuch,Fertilisers,2300.0
+E_GJ_FLOOD_2024,GNFC,21.7409,73.0139,Bharuch,Inorganic chemicals,820.0
+E_GJ_FLOOD_2024,GNFC,21.7344,73.0071,Bharuch,Other textiles,10700.0
+E_GJ_FLOOD_2024,GNFC,21.7364,73.0095,Bharuch,Organic chemicals,138.8
+E_GJ_FLOOD_2024,GNFC,21.7368,73.0082,Bharuch,Inorganic chemicals,580.0
+E_GJ_FLOOD_2024,GNFC,21.727,72.9925,Bharuch,Fertilisers,220.0
+E_GJ_FLOOD_2024,GNFC,21.6993,72.9989,Bharuch,Inorganic chemicals,370.0
+E_GJ_FLOOD_2024,GSFC,21.7051,72.9958,Bharuch,Organic chemicals,5000.0
+E_GJ_FLOOD_2024,GSFC,22.3737,73.1489,Vadodara,Inorganic chemicals,11140.0
+E_GJ_FLOOD_2024,GSFC,22.3728,73.1412,Vadodara,Organic chemicals,320.0
+E_GJ_FLOOD_2024,GSFC,22.3752,73.1541,Vadodara,Organic chemicals,5850.0
+E_GJ_FLOOD_2024,GSFC,22.3747,73.1527,Vadodara,Conventional electricity,1350.0
+E_GJ_FLOOD_2024,GSFC,21.7309,72.5609,Bharuch,Fertilisers,80000.0
+E_GJ_FLOOD_2024,GSFC,21.7302,72.6436,Bharuch,Organic chemicals,8000.0
+E_GJ_FLOOD_2024,GSFC,21.7129,72.5821,Bharuch,Organic chemicals,0.0
+E_GJ_FLOOD_2024,GSFC,22.3762,73.1424,Vadodara,Organic chemicals,1400.0
+E_GJ_FLOOD_2024,GSFC,22.3752,73.1548,Vadodara,Organic chemicals,3000.0
+E_GJ_FLOOD_2024,GSFC,22.3788,73.1496,Vadodara,Fertilisers,360.3
+E_GJ_FLOOD_2024,GSFC,22.3733,73.1497,Vadodara,Organic chemicals,75.0
+E_GJ_FLOOD_2024,GSFC,22.3736,73.1497,Vadodara,Organic chemicals,1200.0
+E_GJ_FLOOD_2024,GSFC,22.3053,73.1792,Vadodara,Man-made filaments   fibres,317.6
+E_GJ_FLOOD_2024,GSFC,22.3811,73.1446,Vadodara,Inorganic chemicals,550.0
+E_GJ_FLOOD_2024,GSFC,22.3801,73.1453,Vadodara,Fertilisers,87.5
+E_GJ_FLOOD_2024,GSFC,22.3742,73.1535,Vadodara,Fertilisers,1100.0
+E_GJ_FLOOD_2024,GSFC,22.2795,73.1691,Vadodara,Polymers,5000.0
+E_GJ_FLOOD_2024,GSFC,22.2987,73.189,Vadodara,Organic chemicals,0.0
+E_GJ_FLOOD_2024,GSFC,22.3066,73.18,Vadodara,Organic chemicals,710.0
+E_GJ_FLOOD_2024,GSFC,22.3073,73.1811,Vadodara,Organic chemicals,0.0
+E_GJ_FLOOD_2024,GSFC,22.3724,73.1891,Vadodara,Education,1000.0
+E_GJ_FLOOD_2024,GSFC,22.3061,73.1819,Vadodara,Drugs   pharmaceuticals,1000.0
+E_GJ_FLOOD_2024,GSFC,22.3742,73.1498,Vadodara,Inorganic chemicals,0.0
+E_GJ_FLOOD_2024,GSFC,22.3742,73.1518,Vadodara,Organic chemicals,10000.0
+E_GJ_FLOOD_2024,GSFC,22.3539,73.1774,Vadodara,Man-made filaments   fibres,2250.0
+E_GJ_FLOOD_2024,GSFC,22.374,73.1491,Vadodara,Man-made filaments   fibres,1400.0
+E_GJ_FLOOD_2024,GSFC,22.3742,73.1535,Vadodara,Inorganic chemicals,2598.1
+E_GJ_FLOOD_2024,GSFC,22.3051,73.1828,Vadodara,Inorganic chemicals,2500.0
+E_GJ_FLOOD_2024,GSFC,22.3751,73.1542,Vadodara,Inorganic chemicals,0.0
+E_GJ_FLOOD_2024,GSFC,22.2976,73.1881,Vadodara,Inorganic chemicals,33.0
+E_GJ_FLOOD_2024,GSFC,22.3072,73.1812,Vadodara,Fertilisers,500.0
+E_GJ_FLOOD_2024,IOC,22.3532,73.1135,Vadodara,Other construction materials,2260.0
+E_GJ_FLOOD_2024,IOC,21.7129,72.582,Bharuch,Organic chemicals,0.0
+E_GJ_FLOOD_2024,IOC,22.3733,73.1895,Vadodara,Organic chemicals,43850.0
+E_GJ_FLOOD_2024,IOC,21.8864,72.658,Bharuch,Storage   distribution,662.4
+E_GJ_FLOOD_2024,IOC,22.3714,73.1267,Vadodara,Refinery,4030.0
+E_GJ_FLOOD_2024,IOC,22.3704,73.12,Vadodara,Renewable electricity,39.0
+E_GJ_FLOOD_2024,IOC,22.3764,73.1207,Vadodara,Electricity transmission,2083.5
+E_GJ_FLOOD_2024,IOC,22.3581,73.1143,Vadodara,Conventional electricity,3750.0
+E_GJ_FLOOD_2024,IOC,22.3741,73.1219,Vadodara,Refinery,3280.0
+E_GJ_FLOOD_2024,IOC,22.3695,73.1154,Vadodara,Refinery,13150.0
+E_GJ_FLOOD_2024,IOC,22.3713,73.1175,Vadodara,Organic chemicals,17000.0
+E_GJ_FLOOD_2024,IOC,22.3581,73.1143,Vadodara,Refinery,33800.0
+E_GJ_FLOOD_2024,IOC,22.3714,73.112,Vadodara,Refinery,240000.0
+E_GJ_FLOOD_2024,IOC,22.3821,73.1151,Vadodara,Refinery,16650.0
+E_GJ_FLOOD_2024,IOC,22.3539,73.1129,Vadodara,Refinery,43920.0
+E_GJ_FLOOD_2024,IOC,22.3583,73.1153,Vadodara,Refinery,7490.0
+E_GJ_FLOOD_2024,IOC,22.3545,73.1135,Vadodara,Renewable electricity,37.8
+E_GJ_FLOOD_2024,IOC,22.3696,73.1207,Vadodara,Renewable electricity,48.7
+E_GJ_FLOOD_2024,IOC,22.3585,73.1334,Vadodara,Other miscellaneous services,1600.0
+E_GJ_FLOOD_2024,IOC,19.0977,74.7463,Vadodara,Storage   distribution,22510.0
+E_GJ_FLOOD_2024,IOC,22.3581,73.1143,Vadodara,Storage   distribution,2732.3
+E_GJ_FLOOD_2024,IOC,22.3665,73.1187,Vadodara,Refinery,7520.0
+E_GJ_FLOOD_2024,IOC,22.3718,73.1212,Vadodara,Refinery,68980.0
+E_GJ_FLOOD_2024,IOC,22.3706,73.1128,Vadodara,Storage   distribution,8970.0
+E_GJ_FLOOD_2024,IOC,22.562,73.2173,Vadodara,Conventional electricity,16700.0
+E_GJ_FLOOD_2024,IOC,22.3581,73.1143,Vadodara,Organic chemicals,80000.0
+E_GJ_FLOOD_2024,IOC,22.3716,73.1114,Vadodara,Refinery,5470.0
+E_GJ_FLOOD_2024,IOC,22.3741,73.1234,Vadodara,Organic chemicals,12480.0
+E_GJ_FLOOD_2024,IOC,22.3749,73.1184,Vadodara,Refinery,8640.0
+E_GJ_FLOOD_2024,IPCL,22.3571,73.1152,Vadodara,Organic chemicals,436.8
+E_GJ_FLOOD_2024,IPCL,21.6865,72.5829,Bharuch,Conventional electricity,2100.0
+E_GJ_FLOOD_2024,IPCL,21.8894,72.6594,Bharuch,Organic chemicals,6000.0
+E_GJ_FLOOD_2024,IPCL,21.684,72.5687,Bharuch,Polymers,17850.0
+E_GJ_FLOOD_2024,IPCL,21.6861,72.5737,Bharuch,Organic chemicals,35000.0
+E_GJ_FLOOD_2024,IPCL,22.3139,73.1748,Vadodara,Synthetic rubber,1500.0
+E_GJ_FLOOD_2024,IPCL,22.3793,73.1064,Vadodara,Polymers,2000.0
+E_GJ_FLOOD_2024,IPCL,21.8887,72.6586,Bharuch,Organic chemicals,25000.0
+E_GJ_FLOOD_2024,IPCL,22.3827,73.115,Vadodara,Organic chemicals,0.0
+E_GJ_FLOOD_2024,IPCL,22.3517,73.158,Vadodara,Organic chemicals,12000.0
+E_GJ_FLOOD_2024,JPASSOCIAT,22.7506,72.6847,Kheda,Cement,0.0
+E_GJ_FLOOD_2024,JPASSOCIAT,22.867,73.361,Kheda,Cement,0.0
+E_GJ_FLOOD_2024,KIRIINDUS,21.7233,72.5982,Bharuch,Organic chemicals,29000.0
+E_GJ_FLOOD_2024,KIRIINDUS,22.3061,73.182,Vadodara,Inorganic chemicals,550.0
+E_GJ_FLOOD_2024,KIRIINDUS,22.3703,73.1499,Vadodara,Organic chemicals,0.0
+E_GJ_FLOOD_2024,MRF,21.717,72.5804,Bharuch,Tyres   tubes,40000.0
+E_GJ_FLOOD_2024,MODTHREAD,21.7383,72.995,Bharuch,Conventional electricity,6000.0
+E_GJ_FLOOD_2024,MODTHREAD,21.7384,72.9889,Bharuch,Organic chemicals,17000.0
+E_GJ_FLOOD_2024,NTPC,22.2346,72.7605,Anand,Conventional electricity,64000.0
+E_GJ_FLOOD_2024,NTPC,21.8861,72.6603,Bharuch,Conventional electricity,39000.0
+E_GJ_FLOOD_2024,NTPC,21.8869,72.6585,Bharuch,Renewable electricity,925.8
+E_GJ_FLOOD_2024,NTPC,21.8241,73.1141,Bharuch,Conventional electricity,22060.0
+E_GJ_FLOOD_2024,NECLIFE,20.6099,72.9262,Bharuch,Drugs   pharmaceuticals,35000.0
+E_GJ_FLOOD_2024,PETRONET,21.7309,72.561,Bharuch,Conventional electricity,42000.0
+E_GJ_FLOOD_2024,PETRONET,21.6749,72.5348,Bharuch,Natural gas trading   distribution,29500.0
+E_GJ_FLOOD_2024,PETRONET,21.6722,72.534,Bharuch,Natural gas trading   distribution,21000.0
+E_GJ_FLOOD_2024,PETRONET,21.6789,72.5391,Bharuch,Natural gas trading   distribution,2718.6
+E_GJ_FLOOD_2024,PETRONET,21.6749,72.5349,Bharuch,Transport logistics services,0.0
+E_GJ_FLOOD_2024,PETRONET,21.6604,72.1565,Bharuch,Refinery,206850.0
+E_GJ_FLOOD_2024,PETRONET,21.675,72.5214,Bharuch,Shipping transport infrastructure services,10000.0
+E_GJ_FLOOD_2024,PETRONET,21.6635,72.5105,Bharuch,Shipping transport infrastructure services,16500.0
+E_GJ_FLOOD_2024,PETRONET,21.6669,72.5737,Bharuch,Shipping transport infrastructure services,4500.0
+E_GJ_FLOOD_2024,RELIANCE,22.3053,73.1795,Vadodara,Organic chemicals,0.0
+E_GJ_FLOOD_2024,RELIANCE,21.6848,72.5748,Bharuch,Organic chemicals,132500.0
+E_GJ_FLOOD_2024,RELIANCE,21.727,72.5643,Bharuch,Health services,180.0
+E_GJ_FLOOD_2024,RELIANCE,21.7129,72.582,Bharuch,Organic chemicals,0.0
+E_GJ_FLOOD_2024,RELIANCE,21.7256,72.5433,Bharuch,Man-made filaments   fibres,0.0
+E_GJ_FLOOD_2024,RELIANCE,21.6846,72.575,Bharuch,Organic chemicals,0.0
+E_GJ_FLOOD_2024,RELIANCE,21.6988,72.5967,Bharuch,Conventional electricity,0.0
+E_GJ_FLOOD_2024,RELIANCE,21.8864,72.658,Bharuch,Organic chemicals,0.0
+E_GJ_FLOOD_2024,RELIANCE,21.7309,73.011,Bharuch,Organic chemicals,10000.0
+E_GJ_FLOOD_2024,RELIANCE,21.1733,72.6787,Bharuch,Organic chemicals,7454.6
+E_GJ_FLOOD_2024,RELIANCE,22.2775,73.1707,Vadodara,Man-made filaments   fibres,0.0
+E_GJ_FLOOD_2024,RELIANCE,22.3855,73.1124,Vadodara,Organic chemicals,22700.0
+E_GJ_FLOOD_2024,RELIANCE,22.3425,73.2139,Vadodara,Education,5000.0
+E_GJ_FLOOD_2024,RELIANCE,22.3724,73.1062,Vadodara,Polymers,0.0
+E_GJ_FLOOD_2024,RELIANCE,22.3727,73.1061,Vadodara,Synthetic rubber,5000.0
+E_GJ_FLOOD_2024,RELIANCE,22.3069,73.1812,Vadodara,Other textiles,0.0
+E_GJ_FLOOD_2024,RELIANCE,22.7556,73.6207,Vadodara,Renewable electricity,4500.0
+E_GJ_FLOOD_2024,RELINFRA,21.7121,72.5841,Bharuch,Conventional electricity,1750.0
+E_GJ_FLOOD_2024,RELINFRA,21.7238,72.5716,Bharuch,Conventional electricity,17500.0
+E_GJ_FLOOD_2024,SRF,21.7055,72.6384,Bharuch,Electricity transmission,1470.0
+E_GJ_FLOOD_2024,SRF,21.7114,72.6311,Bharuch,Other chemical products,400.0
+E_GJ_FLOOD_2024,SRF,21.7089,72.6476,Bharuch,Other chemical products,720.0
+E_GJ_FLOOD_2024,SRF,21.7139,72.5986,Bharuch,Other chemical products,275.0
+E_GJ_FLOOD_2024,SRF,21.7108,72.6327,Bharuch,Pesticides,1100.0
+E_GJ_FLOOD_2024,SRF,21.7212,72.627,Bharuch,Pesticides,2560.0
+E_GJ_FLOOD_2024,SRF,21.7119,72.6316,Bharuch,Other chemical products,2350.0
+E_GJ_FLOOD_2024,SRF,21.7093,72.6094,Bharuch,Other chemical products,2570.0
+E_GJ_FLOOD_2024,SRF,21.7089,72.6476,Bharuch,Pesticides,780.0
+E_GJ_FLOOD_2024,SRF,21.7309,72.5609,Bharuch,Conventional electricity,500.0
+E_GJ_FLOOD_2024,SRF,21.7117,72.6315,Bharuch,Organic chemicals,3850.0
+E_GJ_FLOOD_2024,SRF,21.7123,72.5849,Bharuch,Organic chemicals,1650.0
+E_GJ_FLOOD_2024,SRF,21.6905,72.276,Bharuch,Other chemical products,54.0
+E_GJ_FLOOD_2024,SRF,21.7036,72.6256,Bharuch,Other chemical products,850.0
+E_GJ_FLOOD_2024,SRF,21.7129,72.582,Bharuch,Organic chemicals,429.0
+E_GJ_FLOOD_2024,SRF,21.7297,72.6206,Bharuch,Other chemical products,5500.0
+E_GJ_FLOOD_2024,SRF,21.7114,72.6322,Bharuch,Other chemical products,655.0
+E_GJ_FLOOD_2024,SRF,21.7044,72.6256,Bharuch,Other chemical products,3650.0
+E_GJ_FLOOD_2024,SRF,21.7118,72.6316,Bharuch,Inorganic chemicals,4770.0
+E_GJ_FLOOD_2024,SRF,21.7036,72.6256,Bharuch,Other chemical products,800.0
+E_GJ_FLOOD_2024,SRF,21.7227,72.653,Bharuch,Commercial complexes,0.0
+E_GJ_FLOOD_2024,SRF,21.7041,72.6255,Bharuch,Other chemical products,1736.2
+E_GJ_FLOOD_2024,SRF,21.7129,72.582,Bharuch,Other chemical products,1800.0
+E_GJ_FLOOD_2024,SRF,21.7101,72.6352,Bharuch,Other chemical products,4050.0
+E_GJ_FLOOD_2024,SRF,21.7117,72.6306,Bharuch,Other chemical products,1160.0
+E_GJ_FLOOD_2024,SRF,21.7064,72.6335,Bharuch,Other chemical products,240.0
+E_GJ_FLOOD_2024,SRF,21.7117,72.6322,Bharuch,Other chemical products,175.0
+E_GJ_FLOOD_2024,SRF,21.7097,72.5866,Bharuch,Inorganic chemicals,810.0
+E_GJ_FLOOD_2024,SRF,21.7088,72.6348,Bharuch,Other chemical products,580.0
+E_GJ_FLOOD_2024,SRF,21.7431,72.662,Bharuch,Other chemical products,75000.0
+E_GJ_FLOOD_2024,SRF,21.7117,72.6315,Bharuch,Drugs   pharmaceuticals,2230.0
+E_GJ_FLOOD_2024,SRF,21.7129,72.5812,Bharuch,Other chemical products,630.0
+E_GJ_FLOOD_2024,SRF,21.7062,72.6334,Bharuch,Other chemical products,500.0
+E_GJ_FLOOD_2024,SRF,21.7115,72.6318,Bharuch,Polymers,4890.0
+E_GJ_FLOOD_2024,SRF,21.7129,72.582,Bharuch,Other chemical products,260.0
+E_GJ_FLOOD_2024,SRF,21.7293,72.6489,Bharuch,Other chemical products,300.0
+E_GJ_FLOOD_2024,SRF,21.7044,72.6263,Bharuch,Other chemical products,500.0
+E_GJ_FLOOD_2024,SRF,21.7129,72.582,Bharuch,Other chemical products,437.3
+E_GJ_FLOOD_2024,SRF,21.7057,72.6369,Bharuch,Other chemical products,850.0
+E_GJ_FLOOD_2024,SRF,21.7043,72.6251,Bharuch,Other chemical products,520.0
+E_GJ_FLOOD_2024,SRF,21.7119,72.6316,Bharuch,Other chemical products,1660.0
+E_GJ_FLOOD_2024,SRF,21.7249,72.622,Bharuch,Other chemical products,740.0
+E_GJ_FLOOD_2024,SRF,21.6604,72.1565,Bharuch,Other chemical products,530.0
+E_GJ_FLOOD_2024,SRF,21.7073,72.6374,Bharuch,Other chemical products,350.0
+E_GJ_FLOOD_2024,SRF,21.7116,72.6324,Bharuch,Other chemical products,235.0
+E_GJ_FLOOD_2024,SRF,21.7114,72.6322,Bharuch,Other chemical products,525.0
+E_GJ_FLOOD_2024,SRF,21.7132,72.5843,Bharuch,Polymers,5950.0
+E_GJ_FLOOD_2024,SRF,21.7119,72.6306,Bharuch,Other chemical products,1160.0
+E_GJ_FLOOD_2024,SRF,21.7201,72.6201,Bharuch,Pesticides,12687.0
+E_GJ_FLOOD_2024,SRF,21.7121,72.6335,Bharuch,Inorganic chemicals,1124.0
+E_GJ_FLOOD_2024,UPL,21.9937,72.8691,Bharuch,Renewable electricity,162.5
+E_GJ_FLOOD_2024,UPL,21.8833,72.9031,Bharuch,Renewable electricity,162.5
+E_GJ_FLOOD_2024,UPL,21.9147,72.8996,Bharuch,Renewable electricity,162.5
+E_GJ_FLOOD_2024,UPL,21.6257,73.0127,Bharuch,Pesticides,0.0
+E_GJ_FLOOD_2024,UPL,21.6419,73.1314,Bharuch,Organic chemicals,4809.0
+E_GJ_FLOOD_2024,UPL,21.7162,72.5806,Bharuch,Pesticides,23881.9
+E_GJ_FLOOD_2024,UPL,21.7194,73.1499,Bharuch,Other chemical products,19236.8
+E_GJ_FLOOD_2024,UPL,21.6514,73.1324,Bharuch,Pesticides,4737.4
+E_GJ_FLOOD_2024,UPL,21.6198,73.1268,Bharuch,Pesticides,8234.9
+E_GJ_FLOOD_2024,UPL,21.7737,72.6329,Bharuch,Other chemical products,3597.5
+E_GJ_FLOOD_2024,UPL,21.8928,72.9092,Bharuch,Renewable electricity,456.6
+E_GJ_FLOOD_2024,UPL,21.9158,72.8991,Bharuch,Renewable electricity,456.6
+E_GJ_FLOOD_2024,UPL,21.1682,72.8077,Bharuch,Renewable electricity,143.0
+E_GJ_FLOOD_2024,VEDL,22.6668,72.6666,Kheda,Crude oil   natural gas,0.0
+E_GJ_FLOOD_2024,VEDL,22.25,73.0833,Vadodara,Crude oil   natural gas,0.0
+E_GJ_FLOOD_2024,ZUARI,21.698,72.534,Bharuch,Fertilisers,40000.0
+E_HP_FLOOD_2023,ACC,21.8021,82.3383,Bilaspur  CTG,Cement,24070.0
+E_HP_FLOOD_2023,ACC,31.4139,76.8368,Bilaspur  HP,Cement,350.0
+E_HP_FLOOD_2023,ACC,31.4132,76.8368,Bilaspur  HP,Cement,2600.0
+E_HP_FLOOD_2023,ACC,31.4134,76.8368,Bilaspur  HP,Cement,1500.0
+E_HP_FLOOD_2023,ACC,31.4135,76.8369,Bilaspur  HP,Cement,1750.0
+E_HP_FLOOD_2023,ADANIENT,24.6323,77.3001,Guna,Processed foods,0.0
+E_HP_FLOOD_2023,ANSALAPI,30.1738,77.2728,Yamunanagar,Housing construction,0.0
+E_HP_FLOOD_2023,APOLLOHOSP,22.0838,82.1771,Bilaspur  CTG,Health services,0.0
+E_HP_FLOOD_2023,APOLLOHOSP,22.084,82.1773,Bilaspur  CTG,Health services,80.0
+E_HP_FLOOD_2023,BPCL,31.341,76.6867,Bilaspur  HP,Natural gas trading   distribution,4279.4
+E_HP_FLOOD_2023,BPCL,31.6861,76.5211,Hamirpur  HP,Natural gas trading   distribution,4279.4
+E_HP_FLOOD_2023,BPCL,31.4685,76.2725,Una,Natural gas trading   distribution,4279.4
+E_HP_FLOOD_2023,BPCL,30.1251,77.2692,Yamunanagar,Natural gas trading   distribution,1000.0
+E_HP_FLOOD_2023,DLF,30.9007,76.9597,Solan,Hotels   restaurants,0.0
+E_HP_FLOOD_2023,DLF,30.9671,76.9577,Solan,Housing construction,0.0
+E_HP_FLOOD_2023,DLF,31.1017,77.1692,Shimla,Housing construction,0.0
+E_HP_FLOOD_2023,GAIL,24.4709,77.1466,Guna,Organic chemicals,8000.0
+E_HP_FLOOD_2023,GAIL,16.8355,75.7379,Guna,Natural gas trading   distribution,4940.0
+E_HP_FLOOD_2023,GAIL,24.4573,77.1558,Guna,Renewable electricity,650.0
+E_HP_FLOOD_2023,GAIL,24.4815,77.163,Guna,Conventional electricity,12090.0
+E_HP_FLOOD_2023,GAIL,32.2308,77.1878,Kullu,Storage   distribution,0.0
+E_HP_FLOOD_2023,GAIL,24.461,77.1562,Guna,Health services,0.0
+E_HP_FLOOD_2023,GAIL,22.6117,75.6767,Guna,Inorganic chemicals,0.0
+E_HP_FLOOD_2023,GAIL,24.4783,77.1523,Guna,Refinery,22142.1
+E_HP_FLOOD_2023,GAIL,24.4832,77.1599,Guna,Natural gas trading   distribution,80000.0
+E_HP_FLOOD_2023,GUJALKALI,21.7778,70.1096,Junagadh,Renewable electricity,1400.0
+E_HP_FLOOD_2023,HINDUNILVR,30.914,76.8538,Solan,"Cosmetics, toiletries, soaps   detergents",1870.8
+E_HP_FLOOD_2023,HINDUNILVR,25.7995,80.1394,Hamirpur  UP,"Cosmetics, toiletries, soaps   detergents",1500.0
+E_HP_FLOOD_2023,HINDUNILVR,30.9171,76.8371,Solan,"Cosmetics, toiletries, soaps   detergents",1450.0
+E_HP_FLOOD_2023,HINDUNILVR,30.9045,77.0936,Solan,"Cosmetics, toiletries, soaps   detergents",0.0
+E_HP_FLOOD_2023,HINDUNILVR,25.7996,80.1395,Hamirpur  UP,"Cosmetics, toiletries, soaps   detergents",0.0
+E_HP_FLOOD_2023,IOC,28.2132,94.7288,Arunachal Pradesh,Storage   distribution,1000.0
+E_HP_FLOOD_2023,IOC,24.6438,77.2783,Guna,Natural gas trading   distribution,0.0
+E_HP_FLOOD_2023,IOC,9.5682,77.9622,Virudhunagar,Natural gas trading   distribution,13280.0
+E_HP_FLOOD_2023,IOC,31.3965,76.3276,Una,Storage   distribution,217.0
+E_HP_FLOOD_2023,IOC,31.4087,76.2802,Una,Storage   distribution,5070.0
+E_HP_FLOOD_2023,JPASSOCIAT,31.3176,76.9012,Solan,Cement,15850.0
+E_HP_FLOOD_2023,JPASSOCIAT,31.3284,76.8917,Solan,Cement,25000.0
+E_HP_FLOOD_2023,JPASSOCIAT,31.1976,76.6301,Solan,Cement,4500.0
+E_HP_FLOOD_2023,JPASSOCIAT,31.2917,76.9025,Bilaspur  HP,Cement,6100.0
+E_HP_FLOOD_2023,JINDALSAW,30.5612,77.4721,Sirmaur,Steel,30000.0
+E_HP_FLOOD_2023,MURLIIND,20.8355,70.6852,Junagadh,Cement,11000.0
+E_HP_FLOOD_2023,NTPC,27.1943,96.0349,Arunachal Pradesh,Crude oil   natural gas,0.0
+E_HP_FLOOD_2023,NTPC,22.0796,82.1391,Bilaspur  CTG,Other construction materials,0.0
+E_HP_FLOOD_2023,NTPC,31.3822,76.8722,Bilaspur  HP,Renewable electricity,975.0
+E_HP_FLOOD_2023,NTPC,31.3852,76.8728,Bilaspur  HP,Conventional electricity,72200.0
+E_HP_FLOOD_2023,NTPC,22.3999,82.717,Bilaspur  CTG,Conventional electricity,24484.9
+E_HP_FLOOD_2023,NTPC,22.3625,82.7521,Bilaspur  CTG,Conventional electricity,672.9
+E_HP_FLOOD_2023,NTPC,31.3186,76.7557,Bilaspur  HP,Road transport infrastructure services,71.6
+E_HP_FLOOD_2023,NTPC,22.1314,82.2904,Bilaspur  CTG,Conventional electricity,0.0
+E_HP_FLOOD_2023,NTPC,22.131,82.2916,Bilaspur  CTG,Conventional electricity,83233.9
+E_HP_FLOOD_2023,NTPC,22.1335,82.2947,Bilaspur  CTG,Conventional electricity,40396.7
+E_HP_FLOOD_2023,NTPC,22.1325,82.2816,Bilaspur  CTG,Conventional electricity,105000.0
+E_HP_FLOOD_2023,NECLIFE,30.9406,76.8426,Solan,Drugs   pharmaceuticals,400.0
+E_HP_FLOOD_2023,NOVAIRNSTL,21.8876,82.0502,Bilaspur  CTG,Steel,108340.0
+E_HP_FLOOD_2023,NOVAIRNSTL,22.0751,82.1286,Bilaspur  CTG,Sponge iron,0.0
+E_HP_FLOOD_2023,NOVAIRNSTL,21.8876,82.0517,Bilaspur  CTG,Sponge iron,1839.0
+E_HP_FLOOD_2023,RVNL,31.3447,76.7672,Bilaspur  HP,Railway transport infrastructure services,67530.0
+E_HP_FLOOD_2023,RAJPALAYAM,9.4508,77.5646,Virudhunagar,Cotton   blended yarn,640.0
+E_HP_FLOOD_2023,RAJPALAYAM,9.4477,77.5457,Virudhunagar,Conventional electricity,160.0
+E_HP_FLOOD_2023,RAJPALAYAM,9.4693,77.5697,Virudhunagar,Cotton   blended yarn,0.0
+E_HP_FLOOD_2023,RAJPALAYAM,9.4295,77.5727,Virudhunagar,Textile processing,4000.0
+E_HP_FLOOD_2023,RAJPALAYAM,9.4283,77.5704,Virudhunagar,Textile processing,3500.0
+E_HP_FLOOD_2023,RAJPALAYAM,9.5826,77.979,Virudhunagar,Cotton   blended yarn,200.0
+E_HP_FLOOD_2023,RAJPALAYAM,9.5915,77.9222,Virudhunagar,Cotton   blended yarn,6000.0
+E_HP_FLOOD_2023,RELIANCE,22.0797,82.1396,Bilaspur  CTG,Crude oil   natural gas,0.0
+E_HP_FLOOD_2023,RELIANCE,22.0796,82.1392,Bilaspur  CTG,Crude oil   natural gas,0.0
+E_HP_FLOOD_2023,RELIANCE,22.0796,82.1392,Bilaspur  CTG,Crude oil   natural gas,0.0
+E_HP_FLOOD_2023,RELIANCE,22.0795,82.1391,Bilaspur  CTG,Crude oil   natural gas,0.0
+E_HP_FLOOD_2023,RELIANCE,22.0801,82.139,Bilaspur  CTG,Crude oil   natural gas,0.0
+E_HP_FLOOD_2023,RELIANCE,21.0539,81.9656,Bilaspur  CTG,Crude oil   natural gas,5899.0
+E_HP_FLOOD_2023,RELIANCE,22.0796,82.1392,Bilaspur  CTG,Crude oil   natural gas,0.0
+E_HP_FLOOD_2023,SAURASHCEM,21.7048,69.7206,Junagadh,Conventional electricity,1900.0
+E_HP_FLOOD_2023,SAURASHCEM,21.6263,69.5899,Junagadh,Shipping transport infrastructure services,650.0
+E_HP_FLOOD_2023,SAURASHCEM,21.7051,69.7202,Junagadh,Cement,4500.0
+E_HP_FLOOD_2023,SKIL,31.6622,76.0595,Una,Air transport infrastructure services,43920.0
+E_HP_FLOOD_2023,VHL,30.9447,76.8039,Solan,Textile processing,1000.0
+E_HP_FLOOD_2023,VHL,31.0792,76.7059,Solan,Cloth,1300.0
+E_HP_FLOOD_2023,VHL,30.953,76.8189,Solan,Cloth,400.0
+E_HP_FLOOD_2023,VHL,30.9445,76.8039,Solan,Cotton   blended yarn,580.0
+E_HP_FLOOD_2023,VHL,30.9354,76.8038,Solan,Dyes   pigments,542.5
+E_HP_FLOOD_2023,VHL,30.9574,76.7908,Solan,Cloth,271.2
+E_HP_FLOOD_2023,VHL,30.9588,76.7912,Solan,Cotton   blended yarn,195.5
+E_CHE_FLOOD_2023,ADANIENT,13.0796,80.292,Chennai,Shipping transport infrastructure services,0.0
+E_CHE_FLOOD_2023,ADANIENT,12.6825,79.9895,Kancheepuram,ITES,23000.0
+E_CHE_FLOOD_2023,APOLLOHOSP,13.0202,80.2412,Chennai,Health services,800.0
+E_CHE_FLOOD_2023,APOLLOHOSP,12.9151,80.2297,Chennai,Health services,1000.0
+E_CHE_FLOOD_2023,APOLLOHOSP,13.0859,80.21,Chennai,Health services,150.0
+E_CHE_FLOOD_2023,APOLLOHOSP,13.125,80.252,Chennai,Health services,820.0
+E_CHE_FLOOD_2023,APOLLOHOSP,13.0633,80.2516,Chennai,Health services,100.0
+E_CHE_FLOOD_2023,APOLLOHOSP,13.0604,80.2496,Chennai,Education,0.0
+E_CHE_FLOOD_2023,APOLLOHOSP,13.0603,80.2524,Chennai,Health services,0.0
+E_CHE_FLOOD_2023,APOLLOHOSP,13.0548,80.226,Chennai,Health services,4000.0
+E_CHE_FLOOD_2023,APOLLOHOSP,13.0631,80.2518,Chennai,Health services,300.0
+E_CHE_FLOOD_2023,APOLLOHOSP,12.9151,80.2299,Chennai,Health services,0.0
+E_CHE_FLOOD_2023,APOLLOHOSP,13.0826,80.2702,Chennai,Health services,7000.0
+E_CHE_FLOOD_2023,APOLLOHOSP,13.0607,80.2477,Chennai,Health services,2000.0
+E_CHE_FLOOD_2023,APOLLOHOSP,12.8325,79.7031,Kancheepuram,Health services,0.0
+E_CHE_FLOOD_2023,APOLLOHOSP,13.0907,80.2793,Chennai,Health services,7500.0
+E_CHE_FLOOD_2023,APOLLOHOSP,12.9801,80.2504,Chennai,Health services,13000.0
+E_CHE_FLOOD_2023,APOLLOHOSP,12.8692,80.2451,Chennai,Health services,10.0
+E_CHE_FLOOD_2023,APOLLOTYRE,12.8574,79.9443,Kancheepuram,Tyres   tubes,23000.0
+E_CHE_FLOOD_2023,APOLLOTYRE,12.8575,79.9445,Kancheepuram,Tyres   tubes,15000.0
+E_CHE_FLOOD_2023,APOLLOTYRE,12.857,79.9438,Kancheepuram,Tyres   tubes,10000.0
+E_CHE_FLOOD_2023,APOLLOTYRE,12.8576,79.9451,Kancheepuram,Tyres   tubes,900.0
+E_CHE_FLOOD_2023,APOLLOTYRE,12.8575,79.9444,Kancheepuram,Conventional electricity,0.0
+E_CHE_FLOOD_2023,APOLLOTYRE,12.8352,79.9495,Kancheepuram,Road transport infrastructure services,0.0
+E_CHE_FLOOD_2023,APOLLOTYRE,13.1257,80.1263,Kancheepuram,Other automobile ancillaries,0.0
+E_CHE_FLOOD_2023,BORORENEW,12.7961,80.02,Kancheepuram,Glass   glassware,150.0
+E_CHE_FLOOD_2023,CEATLTD,12.9635,79.8195,Kancheepuram,Tyres   tubes,14000.0
+E_CHE_FLOOD_2023,CEATLTD,12.9193,79.9583,Kancheepuram,Tyres   tubes,8000.0
+E_CHE_FLOOD_2023,DLF,13.0897,80.2185,Chennai,Housing construction,16000.0
+E_CHE_FLOOD_2023,DLF,13.1144,80.2111,Chennai,Commercial complexes,0.0
+E_CHE_FLOOD_2023,DLF,13.0662,80.2577,Chennai,Housing construction,9000.0
+E_CHE_FLOOD_2023,DLF,12.9761,80.2208,Chennai,Retail trading,3000.0
+E_CHE_FLOOD_2023,DLF,13.0605,80.2497,Chennai,Retail trading,30000.0
+E_CHE_FLOOD_2023,DLF,12.9331,79.9196,Kancheepuram,Housing construction,5000.0
+E_CHE_FLOOD_2023,FORTIS,13.0476,80.2043,Chennai,Health services,2250.0
+E_CHE_FLOOD_2023,FORTIS,13.0618,80.2521,Chennai,Health services,1000.0
+E_CHE_FLOOD_2023,HINDUNILVR,13.0914,80.27,Chennai,Processed foods,19000.0
+E_CHE_FLOOD_2023,HINDUNILVR,12.9439,80.116,Chennai,Other leather   related products,115.0
+E_CHE_FLOOD_2023,IVRCLINFRA,12.9735,80.1534,Chennai,Housing construction,50000.0
+E_CHE_FLOOD_2023,IVRCLINFRA,13.0854,80.2413,Chennai,Other miscellaneous services,0.0
+E_CHE_FLOOD_2023,IOC,13.1821,80.2519,Chennai,"Lubricants, etc.",13980.0
+E_CHE_FLOOD_2023,IOC,13.0827,80.2707,Chennai,Other construction materials,2260.0
+E_CHE_FLOOD_2023,IOC,13.2314,80.2937,Kancheepuram,Storage   distribution,8290.0
+E_CHE_FLOOD_2023,INDORAMA,13.2072,80.3189,Chennai,Organic chemicals,50000.0
+E_CHE_FLOOD_2023,JKTYRE,12.9427,80.0005,Kancheepuram,Tyres   tubes,2200.0
+E_CHE_FLOOD_2023,JKTYRE,12.9498,79.9361,Kancheepuram,Tyres   tubes,14300.0
+E_CHE_FLOOD_2023,JKTYRE,12.9427,80.0005,Kancheepuram,Tyres   tubes,10000.0
+E_CHE_FLOOD_2023,JSWSTEEL,13.0816,80.2752,Chennai,Steel,0.0
+E_CHE_FLOOD_2023,MRF,13.1748,80.3104,Kancheepuram,Tyres   tubes,1000.0
+E_CHE_FLOOD_2023,MRF,13.4086,80.1123,Kancheepuram,Paints   varnishes,60.0
+E_CHE_FLOOD_2023,MRF,12.9211,80.1219,Chennai,Computer software,300.0
+E_CHE_FLOOD_2023,MARUTI,12.9537,80.2547,Chennai,Road transport infrastructure services,130.0
+E_CHE_FLOOD_2023,NBCC,13.0577,80.2611,Chennai,Commercial complexes,1884.4
+E_CHE_FLOOD_2023,NBCC,13.0539,80.2641,Chennai,Commercial complexes,50.0
+E_CHE_FLOOD_2023,NTPC,12.3506,80.0025,Kancheepuram,Conventional electricity,60000.0
+E_CHE_FLOOD_2023,PETRONET,13.2132,80.322,Kancheepuram,Natural gas trading   distribution,20000.0
+E_CHE_FLOOD_2023,SRF,13.1748,80.257,Chennai,Other textiles,1610.0
+E_CHE_FLOOD_2023,SRF,13.1751,80.2621,Chennai,Other textiles,87.0
+E_CHE_FLOOD_2023,TATACOMM,13.1059,80.1484,Chennai,Other miscellaneous services,448.8
+E_CHE_FLOOD_2023,TATACOMM,13.0832,80.271,Chennai,ITES,0.0
+E_CHE_FLOOD_2023,TATACOMM,13.0684,80.2791,Chennai,Communication equipment,1100.0
+E_CHE_FLOOD_2023,TATASTLBSL,12.9798,80.2484,Chennai,Steel,5000.0
+E_CHE_FLOOD_2023,TATASTEEL,13.0841,80.2713,Chennai,Business services   consultancy,0.0
+E_CHE_FLOOD_2023,UNITECH,12.9669,80.1018,Chennai,Housing construction,0.0
+E_CHE_FLOOD_2023,UNITECH,12.8228,79.6843,Kancheepuram,Housing construction,0.0
+E_CHE_FLOOD_2023,UNITECH,12.8242,79.6825,Kancheepuram,Housing construction,0.0
+E_CHE_FLOOD_2023,VASCONEQ,13.129,80.1548,Chennai,Housing construction,20000.0

@@ -1,0 +1,38 @@
+event,nse_symbol,company,industry,pack_role,traded,share_zone,share_vadodara,share_bharuch,mcap_at_event_cr
+E_GJ_FLOOD_2024 (26 Aug 2024),ASSAMCO,ASSAM COMPANY INDIA LTD.,Shipping transport infrastructure services,directly_exposed,False,1.0,,1.0,
+E_GJ_FLOOD_2024 (26 Aug 2024),KIRIINDUS,KIRI INDUSTRIES LTD.,Organic chemicals,directly_exposed,True,1.0,0.019,0.981,2350.0
+E_GJ_FLOOD_2024 (26 Aug 2024),MFL,MEGHMANI FINECHEM LTD.,Inorganic chemicals,directly_exposed,False,0.989,,0.989,
+E_GJ_FLOOD_2024 (26 Aug 2024),BORORENEW,BOROSIL RENEWABLES LTD.,Glass   glassware,directly_exposed,True,0.969,,0.969,7552.0
+E_GJ_FLOOD_2024 (26 Aug 2024),MODTHREAD,MODERN THREADS (INDIA) LTD.,Conventional electricity,directly_exposed,True,0.953,,0.953,199.0
+E_GJ_FLOOD_2024 (26 Aug 2024),IPCL,INDIAN PETROCHEMICALS CORPN. LTD. [MERGED],Organic chemicals,directly_exposed,False,0.892,0.139,0.752,
+E_GJ_FLOOD_2024 (26 Aug 2024),GUJALKALI,GUJARAT ALKALIES & CHEMICALS LTD.,Inorganic chemicals,directly_exposed,True,0.889,0.01,0.879,5530.0
+E_GJ_FLOOD_2024 (26 Aug 2024),BODALCHEM,BODAL CHEMICALS LTD.,Dyes   pigments,directly_exposed,True,0.883,0.195,0.688,1016.0
+E_GJ_FLOOD_2024 (26 Aug 2024),GNFC,GUJARAT NARMADA VALLEY FERTILIZERS & CHEMICALS LTD.,Inorganic chemicals,directly_exposed,True,0.867,,0.867,9246.0
+E_GJ_FLOOD_2024 (26 Aug 2024),SRF,S R F LTD.,Other chemical products,directly_exposed,True,0.806,,0.806,73829.0
+E_GJ_FLOOD_2024 (26 Aug 2024),GSFC,GUJARAT STATE FERTILIZERS & CHEMICALS LTD.,Organic chemicals,directly_exposed,True,0.787,0.288,0.499,9272.0
+E_GJ_FLOOD_2024 (26 Aug 2024),NECLIFE,NECTAR LIFESCIENCES LTD.,Drugs   pharmaceuticals,directly_exposed,True,0.723,,0.723,709.0
+E_GJ_FLOOD_2024 (26 Aug 2024),AARTIIND,AARTI INDUSTRIES LTD.,Organic chemicals,directly_exposed,True,0.59,,0.59,22543.0
+E_GJ_FLOOD_2024 (26 Aug 2024),PETRONET,PETRONET L N G LTD.,Natural gas trading   distribution,directly_exposed,True,0.567,,0.567,53130.0
+E_GJ_FLOOD_2024 (26 Aug 2024),UPL,U P L LTD.,Pesticides,directly_exposed,True,0.545,,0.525,46477.0
+E_GJ_FLOOD_2024 (26 Aug 2024),DCMSHRIRAM,D C M SHRIRAM LTD.,Inorganic chemicals,directly_exposed,True,0.458,,0.458,18363.0
+E_GJ_FLOOD_2024 (26 Aug 2024),ZUARI,ZUARI AGRO CHEMICALS LTD.,Fertilisers,directly_exposed,True,0.407,,0.407,873.0
+E_GJ_FLOOD_2024 (26 Aug 2024),CEATLTD,CEAT LTD.,Tyres   tubes,directly_exposed,True,0.325,0.059,0.059,11524.0
+E_GJ_FLOOD_2024 (26 Aug 2024),MRF,M R F LTD.,Tyres   tubes,directly_exposed,True,0.302,,0.302,58748.0
+E_NCR_GRAP_2024 (18 Nov 2024),DCMDAEWOO,DAEWOO MOTORS INDIA LTD.,Passenger vehicles,directly_exposed,False,1.0,,,
+E_NCR_GRAP_2024 (18 Nov 2024),IGL,INDRAPRASTHA GAS LTD.,Natural gas trading   distribution,directly_exposed,True,0.962,,,28483.0
+E_NCR_GRAP_2024 (18 Nov 2024),NBCC,N B C C (INDIA) LTD.,Housing construction,directly_exposed,True,0.943,,,24306.0
+E_NCR_GRAP_2024 (18 Nov 2024),QVC,Q V C REALTY CO. LTD.,Housing construction,directly_exposed,False,0.893,,,
+E_NCR_GRAP_2024 (18 Nov 2024),MAXHEALTH,MAX HEALTHCARE INSTITUTE LTD.,Health services,directly_exposed,True,0.799,,,97931.0
+E_NCR_GRAP_2024 (18 Nov 2024),MARUTI,MARUTI SUZUKI INDIA LTD.,Passenger vehicles,directly_exposed,True,0.732,,,346033.0
+E_NCR_GRAP_2024 (18 Nov 2024),TATACOMM,TATA COMMUNICATIONS LTD.,Telecommunication services,directly_exposed,True,0.716,,,49910.0
+E_NCR_GRAP_2024 (18 Nov 2024),VIPULLTD,VIPUL LTD.,Housing construction,directly_exposed,False,0.7,,,
+E_NCR_GRAP_2024 (18 Nov 2024),JSWISPAT,J S W ISPAT STEEL LTD. [MERGED],Steel,directly_exposed,False,0.695,,,
+E_NCR_GRAP_2024 (18 Nov 2024),JPASSOCIAT,JAIPRAKASH ASSOCIATES LTD.,Cement,directly_exposed,False,0.532,,,
+E_NCR_GRAP_2024 (18 Nov 2024),ANANTRAJ,ANANT RAJ LTD.,Housing construction,directly_exposed,True,0.508,,,24277.0
+E_NCR_GRAP_2024 (18 Nov 2024),UNITECH,UNITECH LTD.,Housing construction,directly_exposed,True,0.499,,,2375.0
+E_NCR_GRAP_2024 (18 Nov 2024),PARSVNATH,PARSVNATH DEVELOPERS LTD.,Housing construction,directly_exposed,True,0.487,,,778.0
+E_NCR_GRAP_2024 (18 Nov 2024),ANSALAPI,ANSAL PROPERTIES & INFRASTRUCTURE LTD.,Housing construction,directly_exposed,False,0.447,,,
+E_NCR_GRAP_2024 (18 Nov 2024),DLF,D L F LTD.,Housing construction,directly_exposed,True,0.418,,,188729.0
+E_NCR_GRAP_2024 (18 Nov 2024),FORTIS,FORTIS HEALTHCARE LTD.,Health services,directly_exposed,True,0.394,,,48261.0
+E_NCR_GRAP_2024 (18 Nov 2024),RPOWER,RELIANCE POWER LTD.,Conventional electricity,directly_exposed,True,0.333,,,14835.0
+E_NCR_GRAP_2024 (18 Nov 2024),RVNL,RAIL VIKAS NIGAM LTD.,Railway transport infrastructure services,directly_exposed,True,0.278,,,87628.0

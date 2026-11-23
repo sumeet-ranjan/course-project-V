@@ -1,0 +1,10 @@
+event_id,sub_area,lit_plants,event_nights,lowest_event_night,ordinary_nights,ordinary_min,ordinary_p10,ordinary_median,event_nights_below_all_ordinary
+E_CHE_FLOOD_2023,Chennai city,35,06Dec:0.56 07Dec:0.46 10Dec:0.86,0.464,14,0.694,0.891,1.042,2
+E_CHE_FLOOD_2023,Manali-Ennore,16,07Dec:0.50 10Dec:0.68 11Dec:1.01,0.497,9,0.788,0.814,1.003,2
+E_CHE_FLOOD_2023,Sriperumbudur-Oragadam,12,06Dec:0.96 07Dec:0.94 09Dec:0.92 10Dec:1.03,0.921,14,0.233,0.77,1.078,0
+E_GJ_FLOOD_2023,Bharuch-Ankleshwar-Jhagadia,67,none (cloud),,27,0.735,0.857,1.046,0
+E_GJ_FLOOD_2023,Dahej-Vilayat,129,none (cloud),,27,0.744,0.839,1.022,0
+E_GJ_FLOOD_2023,Vadodara,80,21Sep:0.92,0.919,31,0.693,0.834,1.043,0
+E_GJ_FLOOD_2024,Bharuch-Ankleshwar-Jhagadia,68,none (cloud),,6,0.976,0.986,1.034,0
+E_GJ_FLOOD_2024,Dahej-Vilayat,125,none (cloud),,7,0.742,0.845,0.966,0
+E_GJ_FLOOD_2024,Vadodara,80,30Aug:0.54,0.538,6,0.891,0.926,1.002,1

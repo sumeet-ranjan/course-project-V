@@ -1,0 +1,11 @@
+pandas
+numpy
+scipy
+statsmodels
+matplotlib
+yfinance
+lxml
+beautifulsoup4
+h5py
+rasterio
+pyproj

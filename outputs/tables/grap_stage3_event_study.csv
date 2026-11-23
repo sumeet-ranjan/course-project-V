@@ -1,0 +1,49 @@
+event,label,order_posted,first_trading_day,sample,window,n_ncr,n_other,car_ncr,car_other,diff,p_diff
+GRAP3_2022A,"Stage III, 29 Oct 2022 (to 14 Nov)",Sat 29 Oct 2022 5:37 PM,2022-10-31,all sectors,"[-1,1]",12,40,-0.0034,-0.0129,0.0095,0.588
+GRAP3_2022A,"Stage III, 29 Oct 2022 (to 14 Nov)",Sat 29 Oct 2022 5:37 PM,2022-10-31,all sectors,"[0,5]",12,40,0.0177,0.0074,0.0103,0.646
+GRAP3_2022A,"Stage III, 29 Oct 2022 (to 14 Nov)",Sat 29 Oct 2022 5:37 PM,2022-10-31,all sectors,"[0,10]",12,40,0.0285,-0.0097,0.0382,0.279
+GRAP3_2022A,"Stage III, 29 Oct 2022 (to 14 Nov)",Sat 29 Oct 2022 5:37 PM,2022-10-31,all sectors,"[0,20]",12,40,0.0369,-0.0072,0.0441,0.417
+GRAP3_2022A,"Stage III, 29 Oct 2022 (to 14 Nov)",Sat 29 Oct 2022 5:37 PM,2022-10-31,real estate and construction only,"[-1,1]",5,3,-0.0123,-0.0083,-0.004,0.884
+GRAP3_2022A,"Stage III, 29 Oct 2022 (to 14 Nov)",Sat 29 Oct 2022 5:37 PM,2022-10-31,real estate and construction only,"[0,5]",5,3,-0.0052,0.0306,-0.0358,0.472
+GRAP3_2022A,"Stage III, 29 Oct 2022 (to 14 Nov)",Sat 29 Oct 2022 5:37 PM,2022-10-31,real estate and construction only,"[0,10]",5,3,-0.0033,0.0434,-0.0468,0.472
+GRAP3_2022A,"Stage III, 29 Oct 2022 (to 14 Nov)",Sat 29 Oct 2022 5:37 PM,2022-10-31,real estate and construction only,"[0,20]",5,3,-0.004,0.1016,-0.1056,0.272
+GRAP3_2022B,"Stage III, 4 Dec 2022 (to 7 Dec)",Sun 4 Dec 2022,2022-12-05,all sectors,"[-1,1]",12,40,0.0038,0.0185,-0.0147,0.38
+GRAP3_2022B,"Stage III, 4 Dec 2022 (to 7 Dec)",Sun 4 Dec 2022,2022-12-05,all sectors,"[0,5]",12,40,-0.0083,0.0108,-0.0191,0.45
+GRAP3_2022B,"Stage III, 4 Dec 2022 (to 7 Dec)",Sun 4 Dec 2022,2022-12-05,all sectors,"[0,10]",12,40,0.009,0.02,-0.011,0.813
+GRAP3_2022B,"Stage III, 4 Dec 2022 (to 7 Dec)",Sun 4 Dec 2022,2022-12-05,all sectors,"[0,20]",12,40,0.0252,0.0356,-0.0105,0.889
+GRAP3_2022B,"Stage III, 4 Dec 2022 (to 7 Dec)",Sun 4 Dec 2022,2022-12-05,real estate and construction only,"[-1,1]",5,3,0.0226,0.0112,0.0114,0.708
+GRAP3_2022B,"Stage III, 4 Dec 2022 (to 7 Dec)",Sun 4 Dec 2022,2022-12-05,real estate and construction only,"[0,5]",5,3,0.0109,-0.0062,0.0171,0.717
+GRAP3_2022B,"Stage III, 4 Dec 2022 (to 7 Dec)",Sun 4 Dec 2022,2022-12-05,real estate and construction only,"[0,10]",5,3,0.055,0.0146,0.0404,0.518
+GRAP3_2022B,"Stage III, 4 Dec 2022 (to 7 Dec)",Sun 4 Dec 2022,2022-12-05,real estate and construction only,"[0,20]",5,3,0.0883,0.027,0.0612,0.514
+GRAP3_2023,"Stage III, 2 Nov 2023 (to 28 Nov)",Thu 2 Nov 2023 8:12 PM,2023-11-03,all sectors,"[-1,1]",12,40,0.0048,0.0052,-0.0004,0.996
+GRAP3_2023,"Stage III, 2 Nov 2023 (to 28 Nov)",Thu 2 Nov 2023 8:12 PM,2023-11-03,all sectors,"[0,5]",12,40,0.0135,-0.0034,0.0169,0.486
+GRAP3_2023,"Stage III, 2 Nov 2023 (to 28 Nov)",Thu 2 Nov 2023 8:12 PM,2023-11-03,all sectors,"[0,10]",12,40,0.0159,-0.026,0.042,0.229
+GRAP3_2023,"Stage III, 2 Nov 2023 (to 28 Nov)",Thu 2 Nov 2023 8:12 PM,2023-11-03,all sectors,"[0,20]",12,40,0.0091,-0.0361,0.0452,0.41
+GRAP3_2023,"Stage III, 2 Nov 2023 (to 28 Nov)",Thu 2 Nov 2023 8:12 PM,2023-11-03,real estate and construction only,"[-1,1]",5,3,0.0053,-0.0051,0.0104,0.727
+GRAP3_2023,"Stage III, 2 Nov 2023 (to 28 Nov)",Thu 2 Nov 2023 8:12 PM,2023-11-03,real estate and construction only,"[0,5]",5,3,0.0259,-0.0675,0.0934,0.073
+GRAP3_2023,"Stage III, 2 Nov 2023 (to 28 Nov)",Thu 2 Nov 2023 8:12 PM,2023-11-03,real estate and construction only,"[0,10]",5,3,0.0477,-0.1451,0.1928,0.014
+GRAP3_2023,"Stage III, 2 Nov 2023 (to 28 Nov)",Thu 2 Nov 2023 8:12 PM,2023-11-03,real estate and construction only,"[0,20]",5,3,0.09,-0.2187,0.3086,0.003
+GRAP3_2024J,"Stage III, 14 Jan 2024 (to 18 Jan)",Sun 14 Jan 2024,2024-01-15,all sectors,"[-1,1]",12,40,-0.0056,-0.0081,0.0025,0.875
+GRAP3_2024J,"Stage III, 14 Jan 2024 (to 18 Jan)",Sun 14 Jan 2024,2024-01-15,all sectors,"[0,5]",12,40,0.0613,0.0091,0.0522,0.041
+GRAP3_2024J,"Stage III, 14 Jan 2024 (to 18 Jan)",Sun 14 Jan 2024,2024-01-15,all sectors,"[0,10]",12,40,0.0897,0.0298,0.0599,0.11
+GRAP3_2024J,"Stage III, 14 Jan 2024 (to 18 Jan)",Sun 14 Jan 2024,2024-01-15,all sectors,"[0,20]",12,40,0.0712,-0.0052,0.0764,0.136
+GRAP3_2024J,"Stage III, 14 Jan 2024 (to 18 Jan)",Sun 14 Jan 2024,2024-01-15,real estate and construction only,"[-1,1]",5,3,-0.0023,0.0151,-0.0173,0.582
+GRAP3_2024J,"Stage III, 14 Jan 2024 (to 18 Jan)",Sun 14 Jan 2024,2024-01-15,real estate and construction only,"[0,5]",5,3,0.0645,0.0264,0.0382,0.422
+GRAP3_2024J,"Stage III, 14 Jan 2024 (to 18 Jan)",Sun 14 Jan 2024,2024-01-15,real estate and construction only,"[0,10]",5,3,0.167,-0.0168,0.1838,0.015
+GRAP3_2024J,"Stage III, 14 Jan 2024 (to 18 Jan)",Sun 14 Jan 2024,2024-01-15,real estate and construction only,"[0,20]",5,3,0.1373,-0.0856,0.2228,0.037
+GRAP3_2024A,"Stage III, 14 Nov 2024 (to 5 Dec)",Thu 14 Nov 2024 7:14 PM,2024-11-18,all sectors,"[-1,1]",12,42,-0.0298,0.0104,-0.0403,0.017
+GRAP3_2024A,"Stage III, 14 Nov 2024 (to 5 Dec)",Thu 14 Nov 2024 7:14 PM,2024-11-18,all sectors,"[0,5]",12,42,-0.048,-0.024,-0.024,0.343
+GRAP3_2024A,"Stage III, 14 Nov 2024 (to 5 Dec)",Thu 14 Nov 2024 7:14 PM,2024-11-18,all sectors,"[0,10]",12,42,-0.0233,0.0125,-0.0358,0.347
+GRAP3_2024A,"Stage III, 14 Nov 2024 (to 5 Dec)",Thu 14 Nov 2024 7:14 PM,2024-11-18,all sectors,"[0,20]",12,42,0.0339,0.0143,0.0196,0.702
+GRAP3_2024A,"Stage III, 14 Nov 2024 (to 5 Dec)",Thu 14 Nov 2024 7:14 PM,2024-11-18,real estate and construction only,"[-1,1]",5,3,-0.0226,0.0175,-0.0401,0.234
+GRAP3_2024A,"Stage III, 14 Nov 2024 (to 5 Dec)",Thu 14 Nov 2024 7:14 PM,2024-11-18,real estate and construction only,"[0,5]",5,3,-0.0414,-0.0054,-0.036,0.466
+GRAP3_2024A,"Stage III, 14 Nov 2024 (to 5 Dec)",Thu 14 Nov 2024 7:14 PM,2024-11-18,real estate and construction only,"[0,10]",5,3,-0.0204,0.0077,-0.0282,0.677
+GRAP3_2024A,"Stage III, 14 Nov 2024 (to 5 Dec)",Thu 14 Nov 2024 7:14 PM,2024-11-18,real estate and construction only,"[0,20]",5,3,0.0514,0.056,-0.0046,0.996
+GRAP3_2024B,"Stage III, 16 Dec 2024 (to 27 Dec)",Mon 16 Dec 2024 evening,2024-12-17,all sectors,"[-1,1]",12,42,0.0194,0.0065,0.0129,0.445
+GRAP3_2024B,"Stage III, 16 Dec 2024 (to 27 Dec)",Mon 16 Dec 2024 evening,2024-12-17,all sectors,"[0,5]",12,42,0.0054,0.0048,0.0005,0.97
+GRAP3_2024B,"Stage III, 16 Dec 2024 (to 27 Dec)",Mon 16 Dec 2024 evening,2024-12-17,all sectors,"[0,10]",12,42,0.0106,0.0011,0.0095,0.795
+GRAP3_2024B,"Stage III, 16 Dec 2024 (to 27 Dec)",Mon 16 Dec 2024 evening,2024-12-17,all sectors,"[0,20]",12,42,-0.0147,0.0058,-0.0205,0.744
+GRAP3_2024B,"Stage III, 16 Dec 2024 (to 27 Dec)",Mon 16 Dec 2024 evening,2024-12-17,real estate and construction only,"[-1,1]",5,3,0.0523,0.0229,0.0294,0.392
+GRAP3_2024B,"Stage III, 16 Dec 2024 (to 27 Dec)",Mon 16 Dec 2024 evening,2024-12-17,real estate and construction only,"[0,5]",5,3,0.0283,0.0299,-0.0016,0.999
+GRAP3_2024B,"Stage III, 16 Dec 2024 (to 27 Dec)",Mon 16 Dec 2024 evening,2024-12-17,real estate and construction only,"[0,10]",5,3,0.0258,0.0371,-0.0113,0.859
+GRAP3_2024B,"Stage III, 16 Dec 2024 (to 27 Dec)",Mon 16 Dec 2024 evening,2024-12-17,real estate and construction only,"[0,20]",5,3,0.0072,-0.0068,0.014,0.853

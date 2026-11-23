@@ -1,0 +1,33 @@
+case,symbol,month,status,chars,n_hits
+chennai_2023,APOLLOTYRE,Feb 2024,read,30781,3
+chennai_2023,CEATLTD,Jan 2024,read,46367,4
+chennai_2023,JKTYRE,,no transcript listed,0,0
+chennai_2023,MRF,,no transcript listed,0,0
+chennai_2023,MARUTI,Jan 2024,too short (likely unreadable),390,0
+chennai_2023,HINDUNILVR,Jan 2024,read,90991,0
+chennai_2023,APOLLOHOSP,Feb 2024,too short (likely unreadable),658,0
+delhi_2024,DLF,Jan 2025,read,50929,15
+delhi_2024,ANANTRAJ,,no transcript listed,0,0
+delhi_2024,NBCC,Feb 2025,read,33211,16
+delhi_2024,ULTRACEMCO,Jan 2025,read,47149,16
+delhi_2024,SHREECEM,,no transcript listed,0,0
+delhi_2024,ACC,Feb 2025,read,59132,21
+delhi_2024,MAXHEALTH,Feb 2025,read,54073,34
+gujarat_2024,PETRONET,Oct 2024,read,46376,0
+gujarat_2024,GAIL,Nov 2024,read,44183,4
+gujarat_2024,GUJALKALI,,no transcript listed,0,0
+gujarat_2024,GNFC,Nov 2024,read,18871,3
+gujarat_2024,GSFC,Nov 2024,read,34744,2
+gujarat_2024,AARTIIND,Nov 2024,read,90042,0
+gujarat_2024,UPL,Nov 2024,read,58340,3
+gujarat_2024,SRF,Oct 2024,read,14687,0
+gujarat_2024,DCMSHRIRAM,Nov 2024,read,39446,7
+gujarat_2024,BORORENEW,Nov 2024,read,27957,0
+gujarat_2023,PETRONET,Nov 2023,read,65412,1
+gujarat_2023,GUJALKALI,,no transcript listed,0,0
+gujarat_2023,GNFC,Nov 2023,read,48801,36
+gujarat_2023,GSFC,Nov 2023,read,38232,3
+gujarat_2023,AARTIIND,Nov 2023,read,46976,1
+gujarat_2023,UPL,Nov 2023,read,60551,1
+gujarat_2023,SRF,Nov 2023,too short (likely unreadable),1293,0
+gujarat_2023,DCMSHRIRAM,Nov 2023,read,42373,3

@@ -1,0 +1,4 @@
+event_id,label,state,normal_gwh_per_day,lowest_day,lowest_deviation_pct,control_deviation_same_day_pct,lowest_minus_control_pct,days_below_minus3pct,first_day_back_within_3pct,shortfall_gwh,shortfall_in_days_of_normal_use,pre_event_sd_pct
+E_CHE_FLOOD_2023,"Chennai, Cyclone Michaung",Tamil Nadu,294.41,2023-12-04,-19.74,-0.38,-19.36,3,2023-12-06,119.04,0.4,2.9
+E_GJ_FLOOD_2024,"Gujarat flood, Aug 2024",Gujarat,413.5,2024-08-27,-34.88,-8.43,-26.45,8,2024-09-02,779.0,1.88,5.21
+E_GJ_FLOOD_2023,"Gujarat, Narmada flood, Sep 2023",Gujarat,466.0,2023-09-19,-31.55,-20.34,-11.21,15,not within window,1379.84,2.96,6.65

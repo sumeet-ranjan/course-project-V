@@ -1,0 +1,83 @@
+plant_id,nse_symbol,sub_area,dist_name,lat,lon,industry,flood_frac_250,flood_frac_500,flood_frac_1000,nearest_flood_m
+144,ADANIENT,Chennai city,Chennai,13.0796,80.292,Shipping transport infrastructure services,0.0,0.0,0.0,
+168,ADANIENT,other zone,Kancheepuram,12.6825,79.9895,ITES,0.0,0.0,0.0,1952.651
+321,APOLLOHOSP,Chennai city,Chennai,13.0202,80.2412,Health services,0.0,0.0,0.0012,539.0761
+322,APOLLOHOSP,Chennai city,Chennai,12.9151,80.2297,Health services,0.0,0.0,0.0004,998.3865
+323,APOLLOHOSP,Chennai city,Chennai,13.0859,80.21,Health services,0.0,0.0,0.0,
+324,APOLLOHOSP,Chennai city,Chennai,13.125,80.252,Health services,0.0,0.0,0.0,2671.3507
+325,APOLLOHOSP,Chennai city,Chennai,13.0633,80.2516,Health services,0.0,0.0,0.0,
+326,APOLLOHOSP,Chennai city,Chennai,13.0604,80.2496,Education,0.0,0.0,0.0,
+327,APOLLOHOSP,Chennai city,Chennai,13.0603,80.2524,Health services,0.0,0.0,0.0,
+331,APOLLOHOSP,Chennai city,Chennai,13.0548,80.226,Health services,0.0,0.0,0.0,
+341,APOLLOHOSP,Chennai city,Chennai,13.0631,80.2518,Health services,0.0,0.0,0.0,
+353,APOLLOHOSP,Chennai city,Chennai,12.9151,80.2299,Health services,0.0,0.0,0.0004,998.3865
+368,APOLLOHOSP,Chennai city,Chennai,13.0826,80.2702,Health services,0.0,0.0,0.0,
+383,APOLLOHOSP,Chennai city,Chennai,13.0607,80.2477,Health services,0.0,0.0,0.0,
+390,APOLLOHOSP,other zone,Kancheepuram,12.8325,79.7031,Health services,0.0,0.0,0.0,1223.9476
+391,APOLLOHOSP,Chennai city,Chennai,13.0907,80.2793,Health services,0.0,0.0,0.0,
+394,APOLLOHOSP,Chennai city,Chennai,12.9801,80.2504,Health services,0.0,0.0,0.0,1547.574
+395,APOLLOHOSP,other zone,Chennai,12.8692,80.2451,Health services,0.0,0.0016,0.0183,488.0977
+400,APOLLOTYRE,Sriperumbudur-Oragadam,Kancheepuram,12.8574,79.9443,Tyres   tubes,0.0,0.0,0.0,
+401,APOLLOTYRE,Sriperumbudur-Oragadam,Kancheepuram,12.8575,79.9445,Tyres   tubes,0.0,0.0,0.0,
+402,APOLLOTYRE,Sriperumbudur-Oragadam,Kancheepuram,12.857,79.9438,Tyres   tubes,0.0,0.0,0.0,
+410,APOLLOTYRE,Sriperumbudur-Oragadam,Kancheepuram,12.8576,79.9451,Tyres   tubes,0.0,0.0,0.0,
+411,APOLLOTYRE,Sriperumbudur-Oragadam,Kancheepuram,12.8575,79.9444,Conventional electricity,0.0,0.0,0.0,
+412,APOLLOTYRE,Sriperumbudur-Oragadam,Kancheepuram,12.8352,79.9495,Road transport infrastructure services,0.0,0.0,0.0,2104.7092
+417,APOLLOTYRE,other zone,Kancheepuram,13.1257,80.1263,Other automobile ancillaries,0.0,0.0,0.0,
+527,BPCL,Manali-Ennore,Thiruvallur,13.2492,80.334,Storage   distribution,0.0,0.0,0.0004,992.7774
+670,BORORENEW,Sriperumbudur-Oragadam,Kancheepuram,12.7961,80.02,Glass   glassware,0.0,0.0,0.0,1619.555
+682,CEATLTD,Sriperumbudur-Oragadam,Kancheepuram,12.9635,79.8195,Tyres   tubes,0.0,0.0,0.004,832.3651
+683,CEATLTD,Sriperumbudur-Oragadam,Kancheepuram,12.9193,79.9583,Tyres   tubes,0.0,0.0,0.0,1606.5668
+753,DLF,Chennai city,Chennai,13.0897,80.2185,Housing construction,0.0,0.0,0.0,
+754,DLF,Chennai city,Chennai,13.1144,80.2111,Commercial complexes,0.0,0.0,0.0,
+764,DLF,Chennai city,Chennai,13.0662,80.2577,Housing construction,0.0,0.0,0.0,
+813,DLF,Chennai city,Chennai,12.9761,80.2208,Retail trading,0.0,0.0,0.0,
+818,DLF,Chennai city,Chennai,13.0605,80.2497,Retail trading,0.0,0.0,0.0,
+848,DLF,Sriperumbudur-Oragadam,Kancheepuram,12.9331,79.9196,Housing construction,0.0,0.0,0.0,
+877,FORTIS,Chennai city,Chennai,13.0476,80.2043,Health services,0.0,0.0,0.0,
+903,FORTIS,Chennai city,Chennai,13.0618,80.2521,Health services,0.0,0.0,0.0,
+1164,HINDUNILVR,Chennai city,Chennai,13.0914,80.27,Processed foods,0.0,0.0,0.0,
+1173,HINDUNILVR,other zone,Chennai,12.9439,80.116,Other leather   related products,0.0,0.0,0.0004,978.9362
+1190,IVRCLINFRA,Chennai city,Chennai,12.9735,80.1534,Housing construction,0.0,0.0,0.0,2132.194
+1199,IVRCLINFRA,Chennai city,Chennai,13.0854,80.2413,Other miscellaneous services,0.0,0.0,0.0,
+1211,IOC,Manali-Ennore,Chennai,13.1821,80.2519,"Lubricants, etc.",0.0,0.0,0.0115,580.7315
+1254,IOC,Chennai city,Chennai,13.0827,80.2707,Other construction materials,0.0,0.0,0.0,
+1314,IOC,Manali-Ennore,Thiruvallur,13.255,80.3022,Storage   distribution,0.0,0.008,0.0163,458.3944
+1315,IOC,Manali-Ennore,Thiruvallur,13.2754,80.3474,Natural gas trading   distribution,0.0,0.0,0.0008,844.7553
+1316,IOC,Manali-Ennore,Thiruvallur,13.255,80.3046,Storage   distribution,0.0,0.0,0.0135,690.8751
+1317,IOC,Manali-Ennore,Thiruvallur,13.2553,80.305,Storage   distribution,0.0,0.0,0.0135,742.4008
+1318,IOC,Manali-Ennore,Thiruvallur,13.2543,80.3065,Storage   distribution,0.0,0.0,0.0052,911.621
+1413,IOC,Manali-Ennore,Thiruvallur,13.2065,80.3185,Conventional electricity,0.0,0.0032,0.0056,325.9239
+1648,IOC,Manali-Ennore,Thiruvallur,13.234,80.294,Storage   distribution,0.0064,0.0368,0.0211,249.6087
+1649,IOC,Manali-Ennore,Kancheepuram,13.2314,80.2937,Storage   distribution,0.0,0.0,0.0235,508.5342
+1687,INDORAMA,Manali-Ennore,Chennai,13.2072,80.3189,Organic chemicals,0.0,0.0032,0.0056,365.2608
+1732,JKTYRE,Sriperumbudur-Oragadam,Kancheepuram,12.9427,80.0005,Tyres   tubes,0.0,0.0,0.0,1940.0063
+1733,JKTYRE,Sriperumbudur-Oragadam,Kancheepuram,12.9498,79.9361,Tyres   tubes,0.0,0.0,0.0,
+1734,JKTYRE,Sriperumbudur-Oragadam,Kancheepuram,12.9427,80.0005,Tyres   tubes,0.0,0.0,0.0,1940.0063
+1754,JSWSTEEL,Chennai city,Chennai,13.0816,80.2752,Steel,0.0,0.0,0.0,
+2004,MRF,Manali-Ennore,Kancheepuram,13.1748,80.3104,Tyres   tubes,0.0,0.0,0.0012,858.0888
+2013,MRF,Gummidipoondi,Kancheepuram,13.4086,80.1123,Paints   varnishes,0.0,0.0,0.0,1901.5419
+2016,MRF,other zone,Chennai,12.9211,80.1219,Computer software,0.0,0.0,0.0,1808.0076
+2196,MARUTI,Chennai city,Chennai,12.9537,80.2547,Road transport infrastructure services,0.0,0.0,0.0004,919.3658
+2241,NBCC,Chennai city,Chennai,13.0577,80.2611,Commercial complexes,0.0,0.0,0.0,
+2291,NBCC,Chennai city,Chennai,13.0539,80.2641,Commercial complexes,0.0,0.0,0.0,
+2578,NTPC,other zone,Kancheepuram,12.3506,80.0025,Conventional electricity,0.0,0.0,0.0581,607.522
+2603,NTPC,Manali-Ennore,Thiruvallur,13.2357,80.3049,Conventional electricity,0.0,0.0016,0.0147,466.9094
+2787,PETRONET,Manali-Ennore,Kancheepuram,13.2132,80.322,Natural gas trading   distribution,0.0,0.0,0.0004,562.3808
+3105,SRF,Gummidipoondi,Thiruvallur,13.4141,80.0941,Cloth,0.0,0.0,0.0,
+3119,SRF,Manali-Ennore,Chennai,13.1748,80.257,Other textiles,0.0,0.0032,0.0135,334.4073
+3122,SRF,Manali-Ennore,Chennai,13.1751,80.2621,Other textiles,0.0,0.0112,0.0183,429.4837
+3123,SRF,Gummidipoondi,Thiruvallur,13.4001,80.1066,Man-made filaments   fibres,0.0,0.0,0.0008,855.9493
+3125,SRF,Gummidipoondi,Thiruvallur,13.4141,80.0949,Man-made filaments   fibres,0.0,0.0,0.0,
+3127,SRF,other zone,Thiruvallur,13.1195,79.9176,Other textiles,0.0,0.0,0.0008,772.459
+3128,SRF,Gummidipoondi,Thiruvallur,13.4141,80.0949,Other textiles,0.0,0.0,0.0,
+3130,SRF,Gummidipoondi,Thiruvallur,13.4067,80.1094,Other textiles,0.0,0.0,0.0,1606.4375
+3366,TATACOMM,other zone,Chennai,13.1059,80.1484,Other miscellaneous services,0.0,0.0,0.0,2729.6608
+3372,TATACOMM,Chennai city,Chennai,13.0832,80.271,ITES,0.0,0.0,0.0,
+3375,TATACOMM,Chennai city,Chennai,13.0684,80.2791,Communication equipment,0.0,0.0,0.0,
+3399,TATASTLBSL,Chennai city,Chennai,12.9798,80.2484,Steel,0.0,0.0,0.0,1655.6933
+3453,TATASTEEL,Chennai city,Chennai,13.0841,80.2713,Business services   consultancy,0.0,0.0,0.0,
+3698,UNITECH,other zone,Chennai,12.9669,80.1018,Housing construction,0.0,0.0064,0.0203,351.4314
+3727,UNITECH,other zone,Kancheepuram,12.8228,79.6843,Housing construction,0.0,0.0,0.0167,605.7915
+3728,UNITECH,other zone,Kancheepuram,12.8242,79.6825,Housing construction,0.0,0.0016,0.0092,464.5697
+3793,VASCONEQ,Chennai city,Chennai,13.129,80.1548,Housing construction,0.0,0.0,0.0,

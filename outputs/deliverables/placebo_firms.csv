@@ -1,0 +1,123 @@
+event,nse_symbol,company,included,reason
+E_NCR_GRAP_2024,AARTIIND,AARTI INDUSTRIES LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),AARTIIND,AARTI INDUSTRIES LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,ACC,A C C LTD.,no,has a plant in NCR (exposed or within-zone); Adani group: indictment news on 21 Nov 2024 inside the window; cement/steel/iron ore: candidate supplier of the NCR builders (Step B pending)
+E_GJ_FLOOD_2024 (provisional),ACC,A C C LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,ADANIENT,ADANI ENTERPRISES LTD.,no,Adani group: indictment news on 21 Nov 2024 inside the window
+E_GJ_FLOOD_2024 (provisional),ADANIENT,ADANI ENTERPRISES LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,ADANIGREEN,ADANI GREEN ENERGY LTD.,no,Adani group: indictment news on 21 Nov 2024 inside the window
+E_GJ_FLOOD_2024 (provisional),ADANIGREEN,ADANI GREEN ENERGY LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,ADANIPOWER,ADANI POWER LTD.,no,Adani group: indictment news on 21 Nov 2024 inside the window
+E_GJ_FLOOD_2024 (provisional),ADANIPOWER,ADANI POWER LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,ANANTRAJ,ANANT RAJ LTD.,no,has a plant in NCR (exposed or within-zone)
+E_GJ_FLOOD_2024 (provisional),ANANTRAJ,ANANT RAJ LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,APOLLOHOSP,APOLLO HOSPITALS ENTERPRISE LTD.,no,has a plant in NCR (exposed or within-zone)
+E_GJ_FLOOD_2024 (provisional),APOLLOHOSP,APOLLO HOSPITALS ENTERPRISE LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,APOLLOTYRE,APOLLO TYRES LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),APOLLOTYRE,APOLLO TYRES LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,BODALCHEM,BODAL CHEMICALS LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),BODALCHEM,BODAL CHEMICALS LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,BORORENEW,BOROSIL RENEWABLES LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),BORORENEW,BOROSIL RENEWABLES LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,BPCL,BHARAT PETROLEUM CORPN. LTD.,no,has a plant in NCR (exposed or within-zone)
+E_GJ_FLOOD_2024 (provisional),BPCL,BHARAT PETROLEUM CORPN. LTD.,no,has a plant in Gujarat; held/candidate link to a Gujarat hit firm (Petronet offtaker or GNAL caustic-soda buyer)
+E_NCR_GRAP_2024,CEATLTD,CEAT LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),CEATLTD,CEAT LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,DCMSHRIRAM,D C M SHRIRAM LTD.,no,has a plant in NCR (exposed or within-zone)
+E_GJ_FLOOD_2024 (provisional),DCMSHRIRAM,D C M SHRIRAM LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,DLF,D L F LTD.,no,has a plant in NCR (exposed or within-zone)
+E_GJ_FLOOD_2024 (provisional),DLF,D L F LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,FORTIS,FORTIS HEALTHCARE LTD.,no,has a plant in NCR (exposed or within-zone)
+E_GJ_FLOOD_2024 (provisional),FORTIS,FORTIS HEALTHCARE LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,GAIL,G A I L (INDIA) LTD.,no,has a plant in NCR (exposed or within-zone)
+E_GJ_FLOOD_2024 (provisional),GAIL,G A I L (INDIA) LTD.,no,has a plant in Gujarat; held/candidate link to a Gujarat hit firm (Petronet offtaker or GNAL caustic-soda buyer)
+E_NCR_GRAP_2024,GNFC,GUJARAT NARMADA VALLEY FERTILIZERS & CHEMICALS LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),GNFC,GUJARAT NARMADA VALLEY FERTILIZERS & CHEMICALS LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,GSFC,GUJARAT STATE FERTILIZERS & CHEMICALS LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),GSFC,GUJARAT STATE FERTILIZERS & CHEMICALS LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,GUJALKALI,GUJARAT ALKALIES & CHEMICALS LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),GUJALKALI,GUJARAT ALKALIES & CHEMICALS LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,HCC,HINDUSTAN CONSTRUCTION CO. LTD.,no,"construction contractor (Hindustan Construction Co.); the pack lists only 3 sites, so its NCR project exposure is unknown"
+E_GJ_FLOOD_2024 (provisional),HCC,HINDUSTAN CONSTRUCTION CO. LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,HINDUNILVR,HINDUSTAN UNILEVER LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),HINDUNILVR,HINDUSTAN UNILEVER LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,IGL,INDRAPRASTHA GAS LTD.,no,has a plant in NCR (exposed or within-zone); own gas-allocation cut on 18 Nov 2024
+E_GJ_FLOOD_2024 (provisional),IGL,INDRAPRASTHA GAS LTD.,no,"buys most of its gas from GAIL, a held Petronet offtaker (second-order link)"
+E_NCR_GRAP_2024,INDORAMA,INDO RAMA SYNTHETICS (INDIA) LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),INDORAMA,INDO RAMA SYNTHETICS (INDIA) LTD.,yes,"no Gujarat plant, no candidate link"
+E_NCR_GRAP_2024,IOC,INDIAN OIL CORPN. LTD.,no,has a plant in NCR (exposed or within-zone)
+E_GJ_FLOOD_2024 (provisional),IOC,INDIAN OIL CORPN. LTD.,no,has a plant in Gujarat; held/candidate link to a Gujarat hit firm (Petronet offtaker or GNAL caustic-soda buyer)
+E_NCR_GRAP_2024,JINDALSAW,JINDAL SAW LTD.,no,cement/steel/iron ore: candidate supplier of the NCR builders (Step B pending)
+E_GJ_FLOOD_2024 (provisional),JINDALSAW,JINDAL SAW LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,JINDALSTEL,JINDAL STEEL & POWER LTD.,no,cement/steel/iron ore: candidate supplier of the NCR builders (Step B pending)
+E_GJ_FLOOD_2024 (provisional),JINDALSTEL,JINDAL STEEL & POWER LTD.,yes,"no Gujarat plant, no candidate link"
+E_NCR_GRAP_2024,JKTYRE,J K TYRE & INDS. LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),JKTYRE,J K TYRE & INDS. LTD.,no,"chemical, pharma, tyre or FMCG firm: possible downstream buyer (Step B pending)"
+E_NCR_GRAP_2024,JSL,JINDAL STAINLESS LTD.,no,cement/steel/iron ore: candidate supplier of the NCR builders (Step B pending)
+E_GJ_FLOOD_2024 (provisional),JSL,JINDAL STAINLESS LTD.,yes,"no Gujarat plant, no candidate link"
+E_NCR_GRAP_2024,JSWSTEEL,J S W STEEL LTD.,no,cement/steel/iron ore: candidate supplier of the NCR builders (Step B pending)
+E_GJ_FLOOD_2024 (provisional),JSWSTEEL,J S W STEEL LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,KIRIINDUS,KIRI INDUSTRIES LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),KIRIINDUS,KIRI INDUSTRIES LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,LODHA,MACROTECH DEVELOPERS LTD.,no,developer: used as a control or excluded from controls
+E_GJ_FLOOD_2024 (provisional),LODHA,MACROTECH DEVELOPERS LTD.,yes,"no Gujarat plant, no candidate link"
+E_NCR_GRAP_2024,MARUTI,MARUTI SUZUKI INDIA LTD.,no,has a plant in NCR (exposed or within-zone)
+E_GJ_FLOOD_2024 (provisional),MARUTI,MARUTI SUZUKI INDIA LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,MAXHEALTH,MAX HEALTHCARE INSTITUTE LTD.,no,has a plant in NCR (exposed or within-zone)
+E_GJ_FLOOD_2024 (provisional),MAXHEALTH,MAX HEALTHCARE INSTITUTE LTD.,no,"chemical, pharma, tyre or FMCG firm: possible downstream buyer (Step B pending)"
+E_NCR_GRAP_2024,MODTHREAD,MODERN THREADS (INDIA) LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),MODTHREAD,MODERN THREADS (INDIA) LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,MRF,M R F LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),MRF,M R F LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,MRPL,MANGALORE REFINERY & PETROCHEMICALS LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),MRPL,MANGALORE REFINERY & PETROCHEMICALS LTD.,yes,"no Gujarat plant, no candidate link"
+E_NCR_GRAP_2024,NATIONALUM,NATIONAL ALUMINIUM CO. LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),NATIONALUM,NATIONAL ALUMINIUM CO. LTD.,no,has a plant in Gujarat; held/candidate link to a Gujarat hit firm (Petronet offtaker or GNAL caustic-soda buyer)
+E_NCR_GRAP_2024,NBCC,N B C C (INDIA) LTD.,no,has a plant in NCR (exposed or within-zone)
+E_GJ_FLOOD_2024 (provisional),NBCC,N B C C (INDIA) LTD.,yes,"no Gujarat plant, no candidate link"
+E_NCR_GRAP_2024,NECLIFE,NECTAR LIFESCIENCES LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),NECLIFE,NECTAR LIFESCIENCES LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,NMDC,N M D C LTD.,no,cement/steel/iron ore: candidate supplier of the NCR builders (Step B pending)
+E_GJ_FLOOD_2024 (provisional),NMDC,N M D C LTD.,yes,"no Gujarat plant, no candidate link"
+E_NCR_GRAP_2024,NTPC,N T P C LTD.,no,has a plant in NCR (exposed or within-zone)
+E_GJ_FLOOD_2024 (provisional),NTPC,N T P C LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,PARSVNATH,PARSVNATH DEVELOPERS LTD.,no,has a plant in NCR (exposed or within-zone)
+E_GJ_FLOOD_2024 (provisional),PARSVNATH,PARSVNATH DEVELOPERS LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,PETRONET,PETRONET L N G LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),PETRONET,PETRONET L N G LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,RAJESHEXPO,RAJESH EXPORTS LTD.,no,developer: used as a control or excluded from controls
+E_GJ_FLOOD_2024 (provisional),RAJESHEXPO,RAJESH EXPORTS LTD.,yes,"no Gujarat plant, no candidate link"
+E_NCR_GRAP_2024,RELIANCE,RELIANCE INDUSTRIES LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),RELIANCE,RELIANCE INDUSTRIES LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,RPOWER,RELIANCE POWER LTD.,no,has a plant in NCR (exposed or within-zone)
+E_GJ_FLOOD_2024 (provisional),RPOWER,RELIANCE POWER LTD.,yes,"no Gujarat plant, no candidate link"
+E_NCR_GRAP_2024,RVNL,RAIL VIKAS NIGAM LTD.,no,has a plant in NCR (exposed or within-zone)
+E_GJ_FLOOD_2024 (provisional),RVNL,RAIL VIKAS NIGAM LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,SAIL,STEEL AUTHORITY OF INDIA LTD.,no,cement/steel/iron ore: candidate supplier of the NCR builders (Step B pending)
+E_GJ_FLOOD_2024 (provisional),SAIL,STEEL AUTHORITY OF INDIA LTD.,yes,"no Gujarat plant, no candidate link"
+E_NCR_GRAP_2024,SAURASHCEM,SAURASHTRA CEMENT LTD.,no,cement/steel/iron ore: candidate supplier of the NCR builders (Step B pending)
+E_GJ_FLOOD_2024 (provisional),SAURASHCEM,SAURASHTRA CEMENT LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,SHREECEM,SHREE CEMENT LTD.,no,cement/steel/iron ore: candidate supplier of the NCR builders (Step B pending)
+E_GJ_FLOOD_2024 (provisional),SHREECEM,SHREE CEMENT LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,SRF,S R F LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),SRF,S R F LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,TATACOMM,TATA COMMUNICATIONS LTD.,no,has a plant in NCR (exposed or within-zone)
+E_GJ_FLOOD_2024 (provisional),TATACOMM,TATA COMMUNICATIONS LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,TATASTEEL,TATA STEEL LTD.,no,cement/steel/iron ore: candidate supplier of the NCR builders (Step B pending)
+E_GJ_FLOOD_2024 (provisional),TATASTEEL,TATA STEEL LTD.,yes,"no Gujarat plant, no candidate link"
+E_NCR_GRAP_2024,TORNTPOWER,TORRENT POWER LTD.,no,"not a clean placebo: verified Petronet customer (user, 22 Nov 2026)"
+E_GJ_FLOOD_2024 (provisional),TORNTPOWER,TORRENT POWER LTD.,no,"has a plant in Gujarat; held/candidate link to a Gujarat hit firm (Petronet offtaker or GNAL caustic-soda buyer); pack 'control' but a verified Petronet customer (user, 22 Nov 2026)"
+E_NCR_GRAP_2024,ULTRACEMCO,ULTRATECH CEMENT LTD.,no,cement/steel/iron ore: candidate supplier of the NCR builders (Step B pending)
+E_GJ_FLOOD_2024 (provisional),ULTRACEMCO,ULTRATECH CEMENT LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,UNITECH,UNITECH LTD.,no,has a plant in NCR (exposed or within-zone)
+E_GJ_FLOOD_2024 (provisional),UNITECH,UNITECH LTD.,yes,"no Gujarat plant, no candidate link"
+E_NCR_GRAP_2024,UPL,U P L LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),UPL,U P L LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,VASCONEQ,VASCON ENGINEERS LTD.,no,developer: used as a control or excluded from controls
+E_GJ_FLOOD_2024 (provisional),VASCONEQ,VASCON ENGINEERS LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,VEDL,VEDANTA LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),VEDL,VEDANTA LTD.,no,has a plant in Gujarat
+E_NCR_GRAP_2024,VHL,VARDHMAN HOLDINGS LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),VHL,VARDHMAN HOLDINGS LTD.,yes,"no Gujarat plant, no candidate link"
+E_NCR_GRAP_2024,ZUARI,ZUARI AGRO CHEMICALS LTD.,yes,"no NCR plant, no candidate link"
+E_GJ_FLOOD_2024 (provisional),ZUARI,ZUARI AGRO CHEMICALS LTD.,no,has a plant in Gujarat

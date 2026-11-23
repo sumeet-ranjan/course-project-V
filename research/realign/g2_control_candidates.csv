@@ -1,0 +1,34 @@
+group,nse_symbol,company,price_days,first_price,mcap_at_event_cr,source
+NCR builders,BRIGADE,Brigade Enterprises,1135,2021-06-01,26793.0,outside sample
+NCR builders,SOBHA,Sobha,1135,2021-06-01,16407.0,outside sample
+NCR builders,PRESTIGE,Prestige Estates,1135,2021-06-01,66634.0,outside sample
+NCR builders,OBEROIRLTY,Oberoi Realty,1135,2021-06-01,72023.0,outside sample
+NCR builders,GODREJPROP,Godrej Properties,1135,2021-06-01,78195.0,outside sample
+NCR builders,KOLTEPATIL,Kolte-Patil,1135,2021-06-01,3151.0,outside sample
+NCR builders,SUNTECK,Sunteck Realty,1135,2021-06-01,7248.0,outside sample
+NCR builders,PURVA,Puravankara,1135,2021-06-01,8150.0,outside sample
+NCR builders,MAHLIFE,Mahindra Lifespace,1135,2021-06-01,10089.0,outside sample
+NCR builders,ARVSMART,Arvind SmartSpaces,1135,2021-06-01,3996.0,outside sample
+NCR builders,AJMERA,Ajmera Realty,1135,2021-06-01,3468.0,outside sample
+NCR builders,RUSTOMJEE,Keystone Realtors,766,2022-11-24,9169.0,outside sample
+NCR builders,SHRIRAMPPS,Shriram Properties,997,2021-12-20,1730.0,outside sample
+NCR builders,PHOENIXLTD,Phoenix Mills,1135,2021-06-01,50004.0,outside sample
+Gujarat chemicals,CHAMBLFERT,Chambal Fertilisers,1135,2021-06-01,20416.0,outside sample
+Gujarat chemicals,COROMANDEL,Coromandel International,1135,2021-06-01,51584.0,outside sample
+Gujarat chemicals,RCF,Rashtriya Chemicals & Fertilizers,1135,2021-06-01,11077.0,outside sample
+Gujarat chemicals,NFL,National Fertilizers,1135,2021-06-01,6943.0,outside sample
+Gujarat chemicals,PARADEEP,Paradeep Phosphates,889,2022-05-27,9151.0,outside sample
+Gujarat chemicals,DEEPAKFERT,Deepak Fertilisers,1135,2021-06-01,13493.0,outside sample
+Gujarat chemicals,TATACHEM,Tata Chemicals,1135,2021-06-01,27307.0,outside sample
+Gujarat chemicals,VINATIORGA,Vinati Organics,1135,2021-06-01,20604.0,outside sample
+Gujarat chemicals,BALAMINES,Balaji Amines,1135,2021-06-01,7064.0,outside sample
+Gujarat chemicals,FINEORG,Fine Organic,1135,2021-06-01,16885.0,outside sample
+Gujarat chemicals,CLEAN,Clean Science,1101,2021-07-19,16484.0,outside sample
+Gujarat chemicals,SUDARSCHEM,Sudarshan Chemical,1135,2021-06-01,8078.0,outside sample
+Gujarat chemicals,CHEMPLASTS,Chemplast Sanmar,1077,2021-08-24,7802.0,outside sample
+Gujarat chemicals,GALAXYSURF,Galaxy Surfactants,1135,2021-06-01,10323.0,outside sample
+Gujarat chemicals,NOCIL,NOCIL,1135,2021-06-01,4846.0,outside sample
+Gujarat chemicals,DCW,DCW,1135,2021-06-01,2424.0,outside sample
+NCR builders,LODHA,MACROTECH DEVELOPERS LTD.,1168,,122133.0,in sample (Housing construction; role chain_neighbour)
+NCR builders,RAJESHEXPO,RAJESH EXPORTS LTD.,1384,,6973.0,in sample (Housing construction; role chain_neighbour)
+NCR builders,VASCONEQ,VASCON ENGINEERS LTD.,1491,,1219.0,in sample (Housing construction; role directly_exposed)

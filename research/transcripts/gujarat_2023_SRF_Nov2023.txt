@@ -1,0 +1,711 @@
+## Transcript
+
+175 turns · 10 169 words · 2 from management, 18 analysts
+
+### Prepared remarks
+
+### Questions and answers
+
+### Prepared remarks
+
+**Operator**
+
+Ladies and gentlemen, good day, and welcome to SRF Limited's Q2 and H1 FY '24 Earnings Conference Call hosted by Axis Capital Limited. [Operator Instructions] Please note that this conference is being recorded. I now hand the conference over to Mr. Ankur Periwal from Axis Capital Limited. Thank you, and over to you, sir.
+
+**Ankur Periwal**
+
+Thank you, Gil, and good afternoon, everyone. Thank you for joining us on SRF Limited's Q2 and H1 FY '24 Results Conference Call. We have with us today Mr. Rahul Jain, President and CFO, SRF Limited. While we'll hear Rahul's thoughts on the results as well as outlook shortly. But before that, let me invite Ms. Nitika Dhawan, Head of Corporate Communications at SRF, to initiate the proceedings for the results call. Over to you, Nitika.
+
+**Nitika Dhawan**Management
+
+Good afternoon, everyone, and thank you for joining us on SRF Limited's Q2 and H1 FY '24 Result's Conference Call. We will begin this call with brief opening remarks from our President and CFO, Mr. Rahul Jain, following which, we will open the forum for the [Indiscernible] question-and answer session. Before we begin this call, I would like to point out that some statements made in this call may be forward-looking, and [this tower] to this effect has been included in the earnings expectations stated earlier. I would now like to invite Mr. Jain to make his opening remarks.
+
+**Rahul Jain**Management
+
+Thank you, Nitika. Good afternoon, everyone, and thank you for joining us today on SRF's Q2 and H1 FY '24 Earnings Conference Call. I trust all of you have had the opportunity to go through the results presentation shared with you earlier. I will initiate the call by briefly taking you through the key highlights for the period of the results, following which we will open the forum to have a Q&A session. We witnessed lower revenues and profitability during the quarter with both our chemicals and Packaging Films Businesses facing headwinds. During the quarter, gross operating revenues declined 15% Y-o-Y to INR 3,177 crore. EBIT was lower by 23% Y-o-Y to INR 533 crores. Profit after tax came in at INR 301 crores in Q2 FY '24, lower by 37% Y-o-Y. Coming to our segmental performance. In Q2 FY '24, our Chemicals business reported lower revenues of INR 1,426 crores, down 22% Y-o-Y. With the chemicals -- within the chemical business, Specialty Chemicals business subdued demand into ongoing destocking and inventory rationalization by customers for certain key products. And we believe that we have seen a large impact of the team in Q2 FY '24. While we continue to encounter rescheduling of some others, we have not witnessed any cancellations. We remain optimistic that Q3 would be better than Q2, and Q4 will [be at more] reasonable levels. Therefore, we firmly believe that H2 will be better than how H1 ended. We also believe that fundamentally, the business is in good shape, both on new products and capabilities. Cycles are a part and parcel of any business. In such a scenario, marginal growth is also a fairly good position to achieve. This is further supported by the cautiously optimistic outlook shared by major agrochemical companies for 2024. We are consistently expanding our product portfolio, having introduced 6 new products in H1, comprising of 4 in agro sector and 2 in pharma. Our pipeline for complex products and AI also remains on track. Over the past few quarters, we have successfully commissioned flexible and dedicated facilities and are in the process of capitalizing projects close to INR 1,100 crores in the second half of this fiscal. Furthermore, the Board announced a CapEx of INR 235 crores for setting up a new and dedicated facilities at the edge for the production of an agrochemical intermediate. These initiatives signify our strong confidence in the segment's potential to create substantial value for all stakeholders as we work towards process improvement and increasing asset utilization levels in FY '25. In our fluorochemicals business, we witnessed lower volumes and realizations in a seasonally weak quarter for the domestic market as well as revenue dumping, leading to lower revenues and profitability in Q2. In addition, the demand environment for some industrial chemicals remain subdued due to sluggish growth witnessed in agrochemicals and pharma industries. Having said that, in Q2, we achieved highest-ever NBC domestic sales for a quarter with a significant increase in market share. Diamond also delivered steady performance and are now -- and is now serving customers across 27 countries with a strong future growth potential. Q3 should make less demand uptick from domestic players as stocking for 2024 season begins and Q4 should witness volume traction from U.S. customers. As we transition into the second half of the year, our expectations are focused on several promising developments in the second. We anticipate an uptick in pricing for HFC, especially in the key markets like India, Middle East, Southeast, South Asia and United States. Industrial chemicals are also expected to perform better than H1, owing to higher demand and price expectation. Additionally, it is worth noting that our new HFC projects would go online very soon, which will add to our capacity and allow us to cater to our key local and global customers. The company remains committed to prioritizing the commissioning and ramp-up of our ongoing projects. Here, I'm pleased to share that we have now commissioned our PTFE plant. This project experienced delayed due to challenges in obtaining support from our technology partners. In response to this, our internal teams proactively took the initiative and commissioned the project. This not only underscores the impressive R&D and engineering capabilities of our in-house teams, but also highlights our self-reliance and adaptability to cater to tough situations. We believe that the product has received a positive response from some of our customers, both locally and internationally. While there will be some time for the product approvals to come in, so within the next 6 to 9 months, the ramp-up will be faster than what we had envisioned for years. In our Packaging Films Business, SRF reported a decline of 15% in revenues to INR 1,122 crores during the quarter. Some of the decline in the business revenues can be attributed to lower price of key raw materials and some to the oversupply situation in the industry. While the ongoing challenge owing to significant demand and supply business continues, the business will actively focus on improving profitability through operational efficiency initiatives, expansion of value-added products in both BOPET and BOPP, implementation of cost-saving strategies and securing additional contracting sales. I'm happy to share that this quarter, the Board has approved an investment of INR 275 crores at indoor for establishing a dedicated Capacitor Grade BOPP Film in that expanding in business adjacencies. This is -- are for into manufacturing of higher value-added products to create a good demand emerging from manufacturer of electronics and EV sector in India. A more detailed rationale for this is available in the presentation that has been uploaded to the stock exchanges. The aluminum foil facility is now in trial phase with commercial production expected soon. The project is expected to be value accretive to the business as customers remain similar and demand strong. Overall, in this segment, market trends point to the persistent imbalance in demand and supply, particularly in BOPET, which is expected to impact performance for the next few quarters. SRF will continue to focus on value-added products and ramp up the aluminum foil project at a fast pace. Moving to our Technical Textiles business, we reported a steady performance. During Q2 FY '24, SRF successfully completed the sales capacity enhancement project for its CC value chain. Further progress in the expansion project from Belting Fabrics and Polyester Industrial Yarn remains on track. Market trends indicate a consistent growth in various cycle segments ensuring continued demand for Nylon Tyre Cord Fabric. Additionally, the government's emphasis on infrastructure development is expected to drive increased demand for Belting Fabrics and Polyester Industrial Yarn. Lastly, in the other segments, imported fabrics, SRF attained all-time high domestic sales and EBITDA, primarily driven by strong demand for our products, including value-added products. SRF has been able to capture maximum share of the growth that has happened in the market and the outlook suggests continued healthy demand in the near term. For Laminated Fabrics, SRF achieved record sales in H1 with the plant operating at full capacity. However, an oversupply situation persists, and SRF anticipates market challenges due to new capacity additions while expecting stable demand. Turning to our balance sheet. Our net debt increased from roughly about INR 3,250 crores as of March 31, 2023, to about INR 3,900 crores as on 30th September 2023. This increase is primarily owing to our CapEx of around INR 1,300 crores in H1. Additionally, we also -- are also witnessing an impact of the increased interest rates, both on the rupee and the U.S. dollar borrowing, which is leading to higher interest costs we charge off to update. Global interest rate cycles are now picking up and some positives should be witnessed on this account over the next 12 to 18 months. In our endeavor to achieve benchmark performance of those functions, we were recognized with the view of [Indiscernible] during this quarter. We received the best corporate cash management services and best corporate technology adoption -- adaptation towards awards from an HDFC Bank, highlighting our excellence in financial and technological revenue. Additionally, SRF Technical Textile business won the MATEXIL Export Award for outstanding export performance for the year '22, '23. On the social role, SRF Foundation was honored with the Shiksha Bhushan Award at the 27th Bhamashah Samman Program by the Government of Rajasthan. Additionally, the SRF Foundation, won CSR Times Award 2023 Gold for its rural education program and earned a certificate of appreciation under the operational [Indiscernible] program by the government of [Indiscernible] or development of infrastructure facilities in government schools. These accolades underscore SRF's commitment to excellence across various sectors. In conclusion, despite the challenging space in various domestic and international markets, we will maintain a positive outlook for the second half compared to our first half. While the near-term prospects for our packaging films will have been weak, our overall optimism is primarily based on our core chemical business and a stable technical textile business going forward. Over the years, we have developed a world-class infrastructure, nurtured, exceptional R&D capabilities and secured ample resources to invest in emerging opportunities across diverse [Indiscernible] sectors, particularly in agro and pharma. While some sectors may encounter transient challenges, we have strong confidence in our services division, driven by our R&D breakthroughs, which we believe will consistently drive substantial growth and enduring value for all stakeholders. On that note, I conclude my remarks and would be glad to discuss any questions, comments or positions that you may have. I would now like to ask the moderator to open the line for the Q&A session. Thank you very much.
+
+**Operator**
+
+Thank you. We will now begin with the question-and-answer session. [Operator Instructions] Ladies and gentlemen, we will wait for a moment while the question queue assembles. The first question is from the line of Rohit Nagraj from Centrum Broking.
+
+### Questions and answers
+
+**Rohit Nagraj**Analyst
+
+Sir, first question is on the Specialty Chemicals business. So you mentioned that Q3 will be better and Q4 probably would be better than that. This growth will be primarily driven from volumes and whether it will be the incumbent business or the newer projects that we have commissioned. I just like to understand a little color on that.
+
+**Rahul Jain**Management
+
+So the way we look at it Rohit, there have been some volume negative that we saw in Q2. Now when we are looking at it from that perspective, we -- there is some pickup that is likely to happen. Some of the orders from the customers have kind of got delayed. And that's where the volume pickup we are talking about in Q3 and Q4 coming through. So that's the existing products. Also, you would remember that over the last, I think, 6 months or about 12 months, the major capital expenditures have been positioned. My sense is it would probably including the NPP and the PIP be about INR 800 crores, INR 900 crores. So some of the positive and new products that we have also launched that we've talked about also should come through in Q3. But the majority of those will probably come in FY '25. So that's how we would look at it.
+
+**Rohit Nagraj**Analyst
+
+Sure. Sir, second question is just your view on the segment-wise CapEx for FY '24 and '25.
+
+**Rahul Jain**Management
+
+I mean, I don't think the position on that has changed, Rohit. I think FY '24, our total CapEx including land is roughly likely to be about INR 2,900 crores to INR 3,000 crores. If that land has come through, which is -- which we are estimating to be in the range of about INR 400 crores to INR 450 crores, that would be the total CapEx. 80%, 85% of that CapEx would be chemicals business and the balance would be [others]. So that's how it is still structured. I don't think that has changed even mandate.
+
+**Rohit Nagraj**Analyst
+
+And FY '25 also would be similar in terms of the intensity will be INR 2,900 crores, INR 3,000 crores and a proportion of 80%, 85% from the spectrum?
+
+**Rahul Jain**Management
+
+Absolutely.
+
+**Operator**
+
+Thank you. The next question is from the line of Sanjesh Jain from ICICI Securities.
+
+**Sanjesh Jain**Analyst
+
+First, on the [Indiscernible] side, it's slightly backward-looking, but just curious to understand, we were anticipating the stocking up for the -- stocking up in the U.S. market, the HFCs ahead of the next phase down, it appears that, that really hasn't played out. Just wanted to understand, is it that Chinese are dumping more and the quota has been filled. What has caused this refilling kind of a benefit not playing out the way probably we would have anticipated?
+
+**Rahul Jain**Management
+
+I agree that it is a slightly backward-looking question. But [to find the makes that], yes, there was some expectations of, let's say, the U.S. market panning out anything that did not come through. But I think instead of looking at it from a backward perspective, we should look at it from a forward perspective. What I can certainly say the order book seems to be in good shape from a Q4 perspective for all the international sales. Specifically, U.S. sales some of the very large customers that we have in the U.S. We've already kind of done ordering with them or their orders have kind of been frozen for FY -- for calendar '24 and '25 as well. So I think that's in good shape. Why did that not happen in terms of what was going on? I think there were various dynamics with respect to Chinese that were playing out in the market besides whatever the pricing situation. So a lot of dumping happening into even the U.S. market during that time, which created that kind of a situation, I hope it answered that.
+
+**Sanjesh Jain**Analyst
+
+No, it's fairly clear. Just on the '24 and '25, now the tie-up has happened, which gives us a much better visibility. Are the pricings are also done that or it will be more dynamic and it's more volume kind of a tie-up? And... What is the...
+
+**Rahul Jain**Management
+
+Volume tier pricing rises are also tied up. But unfortunately, I can't tell you anything beyond it.
+
+**Sanjesh Jain**Analyst
+
+Got it, sir. That's clear. On the R32 side, I think we anticipate it to come in November kind of a thing. Are we in line with that anticipation?
+
+**Rahul Jain**Management
+
+I think end of November or mid of December is when this will get done. It is now getting through to a technical completion position. And hopefully, by mid of December, we will be commissioning the INR 30 crores well. There's some delay, I agree, but I think that it is more technical than anything else.
+
+**Sanjesh Jain**Analyst
+
+Got it. And on the specialty side, again, sorry to ask the similar line of question. But I think some of the guidance is what we are seeing now incrementally coming in, the agrochemical side at least, it appears that the volume pressure can persist in the H2 as well. We are not anticipating any such risk as of now?
+
+**Rahul Jain**Management
+
+So Sanjesh to be very frank about it. On the volume side, we believe that there is some pressure, no doubt on it. But I kind of articulated it out that in Q4, we should do better. There are some positives that we are looking at. Again, like I said, we don't -- we have not seen any major order cancellations coming in. So we are fairly confident of a certain growth number even in the specialty chemical business, even during FY '24 as a whole. So I don't think in the current market, there are many people guiding for a growth in specialty. I think we are probably fairly confident of a single-digit growth at least coming through in specialty chemical space.
+
+**Sanjesh Jain**Analyst
+
+The single-digit growth in the H2, we are talking about for the full year '24?
+
+**Rahul Jain**Management
+
+Whole of FY '24.
+
+**Sanjesh Jain**Analyst
+
+Whole of FY '24. That's great. One last question on the PTFE side.
+
+**Rahul Jain**Management
+
+I think you will have to come back in queue. Other people also want to ask questions.
+
+**Sanjesh Jain**Analyst
+
+I'll come back in the queue. Thank you.
+
+**Operator**
+
+Before we take the next question, we request participants to please limit your questions to 2 per participant. We take the next question from the line of Chintan Modi from Haitong Securities.
+
+**Chintan Modi**Analyst
+
+So with respect to ref gases and...
+
+**Rahul Jain**Management
+
+Kindly louder Chintan, can't hear you.
+
+**Chintan Modi**Analyst
+
+Yes. Sir, can you hear me now? Is it better?
+
+**Rahul Jain**Management
+
+Okay.
+
+**Chintan Modi**Analyst
+
+Okay. So with respect to ref gases and this quotas coming into place, can you tell like explain how the mix will change between our [32, 125 and 134]? And what would be the total volume impact for us in U.S. market?
+
+**Rahul Jain**Management
+
+To be very frank, it's a position that will play out over over a period of time. The way we look at it is that there will always be a GWP [to balance] position in the U.S. market that will play out. Now as GWP [to balance] plays out, I think more of [134 and 32] should start to proliferate more. But again, that also depends on the local market where production is there. So it's a position that we will also see how it plays out. Majority of the local [guys] will start to shut down some of their -- and balance out some of their existing capacities. And [those than that], they will do a quota positioning [in number what] the quota they have and how much they they want to buy from outside, import either from China or from India. The way it will probably work out in 125 starts to -- 125 starts to go away first. Then it will [134A and then 32] but I think it's a position that will probably get more visible during '25 and '26. '24 is probably more understood well.
+
+**Chintan Modi**Analyst
+
+Okay, sure. And with respect to power and fuel cost, can you share like what was the savings on, say, on a Q-on-Q basis or a Y-o-Y basis in terms of per unit cost?
+
+**Rahul Jain**Management
+
+Sorry, Chintan, we will have to come back on that separately. I don't have the numbers right in front of me. It's a mix of various businesses [that angle]. If you are looking at it only from a [direct] perspective, it could be different. If you're looking at it from a technical textiles business perspective, again, it could be different. We will have to -- we look at the numbers and come back to you on that. While coal prices have witnessed a positive impact in CTG operations, mainly due to low demand of coal in China and Europe, I don't have the exact unit by unit numbers.
+
+**Chintan Modi**Analyst
+
+Okay. Sure. And lastly, on the capacitor grade films, is more of an imported product currently? Or there are suppliers in the domestic market today? And also, along with that, if you can explain a little bit of economics like how it would be better than our existing films business.
+
+**Rahul Jain**Management
+
+So on the capacitor grade to be the first question that you have asked is there are existing players or not. There are a couple of existing players that have some capacity, not doing too well assets because of their other issues that are going on. What we believe is that this is a [forum] that the requirement of which will continue to go up. India is going on and looking at electronics manufacturing in India. Therefore, the need for capacitor grade will be high. The demand is expected to grow at roughly about 10% per annum. The current people that are there in the businesses are not operating it very effectively. And therefore, we believe we will have a very large flow in the business. The demand stems from consumer electronics and energy storage systems with major ones and EV chargers and other applications in that space. So that's our strategic rationale around it. We want to become a global opportunity to manufacture in India to become a credible alternative, not just to Indian producers but international guys as well. So that's the way we are looking at it. There are a couple of Indian producers also.
+
+**Chintan Modi**Analyst
+
+Sir, how much is demand today? -- This capacitor
+
+**Rahul Jain**Management
+
+Honestly speaking, the demand is about, let's say, 14,000, 15,000 tonnes. Capacity at rate is about 7,000 tonnes. Majority of this is still being imported.
+
+**Operator**
+
+The next question is from Surya Patra from Philip Capital.
+
+**Surya Patra**Analyst
+
+Sir, my first question is on the -- this HFC. Now since the quotas are set and all that, you have commented something on that. But in terms of the volume, any sense that if you can provide, sir, because as it was earlier, I understood that the ban on Chinese supplies or Chinese dumping on -- in the U.S.
+
+**Rahul Jain**Management
+
+There was no ban, Surya.
+
+**Surya Patra**Analyst
+
+Ban in the sense, implied ban, I mean, the antidumping duty. So because of that, it was expected that there would be -- people would be a bit protected from Chinese dumping in the U.S. market. But now it looks like that is no longer the case. So if that is the case, if you can give some clarity about the volume progress that you would see in the calendar '24 based on the quota that has been set for our clients and all. So that would be helpful.
+
+**Rahul Jain**Management
+
+Surya, the position that we are taking on this will be some of our large customers, we have already tied up volumes for calendar '24 to a certain extent for '25 as well. I think that should [all go] well for us. We are also looking at various resellers that have the quota in the U.S. market to be able to supply to them in value metric quantities. The way we are looking at is that by FY '25 and exiting '25, our capacity on [Indiscernible] should probably be about 80%, 85% utilized in total. What mix, what time is something that the market position will play out on those on which we will have the ability to use our capacities appropriately. So that's how we're looking at it. So to be able to give you a projected number on each of the gas separately is too detailed an exercise for [this meeting].
+
+**Surya Patra**Analyst
+
+Correct. But when you were giving a view about '25 also, sir, so you are factoring the fit in the emerging market from HFC to HFC? Or it is just -- so starting 2025, January, even in the emerging market, the phasedown of HFC that is set, right? So that should boost the demand for HFCs in the emerging market?
+
+**Rahul Jain**Management
+
+No. The way we are looking at this transition into '32, which will be '22 replacement has already happened, mostly even on the emerging market side. So I don't think that has too much of an impact. Yes, the growth is going to be significant. The market is going to be a large one. And therefore, if you remember, I had also talked about that the domestic market and this should become a larger market going forward. So that's something that will play also -- but whether it is because of the ship happening, I don't think so.
+
+**Surya Patra**Analyst
+
+Okay. Sure. So second question is on the PTFE project, sir, since -- although it is coming slightly with a slight delay, but obviously, that would have positioned you better in terms of the customer acquisition, in terms of the product approval and all that. So now about the ramp-up of the project and in terms of the utilization, let's say, by next year, any sense that you are sharing, sir?
+
+**Rahul Jain**Management
+
+The way we are targeting this is the fact that for FY '25 because the balance on the FY '24 [Indiscernible] for the approval process is coming through. For FY '25, we should get to a decent capacity utilization. But I can tell you this that from what we had envisioned when we had started this project, right, a 3- to 4-year ramp-up time line of the PTFE project. I think the ramp-up is going to be significantly faster than that. So hopefully, in the next 2 years or so, so FY '25 and FY '26, it should be fully [Indiscernible]. Hopefully, we can do this even earlier and move to specialty grade on this as the target is...
+
+**Surya Patra**Analyst
+
+And sir, just on the extension of this portfolio of PTFE, can you share something or you will take some time to share update about the... [Indiscernible] The additional products, specialty fluoropolymers?
+
+**Rahul Jain**Management
+
+No, no. So we have already announced the project for specialty fluoropolymers, right? Which is middle of EP and SKM. That's a 2-year project that is currently on [PV] might see some delays even where our position on land is, but still are pretty much online.
+
+**Surya Patra**Analyst
+
+Okay. Just one simple question, sir, about the new projects that was due to commission this year. So whether it is whichever segment, ref gas or it is the fluoro specialty and all that. So I think there is some delay compared to the kind of earlier timeline. Is it a kind of a planned considering the kind of demand situation and the listing or it is...
+
+**Rahul Jain**Management
+
+You are right to a certain extent when you say that there is some delay -- but on the specialty capital side, I would say the delay is largely due to some supply chain issues, some procuring more certain key, let's say, [Indiscernible] components and those types, not with respect to, let's say, delay from a product or a timeline perspective, time-to-market perspective. So that's not the case. It's largely because some of the supply chain issues we face during this period, it will get to a couple of months delay in some of the projects in the specialty [Indiscernible]. In the fluorochemicals, be it TAP or the R32 projects, yes, there were delays. PTFE, the delay was largely due to the fact that there was a difficulty in obtaining visas for our technology suppliers that did not come through. So we had to commission it online. We are engineers with it. So that is some learning exercise around it. On 32, I think that certain government approvals that were to come through took some more time than we expected, which has led to some delays around that. But again, I think we are not very significantly delayed on that side.
+
+**Operator**
+
+The next question is from the line of Arjun Khanna from Kotak Mahindra Asset Management.
+
+**Arjun Khanna**Analyst
+
+The first question is on the Spec-Chem side of it. So in discussions with our clients, I understand offtake has been slightly lower like you mentioned, given global circumstance. When we have our discussions, is there any negotiation or rethink in terms of pricing of these particular products or that's a discussion that's not come up given that they are giving profit warnings?
+
+**Rahul Jain**Management
+
+So Arjun, whenever you discuss something [Indiscernible] with clients, there will always be pricing discussions that come through. We endeavor at our end is always look at what are the technological positions that we can change around them. How much can we produce from the existing facilities, how better to look at efficiencies so that we can protect margins. But without a doubt, there are some pricing pressures also that are there. The only good thing Arjun, that I can say is that the basic theme with respect to, let's say, the customer thinking about their own supply chains and robustness of their supply chain. I think that has not shifted. That remains pretty much volume so even today. So point be some of all discussions that will keep happening. I don't think the basic team under underlying [at invested].
+
+**Arjun Khanna**Analyst
+
+Sure. And in terms of the way we look at the Spec-Chem piece in terms of what growth we would like to generate for it, even post these discussions, do you think that number needs to come down? Or are we yet confident of the 20-plus percent growth that we are targeting?
+
+**Rahul Jain**Management
+
+Then, if you are looking at it from an FY '24 perspective, may not be 100% there in terms of our -- but I can think of the return capital employed that we are generating is still beyond that number, right? When we talk about the 20% plus number, I think the way we look at it in the very long term, what is the number that we are happy with. I don't think that position from our perspective has shifted a little bit.
+
+**Arjun Khanna**Analyst
+
+Sure. Perfect. Sir, my second question is just on the PTFE while we talk of full ramp-up in FY '26. Just want to understand, while we know what the retail capacity is in terms of output, just on the base of commodity grade, what would be the output that's possible to generate from our current equipment?
+
+**Rahul Jain**Management
+
+[I think it] is about 5,000 tonnes. If I'm right, give me just one sec. I look at it, 5,000. Yes, [rating] capacity, 5,000 or 90% you can get to. Again, it also depends on what kind of grade you are producing. So that's the way we look at it.
+
+**Operator**
+
+The next question is from the line of Nishant Shah from Emkay Global.
+
+**Nishant Shah**Analyst
+
+My basic question is on the PSB segment. What would be the percentage of our sales under the contract and spot in India versus outside India?
+
+**Rahul Jain**Management
+
+On drafted India and outside India?
+
+**Nishant Shah**Analyst
+
+Yes.
+
+**Rahul Jain**Management
+
+Roughly speaking our overall contracted sales will be in the range of 60% to 70%, right, which covers all our contracting positions, both locally and globally. Now what is the difference between that in South Africa, Thailand [angle] versus what is in India is a difficult position. I will have to look at those numbers separately.
+
+**Nishant Shah**Analyst
+
+Okay. And from the pricing point of view, what will be the difference when it comes to a renewal...
+
+**Rahul Jain**Management
+
+No, I didn't get the question, Nishant.
+
+**Nishant Shah**Analyst
+
+So basically, what will be the pricing levels when it in the [contract versus post or] when it comes to a renewal point of that?
+
+**Rahul Jain**Management
+
+So that... It can't be looked at it from that perspective, Nishant. Contracted positions that we've created are also to a certain extent [a formula] pricing that comes in. It is not based on a certain fixed price position that you create. So I don't think if you're looking at it from that perspective, that's the right way to look at it.
+
+**Nishant Shah**Analyst
+
+Okay. And my third question will be, when you say the packaging business is not going well, going ahead, what would the impact on the competitors who are only doing the packaging business? Or what will be the impact on the ongoing concern?
+
+**Rahul Jain**Management
+
+So Nishant to be very frank, I think when you look at Q1 numbers, which are now out in the market, if you look at those, you will find that SRF performance both on average percentage EBITDA margin or return on capital employed also in the business, it's probably much better than any of our international, local or global competitors. So I would really say that SRF performs much better than some of our peers. Some of the peers also have businesses which are kind of combined businesses with lamination and others as well, which really does not give us the ability to analyze. But given our value-added product portfolio, we still believe that we are probably one of the best in the industry.
+
+**Nishant Shah**Analyst
+
+Okay. But do you see the big players will survive this down cycle and the small players are getting out of it. So basically a consolidation in the industry.
+
+**Rahul Jain**Management
+
+Nishant, there are a large number of players in the industry today. There will be some, let's say, consolidation that will happen in the industry at some point in bank when, where, why, that only time will tell.
+
+**Operator**
+
+The next question is from the line of Rohit Sinha from Sunidhi Securities.
+
+**Rohit Sinha**Analyst
+
+So one question is on the new CapEx on the BOPP side. So that this INR 275 crores of CapEx, sir, what could be the asset...
+
+**Rahul Jain**Management
+
+You are not clear. Could you repeat your question, please?
+
+**Rohit Sinha**Analyst
+
+Yes. So under this BOPP CapEx side, the new CapEx we have announced. So I just wanted to understand what would be the asset turn and the margin profile for this company. And then is it the same product, which you [expos] making currently or one in which they have discontinued some time back to -- so basically, we...
+
+**Rahul Jain**Management
+
+Product to it. It is not an existing product. It is a BOPP film yes, but it is not, let's say, a BOPP 10.5 meter type of line that we have today. It's a completely different product. We believe that the project's realistic IRR should range in the range of 16% to 18%. That's how we are looking at it. The way we look at it is roughly a payback period of about 5, 5.5 years should come through, and it should be value accretive going forward. Also, I think it is from the perspective that it is a film that will get required in India's requirement of electronics manufacturing, which is great, be it in the EV side on the battery side, that's something that will -- it will need some of this tool and maybe certain other specialized film that go on in the future. So it's a [for] into that segment where we think it will add to value from, let's say, entering into these high growth segments.
+
+**Rohit Sinha**Analyst
+
+Okay. So just on the margin side, would it be fairly -- fair enough to say that it could be slightly on the other side of the current normal [Indiscernible] and booked margins...
+
+**Rahul Jain**Management
+
+The current pricing is certainly should be, but we have seen differential prices. So on an overall basis, it should be more accretive than, let's say, BOPP position today. Other margin should be really better than, let's say, the current BOPP sector.
+
+**Rohit Sinha**Analyst
+
+Okay. And just on the aluminum file business, what is the status right now there? And when should we ...
+
+**Rahul Jain**Management
+
+[Indiscernible] under commercial, it is under final, let's say, installations. Hopefully, by the end of November, early December, we should see capitalization of the project and commercialization as well.
+
+**Operator**
+
+Before we take the next question, in order that the management is able to address questions from all participants in the conference. We request participants to please limit the questions to 2 per participant. The next question is from the line of Keyur Pandya from ICICI Prudential Life Insurance.
+
+**Keyur Pandya**Analyst
+
+I just want to understand just a clarification. So the presentation mentions about the outlook that the current inventory [rationale] may last for 2 more quarters, they relate to specialty chemicals. And in your comments, you mentioned that probably H2 would be better, Q4 should see better growth and overall growth for Specialty Chemical as a product segment. So just if you can just clarify better on the Specialty Chemical, that would be helpful.
+
+**Rahul Jain**Management
+
+I think I was fairly clear in my communication, Q3 should be better than Q4 -- Q4 should be better than Q3. Overall, from an H2 perspective, we will do better than H1 in the Specialty Chemicals business. Also, when you look at it from an annualized perspective comparing FY '23 to FY '24, I said even despite whatever has happened in H1, we believe we should be able to grow the business in single-digit numbers on a revenue perspective. So that's the position that I have made. If that's unclear please let me know.
+
+**Keyur Pandya**Analyst
+
+Perfect. Clear. And when you say that single-digit growth that is for specialty chemicals, right, not for the chemical segment as a whole?
+
+**Rahul Jain**Management
+
+Yes, please.
+
+**Operator**
+
+Thank you very much. The next question is from the line of Rohan Gupta from Nuvama.
+
+**Rohan Gupta**Analyst
+
+First question is on our confidence, which we still have that in Specialty Chemicals with the year end FY '24, we still will be able to end in a positive number. This is primarily driven by the 4 new [indiscernible] into pharma [indiscernible] you have launched. If we adjust for that, do you see that there could have been big growth, or what is the growth contribution coming from these 6 new products launched?
+
+**Rahul Jain**Management
+
+Okay. So the 6 new products that only where the, let's say, commercial quantities have been sent to the customer. These have not been factored into the numbers that I've been talking about, they are very small today. Remember I have said that we've launched 6 new products, 4 in pharma, 2 in agro -- 4 in agro 2 in pharma, right? But I have not acted in any revenue positioning of those products in the number that I'm talking on an overall perspective. Those will probably come out much later in time.
+
+**Rohan Gupta**Analyst
+
+Okay. So the growth trajectory which we are confident about in specialty, is it primarily coming from that? The inventory rationalization is broadly over, however, we still see that the many global companies are still doing [indiscernible] and for the calendar year we are still talking about the growth scenario. So, I mean, it's an, there may be some kind of disconnect what these global companies are talking right now for Q3, what we are looking in a Q3 growth.
+
+**Rahul Jain**Management
+
+I can talk about my position, right? This is the position that we are taking on this. We are in discussions with some of our key customers, some of the order positions that they have talked to us about in terms of just delaying the orders, they have, in fact, talked about multiple new and agrochemical intermediate also, which are kind of not factoring into this. You've seen us talk about a new investment of INR 235 crores in a new product if we kind of -- we'll probably get to over 600 metric tons of that product. It is also a product that can, for future, in the future become a new AI that we believe we can do for the customer. So all of this is based on our customer discussions, our order book and our positions going forward. Specifically to be able to answer what the customer is talking about in generic is very difficult. But my commentary is largely on the basis of what we are seeing and discussing with the [indiscernible].
+
+**Rohan Gupta**Analyst
+
+That's very good, sir. Also, the second question is on our CapEx. We have commissioned roughly INR 1,100 crores so far in H2. We initially guided for INR 2400 crores plus kind of in chemical and overall CapEx guidance was some INR 3,000 crores. So what is the number -- what is the CapEx outlook right now? Have you revised that?
+
+**Rahul Jain**Management
+
+So for FY '24, I believe we can still get to that INR 3,000 crore number subject to the land. For FY '25, I think again, the guidance of, say, let's say, INR 2,800 crores to INR 33,000 crores remains with the new projects also in parallel, having to get, let's say, stabling that and money spent on that. I think we should be in fairly good share to get to that number. Again, the basic criteria of that as 80% chemical business will remain growing.
+
+**Operator**
+
+The next question is from the line of Abhijit Akella from Kotak Securities.
+
+**Abhijit Akella**Analyst
+
+Just a couple on the Chemical segment. First, on the segment margins, they have come down a little bit this quarter to about 24.4% at the EBIT level. I understand this is probably to do with operating leverage and maybe a little bit of pricing pressure. But how should we sort of think about these margins? Can they sort of trend back towards the level of last year or so in the next few quarters?
+
+**Rahul Jain**Management
+
+Again, I believe what I said in the past also, is that in one of the quarters we have seen a margin of 35%, a big margin. We have said that that's not a sustainable position. Given our position on this, we had said that on an annualized basis, margins ranging between, let's say, in the range of about 26% to 30% range should be something that we should be able to achieve. Again, to be very frank about it, we don't look at it on a quarter-on-quarter basis. I think it is best to look at it on an annualized basis. This quarter, what we've seen as margins are probably in the range of about 24.5%. Last, even when you look at it from an H1 perspective we were probably about 26%. So I think we are fairly well within that range that we've spoken about. It's business on [Indiscernible]. And to be very frank about it, it's not linear. It will have ups and downs. What I can -- what I'm kind of telling you is that there is [conviction] on CapEx, there is [conviction] in terms of order book that we have, and that's incredibly good shape. So that's how we look at it, Abhijit, not really a quarter-on-quarter position that we look at.
+
+**Abhijit Akella**Analyst
+
+Right. Sure. Understood, thank you. And the other question was just on the revenue side. Would it be possible to share the Specialty Chemicals growth for the first half? I know in 1Q, you had mentioned plus 10%.
+
+**Rahul Jain**Management
+
+Unfortunately that remains where it is. Only on annual basis we will be able to give you the numbers around that. But let's say, like when we were talking about it on Q1 and Q1 perspective, where we are saying said that it has grown significantly, on an H1 perspective, the growth is probably not as much it is probably flat to slightly negative.
+
+**Abhijit Akella**Analyst
+
+Okay. Got it. Great, sir. And one last thing from my side. You did speak about the expectation of enhanced pricing in the Fluorochemicals business next year. So again, I mean, if you could give us some sense of what sort of price increases we might -- we could expect potentially next year.
+
+**Rahul Jain**Management
+
+Well, [Indiscernible] to be able to answer that.
+
+**Abhijit Akella**Analyst
+
+Okay. Fair enough.
+
+**Operator**
+
+The next question is from Archit Joshi from BNK Securities.
+
+**Archit Joshi**Analyst
+
+Sir, I just have one on some global issues in your conversations, if you can help us explain the way the business has been carried out on the inventory front, what you are made to understand that the MNCs were holding, let's say, 4 to 6 months of inventory in the last 2, 3 years. Looking at strong demand on the farm side, wherein our growth were also quite strong and certain macro conditions have sort of created this inventory snowball due to which our growth also has been impacted. So I was just trying to understand if there is any correlation with the level of inventory that our customers or MNCs were holding. And let's say that in the ensuing quarters, maybe the next year when the base is normal if they shift back to inventories, which are lower than what they were last 2, 3 years ago maybe when the growth was quite strong. Would that have an impact on our growth also in FY '25?
+
+**Rahul Jain**Management
+
+Archit to be very frank about it I think you are answering the question also. You're absolutely right but there was opposition on this that was being created because of the fact that post COVID some of the supply chain issues are moved out. And again, I think one of the larger issues there is also the fact that interest rate prices globally has gone up very, very significantly over the last, let's say, a year or so. Right? When we look at it, I think the cost of holding inventory has become dearer. Because of that, some of the customers are facing working capital pressure, which is, therefore, leading to, let's say, delaying of some of the orders. Also, what has happened is because of the fact that supply chain issues that were there in terms of delivery ability, cost of the container, shipping material out, availability of containers. I think that has kind of eased out very significantly. And therefore, people are saying that it is important to be able to keep it like that and keep a lower inventory because again, it boils down to the cost of carrying the inventory. Now whether it can go to 180 days or 270 days, and it has now come to 30 days or 50 days, I really don't know it. That's something that is very, very different for each customer, each position that is taking very difficult to be able to comment on where the inventory levels are today. It's just a position that some of the customers are talking about and we are seeing that kind of a delay happening when we talk to the customers. So that's where it is at.
+
+**Archit Joshi**Analyst
+
+Sure, sir. Thanks for the clarification.
+
+**Operator**
+
+The next question is from the line of Bhaskar Chakraborty from Jefferies.
+
+**Bhaskar Chakraborty**Analyst
+
+One question on the specialty chemicals. The recovery in demand that you are seeing from your customers over the second half of the fiscal, is it mainly driven by 2 to 3 products, key products, or is it more broad-based?
+
+**Rahul Jain**Management
+
+So to be very frank Bhaskar, I had said it in the earlier part of this conversation also that we believe that some of the key products that we have, we have seen a lower demand and orders getting kind of shifted out to Q3, Q4. That's where we are saying that some of these will come back in some of the new product launches that have happened over last year and the plants that are got commercialized will also given, let's say, from a revenue perspective and volume perspective, but a majority of that is not from, let's say, the new product launches that we have talked about. That's something that will come in over Q3, Q4. That was roughly spread Q3 and Q4 and in entire probably more towards Q4. So that's how the global commentary will read out.
+
+**Bhaskar Chakraborty**Analyst
+
+Sure, sir. And this last question is that in some of the other players' cases, we have seen that they have indicated that customers have sometimes come back and asked for higher volumes. But then after a little while, they have again turned it down. And then again, they have changed. I mean the volatility in their assessment of their own demand has been very high. Have you also seen that or you are seeing a betterment in that predictability?
+
+**Rahul Jain**Management
+
+Depending on customer to customer, to be very frank about it I don't think it is generic in nature to be able to follow it like that.
+
+**Operator**
+
+The next question is from the line of Yash Shah from Investec.
+
+**Yash Shah**Analyst
+
+I have 2 quick questions. The first question was regarding on the PTFE side. We were expecting to sell around, yes, PTFE. -- we were expecting...
+
+**Rahul Jain**Management
+
+Slightly louder.
+
+**Yash Shah**Analyst
+
+Okay. So sir, we were expecting to sell somewhere around 1,000 to 1,500 tonnes of PTFE in the current financial year since the project has been delayed by a couple of months. So what is the revised expectation now that we'll be able to sell in the PTFE side?
+
+**Rahul Jain**Management
+
+I don't think I ever said that we will expect 1,000 to 1,500 tonnes in FY '24. I never said that. Maybe that was your expectation. The way we are looking at it is that some of the sales, probably about 100-150 tonnes per month should come through in Q4 FY '24 for and the full ramp up probably by end of exiting FY '25 is what we would look at.
+
+**Yash Shah**Analyst
+
+Okay. Okay. Fair enough, sir. And sir, second question was on the Technical Textile business. During first half, we were expecting pressure because of the lower capital [Indiscernible] prices, since the prices have started holding up, in fact, have increased starting September. Can we expect a better revenue in the Technical Textile business in the second half, sir?
+
+**Rahul Jain**Management
+
+Even if the pricing go 30% revenue, could go up 30%, it doesn't really matter, Yash, because at the end of the day the majority of the capital, often, be it on a dollar margin basis or a rupee margin basis is a pass-through. It could be a 40 days [Indiscernible] or it could be a 40 days [Indiscernible] depending upon the pricing methodology. But how does it make a difference?
+
+**Operator**
+
+The next question is from the line of Madhav Marda from FIL.
+
+**Madhav Marda**Analyst
+
+I just wanted to understand a bit on the pharma ramp-up. I think you have mentioned the PPT about some pickup expected. So by when do we -- is it more Q3, Q4 or how do we expect that to be [Indiscernible]?
+
+**Rahul Jain**Management
+
+We are talking about the [Indiscernible] ramp-up in specialty chemical space.
+
+**Madhav Marda**Analyst
+
+Yes, that's right. That's right.
+
+**Rahul Jain**Management
+
+So Madhav, to be very frank about it I think the agro traction has remained strong. Pharma PIT plant should pick up in, let's say, more towards Q4. There are products that have already been sent out for, let's say, qualification lot, 3 or 4 products have already been produced in the PIP. And I certainly believe that the full revenue potential will get realized more in FY '25.
+
+**Madhav Marda**Analyst
+
+Okay. Understood, understood. And what is the gross block in the pharma's PIP projects?
+
+**Rahul Jain**Management
+
+[Indiscernible] down as much.
+
+**Operator**
+
+The next question is from the line of Nitin Agarwal from DAM Capital.
+
+**Nitin Agarwal**Analyst
+
+Sir, on the Fluorochemicals business, when you look through in FY '25, '26, do you broadly stay with the volume assumption -- guide assumption that you would have had earlier?
+
+**Rahul Jain**Management
+
+Sorry, Nitin, could you just go a bit slower. I have been unable to gauge your question.
+
+**Nitin Agarwal**Analyst
+
+On the Fluorochemicals business, Specialty business, do we look through the FY '25, '26 sort of broad volume estimates for our projections for ourselves? Are we largely hopeful of maintaining a similar -- doing a similar volume as you would have probably thought earlier despite whatever happened this year?
+
+**Rahul Jain**Management
+
+Fluoro-specialty you're talking?
+
+**Nitin Agarwal**Analyst
+
+Yes, sir. So, I mean the [Indiscernible] business, so the fluorochemical business?
+
+**Rahul Jain**Management
+
+Yeah, again, I think the [Indiscernible] and the 32 plants would get commercialized. I think we're in fairly good shape given where current revenue positions are. Even where current margins are -- even then I think the IRRs are probably better off than what we were when we had initially [Indiscernible] the project. So we are probably in better shape than [Indiscernible].
+
+**Nitin Agarwal**Analyst
+
+And sir, in terms of the dynamics of the industry, has anything changed barring -- with respect the Chinese dumping all of that, that has really happened with structurally changes maybe some of your assumptions?
+
+**Rahul Jain**Management
+
+So not really to a certain extent, the change in assumption is that, let's say, another player wants to come up as capacity, some capacity has come up. There has been some rationalization that will happen on the US quota positions are now frozen and will play out from January of '24 onwards. So all of those have happened. But again, I don't think it has made us think about, let's say, shifting some of the positions that we are taking on the business. Those remain in fairly good shape and going forward also positive.
+
+**Nitin Agarwal**Analyst
+
+Then lastly if you can squeeze in. So on the fluoro-specialty part, this year, you said it's a single-digit growth business. In the past, we've grown at an extremely strong growth rate in the business.
+
+**Rahul Jain**Management
+
+I think you are misreading it Nitin. I never said that it is a single-digit growth business. I have said that this year, even if we get to a single-digit growth position on the fluoro-specialty side, given where the market dynamics are. I think it is much better than, let's say, growing [for 2%] last year. That's what I've said. Please read it properly, I am not saying that it is a single-digit growth business going forward. For FY '25, FY '26 and onwards, given our CapEx intensity around it we still believe a 20% plus growth is still possible.
+
+**Operator**
+
+The next question is from Krishan Parwani from JM Financial.
+
+**Krishanchandra Parwani**Analyst
+
+Just 2 small clarifications. So the first clarification, I'm not sure if I heard it correctly, but did you mention that your HFC volume for CY '24 for U.S. market is tied up, or did I hear something wrong?
+
+**Rahul Jain**Management
+
+I said calendar '24 for some of our key customers, not [Indiscernible].
+
+**Krishanchandra Parwani**Analyst
+
+Okay. Some of your key customers or volume is tied up, yeah. So, okay.
+
+**Rahul Jain**Management
+
+It's a really encouraging question.
+
+**Krishanchandra Parwani**Analyst
+
+Yes, yes. I mean, yes, that's why I needed the clarification. Yes, that's pretty good. And the second clarification or rather a question rather, it is -- so you highlighted single-digit volume growth -- oh, sorry, revenue growth for specialty business in FY '24. Just wanted to check whether you have any kind of guidance on the fluorochemical side for FY '25?
+
+**Rahul Jain**Management
+
+Again, I think the way we've always looked at it volumetric position, given where the 33 will come up, given the U.S. demand provisions are, given where, let's say, PTFE should kick in to a certain extent, given the pricing expectations are, even if we could get to a flat number as last year, we should, I think, be in very, very good shape. But I think as of now it looks a bit difficult.
+
+**Krishanchandra Parwani**Analyst
+
+Okay. No problem.
+
+**Rahul Jain**Management
+
+I think it is down to be really frank.
+
+**Krishanchandra Parwani**Analyst
+
+Okay. Understood. Understood. Thank you for the clarification and wish you all the best.
+
+**Operator**
+
+The next question is from the line of Vishnu Kumar from Spark Capital Advisors.
+
+**Vishnu Kumar A.S.**Analyst
+
+Basically, on the ref gas volume that you mentioned on -- in terms of U.S., your expectation it would be from '24, would it be higher than '23 or also we look at it?
+
+**Rahul Jain**Management
+
+No. Could you repeat question, Vishnu?
+
+**Vishnu Kumar A.S.**Analyst
+
+For the volumes contracted or rather, your expectation for '24, the volume that you might export to U.S. that number would be...
+
+**Rahul Jain**Management
+
+[I understand the question].
+
+**Vishnu Kumar A.S.**Analyst
+
+Yes, sir, correct.
+
+**Rahul Jain**Management
+
+So when you look at calendar '24 versus calendar '23 it would then be a good comparison to it. I think our endeavor is to sell higher in the U.S. market. While some of that has got tied up, it will take a lot of effort to be able to do that. I think we should be able to achieve it.
+
+**Vishnu Kumar A.S.**Analyst
+
+But this will be more towards 32% than 34%?
+
+**Rahul Jain**Management
+
+Yes, again, then I will also have to tell you what volumes are as for '25, what is the position that I'm taking each of the customer, that I don't want to do.
+
+**Vishnu Kumar A.S.**Analyst
+
+Understood. Sir, also, when you say that your EBIT margin medium term, you'd want to keep it between 26% to 30%, what will be the pecking order between the rest and the chemical business, which would be higher or lower? And any risk that you see to these numbers?
+
+**Rahul Jain**Management
+
+Sorry, your voice is kind of not appropriately coming, can you repeat that question, please?
+
+**Vishnu Kumar A.S.**Analyst
+
+Yes. So when you say that the EBIT margin range that you would want to keep in between 26% to 30%, which segment you get the rest for, in terms of pecking order which will be higher than the rest and the expected -- I mean, the specialty business and if there is a volatility or a higher risk, which one of these businesses would be that?
+
+**Rahul Jain**Management
+
+On a ROCE basis, again, on -- let's say, on an EBIT margin basis, it really depends on how each of the business segments is playing out. It is not of the -- already it is true to say that Specialty Chemicals business will always be at 5 percentage points higher than the Fluorochemicals business. On a generic basis, we believe Specialty chemicals on a long-term basis should give us higher ROCE compared to Fluorochemicals business. But when you look at it on a positional basis for 1 quarter, 1 year, depending upon where markets are, the positions could be different. FCM you could be going through a boom while Specialty could be doing a stable position. So it really does depend on what is the position on that side. If you take 5-year average I think Specialty should be higher.
+
+**Operator**
+
+The next question is from Mr. Jason Soans from IDBI Capital.
+
+**Jason Soans**Analyst
+
+So just a simple question I had in terms of the -- our intermediates which go into agrochem and pharma. Just wanted to know from a ballpark perspective, what percentage of that goes into patented molecules and what percentage of that into generic?
+
+**Rahul Jain**Management
+
+Unfortunately, that's something that we can't track. There are products that go into growth because these are not AIs in nature, it is impossible to be able to say.
+
+**Jason Soans**Analyst
+
+Okay. Sure, sir. Okay. And sir, my next question is, what percentage of the Specialty chemical business is contracted in terms of base contract and [Indiscernible]?
+
+**Rahul Jain**Management
+
+Almost 90% of the business to 95% will be [Indiscernible] contract. Some are 2-year contracts, some are 3-year contracts, some would be 1-year contracts also, some in 6-month order-based contracts also. But majority of it is contracted.
+
+**Jason Soans**Analyst
+
+90% is contracted? Sure. So sir, just a follow-up to that I just wanted to ask, just last 6 months the Chinese dumping has started and this intensity has come through in a large way. So in terms of these already established contracts, already made contracts, do you see any structural changes to the contracts? Of course, there will be some raw material prices coming down, do you see any structural changes to this contract? What...
+
+**Rahul Jain**Management
+
+[Indiscernible] maybe some other, let's say, positions that the customer would like to create through it. But I think again, you have to understand that the global team that is playing out [Indiscernible]. So there may be some, let's say, positional play that will be out globally, the derisking thing continue, which is what we said, I think in the earlier commentary also, -- which therefore means that when we look at it, while there may be a contract to contract position that plays out or if you are setting a facility for a customer, we will want to see, like say, more longer-term contracts coming through. Again, we've been very flexible with the customers in terms of getting better positions with them getting newer products, more complex products, which are going to help them in time for us being able to get, let's say, better shares from customers. So that's why we look at it.
+
+**Jason Soans**Analyst
+
+Sure, sir. But here and again, what happens the derisking is vis-a-vis against cost competitiveness. So that was the only sense of asking that.
+
+**Rahul Jain**Management
+
+To be very frank about it, the customer would want to buy from me at the Chinese price if that's possible, right?
+
+**Jason Soans**Analyst
+
+Right, sir.
+
+**Rahul Jain**Management
+
+[Indiscernible] that will always be happening.
+
+**Jason Soans**Analyst
+
+Right, sir. Yes, and we have to match that. And just one final question from my side, sir...
+
+**Rahul Jain**Management
+
+I've never said that you have to match that. Again, we will always have to look at the economics of the position of that [website] in a manner that can be profitable growth for us.
+
+**Jason Soans**Analyst
+
+Right, sir. And sir, just one final question from my side in terms of HFCs. If you could give us the revenue contribution from major geographies you mentioned, key markets such as U.S., Middle East, India, if we could get...
+
+**Rahul Jain**Management
+
+So I don't want to give from a geography to these geographies perspective, but let's say, export is about 60% of HFCs and the balance will be [Indiscernible] 50%-55%.
+
+**Operator**
+
+We'll have to take that as the last question. I would now like to hand the conference back to Mr. Rahul Jain for closing comments.
+
+**Rahul Jain**Management
+
+Thanks, everyone. I hope we have been able to answer, if not all, some of your questions. I hope to -- that each one of you continue to remain certain in this. If you have any further questions we would be happy to be of assistance. We hope to have your valuable support on a continued basis as we move ahead. On behalf of the management, I once again thank you for taking the time to join us on this call. Bye-bye.
+
+**Operator**
+
+Thank you very much. On behalf of Axis Capital Limited, that concludes the conference. Thank you for joining us, ladies and gentlemen. You may now disconnect your lines.

@@ -1,0 +1,19 @@
+portfolio,check,coef_pct_per_100aqi,p,n
+ls_builders,base: AQI + winter effects,-0.3257,0.0106,135
+ls_builders,+ within-winter linear trends,-0.3343,0.0158,135
+ls_builders,+ Stage III and IV dummies,-0.4608,0.0017,135
+ls_builders,Huber robust regression,-0.3192,0.0633,135
+ls_builders,"placebo: AQI of the winter 1 year(s) later, same dates",-0.0636,0.743,135
+ls_builders,"placebo: AQI of the winter 2 year(s) later, same dates",-0.1598,0.3717,135
+ls_builders,winter 2022 alone,-0.2442,0.3421,46
+ls_builders,winter 2023 alone,-0.3142,0.2274,45
+ls_builders,winter 2024 alone,-0.3881,0.0218,44
+ls_ncr,base: AQI + winter effects,-0.2612,0.0329,135
+ls_ncr,+ within-winter linear trends,-0.2738,0.0241,135
+ls_ncr,+ Stage III and IV dummies,-0.3573,0.0094,135
+ls_ncr,Huber robust regression,-0.2533,0.023,135
+ls_ncr,"placebo: AQI of the winter 1 year(s) later, same dates",0.0299,0.8066,135
+ls_ncr,"placebo: AQI of the winter 2 year(s) later, same dates",0.059,0.6268,135
+ls_ncr,winter 2022 alone,-0.1358,0.6137,46
+ls_ncr,winter 2023 alone,-0.1322,0.5179,45
+ls_ncr,winter 2024 alone,-0.4142,0.0007,44

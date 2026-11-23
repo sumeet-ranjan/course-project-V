@@ -1,0 +1,7 @@
+event,group,n,yoy_sales_growth_event_qtr,yoy_sales_growth_next_qtr,margin_event_qtr,margin_change_vs_year_ago,margin_next_qtr
+"Chennai Michaung, Oct-Dec 2023",exposed (>=25% assets),7,3.0,2.0,14.0,,13.0
+"Chennai Michaung, Oct-Dec 2023",unexposed (0%),41,2.0,1.0,15.0,,12.0
+"Gujarat flood, Jul-Sep 2024",exposed (>=25% assets),16,3.0,11.0,8.5,-0.5,9.5
+"Gujarat flood, Jul-Sep 2024",unexposed (0%),38,2.0,3.0,14.5,-1.5,15.0
+"GRAP-IV, Oct-Dec 2024",exposed (>=25% assets),12,10.5,8.0,16.0,-0.5,20.5
+"GRAP-IV, Oct-Dec 2024",unexposed (0%),42,5.0,5.0,12.0,-1.0,13.0

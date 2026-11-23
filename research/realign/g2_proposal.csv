@@ -1,0 +1,31 @@
+group,event,exposed,exposed_mcap_cr,control,control_mcap_cr,size_ratio,control_source
+NCR builders,E_NCR_GRAP_2024 (18 Nov 2024),NBCC,24306.0,BRIGADE,26793.0,1.1,outside sample
+NCR builders,E_NCR_GRAP_2024 (18 Nov 2024),NBCC,24306.0,RUSTOMJEE,9169.0,0.38,outside sample
+NCR builders,E_NCR_GRAP_2024 (18 Nov 2024),DLF,188729.0,LODHA,122133.0,0.65,in sample (Housing construction; role chain_neighbour)
+NCR builders,E_NCR_GRAP_2024 (18 Nov 2024),DLF,188729.0,BRIGADE,26793.0,0.14,outside sample
+NCR builders,E_NCR_GRAP_2024 (18 Nov 2024),ANANTRAJ,24277.0,BRIGADE,26793.0,1.1,outside sample
+NCR builders,E_NCR_GRAP_2024 (18 Nov 2024),ANANTRAJ,24277.0,RUSTOMJEE,9169.0,0.38,outside sample
+NCR builders,E_NCR_GRAP_2024 (18 Nov 2024),UNITECH,2375.0,KOLTEPATIL,3151.0,1.33,outside sample
+NCR builders,E_NCR_GRAP_2024 (18 Nov 2024),UNITECH,2375.0,AJMERA,3468.0,1.46,outside sample
+NCR builders,E_NCR_GRAP_2024 (18 Nov 2024),PARSVNATH,778.0,VASCONEQ,1219.0,1.57,in sample (Housing construction; role directly_exposed)
+NCR builders,E_NCR_GRAP_2024 (18 Nov 2024),PARSVNATH,778.0,KOLTEPATIL,3151.0,4.05,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),KIRIINDUS,2350.0,NFL,6943.0,2.95,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),KIRIINDUS,2350.0,SUDARSCHEM,8078.0,3.44,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),GUJALKALI,5530.0,NFL,6943.0,1.26,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),GUJALKALI,5530.0,SUDARSCHEM,8078.0,1.46,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),BODALCHEM,1016.0,NFL,6943.0,6.83,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),BODALCHEM,1016.0,SUDARSCHEM,8078.0,7.95,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),GNFC,9246.0,PARADEEP,9151.0,0.99,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),GNFC,9246.0,SUDARSCHEM,8078.0,0.87,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),SRF,73829.0,VINATIORGA,20604.0,0.28,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),SRF,73829.0,CHAMBLFERT,20416.0,0.28,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),GSFC,9272.0,PARADEEP,9151.0,0.99,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),GSFC,9272.0,SUDARSCHEM,8078.0,0.87,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),AARTIIND,22543.0,VINATIORGA,20604.0,0.91,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),AARTIIND,22543.0,CHAMBLFERT,20416.0,0.91,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),UPL,46477.0,VINATIORGA,20604.0,0.44,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),UPL,46477.0,CHAMBLFERT,20416.0,0.44,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),DCMSHRIRAM,18363.0,CHAMBLFERT,20416.0,1.11,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),DCMSHRIRAM,18363.0,CLEAN,16484.0,0.9,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),ZUARI,873.0,NFL,6943.0,7.95,outside sample
+Gujarat chemicals,E_GJ_FLOOD_2024 (26 Aug 2024),ZUARI,873.0,SUDARSCHEM,8078.0,9.25,outside sample
