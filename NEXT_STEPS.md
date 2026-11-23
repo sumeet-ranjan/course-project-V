@@ -10,9 +10,14 @@
   - Evidence: `research/realign/stepB_*.csv`.
   - Links: `src/46_stepB_links.py`, rows N001–N084 of `outputs/deliverables/verified_links.csv`.
   - G4 decided by the user on 23 Nov 2026 and applied.
-- **NCR Steps C–D done (checkpoint 3):** node CARs, quarterly numbers, the market-level cement test, the NCR register and evidence table. **With the user: G5** (`research/realign/G5_recommendation.md`).
-- **Gujarat, worked in parallel (user, 23 Nov 2026):** Step A outside the pack (Tata Chemicals, Archean, Adani Ports, GE T&D), the Tata Chemicals → Tata Consumer chain, the Gujarat register and evidence table. **With the user: G7** (`research/realign/G7_recommendation.md`).
-- **After G5 and G7:** Step E (both diagrams), Gujarat Steps C–D for the chain, the dose-response and placebo tables, then the memo.
+- **NCR Steps C–D done (checkpoint 3); G5 decided by the user on 23 Nov 2026 and applied** (`research/realign/G5_recommendation.md`, rewritten as the decided record).
+- **Gujarat Step A outside the pack and the Tata chain done; G7 decided by the user on 23 Nov 2026 and applied** (`research/realign/G7_recommendation.md`).
+- **Checkpoint 4 (23 Nov 2026): G5/G7 corrections, Step E, dose-response, placebos and the memo draft.**
+  - G5: release times and window dates verified (`research/realign/g5_timing_docs.csv`); Ahluwalia's disclosure days and every window net of the unlinked contractors with placebo p (`src/55`, `stepC_ncr_contractor_net.csv`, `stepC_ncr_disclosure_days.csv`); Q4 YoY and FY25 from the company's Q4 call; cement variant dropped (`news_checks.csv`).
+  - G7: hit firms graded; rain episodes (`src/56`, `gj_rain_episodes.csv`); Archean vs specialty peers and news; one retail price increase (₹2 on ₹28, about 7%); 85% item closed; Tata Consumer salt by quarter (`src/57`, `stepC_gj_tcpl_salt.csv`); Tata Chemicals' 10 Oct and 21 Oct moves sourced.
+  - Step E: `pathway_NCR`, `pathway_GJ`, `fig_lag_paths` (`src/59`); `table2_dose_response*`, `table3_placebo.csv` (`src/58`); `memo.md` (draft).
+- **Open, for the user:** (1) review the memo draft and the two diagrams; (2) the final causal claim (§5) is yours: the memo states the evidence grading, not a verdict; (3) the Gujarat placebo list is still provisional; (4) Signature Global's Q3 FY25 transcript (your manual download) goes into the NCR register when it arrives.
+- **Open, documents not obtained:** Tata Consumer's Q2 FY25 investor deck (Q2 salt revenue growth; NSE 403, company copy empty); GE T&D's 27 Aug 2024 notice; the contractors on NBCC's Amrapali and GPRA projects; a documented site hit at B.L. Kashyap.
 
 **Scope:** `docs_from_pack/INSTRUCTIONS.md` and `docs_from_pack/README.md` only. `HANDOVER.md` still
 holds for environment setup, data traps and permissions. The previous to-do list is kept in

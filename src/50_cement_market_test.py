@@ -10,7 +10,7 @@ and the continuous share is reported where stated.
   Excluded: ACC, AMBUJACEM (user: Adani group); INDIACEM (being acquired by UltraTech, per UltraTech's Q3 FY25 deck 'Inorganic
   growth: India Cements Limited'); JKCEMENT, MANGLMCEM, HEIDELBERG, ORIENTCEM, SAGCEM, KCP, DECCANCE (no capacity document read).
 Statistic: mean CAR of makers with northern capacity minus mean CAR of makers with none (main: all five 'none';
-robustness: documented zeros only). Placebo p-values from the same statistic on 1,000 random event days.
+robustness, dropped at G5 because it rests on two firms: documented zeros only). Placebo p-values from the same statistic on 1,000 random event days.
 Engine: es_lib market model (NIFTY 500, [-250,-30]).
 Windows: 18 Nov 2024 (-1,+3) [ends 22 Nov], (-1,+5), (+6,+20), (+21,+60); 17 Dec 2024 (-1,+5), (+6,+20).
 Outputs: outputs/deliverables/cement_market_test.csv, cement_market_test_firms.csv, cement_market_test_doses.csv
@@ -52,7 +52,9 @@ for lab, (day, wins) in EV.items():
             rows.append(dict(event=lab, window=f"({w[0]},{w[1]})", spec=spec, n_north=int(c.reindex(NORTH).notna().sum()), n_none=int(c.reindex(none).notna().sum()),
                              car_north=c.reindex(NORTH).mean(), car_none=c.reindex(none).mean(), gap_north_minus_none=g,
                              p_two_sided=(ps.abs() >= abs(g)).mean(), p_one_sided_neg=(ps <= g).mean(), n_placebo=len(ps),
-                             label="market-level test (not a firm link); binary dose; ACC, Ambuja, India Cements excluded"))
+                             label="market-level test (not a firm link); binary dose; ACC, Ambuja, India Cements excluded",
+                             status=("result (G5: report +2.5 pp over (-1,+5) as the result; coarse, labelled test with little power)" if spec.startswith("main") else
+                                     "dropped (G5): rests on two firms, Star Cement and Prism Johnson; no company news found for Star in 14-26 Nov 2024; Prism's fall follows its loss-making Q2 FY25 results of 13 Nov (research/realign/news_checks.csv)")))
         for f in firms: frows.append(dict(event=lab, window=f"({w[0]},{w[1]})", nse_symbol=f, group=Dd.set_index("nse_symbol").group[f], car=E.car(ar[[f]], *w).iloc[0]))
 T = pd.DataFrame(rows); T.round(4).to_csv(DEL + "cement_market_test.csv", index=False)
 pd.DataFrame(frows).round(4).to_csv(DEL + "cement_market_test_firms.csv", index=False); Dd.round(3).to_csv(DEL + "cement_market_test_doses.csv", index=False)

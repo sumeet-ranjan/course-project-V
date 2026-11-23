@@ -44,7 +44,7 @@ for lab, (day, wins) in EV.items():
                              car=c, p_two_sided=(ps.abs() >= abs(c)).mean() if pd.notna(c) else np.nan, p_one_sided_neg=(ps <= c).mean() if pd.notna(c) else np.nan,
                              car_minus_unlinked_contractors=c - comp_mean[w] if f in NODES else np.nan, n_placebo=len(ps),
                              note=("own Q2 FY25 results 14 Nov 2024 after close and call on 18 Nov fall in this window" if (f == "AHLUCONT" and lab == "18 Nov 2024" and w[0] == -1) else "")))
-T = pd.DataFrame(rows); T.round(4).to_csv(DEL + "stepC_ncr_node_cars.csv", index=False)
+T = pd.DataFrame(rows); T.round(6).to_csv(DEL + "stepC_ncr_node_cars.csv", index=False)
 pd.set_option("display.width", 220)
 print(T[T.nse_symbol.isin(list(NODES))].drop(columns=["note"]).round(3).to_string(index=False))
 print(T[~T.nse_symbol.isin(list(NODES))].groupby(["event", "window", "node"]).car.mean().round(3).to_string())

@@ -72,6 +72,18 @@ controls_ncr_developers.csv,11,RUSTOMJEE,original_pdf,verified,# RUSTOMJEE - Lea
 controls_ncr_developers.csv,12,SHRIRAMPPS,original_pdf,verified,• “Pune” market entry in Q3 | H2. JDA Signed; MoEF approvals
 controls_ncr_developers.csv,13,PHOENIXLTD,original_pdf,no quote,
 controls_ncr_developers.csv,14,LODHA,original_pdf,verified,"✓ Acquired ~45 acres of land in Chennai, first outside"
+g5_timing_docs.csv,0,AHLUCONT,exchange_filing,verified,"14-Nov-2024 17:16:53 | the financial results for the period ended September 30, 2024"
+g5_timing_docs.csv,1,AHLUCONT,original_pdf,verified,held on 18-11-2024 at 3.00 p.m.
+g5_timing_docs.csv,2,AHLUCONT,exchange_filing,verified,"11-Feb-2025 16:43:25 | the financial results for the period ended December 31, 2024"
+g5_timing_docs.csv,3,AHLUCONT,original_pdf,verified,"12-02-2025 4.00 P.M. Hrs. (I.S.T) Conference Call of Ahluwalia Contracts (India) Ltd on Wednesday, February 12th, 2025 at 4.00 p.m. for Q3 Results FY 2024-25"
+g5_timing_docs.csv,4,AHLUCONT,original_pdf,verified,"I had given guidance of about 10% growth. We should be around that, we would be about 8.5%-9%. The 4 th Quarter is always the best quarter in terms of performan"
+g5_timing_docs.csv,5,AHLUCONT,original_pdf,verified,"In fact, the ban got lifted around the 3rd or the 4th of February, so the first month of the last quarter has also been affected"
+g5_timing_docs.csv,6,AHLUCONT,original_pdf,verified,"During 4QFY25, the company has achieved a turnover of Rs. 1,215.84 crores and a PAT of Rs. 83.16 crores in comparison to a turnover of Rs. 1,163.66 crores; and "
+g5_timing_docs.csv,7,AHLUCONT,original_pdf,verified,"During FY25, the company has achieved a turnover of Rs. 4,098.62 crores and a PAT of Rs. 201.51 crores, in comparison to a turnover of Rs. 3,855.29 crores and a"
+g5_timing_docs.csv,8,AHLUCONT,original_pdf,verified,"unlike last year when we lost approximately two to three months, two months in Q3 and nearly a month in Q4 of FY '25"
+g7_docs.csv,0,ADANIPORTS,original_pdf,verified,"APSEZ handles 36.1 MMT of cargo in Aug’24 (+5% YoY), operations at Mundra and Tuna impacted for 4 days equivalent due to inclement weather"
+g7_docs.csv,1,TATACONSUM,original_pdf,verified,"this price increase of INR2 on a INR28 base, which is roughly around 7%, comes after a two-year hiatus, right? So, in the last two years, we’ve not even taken g"
+g7_docs.csv,2,TATACONSUM,original_pdf,verified,"We did have impact on cost for salt because Mithapur recorded its highest ever rain since 1929. And in line with mitigating the cost increase, we've announced a"
 gj_hit_firms_docs.csv,0,TATACHEM,full_text,verified,"Indian volumes were lower, and this was mainly impacted due to very heavy rains, which impacted our operations for almost 10 days"
 gj_hit_firms_docs.csv,1,TATACHEM,full_text,verified,"just say this weather impact has had 30,000 tons on soda ash and about 40,000 tons on salt."
 gj_hit_firms_docs.csv,2,TATACHEM,full_text,verified,"there is a cost impact almost equal to, in our estimation, around Rs.40 crore, of which Rs.25 crore was on account of unstable operation, the increased cost, an"
@@ -204,6 +216,29 @@ ncr_stepA_evidence.csv,26,NBCC,original_pdf,no quote,
 ncr_stepA_evidence.csv,27,UNITECH,original_pdf,no quote,
 ncr_stepA_evidence.csv,28,UNITECH,original_pdf,no quote,
 ncr_stepA_evidence.csv,29,NBCC,original_pdf,verified,"Already we have achieved because actually last quarter due to NGT brand imposing on Delhi, our major projects are Amrapali and 70% GPRA so these two projects th"
+news_checks.csv,0,ACI,exchange_filing,no quote,
+news_checks.csv,1,ACI,exchange_filing,no quote,
+news_checks.csv,2,ACI,exchange_filing,verified,Archean Chemical Industries Limited has informed the Exchange regarding 'Disclosure under Regulation 30'.
+news_checks.csv,3,ACI,exchange_filing,verified,Archean Chemical Industries Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations
+news_checks.csv,4,ACI,news_article,verified,Archean Chemicals Industries declined 10.26% to Rs 689.15 after the company's standalone net profit fell 48.54% to Rs 48.46 crore in Q1 FY25
+news_checks.csv,5,ACI,news_article,verified,This led to loss of industrial salt stock amounting to Rs.40.2 crore (4.72 Lakhs MT)
+news_checks.csv,6,ACI,search_snippet,no quote,
+news_checks.csv,7,ACI,search_snippet,no quote,
+news_checks.csv,8,PRSMJOHNSN,exchange_filing,verified,"Prism Johnson Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+news_checks.csv,9,PRSMJOHNSN,news_article,verified,"The company's consolidated net loss stood at 897.9 million rupees ($10.6 million) in the three months ended Sept. 30, marking a second straight quarter of losse"
+news_checks.csv,10,PRSMJOHNSN,news_article,verified,"The company's shares, which were in the red ahead of results, fell 2.5 per cent post results."
+news_checks.csv,11,PRSMJOHNSN,exchange_filing,verified,"The aforementioned penalty has no material impact on the financials, operations or any other activities of the Company."
+news_checks.csv,12,PRSMJOHNSN,exchange_filing,verified,Significant increase in volume has been observed in Prism Johnson Limited.
+news_checks.csv,13,STARCEMENT,exchange_filing,verified,"Star Cement Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+news_checks.csv,14,STARCEMENT,exchange_filing,verified,Star Cement Limited has informed the Exchange about Investor Presentation
+news_checks.csv,15,STARCEMENT,exchange_filing,verified,Star Cement Limited has informed the Exchange about Transcript
+news_checks.csv,16,STARCEMENT,search_snippet,no quote,
+news_checks.csv,17,TATACHEM,news_article,verified,"Tata Group stocks were trading mixed with Tata Motors down nearly 2 per cent, while Tata Chemicals and Indian Hotels Company rose up to 4 per cent on the BSE in"
+news_checks.csv,18,TATACHEM,news_article,verified,"Tata Chemicals surged 8.53 per cent to Rs 1,200 apiece."
+news_checks.csv,19,TATACHEM,search_snippet,no quote,
+news_checks.csv,20,ACI,exchange_filing,verified,"a penalty of Rs. 1,10,228/- has been imposed on our Company by Deputy Commissioner (ST), Central-III, Chennai towards GST related issues"
+news_checks.csv,21,TATACHEM,news_article,verified,Tata group's smallcap stock Tata Chemicals spurted in trade today (October 21) by over 14 per cent at day's high to Rs 1244.70 apiece on the BSE. | The sharp ga
+news_checks.csv,22,TATACHEM,news_article,verified,"The company's 3 per cent stake in Tata Sons is valued at around Rs 19,850 crore."
 stepB_builder_side.csv,0,NBCC,original_pdf,verified,"As a Project Management Consultancy (PMC), NBCC subcontracts project execution to contractors and does not directly procure construction materials or machinery."
 stepB_builder_side.csv,1,NBCC,original_pdf,verified,"NBCC sourced 92.80% of its inputs from MSMEs, including H11.66 crore from MSMEs overall"
 stepB_builder_side.csv,2,NBCC,original_pdf,verified,Share of RPTs in a.  Purchases (Purchases with related parties / Total Purchases) 0.50% 1.32%
@@ -296,3 +331,46 @@ stepB_supplier_side.csv,37,JSL,original_pdf,no quote,
 stepB_supplier_side.csv,38,APLAPOLLO,original_pdf,verified,Customers who represent more than 10% of the total balance of trade receivables are as follows :
 stepB_supplier_side.csv,39,APLAPOLLO,original_pdf,no quote,
 stepB_supplier_side.csv,40,APLAPOLLO,original_pdf,no quote,
+tcpl_salt_kpis.csv,0,,original_pdf,verified,"Salt  revenue  grew  9% during  the  quarter,  driven  by  a strong  8%"
+tcpl_salt_kpis.csv,1,,original_pdf,verified,"Salt  revenue  grew  9% during  the  quarter,  driven  by  a strong  8%"
+tcpl_salt_kpis.csv,2,,original_pdf,verified,"Value -added  salts  grew  35 %, in  line  with  our  premiumization  agenda ."
+tcpl_salt_kpis.csv,3,,original_pdf,verified,"Salt revenue grew 9%, driven by strong volume growth."
+tcpl_salt_kpis.csv,4,,original_pdf,verified,grew 35% during the quarter.
+tcpl_salt_kpis.csv,5,,original_pdf,verified,"Salt revenue grew 9% driven by 8% volume, which is probably one of the stronger volume growth that we have seen in sometime."
+tcpl_salt_kpis.csv,6,,original_pdf,verified,"Salt revenue grew 9% driven by 8% volume, which is probably one of the stronger volume growth that we have seen in sometime."
+tcpl_salt_kpis.csv,7,,original_pdf,verified,Value-added salts also grew 35% in line with our premiumisation agenda
+tcpl_salt_kpis.csv,8,,original_pdf,verified,"Historically, we have seen gains in salt."
+tcpl_salt_kpis.csv,9,,saved_text,verified,"The value-added salt portfolio continued its strong momentum and grew 26% during the quarter, with rock salt registering record volumes."
+tcpl_salt_kpis.csv,10,,saved_text,verified,we recorded continued growth & market share gain in the India salt business
+tcpl_salt_kpis.csv,11,,saved_text,verified,"As a perspective, again, for salt, last quarter, we had grown 8%, and this quarter was 1%."
+tcpl_salt_kpis.csv,12,,saved_text,verified,Salt market share continued to strengthen. We're now up by 150 bps on an MAT basis.
+tcpl_salt_kpis.csv,13,,saved_text,verified,"continued to grow strong double-digit, grew 26%."
+tcpl_salt_kpis.csv,14,,saved_text,verified,"we've announced a INR2 price increase, which will start getting into the market this month."
+tcpl_salt_kpis.csv,15,,saved_text,verified,"this price increase of INR2 on a INR28 base, which is roughly around 7%, comes after a two-year hiatus"
+tcpl_salt_kpis.csv,16,,saved_text,verified,For salt I think more or less we mitigated the cost increase. So that is done. You could see us maintaining/inching up slightly the margin.
+tcpl_salt_kpis.csv,17,,saved_text,verified,We did have impact on cost for salt because Mithapur recorded its highest ever rain since 1929.
+tcpl_salt_kpis.csv,18,,saved_text,verified,"my volume share is about 30%, 31%, and my value share is 37%, 38%"
+tcpl_salt_kpis.csv,19,,saved_text,verified,Salt  delivered  a strong  quarter  post  price  increase  with  7% value  and  1% volume  growth .
+tcpl_salt_kpis.csv,20,,saved_text,verified,Salt  delivered  a strong  quarter  post  price  increase  with  7% value  and  1% volume  growth .
+tcpl_salt_kpis.csv,21,,saved_text,verified,"Market  share 4 strengthened  further,  with  110  bps  gain ."
+tcpl_salt_kpis.csv,22,,saved_text,verified,Salt  revenue  grew  7% driven  by  pricing  and  modest  volume  growth .
+tcpl_salt_kpis.csv,23,,saved_text,verified,Value -added  salts  continued  their  strong  momentum  and  grew  31 %.
+tcpl_salt_kpis.csv,24,,saved_text,verified,"Next, we had a 1% volume growth in salt."
+tcpl_salt_kpis.csv,25,,saved_text,verified,"market share has continued to go from strength to strength, another quarter of 110 bps MAT share gain."
+tcpl_salt_kpis.csv,26,,saved_text,verified,Value-added salts continue to outpace everything growing at 31%
+tcpl_salt_kpis.csv,27,,saved_text,verified,"And remember, we've taken a 7% price increase after 2 years."
+tcpl_salt_kpis.csv,28,,saved_text,verified,"In salt, we've taken a 7% price increase, but it has put us back exactly where it should be in salt. So I don't think there's a margin expansion there."
+tcpl_salt_kpis.csv,29,,original_pdf,verified,Salt  revenue  grew  13 % in  Q4 driven  by  a mid -single  digit
+tcpl_salt_kpis.csv,30,,original_pdf,verified,Salt volumes grew 5% YoY.
+tcpl_salt_kpis.csv,31,,original_pdf,verified,"In  FY 25 , salt  revenues  grew  8% with  a volume  growth  of  4%."
+tcpl_salt_kpis.csv,32,,original_pdf,verified,"In  FY 25 , salt  revenues  grew  8% with  a volume  growth  of  4%."
+tcpl_salt_kpis.csv,33,,original_pdf,verified,grew  31 % in  Q4 and  31 % in  FY 25 .
+tcpl_salt_kpis.csv,34,,original_pdf,verified,Value  +30 bps 1
+tcpl_salt_kpis.csv,35,,original_pdf,verified,"Salt revenue grew 13%, with value-added salt portfolio growing 31% during the quarter."
+tcpl_salt_kpis.csv,36,,original_pdf,verified,"Salt revenue grew 13%, with value-added salt portfolio growing 31% during the quarter."
+tcpl_salt_kpis.csv,37,,original_pdf,verified,"India Foods, up 27%, 17% of that is organic. Salt volumes, decent growth at 5%."
+tcpl_salt_kpis.csv,38,,original_pdf,verified,"India Foods, salt volumes for the full year grew 4%"
+tcpl_salt_kpis.csv,39,,original_pdf,verified,whereas salt we continue our uptrend with a value gain of 30 bps.
+tcpl_salt_kpis.csv,40,,original_pdf,verified,"Last quarter, we have delivered higher because we've taken price increase slightly head of the curve."
+tcpl_salt_kpis.csv,41,,company_web_page,verified,"In addition, more than 85% of the salt we offer in the market is sourced from Tata Chemicals, which is aligned to Tata Group’s sustainability commitments."
+tcpl_salt_kpis.csv,42,,original_pdf,no quote,

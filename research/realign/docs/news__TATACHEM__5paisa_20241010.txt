@@ -1,0 +1,988 @@
+Title: | 5paisa
+
+URL Source: https://5paisa.com/blog/stock-in-action-tata-chemicals-10-october
+
+Final URL: https://www.5paisa.com/blog/stock-in-action-tata-chemicals-10-october
+
+Published Time: Mon, 23 Nov 2026 09:52:20 GMT
+
+Warning: Target URL returned error 404: Not Found
+
+Markdown Content:
+[![Image 1: 5paisa logo on red circular background.](https://www.5paisa.com/themes/custom/fivepaisa/images/menu/5paisa-logo.svg)](https://www.5paisa.com/)
+
+*   Invest
+    *   
+Investment Products 
+
+        *   [Stocks MTFs, advanced charts, advisory & more—right at your fingertips.](https://www.5paisa.com/investment-products/stocks-equity-trading "Stocks")
+        *   [Mutual Funds Invest in top performing mutual funds at 0 Transaction cost](https://www.5paisa.com/mutual-funds/ "Mutual Funds")
+        *   [IPOs Apply for your preferred IPOs seamlessly in just a few quick and simple clicks!](https://www.5paisa.com/ipo "IPOs")
+
+        *   [ETF Enjoy effortless portfolio diversification with flexible investment options tailored to your goals.](https://www.5paisa.com/etf "ETF")
+        *   [US Stocks Diversify your portfolio seamlessly by investing in US Stocks & ETFs.](https://www.5paisa.com/us-stocks "US Stocks")
+        *   [NFO Discover a new fund and give your investment portfolio a fresh new beginning.](https://www.5paisa.com/mutual-funds/nfo "NFO")
+
+Tools
+
+        *   [Brokerage Calculator](https://www.5paisa.com/calculators/brokerage-calculator "Brokerage Calculator")
+        *   [SIP Calculator](https://www.5paisa.com/calculators/sip-calculator "SIP Calculator")
+        *   [Stock Comparison](https://www.5paisa.com/stock-comparison "Stock Comparison")
+        *   [Stock Screener](https://www.5paisa.com/stock-screener "Stock Screener")
+        *   [ELSS Calculator](https://www.5paisa.com/calculators/elss-calculator "ELSS Calculator")
+        *   [Compare Mutual Funds](https://www.5paisa.com/mutual-funds/compare "Compare Mutual Funds")
+        *   [All Calculators](https://www.5paisa.com/calculators "All Calculators")
+
+*   Trade
+    *   
+Trading Products 
+
+        *   [Future & Options Trade F&O contracts across segments along with far expiry contracts](https://www.5paisa.com/derivatives "Future & Options")
+        *   [Commodities Diversify your portfolios beyond traditional securities](https://www.5paisa.com/investment-products/commodity-trading "Commodities")
+
+Tools
+
+        *   [Margin Calculator](https://www.5paisa.com/calculators/margin-calculator "Margin Calculator")
+        *   [MTF Calculator](https://www.5paisa.com/calculators/mtf-calculator "MTF Calculator")
+        *   [Stock Screener](https://www.5paisa.com/stock-screener "Stock Screener")
+        *   [All Calculators](https://www.5paisa.com/calculators "All Calculators")
+
+*   Products 
+    *   
+5paisa Products 
+
+        *   [5paisa Trading App Your go-to mobile app for smarter, seamless trading and investing on the go!](https://www.5paisa.com/technology/mobile-trading-app "5paisa Trading App")
+        *   [AlgoSpace Create, test, refine, and deploy powerful algo trading strategies with ease and efficiency.](https://www.5paisa.com/algospace "AlgoSpace")
+        *   [T+5 New Unlock greater investment potential with leverage that goes beyond traditional MTF.](https://www.5paisa.com/t-plus-5-trading-facility "T+5")
+
+        *   [Trader's Terminal A desktop trading platform for a seamless big-screen trading experience.](https://www.5paisa.com/technology/web-platform "Trader's Terminal")
+        *   [5paisa EXE An advanced desktop trading application designed for fast and efficient execution.](https://www.5paisa.com/technology/5paisa-exe "5paisa EXE")
+        *   [FnO 360 A trading terminal designed exclusively for derivatives traders.](https://www.5paisa.com/technology/fno360-derivatives-trading "FnO 360")
+
+        *   [Xstream APIs Unleash the Future of Trading with our Free, Fast and Simple API Platform](https://xstream.5paisa.com/ "Xstream APIs")
+        *   [Publisher Js Seamlessly add the 5paisa trade button to your website with minimal coding—absolutely FREE!](https://www.5paisa.com/technology/publisher-library "Publisher Js")
+        *   [Scalper Terminal Lightning-fast scalping interface with instant keyboard execution.](https://www.5paisa.com/technology/scalper-terminal "Scalper Terminal")
+
+        *   [MTF Seize market opportunities instantly with greater buying power and the flexibility to pay later.](https://www.5paisa.com/investment-products/margin-trading-facility-mtf "MTF")
+        *   [5paisa MCP Your AI trading companion, guiding you through markets with simple, natural conversations.](https://www.5paisa.com/technology/mcp-ai-trading-assistant "5paisa MCP")
+        *   [Trade on Charts Trade seamlessly, directly from TradingView charts with Tv.5paisa.](https://www.5paisa.com/technology/trading-view "Trade on Charts")
+
+*   [Pricing](https://www.5paisa.com/brokerage-charges "Pricing")
+    *    
+
+*   Markets
+    *   
+        *   Market Movers
+        *   Stocks
+        *   Popular Stocks
+        *   Indices
+        *   IPO
+        *   Mutual Funds
+
+        *   [Market Today](https://www.5paisa.com/share-market-today "Market Today")
+        *   [52 Week High](https://www.5paisa.com/share-market-today/52-week-high "52 Week High")
+        *   [52 Week Low](https://www.5paisa.com/share-market-today/52-week-low "52 Week Low")
+        *   [FII DII](https://www.5paisa.com/share-market-today/fii-dii "FII DII")
+        *   [Top Gainers](https://www.5paisa.com/share-market-today/top-gainers "Top Gainers")
+        *   [Top Losers](https://www.5paisa.com/share-market-today/top-losers "Top Losers")
+
+        *   [Volume Shockers](https://www.5paisa.com/share-market-today/volume-shockers-nse "Volume Shockers")
+        *   [Value Shockers](https://www.5paisa.com/share-market-today/value-shockers-nse "Value Shockers")
+        *   [Only Buyers](https://www.5paisa.com/share-market-today/only-buyers-nse "Only Buyers")
+        *   [Only Sellers](https://www.5paisa.com/share-market-today/only-sellers-nse "Only Sellers")
+        *   [F&O Ban List](https://www.5paisa.com/nse-ban-list "F&O Ban List")
+        *   [Active Contracts](https://www.5paisa.com/share-market-today/most-active-contracts "Active Contracts")
+
+        *   [Stocks to Buy Today](https://www.5paisa.com/share-market-today/stocks-to-buy-or-sell-today "Stocks to Buy Today")
+        *   [Penny Stocks](https://www.5paisa.com/share-market-today/penny-stocks "Penny Stocks")
+        *   [Stocks Under 10](https://www.5paisa.com/share-market-today/stocks-to-buy-under-rs-10 "Stocks Under 10")
+        *   [Stocks Under 50](https://www.5paisa.com/share-market-today/stocks-to-buy-under-rs-50 "Stocks Under 50")
+        *   [Stocks Under 100](https://www.5paisa.com/share-market-today/stocks-to-buy-under-rs-100 "Stocks Under 100")
+        *   [View All Stocks](https://www.5paisa.com/stocks/all "View All Stocks")
+
+        *   [BTST Stocks](https://www.5paisa.com/share-market-today/btst-stocks-for-the-day "BTST Stocks")
+        *   [Multibagger Stocks](https://www.5paisa.com/share-market-today/multibagger-stocks "Multibagger Stocks")
+        *   [Bonus](https://www.5paisa.com/share-market-today/bonus "Bonus")
+        *   [Rights](https://www.5paisa.com/share-market-today/rights "Rights")
+        *   [Splits](https://www.5paisa.com/share-market-today/splits "Splits")
+        *   [Dividends](https://www.5paisa.com/share-market-today/dividends "Dividends")
+
+        *   [Large Cap Stocks](https://www.5paisa.com/share-market-today/large-cap-stocks "Large Cap Stocks")
+        *   [Mid Cap Stocks](https://www.5paisa.com/share-market-today/mid-cap-stocks "Mid Cap Stocks")
+        *   [Small Cap Stocks](https://www.5paisa.com/share-market-today/small-cap-stocks "Small Cap Stocks")
+        *   [Group Stocks](https://www.5paisa.com/group-stocks/hero-shares "Group Stocks")
+        *   [Nifty 50 Stock List](https://www.5paisa.com/nifty-50-stocks-list "Nifty 50 Stock List")
+        *   [Indian ADRs](https://www.5paisa.com/share-market-today/india-adrs "Indian ADRs")
+
+        *   [LIC](https://www.5paisa.com/stocks/lici-share-price "LIC")
+        *   [Tata Motors](https://www.5paisa.com/stocks/tmcv-share-price "Tata Motors")
+        *   [IRFC](https://www.5paisa.com/stocks/irfc-share-price "IRFC")
+        *   [ITC](https://www.5paisa.com/stocks/itc-share-price "ITC")
+        *   [Tata Steel](https://www.5paisa.com/stocks/tatasteel-share-price "Tata Steel")
+        *   [Adani Enterprises](https://www.5paisa.com/stocks/adanient-share-price "Adani Enterprises")
+
+        *   [Yes Bank](https://www.5paisa.com/stocks/yesbank-share-price "Yes Bank")
+        *   [Suzlon](https://www.5paisa.com/stocks/suzlon-share-price "Suzlon")
+        *   [TCS](https://www.5paisa.com/stocks/tcs-share-price "TCS")
+        *   [SBI](https://www.5paisa.com/stocks/sbin-share-price "SBI")
+        *   [Infosys](https://www.5paisa.com/stocks/infy-share-price "Infosys")
+        *   [Adani Power](https://www.5paisa.com/stocks/adanipower-share-price "Adani Power")
+
+        *   [Reliance](https://www.5paisa.com/stocks/reliance-share-price "Reliance")
+        *   [Tata Power](https://www.5paisa.com/stocks/tatapower-share-price "Tata Power")
+        *   [Idea](https://www.5paisa.com/stocks/idea-share-price "Idea")
+        *   [Jio Financial Services](https://www.5paisa.com/stocks/jiofin-share-price "Jio Financial Services")
+        *   [Zomato](https://www.5paisa.com/stocks/eternal-share-price "Zomato")
+        *   [Adani Wilmar](https://www.5paisa.com/stocks/awl-share-price " Adani Wilmar")
+
+        *   NSE 
+        *   [Nifty 50](https://www.5paisa.com/share-market-today/nifty-50 "Nifty 50")
+        *   [Bank Nifty](https://www.5paisa.com/share-market-today/nifty-bank "Bank Nifty")
+        *   [FINNIFTY](https://www.5paisa.com/share-market-today/nifty-financial-services "FINNIFTY")
+        *   [Nifty Midcap](https://www.5paisa.com/share-market-today/nifty-midcap-select "Nifty Midcap")
+        *   [India VIX](https://www.5paisa.com/share-market-today/india-vix "India VIX")
+        *   [Know More](https://www.5paisa.com/nse "Know More")
+
+        *   BSE 
+        *   [Sensex](https://www.5paisa.com/share-market-today/bse-sensex "Sensex")
+        *   [BSE Bankex](https://www.5paisa.com/share-market-today/bse-bankex "BSE Bankex")
+        *   [BSE Smallcap](https://www.5paisa.com/share-market-today/bse-250-smallcap "BSE Smallcap")
+        *   [BSE Midcap](https://www.5paisa.com/share-market-today/bse-midcap-select "BSE Midcap")
+        *   [BSE 100](https://www.5paisa.com/share-market-today/bse-100 "BSE 100")
+        *   [Know More](https://www.5paisa.com/bse "Know More")
+
+        *   Global Indices 
+        *   [Gift Nifty](https://www.5paisa.com/share-market-today/gift-nifty "Gift Nifty")
+        *   [Dow](https://www.5paisa.com/share-market-today/dow "Dow")
+        *   [Hang Seng](https://www.5paisa.com/share-market-today/hang-seng "Hang Seng")
+        *   [S&P](https://www.5paisa.com/share-market-today/s-p "S&P")
+        *   [Nikkei 225](https://www.5paisa.com/share-market-today/nikkei-225 "Nikkei 225")
+        *   [Know More](https://www.5paisa.com/share-market-today/global-indices "Know More")
+
+        *   [IPO](https://www.5paisa.com/ipo "IPO")
+        *   [Upcoming IPO](https://www.5paisa.com/ipo/upcoming-ipo "Upcoming IPO")
+        *   [Current IPO](https://www.5paisa.com/ipo/current-ipo "Current IPO")
+        *   [Closed IPO](https://www.5paisa.com/ipo/closed-ipo "Closed IPO")
+        *   [Recently Listed IPO](https://www.5paisa.com/ipo/recently-listed-ipo "Recently Listed IPO")
+        *   [IPO Allotment Status](https://www.5paisa.com/ipo/ipo-allotment-status "IPO Allotment Status")
+
+        *   [IPO Calendar](https://www.5paisa.com/ipo-calendar/november-2026 "IPO Calendar")
+
+        *   Categories 
+        *   [Large Cap Funds](https://www.5paisa.com/mutual-funds/large-cap-funds "Large Cap Funds")
+        *   [Mid Cap Funds](https://www.5paisa.com/mutual-funds/mid-cap-funds "Mid Cap Funds")
+        *   [Small Cap Funds](https://www.5paisa.com/mutual-funds/small-cap-funds "Small Cap Funds")
+        *   [ELSS](https://www.5paisa.com/mutual-funds/elss "ELSS")
+        *   [Equity](https://www.5paisa.com/mutual-funds/equity-savings "Equity")
+        *   [Debt](https://www.5paisa.com/mutual-funds/best-debt-mutual-funds "Debt")
+
+        *   AMC’s 
+        *   [SBI Mutual Funds](https://www.5paisa.com/mutual-funds/amc/sbi-mutual-fund "SBI Mutual Funds")
+        *   [HDFC Mutual Funds](https://www.5paisa.com/mutual-funds/amc/hdfc-mutual-fund "HDFC Mutual Funds")
+        *   [Axis Mutual Funds](https://www.5paisa.com/mutual-funds/amc/axis-mutual-fund "Axis Mutual Funds")
+        *   [ICICI Pru Mutual Fund](https://www.5paisa.com/mutual-funds/amc/icici-prudential-mutual-fund "ICICI Pru Mutual Fund")
+        *   [Nippon India Mutual Funds](https://www.5paisa.com/mutual-funds/amc/nippon-india-mutual-fund "Nippon India Mutual Funds")
+        *   [All AMC's](https://www.5paisa.com/mutual-funds/amc "All AMC's")
+
+        *   Schemes 
+        *   [Parag Parikh Flexi Cap](https://www.5paisa.com/mutual-funds/parag-parikh-flexi-cap-fund-direct-growth "Parag Parikh Flexi Cap")
+        *   [SBI Small Cap Fund](https://www.5paisa.com/mutual-funds/sbi-small-cap-fund-direct-growth "SBI Small Cap Fund")
+        *   [SBI Contra Fund](https://www.5paisa.com/mutual-funds/sbi-contra-fund-direct-growth "SBI Contra Fund")
+        *   [Nippon Small Cap Fund](https://www.5paisa.com/mutual-funds/nippon-india-small-cap-fund-direct-growth "Nippon Small Cap Fund")
+        *   [ICICI Pru Small Cap Fund](https://www.5paisa.com/mutual-funds/icici-pru-smallcap-fund-direct-growth "ICICI Pru Small Cap Fund")
+        *   [All Schemes](https://www.5paisa.com/mutual-funds/fund-screener "All Schemes")
+
+*   Learn
+    *   
+Learn with us 
+
+        *   [FinSchool One-stop destination for FREE courses to master investing and trading!](https://www.5paisa.com/finschool/ "FinSchool")
+        *   [Market Guide Ultimate guide to the stock market, covering investments, demat accounts, IPOs & more.](https://www.5paisa.com/stock-market-guide "Market Guide")
+        *   [Stock Market News Stay updated with the latest trends and opportunities shaping the Indian stock market with 5paisa.](https://www.5paisa.com/news "Stock Market News")
+
+        *   [Blogs Simplifying the stock market to help you learn, invest smarter, and grow with confidence!](https://www.5paisa.com/blog "Blogs")
+        *   [Videos Demystify the stock market with our easy-to-understand investment videos.](https://www.5paisa.com/videos "Videos")
+        *   [TradeBetter A Community for traders and investors. Talk Trades. Learn Features. Swap Ideas.](https://tradebetter.5paisa.com/ "TradeBetter")
+
+        *   [Newsletters Subscribe and get the latest market insights and updates delivered straight to your inbox!](https://www.5paisa.com/stock-market-newsletters "Newsletters")
+        *   [Stocks in News Stay updated with the latest news, developments, and updates from the world of stocks!](https://www.5paisa.com/news/stocks "Stocks in News")
+
+*   Partner
+    *   
+Partner with us 
+
+        *   [Authorised Person](https://www.5paisa.com/authorised-person "Authorised Person")
+        *   [Refer and Earn](https://www.5paisa.com/refer-and-earn "Refer and Earn")
+        *   [5paisa Partner Program](https://www.5paisa.com/partner "5paisa Partner Program")
+
+        *   [Mutual Fund Distributor](https://www.5paisa.com/mutual-fund-distributor "Mutual Fund Distributor")
+
+English
+
+[✕](https://www.5paisa.com/blog/stock-in-action-tata-chemicals-10-october#)
+
+English 
+
+हिंदी 
+
+मराठी 
+
+ગુજરાતી 
+
+*   [Invest](javascript:void(0);)
+    *   [Investment Products](javascript:void(0); "Investment Products")[Stocks MTFs, advanced charts, advisory & more—right at your fingertips.](https://www.5paisa.com/investment-products/stocks-equity-trading "Stocks")[Mutual Funds Invest in top performing mutual funds at 0 Transaction cost](https://www.5paisa.com/mutual-funds/ "Mutual Funds")[IPOs Apply for your preferred IPOs seamlessly in just a few quick and simple clicks!](https://www.5paisa.com/ipo "IPOs")[ETF Enjoy effortless portfolio diversification with flexible investment options tailored to your goals.](https://www.5paisa.com/etf "ETF")[US Stocks Diversify your portfolio seamlessly by investing in US Stocks & ETFs.](https://www.5paisa.com/us-stocks "US Stocks")[NFO Discover a new fund and give your investment portfolio a fresh new beginning.](https://www.5paisa.com/mutual-funds/nfo "NFO")
+    *   [Tools](javascript:void(0); "Tools")[Brokerage Calculator](https://www.5paisa.com/calculators/brokerage-calculator "Brokerage Calculator")[SIP Calculator](https://www.5paisa.com/calculators/sip-calculator "SIP Calculator")[Stock Comparison](https://www.5paisa.com/stock-comparison "Stock Comparison")[Stock Screener](https://www.5paisa.com/stock-screener "Stock Screener")[ELSS Calculator](https://www.5paisa.com/calculators/elss-calculator "ELSS Calculator")[Compare Mutual Funds](https://www.5paisa.com/mutual-funds/compare "Compare Mutual Funds")[All Calculators](https://www.5paisa.com/calculators "All Calculators")
+
+*   [Trade](javascript:void(0);)
+    *   [Trading Products](javascript:void(0); "Trading Products")[Future & Options Trade F&O contracts across segments along with far expiry contracts](https://www.5paisa.com/derivatives "Future & Options")[Commodities Diversify your portfolios beyond traditional securities](https://www.5paisa.com/investment-products/commodity-trading "Commodities")
+    *   [Tools](javascript:void(0); "Tools")[Margin Calculator](https://www.5paisa.com/calculators/margin-calculator "Margin Calculator")[MTF Calculator](https://www.5paisa.com/calculators/mtf-calculator "MTF Calculator")[Stock Screener](https://www.5paisa.com/stock-screener "Stock Screener")[All Calculators](https://www.5paisa.com/calculators "All Calculators")
+
+*   [Products](javascript:void(0);)
+    *   [5paisa Products](javascript:void(0); "5paisa Products")[5paisa Trading App Your go-to mobile app for smarter, seamless trading and investing on the go!](https://www.5paisa.com/technology/mobile-trading-app "5paisa Trading App")[AlgoSpace Create, test, refine, and deploy powerful algo trading strategies with ease and efficiency.](https://www.5paisa.com/algospace "AlgoSpace")[T+5 New Unlock greater investment potential with leverage that goes beyond traditional MTF.](https://www.5paisa.com/t-plus-5-trading-facility "T+5")[Trader's Terminal A desktop trading platform for a seamless big-screen trading experience.](https://www.5paisa.com/technology/web-platform "Trader's Terminal")[5paisa EXE An advanced desktop trading application designed for fast and efficient execution.](https://www.5paisa.com/technology/5paisa-exe "5paisa EXE")[FnO 360 A trading terminal designed exclusively for derivatives traders.](https://www.5paisa.com/technology/fno360-derivatives-trading "FnO 360")[Xstream APIs Unleash the Future of Trading with our Free, Fast and Simple API Platform](https://xstream.5paisa.com/ "Xstream APIs")[Publisher Js Seamlessly add the 5paisa trade button to your website with minimal coding—absolutely FREE!](https://www.5paisa.com/technology/publisher-library "Publisher Js")[Scalper Terminal Lightning-fast scalping interface with instant keyboard execution.](https://www.5paisa.com/technology/scalper-terminal "Scalper Terminal")[MTF Seize market opportunities instantly with greater buying power and the flexibility to pay later.](https://www.5paisa.com/investment-products/margin-trading-facility-mtf "MTF")[5paisa MCP Your AI trading companion, guiding you through markets with simple, natural conversations.](https://www.5paisa.com/technology/mcp-ai-trading-assistant "5paisa MCP")[Trade on Charts Trade seamlessly, directly from TradingView charts with Tv.5paisa.](https://www.5paisa.com/technology/trading-view "Trade on Charts")
+
+*   [Pricing](https://www.5paisa.com/brokerage-charges)
+*   [Markets](javascript:void(0);)
+    *   [Market Movers](javascript:void(0); "Market Movers")[Market Today](https://www.5paisa.com/share-market-today "Market Today")[52 Week High](https://www.5paisa.com/share-market-today/52-week-high "52 Week High")[52 Week Low](https://www.5paisa.com/share-market-today/52-week-low "52 Week Low")[FII DII](https://www.5paisa.com/share-market-today/fii-dii "FII DII")[Top Gainers](https://www.5paisa.com/share-market-today/top-gainers "Top Gainers")[Top Losers](https://www.5paisa.com/share-market-today/top-losers "Top Losers")[Volume Shockers](https://www.5paisa.com/share-market-today/volume-shockers-nse "Volume Shockers")[Value Shockers](https://www.5paisa.com/share-market-today/value-shockers-nse "Value Shockers")[Only Buyers](https://www.5paisa.com/share-market-today/only-buyers-nse "Only Buyers")[Only Sellers](https://www.5paisa.com/share-market-today/only-sellers-nse "Only Sellers")[F&O Ban List](https://www.5paisa.com/nse-ban-list "F&O Ban List")[Active Contracts](https://www.5paisa.com/share-market-today/most-active-contracts "Active Contracts")
+    *   [Stocks](javascript:void(0); "Stocks")[Stocks to Buy Today](https://www.5paisa.com/share-market-today/stocks-to-buy-or-sell-today "Stocks to Buy Today")[Penny Stocks](https://www.5paisa.com/share-market-today/penny-stocks "Penny Stocks")[Stocks Under 10](https://www.5paisa.com/share-market-today/stocks-to-buy-under-rs-10 "Stocks Under 10")[Stocks Under 50](https://www.5paisa.com/share-market-today/stocks-to-buy-under-rs-50 "Stocks Under 50")[Stocks Under 100](https://www.5paisa.com/share-market-today/stocks-to-buy-under-rs-100 "Stocks Under 100")[View All Stocks](https://www.5paisa.com/stocks/all "View All Stocks")[BTST Stocks](https://www.5paisa.com/share-market-today/btst-stocks-for-the-day "BTST Stocks")[Multibagger Stocks](https://www.5paisa.com/share-market-today/multibagger-stocks "Multibagger Stocks")[Bonus](https://www.5paisa.com/share-market-today/bonus "Bonus")[Rights](https://www.5paisa.com/share-market-today/rights "Rights")[Splits](https://www.5paisa.com/share-market-today/splits "Splits")[Dividends](https://www.5paisa.com/share-market-today/dividends "Dividends")[Large Cap Stocks](https://www.5paisa.com/share-market-today/large-cap-stocks "Large Cap Stocks")[Mid Cap Stocks](https://www.5paisa.com/share-market-today/mid-cap-stocks "Mid Cap Stocks")[Small Cap Stocks](https://www.5paisa.com/share-market-today/small-cap-stocks "Small Cap Stocks")[Group Stocks](https://www.5paisa.com/group-stocks/hero-shares "Group Stocks")[Nifty 50 Stock List](https://www.5paisa.com/nifty-50-stocks-list "Nifty 50 Stock List")[Indian ADRs](https://www.5paisa.com/share-market-today/india-adrs "Indian ADRs")
+    *   [Popular Stocks](javascript:void(0); "Popular Stocks")[LIC](https://www.5paisa.com/stocks/lici-share-price "LIC")[Tata Motors](https://www.5paisa.com/stocks/tmcv-share-price "Tata Motors")[IRFC](https://www.5paisa.com/stocks/irfc-share-price "IRFC")[ITC](https://www.5paisa.com/stocks/itc-share-price "ITC")[Tata Steel](https://www.5paisa.com/stocks/tatasteel-share-price "Tata Steel")[Adani Enterprises](https://www.5paisa.com/stocks/adanient-share-price "Adani Enterprises")[Yes Bank](https://www.5paisa.com/stocks/yesbank-share-price "Yes Bank")[Suzlon](https://www.5paisa.com/stocks/suzlon-share-price "Suzlon")[TCS](https://www.5paisa.com/stocks/tcs-share-price "TCS")[SBI](https://www.5paisa.com/stocks/sbin-share-price "SBI")[Infosys](https://www.5paisa.com/stocks/infy-share-price "Infosys")[Adani Power](https://www.5paisa.com/stocks/adanipower-share-price "Adani Power")[Reliance](https://www.5paisa.com/stocks/reliance-share-price "Reliance")[Tata Power](https://www.5paisa.com/stocks/tatapower-share-price "Tata Power")[Idea](https://www.5paisa.com/stocks/idea-share-price "Idea")[Jio Financial Services](https://www.5paisa.com/stocks/jiofin-share-price "Jio Financial Services")[Zomato](https://www.5paisa.com/stocks/eternal-share-price "Zomato")[Adani Wilmar](https://www.5paisa.com/stocks/awl-share-price " Adani Wilmar")
+    *   [Indices](javascript:void(0); "Indices")NSE [Nifty 50](https://www.5paisa.com/share-market-today/nifty-50 "Nifty 50")[Bank Nifty](https://www.5paisa.com/share-market-today/nifty-bank "Bank Nifty")[FINNIFTY](https://www.5paisa.com/share-market-today/nifty-financial-services "FINNIFTY")[Nifty Midcap](https://www.5paisa.com/share-market-today/nifty-midcap-select "Nifty Midcap")[India VIX](https://www.5paisa.com/share-market-today/india-vix "India VIX")[Know More](https://www.5paisa.com/nse "Know More")BSE [Sensex](https://www.5paisa.com/share-market-today/bse-sensex "Sensex")[BSE Bankex](https://www.5paisa.com/share-market-today/bse-bankex "BSE Bankex")[BSE Smallcap](https://www.5paisa.com/share-market-today/bse-250-smallcap "BSE Smallcap")[BSE Midcap](https://www.5paisa.com/share-market-today/bse-midcap-select "BSE Midcap")[BSE 100](https://www.5paisa.com/share-market-today/bse-100 "BSE 100")[Know More](https://www.5paisa.com/bse "Know More")Global Indices [Gift Nifty](https://www.5paisa.com/share-market-today/gift-nifty "Gift Nifty")[Dow](https://www.5paisa.com/share-market-today/dow "Dow")[Hang Seng](https://www.5paisa.com/share-market-today/hang-seng "Hang Seng")[S&P](https://www.5paisa.com/share-market-today/s-p "S&P")[Nikkei 225](https://www.5paisa.com/share-market-today/nikkei-225 "Nikkei 225")[Know More](https://www.5paisa.com/share-market-today/global-indices "Know More")
+    *   [IPO](javascript:void(0); "IPO")[IPO](https://www.5paisa.com/ipo "IPO")[Upcoming IPO](https://www.5paisa.com/ipo/upcoming-ipo "Upcoming IPO")[Current IPO](https://www.5paisa.com/ipo/current-ipo "Current IPO")[Closed IPO](https://www.5paisa.com/ipo/closed-ipo "Closed IPO")[Recently Listed IPO](https://www.5paisa.com/ipo/recently-listed-ipo "Recently Listed IPO")[IPO Allotment Status](https://www.5paisa.com/ipo/ipo-allotment-status "IPO Allotment Status")[IPO Calendar](https://www.5paisa.com/ipo-calendar/november-2026 "IPO Calendar")
+    *   [Mutual Funds](javascript:void(0); "Mutual Funds")Categories [Large Cap Funds](https://www.5paisa.com/mutual-funds/large-cap-funds "Large Cap Funds")[Mid Cap Funds](https://www.5paisa.com/mutual-funds/mid-cap-funds "Mid Cap Funds")[Small Cap Funds](https://www.5paisa.com/mutual-funds/small-cap-funds "Small Cap Funds")[ELSS](https://www.5paisa.com/mutual-funds/elss "ELSS")[Equity](https://www.5paisa.com/mutual-funds/equity-savings "Equity")[Debt](https://www.5paisa.com/mutual-funds/best-debt-mutual-funds "Debt")AMC’s [SBI Mutual Funds](https://www.5paisa.com/mutual-funds/amc/sbi-mutual-fund "SBI Mutual Funds")[HDFC Mutual Funds](https://www.5paisa.com/mutual-funds/amc/hdfc-mutual-fund "HDFC Mutual Funds")[Axis Mutual Funds](https://www.5paisa.com/mutual-funds/amc/axis-mutual-fund "Axis Mutual Funds")[ICICI Pru Mutual Fund](https://www.5paisa.com/mutual-funds/amc/icici-prudential-mutual-fund "ICICI Pru Mutual Fund")[Nippon India Mutual Funds](https://www.5paisa.com/mutual-funds/amc/nippon-india-mutual-fund "Nippon India Mutual Funds")[All AMC's](https://www.5paisa.com/mutual-funds/amc "All AMC's")Schemes [Parag Parikh Flexi Cap](https://www.5paisa.com/mutual-funds/parag-parikh-flexi-cap-fund-direct-growth "Parag Parikh Flexi Cap")[SBI Small Cap Fund](https://www.5paisa.com/mutual-funds/sbi-small-cap-fund-direct-growth "SBI Small Cap Fund")[SBI Contra Fund](https://www.5paisa.com/mutual-funds/sbi-contra-fund-direct-growth "SBI Contra Fund")[Nippon Small Cap Fund](https://www.5paisa.com/mutual-funds/nippon-india-small-cap-fund-direct-growth "Nippon Small Cap Fund")[ICICI Pru Small Cap Fund](https://www.5paisa.com/mutual-funds/icici-pru-smallcap-fund-direct-growth "ICICI Pru Small Cap Fund")[All Schemes](https://www.5paisa.com/mutual-funds/fund-screener "All Schemes")
+
+*   [Learn](javascript:void(0);)
+    *   [FinSchool One-stop destination for FREE courses to master investing and trading!](https://www.5paisa.com/finschool/ "FinSchool")[Market Guide Ultimate guide to the stock market, covering investments, demat accounts, IPOs & more.](https://www.5paisa.com/stock-market-guide "Market Guide")[Stock Market News Stay updated with the latest trends and opportunities shaping the Indian stock market with 5paisa.](https://www.5paisa.com/news "Stock Market News")[Blogs Simplifying the stock market to help you learn, invest smarter, and grow with confidence!](https://www.5paisa.com/blog "Blogs")[Videos Demystify the stock market with our easy-to-understand investment videos.](https://www.5paisa.com/videos "Videos")[TradeBetter A Community for traders and investors. Talk Trades. Learn Features. Swap Ideas.](https://tradebetter.5paisa.com/ "TradeBetter")[Newsletters Subscribe and get the latest market insights and updates delivered straight to your inbox!](https://www.5paisa.com/stock-market-newsletters "Newsletters")[Stocks in News Stay updated with the latest news, developments, and updates from the world of stocks!](https://www.5paisa.com/news/stocks "Stocks in News")
+
+*   [Partner](javascript:void(0);)
+    *   [Authorised Person](https://www.5paisa.com/authorised-person "Authorised Person")[Refer and Earn](https://www.5paisa.com/refer-and-earn "Refer and Earn")[5paisa Partner Program](https://www.5paisa.com/partner "5paisa Partner Program")[Mutual Fund Distributor](https://www.5paisa.com/mutual-fund-distributor "Mutual Fund Distributor")
+
+[Log In](https://login.5paisa.com/ "log in")[Start SIP](https://login.5paisa.com/?returnurl=https:%2F%2Finvest.5paisa.com%2Fmutual-funds%3Fquery=hamburger_sip_ctabtn "Dashboard")
+
+Download app now!
+
+[](https://play.google.com/store/apps/details?id=com.fivepaisa.tradebetter&hl=en_IN;referrer=utm_source=website&utm_medium=icon "play store")[](https://apps.apple.com/in/app/5paisa-2-0-f-o-stocks-ipo/id6759095123?referrer=utm_source=website&utm_medium=icon "app store")
+
+[![Image 2: Mobile Banner](https://storage.googleapis.com/5paisa-prod-storage/pages/home-page/hamburger_banner_01.jpg?ver=4.5)](https://www.5paisa.com/open-demat-account?query=mob_hamburger_image "Mobile Banner")
+
+*   All
+*   Stocks
+*   Indices
+*   Futures & Options
+*   Mutual Funds
+*   Articles
+
+Load more Load more Load more Load more
+
+[Open Demat Account](https://www.5paisa.com/open-demat-account)
+
+[Log In](https://login.5paisa.com/)
+
+English
+
+EN 
+
+हिंदी 
+
+मराठी 
+
+ગુજરાતી 
+
+1.   [Home](https://www.5paisa.com/)
+2.    404 
+
+1.   [Home](https://www.5paisa.com/)
+2.    404 
+
+![Image 3: 404 Page](https://storage.googleapis.com/5paisa-prod-storage/pages/404/404-web.svg)![Image 4: 404 Page](https://storage.googleapis.com/5paisa-prod-storage/pages/404/404-mob.svg)
+
+Oops..The page you’re looking for has been abducted.
+
+Don’t worry-you’re still safe on Earth, and we’ll help you find your way back to familiar territory.
+
+[Return to Base](https://www.5paisa.com/?query=custom404)
+
+## Share Market
+
+[Share Market Today](https://www.5paisa.com/share-market-today)
+
+*   [Penny Stocks](https://www.5paisa.com/share-market-today/penny-stocks)
+*   [Stocks In News Today](https://www.5paisa.com/news/stocks)
+*   [Top Gainers](https://www.5paisa.com/share-market-today/top-gainers)
+*   [Top Losers](https://www.5paisa.com/share-market-today/top-losers)
+*   [52 Week High](https://www.5paisa.com/share-market-today/52-week-high)
+*   [52 Week Low](https://www.5paisa.com/share-market-today/52-week-low)
+*   [Large Cap Stocks](https://www.5paisa.com/share-market-today/large-cap-stocks)
+*   [Mid Cap Stocks](https://www.5paisa.com/share-market-today/mid-cap-stocks)
+*   [Small Cap Stocks](https://www.5paisa.com/share-market-today/small-cap-stocks)
+*   [Only Buyers](https://www.5paisa.com/share-market-today/only-buyers-nse)
+*   [Only Sellers](https://www.5paisa.com/share-market-today/only-sellers-nse)
+*   [Stocks List](https://www.5paisa.com/stocks/all)
+*   [FnO List](https://www.5paisa.com/fno-list/all)
+*   [Nifty 50 Stock List](https://www.5paisa.com/nifty-50-stocks-list)
+*   [Sensex Stocks List](https://www.5paisa.com/bse-sensex-stocks-list)
+*   [Sensex Historical Data](https://www.5paisa.com/sensex-historical-data)
+*   [Nifty Historical Data](https://www.5paisa.com/nifty-historical-data)
+*   [Buyback of Shares](https://www.5paisa.com/share-market-today/buyback-of-shares)
+*   [Intraday Stocks](https://www.5paisa.com/share-market-today/intraday-stocks)
+*   [US Stocks](https://www.5paisa.com/us-stocks)
+
+[IPO](https://www.5paisa.com/ipo)
+
+*   [Upcoming IPO](https://www.5paisa.com/ipo/upcoming-ipo)
+*   [Current IPO](https://www.5paisa.com/ipo/current-ipo)
+*   [Closed IPO](https://www.5paisa.com/ipo/closed-ipo)
+*   [Recently Listed IPO](https://www.5paisa.com/ipo/recently-listed-ipo)
+*   [IPO Allotment Status](https://www.5paisa.com/ipo/ipo-allotment-status)
+*   [IPO Calendar](https://www.5paisa.com/ipo-calendar/october-2026)
+*   [Zepto IPO](https://www.5paisa.com/ipo/zepto-ipo)
+*   [JIO Platforms IPO](https://www.5paisa.com/ipo/jio-platforms-ltd-ipo)
+*   Market Predictions
+*   [BTST Stocks](https://www.5paisa.com/share-market-today/btst-stocks-for-the-day)
+*   [Market Outlook](https://www.5paisa.com/blog/nifty-outlook)
+*   [Stocks to Buy Today](https://www.5paisa.com/share-market-today/stocks-to-buy-or-sell-today)
+
+Market Holidays
+
+*   [Stock Market Holidays](https://www.5paisa.com/stock-market-holidays)
+*   [MCX Holidays](https://www.5paisa.com/stock-market-holidays/mcx-holidays)
+*   [Share Market Timing](https://www.5paisa.com/stock-market-guide/stock-share-market/stock-market-timings-in-india)
+*   [US Market Holidays](https://www.5paisa.com/stock-market-holidays/us-market-holidays)
+*   Stocks to Buy
+*   [Stocks Under 1](https://www.5paisa.com/share-market-today/stocks-to-buy-under-rs-1)
+*   [Stocks Under 5](https://www.5paisa.com/share-market-today/stocks-to-buy-under-rs-5)
+*   [Stocks Under 10](https://www.5paisa.com/share-market-today/stocks-to-buy-under-rs-10)
+*   [Stocks Under 20](https://www.5paisa.com/share-market-today/stocks-to-buy-under-rs-20)
+*   [Stocks Under 50](https://www.5paisa.com/share-market-today/stocks-to-buy-under-rs-50)
+*   [Stocks Under 100](https://www.5paisa.com/share-market-today/stocks-to-buy-under-rs-100)
+*   [Stocks Under 500](https://www.5paisa.com/share-market-today/stocks-to-buy-under-rs-500)
+*   [Stocks Under 1000](https://www.5paisa.com/share-market-today/stocks-to-buy-under-rs-1000)
+
+[Stock Market Courses](https://www.5paisa.com/finschool/stock-market-courses/)
+
+*   [Stock Market Basics Course](https://www.5paisa.com/finschool/course/stock-market-basics-course/)
+*   [Mutual Fund Course](https://www.5paisa.com/finschool/course/mutual-fund-course/)
+*   [Currency Derivatives Course](https://www.5paisa.com/finschool/course/currency-derivatives-course/)
+*   [Fundamental Analysis Course](https://www.5paisa.com/finschool/course/fundamental-analysis-course/)
+*   [Technical Analysis Course](https://www.5paisa.com/finschool/course/technical-analysis-course/)
+*   [Equity Derivatives Course](https://www.5paisa.com/finschool/course/equity-derivatives-course/)
+*   [Investment Analysis Course](https://www.5paisa.com/finschool/course/investment-analysis-course/)
+*   [Ultimate Mutual Funds Financial Planning Course](https://www.5paisa.com/finschool/course/financial-planning-through-mutual-funds-course/)
+*   [Technical Indicators Course](https://www.5paisa.com/finschool/course/technical-indicators-course/)
+*   [Valuation Methodology Course](https://www.5paisa.com/finschool/course/valuation-methodology-course/)
+*   [Equity Derivatives Advance Course](https://www.5paisa.com/finschool/course/option-trading-course/)
+*   [What Are ETFs?](https://www.5paisa.com/finschool/course/mutual-fund-course/what-are-exchange-traded-funds/)
+
+[Commodity Trading](https://www.5paisa.com/investment-products/commodity-trading)
+
+*   [Gold Price](https://www.5paisa.com/commodity-trading/mcx-gold-price)
+*   [Crude Oil Price](https://www.5paisa.com/commodity-trading/mcx-crudeoil-price)
+*   [Silver Price](https://www.5paisa.com/commodity-trading/mcx-silver-price)
+*   [Cotton Price](https://www.5paisa.com/commodity-trading/mcx-cottoncndy-price)
+*   [Copper Price](https://www.5paisa.com/commodity-trading/mcx-copper-price)
+*   [Aluminum price](https://www.5paisa.com/commodity-trading/mcx-aluminium-price)
+*   [Mentha Oil Price](https://www.5paisa.com/commodity-trading/mcx-menthaoil-price)
+*   [Natural Gas Price](https://www.5paisa.com/commodity-trading/mcx-naturalgas-price)
+*   [Silver M Price](https://www.5paisa.com/commodity-trading/mcx-silverm-price)
+*   [Zinc Price](https://www.5paisa.com/commodity-trading/mcx-zinc-price)
+*   [Lead Price](https://www.5paisa.com/commodity-trading/mcx-lead-price)
+*   [Platinum Price](https://www.5paisa.com/commodity-trading/platinum)
+
+[Gold Rate Today](https://www.5paisa.com/commodity-trading/gold-rate-today)
+
+*   [Gold Rate in Chennai](https://www.5paisa.com/commodity-trading/gold/chennai)
+*   [Gold Rate in Hyderabad](https://www.5paisa.com/commodity-trading/gold/hyderabad)
+*   [Gold Rate in New Delhi](https://www.5paisa.com/commodity-trading/gold/new-delhi)
+*   [Gold Rate in Mumbai](https://www.5paisa.com/commodity-trading/gold/mumbai)
+*   [Gold Rate in Bangalore](https://www.5paisa.com/commodity-trading/gold/bangalore)
+*   [Gold Rate in Kerala](https://www.5paisa.com/commodity-trading/gold/kerala)
+*   [Gold Rate in Ahmedabad](https://www.5paisa.com/commodity-trading/gold/ahmedabad)
+*   [Gold Rate in Pune](https://www.5paisa.com/commodity-trading/gold/pune)
+*   [Gold Rate in Vijayawada](https://www.5paisa.com/commodity-trading/gold/vijayawada)
+*   [Gold Rate in Coimbatore](https://www.5paisa.com/commodity-trading/gold/coimbatore)
+*   [Gold Rate in Kolkata](https://www.5paisa.com/commodity-trading/gold/kolkata)
+
+## Market Guide
+
+[Demat Account Guide](https://www.5paisa.com/stock-market-guide/demat)
+
+*   [What is Demat Account?](https://www.5paisa.com/stock-market-guide/demat/what-is-demat-account)
+*   [Demat Account Charges](https://www.5paisa.com/stock-market-guide/demat/opening-charges-explained)
+*   [How to Transfer Shares from One Demat to Another](https://www.5paisa.com/stock-market-guide/demat/how-to-transfer-shares-from-one-demat-account-to-another)
+*   [NSDL vs CSDL](https://www.5paisa.com/stock-market-guide/demat/nsdl-vs-cdsl)
+*   [What are DP Charges?](https://www.5paisa.com/stock-market-guide/demat/what-are-dp-charges)
+
+[Stock/Share Market Guide](https://www.5paisa.com/stock-market-guide/stock-share-market)
+
+*   [What are Equities?](https://www.5paisa.com/stock-market-guide/stock-share-market/what-are-equities)
+*   [What is EPS ?](https://www.5paisa.com/stock-market-guide/stock-share-market/what-is-earning-per-share)
+*   [What is Nifty 50?](https://www.5paisa.com/stock-market-guide/stock-share-market/what-is-nifty)
+*   [What is India VIX?](https://www.5paisa.com/stock-market-guide/stock-share-market/what-is-india-vix)
+*   [Types of Dividend](https://www.5paisa.com/stock-market-guide/stock-share-market/types-of-dividend)
+
+[Commodities Guide](https://www.5paisa.com/stock-market-guide/commodity-trading-basics)
+
+*   [What is Commodity Market](https://www.5paisa.com/stock-market-guide/commodity-trading-basics/what-is-commodity-market)
+*   [Commodity Trading in India](https://www.5paisa.com/stock-market-guide/commodity-trading-basics/how-commodity-market-works-in-india)
+*   [Commodity Market Timings in India](https://www.5paisa.com/stock-market-guide/commodity-trading-basics/commodity-market-timings)
+*   [Gold Price History in India](https://www.5paisa.com/stock-market-guide/commodity-trading-basics/gold-rate-history-trends)
+*   [Multi Commodity Exchange](https://www.5paisa.com/stock-market-guide/commodity-trading-basics/what-is-mcx)
+
+[Derivatives Guide](https://www.5paisa.com/stock-market-guide/derivatives-trading-basics)
+
+*   [Options Trading](https://www.5paisa.com/stock-market-guide/derivatives-trading-basics/what-is-options-trading)
+*   [Stock Index Futures](https://www.5paisa.com/stock-market-guide/derivatives-trading-basics/what-are-stock-index-futures)
+*   [Swap Derivatives](https://www.5paisa.com/stock-market-guide/derivatives-trading-basics/what-are-swaps-derivatives)
+*   [Call and Put Options](https://www.5paisa.com/stock-market-guide/derivatives-trading-basics/call-and-put-options)
+*   [Option Chain Analysis](https://www.5paisa.com/stock-market-guide/derivatives-trading-basics/option-chain-analysis-explained)
+
+[IPO Guide](https://www.5paisa.com/stock-market-guide/ipo)
+
+*   [What is IPO ?](https://www.5paisa.com/stock-market-guide/ipo/what-is-ipo-meaning-types-information)
+*   [IPO Process in India](https://www.5paisa.com/stock-market-guide/ipo/what-is-the-ipo-process)
+*   [Pre IPO Investing](https://www.5paisa.com/stock-market-guide/ipo/know-about-pre-ipo-investing)
+*   [What is GMP in IPO?](https://www.5paisa.com/stock-market-guide/ipo/what-is-gmp-in-ipo)
+*   [What is FPO?](https://www.5paisa.com/stock-market-guide/ipo/what-is-fpo)
+
+[TAX Guide](https://www.5paisa.com/stock-market-guide/tax)
+
+*   [Suspension of GST Registration](https://www.5paisa.com/stock-market-guide/tax/suspension-of-gst-registration)
+*   [GST on Cars](https://www.5paisa.com/stock-market-guide/tax/gst-on-cars)
+*   [What is HSN Code?](https://www.5paisa.com/stock-market-guide/tax/what-is-an-hsn-code)
+*   [GST on Rent](https://www.5paisa.com/stock-market-guide/tax/gst-on-rent)
+*   [Residential Status Under Income Tax Act](https://www.5paisa.com/stock-market-guide/tax/residential-status-under-income-tax-act)
+
+## Mutual Funds
+
+[Mutual Fund AMCs](https://www.5paisa.com/mutual-funds/amc)
+
+*   [SBI Mutual Fund](https://www.5paisa.com/mutual-funds/amc/sbi-mutual-fund)
+*   [Axis Mutual Fund](https://www.5paisa.com/mutual-funds/amc/axis-mutual-fund)
+*   [HDFC Mutual Fund](https://www.5paisa.com/mutual-funds/amc/hdfc-mutual-fund)
+*   [UTI Mutual Fund](https://www.5paisa.com/mutual-funds/amc/uti-mutual-fund)
+*   [ICICI Pru Mutual Fund](https://www.5paisa.com/mutual-funds/amc/icici-prudential-mutual-fund)
+*   [Nippon India Mutual Fund](https://www.5paisa.com/mutual-funds/amc/nippon-india-mutual-fund)
+*   [Aditya Birla Mutual Fund](https://www.5paisa.com/mutual-funds/amc/aditya-birla-sun-life-mutual-fund)
+*   [Tata Mutual Fund](https://www.5paisa.com/mutual-funds/amc/tata-mutual-fund)
+*   [DSP Mutual Fund](https://www.5paisa.com/mutual-funds/amc/dsp-mutual-fund)
+*   [Kotak Mutual Fund](https://www.5paisa.com/mutual-funds/amc/kotak-mahindra-mutual-fund)
+*   [360 ONE Mutual Fund](https://www.5paisa.com/mutual-funds/amc/360-one-mutual-fund)
+*   [Canara Robeco Mutual Fund](https://www.5paisa.com/mutual-funds/amc/canara-robeco-mutual-fund)
+*   [Franklin Templeton Mutual Fund](https://www.5paisa.com/mutual-funds/amc/franklin-templeton-mutual-fund)
+*   [Bandhan Mutual Fund](https://www.5paisa.com/mutual-funds/amc/bandhan-mutual-fund)
+*   [HSBC Mutual Fund](https://www.5paisa.com/mutual-funds/amc/hsbc-mutual-fund)
+*   [Mirae Asset Mutual Fund](https://www.5paisa.com/mutual-funds/amc/mirae-asset-mutual-fund)
+*   [Sundaram Mutual Fund](https://www.5paisa.com/mutual-funds/amc/sundaram-mutual-fund)
+*   [Motilal Oswal Mutual Fund](https://www.5paisa.com/mutual-funds/amc/motilal-oswal-mutual-fund)
+*   [Edelweiss Mutual Fund](https://www.5paisa.com/mutual-funds/amc/edelweiss-mutual-fund)
+*   [Invesco Mutual Fund](https://www.5paisa.com/mutual-funds/amc/invesco-mutual-fund)
+
+[Best Mutual Fund Schemes](https://www.5paisa.com/mutual-funds/all)
+
+*   [Parag Parikh Flexi Cap Fund](https://www.5paisa.com/mutual-funds/parag-parikh-flexi-cap-fund-direct-growth)
+*   [HDFC Balanced Advantage Fund](https://www.5paisa.com/mutual-funds/hdfc-balanced-advantage-fund-direct-growth)
+*   [AXIS Large Cap Fund](https://www.5paisa.com/mutual-funds/axis-large-cap-fund-direct-growth)
+*   [AXIS Long Duration Fund](https://www.5paisa.com/mutual-funds/axis-long-duration-fund-direct-growth)
+*   [Nippon India Small Cap Fund](https://www.5paisa.com/mutual-funds/nippon-india-small-cap-fund-direct-growth)
+*   [Axis Midcap Fund](https://www.5paisa.com/mutual-funds/axis-midcap-fund-direct-growth)
+*   [AXIS Multicap Fund Growth](https://www.5paisa.com/mutual-funds/axis-multicap-fund-direct-growth)
+*   [SBI Large Cap Fund](https://www.5paisa.com/mutual-funds/sbi-large-cap-fund-direct-growth)
+*   [AXIS Large & Mid Cap Fund](https://www.5paisa.com/mutual-funds/axis-large-mid-cap-fund-direct-growth)
+*   [SBI Balanced Advantage Fund](https://www.5paisa.com/mutual-funds/sbi-balanced-advantage-fund-direct-growth)
+*   [SBI Equity Hybrid Fund](https://www.5paisa.com/mutual-funds/sbi-equity-hybrid-fund-direct-growth)
+*   [SBI Small Cap Fund](https://www.5paisa.com/mutual-funds/sbi-small-cap-fund-direct-growth)
+*   [Canara Robeco Large Cap Fund](https://www.5paisa.com/mutual-funds/canara-robeco-large-and-mid-cap-fund-dir-growth)
+*   [SBI Multicap Fund](https://www.5paisa.com/mutual-funds/sbi-multicap-fund-direct-growth)
+*   [HDFC Small Cap Fund](https://www.5paisa.com/mutual-funds/hdfc-small-cap-fund-direct-growth)
+*   [ICICI Prudential Small Cap Fund](https://www.5paisa.com/mutual-funds/icici-pru-smallcap-fund-direct-growth)
+*   [Kotak Midcap Fund](https://www.5paisa.com/mutual-funds/kotak-midcap-fund-direct-growth)
+*   [Kotak Small Cap Fund](https://www.5paisa.com/mutual-funds/kotak-small-cap-fund-direct-growth)
+
+[Best Mutual Funds](https://www.5paisa.com/mutual-funds/)
+
+*   [Equity Mutual Funds](https://www.5paisa.com/mutual-funds/best-equity-mutual-funds)
+*   [Largecap Funds](https://www.5paisa.com/mutual-funds/large-cap-funds)
+*   [Midcap Funds](https://www.5paisa.com/mutual-funds/mid-cap-funds)
+*   [Smallcap Funds](https://www.5paisa.com/mutual-funds/small-cap-funds)
+*   [ELSS Tax Saving Funds](https://www.5paisa.com/mutual-funds/elss)
+*   [Multi Cap Funds](https://www.5paisa.com/mutual-funds/multi-cap-funds)
+*   [Index Funds](https://www.5paisa.com/mutual-funds/index-funds)
+*   [Hybrid Mutual Funds](https://www.5paisa.com/mutual-funds/best-hybrid-mutual-funds)
+*   [Arbitrage Funds](https://www.5paisa.com/mutual-funds/arbitrage-funds)
+*   [Equity Savings Funds](https://www.5paisa.com/mutual-funds/equity-savings)
+*   [Aggressive Funds](https://www.5paisa.com/mutual-funds/aggressive-hybrid-funds)
+*   [Debt Mutual Funds](https://www.5paisa.com/mutual-funds/best-debt-mutual-funds)
+*   [Liquid Funds](https://www.5paisa.com/mutual-funds/liquid-funds)
+*   [Ultra Short Duration Funds](https://www.5paisa.com/mutual-funds/ultra-short-duration-funds)
+*   [Gilt Funds](https://www.5paisa.com/mutual-funds/gilt-funds)
+*   [Long Duration Funds](https://www.5paisa.com/mutual-funds/long-duration-funds)
+
+[ETF](https://www.5paisa.com/etf)
+
+*   [Equity ETF](https://www.5paisa.com/etf/equity-etf)
+*   [Debt ETF](https://www.5paisa.com/etf/debt-etf)
+*   [Gold ETF](https://www.5paisa.com/etf/gold-etf)
+*   [Nifty Bees ETF](https://www.5paisa.com/stocks/etf/nippon-india-etf-nifty-50-bees)
+*   [Goldman Sachs CPSE ETF](https://www.5paisa.com/stocks/etf/cpse-etf)
+*   [Global ETF](https://www.5paisa.com/etf/global-etf)
+*   [Nippon India Silver ETF](https://www.5paisa.com/stocks/etf/nippon-india-silver-etf)
+*   [Bharat 22 ETF](https://www.5paisa.com/stocks/etf/bharat-22-etf)
+*   [HDFC Silver ETF](https://www.5paisa.com/stocks/etf/hdfc-silver-etf)
+
+[Mutual Fund Guide](https://www.5paisa.com/stock-market-guide/mutual-funds)
+
+*   [Mutual Fund Managers](https://www.5paisa.com/mutual-funds/fund-managers)
+*   [What are Mutual Funds?](https://www.5paisa.com/stock-market-guide/mutual-funds/what-are-mutual-funds)
+*   [How to Invest In Mutual Funds ?](https://www.5paisa.com/stock-market-guide/mutual-funds/how-to-invest-in-mutual-funds-for-beginners)
+*   [What is NAV in Mutual Funds ?](https://www.5paisa.com/stock-market-guide/mutual-funds/nav-in-mutual-funds)
+*   [What is AUM in Mutual Fund ?](https://www.5paisa.com/stock-market-guide/mutual-funds/what-is-aum-in-mutual-fund)
+*   [What is CAGR Mutual Funds?](https://www.5paisa.com/stock-market-guide/mutual-funds/what-is-cagr-in-mutual-funds)
+*   [What is Hedge Fund?](https://www.5paisa.com/stock-market-guide/mutual-funds/what-is-hedge-fund)
+*   [What is Hybrid Fund?](https://www.5paisa.com/stock-market-guide/mutual-funds/what-is-hybrid-fund)
+*   [What is IDCW in Mutual Funds ?](https://www.5paisa.com/stock-market-guide/mutual-funds/what-is-idcw-in-mutual-fund)
+*   [What is SIP ?](https://www.5paisa.com/stock-market-guide/mutual-funds/what-is-sip)
+*   [What is Expense Ratio ?](https://www.5paisa.com/stock-market-guide/mutual-funds/what-is-total-expense-ratio-in-mutual-funds)
+*   [What is PPF?](https://www.5paisa.com/stock-market-guide/mutual-funds/what-is-public-provident-fund)
+*   [ELSS or SIP](https://www.5paisa.com/stock-market-guide/mutual-funds/elss-or-sip)
+
+Mutual Funds Directory
+
+[A](https://www.5paisa.com/mutual-funds/a)[B](https://www.5paisa.com/mutual-funds/b)[C](https://www.5paisa.com/mutual-funds/c)[D](https://www.5paisa.com/mutual-funds/d)[E](https://www.5paisa.com/mutual-funds/e)[F](https://www.5paisa.com/mutual-funds/f)[G](https://www.5paisa.com/mutual-funds/g)[H](https://www.5paisa.com/mutual-funds/h)[I](https://www.5paisa.com/mutual-funds/i)[J](https://www.5paisa.com/mutual-funds/j)[K](https://www.5paisa.com/mutual-funds/k)[L](https://www.5paisa.com/mutual-funds/l)[M](https://www.5paisa.com/mutual-funds/m)[N](https://www.5paisa.com/mutual-funds/n)[O](https://www.5paisa.com/mutual-funds/o)[P](https://www.5paisa.com/mutual-funds/p)[Q](https://www.5paisa.com/mutual-funds/q)[R](https://www.5paisa.com/mutual-funds/r)[S](https://www.5paisa.com/mutual-funds/s)[T](https://www.5paisa.com/mutual-funds/t)[U](https://www.5paisa.com/mutual-funds/u)[V](https://www.5paisa.com/mutual-funds/v)[W](https://www.5paisa.com/mutual-funds/w)[X](https://www.5paisa.com/mutual-funds/x)[Y](https://www.5paisa.com/mutual-funds/y)[Z](https://www.5paisa.com/mutual-funds/z)[All](https://www.5paisa.com/mutual-funds/all)
+
+## Calculators
+
+1
+
+*   [Mutual Fund Calculator](https://www.5paisa.com/calculators/mutual-fund-calculator)
+*   [SIP Calculator](https://www.5paisa.com/calculators/sip-calculator)
+*   [Lumpsum Calculator](https://www.5paisa.com/calculators/lumpsum-calculator)
+*   [Brokerage Calculator](https://www.5paisa.com/calculators/brokerage-calculator)
+*   [Margin Calculator](https://www.5paisa.com/calculators/margin-calculator)
+*   [CAGR Calculator](https://www.5paisa.com/calculators/cagr-calculator)
+*   [Compound Interest Calculator](https://www.5paisa.com/calculators/compound-interest-calculator)
+*   [FD Calculator](https://www.5paisa.com/calculators/fd-calculator)
+*   [PPF Calculator](https://www.5paisa.com/calculators/ppf-calculator)
+
+2
+
+*   [MTF Calculator](https://www.5paisa.com/calculators/mtf-calculator)
+*   [GST Calculator](https://www.5paisa.com/calculators/gst-calculator)
+*   [Gratuity Calculator](https://www.5paisa.com/calculators/gratuity-calculator)
+*   [HRA Calculator](https://www.5paisa.com/calculators/hra-calculator)
+*   [IPO Return Calculator](https://www.5paisa.com/calculators/ipo-return-calculator)
+*   [NPS Calculator](https://www.5paisa.com/calculators/nps-calculator)
+*   [Post Office MIS Calculator](https://www.5paisa.com/calculators/post-office-monthly-income-scheme-calculator)
+*   [Stock Average Calculator](https://www.5paisa.com/calculators/stock-average-calculator)
+
+3
+
+*   [SWP Calculator](https://www.5paisa.com/calculators/swp-calculator)
+*   [Sukanya Samriddhi Calculator](https://www.5paisa.com/calculators/sukanya-samriddhi-yojana-calculator)
+*   [Step Up SIP Calculator](https://www.5paisa.com/calculators/step-up-sip-calculator)
+*   [EPF Calculator](https://www.5paisa.com/calculators/epf-calculator)
+*   [Retirement Planning Calculator](https://www.5paisa.com/calculators/retirement-planning-calculator)
+*   [NSC Calculator](https://www.5paisa.com/calculators/nsc-calculator)
+*   [Income Tax Calculator](https://www.5paisa.com/calculators/income-tax-calculator)
+*   [Simple Interest Calculator](https://www.5paisa.com/calculators/simple-interest-calculator)
+*   [ELSS Calculator](https://www.5paisa.com/calculators/elss-calculator)
+
+4
+
+*   [Stock Return Calculator](https://www.5paisa.com/calculators/stock-return-calculator)
+*   [Inflation Calculator](https://www.5paisa.com/calculators/inflation-calculator)
+*   [APY Return Calculator](https://www.5paisa.com/calculators/apy-calculator)
+*   [Long Term Capital Gain Tax Calculator](https://www.5paisa.com/calculators/long-term-capital-gain-tax-calculator)
+*   [Short Term Capital Gain Tax Calculator](https://www.5paisa.com/calculators/short-term-capital-gain-tax-calculator)
+*   [Dividend Calculator](https://www.5paisa.com/calculators/dividend-calculator)
+*   [ETF Calculator](https://www.5paisa.com/calculators/etf-calculator)
+
+## Top Stocks
+
+1 - 15
+
+*   [Ashok Leyland](https://www.5paisa.com/stocks/ashokley-share-price)
+*   [Asian Paints](https://www.5paisa.com/stocks/asianpaint-share-price)
+*   [Axis Bank](https://www.5paisa.com/stocks/axisbank-share-price)
+*   [Bajaj Finance](https://www.5paisa.com/stocks/bajfinance-share-price)
+*   [Bajaj Finserv](https://www.5paisa.com/stocks/bajajfinsv-share-price)
+*   [HCL Technologies](https://www.5paisa.com/stocks/hcltech-share-price)
+*   [ICICI Bank](https://www.5paisa.com/stocks/icicibank-share-price)
+*   [IRCTC](https://www.5paisa.com/stocks/irctc-share-price)
+*   [KPIT](https://www.5paisa.com/stocks/kpittech-share-price)
+*   [Kotak Mahindra Bank](https://www.5paisa.com/stocks/kotakbank-share-price)
+*   [Larsen & Toubro](https://www.5paisa.com/stocks/lt-share-price)
+*   [Maruti Suzuki India](https://www.5paisa.com/stocks/maruti-share-price)
+*   [Tata Power](https://www.5paisa.com/stocks/tatapower-share-price)
+*   [Yes Bank](https://www.5paisa.com/stocks/yesbank-share-price)
+*   [Vodafone Idea](https://www.5paisa.com/stocks/idea-share-price)
+
+16 - 30
+
+*   [Adani Ports](https://www.5paisa.com/stocks/adaniports-share-price)
+*   [BHEL](https://www.5paisa.com/stocks/bhel-share-price)
+*   [Canara Bank](https://www.5paisa.com/stocks/canbk-share-price)
+*   [Eicher Motors](https://www.5paisa.com/stocks/eichermot-share-price)
+*   [HDFC Bank](https://www.5paisa.com/stocks/hdfcbank-share-price)
+*   [HUL](https://www.5paisa.com/stocks/hindunilvr-share-price)
+*   [ITC](https://www.5paisa.com/stocks/itc-share-price)
+*   [NTPC](https://www.5paisa.com/stocks/ntpc-share-price)
+*   [ONGC](https://www.5paisa.com/stocks/ongc-share-price)
+*   [Power Grid Corporation](https://www.5paisa.com/stocks/powergrid-share-price)
+*   [Sun Pharmaceutical](https://www.5paisa.com/stocks/sunpharma-share-price)
+*   [Tata Motors](https://www.5paisa.com/stocks/tatamotors-share-price)
+*   [Titan Company](https://www.5paisa.com/stocks/titan-share-price)
+*   [Vedanta](https://www.5paisa.com/stocks/vedl-share-price)
+*   [Wipro](https://www.5paisa.com/stocks/wipro-share-price)
+
+31 - 45
+
+*   [BSE](https://www.5paisa.com/stocks/bse-share-price)
+*   [CDSL](https://www.5paisa.com/stocks/cdsl-share-price)
+*   [COAL India](https://www.5paisa.com/stocks/coalindia-share-price)
+*   [HDFC Life](https://www.5paisa.com/stocks/hdfclife-share-price)
+*   [HFCL](https://www.5paisa.com/stocks/hfcl-share-price)
+*   [Infosys](https://www.5paisa.com/stocks/infy-share-price)
+*   [JSW Steel](https://www.5paisa.com/stocks/jswsteel-share-price)
+*   [LIC](https://www.5paisa.com/stocks/lici-share-price)
+*   [PNB](https://www.5paisa.com/stocks/pnb-share-price)
+*   [Reliance Industries](https://www.5paisa.com/stocks/reliance-share-price)
+*   [SBI](https://www.5paisa.com/stocks/sbin-share-price)
+*   [Sail](https://www.5paisa.com/stocks/sail-share-price)
+*   [Tata Consultancy Services](https://www.5paisa.com/stocks/tcs-share-price)
+*   [Tata Steel](https://www.5paisa.com/stocks/tatasteel-share-price)
+*   [Tech Mahindra](https://www.5paisa.com/stocks/techm-share-price)
+
+46 - 60
+
+*   [Adani Power](https://www.5paisa.com/stocks/adanipower-share-price)
+*   [Adani Wilmar](https://www.5paisa.com/stocks/awl-share-price)
+*   [BPCL](https://www.5paisa.com/stocks/bpcl-share-price)
+*   [Cipla](https://www.5paisa.com/stocks/cipla-share-price)
+*   [Dmart](https://www.5paisa.com/stocks/dmart-share-price)
+*   [Eternal (Zomato)](https://www.5paisa.com/stocks/eternal-share-price)
+*   [Hindalco Industries](https://www.5paisa.com/stocks/hindalco-share-price)
+*   [IEX](https://www.5paisa.com/stocks/iex-share-price)
+*   [Indusind Bank](https://www.5paisa.com/stocks/indusindbk-share-price)
+*   [Nykaa](https://www.5paisa.com/stocks/nykaa-share-price)
+*   [Paytm](https://www.5paisa.com/stocks/paytm-share-price)
+*   [Suzlon](https://www.5paisa.com/stocks/suzlon-share-price)
+*   [Tata Consumer](https://www.5paisa.com/stocks/tataconsum-share-price)
+*   [Tata Elxsi](https://www.5paisa.com/stocks/tataelxsi-share-price)
+*   [Trident](https://www.5paisa.com/stocks/trident-share-price)
+
+Group Stocks
+
+*   [Adani Shares](https://www.5paisa.com/group-stocks/adani-shares)
+*   [Ambani Shares](https://www.5paisa.com/group-stocks/ambani-shares)
+*   [Bajaj Shares](https://www.5paisa.com/group-stocks/bajaj-shares)
+*   [Birla Shares](https://www.5paisa.com/group-stocks/birla-shares)
+*   [Godrej Shares](https://www.5paisa.com/group-stocks/godrej-shares)
+*   [HDFC Shares](https://www.5paisa.com/group-stocks/hdfc-shares)
+*   [Hero Shares](https://www.5paisa.com/group-stocks/hero-shares)
+*   [Hinduja Shares](https://www.5paisa.com/group-stocks/hinduja-shares)
+*   [ICICI Shares](https://www.5paisa.com/group-stocks/icici-shares)
+*   [Jindal Shares](https://www.5paisa.com/group-stocks/jindal-shares)
+*   [LnT Shares](https://www.5paisa.com/group-stocks/larsen-and-toubro-shares)
+*   [Mahindra & Mahindra Shares](https://www.5paisa.com/group-stocks/mahindra-and-mahindra-shares)
+*   [Murugappa Shares](https://www.5paisa.com/group-stocks/murugappa-shares)
+*   [TVS Shares](https://www.5paisa.com/group-stocks/tvs-shares)
+*   [Tata Shares](https://www.5paisa.com/group-stocks/tata-shares)
+
+Stocks Directory
+
+[A](https://www.5paisa.com/stocks/a)[B](https://www.5paisa.com/stocks/b)[C](https://www.5paisa.com/stocks/c)[D](https://www.5paisa.com/stocks/d)[E](https://www.5paisa.com/stocks/e)[F](https://www.5paisa.com/stocks/f)[G](https://www.5paisa.com/stocks/g)[H](https://www.5paisa.com/stocks/h)[I](https://www.5paisa.com/stocks/i)[J](https://www.5paisa.com/stocks/j)[K](https://www.5paisa.com/stocks/k)[L](https://www.5paisa.com/stocks/l)[M](https://www.5paisa.com/stocks/m)[N](https://www.5paisa.com/stocks/n)[O](https://www.5paisa.com/stocks/o)[P](https://www.5paisa.com/stocks/p)[Q](https://www.5paisa.com/stocks/q)[R](https://www.5paisa.com/stocks/r)[S](https://www.5paisa.com/stocks/s)[T](https://www.5paisa.com/stocks/t)[U](https://www.5paisa.com/stocks/u)[V](https://www.5paisa.com/stocks/v)[W](https://www.5paisa.com/stocks/w)[X](https://www.5paisa.com/stocks/x)[Y](https://www.5paisa.com/stocks/y)[Z](https://www.5paisa.com/stocks/z)[All](https://www.5paisa.com/stocks/all)[0-9](https://www.5paisa.com/stocks/other)
+
+## Indices
+
+Broad Market Indices
+
+*   [NSE](https://www.5paisa.com/nse)
+*   [NIFTY 50](https://www.5paisa.com/share-market-today/nifty-50)
+*   [NIFTY Next 50](https://www.5paisa.com/share-market-today/nifty-next-50)
+*   [NIFTY 100](https://www.5paisa.com/share-market-today/nifty-100)
+*   [NIFTY Smallcap 100](https://www.5paisa.com/share-market-today/nifty-smallcap-100)
+*   [NIFTY 500](https://www.5paisa.com/share-market-today/nifty-500)
+*   [NIFTY Midcap 100](https://www.5paisa.com/share-market-today/nifty-midcap-100)
+*   [Nifty Tata](https://www.5paisa.com/share-market-today/nifty-tata-group-25-cap)
+*   [Nifty 500 Multicap Manufacturing](https://www.5paisa.com/share-market-today/nifty500-multicap-india-manufacturing-50-30-20)
+*   [Nifty 500 Multicap Infrastructure](https://www.5paisa.com/share-market-today/nifty500-multicap-infrastructure-50-30-20)
+*   [Nifty Midsmall Healthcare](https://www.5paisa.com/share-market-today/nifty-midsmall-healthcare)
+
+[Global Indices](https://www.5paisa.com/share-market-today/global-indices)
+
+*   [Dow Jones](https://www.5paisa.com/share-market-today/dow)
+*   [Gift Nifty](https://www.5paisa.com/share-market-today/gift-nifty)
+*   [Taiwan index](https://www.5paisa.com/share-market-today/taiwan-weighted)
+*   [Nasdaq Composite](https://www.5paisa.com/share-market-today/us-tech-composite)
+*   [DAX](https://www.5paisa.com/share-market-today/dax)
+*   [Hang Seng](https://www.5paisa.com/share-market-today/hang-seng)
+*   [S&P 500](https://www.5paisa.com/share-market-today/s-p)
+*   [Nikkei 225](https://www.5paisa.com/share-market-today/nikkei-225)
+*   [FTSE 100 Index](https://www.5paisa.com/share-market-today/ftse-100)
+*   [SSE Composite](https://www.5paisa.com/share-market-today/shanghai-composite)
+*   [CAC 40 Index](https://www.5paisa.com/share-market-today/cac-40)
+*   [S&P ASX 200](https://www.5paisa.com/share-market-today/s-p-asx-200)
+*   [US 30](https://www.5paisa.com/share-market-today/us-30)
+
+Thematic Indices
+
+*   [NIFTY Commodities](https://www.5paisa.com/share-market-today/nifty-commodities)
+*   [NIFTY CPSE](https://www.5paisa.com/share-market-today/nifty-cpse)
+*   [NIFTY Infrastructure](https://www.5paisa.com/share-market-today/nifty-infrastructure)
+*   [NIFTY Services Sector](https://www.5paisa.com/share-market-today/nifty-services-sector)
+*   Sectoral Indices
+*   [NIFTY Auto](https://www.5paisa.com/share-market-today/nifty-auto)
+*   [NIFTY Bank](https://www.5paisa.com/share-market-today/nifty-bank)
+*   [FIN Nifty](https://www.5paisa.com/share-market-today/nifty-financial-services)
+*   [NIFTY Pharma](https://www.5paisa.com/share-market-today/nifty-pharma)
+*   [NIFTY Media](https://www.5paisa.com/share-market-today/nifty-media)
+*   [NIFTY Metal](https://www.5paisa.com/share-market-today/nifty-metal)
+*   [NIFTY Realty](https://www.5paisa.com/share-market-today/nifty-realty)
+
+[Top Sectors](https://www.5paisa.com/sectors/all)
+
+*   [Banks](https://www.5paisa.com/stocks/sector/banks)
+*   [IT](https://www.5paisa.com/stocks/sector/it-software)
+*   [Chemicals](https://www.5paisa.com/stocks/sector/chemicals)
+*   [FMCG](https://www.5paisa.com/stocks/sector/fmcg)
+*   [Automobile](https://www.5paisa.com/stocks/sector/automobile)
+*   [Pharmaceuticals](https://www.5paisa.com/stocks/sector/pharmaceuticals)
+*   [Cement](https://www.5paisa.com/stocks/sector/cement)
+*   [Logistics](https://www.5paisa.com/stocks/sector/logistics)
+*   [Healthcare](https://www.5paisa.com/stocks/sector/healthcare)
+*   [Fertilizers](https://www.5paisa.com/stocks/sector/fertilizers)
+*   [Sugar](https://www.5paisa.com/stocks/sector/sugar)
+*   [PSU](https://www.5paisa.com/stocks/sector/psu)
+
+BSE Indices (1-10)
+
+*   [BSE](https://www.5paisa.com/bse)
+*   [BSE 100 ESG](https://www.5paisa.com/share-market-today/bse-100-esg)
+*   [BSE 150 Mid Cap](https://www.5paisa.com/share-market-today/bse-150-midcap)
+*   [S&P BSE SME IPO](https://www.5paisa.com/share-market-today/bse-sme-ipo)
+*   [S&P BSE 100](https://www.5paisa.com/share-market-today/bse-100)
+*   [S&P BSE 200](https://www.5paisa.com/share-market-today/bse-200)
+*   [S&P BSE 500](https://www.5paisa.com/share-market-today/bse-500)
+*   [S&P BSE Auto](https://www.5paisa.com/share-market-today/bse-auto)
+*   [S&P BSE Bankex](https://www.5paisa.com/share-market-today/bse-bankex)
+*   [S&P BSE Industrial](https://www.5paisa.com/share-market-today/bse-industrial)
+
+BSE Indices (11-20)
+
+*   [Sensex Today](https://www.5paisa.com/share-market-today/bse-sensex)
+*   [S&P BSE FMCG](https://www.5paisa.com/share-market-today/bse-fmcg)
+*   [S&P BSE Infra](https://www.5paisa.com/share-market-today/bse-infra)
+*   [S&P BSE IPO](https://www.5paisa.com/share-market-today/bse-ipo)
+*   [S&P BSE IT](https://www.5paisa.com/share-market-today/bse-it)
+*   [S&P BSE Metal](https://www.5paisa.com/share-market-today/bse-metal)
+*   [S&P BSE Realty](https://www.5paisa.com/share-market-today/bse-realty)
+*   [S&P BSE Energy](https://www.5paisa.com/share-market-today/bse-energy)
+*   [BSE Midcap Select](https://www.5paisa.com/share-market-today/bse-midcap-select)
+*   [S&P BSE Dollex 200](https://www.5paisa.com/share-market-today/bse-dollex)
+
+## About
+
+About
+
+*   [About Us](https://www.5paisa.com/about-us)
+*   [Investor Relations](https://www.5paisa.com/investor-relations)
+*   [Algo Convention 2026](https://www.5paisa.com/algo-convention-event)
+*   [Careers](https://www.5paisa.com/careers)
+*   [Sitemap](https://www.5paisa.com/sitemap)
+*   [Finschool](https://www.5paisa.com/finschool/)
+*   [Options Convention](https://www.5paisa.com/options-convention-trading-event)
+*   [Blog](https://www.5paisa.com/blog)
+*   [Union Budget 2026](https://www.5paisa.com/union-budget-2026-live-budget-updates)
+*   [Announcements](https://www.5paisa.com/announcements)
+
+[Products](https://www.5paisa.com/investment-products)
+
+*   [Stock Trading](https://www.5paisa.com/investment-products/stocks-equity-trading)
+*   [Derivatives Trading](https://www.5paisa.com/derivatives)
+*   [Commodity Trading](https://www.5paisa.com/investment-products/commodity-trading)
+*   [Mutual Funds](https://www.5paisa.com/mutual-funds/)
+*   [Stock Screener](https://www.5paisa.com/stock-screener)
+*   [Margin Trading Facility](https://www.5paisa.com/investment-products/margin-trading-facility-mtf)
+
+Platforms
+
+*   [Scalper Terminal](https://www.5paisa.com/technology/scalper-terminal)
+*   [Web Platform](https://www.5paisa.com/technology/web-platform)
+*   [FnO360](https://www.5paisa.com/technology/fno360-derivatives-trading)
+*   [Algo Trading](https://www.5paisa.com/technology/algo-trading)
+*   [5paisa Trading App](https://www.5paisa.com/technology/mobile-trading-app)
+*   [5paisa EXE](https://www.5paisa.com/technology/5paisa-exe)
+*   [MCP AI Assistant](https://www.5paisa.com/technology/mcp-ai-trading-assistant)
+*   [AlgoSpace](https://www.5paisa.com/algospace)
+*   [Trading View](https://www.5paisa.com/technology/trading-view)
+*   [Developer APIs](https://xstream.5paisa.com/)
+
+Services
+
+*   [Open Demat Account](https://www.5paisa.com/open-demat-account)
+*   [Become 5paisa Partner](https://www.5paisa.com/partner)
+*   [5paisa Authorised Person](https://www.5paisa.com/authorised-person)
+*   [Non-Individual Accounts](https://www.5paisa.com/non-individual-account-opening)
+
+## More
+
+Legal
+
+*   [Caution Notice – Beware of Fraud](https://www.5paisa.com/caution-notice-beware-of-fraud)
+*   [Investor Risk Reduction Access (IRRA)](https://login.irra.live/stocks/jsp/irra/)
+*   [View Client Collateral Details (MCX)](https://clientreports.mcxccl.com/)
+*   [SMARTODR](https://smartodr.in/login)
+*   [SCORES](https://scores.sebi.gov.in/)
+*   [Caution Notice to Investors/Customer](https://storage.googleapis.com/5paisa-prod-storage/pages/pdf/Adviosry%20to%20Members.pdf)
+*   [Advisory to Investors](https://storage.googleapis.com/5paisa-prod-storage/pages/investor-relation-new/Caution%20for%20Investors.pdf)
+*   [Details of Client Bank Accounts](https://www.5paisa.com/details-of-client-bank-accounts)
+*   [Terms of use](https://www.5paisa.com/terms-and-conditions)
+*   [Privacy Policy](https://www.5paisa.com/privacy-policy)
+*   [Disclaimer](https://www.5paisa.com/disclaimer)
+*   [Information Memorandum](https://storage.googleapis.com/5paisa-prod-storage/files/information-memorandum.pdf)
+*   [Client Copy - Rights & Obligations](https://storage.googleapis.com/5paisa-prod-storage/files/investor_relations/2022-12/Client%20Copy-%20Rights%20%26%20obligation.pdf)
+*   [Notice to Shareholders](https://storage.googleapis.com/5paisa-prod-storage/files/investor_relations/2021-04/5paisa_notice-to-shareholders.pdf)
+*   [Notice to Creditors](https://storage.googleapis.com/5paisa-prod-storage/files/investor_relations/2021-04/5paisa_notice-to-creditors.pdf)
+*   [Research AnalystDisclaimer](https://www.5paisa.com/research-analyst-disclaimer)
+*   [KYC AML Surveillance Policy](https://storage.googleapis.com/5paisa-prod-storage/files/investor_relations/2021-04/anti-money-laundering-policy.pdf)
+*   [Risk Policy](https://storage.googleapis.com/5paisa-prod-storage/pages/pdf/RISK%20MANAGEMENT%20POLICY%20-%20Version%20updated.pdf)
+*   [Do's and Don'ts](https://storage.googleapis.com/5paisa-prod-storage/files/investor_relations/2021-04/dos-and-donts-for-5paisa.pdf)
+*   [View Client Collateral Details (NSE)](https://investorhelpline.nseindia.com/ClientCollateral/welcomeCLUser)
+*   [Investor Charter Complaints](https://www.5paisa.com/investor-charter)
+*   [Most Important Terms and Conditions](https://www.5paisa.com/most-important-terms-and-conditions)
+*   [Investor Demise: SOP on Reporting Norms](https://storage.googleapis.com/5paisa-prod-storage/pages/investor-relation-new/Common%20SOP%20for%20Centralized%20Demise%20information.pdf)
+*   [SECC Regulation](https://storage.googleapis.com/5paisa-prod-storage/pages/investor-relation-new/SECC%20Regulation.pdf)
+*   [Commission Disclosure](https://storage.googleapis.com/5paisa-prod-storage/pages/investor-relation-new/Commission_Disclosure.pdf)
+*   [Policy on Handling of Good Till Cancelled Orders](https://storage.googleapis.com/5paisa-prod-storage/pages/pdf/Policy%20on%20Handling%20of%20Good%20Till%20Cancelled%20Orders.pdf)
+*   [Impersonation and Fraud Control Policy](https://storage.googleapis.com/5paisa-prod-storage/pages/pdf/Impersonation_fraud_control_policy.pdf)
+*   [CUSPA Policy](https://storage.googleapis.com/5paisa-prod-storage/pages/pdf/CUSPA_Policy.pdf)
+*   [MASTER CIRCULAR FOR ONLINE DISPUTE RESOLUTION](https://www.sebi.gov.in/legal/master-circulars/dec-2023/master-circular-for-online-resolution-of-disputes-in-the-indian-securities-market_80236.html)
+*   [Process and registration of complaint on SCORES portal / SMARTODR](https://www.5paisa.com/scores)
+
+[Contact Us](https://www.5paisa.com/contact-us)
+
+*   [Support](https://faq.5paisa.com/support)
+*   [Raise a Ticket](https://faq.5paisa.com/ticketCreation)
+*   [FAQs](https://faq.5paisa.com/)
+
+Other Links
+
+*   [Benefit of SCORES](https://investor.sebi.gov.in/securities-resolvedispute.html)
+*   [Benefit of SMARTODR Portal](https://investor.sebi.gov.in/smart_orr.html)
+*   [E-voting](https://www.evotingindia.com/)
+*   [Brokerage Charges](https://www.5paisa.com/brokerage-charges)
+*   [Download Forms](https://www.5paisa.com/application-forms)
+*   [Announcements](https://storage.googleapis.com/5paisa-prod-storage/files/business_standard_english_10112017.pdf)
+*   [Advisory - KYC Compliance](https://storage.googleapis.com/5paisa-prod-storage/01-02-2022/NSE-Annexure-I_Advisory-for-KYC-updation.pdf)
+*   [Modes of Payment](https://www.5paisa.com/modes-of-payment)
+*   [Investor Charter](https://storage.googleapis.com/5paisa-prod-storage/03-06-2022/Investor%20Charter%20%E2%80%93%20Stock%20Brokers.pdf)
+*   [Names and contact details of KMPs](https://www.5paisa.com/names-and-contact-details-of-kmps)
+*   [Basic details of Broker](https://www.5paisa.com/basic-details-of-the-stock-broker)
+*   [SEBI Investor charter](https://www.5paisa.com/sebi-investor-charter)
+*   [Regulatory Notification](https://www.5paisa.com/regulatory-notification)
+*   [List of APs](https://www.5paisa.com/list-of-authorised-person)
+*   [Filing Complaints at 5Paisa](https://storage.googleapis.com/5paisa-prod-storage/pages/pdf/procedure_for_filing_a_complaint_at_5Paisa.pdf)
+*   [Account Opening Flow at 5Paisa](https://storage.googleapis.com/5paisa-prod-storage/pages/pdf/Account_opening_flow.pdf)
+*   [Precautions for trading in Options](https://storage.googleapis.com/5paisa-prod-storage/pages/pdf/Awareness_Letter.pdf)
+*   [Economic Calendar](https://www.5paisa.com/global-economic-calendar)
+*   [MF Comparison Tool](https://www.5paisa.com/mutual-funds/compare)
+*   [Bulk and Block Deals](https://www.5paisa.com/share-market-today/bulk-block-deals "Your AI trading companion all through natural conversations")
+*   [Most Active Contracts](https://www.5paisa.com/share-market-today/most-active-contracts)
+
+## Futures & Options
+
+Open Interest
+
+*   [Bank Nifty OI Data](https://www.5paisa.com/derivatives/live-banknifty-open-interest)
+*   [FinNifty OI Data](https://www.5paisa.com/derivatives/live-finnifty-open-interest)
+*   [MidCap Nifty OI Data](https://www.5paisa.com/derivatives/live-midcpnifty-open-interest)
+*   [NIfty OI Data](https://www.5paisa.com/derivatives/live-nifty-open-interest)
+
+[Derivatives](https://www.5paisa.com/derivatives)
+
+*   [FinNifty Option Chain](https://www.5paisa.com/derivatives/finnifty-option-chain)
+*   [Finnifty Futures](https://www.5paisa.com/derivatives/finnifty-futures)
+*   [MCX Futures](https://www.5paisa.com/derivatives/mcx-futures)
+*   [MCX Option Chain](https://www.5paisa.com/derivatives/mcx-option-chain)
+*   [Nifty 50 Futures](https://www.5paisa.com/derivatives/nifty-futures)
+*   [Nifty 50 Option Chain](https://www.5paisa.com/derivatives/nifty-50-option-chain)
+*   [Nifty Bank Futures](https://www.5paisa.com/derivatives/banknifty-futures)
+*   [Nifty Bank Option Chain](https://www.5paisa.com/derivatives/banknifty-option-chain)
+
+Bearish Derivatives Strategies
+
+*   [BEARISH Ratio Put Spread](https://www.5paisa.com/derivatives/derivative-strategies/bearish-ratio-put-spread)
+*   [BEARISH Bear Call Spread](https://www.5paisa.com/derivatives/derivative-strategies/bearish-bear-call-spread)
+*   [BEARISH Bear Put Ladder](https://www.5paisa.com/derivatives/derivative-strategies/bearish-bear-put-ladder)
+*   [BEARISH Bear Put Spread](https://www.5paisa.com/derivatives/derivative-strategies/bearish-bear-put-spread)
+*   [BEARISH Bull Put Ladder](https://www.5paisa.com/derivatives/derivative-strategies/bearish-bull-put-ladder)
+*   [BEARISH Long Put](https://www.5paisa.com/derivatives/derivative-strategies/bearish-long-put)
+*   [BEARISH Put Ratio Back Spread](https://www.5paisa.com/derivatives/derivative-strategies/bearish-put-ratio-back-spread)
+*   [BEARISH Short Call](https://www.5paisa.com/derivatives/derivative-strategies/bearish-short-call)
+
+Bullish Derivatives Strategies
+
+*   [BULLISH Bear Call Ladder](https://www.5paisa.com/derivatives/derivative-strategies/bullish-bear-call-ladder)
+*   [BULLISH Call Ladder](https://www.5paisa.com/derivatives/derivative-strategies/bullish-call-ladder)
+*   [BULLISH Bull Call Spread](https://www.5paisa.com/derivatives/derivative-strategies/bullish-bull-call-spread)
+*   [BULLISH Bull Put Spread](https://www.5paisa.com/derivatives/derivative-strategies/bullish-bull-put-spread)
+*   [BULLISH Bull Put](https://www.5paisa.com/derivatives/derivative-strategies/bullish-bull-put)
+*   [BULLISH Call Ratio Back Spread](https://www.5paisa.com/derivatives/derivative-strategies/bullish-call-ratio-back-spread)
+*   [BULLISH Long Call](https://www.5paisa.com/derivatives/derivative-strategies/bullish-long-call)
+*   [BULLISH Ratio Call Spread](https://www.5paisa.com/derivatives/derivative-strategies/bullish-ratio-call-spread)
+*   [BULLISH Short Put](https://www.5paisa.com/derivatives/derivative-strategies/bullish-short-put)
+
+Neutral Derivatives Strategies
+
+*   [NEUTRAL Long Iron Condor](https://www.5paisa.com/derivatives/derivative-strategies/neutral-long-iron-condor)
+*   [NEUTRAL Long Put Butterfly](https://www.5paisa.com/derivatives/derivative-strategies/neutral-long-put-butterfly)
+*   [NEUTRAL Calendar Put](https://www.5paisa.com/derivatives/derivative-strategies/neutral-calendar-put)
+*   [NEUTRAL Diagonal Call](https://www.5paisa.com/derivatives/derivative-strategies/neutral-diagonal-call)
+*   [NEUTRAL Diagonal Put](https://www.5paisa.com/derivatives/derivative-strategies/neutral-diagonal-put)
+*   [NEUTRAL Long Call Butterfly](https://www.5paisa.com/derivatives/derivative-strategies/neutral-long-call-butterfly)
+*   [NEUTRAL Long Iron Butterfly](https://www.5paisa.com/derivatives/derivative-strategies/neutral-long-iron-butterfly)
+
++91
+
+Stay Informed with us
+
+By proceeding, you agree to our [T&Cs*](https://www.5paisa.com/terms-and-conditions)
+
+Please enter OTP sent on your mobile no. 
+
+Stay Informed with us
+
+mobile_sticky
+
+More Information
+
+5paisa Capital Ltd. CIN: L67190MH2007PLC289249 | Stock Broker SEBI Regn.: INZ000010231 | SEBI Depository Regn.: IN DP CDSL: IN-DP-192-2016 | Research Analyst SEBI Regn. No.: INH000025188 | AMFI-registered Mutual Fund Distributor | AMFI REGN No.: ARN-104096 | Date of initial Registration: 30/07/2015 | Current validity of ARN : 30/07/2027 | NSE Member id: 14300 | BSE Member id: 6363 | MCX Member ID: 55945 | Registered Address - IIFL House, Sun Infotech Park, Road no. 16V, Plot no. B-23, MIDC, Thane Industrial Area, Waghle Estate, Thane, Maharashtra - 400604
+
+*Brokerage will be levied flat fee/executed order basis and not on a percentage basis. Investment in securities market are subject to market risk, read all related documents carefully before investing. Digital account would be opened after all procedure relating to IPV and client due diligence is completed. If sale/ purchase value of share of ₹10/- or less, a maximum brokerage of 25 paisa per share may be collected. Brokerage will not exceed the SEBI prescribed limit.
+
+Mutual Fund, Mutual Fund-SIP are not Exchange traded products, and the Member is just acting as distributor. All disputes with respect to the distribution activity, would not have access to Exchange investor redressal forum or Arbitration mechanism.
+
+Compliance Officer:**Mr. Ravindra Kalvankar, Email: support@5paisa.com, Support Desk Helpline: 8976689766**
+
+**[Contact Us](https://www.5paisa.com/contact-us)**
+
+Attention Investors
+
+1. [Advisory for Investors](https://storage.googleapis.com/5paisa-prod-storage/pages/pdf/Advisory%20for%20Investors.pdf)  
+ 2. No need to issue cheques by investors while subscribing to IPO. Just write the bank account number and sign in the application form to authorise your bank to make payment in case of allotment. No worries for refund as the money remains in investor's account.  
+ 3. Message from Exchange(s): Prevent Unauthorised transactions in your account --> Update your mobile numbers/email IDs with your stock brokers. Receive information of your transactions directly from Exchange on your mobile/email at the end of the day. Issued in the interest of investors.  
+ 4. Message from Depositories: a) Prevent Unauthorized Transactions in your demat account --> Update your mobile number with your Depository Participant. Receive alerts on your registered mobile for all debit and other important transactions in your demat account directly from CDSL on the same day issued in the interest of investors. b) KYC is one time exercise while dealing in securities markets - once KYC is done through a SEBI registered intermediary (broker, DP, Mutual Fund etc.), you need not undergo the same process again when you approach another intermediary.
+
+Email: **[support@5paisa.com](mailto:support@5paisa.com)**
+
+Support Desk Helpline: **[8976689766](tel:+918976689766)**
+
+Follow us on
+
+[](https://t.me/fivepaisaofficial)[](https://www.instagram.com/5paisa?igshid=xwd1zr6hava1)[](https://x.com/5paisa)[](https://www.facebook.com/5paisa)[](https://www.linkedin.com/company/5paisa)[](https://www.youtube.com/channel/UCXcPmSjgThvZ5U69Z3B8tlQ)[](https://news.google.com/topics/CAAqLAgKIiZDQkFTRmdvTkwyY3ZNVEZrZVd4ME5Ia3daeElGWlc0dFIwSW9BQVAB?hl=en-IN&gl=IN&ceid=IN:en)
+
+Join Our Community[![Image 5: Text logo of Trade Better by 5paisa with a white background](https://www.5paisa.com/themes/custom/fivepaisa/images/trade-better.webp)](https://tradebetter.5paisa.com/)
+
+Download now
+
+[](https://play.google.com/store/apps/details?id=com.fivepaisa.tradebetter&hl=en_IN;referrer=utm_source=website&utm_medium=icon)[](https://apps.apple.com/in/app/5paisa-2-0-f-o-stocks-ipo/id6759095123?referrer=utm_source=website&utm_medium=icon)
+
+©2026, 5paisa Capital Ltd. All Rights Reserved.We are ISO 27001:2022 Certified.

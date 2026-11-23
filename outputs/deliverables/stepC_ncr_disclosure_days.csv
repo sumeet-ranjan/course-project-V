@@ -1,0 +1,5 @@
+date,what_it_priced,raw_return,market_return,ar_engine,p_two_sided,unlinked_mean_ar,net_of_unlinked,ar_model_pre_18nov,t_vs_own_sd
+2024-11-18,"Q2 FY25 results (filed 14 Nov 17:16, after the close; 15 Nov holiday) + ban day 0 + first 30 min of the 3.00 pm call",-0.0305,-0.0029,-0.0282,0.1595,0.0192,-0.0474,-0.0282,-1.0106
+2024-11-19,"rest of the Q2 call of 18 Nov (""GRAP-IV is in place ... going to impact this quarter"")",-0.0056,0.0048,-0.011,0.598,0.001,-0.012,-0.0118,-0.4238
+2025-02-12,"Q3 FY25 results (filed 11 Feb 16:43, after the close): revenue -7.3% YoY",-0.031,-0.002,-0.029,0.1545,0.0113,-0.0403,-0.0297,-1.0651
+2025-02-13,Q3 call of 12 Feb 4.00 pm (after the close): FY25 growth guidance cut to 8.5-9%,-0.0229,-0.0002,-0.0227,0.2525,-0.0007,-0.0221,-0.0236,-0.8472

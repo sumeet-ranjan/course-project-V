@@ -1,4 +1,4 @@
-"""Deliverable 1, Gujarat: evidence table per node (scope change of 23 Nov 2026; decision G7 pending).
+"""Deliverable 1, Gujarat: evidence table per node (scope change of 23 Nov 2026; decision G7 of 23 Nov 2026 applied).
 
 Branches:
   A. storm (IMD) -> hit firms outside the pack: Tata Chemicals (Mithapur), Archean (Kutch), Adani Ports (Mundra, Tuna),
@@ -38,12 +38,31 @@ for i, r in G.iterrows():
     if i not in vg: continue
     if r.nse_symbol == "IMD":
         add("0 event: storm (IMD)", "IMD", "official weather record", r.document_date, r.document_title, r.source_url, r.quote)
+GRADE = {"TATACHEM": "material hit", "ACI": "material hit", "ADANIPORTS": "confirmed, immaterial", "GVT&D": "confirmed, immaterial"}
+# 0b the two rain episodes (G7): Tata Chemicals dates its loss to "July and August"
+if os.path.exists(DEL + "gj_rain_episodes.csv"):
+    EP = pd.read_csv(DEL + "gj_rain_episodes.csv")
+    for epi, g in EP.groupby("episode", sort=False):
+        add("0 event: rain episodes (NASA POWER district rainfall)", "", "rain episode", epi, "external/rain_daily.csv.gz (outputs/deliverables/gj_rain_episodes.csv)", "",
+            "; ".join(f"{r.district} {r.total_mm:.0f} mm (wettest day {r.wettest_day_mm:.0f} mm on {r.wettest_day})" for r in g.itertuples()), status="measurement",
+            note="Jamnagar = pre-2013 district incl. Devbhumi Dwarka (Mithapur). Tata Chemicals dates its loss to 'July and August': the loss cannot be split between the two episodes from company documents. Archean's loss is booked to the late-August storm (Asna) alone. Largest 7-day Jun-Sep totals in 2024 were the highest since 2000 in Jamnagar (534 mm, to 30 Aug) and Porbandar (794 mm, to 22 Jul) and second in Kachchh (364 mm, to 30 Aug) (gj_rain_7day_max.csv)")
 for sym, role in (("TATACHEM", "hit firm: Mithapur soda ash and salt"), ("ACI", "hit firm: Kutch salt"), ("ADANIPORTS", "hit firm: Mundra and Tuna ports"), ("GVT&D", "hit firm: Vadodara plant")):
     for i, r in G[G.nse_symbol == sym].iterrows():
         if i not in vg: continue
         sec = "Business Standard" in r.document_title
-        add("1 hit firm outside the pack (Step A, G7 pending)", sym, role + (" (secondary: news relay of the company notice)" if sec else ""), r.document_date, r.document_title, r.source_url,
+        add("1 hit firm outside the pack (Step A, G7: " + GRADE[sym] + ")", sym, role + (" (secondary: news relay of the company notice)" if sec else ""), r.document_date, r.document_title, r.source_url,
             r.quote, r.number_given, dfin=dq(sym), lag="Q2 FY25 (Jul-Sep 2024)", status="evidence" if r.what_it_shows != "no_mention" else "documented absence", note=r.notes)
+G7D = RE + "g7_docs.csv"; G7 = pd.read_csv(G7D, dtype=str).fillna("") if os.path.exists(G7D) else pd.DataFrame(columns=["task"]); v7 = ok("g7_docs.csv")
+for i, r in G7[G7.task.str.startswith("grade")].iterrows():
+    if i in v7: add("1 hit firm outside the pack (Step A, G7: confirmed, immaterial)", r.nse_symbol, r.task, r.document_date, r.document_title, r.source_url, r.quote, status="evidence", note=r.notes)
+if os.path.exists(DEL + "gj_archean_vs_peers.csv"):
+    AP = pd.read_csv(DEL + "gj_archean_vs_peers.csv"); m = AP[AP.window == "(-1,5)"]
+    a3, a8 = m.iloc[0], m.iloc[1]
+    add("1 hit firm outside the pack (Step A, G7: material hit)", "ACI", "price fall at the storm vs specialty-chemical peers (G7)", "2024-08-23 to 2024-09-02", "outputs/deliverables/gj_archean_vs_peers.csv, gj_archean_daily_ar.csv", "",
+        f"CAR {a3.car_aci:+.3f} (p={a3.p_aci:.2f}); net of the 3 G2 specialty controls {a3.net_of_peers:+.3f} (two-sided p={a3.p_net_two_sided:.2f}, one-sided {a3.p_net_one_sided_neg:.2f}); net of 8 specialty names {a8.net_of_peers:+.3f} (p={a8.p_net_two_sided:.2f})",
+        status="measurement", dfin=f"rupee value of the fall about Rs {abs(a3.rupee_value_of_car_cr):,.0f} cr (Rs {abs(a3.rupee_value_net_cr):,.0f} cr net of peers) against Rs 40.18 cr booked",
+        note="the fall is spread over the window (-1% to -2.6% a day, -4.8% on 2 Sep) and follows a +7.5% abnormal return on 22 Aug; filings 21 Aug - 24 Sep 2024 and free news show no other company event (news_checks.csv; one immaterial GST penalty on 20 Aug). "
+             "Its size is 30-40 times the booked loss, so it is not read as a response to the storm loss alone; cause not identified. Placebo days: 494 (Archean listed Nov 2022)")
 for i, r in G[G.nse_symbol == "GHCL"].iterrows():
     if i in vg: add("confound", "GHCL", "soda ash peer: planned boiler maintenance", r.document_date, r.document_title, r.source_url, r.quote, r.number_given, dfin=dq("GHCL"), status="confound", note=r.notes)
 # forward chain (H2)
@@ -60,7 +79,29 @@ if os.path.exists(TP):
 else:
     add("2 link: Tata Chemicals -> Tata Consumer (edible salt)", "", "", "", "", "", "", status="pending: link documents being collected")
 add("3 downstream node: Tata Consumer (market)", "TATACONSUM", "results-day returns (Q2 FY25)", "2024-10-17", "stepC_gj_results_days.csv", "", "", dfin=dq("TATACONSUM") + " | " + dq("TATACONSUM", "2024-12-31"),
-    status="measurement", note="abnormal returns from the market model estimated before 26 Aug 2024. Release times from the NSE filing names: Tata Consumer 18 Oct 2024 16:52 IST (after the close) -> first trading day to price it is 21 Oct; Tata Chemicals 17 Oct 2024 18:01 IST -> priced on 18 Oct")
+    status="measurement", note="abnormal returns from the market model estimated before 26 Aug 2024. Release times from the NSE filing names: Tata Consumer 18 Oct 2024 16:52 IST (after the close) -> 21 Oct is its results day: -6.7%, tea-driven by the company's account, not attributable to salt (G7 R4). Tata Chemicals 17 Oct 2024 18:01 IST -> its results day is 18 Oct (+1.1%); 10 Oct (+4.3%, after Ratan Tata's death) and 21 Oct (+10.4%, RBI ruling on Tata Sons' listing) are unrelated moves")
+KP = RE + "tcpl_salt_kpis.csv"
+if os.path.exists(KP):
+    K = pd.read_csv(KP, dtype=str).fillna(""); vk = ok("tcpl_salt_kpis.csv")
+    for i, r in K[K.metric == "sourcing_share"].iterrows():
+        if i in vk: add("2 link: Tata Chemicals -> Tata Consumer (edible salt)", "TATACONSUM", "buyer side: share of salt sourced from Tata Chemicals (closes the 85% item)", r.document_date, r.document_title, r.source_url, r.quote,
+                        number=r.value + " " + r.unit, status="evidence", note="Tata Consumer IAR 2022-23, Responsible Sourcing section (company web page)")
+if os.path.exists(DEL + "stepC_gj_tcpl_salt.csv"):
+    TS = pd.read_csv(DEL + "stepC_gj_tcpl_salt.csv")
+    for r in TS.itertuples():
+        add("3 downstream node: Tata Consumer salt by quarter (G7 R4 propagation measure)", "TATACONSUM", "salt revenue, volume and price " + r.period, "", "outputs/deliverables/stepC_gj_tcpl_salt.csv (from tcpl_salt_kpis.csv)", "",
+            "", dfin=f"salt revenue {r.salt_revenue_growth_pct:+.0f}%, volume {r.salt_volume_growth_pct:+.0f}%, implied price/mix {r.implied_price_mix_pp:+.0f} pp".replace("nan%", "n/a").replace("+nan", "n/a"),
+            lag={"Q2 FY25": "cost lagged into Q3", "Q3 FY25": "price increase in effect"}.get(r.period, ""), status="measurement",
+            note=f"price action: {r.retail_price_action}; Mithapur: {r.mithapur_mentioned}; {r.note if isinstance(r.note, str) else ''}")
+for i, r in G7[G7.task.str.startswith(("retail", "confound"))].iterrows():
+    if i in v7: add("3b last step: retail price of Tata Salt" if r.task.startswith("retail") else "confound (downstream)", r.nse_symbol, r.task, r.document_date, r.document_title, r.source_url, r.quote,
+                    status="evidence" if r.task.startswith("retail") else "confound", note=r.notes)
+NW = RE + "news_checks.csv"
+if os.path.exists(NW):
+    N = pd.read_csv(NW, dtype=str).fillna(""); vn = ok("news_checks.csv")
+    for i, r in N[(N.nse_symbol == "TATACHEM") & N.index.isin(vn)].iterrows():
+        add("confound: unrelated Tata Chemicals moves (G7 R4)", "TATACHEM", r.what_happened, r.event_date, r.document_title, r.source_url, r.quote, status="confound",
+            note="abnormal return " + {"2024-10-10": "+4.3% (t=+2.2) on 10 Oct 2024, the first trading day after Ratan Tata's death", "2024-10-21": "+10.4% (t=+5.3) on 21 Oct 2024"}.get(r.event_date, ""))
 # branch B: the pack's chemical belt
 n = pd.read_csv(OUT + "tables/ntl_plant_event.csv"); n = n[(n.event_id == "E_GJ_FLOOD_2024") & (n.dist_name == "Vadodara") & n.nse_symbol.isin(["GSFC", "GUJALKALI", "BODALCHEM", "KIRIINDUS"])]
 for sym, g in n.groupby("nse_symbol"):

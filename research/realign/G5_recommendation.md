@@ -1,67 +1,122 @@
-# Decision G5: NCR mechanism and confounds. Recommendation and evidence (23 Nov 2026)
+# Decision G5: NCR mechanism and confounds (decided 23 Nov 2026; corrections applied)
 
 **The question:** along the traced NCR pathway, which mechanism does the evidence support, and what are the confounds?
 
-**Where the evidence is** (every quote checked against the saved original by `src/42`):
-- `outputs/deliverables/evidence_NCR.csv` (per node)
-- `hit_register_NCR.csv` (all firms screened)
-- `stepC_ncr_node_cars.csv` and `stepC_ncr_quarterly.csv` (node responses)
-- `cement_market_test*.csv` (market-level branch)
-- `verified_links.csv` (links, with G4 applied)
+## Your decision (23 Nov 2026)
+- **R1 accepted on the documents and quarterly numbers:** ban → builders' sites → Ahluwalia, within the zone. The price
+  claim was wrong and has been corrected below. The (+21,+60) window from 18 Nov ends on 11 Feb 2025, before Ahluwalia's
+  Q3 filing (16:43 that day, after the close) and its 12 Feb call. The second-episode (+6,+20) window (26 Dec–15 Jan)
+  holds no Ahluwalia disclosure either.
+- **R2 accepted, worded "not detected"** (not "rejected"): the market-level test has little power.
+- **R3 and R4 accepted.**
+- **R5 accepted,** with two confounds added: the small- and mid-cap sell-off of Jan–Feb 2025, and Q4 seasonality.
+- **Cement test:** the binary version is accepted as a coarse, labelled test. +2.5 pp is the result. The +10.6 pp variant
+  is **dropped**: it rested on Star Cement and Prism Johnson, and no cause for their falls could be established (below).
+- **Register:** you will download Signature Global's Q3 FY25 transcript by hand. It stays "not readable" until then.
 
-**How to read the CARs:** market model; p-values come from each firm's own CAR on 1,000 random days. Windows
-start at 18 Nov 2024 unless marked 17 Dec, the start of the second ban episode.
+## Corrections applied (and checked)
 
-## What each node shows
+**Release times** (`research/realign/g5_timing_docs.csv`; all quotes checked by `src/42`):
+- **Q2 FY25 results:** filed on NSE "14-Nov-2024 17:16:53", after the close. 15 Nov was a market holiday, so the first
+  trading day to price them is 18 Nov, which is also the ban's day 0.
+- **Q2 call:** "held on 18-11-2024 at 3.00 p.m.", 30 minutes before the close. 18 Nov prices at most its first half
+  hour; 19 Nov prices the rest.
+- **Q3 FY25 results:** filed "11-Feb-2025 16:43:25", after the close, and first priced on 12 Feb. The investor deck
+  filed at 12:33 on 12 Feb does not mention the ban.
+- **Q3 call:** the 7 Feb notice reads "12-02-2025 4.00 P.M. Hrs. (I.S.T) Conference Call …". The call started after the
+  close, so its guidance cut is first priced on 13 Feb.
+
+**Window dates** (trading calendar of the return matrix):
+- 18 Nov (+21,+60) runs from 18 Dec 2024 to 11 Feb 2025.
+- 17 Dec (+6,+20) runs from 26 Dec 2024 to 15 Jan 2025.
+
+**Ahluwalia's price evidence, restated** (`outputs/deliverables/stepC_ncr_contractor_net.csv`, `stepC_ncr_disclosure_days.csv`; `src/55`):
+- Net = CAR minus the mean of the five unlinked contractors (NCC, PSP, Cemindia/ITD, L&T, Capacit'e).
+- p for the net comes from the same difference on random days. About 800 days are usable, because the peers' price
+  history starts in Jun 2021.
+- Robustness for the small- and mid-cap sell-off: the unlinked small and mid caps only (L&T excluded).
+
+| Window (dates) | What it holds for Ahluwalia | CAR (p) | Unlinked mean | **Net (p)** | Net of small/mid only (p) |
+|---|---|---|---|---|---|
+| 18 Nov (0,0): 18 Nov | ban day 0 + Q2 results + first 30 min of the call | −2.8% (0.16) | +1.9% | **−4.7% (0.04)** | −5.0% (0.04) |
+| 18 Nov (+1,+1): 19 Nov | rest of the Q2 call ("GRAP-IV is in place …") | −1.2% (0.55) | +0.1% | −1.3% (0.55) | −1.7% (0.43) |
+| 18 Nov (0,+1) | both | −4.0% (0.18) | +2.0% | **−6.0% (0.06)** | −6.7% (0.04) |
+| 18 Nov (−1,+3): 14–22 Nov | the above | −11.9% (0.03) | −2.0% | −10.0% (0.06) | −9.4% (0.07) |
+| 18 Nov (−1,+5): 14–26 Nov | the above | −7.8% (0.19) | −0.0% | −7.8% (0.21) | −7.5% (0.23) |
+| 18 Nov (+6,+20): 27 Nov–17 Dec | no disclosure | +7.1% (0.45) | +3.1% | +4.0% (0.60) | +3.6% (0.62) |
+| 18 Nov (+21,+60): 18 Dec–11 Feb | **no Ahluwalia disclosure** | −33.4% (0.02) | −1.5% | −31.9% (0.04) | −30.9% (0.06) |
+| 17 Dec (−1,+5): 16–24 Dec | no disclosure | −1.1% (0.84) | +5.5% | −6.6% (0.27) | −8.0% (0.21) |
+| 17 Dec (+6,+20): 26 Dec–15 Jan | **no Ahluwalia disclosure** | −19.5% (0.02) | −2.0% | −17.5% (0.07) | −16.5% (0.09) |
+| 12 Feb (0,0): 12 Feb | Q3 results (revenue −7.3% YoY) | −2.9% (0.15) | +1.1% | −4.0% (0.08) | −3.9% (0.10) |
+| 12 Feb (+1,+1): 13 Feb | Q3 call: FY25 growth guided to 8.5–9% | −2.3% (0.25) | −0.1% | −2.2% (0.28) | −2.4% (0.27) |
+| 12 Feb (0,+1) | both | −5.2% (0.08) | +1.1% | **−6.3% (0.05)** | −6.2% (0.05) |
+
+**Reading:**
+- On its two disclosure days, Ahluwalia fell 4.7% (18 Nov) and 6.3% (12–13 Feb) more than the unlinked contractors.
+- Neither day is clean:
+  - 18 Nov is also the ban's day 0, and B.L. Kashyap (−3.5%) and J. Kumar (−1.9%) fell that day too.
+  - On 12 Feb, B.L. Kashyap also fell 3.9% with no filing of its own (its Q3 results came out on 7 Feb).
+  - The guidance-cut day itself (13 Feb) is −2.2% net (p = 0.28).
+- The two large late falls survive netting (−31.9%, p = 0.04; −17.5%, p = 0.07) and the small/mid-cap check. But they
+  contain no Ahluwalia disclosure, and **their cause is not identified**. Candidates are the ban's January recurrences,
+  the small- and mid-cap sell-off and unknown firm news. They are **not** evidence for the mechanism.
+
+**Quarterly numbers, corrected** (the company's own figures, Q4 FY25 call of 2 Jun 2025):
+- **Q3 FY25:** turnover Rs 951.95 cr, "a negative growth of 7.26%".
+- **Q4 FY25:** Rs 1,215.84 cr against Rs 1,163.66 cr, "growth of 4.48%" YoY. This replaces "Q4 +27.7% QoQ (catch-up)".
+  Management itself says "The 4 th Quarter is always the best quarter in terms of performance".
+- **FY25:** Rs 4,098.62 cr against Rs 3,855.29 cr, **+6.3%**, below the "8.5%-9%" guided on 12 Feb 2025. The guidance
+  was earlier "about 10%".
+- **The company's own account of the lag:** "we lost approximately two to three months, two months in Q3 and nearly a
+  month in Q4 of FY '25".
+
+## Node table (corrected)
 
 | Node | Own statement (original document) | Price response | Quarterly change | Reading |
 |---|---|---|---|---|
-| **DLF** (hit firm) | "the 2 malls in the Delhi NCR were a little delayed because of the GRAP and the stoppage of construction" (27 Jan 2025). The two malls are Summit Plaza and Midtown Plaza (G4 R4) | +5.2% to 22 Nov (p = 0.10); +5.8% over (−1,+5) (p = 0.12); −6.4% over the second episode's (+6,+20) (p = 0.23) | Q3 sales +0.5% YoY. **Construction outflow rose from Rs 521 cr (Q2) to Rs 591 cr (Q3)** | Delay confirmed by the firm and small. DLF's construction cash spend did not fall in the ban quarter. No price effect. |
-| **NBCC** (hit firm) | Amrapali and 70% of GPRA "severely hitted by the NGT"; project-management growth 1.2% against "8% to 10%" otherwise; a ban of "1.5 months" (15 Nov–27 Dec) | −4.1% to 22 Nov (p = 0.36); −1.5% over (−1,+5) (p = 0.77); +1.3% against the PSU index | Consolidated Q3 sales +15.9% YoY | Hit confirmed by the firm, and quantified on one segment (about 7–9 pp of growth). No price effect. The upstream branch stays open: no contractor identified on Amrapali or GPRA. |
-| **Ahluwalia** ← DLF (contractor, material, within zone) | Nov 2024: "GRAP-IV is in place … I've kept the margin guidance muted". Feb 2025: FY25 growth "8.5%-9%" against about 10% guided; labour cost up "on account of NGT"; clients (DLF named) paid idle labour; "January also has been badly hit"; restart "on 3rd or 4th of February" (the last Stage III revocation was 3 Feb). The planned Arbour ramp to Rs 25 cr a month was delayed | −11.9% to 22 Nov (p = 0.03). Its own Q2 results came out after the close on 14 Nov and its call was on 18 Nov. −7.8% over (−1,+5) (p = 0.19). **−19.5% over the second episode's (+6,+20) (p = 0.02); −33.4% over (+21,+60) (p = 0.02)**, a window that holds its Q3 guidance cut | Q3 sales −7.2% YoY, −5.8% QoQ; margin 9% (−2 pp YoY); Q4 +27.7% QoQ (catch-up) | **The mechanism is documented end to end at this node**: ban → stopped civil work on DLF and other NCR sites → lower revenue and higher idle-labour cost → guidance cut → price falls in the windows that carry those disclosures. Builders absorbed part of the cost by paying idle labour. |
-| **B.L. Kashyap** ← DLF (verified link; site hit not documented) | No mention in its Q3 FY25 presentation | No effect (+0.1% over (−1,+5); +1.2% over the second episode's (+6,+20)) | Q3 sales −25.3% YoY, but already −18.3% in Q2; margin 2.6% | Not confirmed at this node; the decline predates the ban. |
-| **J. Kumar** ← NBCC (not material) | No mention | No effect (+3.0% over (−1,+5)) | Q3 sales +22% YoY | Low dose (2–3% of its sales). No effect, as expected. |
-| **Unlinked contractors** (NCC, PSP, ITD/Cemindia, L&T, Capacit'e) | No mention | About zero on average (−0.0% over (−1,+5); +3.1% over (+6,+20)) | Q3 sales from −10.6% (PSP) to +22.7% (Capacit'e) YoY | Comparison group. ITD and Capacit'e have NCR presence. |
-| **Cement/steel, firm level** | No document links any cement or steel firm to NBCC or DLF | — | — | **The chain breaks here** (G4 R1). DLF's FY24 construction outflow is at most 0.7%–14% of any listed supplier's FY24 revenue; NBCC buys no materials itself. |
-| **Cement, market level** (not a firm link) | UltraTech, North row: housing grew, commercial grew; "Infrastructure segment registered degrowth on account of pollution control measures taken in Delhi and surrounding regions, projects on hold due to farmers agitation in Punjab and completion of major projects like RRTS" | Makers with northern capacity minus makers with none: +2.5 pp over (−1,+5) (p = 0.34). Against documented zeros only: +10.6 pp (p = 0.005). Both the wrong sign | — | No measurable market-level propagation. One supplier names the curbs, as one of three reasons, for one segment. |
+| **DLF** (hit firm) | "the 2 malls in the Delhi NCR were a little delayed because of the GRAP and the stoppage of construction" (27 Jan 2025): Summit Plaza and Midtown Plaza | +5.8% over (−1,+5) (p = 0.12) | Q3 sales +0.5% YoY; construction outflow Rs 521 cr (Q2) → Rs 591 cr (Q3) | Delay confirmed and small; the cash spend did not fall; no price effect |
+| **NBCC** (hit firm) | Amrapali and 70% of GPRA "severely hitted by the NGT"; project-management growth 1.2% against "8% to 10%"; a ban of "1.5 months" | −4.1% to 22 Nov (p = 0.36); +1.3% against the PSU index | consolidated Q3 sales +15.9% YoY | Hit confirmed, quantified on one segment; no price effect; upstream branch open |
+| **Ahluwalia** ← DLF (material, within zone) | Q2 and Q3 calls: GRAP-IV, idle labour, guidance cut to 8.5–9%, restart on 3–4 Feb; Q4 call: "two months in Q3 and nearly a month in Q4" lost | disclosure days net of unlinked contractors: −4.7% (18 Nov, p = 0.04), −6.3% (12–13 Feb, p = 0.05); late falls not attributed (above) | Q3 −7.3% YoY; Q4 +4.5% YoY; FY25 +6.3% vs 8.5–9% guided | **Mechanism documented at this node** by the firm's statements and numbers; price evidence limited to two mixed disclosure days |
+| **B.L. Kashyap** ← DLF (link verified, site hit not documented) | no mention | +0.1% over (−1,+5); net +0.1% (p = 0.99) | Q3 −25.3% YoY, already −18.3% in Q2 | Not confirmed; decline predates the ban |
+| **J. Kumar** ← NBCC (not material) | no mention | +3.0% over (−1,+5); net +3.1% (p = 0.55) | Q3 +22% YoY | Low dose; no effect, as expected |
+| **Unlinked contractors** | no mention | mean −0.0% over (−1,+5) | Q3 from −10.6% to +22.7% YoY | Comparison group |
+| **Cement/steel, firm level** | no document links any supplier to NBCC or DLF | — | — | **The chain breaks here** (DLF's outflow is 0.7–14% of any supplier's revenue) |
+| **Cement, market level** | UltraTech's North row names the curbs as one of three reasons for infrastructure degrowth; housing and commercial grew | **+2.5 pp over (−1,+5), p = 0.34** (makers with northern capacity minus makers with none; wrong sign for a hit) | — | **Not detected** (coarse, labelled test with little power) |
 
-**Other firms attributing an effect** (`hit_register_NCR.csv`):
-- **Ashiana Housing (external):** "QoQ decline by 13.64% due to imposition of GRAP related restrictions in Delhi-NCR", in area constructed.
-- **Godrej Properties (external):** "because of NGT ban … some of the billing milestones had moved from quarter 3 to quarter 4".
+**The dropped cement variant:**
+- It compared the northern makers with the two documented zero-capacity makers only, and gave +10.6 pp (p = 0.005).
+- It rested on Star Cement (−9.2% over (−1,+5)) and Prism Johnson (−5.9%). The news check
+  (`research/realign/news_checks.csv`) found:
+  - **Prism Johnson** reported "a second straight quarter of losses" on 13 Nov 2024, the day before the window, and its
+    "shares … fell 2.5 per cent post results".
+  - **Star Cement** had no filing or news in 14–26 Nov other than its results call material (results on 8 Nov).
+- No cause can be stated for Star, so the variant is dropped.
 
-The other 25 firms screened say nothing. Signature Global, Max Estates and Unitech could not be read.
+**Other firms attributing an effect** (`hit_register_NCR.csv`): Ashiana Housing (−13.64% QoQ in area constructed) and
+Godrej Properties (billing milestones moved from Q3 to Q4). Signature Global, Max Estates and Unitech: not readable.
 
-## Confounds, and how each is handled
-
+## Confounds
 | Confound | Affects | Handling | Status |
 |---|---|---|---|
-| IGL's own gas-allocation cut (18 Nov) | the old direct test | IGL excluded everywhere | closed |
-| Adani indictment (21 Nov) | ACC, Ambuja, Adani firms | out of all controls, placebos and the cement test; ACC flagged for Step C | closed |
-| PSU rally (25 Nov) | NBCC | window ending 22 Nov; PSU benchmark; controls' 25 Nov returns shown (rally broad: PSU index +2.5%, developers +1.5% to +5%) | controlled |
-| Ahluwalia's own Q2 results (14 Nov, after close) and call (18 Nov) | Ahluwalia (−1,+5) | cannot be separated: the call itself carried the GRAP guidance. Read the move as a response to the firm's own disclosure of the ban's effect; the second-episode window and the quarterly numbers are shown alongside | open (by construction) |
-| The ban recurred: Stage III on 3–5, 9–12, 15–17 Jan and 29 Jan–3 Feb 2025 | all (+21,+60) windows | recorded from the PIB releases. Ahluwalia says January was hit | noted: (+21,+60) is not a clean post-event window |
-| Maharashtra assembly election (polling 20 Nov, a market holiday; results 23 Nov) | developer controls (5 of 8 are Mumbai/Pune-focused) | not separated; controls' 25 Nov returns are mixed (Lodha −1.4% to Puravankara +5.0%) | possible; not established |
-| Farmers' agitation in Punjab; RRTS completion | cement market level | UltraTech names both alongside the curbs | cannot be separated |
-| B.L. Kashyap's falling revenue before the ban | B.L. Kashyap node | Q2 already −18% YoY | explains its quarter better than the ban does |
-| "NGT ban" wording | text screening | companies call CAQM's GRAP order the "NGT ban"; NBCC's transcript spells GRAP "graph" | a manual-trace point: an automated GRAP keyword search misses both |
+| IGL's gas-allocation cut (18 Nov) | old direct test | IGL excluded everywhere | closed |
+| Adani indictment (21 Nov) | ACC, Ambuja, Adani firms | out of controls, placebos and the cement test | closed |
+| PSU rally (25 Nov) | NBCC | window ending 22 Nov; PSU benchmark | controlled |
+| Ahluwalia's own Q2 results (14 Nov, after the close; priced 18 Nov) and call (18 Nov, 3.00 pm) | Ahluwalia on 18–19 Nov | cannot be separated from the ban's day 0; reported day by day | open (by construction) |
+| Ban recurrences: Stage III on 3–5, 9–12, 15–17 Jan and 29 Jan–3 Feb 2025 | all late windows | recorded from PIB | (+21,+60) is not a clean post-event window |
+| **Small- and mid-cap sell-off, Jan–Feb 2025** (added at G5) | Ahluwalia's late windows (a small cap) | net of the unlinked small and mid caps only: −30.9% (p = 0.06), −16.5% (p = 0.09) | reduces but does not remove the late falls; their cause is not identified |
+| **Q4 seasonality** (added at G5) | any QoQ reading of Q4 | Q4 reported YoY (+4.5%) and as the full year (+6.3%); "The 4 th Quarter is always the best quarter" | handled |
+| Maharashtra election (20 and 23 Nov) | developer controls | not separated | possible |
+| Farmers' agitation; RRTS completion | cement market level | named by UltraTech with the curbs | cannot be separated |
+| B.L. Kashyap's revenue fall before the ban | B.L. Kashyap | Q2 already −18% YoY | explains its quarter better |
+| "NGT ban" wording | text screening | companies call CAQM's GRAP order the "NGT ban"; NBCC spells GRAP "graph" | manual-trace point |
 
-## Recommendation (your call)
-
-**R1. Accept the mechanism for the within-zone chain.** Ban → builders' sites (DLF, NBCC) → contractor
-(Ahluwalia). It is documented by each firm's own statements and by Ahluwalia's revenue, cost and guidance, and
-priced at the contractor in the windows that carry its disclosures. Record that the effect is within the zone: the
-contractor's sites were themselves under the ban.
-
-**R2. Reject propagation to out-of-zone suppliers.**
-- No firm-level cement or steel link exists.
-- The market-level test is null, or the wrong sign.
-- The only supplier statement assigns the curbs one of three causes for one segment, while housing and commercial grew.
-
-**R3. Keep NBCC's upstream branch open** (no contractor identified on Amrapali or GPRA). **Record B.L. Kashyap as a
-verified but unconfirmed node.**
-
-**R4. Treat the hit firms' own price responses as nil.** DLF +5.8%, NBCC −1.5% over (−1,+5). The mechanism
-shows in their statements, and in DLF's case not even in its cash spend.
-
-**R5. Carry the open confounds into the memo.** These are the Ahluwalia timing, the January recurrences and the
-Maharashtra election. None reverses R1 or R2.
+## Recommendation as accepted
+- **R1 (accepted on documents and quarterly numbers):** the within-zone chain is ban → builders' sites (DLF, NBCC) →
+  contractor (Ahluwalia). The effect is within the zone. Price evidence at the contractor is limited to two disclosure
+  days, each mixed with other news.
+- **R2 (accepted, reworded):** propagation to out-of-zone suppliers is **not detected**. No firm-level link exists, and
+  the market-level test (+2.5 pp, p = 0.34) has little power.
+- **R3 (accepted):** NBCC's upstream branch stays open; B.L. Kashyap is a verified but unconfirmed node.
+- **R4 (accepted):** the hit firms' own price responses are nil.
+- **R5 (accepted, extended):** carry into the memo the Ahluwalia timing, the January recurrences, the Maharashtra
+  election, the small- and mid-cap sell-off and Q4 seasonality.

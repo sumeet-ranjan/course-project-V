@@ -17,6 +17,13 @@ PACK = set(companies().nse_symbol)
 qc = pd.read_csv(RE + "quote_check_realign.csv")
 ok = lambda f: set(qc[(qc.file == f) & (qc.status == "verified")].row)
 NC = pd.read_csv(DEL + "stepC_ncr_node_cars.csv"); Q = pd.read_csv(DEL + "stepC_ncr_quarterly.csv")
+NET = pd.read_csv(DEL + "stepC_ncr_contractor_net.csv") if os.path.exists(DEL + "stepC_ncr_contractor_net.csv") else pd.DataFrame(columns=["nse_symbol"])
+def net(sym):
+    """G5: every contractor window net of the unlinked-contractor mean, placebo p for the difference (src/55)."""
+    x = NET[NET.nse_symbol == sym]
+    if not len(x): return ""
+    lab = lambda r: ("18 Nov" if r.event.startswith("18 Nov") else "17 Dec" if r.event.startswith("17 Dec") else "12 Feb") + " " + r.window
+    return "; ".join(f"{lab(r)} {r.net_of_unlinked:+.3f} (p={r.p_net_two_sided:.2f})" for r in x.itertuples())
 def car(sym, ev, w):
     x = NC[(NC.nse_symbol == sym) & (NC.event == ev) & (NC.window == w)]
     return f"{x.car.iloc[0]:+.3f} (p={x.p_two_sided.iloc[0]:.2f})" if len(x) and pd.notna(x.car.iloc[0]) else ""
@@ -31,6 +38,7 @@ def add(node, sym, role, date, source, url, quote, dfin="", lag="", status="evid
                      car_18nov_m1_3=car(sym, "18 Nov 2024", "(-1,3)") if sym else "", car_18nov_m1_5=car(sym, "18 Nov 2024", "(-1,5)") if sym else "",
                      car_18nov_6_20=car(sym, "18 Nov 2024", "(6,20)") if sym else "", car_18nov_21_60=car(sym, "18 Nov 2024", "(21,60)") if sym else "",
                      car_17dec_m1_5=car(sym, "17 Dec 2024", "(-1,5)") if sym else "", car_17dec_6_20=car(sym, "17 Dec 2024", "(6,20)") if sym else "",
+                     net_of_unlinked_contractors=net(sym) if sym in ("AHLUCONT", "BLKASHYAP", "JKIL") else "",
                      delta_financial=dfin, lag=lag, status=status, note=note))
 # 0 event
 h = pd.read_csv(ROOT + "/research/proxy/official_hazard_records.csv", dtype=str).fillna("")
@@ -70,6 +78,21 @@ for i, r in AH.iterrows():
         add("3 within-zone upstream contractor (G4)", "AHLUCONT", "breadcrumb: " + r.notes, r.document_date, r.document_title, r.source_url, r.quote, trade="civil/structural (banned under Stage III)",
             fp="yes (NCR sites)", lag="Q3 FY25 and January 2025; restart 3-4 Feb 2025" if "Q3" in r.document_title else "Q3 FY25 (expected in Nov 2024)",
             note="own Q2 FY25 results 14 Nov 2024 after the close and call on 18 Nov fall in the (-1,+5) window" if "Q2" in r.document_title else "")
+TD = RE + "g5_timing_docs.csv"
+if os.path.exists(TD):
+    G5 = pd.read_csv(TD, dtype=str).fillna(""); vg5 = ok("g5_timing_docs.csv")
+    for i, r in G5.iterrows():
+        if i not in vg5: continue
+        out = r.task.startswith("outcome")
+        add("3 within-zone upstream contractor (G4)", "AHLUCONT", r.task, r.document_date, r.document_title, r.source_url, r.quote, trade="civil/structural (banned under Stage III)", fp="yes (NCR sites)",
+            dfin=("Q4 FY25 turnover Rs 1,215.84 cr, +4.48% YoY; FY25 Rs 4,098.62 cr vs 3,855.29 cr, +6.3%, below the 8.5-9% guided on 12 Feb 2025 (company's own figures)" if out else ""),
+            lag=("about two months of Q3 FY25 and nearly a month of Q4 FY25 (company's account)" if "lost months" in r.task else ""), status="evidence", note=r.notes)
+    add("3 within-zone upstream contractor (G4)", "AHLUCONT", "price evidence (corrected at G5)", "", "outputs/deliverables/stepC_ncr_contractor_net.csv, stepC_ncr_disclosure_days.csv", "",
+        "", trade="civil/structural (banned under Stage III)", fp="yes (NCR sites)", status="measurement",
+        note="Disclosure days, net of the unlinked contractors: 18 Nov 2024 -4.7% (p=0.04; mixes the ban's day 0, the Q2 results and the first 30 min of the 3.00 pm call); "
+             "12-13 Feb 2025 -6.3% (p=0.05; 12 Feb prices the Q3 results, 13 Feb the 4.00 pm call with the guidance cut; B.L. Kashyap also fell 3.9% on 12 Feb with no filing of its own). "
+             "The large late falls, (+21,+60) from 18 Nov (18 Dec 2024 - 11 Feb 2025) net -31.9% (p=0.04) and (+6,+20) from 17 Dec (26 Dec 2024 - 15 Jan 2025) net -17.5% (p=0.07), "
+             "contain no Ahluwalia disclosure: the Q3 results came after the close on 11 Feb and the call on 12 Feb. Their cause is not identified (ban recurrences in January; small- and mid-cap sell-off of Jan-Feb 2025; not attributed).")
 # 4 cement/steel: firm-level hop not verified; market-level branch
 add("4 cement/steel supplier (firm level)", "", "builder -> cement/steel supplier", "", "outputs/deliverables/verified_links.csv (rows N020 onward)", "", "",
     status="break: not verified (G4 R1)", trade="material for civil work",
@@ -81,11 +104,13 @@ for i, r in SP.iterrows():
             "North ✓ Housing segment registered growth in both rural and urban areas. ✓ Infrastructure segment registered degrowth on account of pollution control measures taken in Delhi and surrounding regions, projects on hold due to farmers agitation in Punjab and completion of major projects like RRTS. ✓ Commercial segment registered overall growth.",
             status="market-level evidence", trade="cement", fp="no", note="UltraTech's full North row (Q3 FY25 sectoral update): housing and commercial grew; only infrastructure fell, for three stated reasons")
 if os.path.exists(DEL + "cement_market_test.csv"):
-    T = pd.read_csv(DEL + "cement_market_test.csv")
+    T = pd.read_csv(DEL + "cement_market_test.csv"); T = T[T.spec.str.startswith("main")]
+    add("4b cement market-level branch (not a firm link, G4 R3)", "", "variant against the two documented zero-capacity makers only", "", "outputs/deliverables/cement_market_test.csv", "", "",
+        status="dropped (G5)", trade="cement", note="it rested on Star Cement (-9.2% over (-1,+5)) and Prism Johnson (-5.9%); no company news found for Star in 14-26 Nov 2024; Prism's fall follows its loss-making Q2 FY25 results of 13 Nov 2024")
     for r in T.itertuples():
         add("4b cement market-level branch (not a firm link, G4 R3)", "", f"market test {r.event} {r.window}", "", "outputs/deliverables/cement_market_test.csv", "",
             f"{r.spec}: makers with northern capacity minus makers with none {r.gap_north_minus_none:+.3f} (p={r.p_two_sided:.2f}); CAR north {r.car_north:+.3f} (n={r.n_north}), none {r.car_none:+.3f} (n={r.n_none})",
-            status="market-level test", trade="cement")
+            status="market-level test (G5: the result; little power)", trade="cement")
 else:
     add("4b cement market-level branch (not a firm link, G4 R3)", "", "market test", "", "", "", "", status="pending: capacity data")
 o = pd.DataFrame(rows); o.to_csv(DEL + "evidence_NCR.csv", index=False)

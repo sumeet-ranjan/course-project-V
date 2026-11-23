@@ -1,5 +1,7 @@
 # Gap map against the assignment (22 Nov 2026)
 
+> **Status update, 23 Nov 2026 (checkpoint 4):** every deliverable below now exists in draft (diagrams, evidence tables, links file, tables 1–3, memo); see the deliverables table in `README.md`. This map is kept as the 22 Nov baseline.
+
 Scope: `docs_from_pack/INSTRUCTIONS.md` §2 (steps A–E), §6 (deliverables) and §7 (order of work).
 Everything else in this folder is kept but no longer extended. Status codes: **done**, **partial**,
 **missing**, **wrong** (must be corrected before use).

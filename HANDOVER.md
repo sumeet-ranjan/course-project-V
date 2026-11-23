@@ -32,7 +32,7 @@ of scope, method and deliverables (user, 22 Nov 2026). The starting dataset is t
 - **Step B for NBCC and DLF done (checkpoint 2):**
   - No cement or steel firm-to-firm link was found.
   - Three contractor links were documented (Ahluwalia and B.L. Kashyap ← DLF; J. Kumar ← NBCC).
-  - Decision G4 is with the user (`research/realign/G4_recommendation.md`).
+  - Decision G4 went to the user (`research/realign/G4_recommendation.md`); decided on 23 Nov 2026 (next item).
   - The user asked for a zip of the folder at each checkpoint.
 - **G4 applied and the scope widened (23 Nov 2026):**
   - Contractor links: Ahluwalia ← DLF material; B.L. Kashyap ← DLF site hit not documented; J. Kumar ← NBCC low dose.
@@ -40,8 +40,13 @@ of scope, method and deliverables (user, 22 Nov 2026). The starting dataset is t
   - Cement is tested as a market-level test; DLF's two malls are Summit Plaza and Midtown Plaza.
   - The user added rules: trade classes; no NCR weight dated after Dec 2024; external and footprint flags on every firm.
   - Hit-firm registers for both events, including firms outside the pack (`outputs/deliverables/hit_register_*.csv`).
-- **NCR Steps C–D done:** `src/49` (node CARs and quarterly numbers), `src/50` (cement market test), `src/51` (registers), `src/47` (evidence table). **G5 is with the user.**
-- **Gujarat Step A outside the pack done:** Tata Chemicals, Archean, Adani Ports and GE T&D; the Tata Chemicals → Tata Consumer chain (`src/52`, `src/53`). **G7 is with the user.**
+- **NCR Steps C–D done:** `src/49` (node CARs and quarterly numbers), `src/50` (cement market test), `src/51` (registers), `src/47` (evidence table). **G5 decided and applied (23 Nov 2026).**
+- **Gujarat Step A outside the pack done:** Tata Chemicals, Archean, Adani Ports and GE T&D; the Tata Chemicals → Tata Consumer chain (`src/52`, `src/53`). **G7 decided and applied (23 Nov 2026).**
+- **Checkpoint 4 (23 Nov 2026): all four deliverables drafted.**
+  - G5/G7 corrections: `src/55` (contractor windows net of unlinked contractors; disclosure days), `src/56` (rain episodes; Archean vs specialty peers), `src/57` (Tata Consumer salt by quarter); evidence in `research/realign/g5_timing_docs.csv`, `g7_docs.csv`, `news_checks.csv`, `tcpl_salt_kpis.csv`.
+  - Step E: `src/58` (dose-response and placebo tables), `src/59` (pathway diagrams, lag figure); memo draft `outputs/deliverables/memo.md`.
+  - The final causal claim (§5) is the user's: the memo grades the evidence and leaves the verdict to the user.
+- **Run order after any change:** `49 → 55 → 47` (NCR); `52 → 56 → 57 → 53` (Gujarat); `54 → 40` (links); `50`, `51`; `58` (set `SKIP_PLACEBO=1` to refit table 2 without recomputing table 3); `59` last. Then `42` to re-check every quote.
 - **The permission check blocked one command:** a direct download of an exchange PDF with a browser-like
   header (23 Nov 2026). It was not retried. Sub-agents are told to use only the page reader and to record
   refusals instead of working around them.
@@ -129,6 +134,18 @@ There is no script 01 or 02; the audit and exposure logic live in `common.py`. S
 - **Results release times (from the NSE filing names):** Tata Consumer filed its Q2 FY25 results at 16:52 IST on 18 Oct 2024, after the close, so they were priced on 21 Oct. Tata Chemicals filed at 18:01 IST on 17 Oct, so they were priced on 18 Oct.
 - **Not found:** the "more than 85% of its salt from Tata Chemicals" statement in Tata Consumer's IAR 2022-23, as read. The link rests instead on Tata Chemicals' FY25 annual report ("single customer") and Tata Consumer's related-party filings.
 - **Tata Chemicals' Mithapur cost:** the ₹11 cr one-off is in the deck (the profit impact). The call gives about ₹40–44 cr of total weather impact. Quote both.
+
+### Traps found at G5/G7 (23 Nov 2026) — handled, do not undo
+- **Calls after the close.** Ahluwalia's Q3 FY25 call was at 4.00 pm IST on 12 Feb 2025 (notice of 7 Feb), so its guidance cut is priced on 13 Feb; its Q3 results were filed at 16:43 on 11 Feb (priced 12 Feb). Its Q2 call was at 3.00 pm on 18 Nov 2024, 30 minutes before the close. The (+21,+60) window from 18 Nov ends on 11 Feb and holds none of these.
+- **The Q3 deck filed at 12:33 on 12 Feb does not mention the ban**: 12 Feb prices the numbers only.
+- **One price increase, not two.** Tata Consumer's "INR2" and "7%" are the same increase (₹2 on a ₹28 pack, from October 2024).
+- **The "more than 85%" sourcing statement is on Tata Consumer's IAR 2022-23 web page** (`for-better-sourcing.html`, Responsible Sourcing), not in the PDF as read.
+- **Adani Ports' "+5%" is its August 2024 cargo**, not a quarterly figure.
+- **Placebo days are fewer for firms outside the pack**: Yahoo peer prices start on 1 Jun 2021 (about 800 usable days); Archean listed in Nov 2022 (494).
+- **Store CARs at 6 decimals.** At 4 decimals, NBCC's −0.041484 printed as −4.2% in one file and −4.1% in another; `stepC_ncr_node_cars.csv` is now written at 6 decimals.
+- **NSE's announcement list for Archean, 22 Aug–5 Sep 2024, is empty**; the wider list (1 Aug–30 Sep) confirms no filing between 21 Aug and 24 Sep. The 20 Aug filing is an immaterial GST penalty.
+- **A Benzinga link returned the site's home page**; the 21 Oct 2024 Tata Chemicals move is sourced from Zee Business instead.
+- **Sub-agents can die on API overload (529)**; check what they saved before relaunching, and ask them to write their CSV incrementally.
 
 ### Traps found in Round 4 — handled, do not undo
 - **NASA POWER changes its rainfall source on 1 Oct 2026** (MERRA-2 before, the near-real-time GEOS-IT model after; see the API response header "sources"). `src/27` stops rainfall at 30 Sep 2026. Recheck the switch date before extending.

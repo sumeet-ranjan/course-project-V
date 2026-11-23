@@ -1,4 +1,4 @@
-"""Gujarat forward chain (H2) link: Tata Chemicals (Mithapur salt) -> Tata Consumer Products (edible salt). Decision G7 pending.
+"""Gujarat forward chain (H2) link: Tata Chemicals (Mithapur salt) -> Tata Consumer Products (edible salt). Verified at G7 (23 Nov 2026): material; cost pass-through.
 Appended to the links file by src/40_links_file.py. Weights are for FY2023-24 (before the Aug 2024 storm), from the two
 firms' own documents (research/realign/gj_tata_chain_docs.csv, quotes checked by src/42):
   purchases: Tata Consumer's related-party disclosures, Rs 758.46 cr (H1 FY24) + Rs 818.18 cr (H2 FY24) = Rs 1,576.64 cr;
@@ -15,10 +15,10 @@ P = 758.46 + 818.18
 ws = (P / 15421, 0.36); wb = (P / (5730.20 + 2955.31), P / (4040.26 + 2528.82))
 row = dict(link_id="G001", chain="GJ", supplier="Tata Chemicals Ltd (Mithapur)", supplier_symbol="TATACHEM", buyer="Tata Consumer Products Ltd", buyer_symbol="TATACONSUM",
            in_sample="False", supplier_external="yes", supplier_in_pack_footprint="no (Mithapur, Devbhumi Dwarka)", buyer_external="yes", buyer_in_pack_footprint="no",
-           product="edible salt (vacuum-evaporated, Tata Salt)", trade="input supply (salt)", status="candidate: decision G7 pending",
+           product="edible salt (vacuum-evaporated, Tata Salt)", trade="input supply (salt)", status="verified (G7): material; cost pass-through, not a shortage",
            status_reason=("documented on both sides: Tata Chemicals AR FY2024-25 'For edible Salt, Tata Consumer Products Limited (TCPL) continues to be a single customer'; "
-                          "Tata Consumer's related-party filings (FY24 purchases Rs 1,576.64 cr). The 'more than 85% of its salt' statement was not found in the IAR 2022-23 as read"),
-           decided="", live_from="long-standing (FY24 and FY25 documents)", live_to="", live_at_event="yes",
+                          "Tata Consumer's related-party filings (FY24 purchases Rs 1,576.64 cr); Tata Consumer IAR 2022-23, Responsible Sourcing: 'more than 85% of the salt we offer in the market is sourced from Tata Chemicals'"),
+           decided="23 Nov 2026 (G7 R3)", live_from="long-standing (FY24 and FY25 documents)", live_to="", live_at_event="yes",
            w_supplier_sales_low=f"{ws[0]:.3f}", w_supplier_sales_high=f"{ws[1]:.3f}",
            w_supplier_sales_basis="FY24 purchases Rs 1,576.64 cr / Tata Chemicals revenue: consolidated Rs 15,421 cr (10.2%); standalone 36% (Tata Chemicals' one-customer note, matching the purchases)",
            w_buyer_input_cost_low=f"{wb[0]:.3f}", w_buyer_input_cost_high=f"{wb[1]:.3f}",

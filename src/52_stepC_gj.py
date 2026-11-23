@@ -1,6 +1,6 @@
 """Step C (Gujarat, outside the pack): node CARs, results-day returns and quarterly numbers.
 
-Hit-firm candidates (G7 pending): TATACHEM (Mithapur), ACI (Archean, Kutch), GVT&D (GE T&D India, Vadodara), ADANIPORTS
+Hit firms (graded at G7, 23 Nov 2026): TATACHEM (Mithapur), ACI (Archean, Kutch), GVT&D (GE T&D India, Vadodara), ADANIPORTS
 (Mundra, Tuna); confound firm GHCL (soda ash, planned boiler shutdown from 16 Sep 2024); downstream node TATACONSUM
 (edible salt bought from Tata Chemicals). Engine: es_lib (market model vs NIFTY 500, [-250,-30]), return matrix
 extended with Yahoo prices; placebo p-values from each firm's own CAR on 1,000 random days.

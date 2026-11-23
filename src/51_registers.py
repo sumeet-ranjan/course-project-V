@@ -45,11 +45,17 @@ def mcap(sym, day):
     px = x.sort_values("date").close.iloc[-1] if len(x) else np.nan
     return round(px * shares(sym), 0) if pd.notna(px) else np.nan
 rows = {"NCR": [], "GJ": []}
+GRADE = {("NCR", "NBCC"): "confirmed hit firm (G3)", ("NCR", "DLF"): "confirmed hit firm (G3)",
+         ("NCR", "AHLUCONT"): "within-zone contractor, material (G4; mechanism accepted at G5 on documents and quarterly numbers)",
+         ("GJ", "TATACHEM"): "material hit (G7): about 10 days, 30,000 t soda ash, 40,000 t salt; loss dated 'July and August', not separable between the two rain episodes",
+         ("GJ", "ACI"): "material hit (G7): Rs 40.18 cr salt stock lost to the late-August storm (Asna)",
+         ("GJ", "ADANIPORTS"): "confirmed, immaterial (G7): 4 days equivalent; August 2024 cargo still +5% YoY",
+         ("GJ", "GVT&D"): "confirmed, immaterial (G7): production disruption, no damage; sales +59%"}
 def add(ev, sym, firm, status, said, number, date, doc, url, read, fp_ext=""):
     fpz = "NCR" if ev == "NCR" else "GJ"
     rows[ev].append(dict(firm=firm or NAME.get(sym, sym), nse_symbol=sym, external="no" if sym in PACK else "yes",
                          in_pack_footprint=(("yes" if sym in FP[fpz] else "no") if sym in PACK else (fp_ext or "not established")),
-                         status=status, what_it_said=said, number_given=number, date=date, document=doc, source_url=url, read_mode=read))
+                         status=status, grade=GRADE.get((ev, sym), ""), what_it_said=said, number_given=number, date=date, document=doc, source_url=url, read_mode=read))
 # ================= NCR =================
 A = load("ncr_stepA_evidence.csv"); va = verified("ncr_stepA_evidence.csv")
 for i, r in A.iterrows():
