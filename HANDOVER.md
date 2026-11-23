@@ -34,6 +34,14 @@ of scope, method and deliverables (user, 22 Nov 2026). The starting dataset is t
   - Three contractor links were documented (Ahluwalia and B.L. Kashyap ← DLF; J. Kumar ← NBCC).
   - Decision G4 is with the user (`research/realign/G4_recommendation.md`).
   - The user asked for a zip of the folder at each checkpoint.
+- **G4 applied and the scope widened (23 Nov 2026):**
+  - Contractor links: Ahluwalia ← DLF material; B.L. Kashyap ← DLF site hit not documented; J. Kumar ← NBCC low dose.
+  - The cement/steel firm hop is not verified (a materiality bound is added).
+  - Cement is tested as a market-level test; DLF's two malls are Summit Plaza and Midtown Plaza.
+  - The user added rules: trade classes; no NCR weight dated after Dec 2024; external and footprint flags on every firm.
+  - Hit-firm registers for both events, including firms outside the pack (`outputs/deliverables/hit_register_*.csv`).
+- **NCR Steps C–D done:** `src/49` (node CARs and quarterly numbers), `src/50` (cement market test), `src/51` (registers), `src/47` (evidence table). **G5 is with the user.**
+- **Gujarat Step A outside the pack done:** Tata Chemicals, Archean, Adani Ports and GE T&D; the Tata Chemicals → Tata Consumer chain (`src/52`, `src/53`). **G7 is with the user.**
 - **The permission check blocked one command:** a direct download of an exchange PDF with a browser-like
   header (23 Nov 2026). It was not retried. Sub-agents are told to use only the page reader and to record
   refusals instead of working around them.
@@ -107,6 +115,20 @@ There is no script 01 or 02; the audit and exposure logic live in `common.py`. S
 - **Radar cannot see water between buildings.** On average 45% of the 500 m around a plant is in the flood product's exclusion mask. "No flood pixel" is not "not flooded" for a built-up site.
 - **Sentinel-1 has gaps.** No pass over Chennai from 30 Nov 2023 to 17 Jan 2024. Check the official catalogue before planning radar work; the Planetary Computer mirror also lacks some scenes.
 - **Sub-agents sometimes report the page reader as blocked.** It answers 401 "bad IP reputation" when several agents use it at once and recovers after a minute. Run reader-heavy agents one at a time.
+
+### Traps found during the realignment (Nov 2026)
+- **Wording:** companies call CAQM's GRAP order the "NGT ban". NBCC's transcript spells GRAP "graph". Keyword screens must include both.
+- **"ACC India Pvt Ltd"** (a contractor on DLF Privana South) is the Arabian Construction Company subsidiary, not ACC Ltd. Do not match it to the cement firm.
+- **GE Vernova T&D India's symbol `GVT&D`** breaks the NSE announcement API (the "&" splits the URL). Use BSE or company copies.
+- **NSE archive PDFs often return 403 through the page reader.** The BSE copy (`AttachHis/<id>.pdf`) or the company site often works. Never work around a refusal.
+- **The permission check blocked two requests.** One was a direct download with a browser-like header (the main session). The other was a sub-agent's call to a website's data API. Neither was retried.
+- **Dates that differ from first reports:**
+  - Tata Chemicals' Q2 FY25 results and deck are dated 17 Oct 2024; its call transcript was filed on 24 Oct.
+  - GE T&D's own filing dates its disruption notice 27 Aug 2024; the press reported it on 28 Aug.
+  - Ahluwalia's Q2 FY25 call was on 18 Nov 2024, the NCR event day. Its results came out after the close on 14 Nov.
+- **Results release times (from the NSE filing names):** Tata Consumer filed its Q2 FY25 results at 16:52 IST on 18 Oct 2024, after the close, so they were priced on 21 Oct. Tata Chemicals filed at 18:01 IST on 17 Oct, so they were priced on 18 Oct.
+- **Not found:** the "more than 85% of its salt from Tata Chemicals" statement in Tata Consumer's IAR 2022-23, as read. The link rests instead on Tata Chemicals' FY25 annual report ("single customer") and Tata Consumer's related-party filings.
+- **Tata Chemicals' Mithapur cost:** the ₹11 cr one-off is in the deck (the profit impact). The call gives about ₹40–44 cr of total weather impact. Quote both.
 
 ### Traps found in Round 4 — handled, do not undo
 - **NASA POWER changes its rainfall source on 1 Oct 2026** (MERRA-2 before, the near-real-time GEOS-IT model after; see the API response header "sources"). `src/27` stops rainfall at 30 Sep 2026. Recheck the switch date before extending.

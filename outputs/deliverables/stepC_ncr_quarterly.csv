@@ -1,0 +1,31 @@
+nse_symbol,node,quarter,sales_cr,sales_yoy_pct,sales_qoq_pct,opm_pct,opm_change_yoy_pp
+DLF,hit firm (confirmed),2024-09-30,1975.0,46.51,45.01,25.0,-9.0
+DLF,hit firm (confirmed),2024-12-31,1529.0,0.53,-22.58,26.0,-8.0
+DLF,hit firm (confirmed),2025-03-31,3128.0,46.51,104.58,31.0,-4.0
+NBCC,hit firm (confirmed),2024-09-30,2446.0,18.8,14.14,4.1,-0.5
+NBCC,hit firm (confirmed),2024-12-31,2809.0,15.88,14.84,5.0,0.2
+NBCC,hit firm (confirmed),2025-03-31,4644.0,16.22,65.33,6.0,0.0
+AHLUCONT,contractor <- DLF (material),2024-09-30,1011.0,12.08,10.01,7.0,-3.0
+AHLUCONT,contractor <- DLF (material),2024-12-31,952.0,-7.21,-5.84,9.0,-2.0
+AHLUCONT,contractor <- DLF (material),2025-03-31,1216.0,4.47,27.73,10.0,1.0
+BLKASHYAP,contractor <- DLF (site hit not documented),2024-09-30,267.0,-18.35,-23.71,8.0,-1.0
+BLKASHYAP,contractor <- DLF (site hit not documented),2024-12-31,242.0,-25.31,-9.36,2.6,-4.4
+BLKASHYAP,contractor <- DLF (site hit not documented),2025-03-31,294.0,-13.78,21.49,2.5,-7.5
+JKIL,contractor <- NBCC (not material),2024-09-30,1292.0,17.03,0.78,15.0,1.0
+JKIL,contractor <- NBCC (not material),2024-12-31,1487.0,21.99,15.09,15.0,0.0
+JKIL,contractor <- NBCC (not material),2025-03-31,1633.0,14.6,9.82,14.0,0.0
+NCC,comparison contractor (unlinked),2024-09-30,5196.0,10.08,-6.01,9.0,3.0
+NCC,comparison contractor (unlinked),2024-12-31,5345.0,1.62,2.87,8.0,-2.0
+NCC,comparison contractor (unlinked),2025-03-31,6131.0,-5.46,14.71,9.0,1.0
+PSPPROJECT,comparison contractor (unlinked),2024-09-30,586.0,-5.48,-5.94,6.0,-6.0
+PSPPROJECT,comparison contractor (unlinked),2024-12-31,630.0,-10.64,7.51,6.0,-4.0
+PSPPROJECT,comparison contractor (unlinked),2025-03-31,673.0,0.75,6.83,4.8,-3.2
+CEMPRO,comparison contractor (unlinked),2024-09-30,1991.0,23.66,-16.38,9.0,-1.0
+CEMPRO,comparison contractor (unlinked),2024-12-31,2270.0,12.54,14.01,9.0,-1.0
+CEMPRO,comparison contractor (unlinked),2025-03-31,2532.0,12.13,11.54,10.0,0.0
+LT,comparison contractor (unlinked),2024-09-30,61555.0,20.64,11.67,13.0,-1.0
+LT,comparison contractor (unlinked),2024-12-31,64668.0,17.31,5.06,12.0,-1.0
+LT,comparison contractor (unlinked),2025-03-31,74392.0,10.9,15.04,13.0,0.0
+CAPACITE,comparison contractor (unlinked),2024-09-30,518.0,22.75,-9.12,18.0,3.0
+CAPACITE,comparison contractor (unlinked),2024-12-31,590.0,22.66,13.9,15.0,-3.0
+CAPACITE,comparison contractor (unlinked),2025-03-31,671.0,12.02,13.73,13.0,-5.0

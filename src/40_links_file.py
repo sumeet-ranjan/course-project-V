@@ -72,7 +72,23 @@ for i, r in L.iterrows():
                      read_mode="original re-read 23 Nov 2026" if i == 14 else "not yet re-read",
                      saved_text="research/realign/docs/links__AARTIIND_UPL__pressrelease.txt" if i == 14 else "", notes=nt))
 o = pd.DataFrame(rows)
+# flags required by the user (G4 rules): external = not one of the pack's 81 firms; in_pack_footprint = a plant in the
+# chain's corrected event footprint (pack firms only; external firms 'not established' unless a row states otherwise)
+from common import companies, exposure
+PACK = set(companies().nse_symbol); EXP = exposure()
+FP = {z: set(EXP[(EXP.zone == z) & (EXP.share_cost > 0)].nse_symbol) for z in ("NCR", "GJ")}
+def _ext(s): return "" if not s else ("no" if s in PACK else "yes")
+def _fp(s, ch):
+    if not s: return ""
+    if ch not in FP: return "n/a"
+    return ("yes" if s in FP[ch] else "no") if s in PACK else "not established"
+for side in ("supplier", "buyer"):
+    o[side + "_external"] = [_ext(s) for s in o[side + "_symbol"]]
+    o[side + "_in_pack_footprint"] = [_fp(s, ch) for s, ch in zip(o[side + "_symbol"], o.chain)]
+o["trade"] = ["gas/LNG (not a construction trade)" if ch == "GJ" and "LNG" in pr or "regas" in pr.lower() else "" for ch, pr in zip(o.chain, o["product"])]
 new = ROOT + "/research/realign/links_new.csv"
 if os.path.exists(new): o = pd.concat([o, pd.read_csv(new, dtype=str).fillna("")], ignore_index=True)
+new_gj = ROOT + "/research/realign/links_new_gj.csv"   # Gujarat forward chain (src/54_gj_links.py)
+if os.path.exists(new_gj): o = pd.concat([o, pd.read_csv(new_gj, dtype=str).fillna("")], ignore_index=True)
 o.to_csv(DEL + "verified_links.csv", index=False)
 print(o.groupby(["chain", "status"]).size().to_string())

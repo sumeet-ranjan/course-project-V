@@ -9,8 +9,10 @@
 - **Step B for NBCC and DLF done (checkpoint 2):**
   - Evidence: `research/realign/stepB_*.csv`.
   - Links: `src/46_stepB_links.py`, rows N001–N084 of `outputs/deliverables/verified_links.csv`.
-  - **With the user: G4** (`research/realign/G4_recommendation.md`).
-  - Steps C–D wait for G4.
+  - G4 decided by the user on 23 Nov 2026 and applied.
+- **NCR Steps C–D done (checkpoint 3):** node CARs, quarterly numbers, the market-level cement test, the NCR register and evidence table. **With the user: G5** (`research/realign/G5_recommendation.md`).
+- **Gujarat, worked in parallel (user, 23 Nov 2026):** Step A outside the pack (Tata Chemicals, Archean, Adani Ports, GE T&D), the Tata Chemicals → Tata Consumer chain, the Gujarat register and evidence table. **With the user: G7** (`research/realign/G7_recommendation.md`).
+- **After G5 and G7:** Step E (both diagrams), Gujarat Steps C–D for the chain, the dose-response and placebo tables, then the memo.
 
 **Scope:** `docs_from_pack/INSTRUCTIONS.md` and `docs_from_pack/README.md` only. `HANDOVER.md` still
 holds for environment setup, data traps and permissions. The previous to-do list is kept in

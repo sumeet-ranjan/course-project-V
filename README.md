@@ -19,13 +19,14 @@ not part of the deliverables (see the end of this file).
 
 | # | Deliverable | File (in `outputs/deliverables/`) | Status, 23 Nov 2026 |
 |---|---|---|---|
-| 1 | Traced-pathway diagram + evidence table per node, NCR | `pathway_NCR.*`, `evidence_NCR.csv` | Step A done (G3: NBCC and DLF confirmed); Step B done; decision G4 with the user |
-| 1 | The same, Gujarat | `pathway_GJ.*`, `evidence_GJ.csv` | not started |
-| 2 | Verified supply-chain links file, replacing the scaffold | `verified_links.csv` (built by `src/40_links_file.py`) | 32 legacy rows classified under G1. NCR Step B: three contractor links documented (G4 pending); the scaffold's 75 cement/steel guesses for NCR builders marked not verified or not searched |
+| 1 | Traced-pathway diagram + evidence table per node, NCR | `pathway_NCR.*`, `evidence_NCR.csv` | Steps A–B done (G3, G4); Steps C–D done (`stepC_ncr_*`, `cement_market_test*`); decision G5 with the user |
+| 1 | The same, Gujarat | `pathway_GJ.*`, `evidence_GJ.csv` | Step A outside the pack done (`gj_hit_firms_docs.csv`); Tata Chemicals → Tata Consumer chain traced; decision G7 with the user |
+| 2 | Verified supply-chain links file, replacing the scaffold | `verified_links.csv` (built by `src/40_links_file.py`) | G1 and G4 applied (127 rows). Each row carries the external, footprint and trade flags. Contractor links: Ahluwalia ← DLF verified and material; B.L. Kashyap ← DLF verified, site hit not documented; B.L. Kashyap ← Anant Raj held; J. Kumar ← NBCC low dose. Cement/steel rows are not verified, with a materiality bound |
 | 3(i) | Direct event study / DiD | `table1_direct.csv`, `table1_direct_firms.csv`, `table1_returns_25nov2024.csv`, `table1_did.csv` (read with `table1_notes.md`) | first version done (Step 1, 23 Nov 2026), on the G2 firm sets |
 | 3(ii) | Propagation dose-response | `table2_dose_response.csv` | not started |
 | 3(iii) | Placebos | `table3_placebo.csv` | placebo firm lists drafted (`placebo_firms.csv`, Gujarat list provisional); tests not run |
 | 4 | Memo, 3–5 pages | `memo.md` | not started |
+| — | Hit-firm registers (scope change, 23 Nov 2026) | `hit_register_NCR.csv`, `hit_register_GJ.csv` | first version: NCR 45 rows, Gujarat 21 rows (Tata Consumer rows pending) |
 
 ## Decisions taken by the user
 - **22 Nov 2026, realignment:**
@@ -56,6 +57,22 @@ not part of the deliverables (see the end of this file).
     - Controls are matched by sub-industry first and size second. All ten firms are kept, and the five without a size match are not described as size-matched.
     - The user will check the five unverified controls by hand.
   - **Record:** the January 2025 Stage III orders are added to `research/proxy/official_hazard_records.csv`.
+
+- **23 Nov 2026, G4 and the scope change:**
+  - **R1:** the cement/steel firm-level hop is not verified. A materiality bound is added: DLF's FY24 construction outflow of Rs 1,642 cr against each supplier's FY24 revenue.
+  - **R2:** all contractors are within-zone upstream nodes.
+    - Ahluwalia ← DLF is verified and material, with the Downtown Phase-2 contract live from 11 Oct 2024.
+    - B.L. Kashyap ← DLF is verified, but no hit at its site is documented. B.L. Kashyap ← Anant Raj is held.
+    - J. Kumar ← NBCC is a low-dose row.
+    - Unlinked contractors are kept as comparison rows.
+  - **R3:** cement is tested as a separate market-level test, not a firm link.
+  - **R4:** DLF's two delayed malls are Summit Plaza (Gurugram) and Midtown Plaza (Delhi). Their contractor is not identified; Tata Projects is documented only for the ONE Midtown towers.
+  - **Rules:**
+    - Suppliers are classified by trade. Civil, structural and ready-mix work is banned under Stage III; fit-out trades are contrasts.
+    - No weight dated after Dec 2024 is used for NCR.
+    - "ACC India Pvt Ltd" is not ACC Ltd.
+    - Every firm is flagged external and in_pack_footprint.
+  - **Scope change:** hit-firm registers for both events, including firms outside the pack.
 
 ## Findings so far (within scope)
 - **Step 1, H1 direct effect** (`outputs/deliverables/table1_*`; p-values from 1,000 placebo days):
@@ -89,6 +106,29 @@ not part of the deliverables (see the end of this file).
     - J. Kumar ← NBCC: 2–3% of its sales.
   - The contractors' own NCR sites were under the same ban, so they are within-zone nodes.
   - UltraTech is the only cement or steel firm whose Q3 FY25 documents mention the Delhi pollution curbs (as one cause of infrastructure degrowth).
+- **NCR Steps C–D (decision G5 pending, `research/realign/G5_recommendation.md`):**
+  - **Hit firms:** NBCC and DLF state the hit, but show no price effect (−1.5% and +5.8% over (−1,+5)). DLF's construction outflow rose in the ban quarter (Rs 521 cr to Rs 591 cr).
+  - **Ahluwalia (DLF's contractor, within zone):** the mechanism is documented end to end.
+    - Its statements: margin guidance muted for GRAP-IV in Nov 2024; FY25 growth cut to 8.5–9%; idle labour paid by clients including DLF; January also hit; restart on 3–4 Feb.
+    - Its numbers: Q3 sales −7.2% YoY, then Q4 +28% QoQ.
+    - Its price: −19.5% over the second episode's (+6,+20) (p = 0.02) and −33% over (+21,+60) (p = 0.02), the windows that carry its disclosures.
+  - **B.L. Kashyap and J. Kumar:** no effect.
+  - **Cement:** no firm-level link (the chain breaks here). The market-level test is null or the wrong sign. UltraTech says only North infrastructure fell, for three reasons, while housing and commercial grew.
+  - **Register:** six firms attribute an effect to the ban (NBCC, DLF, Ahluwalia, Ashiana, Godrej Properties, UltraTech in part).
+- **Gujarat (decision G7 pending, `research/realign/G7_recommendation.md`):**
+  - **The Gujarat hit firms are all external to the pack.**
+    - Tata Chemicals: Mithapur, about 10 days, 30,000 t soda ash and 40,000 t salt lost.
+    - Archean: Kutch, Rs 40.18 cr exceptional loss of 4.72 lakh t salt stock, attributed to Cyclone Asna.
+    - Adani Ports: Mundra and Tuna, "4 days equivalent".
+    - GE T&D India: Vadodara, production disruption.
+  - **Mithapur and Kutch** were hit by the same storm system, outside the pack's listed districts: the deep depression of 25–30 Aug 2024 that became Cyclonic Storm "Asna" (IMD Tropical Cyclone Advisory No. 1, 30 Aug 2024).
+  - **The pack's chemical belt** is kept as its own branch. Its Vadodara sites went dark on 30 Aug, but no pack firm attributes an effect: the chain breaks at Step A.
+  - **Forward chain (H2), Tata Chemicals → Tata Consumer (edible salt):** documented on both sides.
+    - Tata Chemicals: TCPL is the "single customer" for its edible salt.
+    - FY24 purchases Rs 1,576.64 cr: 18–24% of Tata Consumer's material inputs, and 10–36% of Tata Chemicals' sales.
+    - Tata Consumer's Q2 FY25 call describes a cost pass-through: Mithapur had to buy brine, the cost "flows in into our system", and Tata Salt prices rose by ₹2.
+    - Margin held and volumes grew. Q3 brought a 7% price rise, with no margin expansion.
+    - The price fell 6.7% on 21 Oct 2024, the first trading day after its results; the company attributes the margin pressure to tea costs.
 - **H2–H4, propagation:** no result yet. Two earlier results are **withdrawn**:
   - the scaffold test, which ran on unverified industry-level guesses;
   - the earlier "verified links" test (archived README §5.5), which used the wrong NCR hit firms, counted Petronet links without a confirmed source shock, and counted the Aarti–UPL joint venture, which was not yet supplying.

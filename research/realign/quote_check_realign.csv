@@ -1,4 +1,29 @@
 file,row,key,read_mode,status,quote
+ahlucont_q2q3_quotes.csv,0,AHLUCONT,original_pdf,verified,"So now GRAP-IV is in place and -- so that is another thing, which is going to impact this quarter. That's why I've kept the margin guidance muted for the rest o"
+ahlucont_q2q3_quotes.csv,1,AHLUCONT,original_pdf,verified,"As far as the DLF Arbour Project goes, we are -- we actually -- we executed about INR11 crores to INR12 crores per month. Or last month, we achieved that run ra"
+ahlucont_q2q3_quotes.csv,2,AHLUCONT,original_pdf,verified,"we had expected that the NGT ban would hit us, but we had not expected that they would hit us so badly. That is the reason for this sort of degrowth. I had give"
+ahlucont_q2q3_quotes.csv,3,AHLUCONT,original_pdf,verified,"some clients of ours have started compensating for the labor which has been idle ... during this period, primarily from the point of view to prevent the labor f"
+ahlucont_q2q3_quotes.csv,4,AHLUCONT,original_pdf,verified,"The primary reason for the labor cost being up, I won't say it is labor shortage. The primary reason is on account of NGT."
+ahlucont_q2q3_quotes.csv,5,AHLUCONT,original_pdf,verified,"we must keep in mind that January also has been badly hit on account of NGT. It is only now that the work has started in real earnest in February. In fact, the "
+ahlucont_q2q3_quotes.csv,6,AHLUCONT,original_pdf,verified,"some of the clients paid for us to hold our labor on site, even when the projects were closed. So, we could just hit the ground running on 3rd or 4th of Februar"
+cement_capacity_regions.csv,0,ULTRACEMCO,fetched_full_text,verified,North  33.3  3.0  2.7  39.0
+cement_capacity_regions.csv,1,SHREECEM,fetched_full_text,verified,Northern region accounts for more than half of our cement and clinker capacity leading to dependency on the region.
+cement_capacity_regions.csv,2,JKCEMENT,fetched_full_text,verified,Ujjain Grinding Unit having a capacity of 1.5 MTPA was commissioned in Nov’23.
+cement_capacity_regions.csv,3,JKLAKSHMI,fetched_full_text,verified,"Over the years, the Cement capacity has grown to the present level of 11.70 Million Tonnes."
+cement_capacity_regions.csv,4,DALBHARAT,fetched_full_text,verified,Current Capacity: 46.6 MnT
+cement_capacity_regions.csv,5,BIRLACORPN,fetched_full_text,verified,scale up production capacity from 20 MT to 25 MT over the next two years
+cement_capacity_regions.csv,6,MANGLMCEM,fetch_failed,no quote,
+cement_capacity_regions.csv,7,NUVOCO,fetched_full_text,verified,25 MTPA
+cement_capacity_regions.csv,8,HEIDELBERG,fetch_failed,no quote,
+cement_capacity_regions.csv,9,PRSMJOHNSN,fetched_full_text,verified,"installed cement capacity of 5.6 MTPA; Supply agreements with three grinding units, situated in Uttar Pradesh, for an aggregate capacity of 1.44 MTPA"
+cement_capacity_regions.csv,10,RAMCOCEM,fetched_full_text,verified,The  cement  capacity  has  been  increased  from  23  MTPA  to  24  MTPA
+cement_capacity_regions.csv,11,INDIACEM,fetched_full_text,verified,"Nokhla Village, Banswara District, Rajasthan"
+cement_capacity_regions.csv,12,ORIENTCEM,fetch_failed,no quote,
+cement_capacity_regions.csv,13,SAGCEM,fetch_failed,no quote,
+cement_capacity_regions.csv,14,KCP,fetch_failed,no quote,
+cement_capacity_regions.csv,15,NCLIND,fetched_full_text,verified,plant operations situated at Mattapalli village of Mattampalli Manda
+cement_capacity_regions.csv,16,DECCANCE,fetched_no_capacity_data,no quote,
+cement_capacity_regions.csv,17,STARCEMENT,fetched_full_text,verified,Largest Cement manufacturer in North-East India
 controls_gj_chemicals.csv,0,CHAMBLFERT,original_pdf,verified,"The Company is engaged in manufacture of Urea, and has three urea plants at one location in Gadepan, District Kota (Rajasthan)."
 controls_gj_chemicals.csv,1,COROMANDEL,original_pdf,verified,"AP - Vizag, Kakinada | TN: Ennore, Ranipet, Thyagavalli | JK: Jammu | GJ: Ankleshwar, Dahej, Sarigam, Nandesari | RJ: Udaipur, Kota | MP: Nimrani | KA-Hospet | "
 controls_gj_chemicals.csv,2,RCF,original_pdf,verified,"The Company has put in place a fraud prevention policy. As a part of compliance with the policy, Company has appointed nodal officers for Trombay, Thal, Marketi"
@@ -47,6 +72,72 @@ controls_ncr_developers.csv,11,RUSTOMJEE,original_pdf,verified,# RUSTOMJEE - Lea
 controls_ncr_developers.csv,12,SHRIRAMPPS,original_pdf,verified,• “Pune” market entry in Q3 | H2. JDA Signed; MoEF approvals
 controls_ncr_developers.csv,13,PHOENIXLTD,original_pdf,no quote,
 controls_ncr_developers.csv,14,LODHA,original_pdf,verified,"✓ Acquired ~45 acres of land in Chennai, first outside"
+gj_hit_firms_docs.csv,0,TATACHEM,full_text,verified,"Indian volumes were lower, and this was mainly impacted due to very heavy rains, which impacted our operations for almost 10 days"
+gj_hit_firms_docs.csv,1,TATACHEM,full_text,verified,"just say this weather impact has had 30,000 tons on soda ash and about 40,000 tons on salt."
+gj_hit_firms_docs.csv,2,TATACHEM,full_text,verified,"there is a cost impact almost equal to, in our estimation, around Rs.40 crore, of which Rs.25 crore was on account of unstable operation, the increased cost, an"
+gj_hit_firms_docs.csv,3,TATACHEM,full_text,verified,PAT includes impact of ₹ 11 Cr one -off on account of unprecedented heavy rains in Mithapur
+gj_hit_firms_docs.csv,4,TATACHEM,full_text,verified,Unprecedented heavy rains in July and August impacted Mithapur operations leading to lower production as compared to the previous quarter
+gj_hit_firms_docs.csv,5,ACI,full_text,verified,Exceptional item is due to Asna cyclone impact resulting in loss of Industrial salt stock of Rs. 40.18 Crs (4.72 Lakhs MT) in
+gj_hit_firms_docs.csv,6,ACI,full_text,verified,Asna cyclone impact resulting in loss of Industrial salt stock of Rs. 4018.27 Iakhs
+gj_hit_firms_docs.csv,7,GVT&D,full_text,verified,"GE T&D India has informed that the operations at the company's Plant situated at Vadodara, Gujarat, have been disrupted due to heavy rain fall & water logging."
+gj_hit_firms_docs.csv,8,GVT&D,full_text,verified,"This is continuation to our earlier disclosure dated August 27, 2024, regarding intimation of disruption of operation at"
+gj_hit_firms_docs.csv,9,GVT&D,full_text,verified,There is no damage to the property due to natural calamity or other force majeure events except the Production disruption because the labor was unable to reach 
+gj_hit_firms_docs.csv,10,GVT&D,full_text,no quote,
+gj_hit_firms_docs.csv,11,GHCL,full_text,verified,"GHCl Limited announced that the annual maintenance activities of the boiler at the company's soda ash plant are scheduled to take place from September 16, 2024 "
+gj_hit_firms_docs.csv,12,GHCL,full_text,verified,"we advanced our plant maintenance activities to September from October, resulting in temporary volume loss in this quarter"
+gj_hit_firms_docs.csv,13,GHCL,full_text,no quote,
+gj_hit_firms_docs.csv,14,ADANIPORTS,full_text,verified,operations at Mundra and Tuna impacted for 4 days equivalent due to inclement weather
+gj_hit_firms_docs.csv,15,IMD,full_text,verified,The deep depression over Saurashtra & Kachchh moved slowly southwestwards with a speed of 3 kmph during past 6 hours and lay centered at 1730 hours IST of today
+gj_hit_firms_docs.csv,16,IMD,full_text,verified,Rainfall Warning: Gujarat State: Saurashtra & Kachchh: Light to moderate rainfall at most places with heavy to extremely heavy rainfall at isolated places on 29
+gj_hit_firms_docs.csv,17,IMD,full_text,verified,SUB:  (A) DEEP DEPRESSION  INTENSIFIED INTO A CYCLONIC STORM  „ASNA ‟
+gj_hit_firms_docs.csv,18,IMD,full_text,verified,"INTENSIFIED INTO A CYCLONIC STORM “ASNA” (PRONOUNCED AS AS-NA) AND LAY CENTERED AT 0600 UTC OF 30 TH AUGUST, 2024 OVER THE SAME REGION"
+gj_tata_chain_docs.csv,0,TATACHEM,full_text,verified,"For edible Salt, Tata Consumer Products Limited (TCPL) continues to be a single customer."
+gj_tata_chain_docs.csv,1,TATACHEM,full_text,verified,"The demand growth for salt was flat at 13.48 lakh MT from the Company’s key customer, Tata Consumer Products Limited during the year."
+gj_tata_chain_docs.csv,2,TATACONSUM,full_text,verified,"Our supply partner, Tata Chemicals Limited has the largest manufacturing facility for producing vacuum evaporated salt in India."
+gj_tata_chain_docs.csv,3,TATACONSUM,full_text,verified,"Our supply partner, Tata Chemicals Limited has the largest manufacturing facility for producing vacuum evaporated salt in India."
+gj_tata_chain_docs.csv,4,TATACHEM,full_text,verified,The Company has one customer whose revenue represents 37% (2024: 36%) of the Company’s total revenue
+gj_tata_chain_docs.csv,5,TATACHEM,full_text,verified,"On a standalone basis, the Revenue from operations for FY 2024-25 stood at H 4,441 crore (Previous year: H 4,384 crore)."
+gj_tata_chain_docs.csv,6,TATACHEM,full_text,verified,"On a consolidated basis, the Revenue from operations for FY 2024-25 stood at H 14,887 crore (Previous year: H 15,421 crore)"
+gj_tata_chain_docs.csv,7,TATACONSUM,full_text,verified,Tata Consumer Products Limited Tata Chemicals Limited Associate of Promoter Purchase of goods or services 1640.00 Approved 758.46
+gj_tata_chain_docs.csv,8,TATACONSUM,full_text,verified,Purchase of goods or services  1640.00  Approved  818.18
+gj_tata_chain_docs.csv,9,TATACONSUM,full_text,verified,Revenue from Operations 20 12801.85 10708.86
+gj_tata_chain_docs.csv,10,TATACONSUM,full_text,verified,Cost of Materials Consumed 22 4696.36 4040.26
+gj_tata_chain_docs.csv,11,TATACONSUM,full_text,verified,Purchases of Stock-in-trade 3974.07 2528.82
+gj_tata_chain_docs.csv,12,TATACONSUM,full_text,verified,Revenue from Operations 21 17618.30 15205.85
+gj_tata_chain_docs.csv,13,TATACONSUM,full_text,verified,Cost of Materials Consumed 23 6997.40 5730.20
+gj_tata_chain_docs.csv,14,TATACONSUM,full_text,verified,Purchase of Stock in Trade 3434.37 2955.31
+gj_tata_chain_docs.csv,15,TATACONSUM,full_text,verified,"We did have impact on cost for salt because Mithapur recorded its highest ever rain since 1929. And in line with mitigating the cost increase, we've announced a"
+gj_tata_chain_docs.csv,16,TATACONSUM,full_text,verified,Salt market share continued to strengthen. We're now up by 150 bps on an MAT basis.
+gj_tata_chain_docs.csv,17,TATACONSUM,full_text,verified,"On India Foods, 28% growth, 9% of it was organic growth and 1% was volume."
+gj_tata_chain_docs.csv,18,TATACONSUM,full_text,verified,September quarter the cost has not come in through us. Remember the cost comes in at Mithapur which then flows in into our system. When we knew this cost is com
+gj_tata_chain_docs.csv,19,TATACONSUM,full_text,verified,For salt I think more or less we mitigated the cost increase. So that is done. You could see us maintaining/inching up slightly the margin.
+gj_tata_chain_docs.csv,20,TATACONSUM,full_text,verified,erratic weather patterns have affected tea and salt production leading to input cost inflation.
+gj_tata_chain_docs.csv,21,TATACONSUM,full_text,verified,We announced a price increase in Tata Salt effective October to mitigate the salt cost increase.
+gj_tata_chain_docs.csv,22,TATACONSUM,full_text,verified,"As a perspective, tea costs have gone up by about 25% to 30%, and we expect them to stay elevated for some points of time."
+gj_tata_chain_docs.csv,23,TATACONSUM,full_text,verified,"Consolidated EBITDA grew 11%. Margin actually contracted 30 bps to 14.9%, primarily led by higher input costs for the India tea business."
+gj_tata_chain_docs.csv,24,TATACONSUM,full_text,verified,I think the branded business the largest impact was in the tea cost as Sunil mentioned
+gj_tata_chain_docs.csv,25,TATACONSUM,full_text,verified,"The value-added salt portfolio continued its strong momentum and grew 26% during the quarter, with rock salt registering record volumes."
+gj_tata_chain_docs.csv,26,TATACONSUM,full_text,verified,"Salt delivered a strong quarter. Traditionally, when we have taken up prices, volumes have been negative. This time around, we managed to grow even on the volum"
+gj_tata_chain_docs.csv,27,TATACONSUM,full_text,verified,"In salt, we've taken a 7% price increase, but it has put us back exactly where it should be in salt. So I don't think there's a margin expansion there."
+gj_tata_chain_docs.csv,28,TATACONSUM,full_text,verified,"Next, we had a 1% volume growth in salt."
+gj_tata_chain_docs.csv,29,TATACONSUM,full_text,verified,"On the macro piece, I don't think I need to talk about the tea prices, which are about 25% to 30% higher than last year."
+gj_tata_chain_docs.csv,30,TATACONSUM,full_text,verified,"EBITDA margins were flat versus last year, primarily on account of the impact in India of tea costs."
+gj_tata_chain_docs.csv,31,TATACONSUM,full_text,verified,"we've taken calibrated price increases across the tea portfolio, probably compensated for about 40% of the tea price increase. The 60% is still out there."
+gj_tata_chain_docs.csv,32,TATACONSUM,full_text,verified,Salt  delivered  a strong  quarter  post  price  increase  with  7% value  and  1% volume  growth .
+gj_tata_chain_docs.csv,33,TATACONSUM,full_text,verified,"❑ While Group revenues grew 17%, EBITDA remained flat as tea cost inflation led to a"
+gj_tata_chain_docs.csv,34,TATACHEM,full_text,verified,"Overall, the pricing remained stable. We believe the pricing has bottomed out across the markets."
+gj_tata_chain_docs.csv,35,TATACHEM,full_text,verified,"However, we had increased imports into India from Iran, Russia and Turkey."
+gj_tata_chain_docs.csv,36,TATACHEM,full_text,verified,"Also during the quarter, around the month of September, all our expansion capacities came on stream, including boiler, soda ash capacity, as well as bicarb capa"
+gj_tata_chain_docs.csv,37,TATACHEM,full_text,verified,"the additional capacity of 2.25 lakh tons of soda ash and bicarb which is about 140,000 tons and salt, we ramped up."
+gj_tata_chain_docs.csv,38,TATACHEM,full_text,verified,"this weather impact has had 30,000 tons on soda ash and about 40,000 tons on salt."
+gj_tata_chain_docs.csv,39,TATACHEM,full_text,verified,the investigation is being done by DGTR in Ministry of Commerce.
+gj_tata_chain_docs.csv,40,TATACHEM,full_text,verified,0.7 lacs MTPA Bi-carb expansion commissioned at Mithapur subject to Consent to Operate (‘CTO’)
+gj_tata_chain_docs.csv,41,TATACHEM,full_text,verified,Unprecedented heavy rains impacted operations in Mithapur leading to lower production as compared to previous quarter.
+gj_tata_chain_docs.csv,42,TATACHEM,full_text,verified,"In India, soda ash prices declined compared to last year's same quarter by about 15%, primarily driven by lower-priced imports."
+gj_tata_chain_docs.csv,43,TATACHEM,full_text,verified,China soda ash prices sharply dropped anywhere between 25% to 30%.
+gj_tata_chain_docs.csv,44,TATACHEM,full_text,verified,Imposition of MIP is expected to be sentimentally positive as this will safeguard the domestic price volatility.
+gj_tata_chain_docs.csv,45,TATACHEM,full_text,verified,"Our capacity currently is about 250,000 per quarter."
+gj_tata_chain_docs.csv,46,TATACHEM,full_text,no quote,
 grap_jan2025_orders.csv,0,,original_text,verified,"Today, Delhi’s average Air Quality Index (AQI) has been on an increasing trend and breached the 350 mark as at 4PM it clocked 371 as per the Daily AQI Bulletin "
 grap_jan2025_orders.csv,1,,original_text,verified,has revoked Stage-III of revised GRAP in the entire National Capital Region with immediate effect on Sunday
 grap_jan2025_orders.csv,2,,original_text,verified,the Sub-Committee today has taken the call to invoke all actions as envisaged under Stage-III of revised GRAP – ‘Severe’ Air Quality (DELHI AQI ranging between 
@@ -59,6 +150,30 @@ grap_jan2025_orders.csv,8,,original_text,verified,vide its order dated 29.01.202
 ncr_maruti_screen.csv,0,MARUTI,original_pdf,no quote,
 ncr_maruti_screen.csv,1,MARUTI,original_pdf,no quote,
 ncr_maruti_screen.csv,2,MARUTI,original_pdf,no quote,
+ncr_round2_docs.csv,0,AHLUCONT,original_pdf,verified,DLF City Centre Ltd B Significant terms and conditions of order(s)/contract(s) awarded in brief; Construction of Civil & Composite Steel Structural Works includ
+ncr_round2_docs.csv,1,BLKASHYAP,original_pdf,verified,Name of entity awarding the order(s)/ contract(s) Anant Raj Limited b Significant terms and conditions of order(s)/contract(s) awarded in brief Construction of 
+ncr_round2_docs.csv,2,AHLUCONT,original_html,verified,"Ahluwalia Contracts (India) said that it has secured a construction order from DLF City Centre worth Rs 1,094.67 crore."
+ncr_round2_docs.csv,3,AHLUCONT,original_html,verified,"The project involves construction of civil & composite steel structural works including rough finishing works for Block 5, 6 and 7 at Downtown, Phase-2, Sector-"
+ncr_round2_docs.csv,4,AHLUCONT,original_html,verified,The work at the commercial complex has to completed within a period of 21 months.
+ncr_round2_docs.csv,5,AHLUCONT,original_html,verified,"The contract is valued at Rs 1,094.67 Crores (excluding GST & Labour Cess) and is expected to be executed over 21 months."
+ncr_round2_docs.csv,6,BLKASHYAP,original_html,verified,has secured a new order worth Rs. 250 crores approx. from Anant Raj Limited.
+ncr_round2_docs.csv,7,BLKASHYAP,original_html,verified,"a group housing project in Gurugram. With this addition, the current order book stands at approx. Rs. 3796 crores excluding GST."
+ncr_round2_docs.csv,8,BLKASHYAP,original_html,verified,"New Delhi…November 07, 2024..."
+ncr_round2_docs.csv,9,BLKASHYAP,original_html,verified,The order should executed within 30 months.
+ncr_round2_docs.csv,10,BLKASHYAP,original_html,verified,obtained a prestigious work order from Anant Raj Limited for civil and structure works for the construction of the estate residences group housing project worth
+ncr_round2_docs.csv,11,ASHIANA,original_pdf,verified,"EAC was 6.01 lakhs square feet in Q2FY25, QoQ decline by 13.64% due to imposition of GRAP related restrictions in Delhi-NCR."
+ncr_round2_docs.csv,12,GODREJPROP,original_pdf,verified,"Gaurav Pandey: And, Praveen, because of NGT ban that you would be aware in NCR, some of the billing milestones had moved from quarter 3 to quarter 4."
+ncr_round2_docs.csv,13,SOBHA,original_pdf,no quote,
+ncr_round2_docs.csv,14,SIGNATURE,search_snippet,no quote,
+ncr_round2_docs.csv,15,MAXESTATES,search_snippet,no quote,
+ncr_round2_docs.csv,16,DLF,original_pdf,verified,Particulars FY24 FY25 FY25 FY25
+ncr_round2_docs.csv,17,DLF,original_pdf,verified,"•Construction 1,642 944 424 521"
+ncr_round2_docs.csv,18,DLF,original_pdf,verified,Particulars FY24 9MFY25 Q1FY25 Q2FY25 Q3FY25 Inflow
+ncr_round2_docs.csv,19,DLF,original_pdf,verified,"•Construction 1,642 1,535 424 521 591"
+ncr_round2_docs.csv,20,DLF,original_pdf,verified,Which was in the 2 malls in the Delhi NCR were a little delayed because of the GRAP and the stoppage of construction.
+ncr_round2_docs.csv,21,DLF,original_pdf,verified,"Tata Projects Ltd., Mumbai"
+ncr_round2_docs.csv,22,DLF,original_html,verified,"Spanning nearly 2 acres of prime land and comprising approximately 2,80,000 sq. ft. of retail GLA, Midtown Plaza has been planned as a multi-level retail enviro"
+ncr_round2_docs.csv,23,DLF,search_snippet,no quote,
 ncr_stepA_evidence.csv,0,ANANTRAJ,original_pdf,no quote,
 ncr_stepA_evidence.csv,1,ANANTRAJ,original_pdf,no quote,
 ncr_stepA_evidence.csv,2,ANANTRAJ,original_pdf,no quote,

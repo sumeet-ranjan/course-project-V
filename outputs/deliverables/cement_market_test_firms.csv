@@ -1,0 +1,61 @@
+event,window,nse_symbol,group,car
+18 Nov 2024,"(-1,3)",ULTRACEMCO,north,0.0409
+18 Nov 2024,"(-1,3)",SHREECEM,north,0.0268
+18 Nov 2024,"(-1,3)",JKLAKSHMI,north,0.0479
+18 Nov 2024,"(-1,3)",BIRLACORPN,north,0.0088
+18 Nov 2024,"(-1,3)",NUVOCO,north,0.0207
+18 Nov 2024,"(-1,3)",STARCEMENT,none (documented),-0.038
+18 Nov 2024,"(-1,3)",PRSMJOHNSN,none (documented),-0.0427
+18 Nov 2024,"(-1,3)",DALBHARAT,none (inferred),0.0347
+18 Nov 2024,"(-1,3)",NCLIND,none (inferred),0.1031
+18 Nov 2024,"(-1,3)",RAMCOCEM,none (inferred),0.0632
+18 Nov 2024,"(-1,5)",ULTRACEMCO,north,0.0038
+18 Nov 2024,"(-1,5)",SHREECEM,north,0.0275
+18 Nov 2024,"(-1,5)",JKLAKSHMI,north,0.0743
+18 Nov 2024,"(-1,5)",BIRLACORPN,north,0.0374
+18 Nov 2024,"(-1,5)",NUVOCO,north,0.0121
+18 Nov 2024,"(-1,5)",STARCEMENT,none (documented),-0.0922
+18 Nov 2024,"(-1,5)",PRSMJOHNSN,none (documented),-0.0585
+18 Nov 2024,"(-1,5)",DALBHARAT,none (inferred),0.0313
+18 Nov 2024,"(-1,5)",NCLIND,none (inferred),0.0817
+18 Nov 2024,"(-1,5)",RAMCOCEM,none (inferred),0.0672
+18 Nov 2024,"(6,20)",ULTRACEMCO,north,0.0372
+18 Nov 2024,"(6,20)",SHREECEM,north,0.1271
+18 Nov 2024,"(6,20)",JKLAKSHMI,north,0.1108
+18 Nov 2024,"(6,20)",BIRLACORPN,north,0.0974
+18 Nov 2024,"(6,20)",NUVOCO,north,0.0531
+18 Nov 2024,"(6,20)",STARCEMENT,none (documented),0.2617
+18 Nov 2024,"(6,20)",PRSMJOHNSN,none (documented),0.0082
+18 Nov 2024,"(6,20)",DALBHARAT,none (inferred),0.0627
+18 Nov 2024,"(6,20)",NCLIND,none (inferred),0.0308
+18 Nov 2024,"(6,20)",RAMCOCEM,none (inferred),0.0853
+18 Nov 2024,"(21,60)",ULTRACEMCO,north,0.0606
+18 Nov 2024,"(21,60)",SHREECEM,north,0.0792
+18 Nov 2024,"(21,60)",JKLAKSHMI,north,0.0423
+18 Nov 2024,"(21,60)",BIRLACORPN,north,-0.0207
+18 Nov 2024,"(21,60)",NUVOCO,north,0.089
+18 Nov 2024,"(21,60)",STARCEMENT,none (documented),-0.0315
+18 Nov 2024,"(21,60)",PRSMJOHNSN,none (documented),-0.2986
+18 Nov 2024,"(21,60)",DALBHARAT,none (inferred),0.1111
+18 Nov 2024,"(21,60)",NCLIND,none (inferred),0.0546
+18 Nov 2024,"(21,60)",RAMCOCEM,none (inferred),0.0251
+17 Dec 2024,"(-1,5)",ULTRACEMCO,north,-0.0151
+17 Dec 2024,"(-1,5)",SHREECEM,north,-0.0009
+17 Dec 2024,"(-1,5)",JKLAKSHMI,north,0.0072
+17 Dec 2024,"(-1,5)",BIRLACORPN,north,0.0289
+17 Dec 2024,"(-1,5)",NUVOCO,north,0.0116
+17 Dec 2024,"(-1,5)",STARCEMENT,none (documented),0.0627
+17 Dec 2024,"(-1,5)",PRSMJOHNSN,none (documented),-0.0551
+17 Dec 2024,"(-1,5)",DALBHARAT,none (inferred),-0.0474
+17 Dec 2024,"(-1,5)",NCLIND,none (inferred),0.0241
+17 Dec 2024,"(-1,5)",RAMCOCEM,none (inferred),0.0073
+17 Dec 2024,"(6,20)",ULTRACEMCO,north,-0.0376
+17 Dec 2024,"(6,20)",SHREECEM,north,-0.0165
+17 Dec 2024,"(6,20)",JKLAKSHMI,north,-0.0197
+17 Dec 2024,"(6,20)",BIRLACORPN,north,-0.0086
+17 Dec 2024,"(6,20)",NUVOCO,north,0.0358
+17 Dec 2024,"(6,20)",STARCEMENT,none (documented),-0.1119
+17 Dec 2024,"(6,20)",PRSMJOHNSN,none (documented),-0.1296
+17 Dec 2024,"(6,20)",DALBHARAT,none (inferred),0.0866
+17 Dec 2024,"(6,20)",NCLIND,none (inferred),-0.0147
+17 Dec 2024,"(6,20)",RAMCOCEM,none (inferred),-0.0568
