@@ -89,10 +89,34 @@ if os.path.exists(TD):
             lag=("about two months of Q3 FY25 and nearly a month of Q4 FY25 (company's account)" if "lost months" in r.task else ""), status="evidence", note=r.notes)
     add("3 within-zone upstream contractor (G4)", "AHLUCONT", "price evidence (corrected at G5)", "", "outputs/deliverables/stepC_ncr_contractor_net.csv, stepC_ncr_disclosure_days.csv", "",
         "", trade="civil/structural (banned under Stage III)", fp="yes (NCR sites)", status="measurement",
-        note="Disclosure days, net of the unlinked contractors: 18 Nov 2024 -4.7% (p=0.04; mixes the ban's day 0, the Q2 results and the first 30 min of the 3.00 pm call); "
-             "12-13 Feb 2025 -6.3% (p=0.05; 12 Feb prices the Q3 results, 13 Feb the 4.00 pm call with the guidance cut; B.L. Kashyap also fell 3.9% on 12 Feb with no filing of its own). "
-             "The large late falls, (+21,+60) from 18 Nov (18 Dec 2024 - 11 Feb 2025) net -31.9% (p=0.04) and (+6,+20) from 17 Dec (26 Dec 2024 - 15 Jan 2025) net -17.5% (p=0.07), "
-             "contain no Ahluwalia disclosure: the Q3 results came after the close on 11 Feb and the call on 12 Feb. Their cause is not identified (ban recurrences in January; small- and mid-cap sell-off of Jan-Feb 2025; not attributed).")
+        note="Results days and call days, net of the unlinked contractors (checkpoint-4 review: November treated like February). "
+             "18 Nov 2024 = Q2 results day (results filed 14 Nov 17:16; down 2.78% by 10:32 IST on the profit fall; also the ban's day 0): -4.7% (p=0.04). "
+             "19 Nov = first day the Q2 call is priced (call 3.00 pm on 18 Nov; GRAP-IV statement on page 8 of 13): -1.3% (p=0.55). "
+             "12 Feb 2025 = Q3 results day: -4.0% (p=0.08; B.L. Kashyap also fell 3.9% that day with no filing of its own). "
+             "13 Feb = first day the Q3 call (guidance cut) is priced: -2.2% (p=0.28). The days that price the company's ban statements show no significant move. "
+             "The late falls, (+21,+60) from 18 Nov (18 Dec 2024 - 11 Feb 2025) net -31.9% (p=0.04) and (+6,+20) from 17 Dec (26 Dec 2024 - 15 Jan 2025) net -17.5% (p=0.07), "
+             "contain no Ahluwalia disclosure; their cause is not identified (not attributed).")
+    OB = RE + "contractor_ncr_orderbook.csv"
+    if os.path.exists(OB):
+        ob = pd.read_csv(OB, dtype=str).fillna(""); vob = ok("contractor_ncr_orderbook.csv")
+        for i, r in ob.iterrows():
+            if i in vob and r.nse_symbol in ("AHLUCONT", "BLKASHYAP") and r.metric in ("ncr_share_of_order_book", "state_share_of_order_book"):
+                add("3 within-zone upstream contractor (G4)", r.nse_symbol, "own direct exposure: NCR share of order book (" + r.geography_detail + ")", r.as_of, r.document_title, r.source_url, r.quote,
+                    trade="civil/structural (banned under Stage III)", fp="yes (NCR sites)", status="evidence",
+                    note=("directly exposed: a third of its order book is in NCR (checkpoint-4 review)" if r.nse_symbol == "AHLUCONT" and r.metric == "ncr_share_of_order_book" else r.notes))
+    NWp = RE + "news_checks.csv"
+    if os.path.exists(NWp):
+        nw = pd.read_csv(NWp, dtype=str).fillna(""); vnw = ok("news_checks.csv")
+        for i, r in nw[nw.nse_symbol == "AHLUCONT"].iterrows():
+            if i in vnw: add("3 within-zone upstream contractor (G4)", "AHLUCONT", "timing: Q2 results day, morning", r.event_date, r.document_title, r.source_url, r.quote,
+                             trade="civil/structural (banned under Stage III)", fp="yes (NCR sites)", status="evidence", note=r.notes)
+NBp = RE + "nbcc_contractors.csv"
+if os.path.exists(NBp):
+    nb = pd.read_csv(NBp, dtype=str).fillna(""); vnb = ok("nbcc_contractors.csv")
+    for i, r in nb.iterrows():
+        if r.task in ("A_link", "C_capacite") and (i in vnb or r.read_mode == "search_snippet"):
+            add("3 NBCC's upstream branch (closed at checkpoint 4)", "", f"{r.task}: {r.contractor_entity} ({r.project})", r.document_date, r.document_title, r.source_url, r.quote,
+                status=("break: contractor unlisted: no price or filed quarterly data" if r.task == "A_link" else "after the event"), note=f"listed in Nov 2024: {r.listed_nov2024}; {r.notes}")
 # 4 cement/steel: firm-level hop not verified; market-level branch
 add("4 cement/steel supplier (firm level)", "", "builder -> cement/steel supplier", "", "outputs/deliverables/verified_links.csv (rows N020 onward)", "", "",
     status="break: not verified (G4 R1)", trade="material for civil work",
@@ -106,7 +130,7 @@ for i, r in SP.iterrows():
 if os.path.exists(DEL + "cement_market_test.csv"):
     T = pd.read_csv(DEL + "cement_market_test.csv"); T = T[T.spec.str.startswith("main")]
     add("4b cement market-level branch (not a firm link, G4 R3)", "", "variant against the two documented zero-capacity makers only", "", "outputs/deliverables/cement_market_test.csv", "", "",
-        status="dropped (G5)", trade="cement", note="it rested on Star Cement (-9.2% over (-1,+5)) and Prism Johnson (-5.9%); no company news found for Star in 14-26 Nov 2024; Prism's fall follows its loss-making Q2 FY25 results of 13 Nov 2024")
+        status="run, not interpreted (G5)", trade="cement", note="+10.6 pp over (-1,+5), p = 0.005; not interpreted because it rests on two firms: Star Cement (-9.2%), with no company news found for 14-26 Nov 2024, and Prism Johnson (-5.9%), whose fall follows its loss-making Q2 FY25 results of 13 Nov 2024")
     for r in T.itertuples():
         add("4b cement market-level branch (not a firm link, G4 R3)", "", f"market test {r.event} {r.window}", "", "outputs/deliverables/cement_market_test.csv", "",
             f"{r.spec}: makers with northern capacity minus makers with none {r.gap_north_minus_none:+.3f} (p={r.p_two_sided:.2f}); CAR north {r.car_north:+.3f} (n={r.n_north}), none {r.car_none:+.3f} (n={r.n_none})",

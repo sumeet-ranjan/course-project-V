@@ -46,7 +46,8 @@ of scope, method and deliverables (user, 22 Nov 2026). The starting dataset is t
   - G5/G7 corrections: `src/55` (contractor windows net of unlinked contractors; disclosure days), `src/56` (rain episodes; Archean vs specialty peers), `src/57` (Tata Consumer salt by quarter); evidence in `research/realign/g5_timing_docs.csv`, `g7_docs.csv`, `news_checks.csv`, `tcpl_salt_kpis.csv`.
   - Step E: `src/58` (dose-response and placebo tables), `src/59` (pathway diagrams, lag figure); memo draft `outputs/deliverables/memo.md`.
   - The final causal claim (§5) is the user's: the memo grades the evidence and leaves the verdict to the user.
-- **Run order after any change:** `49 → 55 → 47` (NCR); `52 → 56 → 57 → 53` (Gujarat); `54 → 40` (links); `50`, `51`; `58` (set `SKIP_PLACEBO=1` to refit table 2 without recomputing table 3); `59` last. Then `42` to re-check every quote.
+- **Checkpoint-4 review (23 Nov 2026) applied:** revised tables 2-3 (+ `table2_notes.md`, `table3_notes.md`, `table3_placebo_firms.csv`), evidence tables, diagrams, G5/G7 records, memo (`memo.pdf`, 4 A4 pages; limit 5 as set, tables and figures included). New evidence: `research/realign/contractor_ncr_orderbook.csv`, `nbcc_contractors.csv`, `gj_placebo_rescreen.csv`, more rows in `news_checks.csv` and `tcpl_salt_kpis.csv`.
+- **Run order after any change:** `45` (placebo lists; reads `gj_placebo_rescreen.csv`); `49 → 55 → 47` (NCR); `52 → 56 → 57 → 53` (Gujarat); `54 → 40` (links); `50`, `51`; `58` (set `SKIP_PLACEBO=1` to refit table 2 without recomputing table 3); `59`, `60`; `61_build_memo.sh` last (check the page count). Then `42` to re-check every quote.
 - **The permission check blocked one command:** a direct download of an exchange PDF with a browser-like
   header (23 Nov 2026). It was not retried. Sub-agents are told to use only the page reader and to record
   refusals instead of working around them.
@@ -146,6 +147,14 @@ There is no script 01 or 02; the audit and exposure logic live in `common.py`. S
 - **NSE's announcement list for Archean, 22 Aug–5 Sep 2024, is empty**; the wider list (1 Aug–30 Sep) confirms no filing between 21 Aug and 24 Sep. The 20 Aug filing is an immaterial GST penalty.
 - **A Benzinga link returned the site's home page**; the 21 Oct 2024 Tata Chemicals move is sourced from Zee Business instead.
 - **Sub-agents can die on API overload (529)**; check what they saved before relaunching, and ask them to write their CSV incrementally.
+
+### Traps found at the checkpoint-4 review (23 Nov 2026) — handled, do not undo
+- **Tata Consumer's Q2 FY25 deck gives no text to the page reader.** A plain download of the BSE PDF (default curl, HTTP 200) converted with `pdftotext -layout` works; saved as `research/realign/docs/tcplsalt__Q2FY25_presentation_bse.txt` with page markers. Printed slide numbers run one behind the PDF page (slide 24 = PDF page 25).
+- **Reliance Power was not a clean Gujarat placebo**: SEBI's final order of 22 Aug 2024 against Anil Ambani; −5.0% on each of 23, 26 and 27 Aug.
+- **Market-model alpha can manufacture abnormal returns** after a strong estimation-window run-up (Unitech: alpha +0.85% a day; half of its −16.7%). Report medians beside means.
+- **Agents may write `saved_text` as a bare file name**; `src/42` then reports "saved text missing". Prefix `research/realign/docs/` (done for `contractor_ncr_orderbook.csv`).
+- **Contractors rarely disclose an NCR share of order book**: only Ahluwalia (33.3%); B.L. Kashyap gives Haryana and Delhi; three Q3 decks were refused (403).
+- **Pandoc needs a blank line before a list** that follows a paragraph, or the list renders inline. `src/61_build_memo.sh` builds the PDF; check the page count.
 
 ### Traps found in Round 4 — handled, do not undo
 - **NASA POWER changes its rainfall source on 1 Oct 2026** (MERRA-2 before, the near-real-time GEOS-IT model after; see the API response header "sources"). `src/27` stops rainfall at 30 Sep 2026. Recheck the switch date before extending.

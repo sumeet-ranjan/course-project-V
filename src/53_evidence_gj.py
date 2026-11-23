@@ -61,8 +61,16 @@ if os.path.exists(DEL + "gj_archean_vs_peers.csv"):
     add("1 hit firm outside the pack (Step A, G7: material hit)", "ACI", "price fall at the storm vs specialty-chemical peers (G7)", "2024-08-23 to 2024-09-02", "outputs/deliverables/gj_archean_vs_peers.csv, gj_archean_daily_ar.csv", "",
         f"CAR {a3.car_aci:+.3f} (p={a3.p_aci:.2f}); net of the 3 G2 specialty controls {a3.net_of_peers:+.3f} (two-sided p={a3.p_net_two_sided:.2f}, one-sided {a3.p_net_one_sided_neg:.2f}); net of 8 specialty names {a8.net_of_peers:+.3f} (p={a8.p_net_two_sided:.2f})",
         status="measurement", dfin=f"rupee value of the fall about Rs {abs(a3.rupee_value_of_car_cr):,.0f} cr (Rs {abs(a3.rupee_value_net_cr):,.0f} cr net of peers) against Rs 40.18 cr booked",
-        note="the fall is spread over the window (-1% to -2.6% a day, -4.8% on 2 Sep) and follows a +7.5% abnormal return on 22 Aug; filings 21 Aug - 24 Sep 2024 and free news show no other company event (news_checks.csv; one immaterial GST penalty on 20 Aug). "
-             "Its size is 30-40 times the booked loss, so it is not read as a response to the storm loss alone; cause not identified. Placebo days: 494 (Archean listed Nov 2022)")
+        note="not attributed (the user's reading, checkpoint-4 review). The fall is spread over the window and follows a +7.5% abnormal return on 22 Aug; daily abnormal returns beside daily Kachchh rain in gj_archean_daily_ar.csv: "
+             "-1.7%, -2.1%, -1.0%, -2.6% on 26-29 Aug (rain 61, 71, 98, 92 mm), and the largest fall, -4.8%, on 2 Sep (rain 1 mm). Filings 21 Aug - 24 Sep 2024 and free news show no other company event (news_checks.csv; one immaterial GST penalty on 20 Aug). "
+             "Its size is 30-40 times the booked loss. Placebo days: 494 (Archean listed Nov 2022)")
+TPp = DEL + "gj_tatachem_price.csv"
+if os.path.exists(TPp):
+    tp = pd.read_csv(TPp).set_index("item").value
+    add("1 hit firm outside the pack (Step A, G7: material hit)", "TATACHEM", "own share price at the storm and on its results day (checkpoint-4 review)", "2024-08-26 to 2024-08-30; 2024-10-18",
+        "outputs/deliverables/gj_tatachem_price.csv (market model estimated before 26 Aug 2024)", "",
+        f"abnormal return 26-30 Aug {100*tp['sum of daily abnormal returns, 26-30 Aug 2024']:+.1f}% (CAR (0,+4) {100*tp['engine CAR (0,+4) from 26 Aug 2024']:+.1f}%, p={tp['placebo p, CAR (0,+4)']:.2f}); 18 Oct (results day) {100*tp['abnormal return 18 Oct 2024 (results day; filed 17 Oct 18:01)']:+.1f}%; daily s.d. {100*tp['daily s.d. of raw returns, estimation window']:.1f}% (raw), {100*tp['daily s.d. of market-model residuals, estimation window']:.1f}% (residual)",
+        status="measurement", note="the source shock is documented in statements and tonnes and is not visible in the share price (agrees with the user's check)")
 for i, r in G[G.nse_symbol == "GHCL"].iterrows():
     if i in vg: add("confound", "GHCL", "soda ash peer: planned boiler maintenance", r.document_date, r.document_title, r.source_url, r.quote, r.number_given, dfin=dq("GHCL"), status="confound", note=r.notes)
 # forward chain (H2)
@@ -93,6 +101,12 @@ if os.path.exists(DEL + "stepC_gj_tcpl_salt.csv"):
             "", dfin=f"salt revenue {r.salt_revenue_growth_pct:+.0f}%, volume {r.salt_volume_growth_pct:+.0f}%, implied price/mix {r.implied_price_mix_pp:+.0f} pp".replace("nan%", "n/a").replace("+nan", "n/a"),
             lag={"Q2 FY25": "cost lagged into Q3", "Q3 FY25": "price increase in effect"}.get(r.period, ""), status="measurement",
             note=f"price action: {r.retail_price_action}; Mithapur: {r.mithapur_mentioned}; {r.note if isinstance(r.note, str) else ''}")
+MGp = DEL + "stepC_gj_salt_magnitude.csv"
+if os.path.exists(MGp):
+    mg = pd.read_csv(MGp)
+    add("3b last step: retail price of Tata Salt", "TATACONSUM", "magnitude: storm cost against the value of the 7% increase (checkpoint-4 review)", "", "outputs/deliverables/stepC_gj_salt_magnitude.csv", "",
+        "", dfin="; ".join(f"{r.item}: {'not given in any document' if pd.isna(r.value_cr) else ('Rs ' + format(r.value_cr, ',.1f') + ' cr' if 'ratio' not in r.item else format(r.value_cr, '.1f') + 'x')}" for r in mg.itertuples()),
+        status="measurement", note="the increase is worth about 2.8 times the storm's whole cost to Tata Chemicals in a year: partly a catch-up after two years without an increase (the company's own words)")
 for i, r in G7[G7.task.str.startswith(("retail", "confound"))].iterrows():
     if i in v7: add("3b last step: retail price of Tata Salt" if r.task.startswith("retail") else "confound (downstream)", r.nse_symbol, r.task, r.document_date, r.document_title, r.source_url, r.quote,
                     status="evidence" if r.task.startswith("retail") else "confound", note=r.notes)

@@ -57,8 +57,8 @@ def c(sym, ev, w):
 def n(sym, ev, w):
     x = NET[(NET.nse_symbol == sym) & (NET.event.str.startswith(ev)) & (NET.window == w)].iloc[0]; return f"{100*x.net_of_unlinked:+.1f}% (p {x.p_net_two_sided:.2f})"
 cm = CT[(CT.spec.str.startswith("main")) & (CT.window == "(-1,5)") & (CT.event == "18 Nov 2024")].iloc[0]
-fig, ax = frame("NCR, winter 2024: construction ban (GRAP Stage III/IV) → builders → contractors",
-                "Traced pathway (Step E). Decisions G1-G5 applied, 23 Nov 2026. The effect is within the zone: the contractors' own NCR sites were under the same ban. Out-of-zone suppliers: not detected.")
+fig, ax = frame("NCR, winter 2024: construction ban (GRAP Stage III/IV) → builders → contractors at NCR sites",
+                "Traced pathway (Step E). Decisions G1-G5 and the checkpoint-4 review applied, 23 Nov 2026. Transmission inside the zone: builder to contractor at NCR sites, both under the ban. Out of the zone: not detected.")
 box(ax, 0.8, 14, 14.2, 38, "GRAP orders (CAQM)",
     "Stage III 15 Nov 2024; Stage IV from 18 Nov 08:00: construction and demolition stopped in Delhi-NCR.\n"
     "Re-imposed 16-17 Dec; Stage III again 3-5, 9-12, 15-17 Jan and 29 Jan - 3 Feb 2025 (PIB releases).\n"
@@ -76,12 +76,12 @@ arrow(ax, (29.7, 44), (30.8, 44), "doc"); arrow(ax, (29.7, 25), (30.8, 25), "doc
 # links + nodes
 box(ax, 69.5, 44.5, 30, 8.5, "J. Kumar Infraprojects (no effect)", f"No mention of the ban. CAR (-1,+5) {c('JKIL','18 Nov','(-1,5)')}; Q3 sales +22% YoY. Low dose, as expected.", kind="weak")
 arrow(ax, (50.7, 47), (69.3, 48.5), "weak", "NBCC = 1.6-3.4% of J. Kumar's sales\n(verified, not material)", ly=0.5)
-box(ax, 69.5, 36, 30, 7, "NBCC's upstream branch: open", "No contractor identified on Amrapali or GPRA. NBCC buys no construction materials itself.", kind="note")
-arrow(ax, (50.7, 40), (69.3, 39.5), "weak", "contractor on Amrapali / GPRA: not identified", ly=0.4)
-box(ax, 69.5, 17.5, 30, 17, "Ahluwalia Contracts (documented, material)",
+box(ax, 69.5, 36, 30, 7, "NBCC's upstream branch: closed", "GPRA contractors in NBCC's filings (Varindera Constructions; Shapoorji Pallonji & Co. Pvt; Girdhari Lal Constructions Pvt) and Gaursons (Amrapali, trade press) were unlisted in Nov 2024: no price or filed quarterly data.", kind="note")
+arrow(ax, (50.7, 40), (69.3, 39.5), "weak", "contractors on GPRA / Amrapali: unlisted", ly=0.4)
+box(ax, 69.5, 17.5, 30, 17, "Ahluwalia Contracts (documented; directly exposed)",
     "Calls: \"GRAP-IV is in place … going to impact this quarter\" (18 Nov 2024); FY25 growth \"8.5%-9%\" against about 10% (12 Feb 2025); lost \"two months in Q3 and nearly a month in Q4 of FY '25\" (2 Jun 2025).\n"
-    "Δ: Q3 turnover -7.3% YoY; Q4 +4.5% YoY; FY25 +6.3%, below the guidance.\n"
-    f"Price, net of unlinked contractors: 18 Nov {n('AHLUCONT','18 Nov','(0,0)')}; 12-13 Feb {n('AHLUCONT','12 Feb','(0,1)')}. Late falls (-32%, -18% net) hold no Ahluwalia disclosure: not attributed.\n"
+    "Own exposure: 33.3% of its order book in NCR (31 Dec 2024). Δ: Q3 turnover -7.3% YoY; Q4 +4.5% YoY; FY25 +6.3%, below the guidance.\n"
+    f"Price, net of unlinked contractors: results days 18 Nov {n('AHLUCONT','18 Nov','(0,0)')}, 12 Feb {n('AHLUCONT','12 Feb','(0,0)')}; call days (ban statements) 19 Nov {n('AHLUCONT','18 Nov','(1,1)')}, 13 Feb {n('AHLUCONT','12 Feb','(1,1)')}. Late falls hold no disclosure: not attributed.\n"
     "Lag: Q3-Q4 FY25 (Nov 2024 - Feb 2025).")
 arrow(ax, (50.7, 27), (69.3, 27), "doc", "DLF = 3.4-10% of Ahluwalia's sales\n(Arbour; Downtown Ph-2 Rs 1,094.67 cr, 11 Oct 2024)", ly=0.5)
 box(ax, 69.5, 9.5, 30, 6.8, "B.L. Kashyap (not confirmed)", f"No mention. CAR (-1,+5) {c('BLKASHYAP','18 Nov','(-1,5)')}. Q3 sales -25% YoY, but Q2 already -18%: the decline predates the ban.", kind="weak")
@@ -94,11 +94,12 @@ box(ax, 54, 3.2, 45.5, 4.7, "Cement market level (not a firm link; coarse test, 
 legend(ax)
 save(fig, "pathway_NCR")
 # ------------------------------- Gujarat -------------------------------
+pc = lambda v: "0%" if round(v) == 0 else f"{v:+.0f}%"
 GN = pd.read_csv(DEL + "stepC_gj_node_cars.csv"); AP = pd.read_csv(DEL + "gj_archean_vs_peers.csv"); TS = pd.read_csv(DEL + "stepC_gj_tcpl_salt.csv").set_index("period")
 g = lambda s, w: (lambda x: f"{100*x.car:+.1f}% (p {x.p_two_sided:.2f})")(GN[(GN.nse_symbol == s) & (GN.window == w)].iloc[0])
 a3 = AP[(AP.window == "(-1,5)")].iloc[0]
 fig, ax = frame("Gujarat, Aug 2024: deep depression → Cyclonic Storm Asna → Tata Chemicals (Mithapur) → Tata Consumer (Tata Salt)",
-                "Traced pathway (Step E). Decisions G1-G7 applied, 23 Nov 2026. All four hit firms are external to the pack's 81 firms; the pack's own chemical belt breaks at Step A.")
+                "Traced pathway (Step E). Decisions G1-G7 and the checkpoint-4 review applied, 23 Nov 2026. All four hit firms are external to the pack's 81 firms; the one out-of-zone link is a cost passed into the retail price.")
 box(ax, 0.8, 14, 14.2, 38, "Storm system: Asna",
     "Deep depression over Saurashtra & Kutch, 25-30 Aug 2024; \"INTENSIFIED INTO A CYCLONIC STORM 'ASNA'\" (IMD advisory No. 1, 30 Aug).\n"
     "Rain 25-31 Aug: Jamnagar 525 mm, Porbandar 502 mm, Kachchh 360 mm. An earlier episode, 18-24 Jul: 288, 610 and 86 mm (NASA POWER).\n"
@@ -111,19 +112,19 @@ box(ax, 31, 44, 19.5, 8.5, "No pack firm attributes an effect", "Q2 FY25 calls a
 arrow(ax, (29.7, 47), (30.8, 47), "break")
 box(ax, 31, 25.5, 19.5, 17, "Tata Chemicals, Mithapur (material hit)",
     "Call: operations hit \"for almost 10 days\"; 30,000 t soda ash and 40,000 t salt lost; Rs 11 cr one-off in PAT (deck), about Rs 40 cr cost (call). Press release: \"heavy rains in July and August\": loss not separable between the two episodes.\n"
-    f"CAR (-1,+5) {g('TATACHEM','(-1,5)')}. Results day 18 Oct +1.1%; 10 Oct (+4.3%) and 21 Oct (+10.4%) unrelated.")
+    "Price: 26-30 Aug -0.1% abnormal; results day 18 Oct +1.1% (daily s.d. 2.3%): the shock is not visible in the share price. 10 Oct (+4.3%) and 21 Oct (+10.4%) unrelated.")
 box(ax, 31, 13.5, 19.5, 10.8, "Archean, Kutch (material hit)",
-    f"\"Asna cyclone impact resulting in loss of Industrial salt stock of Rs. 40.18 Crs (4.72 Lakhs MT)\". CAR (-1,+5) {100*a3.car_aci:+.1f}%, {100*a3.net_of_peers:+.1f}% net of specialty peers: 30-40x the booked loss; not read as a storm response.")
+    f"\"Asna cyclone impact resulting in loss of Industrial salt stock of Rs. 40.18 Crs (4.72 Lakhs MT)\". CAR (-1,+5) {100*a3.car_aci:+.1f}%, {100*a3.net_of_peers:+.1f}% net of specialty peers; 30-40x the booked loss. Not attributed.")
 box(ax, 31, 3.2, 19.5, 9, "Confirmed, immaterial", "Adani Ports: \"4 days equivalent\" at Mundra and Tuna; August cargo still +5% YoY. GE T&D India: \"Production disruption\", no damage; quarter's sales +59%.", kind="weak")
 arrow(ax, (29.7, 30), (30.8, 32), "doc"); arrow(ax, (29.7, 25), (30.8, 19), "doc"); arrow(ax, (29.7, 23), (30.8, 10.5), "weak"); arrow(ax, (29.7, 15), (30.8, 8), "weak")
 box(ax, 69.5, 25.5, 30, 27, "Tata Consumer Products (downstream buyer; cost passed through)",
     "Q2 call (18 Oct 2024): \"Mithapur recorded its highest ever rain since 1929\"; Mithapur \"had to buy brine which is the cost\"; \"September quarter the cost has not come in through us\".\n"
-    "Last step, the shelf price: one increase, \"INR2 on a INR28 base, which is roughly around 7%\", in the market from October 2024 (Q3). Margin held: \"it has put us back exactly where it should be in salt\". It also recovers two years without an inflation increase.\n"
-    f"Δ salt (company): implied price/mix {TS.loc['Q1 FY25','implied_price_mix_pp']:+.0f} pp (Q1) → {TS.loc['Q3 FY25','implied_price_mix_pp']:+.0f} pp (Q3) → {TS.loc['Q4 FY25','implied_price_mix_pp']:+.0f} pp (Q4); volume +8%, +1%, +1%, +5% by quarter; market share +150, +110, +30 bps.\n"
+    "Last step, the shelf price: one increase, \"INR2 on a INR28 base, which is roughly around 7%\", effective October 2024. Margin held: \"it has put us back exactly where it should be in salt\". Partly a catch-up: it comes \"after a two-year hiatus\".\n"
+    f"Δ salt (company): implied price/mix {TS.loc['Q1 FY25','implied_price_mix_pp']:+.0f}, {TS.loc['Q2 FY25','implied_price_mix_pp']:+.0f}, {TS.loc['Q3 FY25','implied_price_mix_pp']:+.0f}, {TS.loc['Q4 FY25','implied_price_mix_pp']:+.0f} pp (Q1-Q4) beside volume {', '.join(pc(TS.loc[q,'salt_volume_growth_pct']) for q in ('Q1 FY25','Q2 FY25','Q3 FY25','Q4 FY25'))}: cost, not shortage. A 7% increase is worth at least Rs 110 cr a year, against a whole storm cost of about Rs 40 cr.\n"
     f"Price: CAR (-1,+5) {g('TATACONSUM','(-1,5)')}; results day 21 Oct -6.7% is tea-driven by the company's account, not attributable to salt.\n"
     "Lag: one quarter (cost and price change in Q3 FY25, Oct-Dec 2024).")
 arrow(ax, (50.7, 34), (69.3, 34), "doc", "Edible salt. Tata Chemicals = 18-24% of Tata Consumer's\nmaterial input cost; Tata Consumer = 10-36% of its sales;\n\"single customer\" (TCL AR); \"more than 85%\" of TCPL's salt", ly=0.6)
-box(ax, 69.5, 15, 30, 7.5, "Consumers (Tata Salt)", "Pay about 7% more per pack from October 2024. Salt volume growth slowed to +1% in Q2-Q3 (no reason given by the company), then +5% in Q4.", kind="note")
+box(ax, 69.5, 15, 30, 7.5, "Consumers (Tata Salt)", "Pay about 7% more per pack from October 2024. Salt volume was flat in Q2 and +1% in Q3 (no reason given by the company), then +5% in Q4.", kind="note")
 arrow(ax, (84.5, 25.3), (84.5, 22.7), "doc")
 legend(ax)
 save(fig, "pathway_GJ")

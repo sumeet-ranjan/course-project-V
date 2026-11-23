@@ -78,8 +78,8 @@ Consumer chain hold as a traced forward path (H2)?
 **Reading:**
 - Part of the fall is shared with peers. Part may reverse the 22 Aug jump.
 - The rest is far larger than the booked storm loss and has no identified cause.
-- **It is not read as a response to the storm loss.** The storm hit is established from the company's own documents,
-  not from the price.
+- **Not attributed** (your reading at the checkpoint-4 review). The storm hit is established from the company's own
+  documents, not from the price.
 
 ## Forward chain (H2): Tata Chemicals → Tata Consumer Products (edible salt)
 
@@ -113,7 +113,7 @@ Consumer chain hold as a traced forward path (H2)?
 | Period | Salt revenue | Salt volume | Implied price/mix | Retail price action | Market share |
 |---|---|---|---|---|---|
 | Q1 FY25 (Apr–Jun) | +9% | +8% | +1 pp | none | gains (no number) |
-| Q2 FY25 (Jul–Sep) | not retrieved (Q2 deck: NSE 403, company copy empty) | +1% | — | ₹2 on ₹28 (about 7%) announced | +150 bps (MAT) |
+| Q2 FY25 (Jul–Sep) | +2% (deck slide 24) | flat (deck; the call says +1%) | **+2 pp** | ₹2 on ₹28 (about 7%) announced, effective October | +150 bps (MAT) |
 | Q3 FY25 (Oct–Dec) | +7% | +1% | **+6 pp** | the increase in effect | +110 bps (MAT) |
 | Q4 FY25 (Jan–Mar) | +13% | +5% | **+8 pp** | no new increase | +30 bps (value) |
 | FY25 | +8% | +4% | +4 pp | | |
@@ -158,3 +158,27 @@ Consumer chain hold as a traced forward path (H2)?
 - **R4:** propagation is measured with salt revenue, volume and price by quarter. Results-day returns are reported but
   not attributed to salt.
 - **R5:** the confounds above.
+
+## Checkpoint-4 review (23 Nov 2026): changes applied
+- **Tata Chemicals' own price evidence** (`gj_tatachem_price.csv`): abnormal return −0.1% over 26–30 Aug 2024
+  (CAR (0,+4) −0.0%, p = 0.99) and +1.1% on its results day, 18 Oct. Daily s.d. is 2.3% raw (1.9% residual). This agrees
+  with your check. **The source shock is documented in statements and tonnes and is not visible in the share price.**
+- **Tata Consumer, Q2 FY25** (deck read from the BSE PDF, slide 24): "Salt revenue grew 2% with flat volumes during the
+  quarter". The series runs:
+  - price/mix +1, +2, +6, +8 pp (Q1–Q4 FY25);
+  - volume +8%, 0%, +1%, +5%.
+  That is cost, not shortage.
+- **Magnitude** (`stepC_gj_salt_magnitude.csv`): no document gives the part of the storm cost passed to Tata Consumer.
+  Tata Chemicals' whole weather cost was about Rs 40 cr. A 7% increase is worth at least Rs 110.4 cr a year
+  (7% × Rs 1,576.64 cr), about 2.8 times that: partly a catch-up after two years without an increase.
+- **Archean: not attributed.** Daily abnormal returns beside daily Kachchh rain are in `gj_archean_daily_ar.csv`:
+  −1.7%, −2.1%, −1.0% and −2.6% on 26–29 Aug, when Kachchh took 61, 71, 98 and 92 mm; then −4.8% on 2 Sep (1 mm).
+- **Gujarat placebo list, approved with changes** (`placebo_firms.csv`, `table3_notes.md`):
+  - Reliance Power is dropped (SEBI's order of 22 Aug 2024 against Anil Ambani; −5.0% on each of 23, 26 and 27 Aug).
+  - Medians are reported beside means.
+  - Tata Steel is flagged as a Tata group firm.
+  - The list was re-screened against Tata Chemicals and Archean: no link found. Six firms' own annual reports were
+    not read.
+- **GE T&D:** its 6 Sep 2024 filing (BSE) was read. It continues "our earlier disclosure dated August 27, 2024" and
+  reports "no damage to the property … except the Production disruption because the labor was unable to reach to the
+  Plant".

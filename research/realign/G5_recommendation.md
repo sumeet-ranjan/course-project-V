@@ -38,8 +38,8 @@
 
 | Window (dates) | What it holds for Ahluwalia | CAR (p) | Unlinked mean | **Net (p)** | Net of small/mid only (p) |
 |---|---|---|---|---|---|
-| 18 Nov (0,0): 18 Nov | ban day 0 + Q2 results + first 30 min of the call | −2.8% (0.16) | +1.9% | **−4.7% (0.04)** | −5.0% (0.04) |
-| 18 Nov (+1,+1): 19 Nov | rest of the Q2 call ("GRAP-IV is in place …") | −1.2% (0.55) | +0.1% | −1.3% (0.55) | −1.7% (0.43) |
+| 18 Nov (0,0): 18 Nov | **Q2 results day** (results filed 14 Nov 17:16; down 2.78% by 10:32 on the profit fall); also the ban's day 0 | −2.8% (0.16) | +1.9% | **−4.7% (0.04)** | −5.0% (0.04) |
+| 18 Nov (+1,+1): 19 Nov | **first day the Q2 call is priced** (call 3.00 pm on 18 Nov; GRAP-IV statement on page 8 of 13) | −1.2% (0.55) | +0.1% | −1.3% (0.55) | −1.7% (0.43) |
 | 18 Nov (0,+1) | both | −4.0% (0.18) | +2.0% | **−6.0% (0.06)** | −6.7% (0.04) |
 | 18 Nov (−1,+3): 14–22 Nov | the above | −11.9% (0.03) | −2.0% | −10.0% (0.06) | −9.4% (0.07) |
 | 18 Nov (−1,+5): 14–26 Nov | the above | −7.8% (0.19) | −0.0% | −7.8% (0.21) | −7.5% (0.23) |
@@ -47,8 +47,8 @@
 | 18 Nov (+21,+60): 18 Dec–11 Feb | **no Ahluwalia disclosure** | −33.4% (0.02) | −1.5% | −31.9% (0.04) | −30.9% (0.06) |
 | 17 Dec (−1,+5): 16–24 Dec | no disclosure | −1.1% (0.84) | +5.5% | −6.6% (0.27) | −8.0% (0.21) |
 | 17 Dec (+6,+20): 26 Dec–15 Jan | **no Ahluwalia disclosure** | −19.5% (0.02) | −2.0% | −17.5% (0.07) | −16.5% (0.09) |
-| 12 Feb (0,0): 12 Feb | Q3 results (revenue −7.3% YoY) | −2.9% (0.15) | +1.1% | −4.0% (0.08) | −3.9% (0.10) |
-| 12 Feb (+1,+1): 13 Feb | Q3 call: FY25 growth guided to 8.5–9% | −2.3% (0.25) | −0.1% | −2.2% (0.28) | −2.4% (0.27) |
+| 12 Feb (0,0): 12 Feb | **Q3 results day** (revenue −7.3% YoY) | −2.9% (0.15) | +1.1% | −4.0% (0.08) | −3.9% (0.10) |
+| 12 Feb (+1,+1): 13 Feb | **first day the Q3 call is priced**: FY25 growth guided to 8.5–9% | −2.3% (0.25) | −0.1% | −2.2% (0.28) | −2.4% (0.27) |
 | 12 Feb (0,+1) | both | −5.2% (0.08) | +1.1% | **−6.3% (0.05)** | −6.2% (0.05) |
 
 **Reading:**
@@ -120,3 +120,25 @@ Godrej Properties (billing milestones moved from Q3 to Q4). Signature Global, Ma
 - **R4 (accepted):** the hit firms' own price responses are nil.
 - **R5 (accepted, extended):** carry into the memo the Ahluwalia timing, the January recurrences, the Maharashtra
   election, the small- and mid-cap sell-off and Q4 seasonality.
+
+## Checkpoint-4 review (23 Nov 2026): changes applied
+- **18 Nov treated like February.**
+  - 18 Nov is Ahluwalia's Q2 results day. Business Standard, 10:32 IST: "slipped 2.78% … after the civil construction
+    company's consolidated net profit declined 29.78%".
+  - 19 Nov is the first day the Q2 call is priced. The call began at 3.00 pm; the GRAP-IV statement is on page 8 of 13.
+  - Net of the unlinked contractors:
+    - results days: 18 Nov −4.7% (p = 0.04), 12 Feb −4.0% (p = 0.08);
+    - call days: 19 Nov −1.3% (p = 0.55), 13 Feb −2.2% (p = 0.28).
+  - **The days that price the company's ban statements show no significant move.**
+- **Ahluwalia is directly exposed.** 33.3% of its unexecuted order book is in Delhi NCR (31 Dec 2024,
+  `contractor_ncr_orderbook.csv`). Transmission is inside the zone: builder to contractor at NCR sites.
+- **Dose-response:** the dose is shown beside each contractor's own NCR order-book share. With eight firms the two
+  cannot be separated (`table2_notes.md`).
+- **NBCC's upstream branch is closed.** NBCC's own filings name the GPRA contractors: Varindera Constructions Ltd
+  (Sarojini Nagar IV-B, Rs 955.82 cr, Aug 2023), Shapoorji Pallonji & Co. Pvt Ltd (Netaji Nagar Pkg I) and Girdhari Lal
+  Constructions Pvt Ltd (Sarojini Nagar Pkg I). Gaursons is on the Amrapali projects (trade press only).
+  - None was listed in Nov 2024. Varindera had only filed a DRHP, on 30 Sep 2024.
+  - So there is no price or filed quarterly data (`nbcc_contractors.csv`).
+  - Capacit'e's NBCC order (Leisure Valley, Greater Noida) is dated 14 Feb 2025, after the event.
+- **Cement:** one line kept in the table notes. The two-firm variant was run (+10.6 pp, p = 0.005) and is not
+  interpreted, because it rests on two firms.

@@ -54,7 +54,7 @@ for lab, (day, wins) in EV.items():
                              p_two_sided=(ps.abs() >= abs(g)).mean(), p_one_sided_neg=(ps <= g).mean(), n_placebo=len(ps),
                              label="market-level test (not a firm link); binary dose; ACC, Ambuja, India Cements excluded",
                              status=("result (G5: report +2.5 pp over (-1,+5) as the result; coarse, labelled test with little power)" if spec.startswith("main") else
-                                     "dropped (G5): rests on two firms, Star Cement and Prism Johnson; no company news found for Star in 14-26 Nov 2024; Prism's fall follows its loss-making Q2 FY25 results of 13 Nov (research/realign/news_checks.csv)")))
+                                     "run, not interpreted (G5): rests on two firms, Star Cement and Prism Johnson; no company news found for Star in 14-26 Nov 2024; Prism's fall follows its loss-making Q2 FY25 results of 13 Nov (research/realign/news_checks.csv)")))
         for f in firms: frows.append(dict(event=lab, window=f"({w[0]},{w[1]})", nse_symbol=f, group=Dd.set_index("nse_symbol").group[f], car=E.car(ar[[f]], *w).iloc[0]))
 T = pd.DataFrame(rows); T.round(4).to_csv(DEL + "cement_market_test.csv", index=False)
 pd.DataFrame(frows).round(4).to_csv(DEL + "cement_market_test_firms.csv", index=False); Dd.round(3).to_csv(DEL + "cement_market_test_doses.csv", index=False)

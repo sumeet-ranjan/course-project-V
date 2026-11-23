@@ -12,7 +12,8 @@
    Also Archean's daily abnormal returns 22 Aug - 4 Sep 2024 (to place the fall in time for the news check), and the size
    of the fall in rupees (market cap on 23 Aug 2024 x CAR) against the Rs 40.18 cr booked loss.
 Engine: es_lib (market model vs NIFTY 500, [-250,-30]); return matrix extended with Yahoo adjusted-close prices.
-Outputs: outputs/deliverables/gj_rain_episodes.csv, gj_rain_7day_max.csv, gj_archean_vs_peers.csv, gj_archean_daily_ar.csv
+Outputs: outputs/deliverables/gj_rain_episodes.csv, gj_rain_7day_max.csv, gj_archean_vs_peers.csv, gj_archean_daily_ar.csv (daily abnormal returns
+22 Aug - 3 Sep 2024 beside daily rain in Kachchh; checkpoint-4 review). Reading of the fall: not attributed (the user's reading).
 """
 import os, sys; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import numpy as np, pandas as pd
@@ -60,6 +61,32 @@ cap = 9880.0   # Rs cr on 23 Aug 2024 (hit_register_GJ.csv)
 T["rupee_value_of_car_cr"] = (T.car_aci * cap).round(0); T["rupee_value_net_cr"] = (T.net_of_peers * cap).round(0); T["booked_loss_cr"] = 40.18
 T.round(4).to_csv(DEL + "gj_archean_vs_peers.csv", index=False)
 pd.set_option("display.width", 250); pd.set_option("display.max_colwidth", 120); print(T.drop(columns=["peers_each"]).round(3).to_string(index=False)); print(T[["window", "peers_each"]].to_string(index=False))
-dd = pd.DataFrame({"date": [E.DATES[t0 + k].date() for k in range(-2, 8)], "event_day": list(range(-2, 8)), "ar_aci": ar.loc[-2:7, "ACI"].values,
-                   "peer_mean_main": ar.loc[-2:7, MAIN].mean(axis=1).values, "raw_aci": E.R.iloc[t0 - 2:t0 + 8]["ACI"].values, "market": E.MKT.iloc[t0 - 2:t0 + 8].values})
-dd.round(4).to_csv(DEL + "gj_archean_daily_ar.csv", index=False); print(dd.round(4).to_string(index=False))
+# daily abnormal returns 22 Aug - 3 Sep 2024 beside daily rain in Kachchh (calendar days; weekends have rain but no return)
+cal = pd.date_range("2024-08-22", "2024-09-03", freq="D")
+rk = r[r.dist_name == "Kachchh"].set_index("date").mm
+rows_d = []
+for d in cal:
+    trade = d in E.DATES
+    k = int(np.searchsorted(E.DATES.values, np.datetime64(d))) - t0 if trade else None
+    rows_d.append(dict(date=d.date(), weekday=d.strftime("%a"), trading_day="yes" if trade else "no", event_day=k if trade else "",
+                       ar_aci=ar.loc[k, "ACI"] if trade else np.nan, peer_mean_main=ar.loc[k, MAIN].mean() if trade else np.nan,
+                       ar_aci_net_of_peers=(ar.loc[k, "ACI"] - ar.loc[k, MAIN].mean()) if trade else np.nan,
+                       raw_aci=E.R.loc[d, "ACI"] if trade else np.nan, market=E.MKT.loc[d] if trade else np.nan, rain_kachchh_mm=rk.get(d, np.nan)))
+dd = pd.DataFrame(rows_d); dd.round(4).to_csv(DEL + "gj_archean_daily_ar.csv", index=False); print(dd.round(4).to_string(index=False))
+# 3. Tata Chemicals' own price evidence (checkpoint-4 review): abnormal returns from the market model estimated on [-250,-30]
+#    before 26 Aug 2024 (as in src/52), daily over 26-30 Aug, on its results day (18 Oct), and the daily s.d.
+s = "TATACHEM"; a_, b_ = t0 - 250, t0 - 30
+y = E.R.iloc[a_:b_][s]; m = E.MKT.iloc[a_:b_]; okm = y.notna()
+beta_ = np.cov(y[okm], m[okm])[0, 1] / np.var(m[okm], ddof=1); alpha_ = y[okm].mean() - beta_ * m[okm].mean()
+res = y[okm] - (alpha_ + beta_ * m[okm])
+arf = lambda d: E.R.loc[pd.Timestamp(d), s] - (alpha_ + beta_ * E.MKT.loc[pd.Timestamp(d)])
+days = ["2024-08-26", "2024-08-27", "2024-08-28", "2024-08-29", "2024-08-30"]
+PLT = [x for x in (E.ar_matrix(t, pre=1, post=60) for t in E.placebo_t0s(n=1000, post=60)) if x is not None and s in x.columns]
+c04 = E.car(E.ar_matrix(t0, pre=1, post=60)[[s]], 0, 4).iloc[0]; dist = pd.Series([E.car(P[[s]], 0, 4).iloc[0] for P in PLT]).dropna()
+TP = pd.DataFrame([dict(item=f"abnormal return {d}", value=arf(d)) for d in days] +
+                  [dict(item="sum of daily abnormal returns, 26-30 Aug 2024", value=sum(arf(d) for d in days)),
+                   dict(item="engine CAR (0,+4) from 26 Aug 2024", value=c04), dict(item="placebo p, CAR (0,+4)", value=(dist.abs() >= abs(c04)).mean()),
+                   dict(item="abnormal return 18 Oct 2024 (results day; filed 17 Oct 18:01)", value=arf("2024-10-18")),
+                   dict(item="daily s.d. of raw returns, estimation window", value=y[okm].std(ddof=1)),
+                   dict(item="daily s.d. of market-model residuals, estimation window", value=res.std(ddof=1))])
+TP.round(5).to_csv(DEL + "gj_tatachem_price.csv", index=False); print(TP.round(4).to_string(index=False))

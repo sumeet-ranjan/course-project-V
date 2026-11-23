@@ -1,0 +1,1103 @@
+Title: Tata Consumer Products Q2 FY25 investor presentation (BSE filing, 18 Oct 2024)
+URL Source: https://www.bseindia.com/xml-data/corpfiling/AttachHis/411bcb05-a6f2-42bd-9d8a-b5a5c750d392.pdf
+Note: the Jina reader returned no text for this PDF; the PDF was downloaded with a plain request (HTTP 200) and converted with pdftotext -layout. Pages are separated by '=== Page n ===' markers.
+
+
+=== Page 1 ===
+          October 18, 2024
+
+         National Stock Exchange of India                  BSE Limited                   The Calcutta Stock
+         Limited                                           Phiroze Jeejeebhoy Towers     Exchange Limited
+         Exchange Plaza, C-1, G Block                      Dalal Street                  7 Lyons Range
+         Bandra Kurla Complex, Bandra (E)                  Mumbai 400001                 Kolkata 700 001
+         Mumbai 400 051                                                                  Scrip Code – 10000027
+         Scrip Code – TATACONSUM                           Scrip Code – 500800           (Demat) 27 (Physical)
+
+          Sub: Investor Presentation on Unaudited Financial Results for the quarter and half year
+               ended September 30, 2024
+
+          Dear Sir/Madam,
+
+          In accordance with Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements)
+          Regulations, 2015, we are submitting the Investor Presentation concerning the Unaudited Financial
+          Results of the Company for the quarter and half year ended September 30, 2024.
+
+          Additionally, the above presentation is also being made available on the website of the Company at
+          https://www.tataconsumer.com/investors/investor-relations/results-and-presentation/analyst-
+          presentation
+
+
+          Thanking you,
+
+          Yours Truly,
+
+          For Tata Consumer Products Limited
+         Delnaz Dara          Digitally signed by Delnaz Dara
+                              Harda
+
+         Harda                Date: 2024.10.18 16:43:34
+                              +05'30'
+
+          Delnaz Dara Harda
+          Company Secretary & Compliance Officer
+          ACS73704
+
+          Encl.: as above
+
+
+
+
+                   11/13 Botawala Building 1st Floor Office No 2-6 Horniman Circle Fort Mumbai 400 001 India
+                                          Tel: 91-22-6121-8400 | Fax: 91-22-61218499
+                                  Registered Office: 1, Bishop Lefroy Road, Kolkata – 700 020
+                                 Corporate Identity Number (CIN): L15491WB1962PLC031425
+                                          Email: investor.relations@tataconsumer.com
+                                                Website: www.tataconsumer.com
+Public
+
+=== Page 2 ===
+Investor
+Presentation
+For the quarter ended September 2024
+
+
+18th October 2024
+
+=== Page 3 ===
+Disclaimer
+Certain statements made in this presentation relating to the Company’s objectives, projections, outlook, expectations, estimates, among
+others may constitute ‘forward-looking statements’ within the meaning of applicable laws and regulations. Actual results may differ from
+such expectations, projections etc., whether express or implied. These forward-looking statements are based on various assumptions,
+expectations and other factors which are not limited to, risk and uncertainties regarding fluctuations in earnings, competitive intensity,
+pricing environment in the market, economic conditions affecting demand and supply, change in input costs, ability to maintain and
+manage key customer relationships and supply chain sources, new or changed priorities of trade, significant changes in political
+stability in India and globally, government regulations and taxation, climatic conditions, natural calamity, commodity price fluctuations,
+currency rate fluctuations, litigation among others over which the Company does not have any direct control. These factors may affect
+our ability to successfully implement our business strategy. The company cannot, therefore, guarantee that the ‘forward-looking’
+statements made herein shall be realized. The Company, may alter, amend, modify or make necessary corrective changes in any
+manner to any such forward looking statement contained herein or make written or oral forward-looking statements as may be required
+from time to time on the basis of subsequent developments and events.
+
+
+
+
+                                                                                                                                             2
+
+=== Page 4 ===
+Agenda
+
+
+Executive summary    Performance overview   Progress against strategic
+                                            priorities
+
+
+
+
+Macro environment    Business performance   Financial performance
+
+
+
+
+Concluding remarks   Other
+
+
+
+
+                                                                         33
+
+=== Page 5 ===
+      We are Tata Consumer Products
+                                                                                                                         In a nutshell
+
+
+                                                                                                                         Integrated F&B company        #2 branded tea player
+                                                                                                                         with rich heritage of Tata,   globally
+                                                                                                                         aspiring for a larger share
+                                                                                                                         of the FMCG World
+
+
+
+
+                                                                                                                         ₹ 15.2k crore consolidated    Reach of 263mn+
+      Largest salt brand in India       2nd Largest tea brand   3rd largest tea brand in UK   #1 natural mineral water   revenue in FY24 with a        households in India and
+                                               in India            & largest tea brand in          brand in India        market cap of ~₹118k* Cr      distribute to 4mn retail
+                                                                          Canada                                                                       outlets
+
+
+
+
+           National brand                 India’s leading         4th largest R&G coffee      Leading organic F&B and    Among the top 10 FMCG         ~4,500+ employees worldwide#
+       in pulses, spices, dry           Desi-Chinese brand              brand in USA          herbal supplements brand   companies in India
+      fruits and other staples
+
+
+
+* As of 30th September 2024
+# Does not include plantation workers                                                                                                                                             4
+
+=== Page 6 ===
+
+=== Page 7 ===
+Executive Summary
+   Consolidated revenue growth was 13% in Q2FY25 (5% organic). During the quarter,
+
+    o   India Beverages1 grew 3% (-4% organic), with tea volumes declining 4% YoY.
+
+    o   India Foods2 revenue grew 28% (+9% organic). Volume growth was 1%.
+
+    o   International business recorded 7% revenue growth (5% in constant currency). Profitability improved significantly, +53% YoY.
+
+   Growth businesses grew 15% organically. The RTD business was impacted by unfavourable weather and competitive actions.
+
+   The newly acquired growth businesses of Capital Foods and Organic India continue to deliver improving quarterly run-rates with strong EBITDA
+    expansion YoY. Capital Foods revenue grew 25% QoQ and Organic India revenue grew 45% QoQ.
+
+   Consolidated EBITDA grew 11% with margin contracting 30bps to 14.9%. This was primarily led by higher input costs for the India tea business.
+
+   Salt market share strengthened further, with 150bps gain on a MAT basis; India tea business saw a marginal value share loss of 20bps.3
+
+   The incubation of the food services channel and pharma channel continues as planned with the pilots having started in September.
+
+   The merger of our wholly-owned subsidiaries in India viz. NourishCo, Tata Soulfull, and Tata Smart Foodz was successfully completed during the
+    quarter in line with our ambition to simplify, synergise and scale the business.
+
+   Tata Starbucks is now the largest café operator in India with 457 stores across 70 cities.
+
+
+Note: Organic growth excludes Capital Foods and Organic India.
+1 Includes Packaged Beverages, Ready-to-Drink (RTD), and Organic India revenues.
+2 Includes Salt, Tata Sampann, Tata Soulfull, Tata Sampann Yumside, and Capital Foods revenues. Volume growth excludes Capital Foods.
+3 Source: Nielsen – MAT basis, Sep’24 vs Sep’23
+
+
+                                                                                                                                                     66
+
+=== Page 8 ===
+
+=== Page 9 ===
+ Key Businesses Snapshot – Q2FY25
+   In ₹ Cr                                                                                                  India
+                                                        India Beverages                                                                        International                               Non-Branded      Consolidated
+   (unless specified)                                                                                      Foods
+
+   Revenue                                                         1,380                                    1,368                                     1,017                                    462             4,214
+
+   Revenue growth                                              3% [-4%]                                  28% [9%]                                       7%                                    19%            13% [5%]
+
+   Constant currency growth                                                                                                                              5%                                    19%            12% [4%]
+
+
+
+
+   Key Brands
+
+
+
+Notes:
+a) India Beverages includes Packaged Beverages, Ready-to-Drink (RTD), and Organic India revenues (including overseas revenue). [ ] denotes organic revenue growth, excluding the impact of Organic India.
+b) India Foods Includes Salt, Tata Sampann, Tata Soulfull, Tata Sampann Yumside, and Capital Foods revenues. [ ] denotes organic revenue growth, excluding the impact of Capital Foods.
+c) International includes International Tea and US Coffee businesses.
+d) Non-Branded incl. solubles and plantations businesses.
+e) Consolidated revenue after Inter-segment eliminations. [ ] denotes organic revenue growth, excluding the impact of Capital Foods and Organic India.
+f) The classification of our businesses in the table above has been provided for historical context and differs from that disclosed in the segment information in our financial results.
+
+                                                                                                                                                                                                                           88
+
+=== Page 10 ===
+ Key Businesses Snapshot – H1FY25
+   In ₹ Cr                                                                                                  India
+                                                        India Beverages                                                                        International                               Non-Branded               Consolidated
+   (unless specified)                                                                                      Foods
+
+   Revenue                                                         2,903                                    2,714                                     2,004                                    963                           8,567
+
+   Revenue growth                                              4% [-2%]                                29% [12%]                                        9%                                    26%                        15% [7%]
+
+   Constant currency growth                                                                                                                              7%                                    25%                        14% [7%]
+
+
+
+
+   Key Brands
+
+
+
+Notes:
+a) India Beverages includes Packaged Beverages, Ready-to-Drink (RTD), and Organic India revenues (including overseas revenue) w.e.f. 16th April 2024. [ ] denotes organic revenue growth, excluding the impact of Organic India.
+b) India Foods Includes Salt, Tata Sampann, Tata Soulfull, Tata Sampann Yumside, and Capital Foods revenues. [ ] denotes organic revenue growth, excluding the impact of Capital Foods.
+c) International includes International Tea and US Coffee businesses.
+d) Non-Branded incl. solubles and plantations businesses.
+e) Consolidated revenue after Inter-segment eliminations. [ ] denotes organic revenue growth, excluding the impact of Capital Foods and Organic India.
+f) The classification of our businesses in the table above has been provided for historical context and differs from that disclosed in the segment information in our financial results.
+
+                                                                                                                                                                                                                                     99
+
+=== Page 11 ===
+Summary of Group Performance – Q2FY25
+
+                                       ₹ 4,214 Cr.                ₹ 629 Cr.                ₹ 424 Cr.                 ₹ 388 Cr.             ₹ 367 Cr.     ₹ 332 Cr.
+
+                                                                                                                     Group Net             Group Net
+                                          Revenue                   EBITDA                  PBT (bei)^                                                   Net Cash$
+                                                                                                                    Profit (bei)^            Profit
+
+ Growth (YoY)                                         13%                      11%                     -16%                        3%              1%
+
+ Margin                                                                     14.9%                     10.1%                      9.2%             8.7%
+
+ Margin expansion (YoY)                                                     -30bps                 -350bps                    -80bps           -100bps
+
+ EPS (Basic)                                                                                                                      3.98            3.78
+
+ EPS growth (YoY)                                                                                                                5.9%             3.8%
+^ before exceptional items.
+
+$ Cash and cash equivalents (net of total borrowings) as of 30 September 2024.
+
+
+* Group Net Profit (bei) and EPS (bei) growth rates differ on account of higher share of non-controlling interests in the previous year.
+
+
+
+
+                                                                                                                                                                     10
+                                                                                                                                                                     10
+
+=== Page 12 ===
+Summary of Group Performance – H1FY25
+
+                                       ₹ 8,567 Cr.              ₹ 1,300 Cr.                ₹ 889 Cr.                 ₹ 690 Cr.             ₹ 656 Cr.     ₹ 332 Cr.
+
+                                                                                                                     Group Net             Group Net
+                                          Revenue                   EBITDA                  PBT (bei)^                                                   Net Cash$
+                                                                                                                    Profit (bei)^            Profit
+
+ Growth (YoY)                                         15%                      16%                      -11%                      -4%              -6%
+
+ Margin                                                                     15.2%                     10.4%                      8.1%             7.7%
+
+ Margin expansion (YoY)                                                      30bps                 -300bps                   -150bps           -170bps
+
+ EPS (Basic)                                                                                                                      7.15            6.83
+
+ EPS growth (YoY)                                                                                                               -0.7%            -3.1%
+^ before exceptional items.
+
+$ Cash and cash equivalents (net of total borrowings) as of 30 September 2024.
+
+
+* Group Net Profit (bei) and EPS (bei) growth rates differ on account of higher share of non-controlling interests in the previous year.
+
+
+
+
+                                                                                                                                                                     11
+                                                                                                                                                                     11
+
+=== Page 13 ===
+
+=== Page 14 ===
+Strategic Priorities
+
+
+
+
+  The picture can't be display ed.
+
+
+
+
+ Strengthen &                        Drive Digital    Unlock     Create Future   Explore new        Embed
+accelerate core                      & Innovation    synergies    Ready Org      opportunities   sustainability
+   business
+
+
+
+
+                                                                                                                  13
+                                                                                                                  13
+
+=== Page 15 ===
+Strengthening General Trade & driving Channels of the future
+
+                            General Trade                                                   Modern Trade
+
+
+
+           Total Reach                                   Direct Reach
+                                                                                         Q2FY25 revenue growth*
+
+
+
+
+                                                                                             E-commerce
+
+
+
+Auto-replenishment system    Centralised planning and        New DMS, MAVIC rolled out
+implemented across 100%       dispatch from facilities         to 100% of distributors   Q2FY25 revenue growth*
+      of distributors
+                                                                                                    *Does not include Capital Foods and Organic India
+
+
+                                                                                                                                                14
+                                                                                                                                               14
+
+=== Page 16 ===
+Incubating new channels to fuel growth
+                Food Services / HoReCa                                         Pharmacies
+ Pilot rolled out in 2 cities, Mumbai and Ahmedabad    Pilot initiated in 10 cities
+
+ HoReCa-ready packs created across categories          Distributors and sales personnel onboarding in progress
+
+ Initial results encouraging                           Top pharmacy chains activated
+
+
+
+
+                                                                                                                15
+                                                                                                               15
+
+=== Page 17 ===
+         India Business – Fuelling our brands across platforms
+                                                                        Q2 FY25
+                                                                      A&P-to-Sales*
+
+                                                                             7.5%
+
+
+                                                        MAT Market share – Salt
+
+                                                                    Value +150 bps1
+
+
+
+
+                                                        MAT Market share – Tea
+
+                                                                    Value           -20 bps1
+
+
+                                               * India business
+                                               1 Source: Nielsen – MAT basis, Sep’24 vs Sep’23
+
+
+
+
+Public                                                                                           16
+
+=== Page 18 ===
+Continued focus on value-added innovation
+
+
+
+
+                                            1717
+
+=== Page 19 ===
+   Growth businesses are now a significant part of the India business
+                                    Growth Businesses as a % of India Business
+
+
+                                                                                               29%
+                                                                                                         Combined YoY
+                                                                                                        revenue growth
+
+
+                                                                               18%     18%               Q2FY25
+                                                                        15%
+
+
+
+                                                    10%
+
+                                  8%
+               6%
+
+
+              FY20               FY21               FY22                FY23   FY24   Q2FY24   Q2FY25
+
+
+
+
+Includes overseas revenues for Capital Foods and Organic India.
+[ ] denotes organic growth, excluding Capital Foods and Organic India
+                                                                                                                          18
+                                                                                                                         18
+
+=== Page 20 ===
+Striving towards a sustainable future
+
+
+
+                                            Tata Consumer Products was recognised as the:
+
+                                             Most Sustainable Consumer Goods Company
+                                             No. 2 in the Top 50 Most Sustainable
+                                              Companies across sectors
+
+                                            – Business World’s IMSC rankings, 2024
+
+
+
+
+              Publicly-stated Sustainable Supply Chain Policy released
+
+
+
+                                                                                            1919
+
+=== Page 21 ===
+
+=== Page 22 ===
+Key Commodities’ movement
+                                                        Tea                                                                                      Coffee
+              N. India Tea (INR/kg)                    S. India Tea (INR/kg)             Kenya Tea ($c/kg)                     Arabica Coffee ($c/lbs)           Robusta Coffee ($c/lbs)
+
+                                                                                                                                                                                            245
+                                                                                                     250
+                     234                                                                                       222                                                                  221
+         224                                                                              229                                                                                               222
+                                  217         208          208         210      212                 207
+                                                                                             208
+                                                                                                                                               185                        190       186
+                                                                                                                       177           173                         174
+         195                                  197          195
+                     177         144                                   180                                                                               156
+                                                                                                                                                                          149
+
+                                                                               133                                                                       122
+                                  128                                                               128                                        119               118
+                     117                      112                                           117
+         104                                                           106       109                           96
+                                                           102                                                                       93
+                                                                                                                       88
+
+
+
+
+                                                                                                               Q2'23
+
+
+
+                                                                                                                       Q3'23
+
+
+
+                                                                                                                                     Q4'23
+
+
+
+                                                                                                                                               Q1'24
+
+
+
+                                                                                                                                                         Q2'24
+
+
+
+                                                                                                                                                                 Q3'24
+
+
+
+                                                                                                                                                                           Q4'24
+
+
+
+                                                                                                                                                                                    Q1'25
+
+
+
+                                                                                                                                                                                            Q2'25
+          Q2'23
+
+
+
+                      Q3'23
+
+
+
+                                   Q4'23
+
+
+
+                                               Q1'24
+
+
+
+                                                            Q2'24
+
+
+
+                                                                       Q3'24
+
+
+
+                                                                                 Q4'24
+
+
+
+                                                                                            Q1'25
+
+
+
+                                                                                                     Q2'25
+    • Unfavorable weather conditions affected tea production in the                                          • Arabica prices continued to scale to all time highs during the quarter.
+      country. North India tea prices were 28% higher YoY for the quarter.                                   • Robusta prices have touched record highs during the quarter due to
+    • South India tea prices were also 25% higher YoY.                                                         global supply shortages. Averages prices for Q2 were 82% higher YoY.
+    • Kenyan tea prices were stable YoY as well as QoQ.
+
+
+Source: North India and South India tea auction (Tea Board of India)
+Mombasa tea auction (EATTA) | International Coffee Exchange
+                                                                                                                                                                                                    2121
+
+=== Page 23 ===
+
+=== Page 24 ===
+India Packaged Beverages
+                                                                                Performance commentary
+                                                                                • Revenue for the quarter declined 3%, with volume declining 4% owing
+                                                                -3%               to soft demand.
+
+                                                              Net Revenue       • Raw tea prices saw significant inflation during the quarter. Staggered
+                                                                                  price increases have been actioned across brands.
+
+                                                                                • Coffee continued its strong trajectory and grew 29% during the
+                                                                                  quarter.
+
+
+
+                                                                -4%
+                                                                Volume1
+                                                                                Other updates
+                                                                                • Tata Tea Premium launched its hyperlocal 2.0 campaign in the key
+                                                                                  markets of Uttar Pradesh, Punjab, and Haryana.
+
+                                                                                • Tata Tea Gold celebrates the West Bengal way of life via this
+
+                                                             -20bps               refresher film Kuthkuthe2.0.
+
+                                                                                • Tata Tea Chakra Gold leaf tea launched new premium packs in
+                                                            Tea Market Share2
+                                                                                  Andhra Pradesh, Telangana, and Tamil Nadu.
+
+
+
+
+1) Packaged beverages volume growth.
+2) Source: Nielsen – MAT basis (value), Sep’24 vs Sep’23.                                                                                               23
+                                                                                                                                                       23
+
+=== Page 25 ===
+  India Foods
+                                                                                                                               Performance commentary
+                                                                                                             +28%              • Salt revenue grew 2% with flat volumes during the quarter.
+                                                                                                           Revenue Growth
+                                                                                                                               • Value-added salts continued their strong momentum and grew 26%;
+                                                                                                                                 Rock salt registered record volumes.
+
+                                                                                                                               • Tata Sampann had another strong quarter, with 26% growth.
+
+                                                                                                              +9%
+                                                                                                          Organic Revenue
+                                                                                                              Growth1
+
+
+                                                                                                                               Other updates
+                                                                                                              +1%              • Price increase announced in Tata Salt to combat the input cost increase.
+                                                                                                           Volume Growth2
+                                                                                                                               • Tata Salt Crystal’s new campaign in Tamil Nadu highlights its superior
+                                                                                                                                 quality over local brands aiming to strengthen its leadership position in a
+                                                                                                                                 key market.
+
+
+                                                                                                          +150bps              • Whole spices launched under the Tata Sampann umbrella.
+
+                                                                                                          Salt Market Share3
+
+                                                                                                                                *Source: Synchronize. Ad Recall among brands which invested spends on a similar range to Tata Salt on IPL.
+1) Organic Revenue Growth excludes Capital Foods. For more details on Capital Foods, refer to slide 26.
+2) Volume growth excludes Capital Foods.
+3) Source: Nielsen – MAT basis, Sep’24 vs Sep’23                                                                                                                                                                                         24
+                                                                                                                                                                                                                                        24
+
+=== Page 26 ===
+Ready-to-Drink (RTD)
+                                        Performance commentary
+
+                        154Cr           • Revenue for the business declined 11% owing to unfavourable
+                                          weather and competitive pricing actions.
+                          Revenue       • Tata Gluco Plus’ pricing was reset in response to competition with
+                                          encouraging initial results.
+
+                                        • Expanded to premium segments with the launch of Tetley Kombucha
+                                          and Tata Coffee Grand cold coffee.
+
+
+
+                         -11%
+                       Revenue growth
+                                        Other updates
+                                        • Himalayan Saffron volumes doubled QoQ.
+
+                                        • Celebrated Himalayan Day with a new initiative to train Kashmiri
+                                          farmers in modern farming practices to improve saffron yields.
+
+                          +6%
+                        Tata Copper+
+                       revenue growth
+
+
+
+                                                                                                           25
+                                                                                                          25
+
+=== Page 27 ===
+New acquisitions – Capital Foods & Organic India
+Index of performance                               1.94                   Performance commentary
+
+                 1.55                                     206Cr           • Integration of both businesses completed, Capital Foods and Organic
+                                                                            India witness improving quarterly run rates.
+                                                          Capital Foods   • Gross margin for both businesses accretive to the Company, in line
+                                                   1.37     Revenue         with expectations.
+
+                                                                          • Started realizing synergies in both the businesses with strong EBITDA
+                                                                            margin expansion YoY.
+  1.00
+                             0.95
+    Q4FY24            Q1FY25
+
+             Capital Foods     Organic India
+                                               Q2FY25
+                                                          102Cr
+                                                          Organic India
+                                                            Revenue       Other updates
+                                                                          • Capital Foods now reaches over 500k outlets.
+
+                                                                          • Sampling-led activations for Organic India cumulatively reached 400k
+                                                                            households in Q2.
+                                                          +31%
+                                                          QoQ Growth
+
+
+
+
+                                                                                                                                                26
+                                                                                                                                               26
+
+=== Page 28 ===
+Non-branded Business
+                                        Performance commentary
+                                        • Revenue for the quarter grew 19%# led by exceptionally strong coffee
+                                          realizations in the plantations business.
+
+                                        • The solubles business declined 2%# as multi-decadal high coffee
+
+                        +19%#             prices impacted demand.
+
+                                        • EBIT margin for the business expanded 830bps YoY.
+                       Revenue Growth
+
+
+
+
+                                        Other updates
+                         -2%#           • Arabica and Robusta bean prices continue to scale new highs; remain
+                                          a key monitorable.
+                          Solubles
+                          Revenue
+
+
+
+
+                                        # Non-branded business including Vietnam in constant currency terms.
+
+                                                                                                                27
+                                                                                                               27
+
+=== Page 29 ===
+Tata Starbucks (JV)
+                                                                                              Performance commentary
+                                                                                              • Revenue for the quarter grew 2%, in line with soft demand trends
+
+                                                                                19              being witnessed by the sector.
+
+                                                                           Net new stores     • 19 net new stores added during the quarter. The total store count stood
+                                                                                                at 457 as of Sep’24.
+                                                                          opened during the
+                                                                               quarter        • Entered 5 new cities during the quarter. Tata Starbucks is now present
+                                                                                                across 70 cities.
+ First pet-friendly store, Jaipur      First experiential store, Delhi
+                                                                                              • Tata Starbucks is now the largest café operator in India based on store
+                                                                                                count.
+
+
+                                                                              457             Other updates
+                                                                             Total stores     • Participation in Starbucks Rewards grew driven by a 2x growth in new
+                                                                                                member registrations.
+
+                                                                                              • Tata Starbucks was recognized as one of India’s best workplaces for
+                                                                                                women by Great Place To Work®.
+
+
+
+Highest altitude outlet (7,697 ft   First metro station store in Mumbai
+                                                                                70
+      above sea level),                                                     Cities present
+    Manali-Leh Highway
+
+
+
+
+                                                                                                                                                                     28
+
+=== Page 30 ===
+  International operations
+                                    UK                                               USA                                          Canada
+           Revenue for the quarter grew 7% (reported                US coffee witnessed improving sequential        Tetley transitioned to new & improved
+            +10%).                                                    trend, returning to growth, up 2%                sustainable packs during the quarter.
+
+           Strong improvement in operating margin                   The US tea business registered a growth of      Revenue for the quarter declined 2% (-2%
+            driven by strong topline and structural                   6% in Q2.                                        reported) owing to destocking during this
+            interventions made earlier.                                                                                transition phase.
+
+           Tata Consumer is now the no. 2 branded                                                                    The ethnic business in Canada continues to
+            tea player ahead of Lipton and Twinnings.                                                                  grow in line with expectations.
+
+
+
+
+          Revenue growth                                  +7%        Coffee revenue growth        +2%                  Revenue growth                -2%
+          Value market share*                                                                                          Revenue growth in
+          Everyday black                            20.1%            Tea revenue growth           +6%                  specialty tea                +7%
+          Value market share*                                        Coffee bags                                       Value market share*
+          Fruit & herbal                                  9.7%       market share*               4.0%                  (overall tea)            27.4%
+Note: All numbers in constant currency unless specified
+*Source: Nielsen – MAT basis, Sep’24 vs Sep’23
+                                                                                                                                                                     29
+                                                                                                                                                                    29
+
+=== Page 31 ===
+
+=== Page 32 ===
+Performance Highlights – Q2FY25
+                                                                                             Consolidated revenue grew 13% (12% in constant
+               Standalone                (in ₹ Cr)   Consolidated                (in ₹ Cr)   currency terms) to Rs 4,214 Crs.
+                                                                                               • India business grew 15%. Organically (net of
+                                                                     481      4,214
+                                      3,046                                                       acquisitions), growth was 2%.
+Revenue from
+
+
+
+
+                             415                           3,734
+                    2,631
+ operations
+
+
+
+
+                                                                                               • Constant currency (CC) growth in the international
+                                                                                                  business was 5%.
+                            +16%                                    +13%
+                                                                                               • The non-branded business grew 19% in CC terms.
+
+
+                                                                                             Consolidated EBITDA at Rs 629 Crs. (+11% YoY) with
+                   Q2FY24   Growth   Q2FY25              Q2FY24     Growth   Q2FY25
+                                                                                             EBITDA margin at 14.9%.
+                                                                                               • The India business EBITDA declined 4% YoY with
+                                                                                                  margin contracting 250 bps. Organically, EBITDA
+                                                                      61      629                 declined 23% with margin contracting 380 bps led by
+                     408     (64)                          569
+                                      343                                                         tea cost inflation.
+EBITDA
+
+
+
+
+                                                                                               • International business EBTIDA grew 40% (CC)
+                            -16%                                    +11%
+                                                                                                  YoY. EBITDA margin was 420 bps higher led by
+                                                                                                  price increases and lower input costs.
+                                                                                               • EBITDA for the non-branded business grew 70%
+                   Q2FY24   Growth   Q2FY25              Q2FY24     Growth   Q2FY25               (CC) with a margin expansion of 810 bps owing to
+                                                                                                  better realizations.
+
+
+
+                                                                                                                                                       31
+                                                                                                                                                      31
+
+=== Page 33 ===
+Performance Highlights – H1FY25
+                                                                                             Consolidated revenue grew 15% (14% in constant
+               Standalone                (in ₹ Cr)   Consolidated                (in ₹ Cr)   currency terms) to Rs 8,567 Crs.
+                                                                                               • India business grew 15%. Organically (net of
+                                      6,248                         1,092     8,567
+                             941                                                                  acquisitions), growth was 4%.
+Revenue from
+
+
+
+
+                                                           7,475
+                    5,307
+ operations
+
+
+
+
+                                                                                               • Constant currency (CC) growth in the international
+                                                                                                  business was 7%.
+                            +18%                                    +15%
+                                                                                               • The non-branded business grew 25% in CC terms.
+
+
+                                                                                             Consolidated EBITDA at Rs 1,300 Crs. (+16% YoY)
+                   H1FY24   Growth   H1FY25              H1FY24     Growth   H1FY25
+                                                                                             with EBITDA margin at 15.2%.
+                                                                                               • The India business EBITDA grew 7% YoY,
+                                                                                                  however, margin contracted 110 bps. Organically,
+                                                                     184      1,300               EBITDA declined 8% with margin contracting 180
+                     791     (36)     755                  1,116
+                                                                                                  bps driven by tea cost inflation.
+EBITDA
+
+
+
+
+                                                                                               • International business EBTIDA grew 38% (CC)
+                                                                    +16%
+                             -5%                                                                  YoY. EBITDA margin was 410 bps higher led by
+                                                                                                  price increases and lower input costs.
+                                                                                               • EBITDA for the non-branded business grew 70%
+                   H1FY24   Growth   H1FY25              H1FY24     Growth   H1FY25               (CC) with a margin expansion of 640 bps owing to
+                                                                                                  better realizations.
+
+
+
+                                                                                                                                                       32
+                                                                                                                                                      32
+
+=== Page 34 ===
+Financials: Consolidated
+              Quarter ended Sep’24                                         Profit and Loss statement                                      Year-to-date Sep’24
+
+      Q2FY25             Q2FY24           Change %                            (all nos. in ₹ Crores)                              H1FY25            H1FY24          Change %
+
+          4,214              3,734               13%      Revenue from operations                                                    8,567             7,475              15 %
+            629                569               11%      EBITDA                                                                     1,300              1,116              16%
+        14.9 %              15.2%                         %                                                                         15.2%              14.9%
+            480                475                1%      EBIT                                                                       1,003               940                7%
+        11.4 %              12.7%                         %                                                                         11.7 %             12.6%
+            424                505              -16%      PBT before exceptional items                                                 889             1,000              -11%
+           (27)               (15)                        Exceptional items                                                            (44)              (20)
+           (38)              (132)                        Tax                                                                        (171)              (263)
+            359                359                0%      PAT                                                                          673               718                -6%
+         8.5 %               9.6%                         %                                                                          7.9%              9.6 %
+            367                364                1%      Group Net Profit (incl. JVs & Associates)                                    656               702                -6%
+Group Net Profit (GNP) for Q2FY25 was Rs 367 Crs, higher by 1%. GNP (before                Group Net Profit (GNP) for H1FY25 was Rs 656 Crs, lower by 6%. GNP (before
+exceptional items) at Rs 388 Crs, grew 3% YoY                                              exceptional items) at Rs 690 Crs, 4% lower YoY
+•   EBITDA grew 11% driven by higher revenue and improved margin in international          •   EBITDA grew 16% driven by higher revenue and improved margin in international
+    and non-branded, offset by a contraction in the India business margin.                     and non-branded, offset by a contraction in the India business margin.
+•   EBIT, however, grew 1% due to higher amortization on account of acquisitions.          •   EBIT, however, grew 7% due to higher amortization on account of acquisitions.
+•   PBT(bei) declined 16% due to higher interest costs.                                    •   PBT(bei) declined 11% due to higher interest costs.
+•   The effective tax rate was lower on account of a one-time credit on the merger of      •   The effective tax rate was lower on account of a one-time credit on the merger of
+    wholly-owned subsidiaries.                                                                 wholly-owned subsidiaries.
+
+                                                                                                                                                                                   3333
+
+=== Page 35 ===
+Financials: Standalone
+               Quarter ended Sep’24                                         Profit and Loss statement                                      Year-to-date Sep’24
+
+       Q2FY25             Q2FY24          Change %                             (all nos. in ₹ Crores)                             H1FY25             H1FY24         Change %
+
+          3,046              2,631                16%      Revenue from operations                                                   6,248              5,307              18%
+            343                408               -16%      EBITDA                                                                      755                791               -5%
+         11.3 %             15.5%                          %                                                                        12.1%              14.9%
+            290                346               -16%      EBIT                                                                        648                678               -4%
+          9.5 %             13.1%                          %                                                                        10.4%              12.8%
+            236                376               -37%      PBT before exceptional items                                                529                737             -28%
+            (15)               (15)                        Exceptional items                                                           (25)              (20)
+               2              (101)                        Tax                                                                         (97)             (198)
+            223                260               -14%      PAT                                                                         408                519             -21%
+
+Standalone net profit for Q2FY25 at Rs 223 Crs, declined 14%                                Standalone net profit for H1FY25 at Rs 408 Crs, declined 21%
+•   EBITDA declined 16% despite a 16% growth in top line as tea cost inflation              •   EBITDA declined 5% despite an 18% growth in top line due to an adverse mix and
+    impacted margins.                                                                           higher input costs.
+•   PBT (bei) declined 37% led by higher interest costs owing to the bridge financing       •   PBT (bei) declined 28% led by higher interest costs owing to the bridge financing
+    taken for the acquisitions.                                                                 taken for the acquisitions.
+•   The effective tax rate was lower on account of a one-time credit on the merger of       •   The effective tax rate was lower on account of a one-time credit on the merger of
+    wholly-owned subsidiaries.                                                                  wholly-owned subsidiaries.
+
+
+
+
+                                                                                                                                                                                3434
+
+=== Page 36 ===
+Segment-wise Performance Q2FY25
+        Particulars                        Segment Revenue                               Segment Results
+                                                                                                                          Revenue – Branded business
+₹ Cr                              Q2 FY25        Q2 FY24         Change         Q2 FY25        Q2 FY24          Change
+
+India Business                          2,655          2,404           10%             243                331      -26%
+                                                                                                                                           70%   India Business
+International Business*                 1,116            950           18%             167                96       74%                     30%   International Business
+
+Total Branded Business                  3,771          3,354           12%             410                426       -4%
+
+Non-branded Business                      462            388           19%             106                57       86%
+
+Others / Unallocated items                (19)            (8)                         (119)                7              Segment Results – Branded business
+
+Total                                   4,214          3,734           13%             397                491      -19%
+
+                                                                                                                                           59%   India Business
+
+                                                                                                                                           41%   International Business
+
+
+
+
+ *International business includes the export sales of Capital Foods and Organic India worth Rs. 99 crs.
+
+                                                                                                                                                                      35
+                                                                                                                                                                     35
+
+=== Page 37 ===
+Segment-wise Performance H1FY25
+        Particulars                        Segment Revenue                               Segment Results
+                                                                                                                         Revenue – Branded business
+₹ Cr                              H1 FY25         H1 FY24        Change         H1 FY25        H1 FY24         Change
+
+India Business                          5,470          4,882           12%             569            659         -14%
+                                                                                                                                          72%   India Business
+International Business*                 2,162          1,845           17%             343            212         62%                     28%   International Business
+
+Total Branded Business                  7,633          6,727           13%             912            871          5%
+
+Non-branded Business                      963            765           26%             202            107         89%
+
+Others / Unallocated items                (29)           (17)                        (269)                 3             Segment Results – Branded business
+
+Total                                   8,567          7,475           15%             845            980         -14%
+
+                                                                                                                                          62%   India Business
+
+                                                                                                                                          38%   International Business
+
+
+
+
+ *International business includes the export sales of Capital Foods and Organic India worth Rs. 158 crs.
+
+                                                                                                                                                                     36
+                                                                                                                                                                    36
+
+=== Page 38 ===
+
+=== Page 39 ===
+To conclude
+Macros
+
+   Erratic weather patterns have affected tea and salt production in India, leading to input cost inflation.
+
+   The global coffee category continues to face demand headwinds owing to record-high coffee prices.
+
+Business
+
+   India foods, International, and non-branded businesses delivered a strong performance; while India beverages had a soft quarter.
+
+   Tea prices remain elevated; staggered price increases have been actioned in the India tea business.
+
+   Announced a price increase in Tata Salt, effective October, to mitigate input cost inflation.
+
+   Continue to build momentum in the new businesses of Capital Foods and Organic India.
+
+   The rights issue was successfully concluded and short-term debt paid off; the company is now net cash positive.
+
+
+
+
+                                                                                                                                        38
+                                                                                                                                       38
+
+=== Page 40 ===
+Q&A   Quarter Ended June’20
+
+
+
+
+                          39
+
+=== Page 41 ===
+
+=== Page 42 ===
+Shareholding information                                                                  Quarter Ended June’20
+
+
+Pattern as on 30th September 2024                  Stock data
+
+                                                   BSE Ticker                                500800
+                      Others
+                       3%
+                                                   NSE Ticker                                TATACONSUM
+         Individual
+            19%
+                                   Promoter and    Market Capitalization (Sep 30, 2024)      ₹ 1,184.3 bn
+                                  promoter Group
+                                       34%
+                                                   Number of Shares Outstanding              989.4 Mn
+
+
+  MFs/ UTI/ AIFs
+       8%
+
+
+
+
+     Insurance
+    Companies/                   Foreign
+       Banks                   Institutional
+        10%                     Investors
+                                   26%
+
+
+
+
+                                                                                                              4141
+
+=== Page 43 ===
+                                                          Thank You
+For more information
+Institutional investors – Contact
+Nidhi Verma
+Head – Investor Relations & Corporate Communication
+nidhi.verma@tataconsumer.com
+
+Kaiwan Olia
+Senior Manager – Investor Relations
+Kaiwan.olia@tataconsumer.com
+
+Retail investors - Contact                   Call us at
+investor.relations@tataconsumer.com          +91-22-61218400
+
+
+For media queries
+nidhi.verma@tataconsumer.com
+satya.muniasamy@tataconsumer.com
+
+Last 10-year financials are available on Historical financial data
+
+
+     tataconsumer.com                         TataConsumer           tata-consumer-products/   tataconsumerproducts/
+
+
+                                                                                                                       42
+
+=== Page 44 ===

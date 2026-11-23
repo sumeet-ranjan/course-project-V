@@ -1,0 +1,12 @@
+item,value
+abnormal return 2024-08-26,-0.00572
+abnormal return 2024-08-27,0.01167
+abnormal return 2024-08-28,-0.00957
+abnormal return 2024-08-29,-0.00173
+abnormal return 2024-08-30,0.00443
+"sum of daily abnormal returns, 26-30 Aug 2024",-0.00093
+"engine CAR (0,+4) from 26 Aug 2024",-6e-05
+"placebo p, CAR (0,+4)",0.99499
+abnormal return 18 Oct 2024 (results day; filed 17 Oct 18:01),0.01108
+"daily s.d. of raw returns, estimation window",0.02259
+"daily s.d. of market-model residuals, estimation window",0.01943

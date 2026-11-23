@@ -28,16 +28,16 @@ E.R = pd.concat([E.R, add[[c for c in add.columns if c not in E.R.columns]]], ax
 NODES = {"AHLUCONT": "contractor <- DLF (material)", "BLKASHYAP": "contractor <- DLF (site hit not documented)", "JKIL": "contractor <- NBCC (not material)"}
 COMP = ["NCC", "PSPPROJECT", "CEMPRO", "LT", "CAPACITE"]; COMP_SM = [c for c in COMP if c != "LT"]
 firms = list(NODES) + COMP
-EV = {"18 Nov 2024 (ban; Ahluwalia Q2 results first priced; Q2 call 3.00 pm)": ("2024-11-18", [(-1, 3), (-1, 5), (6, 20), (21, 60), (0, 0), (1, 1), (0, 1)]),
+EV = {"18 Nov 2024 (ban day 0; Ahluwalia Q2 results day; Q2 call priced from 19 Nov)": ("2024-11-18", [(-1, 3), (-1, 5), (6, 20), (21, 60), (0, 0), (1, 1), (0, 1)]),
       "17 Dec 2024 (re-imposition)": ("2024-12-17", [(-1, 5), (6, 20)]),
-      "12 Feb 2025 (Ahluwalia Q3 results first priced; Q3 call 4.00 pm, after the close)": ("2025-02-12", [(0, 0), (1, 1), (0, 1)])}
+      "12 Feb 2025 (Ahluwalia Q3 results day; Q3 call priced from 13 Feb)": ("2025-02-12", [(0, 0), (1, 1), (0, 1)])}
 PL = [a.reindex(columns=firms) for a in (E.ar_matrix(t, pre=1, post=60) for t in E.placebo_t0s(n=1000, post=60)) if a is not None]
 NOTE = {("BLKASHYAP", "2024-11-18"): "not its own disclosure day: its Q2 FY25 results came out on 11 Nov 2024 at 13:56 (in market hours)",
         ("BLKASHYAP", "2025-02-12"): "not its own disclosure day: its Q3 FY25 results came out on 7 Feb 2025 at 17:13; it still fell on 12 Feb, so the 12 Feb move is not Ahluwalia-specific",
         ("JKIL", "2024-11-18"): "Ahluwalia's disclosure day; J. Kumar's own results dates not checked", ("JKIL", "2025-02-12"): "Ahluwalia's disclosure day; J. Kumar's own results dates not checked",
-        ("AHLUCONT", "2024-11-18"): "day 0 mixes the ban (Stage IV from 18 Nov), the Q2 FY25 results and the first 30 minutes of the call",
+        ("AHLUCONT", "2024-11-18"): "(0,0) = 18 Nov, Q2 results day (and the ban's day 0); (+1,+1) = 19 Nov, first day the Q2 call (GRAP-IV statement) is priced",
         ("AHLUCONT", "2024-12-17"): "no Ahluwalia disclosure in 26 Dec 2024 - 15 Jan 2025 (NSE announcement list)",
-        ("AHLUCONT", "2025-02-12"): "12 Feb prices the Q3 results (the deck filed at 12:33 does not mention the ban); 13 Feb prices the 4.00 pm call with the guidance cut"}
+        ("AHLUCONT", "2025-02-12"): "(0,0) = 12 Feb, Q3 results day (the deck filed at 12:33 does not mention the ban); (+1,+1) = 13 Feb, first day the Q3 call (guidance cut) is priced"}
 def stat(ar, f, w, comp):
     c = E.car(ar[[f]], *w).iloc[0]; m = E.car(ar[comp], *w).mean()
     return c, m, c - m
@@ -64,10 +64,10 @@ print(T.drop(columns=["node", "unlinked_each", "event"]).round(3).to_string(inde
 t18 = E.t0_of("2024-11-18"); y = E.R.iloc[t18 - 250:t18 - 30]; mk = E.MKT.iloc[t18 - 250:t18 - 30]
 beta = ((y - y.mean()).mul(mk - mk.mean(), axis=0)).sum() / ((y.notna()).mul((mk - mk.mean()) ** 2, axis=0)).sum(); alpha = y.mean() - beta * mk.mean()
 sd = pd.Series(np.nanstd(y.values - (np.outer(mk.values, beta.values) + alpha.values[None, :]), axis=0, ddof=1), index=y.columns)
-WHAT = {"2024-11-18": "Q2 FY25 results (filed 14 Nov 17:16, after the close; 15 Nov holiday) + ban day 0 + first 30 min of the 3.00 pm call",
-        "2024-11-19": "rest of the Q2 call of 18 Nov (\"GRAP-IV is in place ... going to impact this quarter\")",
-        "2025-02-12": "Q3 FY25 results (filed 11 Feb 16:43, after the close): revenue -7.3% YoY",
-        "2025-02-13": "Q3 call of 12 Feb 4.00 pm (after the close): FY25 growth guidance cut to 8.5-9%"}
+WHAT = {"2024-11-18": "Q2 results day: Q2 FY25 results filed 14 Nov 17:16 (after the close; 15 Nov holiday); down 2.78% by 10:32 IST on the profit fall (Business Standard); also the ban's day 0",
+        "2024-11-19": "first day the Q2 call is priced: call began 3.00 pm on 18 Nov, 30 min before the close; the GRAP-IV statement is on page 8 of 13 of the transcript",
+        "2025-02-12": "Q3 results day: Q3 FY25 results filed 11 Feb 16:43 (after the close), revenue -7.3% YoY; the deck filed at 12:33 does not mention the ban",
+        "2025-02-13": "first day the Q3 call is priced: call began 4.00 pm on 12 Feb, after the close; FY25 growth guidance cut to 8.5-9%"}
 dd = []
 for d, what in WHAT.items():
     ts = pd.Timestamp(d); t0 = E.t0_of(d); ar = E.ar_matrix(t0, pre=1, post=60).reindex(columns=firms)

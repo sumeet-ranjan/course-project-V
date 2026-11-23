@@ -30,8 +30,17 @@ L = pd.read_csv(DEL + "verified_links.csv", dtype=str).fillna("")
 NC = pd.read_csv(DEL + "stepC_ncr_node_cars.csv"); Q = pd.read_csv(DEL + "stepC_ncr_quarterly.csv")
 # ---------------- 3(ii) Panel A ----------------
 SEV = {"DLF": 0.42, "NBCC": 0.94}   # share of plant cost in NCR districts (evidence_NCR.csv node 1)
-OWN = {"AHLUCONT": "33.3% of order book in Delhi NCR (31 Dec 2024)", "BLKASHYAP": "order book Haryana 45.4%, Delhi 10.1% (31 Dec 2024)",
-       "JKIL": "not established", "NCC": "not established", "PSPPROJECT": "not established", "CEMPRO": "yes (IKEA building, Noida)", "LT": "not established", "CAPACITE": "yes (NCR an operating region)"}
+# own direct exposure: each contractor's NCR share of its order book at 31 Dec 2024 (research/realign/contractor_ncr_orderbook.csv, quotes checked by src/42)
+OWN = {"AHLUCONT": "33.3% of unexecuted order book in Delhi NCR (31 Dec 2024; Haryana 28.4%, UP 5.8%, Delhi 4.4%)",
+       "BLKASHYAP": "Haryana 45.4%, Delhi 10.1% of order book (31 Dec 2024); NCR share not given (between 10% and 56%)",
+       "JKIL": "not disclosed (Q3 FY25 release gives segments only; deck refused, 403)",
+       "NCC": "not disclosed; UP 13% and Haryana 4% of order book (31 Dec 2024; low-confidence reading of the slide)",
+       "PSPPROJECT": "not disclosed; UP 4% of on-going projects by count (31 Dec 2024)",
+       "CEMPRO": "not disclosed; one NCR project named (IKEA building, Noida)",
+       "LT": "not disclosed (India 58% of order book, 31 Dec 2024)",
+       "CAPACITE": "not disclosed; NCR among its regions (its NBCC Noida order is dated 14 Feb 2025, after the event)"}
+OWN_NUM = {"AHLUCONT": (0.333, 0.333), "BLKASHYAP": (0.101, 0.555)}
+DOSE_DEF = "dose = builder's share of the contractor's sales (midpoint of the bracket in verified_links.csv) x builder's share of plant cost in NCR districts (DLF 0.42, NBCC 0.94)"
 links = {"AHLUCONT": "N001", "BLKASHYAP": "N002", "JKIL": "N004"}
 COMP = ["NCC", "PSPPROJECT", "CEMPRO", "LT", "CAPACITE"]
 OUTC = [("18 Nov 2024", "(-1,5)"), ("18 Nov 2024", "(6,20)"), ("18 Nov 2024", "(21,60)"), ("17 Dec 2024", "(-1,5)"), ("17 Dec 2024", "(6,20)")]
@@ -44,7 +53,7 @@ for f in list(links) + COMP:
     else:
         r.update(link_id="(comparison: no link found)", buyer="", link_status="zero dose", w_low=0.0, w_high=0.0, w_mid=0.0, buyer_exposure=np.nan)
     for k in ("low", "high", "mid"): r[f"dose_{k}"] = r[f"w_{k}"] * (r["buyer_exposure"] if f in links else 0.0)
-    r["own_ncr_exposure"] = OWN[f]
+    r["own_ncr_orderbook_share"] = OWN[f]; r["own_ncr_share_low"], r["own_ncr_share_high"] = OWN_NUM.get(f, (np.nan, np.nan)); r["dose_definition"] = DOSE_DEF if f in links else "zero dose (no link to a hit builder found)"
     for ev, w in OUTC:
         x = NC[(NC.nse_symbol == f) & (NC.event == ev) & (NC.window == w)]
         r[f"car_{ev[:6].replace(' ', '')}_{w}"] = x.car.iloc[0] if len(x) else np.nan
@@ -71,7 +80,8 @@ for dose, sample in (("dose_mid", "all 8"), ("dose_low", "all 8"), ("dose_high",
         fits.append(dict(panel="A: NCR backward (H3)", dose=dose, sample=sample, outcome=o, n=int(ok.sum()), n_linked=int((dd > 0).sum()), slope=b,
                          effect_at_ahluwalia_dose=b * float(A.loc[A.nse_symbol == "AHLUCONT", dose].iloc[0]),
                          perm_p_two_sided=(np.abs(bs) >= abs(b) - 1e-12).mean(), n_permutations=len(bs),
-                         note=("placebo outcome: the quarter before the ban" if o == "q2fy25_sales_yoy_pct_preban" else "slope per unit of dose (dose = weight x buyer's NCR exposure)")))
+                         note=("placebo outcome: the quarter before the ban" if o == "q2fy25_sales_yoy_pct_preban" else "slope per unit of dose (dose = weight x buyer's NCR exposure)") +
+                              "; the dose cannot be separated from the contractors' own NCR exposure with 8 firms (the highest-dose firm, B.L. Kashyap, also has the largest Haryana/Delhi order book)"))
 F = pd.DataFrame(fits)
 # ---------------- Panel B ----------------
 g = L[L.link_id == "G001"].iloc[0]
@@ -80,7 +90,7 @@ gc = lambda w: GN[(GN.nse_symbol == "TATACONSUM") & (GN.window == w)].car.iloc[0
 ts = TS.set_index("period")
 B = pd.DataFrame([dict(panel="B: Gujarat forward (H2)", nse_symbol="TATACONSUM", link_id="G001", buyer="TATACONSUM (buyer); supplier TATACHEM", link_status=g.status,
     w_low=float(g.w_buyer_input_cost_low), w_high=float(g.w_buyer_input_cost_high), w_mid=(float(g.w_buyer_input_cost_low) + float(g.w_buyer_input_cost_high)) / 2,
-    buyer_exposure=np.nan, own_ncr_exposure="supplier hit severity: about 10 days at Mithapur; 40,000 t salt lost against 13.48 lakh t of annual salt demand from Tata Consumer (about 3% of a year)",
+    buyer_exposure=np.nan, own_ncr_orderbook_share="supplier hit severity: about 10 days at Mithapur; 40,000 t salt lost against 13.48 lakh t of annual salt demand from Tata Consumer (about 3% of a year)",
     **{"car_26Aug_(-1,5)": gc("(-1,5)"), "car_26Aug_(6,20)": gc("(6,20)"), "car_26Aug_(21,60)": gc("(21,60)")},
     results_day_21oct_ar=RD[(RD.nse_symbol == "TATACONSUM") & (RD.date == "2024-10-21")].abnormal_return.iloc[0],
     salt_price_mix_q1_q3_q4_pp=f"{ts.loc['Q1 FY25','implied_price_mix_pp']:+.0f} / {ts.loc['Q3 FY25','implied_price_mix_pp']:+.0f} / {ts.loc['Q4 FY25','implied_price_mix_pp']:+.0f}",
@@ -98,8 +108,11 @@ print(F[["dose", "sample", "outcome", "n", "slope", "effect_at_ahluwalia_dose", 
 # ---------------- 3(iii) placebos ----------------
 if os.environ.get("SKIP_PLACEBO"): sys.exit(0)
 PF = pd.read_csv(DEL + "placebo_firms.csv"); PF = PF[PF.included == "yes"]
+FLAG = {"TATASTEEL": "Tata group firm (group news on 10 Oct and 21 Oct 2024 falls inside (+21,+60))",
+        "UNITECH": "storm week: raw -9.6%, market-model expected +7.1% (estimation-window alpha +0.85% a day from its 2024 rally), abnormal -16.7%"}
+pf_rows = []
 GROUPS = [("A: unexposed, unlinked placebo firms", "NCR", sorted(PF[PF.event == "E_NCR_GRAP_2024"].nse_symbol)),
-          ("A: unexposed, unlinked placebo firms (list provisional)", "GJ", sorted(PF[PF.event.str.startswith("E_GJ")].nse_symbol)),
+          ("A: unexposed, unlinked placebo firms (approved with changes; Reliance Power dropped)", "GJ", sorted(PF[PF.event.str.startswith("E_GJ")].nse_symbol)),
           ("B: G2 control firms (developers with no NCR project)", "NCR", ["BRIGADE", "PURVA", "AJMERA", "RUSTOMJEE", "KOLTEPATIL", "SUNTECK", "LODHA", "VASCONEQ"]),
           ("B: G2 control firms (fertiliser and specialty, no Gujarat plant)", "GJ", ["CHAMBLFERT", "NFL", "PARADEEP", "VINATIORGA", "CLEAN", "SUDARSCHEM"]),
           ("C: unlinked comparison contractors (zero dose)", "NCR", COMP)]
@@ -121,8 +134,13 @@ for lab, ev, fs in GROUPS:
                 pf = pd.Series([E.car(P[[f]], *w).iloc[0] for P in PL]).dropna()
                 indiv.append((pf.abs() >= abs(cars[f])).mean())
             indiv = np.array(indiv)
+            dmed = pd.Series([E.car(P[fs], *w).median() for P in PL]).dropna(); md = cars.median()
+            for f in fs:
+                if pd.notna(cars[f]): pf_rows.append(dict(test=lab, event=evl, window=f"({w[0]},{w[1]})", nse_symbol=f, car=cars[f], flag=FLAG.get(f, "")))
             out.append(dict(test=lab, event=evl, window=f"({w[0]},{w[1]})", n_firms=int(cars.notna().sum()), mean_car=m, p_two_sided=(dist.abs() >= abs(m)).mean(),
+                            median_car=md, p_median_two_sided=(dmed.abs() >= abs(md)).mean(),
                             placebo_sd=dist.std(), share_firms_p_below_05=(indiv < 0.05).mean() if len(indiv) else np.nan, n_firms_p_below_05=int((indiv < 0.05).sum()),
                             expected_share=0.05, n_placebo_days=len(dist), firms=" ".join(fs)))
 T3 = pd.DataFrame(out); T3.round(4).to_csv(DEL + "table3_placebo.csv", index=False)
+pd.DataFrame(pf_rows).round(4).to_csv(DEL + "table3_placebo_firms.csv", index=False)
 print(T3.drop(columns=["firms"]).round(3).to_string(index=False))

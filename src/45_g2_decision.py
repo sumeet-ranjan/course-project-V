@@ -65,6 +65,16 @@ CONSTR_INPUT = {"ACC", "ULTRACEMCO", "SHREECEM", "JPASSOCIAT", "JINDALSTEL", "JS
 DEV = set(c[c.primary_industry.str.contains("Housing", na=False)].nse_symbol)
 GJ_LINKED = {"GAIL", "IOC", "BPCL", "TORNTPOWER", "NATIONALUM"}          # held / candidate links in verified_links.csv
 CHEM_DOWN = {s for s in c.nse_symbol if sector(c.set_index("nse_symbol").primary_industry.get(s, "")) in ("Chemicals", "Healthcare/Pharma", "Auto/Tyres")} | {"HINDUNILVR"}
+# re-screen of the Gujarat placebo firms against the external hit firms (research/realign/gj_placebo_rescreen.csv; quotes checked by src/42)
+RS_LINK, RS_INPUT, RS_DONE = {}, {}, set()
+_rp = ROOT + "/research/realign/gj_placebo_rescreen.csv"
+if os.path.exists(_rp):
+    _r = pd.read_csv(_rp, dtype=str).fillna(""); _q = pd.read_csv(ROOT + "/research/realign/quote_check_realign.csv")
+    _ok = set(_q[(_q.file == "gj_placebo_rescreen.csv") & (_q.status == "verified")].row)
+    for _i, _x in _r.iterrows():
+        RS_DONE.add(_x.nse_symbol)
+        if _x.finding == "link_documented" and _i in _ok: RS_LINK[_x.nse_symbol] = f"{_x.check}: {_x.document_title}"
+        if _x.finding == "input_documented" and _i in _ok: RS_INPUT[_x.nse_symbol] = f"uses an input the hit firms sell ({_x.check}; {_x.document_title})"
 pl = []
 for s in sorted(traded):
     nm = c.set_index("nse_symbol").company.get(s, "")
@@ -78,14 +88,19 @@ for s in sorted(traded):
     if s == "HCC": why.append("construction contractor (Hindustan Construction Co.); the pack lists only 3 sites, so its NCR project exposure is unknown")
     if s == "TORNTPOWER": why.append("not a clean placebo: verified Petronet customer (user, 22 Nov 2026)")
     pl.append(dict(event="E_NCR_GRAP_2024", nse_symbol=s, company=nm, included="no" if why else "yes", reason="; ".join(why) if why else "no NCR plant, no candidate link"))
-    # Gujarat (provisional until Gujarat Step B)
-    why = []
+    # Gujarat (approved with changes at checkpoint 4, 23 Nov 2026: Reliance Power dropped, Tata Steel flagged, re-screened against the external hit firms)
+    why = []; flag = []
     if s in guj_any: why.append("has a plant in Gujarat")
     if s in GJ_LINKED: why.append("held/candidate link to a Gujarat hit firm (Petronet offtaker or GNAL caustic-soda buyer)")
     if s in CHEM_DOWN and s not in guj_any: why.append("chemical, pharma, tyre or FMCG firm: possible downstream buyer (Step B pending)")
     if s == "TORNTPOWER": why.append("pack 'control' but a verified Petronet customer (user, 22 Nov 2026)")
     if s == "IGL": why.append("buys most of its gas from GAIL, a held Petronet offtaker (second-order link)")
-    pl.append(dict(event="E_GJ_FLOOD_2024 (provisional)", nse_symbol=s, company=nm, included="no" if why else "yes", reason="; ".join(why) if why else "no Gujarat plant, no candidate link"))
+    if s == "RPOWER": why.append("confound: SEBI's final order of 22 Aug 2024 against Anil Ambani (ADA group); the stock fell 5.0% on each of 23, 26 and 27 Aug 2024, the size of a lower circuit; -20.7% abnormal over (-1,+5) (user, checkpoint 4)")
+    if s == "TATASTEEL": flag.append("flag: Tata group firm: shared chairman, and Tata Chemicals holds 0.25% of Tata Steel (Rs 477 cr); no supply link found; group news on 10 Oct and 21 Oct 2024 falls inside the (+21,+60) window")
+    if s in RS_LINK: why.append("link to an external hit firm documented in the re-screen: " + RS_LINK[s])
+    if s in RS_INPUT: flag.append("flag: " + RS_INPUT[s])
+    pl.append(dict(event="E_GJ_FLOOD_2024", nse_symbol=s, company=nm, included="no" if why else "yes",
+                   reason="; ".join(why) if why else "; ".join(["no Gujarat plant, no candidate link (re-screened against Tata Chemicals and Archean)" if s in RS_DONE else "no Gujarat plant, no candidate link"] + flag)))
 P = pd.DataFrame(pl); P.to_csv(DEL + "placebo_firms.csv", index=False)
 pd.set_option("display.width", 220); pd.set_option("display.max_colwidth", 120)
 print(G[G.event.isin(["E_NCR_GRAP_2024", "E_GJ_FLOOD_2024"])].to_string(index=False))
