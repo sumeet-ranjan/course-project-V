@@ -182,3 +182,24 @@ Consumer chain hold as a traced forward path (H2)?
 - **GE T&D:** its 6 Sep 2024 filing (BSE) was read. It continues "our earlier disclosure dated August 27, 2024" and
   reports "no damage to the property … except the Production disruption because the labor was unable to reach to the
   Plant".
+
+## Checkpoint-5 review (23 Nov 2026): correction applied
+- **"Cost, not shortage" is replaced.** New wording: **cost stated by both firms; a volume stall in the storm quarter
+  is unexplained and consistent with lost supply.**
+  - Tata Consumer's salt volume growth went from +8% (Q1) to flat (Q2, deck slide 24).
+  - Tata Chemicals' India salt sales volume fell from 338 kt (Q2 FY24) to 322 kt (Q2 FY25), −4.7%. Its call says:
+    "When you look at Q2 of '24 and Q2 of '25, the numbers are almost same, we were behind a bit from our plan", and
+    the weather "has had 30,000 tons on soda ash and about 40,000 tons on salt".
+- **Tata Chemicals' India salt sales volume** (kt, from the quarterly analyst decks' charts;
+  `research/realign/tatachem_salt_volumes.csv`):
+
+  | | Q1 | Q2 | Q3 | Q4 | Year |
+  |---|---|---|---|---|---|
+  | FY24 | 312 | 338 | 324 | 371 | 1,345 (deck: 1,344) |
+  | FY25 | 326 | 322 | 354 | 346 | 1,348 |
+  | YoY | +4.5% | −4.7% | +9.3% | −6.7% | +0.2% |
+
+  These are shown beside Tata Consumer's in `stepC_gj_tcpl_salt.csv`. The YoY figures are computed from the decks'
+  charts; the decks print no percentage.
+- **The Q2 call's sentence** "last quarter, we had grown 8%, and this quarter was 1%" does not say volume or revenue.
+  It is now marked unlabelled (`tcpl_salt_kpis.csv`), and the deck is cited for Q2.

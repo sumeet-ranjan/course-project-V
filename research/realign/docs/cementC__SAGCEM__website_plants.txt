@@ -1,0 +1,82 @@
+Title: Plants - Sagar Cements Limited
+
+URL Source: https://sagarcements.in/about/plants
+
+Markdown Content:
+Mattampally, Telangana Sagar Cements Limited
+
+![Image 1](https://sagarcements.in/wp-content/uploads/2020/10/corp2.jpg)
+
+Capacity 3.0 MTPA
+Key markets Andhra Pradesh, Telangana, Tamil Nadu, Odisha, Maharashtra
+Limestone reserves 389 MnT
+Captive power 28.15 MW
+Thermal power 18 MW
+
+Gudipadu, Andhra Pradesh Sagar Cements Limited
+
+![Image 2](https://sagarcements.in/wp-content/uploads/2020/10/corp3.jpg)
+
+Capacity 1.25 MTPA
+Key markets Andhra Pradesh, Karnataka, Tamil Nadu, Telangana, Kerala
+Limestone reserves 162 MnT
+Captive power 35 MW
+Thermal power 25 MW
+
+Bayyavaram, Andhra Pradesh Sagar Cements Limited
+
+![Image 3](https://sagarcements.in/wp-content/uploads/2020/10/corp4.jpg)
+
+Capacity 1.5 MTPA
+Key markets Andhra Pradesh, South Odisha
+Captive power 0.13 MW
+
+Jeerabad, Madhya Pradesh Sagar Cements (M) Private Limited (Formerly known as Satguru Cement Private Limited)
+
+![Image 4](https://sagarcements.in/wp-content/uploads/2020/10/Jeerabad_2.png)
+
+Capacity 1.5 MTPA
+Key markets Western Madhya Pradesh, Gujarat, Rajasthan, Maharashtra
+Limestone reserves 79 MnT
+Captive power 5.4 MW
+
+Jajpur, Odisha Sagar Cements Limited
+
+![Image 5](https://sagarcements.in/wp-content/uploads/2020/10/Jajpur_3.png)
+
+Capacity 1.5 MTPA
+Key markets Central, Coastal and Western Odisha, parts of West Bengal and Jharkhand
+
+Dachepalli, Andhra Pradesh Andhra Cements Limited
+
+![Image 6](https://sagarcements.in/wp-content/uploads/2020/10/ACL_Dachepalli.jpg)
+
+Capacity 2.25 MTPA
+Key markets Telangana, Andhra Pradesh, Tamilnadu and Karnataka
+Limestone reserves 400 MnT
+Captive power 36 MW
+
+Captive power plants
+
+| Source of energy | Installed capacity | Location |
+| --- | --- | --- |
+| RENEWABLE |
+| Solar | 1.35 MW | Mattampally, Telangana |
+|  | 6.0 MW | Gudipadu, Andhra Pradesh |
+|  | 6.0 MW | Dachepalli, Andhra Pradesh |
+|  | 0.1 MW | Jeerabad, Madhya Pradesh |
+|  | 80 KW | Corporate office, Hyderabad, Telangana |
+|  | 130 KW | Bayyavaram, Andhra Pradesh |
+| Hydro electric | 4.3 MW | Guntur, Andhra Pradesh |
+|  | 4.0 MW | Kurnool, Andhra Pradesh |
+| Waste Heat Recovery System (WHRS) | 8.8 MW | Mattampally, Telangana |
+|  | 5.3 MW | Jeerabad, Madhya Pradesh |
+|  | 4.35 MW | Gudipadu, Andhra Pradesh |
+| RENEWABLE TOTAL | 40.41 MW |  |
+|  |  |  |
+| NON-RENEWABLE |
+| Thermal | 25 MW | Gudipadu, Andhra Pradesh |
+|  | 18 MW | Mattampally, Telangana |
+|  | 30 MW | Dachepalli, Andhra Pradesh |
+| NON-RENEWABLE TOTAL | 73 MW |  |
+| TOTAL | 113.41 MW |

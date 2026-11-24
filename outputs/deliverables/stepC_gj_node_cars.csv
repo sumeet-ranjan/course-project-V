@@ -1,19 +1,19 @@
-event,nse_symbol,node,window,car,p_two_sided,p_one_sided_neg,n_placebo
-26 Aug 2024 (storm),TATACHEM,hit-firm candidate (Mithapur),"(-1,5)",-0.0081,0.806,0.4443,799
-26 Aug 2024 (storm),TATACHEM,hit-firm candidate (Mithapur),"(6,20)",-0.0569,0.3054,0.164,799
-26 Aug 2024 (storm),TATACHEM,hit-firm candidate (Mithapur),"(21,60)",0.2236,0.0113,0.9987,799
-26 Aug 2024 (storm),ACI,hit-firm candidate (Kutch),"(-1,5)",-0.158,0.0405,0.0182,494
-26 Aug 2024 (storm),ACI,hit-firm candidate (Kutch),"(6,20)",-0.0461,0.5992,0.3057,494
-26 Aug 2024 (storm),ACI,hit-firm candidate (Kutch),"(21,60)",0.007,0.9534,0.5263,494
-26 Aug 2024 (storm),GVT&D,hit-firm candidate (Vadodara),"(-1,5)",-0.0195,0.7509,0.3767,799
-26 Aug 2024 (storm),GVT&D,hit-firm candidate (Vadodara),"(6,20)",-0.1975,0.1176,0.0501,799
-26 Aug 2024 (storm),GVT&D,hit-firm candidate (Vadodara),"(21,60)",0.0585,0.791,0.5544,799
-26 Aug 2024 (storm),ADANIPORTS,"hit-firm candidate (Mundra, Tuna)","(-1,5)",-0.0239,0.5294,0.2553,799
-26 Aug 2024 (storm),ADANIPORTS,"hit-firm candidate (Mundra, Tuna)","(6,20)",-0.0726,0.2403,0.0976,799
-26 Aug 2024 (storm),ADANIPORTS,"hit-firm candidate (Mundra, Tuna)","(21,60)",0.002,0.9775,0.4018,799
-26 Aug 2024 (storm),GHCL,soda ash peer (confound),"(-1,5)",-0.0414,0.4243,0.2103,799
-26 Aug 2024 (storm),GHCL,soda ash peer (confound),"(6,20)",-0.0729,0.3479,0.1902,799
-26 Aug 2024 (storm),GHCL,soda ash peer (confound),"(21,60)",0.0044,0.9775,0.607,799
-26 Aug 2024 (storm),TATACONSUM,downstream buyer of Tata Chemicals' salt,"(-1,5)",-0.0167,0.5957,0.2804,799
-26 Aug 2024 (storm),TATACONSUM,downstream buyer of Tata Chemicals' salt,"(6,20)",-0.0135,0.7259,0.3767,799
-26 Aug 2024 (storm),TATACONSUM,downstream buyer of Tata Chemicals' salt,"(21,60)",-0.259,0.0013,0.0013,799
+event,nse_symbol,node,window,car,p_two_sided,p_one_sided_neg,n_placebo,car_zero_alpha,p_zero_alpha_two_sided
+26 Aug 2024 (storm),TATACHEM,hit-firm candidate (Mithapur),"(-1,5)",-0.008075,0.806008,0.444305,799,,
+26 Aug 2024 (storm),TATACHEM,hit-firm candidate (Mithapur),"(6,20)",-0.056899,0.305382,0.163955,799,-0.07879,0.18398
+26 Aug 2024 (storm),TATACHEM,hit-firm candidate (Mithapur),"(21,60)",0.223558,0.011264,0.998748,799,0.165182,0.052566
+26 Aug 2024 (storm),ACI,hit-firm candidate (Kutch),"(-1,5)",-0.15798,0.040486,0.018219,494,,
+26 Aug 2024 (storm),ACI,hit-firm candidate (Kutch),"(6,20)",-0.046052,0.59919,0.305668,494,-0.037186,0.65587
+26 Aug 2024 (storm),ACI,hit-firm candidate (Kutch),"(21,60)",0.006952,0.953441,0.526316,494,0.030595,0.797571
+26 Aug 2024 (storm),GVT&D,hit-firm candidate (Vadodara),"(-1,5)",-0.01955,0.750939,0.376721,799,,
+26 Aug 2024 (storm),GVT&D,hit-firm candidate (Vadodara),"(6,20)",-0.197471,0.117647,0.050063,799,-0.103261,0.354193
+26 Aug 2024 (storm),GVT&D,hit-firm candidate (Vadodara),"(21,60)",0.05849,0.790989,0.554443,799,0.309717,0.205257
+26 Aug 2024 (storm),ADANIPORTS,"hit-firm candidate (Mundra, Tuna)","(-1,5)",-0.023903,0.529412,0.255319,799,,
+26 Aug 2024 (storm),ADANIPORTS,"hit-firm candidate (Mundra, Tuna)","(6,20)",-0.072643,0.2403,0.097622,799,-0.080098,0.185232
+26 Aug 2024 (storm),ADANIPORTS,"hit-firm candidate (Mundra, Tuna)","(21,60)",0.001962,0.977472,0.401752,799,-0.017918,0.83229
+26 Aug 2024 (storm),GHCL,soda ash peer (confound),"(-1,5)",-0.041366,0.42428,0.210263,799,,
+26 Aug 2024 (storm),GHCL,soda ash peer (confound),"(6,20)",-0.072881,0.347935,0.190238,799,-0.082238,0.272841
+26 Aug 2024 (storm),GHCL,soda ash peer (confound),"(21,60)",0.004441,0.977472,0.607009,799,-0.020513,0.888611
+26 Aug 2024 (storm),TATACONSUM,downstream buyer of Tata Chemicals' salt,"(-1,5)",-0.016657,0.595745,0.28035,799,,
+26 Aug 2024 (storm),TATACONSUM,downstream buyer of Tata Chemicals' salt,"(6,20)",-0.013518,0.725907,0.376721,799,-0.001516,0.95995
+26 Aug 2024 (storm),TATACONSUM,downstream buyer of Tata Chemicals' salt,"(21,60)",-0.25896,0.001252,0.001252,799,-0.226955,0.001252

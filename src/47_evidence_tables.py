@@ -23,7 +23,11 @@ def net(sym):
     x = NET[NET.nse_symbol == sym]
     if not len(x): return ""
     lab = lambda r: ("18 Nov" if r.event.startswith("18 Nov") else "17 Dec" if r.event.startswith("17 Dec") else "12 Feb") + " " + r.window
-    return "; ".join(f"{lab(r)} {r.net_of_unlinked:+.3f} (p={r.p_net_two_sided:.2f})" for r in x.itertuples())
+    def one(r):
+        t = f"{lab(r)} {r.net_of_unlinked:+.3f} (p={r.p_net_two_sided:.2f}); without the takeover targets {r.net_ex_targets:+.3f} (p={r.p_net_ex_targets_two_sided:.2f})"
+        if pd.notna(getattr(r, "net_of_unlinked_zero_alpha", np.nan)): t += f"; zero-alpha {r.net_of_unlinked_zero_alpha:+.3f} (p={r.p_net_zero_alpha:.2f})"
+        return t
+    return " | ".join(one(r) for r in x.itertuples())
 def car(sym, ev, w):
     x = NC[(NC.nse_symbol == sym) & (NC.event == ev) & (NC.window == w)]
     return f"{x.car.iloc[0]:+.3f} (p={x.p_two_sided.iloc[0]:.2f})" if len(x) and pd.notna(x.car.iloc[0]) else ""
@@ -89,13 +93,14 @@ if os.path.exists(TD):
             lag=("about two months of Q3 FY25 and nearly a month of Q4 FY25 (company's account)" if "lost months" in r.task else ""), status="evidence", note=r.notes)
     add("3 within-zone upstream contractor (G4)", "AHLUCONT", "price evidence (corrected at G5)", "", "outputs/deliverables/stepC_ncr_contractor_net.csv, stepC_ncr_disclosure_days.csv", "",
         "", trade="civil/structural (banned under Stage III)", fp="yes (NCR sites)", status="measurement",
-        note="Results days and call days, net of the unlinked contractors (checkpoint-4 review: November treated like February). "
-             "18 Nov 2024 = Q2 results day (results filed 14 Nov 17:16; down 2.78% by 10:32 IST on the profit fall; also the ban's day 0): -4.7% (p=0.04). "
-             "19 Nov = first day the Q2 call is priced (call 3.00 pm on 18 Nov; GRAP-IV statement on page 8 of 13): -1.3% (p=0.55). "
-             "12 Feb 2025 = Q3 results day: -4.0% (p=0.08; B.L. Kashyap also fell 3.9% that day with no filing of its own). "
-             "13 Feb = first day the Q3 call (guidance cut) is priced: -2.2% (p=0.28). The days that price the company's ban statements show no significant move. "
-             "The late falls, (+21,+60) from 18 Nov (18 Dec 2024 - 11 Feb 2025) net -31.9% (p=0.04) and (+6,+20) from 17 Dec (26 Dec 2024 - 15 Jan 2025) net -17.5% (p=0.07), "
-             "contain no Ahluwalia disclosure; their cause is not identified (not attributed).")
+        note="Results days and call days, net of the unlinked contractors; in brackets, without the two takeover targets (PSP Projects: Adani Infra open offer, 19 Nov 2024; Cemindia, then ITD Cementation: Renew Exim DMCC open offer, 25 Oct 2024). "
+             "18 Nov 2024 = day 0 of the ban and Ahluwalia's Q2 results day; not separable: -4.7% (p=0.04) [-4.4%, p=0.05]. Beside it, B.L. Kashyap, which filed nothing between 11 Nov and 31 Dec 2024: -5.4% (p=0.06) [-5.0%, p=0.07]. "
+             "19 Nov = first day the Q2 call is priced (call 3.00 pm on 18 Nov; GRAP-IV statement on page 8 of 13): -1.3% (p=0.55) [-0.1%, p=0.95]. "
+             "12 Feb 2025 = Q3 results day: -4.0% (p=0.08) [-4.2%, p=0.06]. 13 Feb = first day the Q3 call (guidance cut) is priced: -2.2% (p=0.28) [-2.7%, p=0.24]. "
+             "The call days, which price the company's ban statements, are not distinguishable from zero. "
+             "(-1,+5) from 18 Nov: Ahluwalia -7.8% (p=0.21) [-11.6%, p=0.08]; B.L. Kashyap +0.1% (p=0.99) [-3.7%, p=0.61]. "
+             "Late falls: (+21,+60) from 18 Nov -31.9% (p=0.04) [-25.6%, p=0.11]; zero-alpha -26.7% (p=0.06) [-19.4%, p=0.15]. (+6,+20) from 17 Dec -17.5% (p=0.07) [-14.1%, p=0.13]; zero-alpha -17.1% (p=0.08). "
+             "They contain no Ahluwalia disclosure and are not attributed.")
     OB = RE + "contractor_ncr_orderbook.csv"
     if os.path.exists(OB):
         ob = pd.read_csv(OB, dtype=str).fillna(""); vob = ok("contractor_ncr_orderbook.csv")
@@ -110,6 +115,13 @@ if os.path.exists(TD):
         for i, r in nw[nw.nse_symbol == "AHLUCONT"].iterrows():
             if i in vnw: add("3 within-zone upstream contractor (G4)", "AHLUCONT", "timing: Q2 results day, morning", r.event_date, r.document_title, r.source_url, r.quote,
                              trade="civil/structural (banned under Stage III)", fp="yes (NCR sites)", status="evidence", note=r.notes)
+NWp2 = RE + "news_checks.csv"
+if os.path.exists(NWp2):
+    nw2 = pd.read_csv(NWp2, dtype=str).fillna(""); vnw2 = ok("news_checks.csv")
+    for i, r in nw2[nw2.nse_symbol.isin(["PSPPROJECT", "CEMPRO", "BLKASHYAP"])].iterrows():
+        if i in vnw2:
+            add("3 comparison contractors: flags (checkpoint-5 review)", r.nse_symbol, r.what_happened, r.event_date, r.document_title, r.source_url, r.quote,
+                status=("flag: takeover target in the windows" if r.nse_symbol != "BLKASHYAP" else "clean comparison: no filing 12 Nov - 30 Dec 2024"), note=r.notes)
 NBp = RE + "nbcc_contractors.csv"
 if os.path.exists(NBp):
     nb = pd.read_csv(NBp, dtype=str).fillna(""); vnb = ok("nbcc_contractors.csv")
@@ -127,12 +139,53 @@ for i, r in SP.iterrows():
         add("4b cement market-level branch (not a firm link, G4 R3)", r.nse_symbol, "supplier statement", r.document_date, r.document_title, r.source_url,
             "North ✓ Housing segment registered growth in both rural and urban areas. ✓ Infrastructure segment registered degrowth on account of pollution control measures taken in Delhi and surrounding regions, projects on hold due to farmers agitation in Punjab and completion of major projects like RRTS. ✓ Commercial segment registered overall growth.",
             status="market-level evidence", trade="cement", fp="no", note="UltraTech's full North row (Q3 FY25 sectoral update): housing and commercial grew; only infrastructure fell, for three stated reasons")
+# checkpoint-5 review: cement makers that deliver to NCR (main cement result), with the CCI order's district bids as corroboration
+CF = DEL + "table2_cement_fit.csv"; CMK = DEL + "table2_cement_makers.csv"
+if os.path.exists(CF) and os.path.exists(CMK):
+    cf = pd.read_csv(CF); mk = pd.read_csv(CMK)
+    main = cf[(cf["sample"].str.startswith("all")) & (cf.dose == "near300_n") & (cf.control.fillna("") == "north_rest_n")]
+    for r in main.itertuples():
+        tk = cf[(cf.outcome == r.outcome) & (cf["sample"] == r.sample.replace("all", "without takeover-related")) & (cf.dose == "near300_n") & (cf.control.fillna("") == "north_rest_n")]
+        tks = f"; without takeover-related makers {tk.coef.iloc[0]:+.3f} (p={tk.p_two_sided.iloc[0]:.2f}, n={int(tk.n.iloc[0])})" if len(tk) and pd.notna(tk.coef.iloc[0]) else ""
+        add("4c cement makers that deliver to NCR (main cement result, checkpoint 5)", "", f"test: {r.outcome}", "", "outputs/deliverables/table2_cement_fit.csv", "",
+            f"coefficient on near300_n (share of the maker's cement plants within 300 km of Delhi by road), controlling for its other northern plants: {r.coef:+.3f} "
+            f"(p={r.p_two_sided:.2f}, n={int(r.n)}, of which {int(r.n_exposed)} with plants near Delhi){tks}; other northern plants {r.coef_control:+.3f}",
+            status="market-level test (specification written before the run; null)", trade="cement",
+            note=(f"implied by a full 30-day stop of all NCR-near output: {r.implied_full_loss_coef:+.3f} against a null s.d. of {r.null_sd:.3f}; detectable: {r.detectable}" if pd.notna(r.implied_full_loss_coef)
+                  else "a hit would make the coefficient negative; the largest possible loss (30 days of near-Delhi sales) is too small for a CAR test to detect (table2_notes.md)"))
+    for r in mk[mk.near300_n > 0].sort_values("near300_n", ascending=False).itertuples():
+        add("4c cement makers that deliver to NCR (main cement result, checkpoint 5)", r.maker, "dose: share of its cement plants within 300 km of Delhi by road (plant count)", "Nov 2024", "outputs/deliverables/table2_cement_makers.csv (plants from original documents; OSRM road km)", "",
+            f"plants within 300 km: {r.plants_within_300} ({r.near300_n:.2f} of its {int(r.n_plants)} plants; within 150 km {r.near150_n:.2f}; northern plants beyond 300 km {r.north_rest_n:.2f}); largest possible Q3 loss about {r.max_loss_share_q3:.1%} of output",
+            status="dose", trade="cement", note=(f"takeover-related: {r.takeover_flag}" if isinstance(r.takeover_flag, str) and r.takeover_flag else ""))
+    # Q3 FY25 statements on NCR by the makers with plants near Delhi (checkpoint-5 review)
+    near = set(mk[mk.near300_n > 0].maker)
+    for k in "ABC":
+        f = RE + f"cement_kpis_{k}.csv"
+        if not os.path.exists(f): continue
+        kk = pd.read_csv(f, dtype=str).fillna(""); vk = ok(f"cement_kpis_{k}.csv")
+        for i, r in kk.iterrows():
+            if r.maker_symbol in near and r.metric in ("none_found", "ncr_statement") and r.quarter.replace(" ", "").upper() == "Q3FY25":
+                add("4c cement makers that deliver to NCR: Q3 FY25 statements on NCR", r.maker_symbol, "Q3 FY25 call or deck: Delhi, NCR, pollution, GRAP or ban", r.document_date, r.document_title, r.source_url,
+                    r.quote if i in vk else "", status=("statement (not about the ban)" if r.metric == "ncr_statement" else "none found"), trade="cement", note=r.notes)
+MAK = RE + "nbcc_makes_cci_rmc.csv"
+if os.path.exists(MAK):
+    mak = pd.read_csv(MAK, dtype=str).fillna(""); vmak = ok("nbcc_makes_cci_rmc.csv")
+    for i, r in mak.iterrows():
+        if i in vmak and r.task.startswith("C_"):
+            add("4c who delivers: CCI order of 19 Jan 2017 (Haryana tender of 2012)", r.maker_or_brand, r["item"], r.document_date, r.document_title, r.source_url, r.quote,
+                status="corroboration (not in the regression)", trade="cement", note=(r.location_or_district + "; " + r.notes).strip("; "))
+        elif r.task.startswith(("A_", "D_")) and r["item"] in ("none_found", "failed_fetch"):     # r["item"]: r.item is the pandas method
+            add("4c who delivers: NBCC approved makes and NCR ready-mix plants", "", f"{r.task}: {r['item']}", r.document_date, r.document_title, r.source_url, "",
+                status="not obtained", trade="cement / rebar", note=r.notes)
+add("4d steel (rebar)", "", "approved rebar makes and mill locations", "", "NBCC tender documents (not readable: e-procurement portal behind a CAPTCHA, not attempted)", "", "",
+    status="stops at the materiality bound (no regression)", trade="steel",
+    note="DLF's FY24 construction outflow (Rs 1,642 cr) is at most 0.7% (Tata Steel), 0.9% (JSW Steel), 1.6% (SAIL), 3.3% (JSPL), 4.3% (Jindal Stainless) of a steel maker's FY24 revenue (verified_links.csv)")
 if os.path.exists(DEL + "cement_market_test.csv"):
     T = pd.read_csv(DEL + "cement_market_test.csv"); T = T[T.spec.str.startswith("main")]
     add("4b cement market-level branch (not a firm link, G4 R3)", "", "variant against the two documented zero-capacity makers only", "", "outputs/deliverables/cement_market_test.csv", "", "",
         status="run, not interpreted (G5)", trade="cement", note="+10.6 pp over (-1,+5), p = 0.005; not interpreted because it rests on two firms: Star Cement (-9.2%), with no company news found for 14-26 Nov 2024, and Prism Johnson (-5.9%), whose fall follows its loss-making Q2 FY25 results of 13 Nov 2024")
     for r in T.itertuples():
-        add("4b cement market-level branch (not a firm link, G4 R3)", "", f"market test {r.event} {r.window}", "", "outputs/deliverables/cement_market_test.csv", "",
+        add("4b cement market-level branch, northern capacity share (comparison; superseded at checkpoint 5)", "", f"market test {r.event} {r.window}", "", "outputs/deliverables/cement_market_test.csv", "",
             f"{r.spec}: makers with northern capacity minus makers with none {r.gap_north_minus_none:+.3f} (p={r.p_two_sided:.2f}); CAR north {r.car_north:+.3f} (n={r.n_north}), none {r.car_none:+.3f} (n={r.n_none})",
             status="market-level test (G5: the result; little power)", trade="cement")
 else:

@@ -47,7 +47,7 @@ of scope, method and deliverables (user, 22 Nov 2026). The starting dataset is t
   - Step E: `src/58` (dose-response and placebo tables), `src/59` (pathway diagrams, lag figure); memo draft `outputs/deliverables/memo.md`.
   - The final causal claim (§5) is the user's: the memo grades the evidence and leaves the verdict to the user.
 - **Checkpoint-4 review (23 Nov 2026) applied:** revised tables 2-3 (+ `table2_notes.md`, `table3_notes.md`, `table3_placebo_firms.csv`), evidence tables, diagrams, G5/G7 records, memo (`memo.pdf`, 4 A4 pages; limit 5 as set, tables and figures included). New evidence: `research/realign/contractor_ncr_orderbook.csv`, `nbcc_contractors.csv`, `gj_placebo_rescreen.csv`, more rows in `news_checks.csv` and `tcpl_salt_kpis.csv`.
-- **Run order after any change:** `45` (placebo lists; reads `gj_placebo_rescreen.csv`); `49 → 55 → 47` (NCR); `52 → 56 → 57 → 53` (Gujarat); `54 → 40` (links); `50`, `51`; `58` (set `SKIP_PLACEBO=1` to refit table 2 without recomputing table 3); `59`, `60`; `61_build_memo.sh` last (check the page count). Then `42` to re-check every quote.
+- **Run order after any change:** `42` first if any evidence CSV changed (the cement scripts read only verified rows); `45` (placebo lists; reads `gj_placebo_rescreen.csv`); `49 → 55` (NCR); `62 → 63` (cement plants, then the delivery test: about 5 minutes; the geocodes are cached); `47` (NCR evidence, reads 55 and 63); `52 → 56 → 57 → 53` (Gujarat); `54 → 40` (links); `50`, `51`; `58` (set `SKIP_PLACEBO=1` to refit table 2 without recomputing table 3); `59`, `60`; `61_build_memo.sh` last (check the page count). Then `42` to re-check every quote.
 - **The permission check blocked one command:** a direct download of an exchange PDF with a browser-like
   header (23 Nov 2026). It was not retried. Sub-agents are told to use only the page reader and to record
   refusals instead of working around them.
@@ -147,6 +147,21 @@ There is no script 01 or 02; the audit and exposure logic live in `common.py`. S
 - **NSE's announcement list for Archean, 22 Aug–5 Sep 2024, is empty**; the wider list (1 Aug–30 Sep) confirms no filing between 21 Aug and 24 Sep. The 20 Aug filing is an immaterial GST penalty.
 - **A Benzinga link returned the site's home page**; the 21 Oct 2024 Tata Chemicals move is sourced from Zee Business instead.
 - **Sub-agents can die on API overload (529)**; check what they saved before relaunching, and ask them to write their CSV incrementally.
+
+### Traps found at the checkpoint-5 review (23 Nov 2026) — handled, do not undo
+- **Alpha leaks into long windows.** A strong estimation-window drift is projected forward as normal return (Unitech's alpha term is −17.7 of its −23.5 pp (+21,+60) CAR). Use `es_lib.ar_matrix(..., zero_alpha=True)` (beta kept) beside the market model for (+6,+20) and (+21,+60): table 1 and both node tables now carry both.
+- **Comparison groups can contain takeover targets.** PSP Projects (Adani Infra, 19 Nov 2024) and Cemindia, then ITD Cementation (Renew Exim DMCC, 25 Oct 2024) were targets inside the windows. Every net figure is reported with and without them (`stepC_ncr_unlinked_flags.csv`).
+- **A clean day-0 comparison exists:** B.L. Kashyap filed nothing between 11 Nov and 31 Dec 2024.
+- **Geocoding rule:** a district-centroid fallback misplaces plants in large districts (Kotputli is 110 km from the Jaipur centroid). The rule was amended before the cement test ran (state check plus 150 km). The specification and its amendment are in `table2_notes.md`, with a frozen copy at `research/realign/cement_test_spec_20261123.md` (sha256 9d8a4867…5e21).
+- **Road distances** come from OSM Nominatim and OSRM (public services, about 1 request a second, an identifying research User-Agent, no browser imitation), cached in `external/cement_geo_cache.csv`.
+- **NBCC's works tenders (approved makes) are not publicly readable.** They sit on the e-procurement portal behind a CAPTCHA, which was not attempted. The general conditions only refer to a "List of approved makes".
+- **The CCI order of 19 Jan 2017 (Ref. Case 05 of 2013)** reads well through Jina from the Indian Kanoon copy (`docs/makes__cci_ik.txt`); the `future.` subdomain does not.
+- **Tata Consumer's Q2 call sentence "8% … 1%" does not say volume or revenue.** Cite the deck (slide 24).
+- **Ambuja and ACC publish no per-plant capacity** (decks, annual reports, BRSR). Their units come from the "Site Location" lists in the corporate governance sections of their FY2023-24 annual reports (`research/realign/cement_plants_D.csv`). The Ambuja group's denominator is its own unit count at 30 Sep 2024 (43; `cement_unit_counts.csv`). Agent B's placeholder rows (no place) are firm totals, not plants: `src/62` and `src/63` drop them.
+- **Takeover flag for cement:** filter on deals in a cement business (open offer, stake purchase, acquisition of control), not on every merger or stake filing. Captive-power stakes, internal amalgamations and promoter transfers are not takeovers. The broad flag left one exposed maker, so the regression was not identified. Both versions are reported; the narrowing came after the first run (stated in `table2_notes.md`).
+- **`ols()` in `src/63` returns NaN when fewer than two makers in the sample have a non-zero dose.** Otherwise `lstsq` returns a minimum-norm solution for collinear doses, which looks like a number but means nothing.
+- **pandas `iterrows()` rows: use `r["item"]`, not `r.item`** (that is the Series method). It silently wrote method objects into `evidence_NCR.csv`; fixed in `src/47`.
+- **Quotes of five characters or fewer are not checkable** (`src/42` needs a fragment longer than 5 characters). Chart labels such as "1.37" need the sentence around them.
 
 ### Traps found at the checkpoint-4 review (23 Nov 2026) — handled, do not undo
 - **Tata Consumer's Q2 FY25 deck gives no text to the page reader.** A plain download of the BSE PDF (default curl, HTTP 200) converted with `pdftotext -layout` works; saved as `research/realign/docs/tcplsalt__Q2FY25_presentation_bse.txt` with page markers. Printed slide numbers run one behind the PDF page (slide 24 = PDF page 25).

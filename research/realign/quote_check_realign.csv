@@ -24,6 +24,440 @@ cement_capacity_regions.csv,14,KCP,fetch_failed,no quote,
 cement_capacity_regions.csv,15,NCLIND,fetched_full_text,verified,plant operations situated at Mattapalli village of Mattampalli Manda
 cement_capacity_regions.csv,16,DECCANCE,fetched_no_capacity_data,no quote,
 cement_capacity_regions.csv,17,STARCEMENT,fetched_full_text,verified,Largest Cement manufacturer in North-East India
+cement_events_q3fy25.csv,0,ULTRACEMCO,nse_api_json,verified,"UltraTech Cement Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,1,SHREECEM,nse_api_json,verified,"SHREE CEMENT LIMITED has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,2,SHREECEM,nse_api_json,verified,"SHREE CEMENT LIMITED has informed the Exchange regarding  Board meeting held on November 11, 2024."
+cement_events_q3fy25.csv,3,AMBUJACEM,nse_api_json,verified,"Ambuja Cements Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,4,ACC,nse_api_json,verified,"ACC Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,5,JKCEMENT,nse_api_json,verified,"JK Cement Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,6,JKCEMENT,nse_api_json,verified,"JK Cement Limited has informed the Exchange regarding  Board meeting held on October 26, 2024."
+cement_events_q3fy25.csv,7,DALBHARAT,nse_api_json,verified,"Dalmia Bharat Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,8,BIRLACORPN,nse_api_json,verified,"Birla Corporation Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,9,BIRLACORPN,nse_api_json,verified,"Birla Corporation Limited has informed the Exchange regarding  Board meeting held on October 23, 2024."
+cement_events_q3fy25.csv,10,NUVOCO,nse_api_json,verified,"Nuvoco Vistas Corporation Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,11,MANGLMCEM,nse_api_json,verified,"Mangalam Cement Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,12,MANGLMCEM,nse_api_json,verified,"Mangalam Cement Limited has informed the Exchange regarding  Board meeting held on November 14, 2024."
+cement_events_q3fy25.csv,13,RAMCOCEM,nse_api_json,verified,"The Ramco Cements Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,14,INDIACEM,nse_api_json,verified,"The India Cements Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,15,HEIDELBERG,nse_api_json,verified,"HeidelbergCement India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,16,HEIDELBERG,nse_api_json,verified,"HeidelbergCement India Limited has informed the Exchange regarding  Board meeting held on October 28, 2024."
+cement_events_q3fy25.csv,17,PRSMJOHNSN,nse_api_json,verified,"Prism Johnson Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,18,ORIENTCEM,nse_api_json,verified,"Orient Cement Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,19,ORIENTCEM,nse_api_json,verified,"Orient Cement Limited has informed the Exchange regarding Outcome of Board Meeting held on November 08, 2024."
+cement_events_q3fy25.csv,20,STARCEMENT,nse_api_json,verified,"Star Cement Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,21,STARCEMENT,nse_api_json,verified,"Star Cement Limited has informed the Exchange regarding  Board meeting held on November 08, 2024."
+cement_events_q3fy25.csv,22,SAGCEM,nse_api_json,verified,"Sagar Cements Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,23,KCP,nse_api_json,verified,"KCP Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,24,KCP,nse_api_json,verified,"KCP Limited has informed the Exchange regarding Outcome of Board Meeting held on November 08, 2024."
+cement_events_q3fy25.csv,25,NCLIND,nse_api_json,verified,"NCL Industries Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,26,NCLIND,nse_api_json,verified,"NCL Industries Limited has informed the Exchange regarding  Board meeting held on November 08, 2024."
+cement_events_q3fy25.csv,27,DECCANCE,nse_api_json,verified,"Deccan Cements Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,28,DECCANCE,nse_api_json,verified,"Deccan Cements Limited has informed the Exchange regarding  Board meeting held on November 12, 2024."
+cement_events_q3fy25.csv,29,ULTRACEMCO,original_pdf,verified,"We write to inform you that UltraTech Cement Middle East Investments Limited (“UCMEIL”), the Company’s wholly owned subsidiary in the UAE has today increased it"
+cement_events_q3fy25.csv,30,ULTRACEMCO,original_pdf,verified,"The Company is pleased to announce the commissioning of an additional 1.2 mtpa grinding capacity at its existing unit situated at Arakkonam, Tamil Nadu."
+cement_events_q3fy25.csv,31,ULTRACEMCO,nse_api_json,verified,"UltraTech Cement Limited has informed the Exchange regarding 'As part of its ongoing capacity expansion programs, the Company has identified an opportunity for "
+cement_events_q3fy25.csv,32,ULTRACEMCO,original_pdf,verified,"has today, sanctioned the Composite Scheme of Arrangement between Kesoram Industries Limited and UltraTech Cement Limited and their respective shareholders and "
+cement_events_q3fy25.csv,33,ULTRACEMCO,original_pdf,verified,"We now write to inform you that the CCI has by its letter dated 20 th December, 2024 unconditionally approved the Primary Acquisition and the Open Offer under S"
+cement_events_q3fy25.csv,34,ULTRACEMCO,original_pdf,verified,"We now write to inform you that the Company has completed acquisition of 10,13,91,231 equity shares representing 32.72% of the equity share capital of The India"
+cement_events_q3fy25.csv,35,ULTRACEMCO,original_pdf,verified,we write to inform you that the Company has entered into Energy Supply Agreement and Share Subscription and Shareholders Agreement to acquire 26% equity shares 
+cement_events_q3fy25.csv,36,ULTRACEMCO,original_pdf,verified,The Board of Directors of the Company at its meeting held today considered the proposal and approved making an investment to acquire non-controlling minority st
+cement_events_q3fy25.csv,37,ULTRACEMCO,nse_api_json,verified,UltraTech Cement Limited has informed the Exchange about Acquisition
+cement_events_q3fy25.csv,38,SHREECEM,original_pdf,verified,"the said Scheme of Amalgamation has been made effective today i.e. 4 th November, 2024."
+cement_events_q3fy25.csv,39,SHREECEM,nse_api_json,verified,SHREE CEMENT LIMITED has informed the Exchange regarding 'Intimation of NCLT order approving the Scheme of Amalgamation of Shree Cement North Private Limited wi
+cement_events_q3fy25.csv,40,AMBUJACEM,original_pdf,verified,"Acquisition of 7,76,49,413 equity shares (“ Promoter Sale Shares ”) of Orient Cement Limited (“ Target Company ”), representing 37.90% of the Existing Share Cap"
+cement_events_q3fy25.csv,41,AMBUJACEM,nse_api_json,verified,Ambuja Cements Limited has informed the Exchange about Presentation on investment rationale on Acquisition of Orient Cement Limited.
+cement_events_q3fy25.csv,42,AMBUJACEM,original_pdf,verified,approved the Scheme of Arrangement between Sanghi Industries Limited
+cement_events_q3fy25.csv,43,AMBUJACEM,nse_api_json,verified,"Ambuja Cements Limited has informed the Exchange regarding a press release dated December 13, 2024, titled \""Media Release on Ambuja Cements Commissions 200 MW "
+cement_events_q3fy25.csv,44,AMBUJACEM,nse_api_json,verified,"The Exchange has sought clarification from Ambuja Cements Limited with respect to recent news item captioned Ambuja Cements stock gains 1%, HeidelbergCement Ind"
+cement_events_q3fy25.csv,45,ACC,nse_api_json,verified,"ACC Limited has informed the Exchange regarding a press release dated October 24, 2024, titled \""Media Release on \""ACC achieves sustainable performance in Q2 F"
+cement_events_q3fy25.csv,46,JKCEMENT,original_pdf,verified,"Subject to the terms of the Scheme, the transfer and vesting of the Amalgamating Company as per the provisions of the Scheme shall not affect any transactions o"
+cement_events_q3fy25.csv,47,JKCEMENT,original_pdf,verified,Scheme of Amalgamation of Toshali Cements Private Limited (“Toshali Cements” or “Transferor Company”) with J.K. Cement Limited (“Company” or “Transferee Company
+cement_events_q3fy25.csv,48,JKCEMENT,nse_api_json,verified,"JK Cement Limited has informed the Exchange regarding a press release dated December 19, 2024, titled \""VESTING ORDER ISSUED BY MINISTRY OF COAL, GOVT. OF INDIA"
+cement_events_q3fy25.csv,49,DALBHARAT,nse_api_json,verified,Dalmia Bharat Limited has informed the Exchange about Acquisition
+cement_events_q3fy25.csv,50,BIRLACORPN,original_pdf,verified,"In this connection, we would like to inform you that the aforesaid acquisition of the shares in Continuum MP Windfarm Development Private Limited and all the cu"
+cement_events_q3fy25.csv,51,NUVOCO,nse_api_json,verified,Nuvoco Vistas Corporation Limited has informed the Exchange regarding 'Incorporation of Vanya Corporation Private Limited' as its wholly owned subsidiary compan
+cement_events_q3fy25.csv,52,MANGLMCEM,original_pdf,verified,"regarding the transfer of 5,00,000 (Five Lakhs) equity shares of Mangalam Ceement Ltd. on account of inter-se transfer between Promoter / Promoter Group pursuan"
+cement_events_q3fy25.csv,53,MANGLMCEM,nse_api_json,verified,Mangalam Cement Limited has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made i
+cement_events_q3fy25.csv,54,RAMCOCEM,nse_api_json,verified,"The Ramco Cements Limited has informed the Exchange regarding  Board meeting held on October 29, 2024. Sale of Ramco Industries Limited shares held by the Compa"
+cement_events_q3fy25.csv,55,RAMCOCEM,original_pdf,verified,"Today, our Company has executed a sale agreement for disposal of lands for a"
+cement_events_q3fy25.csv,56,INDIACEM,original_pdf,verified,we write this to inform you that the Competition Commission of India vide its communication dated 20 th December 2024 granted its approval to the Acquirer to:
+cement_events_q3fy25.csv,57,INDIACEM,original_pdf,verified,"We now write to inform you that UltraTech Cement Limited (“Acquirer”/ “UltraTech”) has acquired 10,13,91,231 equity shares representing 32.72% of the equity sha"
+cement_events_q3fy25.csv,58,INDIACEM,nse_api_json,verified,The India Cements Limited has submitted to the Exchange a copy of 'Disclosures under Regulation 18(6) of Securities and Exchange Board of India (Substantial Acq
+cement_events_q3fy25.csv,59,HEIDELBERG,original_pdf,verified,The Company has now further entered into a Share Purchase and Shareholders’ Agreement with the Target Company and Promoter of the Target Company on 08 November 
+cement_events_q3fy25.csv,60,PRSMJOHNSN,original_pdf,verified,"we wish to inform you that the Company has acquired 1,53,08,418 equity shares of ₹ 10 each at a premium of ₹ 5 per equity share aggregating to ₹ 22,96,26,270/- "
+cement_events_q3fy25.csv,61,ORIENTCEM,nse_api_json,verified,SBI Capital Markets Ltd has submitted to  the Exchange a copy of Public Announcement for the attention of the eligible public shareholders of the company under 
+cement_events_q3fy25.csv,62,ORIENTCEM,nse_api_json,verified,"Orient Cement Limited has informed the Exchange regarding 'Detailed Public Statement dated October 28, 2024, in relation to the Open Offer to the Public Shareho"
+cement_events_q3fy25.csv,63,ORIENTCEM,nse_api_json,verified,Orient Cement Limited has informed the Exchange regarding 'Draft Letter of Offer'.
+cement_events_q3fy25.csv,64,ORIENTCEM,nse_api_json,verified,Orient Cement Limited has informed the Exchange regarding 'acceptance of Work Order received from Madhya Pradesh Power Generating Company Limited to install Cli
+cement_events_q3fy25.csv,65,STARCEMENT,nse_api_json,verified,"Star Cement Limited has informed the Exchange regarding 'M/s Star Cement North East Limited, Subsidiary of the Company, declared as the preferred bidder for Lim"
+cement_events_q3fy25.csv,66,STARCEMENT,nse_api_json,verified,Star Cement Limited has informed the Exchange about Rumour Verification - Regulation 30(11) - Clarification on the news item appeared in  Money Control  on 4th 
+cement_events_q3fy25.csv,67,SAGCEM,nse_api_json,verified,"Sagar Cements Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,68,KCP,nse_api_json,verified,"KCP Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,69,NCLIND,nse_api_json,verified,"NCL Industries Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,70,DECCANCE,nse_api_json,verified,"Deccan Cements Limited has submitted to the Exchange, the financial results for the period ended September 30, 2024."
+cement_events_q3fy25.csv,71,JKLAKSHMI,fetch_failed,saved text is an error page,"You don't have permission to access ""http://www.nseindia.com/api/corporate-announcements?"" on this server."
+cement_kpis_A.csv,0,,full_text,verified,Grey Cement - Domestic  25.08  15%  -12%
+cement_kpis_A.csv,1,,full_text,verified,Grey Cement - Domestic  25.44  5%  1%
+cement_kpis_A.csv,2,,full_text,verified,Grey Cement - Domestic  25.75  3%  -15%
+cement_kpis_A.csv,3,,full_text,verified,Grey Cement - Domestic  28.10  10.5%  9%
+cement_kpis_A.csv,4,,full_text,verified,"5,349 5,045 4,901 Q2FY24 Q1FY25 Q2FY25"
+cement_kpis_A.csv,5,,full_text,verified,"5,349 5,045 4,901 Q2FY24 Q1FY25 Q2FY25"
+cement_kpis_A.csv,6,,full_text,verified,"5,499 4,901 4,970 Q3FY24 Q2FY25 Q3FY25"
+cement_kpis_A.csv,7,,full_text,verified,"5,499 4,901 4,970 Q3FY24 Q2FY25 Q3FY25"
+cement_kpis_A.csv,8,,full_text,verified,Lead distance reduced to 388 kms in Q2FY25 vs
+cement_kpis_A.csv,9,,full_text,verified,403 kms in Q2FY24
+cement_kpis_A.csv,10,,full_text,verified,Lead distance reduced to 377 kms in Q3FY25 vs.
+cement_kpis_A.csv,11,,full_text,verified,Lead reduced to 397 kms in Q3 FY24 from 403 kms in Q2 FY24.
+cement_kpis_A.csv,12,,full_text,verified,All India  140.8  9.9  6.3  11.8  14.7  183.5
+cement_kpis_A.csv,13,,full_text,verified,All India  140.8  25.0  6.3  10.8  11.8  14.7  209.3
+cement_kpis_A.csv,14,,full_text,verified,the Company’s total domestic grey cement manufacturing capacity stands at 166.31 mtpa
+cement_kpis_A.csv,15,,full_text,verified,Capacity as at Mar-24  140.8
+cement_kpis_A.csv,16,,full_text,verified,"Karur, Tamil Nadu  GU  G 2.7  Commissioned"
+cement_kpis_A.csv,17,,full_text,verified,"Kukurdih, Chhattisgarh  IU  G 2.7  Commissioned"
+cement_kpis_A.csv,18,,full_text,verified,"Jharsuguda, Odisha  GU  B 0.4  Commissioned"
+cement_kpis_A.csv,19,,full_text,verified,"APCW, Andhra Pradesh  IU  B 1.8  Commissioned"
+cement_kpis_A.csv,20,,full_text,verified,"Arakkonam, Tamil Nadu  GU  B 1.2  Commissioned"
+cement_kpis_A.csv,21,,full_text,verified,"Kukurdih, Chattisgarh  GU  B 0.6  Commissioned"
+cement_kpis_A.csv,22,,full_text,verified,"Parli, Maharashtra  GU  G 1.1  Acquired"
+cement_kpis_A.csv,23,,full_text,verified,"The India Cements Limited (ICEM) has become  a subsidiary of the Company with effect from 24 th Dec, 2024"
+cement_kpis_A.csv,24,,full_text,verified,"The Company is pleased to announce the commissioning of an additional 0.6 mtpa grinding capacity at its existing unit situated at Sonar Bangla, West Bengal."
+cement_kpis_A.csv,25,,full_text,no quote,
+cement_kpis_A.csv,26,,full_text,verified,Total sale volume increased YoY by 10% from 7.46 million tonnes to 8.20 million tonnes
+cement_kpis_A.csv,27,,full_text,verified,Total sale volume increased YoY by 11% from 8.03 million tonnes to 8.89 million tonnes.
+cement_kpis_A.csv,28,,full_text,verified,Total sale volumes down by 7% from 8.20 million tonnes to 7.60 million tonnes on YoY basis
+cement_kpis_A.csv,29,,full_text,verified,Total sale volumes up by 15% from 7.60 million tonnes to 8.77 million tonnes on QoQ basis
+cement_kpis_A.csv,30,,full_text,verified,"Cement realization in this quarter is INR 4,843 per ton"
+cement_kpis_A.csv,31,,full_text,verified,"the sales realization was up by about 3% from INR 4,854 to roughly about INR 5,006 per ton"
+cement_kpis_A.csv,32,,full_text,verified,"Cement realization was Rs. 4,447 per ton."
+cement_kpis_A.csv,33,,full_text,verified,"So this quarter, the lead distance is 472 kilometres."
+cement_kpis_A.csv,34,,full_text,verified,"And this quarter, it has come to about 448."
+cement_kpis_A.csv,35,,full_text,verified,"433, again, it is down from 475 kilometer last year."
+cement_kpis_A.csv,36,,full_text,no quote,
+cement_kpis_A.csv,37,,full_text,verified,The new plant will propel Shree Cement’s manufacturing capacity to 56.4 MTPA
+cement_kpis_A.csv,38,,full_text,verified,The Company expects to commission all these projects in the first quarter of FY25-26.
+cement_kpis_A.csv,39,,full_text,verified,Snapshot as on 31 st March 2024
+cement_kpis_A.csv,40,,full_text,verified,with cement capacity at 3.0 million tonnes per annum
+cement_kpis_A.csv,41,,full_text,verified,"the Senior management of the Company will be meeting with the institutional investors on one-to-one and group basis in Singapore on 6 th & 7 th February, 2025."
+cement_kpis_A.csv,42,,full_text,verified,we were very clear that we should try to retain and give more importance to price over volumes ... We adopted very deliberately a strategy of value over volume
+cement_kpis_B.csv,0,,fetched_full_text,verified,"Two-third of the total Cement capacity is established during last ten years, with 2 MTPA expansion at Prayagraj in June 2024, total capacity has been increased "
+cement_kpis_B.csv,1,,fetched_full_text,verified,"Two-third of the total Cement capacity is established during last ten years, with 2 MTPA expansion at Prayagraj in June 2024, total capacity has been increased "
+cement_kpis_B.csv,2,,fetched_full_text,verified,"Management: No significant as such. That way that Delhi will have some elections, not any major disruption."
+cement_kpis_B.csv,3,,failed_fetch,no quote,
+cement_kpis_B.csv,4,,failed_fetch,no quote,
+cement_kpis_B.csv,5,,failed_fetch,no quote,
+cement_kpis_B.csv,6,,failed_fetch,no quote,
+cement_kpis_B.csv,7,,fetched_full_text,verified,## 89 MTPA
+cement_kpis_B.csv,8,,fetched_full_text,verified,## 89 MTPA
+cement_kpis_B.csv,9,,fetched_full_text,verified,"97 MTPA capacity (22 MTPA added in last 24 months). With the projects under advanced stage of completion, the capacity will go up to 104 MTPA by current fiscal"
+cement_kpis_B.csv,10,,fetched_full_text,verified,"* With acquisition of Orient cements (8.5 MTPA) capacity will go up to 97 MTPA, 104"
+cement_kpis_B.csv,11,,fetched_full_text,verified,Volume  MnT  14.2 * 15.8  13.1  8.7  9.3  7.6  9.3  10.2  8.1  0.4  0.7  0.3
+cement_kpis_B.csv,12,,fetched_full_text,verified,Volume  MnT  14.2 * 15.8  13.1  8.7  9.3  7.6  9.3  10.2  8.1  0.4  0.7  0.3
+cement_kpis_B.csv,13,,fetched_full_text,verified,Volume  MnT  16.5 * 14.2  14.1  10.1  8.7  8.2  10.7  9.3  8.9  0.6  0.4  0.4
+cement_kpis_B.csv,14,,fetched_full_text,verified,Volume  MnT  16.5 * 14.2  14.1  10.1  8.7  8.2  10.7  9.3  8.9  0.6  0.4  0.4
+cement_kpis_B.csv,15,,fetched_full_text,verified,273 247 245
+cement_kpis_B.csv,16,,fetched_full_text,verified,273 247 245
+cement_kpis_B.csv,17,,fetched_full_text,verified,273 247 245
+cement_kpis_B.csv,18,,not_stated,no quote,
+cement_kpis_B.csv,19,,fetched_full_text,verified,"Operational costs for the quarter is at INR 4,618 per ton. This is driven by a 7% decline in energy cost owing to better fuel management and strong focus on gre"
+cement_kpis_B.csv,20,,fetched_full_text,verified,− Lower total lead by 22 km @ 268 km
+cement_kpis_B.csv,21,,searched_full_text,no quote,
+cement_kpis_B.csv,22,,fetched_full_text,verified,Volume  MnT  14.2 * 15.8  13.1  8.7  9.3  7.6  9.3  10.2  8.1  0.4  0.7  0.3
+cement_kpis_B.csv,23,,fetched_full_text,verified,Volume  MnT  14.2 * 15.8  13.1  8.7  9.3  7.6  9.3  10.2  8.1  0.4  0.7  0.3
+cement_kpis_B.csv,24,,fetched_full_text,verified,Volume  MnT  16.5 * 14.2  14.1  10.1  8.7  8.2  10.7  9.3  8.9  0.6  0.4  0.4
+cement_kpis_B.csv,25,,fetched_full_text,verified,Volume  MnT  16.5 * 14.2  14.1  10.1  8.7  8.2  10.7  9.3  8.9  0.6  0.4  0.4
+cement_kpis_B.csv,26,,fetched_full_text,verified,259 231 227
+cement_kpis_B.csv,27,,fetched_full_text,verified,259 231 227
+cement_kpis_B.csv,28,,fetched_full_text,verified,259 231 227
+cement_kpis_B.csv,29,,not_stated,no quote,
+cement_kpis_B.csv,30,,not_stated,no quote,
+cement_kpis_B.csv,31,,searched_full_text,no quote,
+cement_kpis_B.csv,32,,fetched_full_text,verified,in Odisha. The present combined capacity ofthe Company is about 16.4 Million Tonnes per annum.
+cement_kpis_B.csv,33,,fetched_full_text,verified,inOdisha.ThepresentcombinedcapacityoftheCompanyisabout16.4 MillionTonnesperannum.
+cement_kpis_B.csv,34,,fetched_full_text,verified,"Cement Capacity – 11.70 MMTPA Market Capitalisation – ` 10,304 Crore Clinker Capacity – 6.87 MMTPA Power Generation Capacity – 198 MW Turnover – ` 6, 384 Crore "
+cement_kpis_B.csv,35,,fetched_full_text,verified,24. 77 1234. 29 97.64
+cement_kpis_B.csv,36,,fetched_full_text,verified,27.32 1574.53 231.24 140. 97 95. 87 1.34 0.40
+cement_kpis_B.csv,37,,fetched_full_text,verified,30.30 1496.83 210.79 87.01 60.46 2.43 0.53
+cement_kpis_B.csv,38,,fetched_full_text,verified,29.60 1702.84 318.84 222. 98 150. 15 1. 14 0.38 Apr-Dec24
+cement_kpis_B.csv,39,,fetched_full_text,verified,18.66 1141.34 73.21 5.72 7.54 0.58 0.13
+cement_kpis_B.csv,40,,fetched_full_text,verified,21. 71 1452. 62 193.63 123.22 83. 03 0. 19 0.05
+cement_kpis_B.csv,41,,fetched_full_text,verified,22. 48 1373.29 153. 17 85. 18 59. 64 0.54 0. 11
+cement_kpis_B.csv,42,,fetched_full_text,verified,23. 55 1586. 06 259.24 187.51 124.06 0.05 0.01 Apr-Dec24
+cement_kpis_B.csv,43,,fetched_full_text,verified,"Just to give you a very brief performance update; of course, volume and all you know that our volume is down by about 9% on a consolidated basis. But leading in"
+cement_kpis_B.csv,44,,fetched_full_text,verified,"Management: 381 Kms was the lead, right, and AFR I think for a different unit we have different AFR. Overall it is 11%, Sirohi is at the highest at 14%."
+cement_kpis_B.csv,45,,searched_full_text,no quote,
+cement_kpis_B.csv,46,,fetched_full_text,verified,The Company has recently expanded its capacity from 2.0 MTPA to 3.25 MTPA
+cement_kpis_B.csv,47,,not_found,no quote,
+cement_kpis_B.csv,48,,not_found,no quote,
+cement_kpis_B.csv,49,,not_found,no quote,
+cement_kpis_B.csv,50,,not_found,no quote,
+cement_kpis_B.csv,51,,not_found,no quote,
+cement_kpis_B.csv,52,,fetched_full_text,verified,Sales (by volume) 3.97 mt
+cement_kpis_B.csv,53,,fetched_full_text,verified,4.18 mt 8.35 mt
+cement_kpis_B.csv,54,,fetched_full_text,verified,Sales (by volume)  4.5mt  4.2mt  7.1%  12.8  12.8  -
+cement_kpis_B.csv,55,,fetched_full_text,verified,Sales (by volume)  4.5mt  4.2mt  7.1%  12.8  12.8  -
+cement_kpis_B.csv,56,,fetched_full_text,verified,"Realisation/ton*  Rs 4,697  Rs 5,178  (9.3%)  Rs 4,762  Rs 5,179  (8.1%)"
+cement_kpis_B.csv,57,,fetched_full_text,verified,"Realisation/ton*  Rs 4,697  Rs 5,178  (9.3%)  Rs 4,762  Rs 5,179  (8.1%)"
+cement_kpis_B.csv,58,,fetched_full_text,verified,"Realisation per tn  Rs4,781  Rs5,285"
+cement_kpis_B.csv,59,,fetched_full_text,verified,"Realisation per tn  Rs4,781  Rs5,285"
+cement_kpis_B.csv,60,,not_stated,no quote,
+cement_kpis_B.csv,61,,fetched_full_text,verified,"Work on Kundangunj Line 3 with a capacity of 1.4 mt is continuing full steam, and it is expected to be commissioned by the first quarter of the next financial y"
+cement_kpis_B.csv,62,,searched_full_text,no quote,
+cement_kpis_B.csv,63,,fetched_full_text,verified,## 25 MTPA
+cement_kpis_B.csv,64,,fetched_full_text,verified,## 25.0  6.0  31.0
+cement_kpis_B.csv,65,,not_stated,verified,Jojobera expansion (2021) Haryana expansion (2024) Current capacity Capacity by Q3 FY27
+cement_kpis_B.csv,66,,fetched_full_text,verified,## 4.2 MMT 1
+cement_kpis_B.csv,67,,fetched_full_text,verified,## 4.7 MT 1
+cement_kpis_B.csv,68,,derived_only,verified,✓ Cement sales volume growth of 16% YoY in Q3 FY25
+cement_kpis_B.csv,69,,not_found,no quote,
+cement_kpis_B.csv,70,,not_stated,verified,"Jayakumar Krishnaswamy: Cement realizations dropped Q-on-Q by 3.6%. But as I mentioned, we ended the quarter with December exit realization of 6% over the quart"
+cement_kpis_B.csv,71,,searched_full_text,no quote,
+cement_kpis_B.csv,72,,fetched_full_text,verified,▪ Current Capacity: 46.6 MnT
+cement_kpis_B.csv,73,,fetched_full_text,verified,"▪ Installed Manufacturing Capacity  – Cement (46.6 MnT), Clinker (23.5 MnT)"
+cement_kpis_B.csv,74,,fetched_full_text,verified,▪ Increased Clinker capacity by 0.6 MnT at Rajgangpur and 0.3 MnT at Kadapa through debottlenecking
+cement_kpis_B.csv,75,,fetched_full_text,verified,Closing Capacity as on date  46.6
+cement_kpis_B.csv,76,,fetched_full_text,verified,▪ Sales volume declined 2% YoY to 6.7 MnT
+cement_kpis_B.csv,77,,fetched_full_text,verified,6.8  6.7  6.7
+cement_kpis_B.csv,78,,fetched_full_text,verified,6.8  6.7  6.7
+cement_kpis_B.csv,79,,not_found,no quote,
+cement_kpis_B.csv,80,,not_stated,no quote,
+cement_kpis_B.csv,81,,not_stated,no quote,
+cement_kpis_B.csv,82,,not_stated,no quote,
+cement_kpis_B.csv,83,,not_stated,no quote,
+cement_kpis_B.csv,84,,searched_full_text,no quote,
+cement_kpis_B.csv,85,,fetched_full_text,verified,Existing capacity 38.55 Projects under execution 4.00 Total Capacity by FY2026 42.55
+cement_kpis_C.csv,0,,full_text,verified,Cement & clinker sales volume grew by 8.2% YoY to 1.61 million tons in Q3 FY25
+cement_kpis_C.csv,1,,full_text,verified,1.74 1.45 1.49 1.89 1.66
+cement_kpis_C.csv,2,,full_text,verified,1.74 1.45 1.49 1.89 1.66
+cement_kpis_C.csv,3,,full_text,verified,Cement & clinker sales volume declined by 5.6% YoY to 1.37 million tons in Q2 FY25
+cement_kpis_C.csv,4,,full_text,verified,"Realization  5,026  4,539  4,532  (0.2%)  (9.8%)"
+cement_kpis_C.csv,5,,full_text,verified,"Realization  5,026  4,539  4,532  (0.2%)  (9.8%)"
+cement_kpis_C.csv,6,,full_text,verified,"Realization  5,026  4,539  4,532  (0.2%)  (9.8%)"
+cement_kpis_C.csv,7,,full_text,verified,"Realization  5,176  4,666  4,539  (2.7%)  (12.3%)"
+cement_kpis_C.csv,8,,full_text,verified,7.7 MTPA grinding capacity
+cement_kpis_C.csv,9,,full_text,verified,Total sales  10.60  100%  9.66  100%  10%
+cement_kpis_C.csv,10,,full_text,verified,Total sales  10.60  100%  9.66  100%  10%
+cement_kpis_C.csv,11,,full_text,verified,Cement and Clinker Sales  10.68  9.70  10%  9.77  44.43
+cement_kpis_C.csv,12,,full_text,verified,Total sales  9.62  100%  8.96  100%  7%
+cement_kpis_C.csv,13,,full_text,verified,Total sales  9.62  100%  8.96  100%  7%
+cement_kpis_C.csv,14,,full_text,verified,Total  Sale  volume  increased  by  9% to  4.37  MnT  YoY
+cement_kpis_C.csv,15,,full_text,verified,The  company  is  on  track  to  achieve  cement  capacity  of  30  MTPA  by  March  2026
+cement_kpis_C.csv,16,,full_text,verified,Clinker production 67.94 72.98 (7%) Cement Production 94.31 97.29 (3%) Cement & Clinker sales 94.57 98.93 (4%)
+cement_kpis_C.csv,17,,full_text,verified,quarter stood at 1.4 million.
+cement_kpis_C.csv,18,,full_text,verified,The aggregate cement capacity of the Company is 10.75 MTPA
+cement_kpis_C.csv,19,,full_text,verified,OCL has an existing 5.6 MTPA clinker and 8.5 MTPA cement operational capacity
+cement_kpis_C.csv,20,,full_text,verified,Clinker capacity at this moment is 3.1 million tons and cement capacity is 6.25 million tons.
+cement_kpis_C.csv,21,,full_text,verified,"After completion of the project, total cement capacity will increase to 3.00 MTPA."
+cement_kpis_C.csv,22,,full_text,verified,"Deccan Cements Limited (DCL), with a 4 million TPA plant"
+cement_plants_A.csv,0,,full_text,verified,"Adityapuram, Sawa – Shambhupura Road, District: Chittorgarh, Rajasthan – 312 622"
+cement_plants_A.csv,1,,full_text,verified,"Bhogasamudram, Tadipatri. District: Ananapuramu, Andhra Pradesh – 515 413"
+cement_plants_A.csv,2,,full_text,verified,"P.O. Awarpur, Taluka: Korpana, District: Chandrapur, Maharashtra – 442 917"
+cement_plants_A.csv,3,,full_text,verified,"Village Baga, P.O. Kandhar, Sub-Tehsil Darlaghat, Tehsil Arki, District: Solan, Himachal Pradesh – 171 102"
+cement_plants_A.csv,4,,full_text,verified,"Vill & Post Baikunth, Tehsil – Tilda, District - Raipur, Chhattisgarh - 493 116"
+cement_plants_A.csv,5,,full_text,verified,"Village: Budawada, Jaggayyapet Mandal NTR District, Andhra Pradesh - 521 175"
+cement_plants_A.csv,6,,full_text,verified,"P.O. Jaypee Puram, District: Rewa, Madhya Pradesh – 486 450"
+cement_plants_A.csv,7,,full_text,verified,"SH-5, Kota, Post: Dalla, District: Sonebhadra, Uttar Pradesh – 231 207"
+cement_plants_A.csv,8,,full_text,verified,"Village: Tonki; Tehsil: Manawar, District: Dhar, Madhya Pradesh – 454 446"
+cement_plants_A.csv,9,,full_text,verified,"P.O. Kovaya, Taluka: Rajula, District: Amreli, Gujarat – 365 541"
+cement_plants_A.csv,10,,full_text,verified,"Village & Post: Hirmi, Tah.: Simga, District: Baloda Bazar, Bhatapara, Chhattisgarh – 493 195"
+cement_plants_A.csv,11,,full_text,verified,"Village : Babarkot, Post Office-Jafrabad, Taluka: Jafrabad, District: Amreli, Gujarat – 365 540"
+cement_plants_A.csv,12,,full_text,verified,"V & P. O. Mohanpura, District: Kotputli Behror Rajasthan - 303 108"
+cement_plants_A.csv,13,,full_text,verified,"Village : Sarkipar, P.O: Semradih, Tah : Baloda Bazar, Dist : Baloda Bazar-Bhatapara, Chhatisgarh - 493332"
+cement_plants_A.csv,14,,full_text,verified,"P. O. Sarla Nagar, Tehsil Maihar, District: Satna, Madhya Pradesh - 485 772"
+cement_plants_A.csv,15,,full_text,verified,"At post Gadchandur, Tehsil : Korpana, District: Chandrapur, Maharashtra - 442 908"
+cement_plants_A.csv,16,,full_text,verified,"P.O. Aditya Nagar Tehsil – Pindwara: 307031, Dist. Sirohi Rajasthan - 307031"
+cement_plants_A.csv,17,,full_text,verified,"Village: Balara, Tehsil: Jaitaran, District: Pali Beawar, Rajasthan – 306 709"
+cement_plants_A.csv,18,,full_text,verified,"Adityanagar, Malkhed Road, District: Gulbarga, Karnataka – 585 292"
+cement_plants_A.csv,19,,full_text,verified,"Village: Rawan, PO: Grasim Vihar, Tehsil: Simga, District: Baloda Bazar–Bhatapara, Chhattisgarh - 493 196"
+cement_plants_A.csv,20,,full_text,verified,"Reddipalayam P.O. District: Ariyalur, Tamil Nadu – 621 731"
+cement_plants_A.csv,21,,full_text,verified,"Village: Vayor, Taluka Abdasa, District: Kutch, Gujarat – 370 511"
+cement_plants_A.csv,22,,full_text,verified,"Village Majhigawan P.O. - Bharatpur, Tehsil – Rampur Naikin, Dist. - Sidhi, Madhya Pradesh – 486 776"
+cement_plants_A.csv,23,,full_text,verified,"Vikram Nagar, P.O. Khor, District : Neemuch, Madhya Pradesh – 458 470"
+cement_plants_A.csv,24,,full_text,verified,"Village: Kasimpur, Tehsil: Koel, District: Aligarh, Uttar Pradesh – 202 127"
+cement_plants_A.csv,25,,full_text,verified,"Chitteri village, Arakkonam, Vellore District Tamil Nadu – 631 003"
+cement_plants_A.csv,26,,full_text,verified,"Village - Pandiyana, P.O – Bagheri, Tehsil Nalagarh, Solan, Himachal Pradesh – 174 101"
+cement_plants_A.csv,27,,full_text,verified,"Village : Lohgara, Tahsil : Bara District : Prayagraj Uttar Pradesh - 212107"
+cement_plants_A.csv,28,,full_text,verified,"Behind GHTP, Post: Lehra Mohabat District: Bathinda, Punjab - 151 111"
+cement_plants_A.csv,29,,full_text,verified,Village- Khamarnuagaon Po- Radhakishorepur Via- Gurudijhatia Dist: Cuttack Odisha- 754027
+cement_plants_A.csv,30,,full_text,verified,"Village: Ranuali, Latiffpur, Post Vidyutnagar, Tehsil: Dadri, District: Gautambudh Nagar, Uttar Pradesh – 201 008"
+cement_plants_A.csv,31,,full_text,verified,"JL-80, Village: Panchghara, P.O.: Panchghara Bazar, PS: Chanditala, District: Hooghly, West Bengal – 712 306"
+cement_plants_A.csv,32,,full_text,verified,"Plot No. 03, MIDC, Nardana Phase-1, Village - Waghode, Shindkheda, Dhule, Maharashtra – 425 406"
+cement_plants_A.csv,33,,full_text,verified,"Gangavathi Road, Ginigera, District: Koppal, Karnataka – 583 228"
+cement_plants_A.csv,34,,full_text,verified,"Village/ Post: Hotgi Station, South Solapur, District: Solapur, Maharashtra – 413 215"
+cement_plants_A.csv,35,,full_text,verified,"Village: Jharli, Tehsil: Matanhail, District: Jhajjar, Haryana – 124 106"
+cement_plants_A.csv,36,,full_text,verified,"Near Dhutra Railway Station, P.O. Arda, District: Jharsuguda, Odisha – 768 203"
+cement_plants_A.csv,37,,full_text,verified,Velliyanai South Karur Taluk Dist Karur -639118 Tamil Nadu
+cement_plants_A.csv,38,,full_text,verified,"Magdalla Port, Dumas Road, Surat, Gujarat – 395 007"
+cement_plants_A.csv,39,,full_text,verified,"Village: Ashti, Navegaon and Tarsa, Tehsil: Mauda, District: Nagpur, Maharashtra – 441 106"
+cement_plants_A.csv,40,,full_text,verified,"Village & PO-Sirohi, Tehsil - Neem Ka Thana, District- Sikar, Rajasthan - 332714"
+cement_plants_A.csv,41,,full_text,verified,"Village: Karad, Israna Pardhana Road, Israna, Panipat, Haryana – 132 107"
+cement_plants_A.csv,42,,full_text,verified,"Parli grinding unit, 1.2KM post Dharmpuri Road, Parli Vaijnath, Beed Dist. Maharashtra - 431515"
+cement_plants_A.csv,43,,full_text,verified,"Village + PO + PS Shahjahan Pur Near Daniyawan Railway station, Patna, Bihar - 801305"
+cement_plants_A.csv,44,,full_text,verified,"B-38, Patratu Industrial Area, Patratu, Near Birsha Market, Ramgarh Jharkhand 829119"
+cement_plants_A.csv,45,,full_text,verified,"Village. Sadhraur, PO. Dhuman, Tehsil Rajpura, District Patiala, Punjab, Pin 140401"
+cement_plants_A.csv,46,,full_text,verified,T G Shetye Nagar Sanmitra Nagar Ratnagiri Maharashtra 415612
+cement_plants_A.csv,47,,full_text,verified,"Village - Nalheri Dehviran, Post - Nalhera Anantapur Roorkee, District: Haridwar, Uttarakhand – 247 668"
+cement_plants_A.csv,48,,full_text,verified,"19-20, Industrial Area, Post: Sikandrabad, District: Bulandshahr, Uttar Pradesh – 203 206"
+cement_plants_A.csv,49,,full_text,verified,"Village-Dhalo, P.O. Gankar Block, Raghunathganj -1, District: Murshidabad, West Bengal - 742227"
+cement_plants_A.csv,50,,full_text,verified,"Post: Hussainpur Sudhana Tehsil -Tanda, District: Ambedkarnagar, Uttar Pradesh – 224 190"
+cement_plants_A.csv,51,,full_text,verified,"Near Wanakbori Thermal Power Station Vill. Sangol, Post Sonipur, Wanakbori Gujarat -388245"
+cement_plants_A.csv,52,,full_text,verified,"Near EPIP Plot, P.O. - Rajbandh, Muchipara, Durgapur, West Bengal – 713 212"
+cement_plants_A.csv,53,,full_text,verified,"Birla White Rajashree Nagar, P.O. Kharia Khangar, Tehsil: Bhopalgarh, District: Jodhpur, Rajasthan – 342 606"
+cement_plants_A.csv,54,,full_text,verified,1 Sankari  Tamil Nadu  0.50  0.86
+cement_plants_A.csv,55,,full_text,verified,2 Sankarnagar  Tamil Nadu  1.40  2.05
+cement_plants_A.csv,56,,full_text,verified,3 Dalavoi  Tamil Nadu  1.20  1.85
+cement_plants_A.csv,57,,full_text,verified,4 Chennai  Tamil Nadu  - 1.10
+cement_plants_A.csv,58,,full_text,verified,5 Vishnupuram  Telangana  2.86  2.50
+cement_plants_A.csv,59,,full_text,verified,6 Malkapur  Telangana  2.24  2.40
+cement_plants_A.csv,60,,full_text,verified,7 Chilamkur  Andhra Pradesh  1.50  1.46
+cement_plants_A.csv,61,,full_text,verified,8 Yerraguntla  Andhra Pradesh  0.66  0.73
+cement_plants_A.csv,62,,full_text,verified,9 Banswara  Rajasthan  1.09  1.50
+cement_plants_A.csv,63,,full_text,verified,"Bangur Nagar, Beawar, Rajasthan - 305 901"
+cement_plants_A.csv,64,,full_text,verified,"Bangur City, Ras, Rajasthan - 306 101"
+cement_plants_A.csv,65,,full_text,verified,"Plot No. SP3-II / A-1, RIICO Industrial Area, Khushkhera, Tehsil: Bhiwadi, Distt.: Alwar, Rajasthan - 301 707"
+cement_plants_A.csv,66,,full_text,verified,"Near N.H.-15, Udaipur - Udasar, Tehsil: Suratgarh, Distt.: Sriganganagar, Rajasthan - 335 804"
+cement_plants_A.csv,67,,full_text,verified,"Mahela - Jobner Road, Village: Aslapur, Tehsil: Phulera, Distt.: Jaipur, Rajasthan - 303 331"
+cement_plants_A.csv,68,,full_text,verified,"Nawalgarh, Rajasthan Integrated Cement Unit 3.8 3.5 22 nd January, 2024"
+cement_plants_A.csv,69,,full_text,verified,"Village Khapradih, Tehsil- Simga, Distt.: Balodabazar, Chhattisgarh - 493 332"
+cement_plants_A.csv,70,,full_text,verified,"Village Kodla & Benkanhalli, Taluk: Sedam Distt.: Kalaburagi, Karnataka – 585 222"
+cement_plants_A.csv,71,,full_text,verified,"Akbarpur - Oud, Tehsil: Laksar, Distt.: Haridwar, Uttarakhand - 247 663"
+cement_plants_A.csv,72,,full_text,verified,"Village – Khukhrarna, P.O. – Asan Kalan, Tehsil – Madlouda, Distt: Panipat (Haryana)"
+cement_plants_A.csv,73,,full_text,verified,"12, Sikandrabad Industrial Area, Sikandrabad, Distt.: Bulandshahr, Uttar Pradesh - 203 205"
+cement_plants_A.csv,74,,full_text,verified,"Industrial Growth Centre Biada, Near Jasoia More, Post: Mojurahi, Distt.: Aurangabad, Bihar - 824 102"
+cement_plants_A.csv,75,,full_text,verified,"PO-Burudh, Hansda, District : Seraikela - Kharsawan, Jharkhand – 833 210"
+cement_plants_A.csv,76,,full_text,verified,"Village - Chandrabalishyampur, Block - Athagarh, District : Cuttack, Odisha – 754 029"
+cement_plants_A.csv,77,,full_text,verified,"Village Patas, Pune, Maharashtra - 412 219"
+cement_plants_A.csv,78,,full_text,verified,with cement capacity at 3.0 million tonnes per annum
+cement_plants_A.csv,79,,full_text,verified,"Purulia, West Bengal* Clinker Grinding Unit -3.0 28 th July, 2023"
+cement_plants_B.csv,0,,fetched_full_text,verified,"Situated in Chittorgarh district of Rajasthan, the unit Commenced commercial production in 1975 with an initial capacity of 0.3 MnTPA. In the year 1979, a secon"
+cement_plants_B.csv,1,,fetched_full_text,verified,Situated in Chittorgarh District of Rajasthan (24 kms from the Nimbahera plant) the unit commenced commercial production in Dec 2001. The unit offers significan
+cement_plants_B.csv,2,,fetched_full_text,verified,"Situated near Muddapur village of Taluka- Mudhol, district Bagalkot Karnataka, the unit has the latest state of the art technology to manufacture 3.5 Million to"
+cement_plants_B.csv,3,,fetched_full_text,verified,"Situated in Jhajjar district of Haryana, the split grinding unit with 1.5 MnTPA was set up with an investment of Rs. 400 Crore. Modern machinery is being source"
+cement_plants_B.csv,4,,fetched_full_text,verified,"Situated in Aligarh, UP, this greenfield split cement grinding unit was set up with a capacity of 1.5 MnTPA, With the commissioning of the unit, JK Cement forge"
+cement_plants_B.csv,5,,fetched_full_text,verified,"With the commissioning of a Grey Cement grinding unit in Balasinor, JK Cement has strengthened its foundations in the state of Gujarat. The new plant is spread "
+cement_plants_B.csv,6,,fetched_full_text,verified,"JK Cement Works, Panna - Wholly owned subsidiary of JK Cement Ltd. is situated in the Central region of India in Panna District, Madhya Pradesh. The plant was c"
+cement_plants_B.csv,7,,fetched_full_text,verified,"JK Cement Works, Hamirpur - Wholly owned subsidiary of JK Cement Ltd. is situated in Hamirpur District, Uttar Pradesh. The grinding unit commissioned production"
+cement_plants_B.csv,8,,fetched_full_text,verified,"Situated in the city of Mahakal jyotirlinga Ujjain, J K Cement has strengthened its foundations in the state of Madhya Pradesh. The Grinding Unit commenced comm"
+cement_plants_B.csv,9,,fetched_full_text,verified,"Wholly owned subsidiary of JK Cement Limited, it is situated at the city of Triveni Sangam which is confluence of three rivers- Ganga, Yamuna and the invisible "
+cement_plants_B.csv,10,,fetched_full_text,verified,"JK Cement Works, Ampavalli, is a fully-owned subsidiary of JK Cement Limited. It is an integrated unit located in Orissa, with an installed capacity of 0.20 mil"
+cement_plants_B.csv,11,,fetched_full_text,verified,"A subsidiary of JK Cement Limited, JK Cement Works in Choudhwar is a grinding unit located in Orissa with an installed capacity of 0.44 million tons per annum ("
+cement_plants_B.csv,12,,fetched_full_text,verified,"The first White Cement facility in India, which was limestone-based, and manufactured Cement through the dry process. The White Cement plant was commissioned in"
+cement_plants_B.csv,13,,fetched_full_text,verified,"Situated in Katni, MP, the unit commenced its commercial dispatch on 26th May, 2016. The unit was set up with a capacity of 2 MnTPA."
+cement_plants_B.csv,14,,count_only,verified,## 89 MTPA Cement Capacity ## 22 Integrated Units
+cement_plants_B.csv,15,,fetched_full_text,verified,"JK Lakshmi Cement, Jaykaypuram Plant has three kilns with an annual clinker production capacity of 4.95 million tons/annum. The plant employs a dry process for "
+cement_plants_B.csv,16,,fetched_full_text,verified,"Spanning 1,200 acres, the state-of-the-art facility employs an advanced dry cement process. Producing 1.98 MMTPA of clinker and 2.7 MMTPA of cement, the plant s"
+cement_plants_B.csv,17,,fetched_full_text,verified,"GUJARAT MOTIBHOYAN, KALOL, DISTRICT GANDHINAGAR - 382 010"
+cement_plants_B.csv,18,,fetched_full_text,verified,The Company is expanding its Cement Grinding capacity at its Surat Grinding Unit from 1 .35 Million Tonnes
+cement_plants_B.csv,19,,fetched_full_text,verified,"HARYANA VILLAGE BAJITPUR, P.O. JHAMRI, DISTRICT JHAJJAR - 124 507"
+cement_plants_B.csv,20,,fetched_full_text,verified,"ODISHA RADHASHYAMPUR, P.O. - KHUNTUNI, DISTRICT CUTTACK - 754 297"
+cement_plants_B.csv,21,,fetched_full_text,verified,"commissioned its 2 Clinker Line of 1.50 MTPA and Cement Grinding Unit with capacity of 2.50 MTPA, at its integrated Cement Plant in Udaipur, Rajasthan. With thi"
+cement_plants_B.csv,22,,fetched_full_text,verified,The Company has recently expanded its capacity from 2.0 MTPA to 3.25 MTPA
+cement_plants_B.csv,23,,fetched_full_text,verified,Plant Location Plant Address Satna (Madhya Pradesh) Chanderia (Rajasthan) Raebareli (Uttar Pradesh) Durgapur (West Bengal) Birlapur (West Bengal) Kolkata (West 
+cement_plants_B.csv,24,,fetched_full_text,verified,Plant Location Plant Address Satna (Madhya Pradesh) Chanderia (Rajasthan) Raebareli (Uttar Pradesh) Durgapur (West Bengal) Birlapur (West Bengal) Kolkata (West 
+cement_plants_B.csv,25,,fetched_full_text,verified,Plant Location Plant Address Satna (Madhya Pradesh) Chanderia (Rajasthan) Raebareli (Uttar Pradesh) Durgapur (West Bengal) Birlapur (West Bengal) Kolkata (West 
+cement_plants_B.csv,26,,fetched_full_text,verified,Plant Location Plant Address Satna (Madhya Pradesh) Chanderia (Rajasthan) Raebareli (Uttar Pradesh) Durgapur (West Bengal) Birlapur (West Bengal) Kolkata (West 
+cement_plants_B.csv,27,,fetched_full_text,verified,RCCPL Private Limited (wholly owned material subsidiary of the Company): Plant Location Plant Address Maihar (Madhya Pradesh) Kundanganj (Uttar Pradesh) Butibor
+cement_plants_B.csv,28,,fetched_full_text,verified,RCCPL Private Limited (wholly owned material subsidiary of the Company): Plant Location Plant Address Maihar (Madhya Pradesh) Kundanganj (Uttar Pradesh) Butibor
+cement_plants_B.csv,29,,fetched_full_text,verified,RCCPL Private Limited (wholly owned material subsidiary of the Company): Plant Location Plant Address Maihar (Madhya Pradesh) Kundanganj (Uttar Pradesh) Butibor
+cement_plants_B.csv,30,,fetched_full_text,verified,2022 Mukutban unit starts commercial operations with 3.9 million ton capacity
+cement_plants_B.csv,31,,count_only,verified,Regionwise cement capacity mix
+cement_plants_B.csv,32,,fetched_full_text,verified,"1. Dalmiapuram, Tamil Nadu 2. Ariyalur, Tamil Nadu 3. Kadapa, Andhra Pradesh"
+cement_plants_B.csv,33,,fetched_full_text,verified,"1. Dalmiapuram, Tamil Nadu 2. Ariyalur, Tamil Nadu 3. Kadapa, Andhra Pradesh"
+cement_plants_B.csv,34,,fetched_full_text,verified,"1. Dalmiapuram, Tamil Nadu 2. Ariyalur, Tamil Nadu 3. Kadapa, Andhra Pradesh"
+cement_plants_B.csv,35,,fetched_full_text,verified,"4. Belgaum, Karnataka"
+cement_plants_B.csv,36,,fetched_full_text,verified,"5. Sattur, Tamil Nadu"
+cement_plants_B.csv,37,,fetched_full_text,verified,"6. Rajgangpur, Odisha 7. Kapilas, Odisha"
+cement_plants_B.csv,38,,fetched_full_text,verified,"6. Rajgangpur, Odisha 7. Kapilas, Odisha"
+cement_plants_B.csv,39,,fetched_full_text,verified,"8. Medinipur, West Bengal 9. Bokaro, Jharkhand 10. Rohtas, Bihar"
+cement_plants_B.csv,40,,fetched_full_text,verified,"8. Medinipur, West Bengal 9. Bokaro, Jharkhand 10. Rohtas, Bihar"
+cement_plants_B.csv,41,,fetched_full_text,verified,"8. Medinipur, West Bengal 9. Bokaro, Jharkhand 10. Rohtas, Bihar"
+cement_plants_B.csv,42,,fetched_full_text,verified,"11.  Lumshnong, Meghalaya 12. Lanka, Assam 13. Umrangshu, Assam 14.  Jagiroad, Assam"
+cement_plants_B.csv,43,,fetched_full_text,verified,"11.  Lumshnong, Meghalaya 12. Lanka, Assam 13. Umrangshu, Assam 14.  Jagiroad, Assam"
+cement_plants_B.csv,44,,fetched_full_text,verified,"11.  Lumshnong, Meghalaya 12. Lanka, Assam 13. Umrangshu, Assam 14.  Jagiroad, Assam"
+cement_plants_B.csv,45,,fetched_full_text,verified,"11.  Lumshnong, Meghalaya 12. Lanka, Assam 13. Umrangshu, Assam 14.  Jagiroad, Assam"
+cement_plants_B.csv,46,,fetched_full_text,verified,"15.  Chandrapur, Maharashtra"
+cement_plants_B.csv,47,,count_only,verified,"Darlaghat Maratha Bhatapara Jamul Bargarh Ropar Asian, Rajpura Marwar Mundwa Ambujanagar Rabriyawas Lakheri Chanda Wadi 1 & 2 Vizag Navlakhi Kalamboli, BCT Muld"
+cement_plants_C.csv,0,,full_text,verified,"5.6 MTPA at  Satna, Madhya Pradesh;  Supply agreements with several grinding units for an aggregate capacity of 1.44 MTPA*"
+cement_plants_C.csv,1,,full_text,verified,"Lumshnong Integrated unit, Meghalaya"
+cement_plants_C.csv,2,,full_text,verified,"Guwahati GU, Assam"
+cement_plants_C.csv,3,,full_text,verified,"Siliguri GU, WB"
+cement_plants_C.csv,4,,full_text,verified,###### 3.0 MTPA
+cement_plants_C.csv,5,,full_text,verified,###### 5.5 MTPA
+cement_plants_C.csv,6,,full_text,verified,###### 3.05 MTPA
+cement_plants_C.csv,7,,full_text,verified,###### 4.38 MTPA
+cement_plants_C.csv,8,,full_text,verified,###### 2.40 MTPA
+cement_plants_C.csv,9,,full_text,verified,###### 0.75 MTPA
+cement_plants_C.csv,10,,full_text,verified,###### 2.0 MTPA
+cement_plants_C.csv,11,,full_text,verified,###### 2.0 MTPA
+cement_plants_C.csv,12,,full_text,verified,###### 2.0 MTPA
+cement_plants_C.csv,13,,full_text,verified,###### 1.80 MTPA
+cement_plants_C.csv,14,,full_text,verified,###### 0.29 MTPA
+cement_plants_C.csv,15,,full_text,verified,"Sankarnagar, Tirunelveli District, Tamil Nadu"
+cement_plants_C.csv,16,,full_text,verified,"Sankari, Salem District, Tamil Nadu"
+cement_plants_C.csv,17,,full_text,verified,"Dalavoi, Ariyalur District, Tamil Nadu"
+cement_plants_C.csv,18,,full_text,verified,"Nokhla Village, Banswara District, Rajasthan"
+cement_plants_C.csv,19,,full_text,verified,"Chilamkur, Kadapa District, Andhra Pradesh"
+cement_plants_C.csv,20,,full_text,verified,"Yerraguntla, Kadapa District, Andhra Pradesh"
+cement_plants_C.csv,21,,full_text,verified,"Vishnupuram, Nalgonda District, Telangana"
+cement_plants_C.csv,22,,full_text,verified,"Malkapur, Ranga Reddy District, Telangana"
+cement_plants_C.csv,23,,full_text,verified,"Vallur Village, Tiruvallur District, Tamil Nadu"
+cement_plants_C.csv,24,,full_text,verified,"Parli Vaijnath, Beed District, Maharashtra"
+cement_plants_C.csv,25,,full_text,verified,Capacity 3.0 MTPA
+cement_plants_C.csv,26,,full_text,verified,Capacity 1.25 MTPA
+cement_plants_C.csv,27,,full_text,verified,Capacity 1.5 MTPA
+cement_plants_C.csv,28,,full_text,verified,Capacity 1.5 MTPA
+cement_plants_C.csv,29,,full_text,verified,Capacity 1.5 MTPA
+cement_plants_C.csv,30,,full_text,verified,Capacity 2.25 MTPA
+cement_plants_C.csv,31,,full_text,verified,"The Company established its first cement plant in 1969 in Basantnagar in the state of Telangana, currently having a clinker capacity of c. 1.20 MTPA."
+cement_plants_C.csv,32,,full_text,verified,Further it added capacities from 1983 onwards at Sedam in the state of Karnataka currently having a clinker capacity of c. 5.10 MTPA.
+cement_plants_C.csv,33,,full_text,verified,"Devapur IU, Telangana 3.5 3.5 CPP – 50 MW Yes Chittapur IU, Karnataka 2.1 3.0 CPP – 45 MW WHRS – 10 MW Solar – 16 MW* Yes Jalgaon GU, Maharashtra - 2.0 Solar – "
+cement_plants_C.csv,34,,full_text,verified,"Devapur IU, Telangana 3.5 3.5 CPP – 50 MW Yes Chittapur IU, Karnataka 2.1 3.0 CPP – 45 MW WHRS – 10 MW Solar – 16 MW* Yes Jalgaon GU, Maharashtra - 2.0 Solar – "
+cement_plants_C.csv,35,,full_text,verified,"Devapur IU, Telangana 3.5 3.5 CPP – 50 MW Yes Chittapur IU, Karnataka 2.1 3.0 CPP – 45 MW WHRS – 10 MW Solar – 16 MW* Yes Jalgaon GU, Maharashtra - 2.0 Solar – "
+cement_plants_C.csv,36,,full_text,verified,"The Company has its operations in Central India at Damoh (Madhya Pradesh), Jhansi (Uttar Pradesh) and in Southern India at Ammasandra (Karnataka)."
+cement_plants_C.csv,37,,full_text,verified,"The Company has its operations in Central India at Damoh (Madhya Pradesh), Jhansi (Uttar Pradesh) and in Southern India at Ammasandra (Karnataka)."
+cement_plants_C.csv,38,,full_text,verified,"The Company has its operations in Central India at Damoh (Madhya Pradesh), Jhansi (Uttar Pradesh) and in Southern India at Ammasandra (Karnataka)."
+cement_plants_C.csv,39,,full_text,verified,"registered office address being Digvijaygram, Dist: Jamnagar, Gujarat - 361140"
+cement_plants_C.csv,40,,full_text,verified,"District: Porbandar, Gujarat- 360550."
+cement_plants_C.csv,41,,full_text,verified,"District: Gir Somnath, Veraval, Gujarat-362275."
+cement_plants_C.csv,42,,full_text,verified,"Bhavanipuram, Janpahad (Post), Palakaveedu (Mandal); Suryapet"
+cement_plants_C.csv,43,,full_text,verified,"Debendra Nagar, Jhoom Basti, P.O. Badarpur Ghat, Distt. : Karimganj-788803 (Assam)"
+cement_plants_C.csv,44,,"Snippet: 'MUKTYALA - 3.52 MTPA ... clinker capacity of 3.06 MTPA'. Fetch of the document returned only an index page. State inferred from plant/company, district unknown.",no quote,
+cement_plants_C.csv,45,,Snippet: 'CEMENT UNIT-I MACHERLA - 0.8 MTPA' flagged ambiguous. Unverified.,no quote,
+cement_plants_C.csv,46,,"Snippet: three clinker lines, total clinker 2.6 MTPA, cement 3.0 MTPA; date unknown (consent doc is Oct 2025-Mar 2026). Fetch of document returned only an index page.",no quote,
+cement_plants_D.csv,0,,full_text,verified,Site Location: Name of Plants Location of the plants ... Ambujanagar Gujarat
+cement_plants_D.csv,1,,full_text,verified,Site Location: Name of Plants Location of the plants ... Rabriyawas Rajasthan
+cement_plants_D.csv,2,,full_text,verified,Site Location: Name of Plants Location of the plants ... Marwar Mundwa Rajasthan
+cement_plants_D.csv,3,,full_text,verified,Site Location: Name of Plants Location of the plants ... Maratha cement works Maharashtra
+cement_plants_D.csv,4,,full_text,verified,Site Location: Name of Plants Location of the plants ... Darla / Suli Himachal Pradesh
+cement_plants_D.csv,5,,full_text,verified,Site Location: Name of Plants Location of the plants ... Bhatapara Chhattisgarh
+cement_plants_D.csv,6,,full_text,verified,Site Location: Name of Plants Location of the plants ... Ropar Punjab
+cement_plants_D.csv,7,,full_text,verified,Site Location: Name of Plants Location of the plants ... Bhatinda Punjab
+cement_plants_D.csv,8,,full_text,verified,Site Location: Name of Plants Location of the plants ... Roorkee Uttarakhand
+cement_plants_D.csv,9,,full_text,verified,Site Location: Name of Plants Location of the plants ... Dadri Uttar Pradesh
+cement_plants_D.csv,10,,full_text,verified,Site Location: Name of Plants Location of the plants ... Nalagarh Himachal Pradesh
+cement_plants_D.csv,11,,full_text,verified,Site Location: Name of Plants Location of the plants ... Sankrail West Bengal
+cement_plants_D.csv,12,,full_text,verified,Site Location: Name of Plants Location of the plants ... Farakka West Bengal
+cement_plants_D.csv,13,,full_text,verified,Site Location: Name of Plants Location of the plants ... Surat Gujarat
+cement_plants_D.csv,14,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Lakheri Rajasthan
+cement_plants_D.csv,15,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Gagal 1 Himachal Pradesh
+cement_plants_D.csv,16,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Gagal 2 Himachal Pradesh
+cement_plants_D.csv,17,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Ametha Madhya Pradesh
+cement_plants_D.csv,18,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Kymore Madhya Pradesh
+cement_plants_D.csv,19,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Jamul Chhattisgarh
+cement_plants_D.csv,20,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Chaibasa Jharkhand
+cement_plants_D.csv,21,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Bargarh Odisha
+cement_plants_D.csv,22,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Wadi 1 Karnataka
+cement_plants_D.csv,23,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Wadi 2 Karnataka
+cement_plants_D.csv,24,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Chanda Maharashtra
+cement_plants_D.csv,25,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Asian (Nalagarh & Rajpura) Himachal Pradesh & Punjab
+cement_plants_D.csv,26,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Asian (Nalagarh & Rajpura) Himachal Pradesh & Punjab
+cement_plants_D.csv,27,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Tikaria Uttar Pradesh
+cement_plants_D.csv,28,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Sindri Jharkhand
+cement_plants_D.csv,29,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Damodhar West Bengal
+cement_plants_D.csv,30,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Madukkarai Tamil Nadu
+cement_plants_D.csv,31,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Kudithini Karnataka
+cement_plants_D.csv,32,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Thondebhavi Karnataka
+cement_plants_D.csv,33,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Vizag Andhra Pradesh
+cement_unit_counts.csv,0,,full_text,verified,## 89 MTPA Cement Capacity ## 22 Integrated Units ... ## 21 Grinding Units
 contractor_ncr_orderbook.csv,0,AHLUCONT,saved_text,verified,"Delhi NCR Region Projects (as on 31 Dec 2024) - ₹ 54,083 Mn. viz. 33.3% of the Unexecuted Order Book"
 contractor_ncr_orderbook.csv,1,AHLUCONT,saved_text,verified,"Haryana  46,209  28.4"
 contractor_ncr_orderbook.csv,2,AHLUCONT,saved_text,verified,"Uttar Pradesh  9,460  5.8"
@@ -228,6 +662,28 @@ nbcc_contractors.csv,10,,original_pdf,no quote,
 nbcc_contractors.csv,11,,original_pdf,no quote,
 nbcc_contractors.csv,12,,original_pdf,no quote,
 nbcc_contractors.csv,13,,original_pdf,verified,"has received letter of Award from NBCC (India) Limited, A Navratna CPSE for a total contract value of ₹1,320 Crore"
+nbcc_makes_cci_rmc.csv,0,,full_text_fetched,verified,Opposite Party No. 1
+nbcc_makes_cci_rmc.csv,1,,full_text_fetched,verified,Opposite Party No. 2
+nbcc_makes_cci_rmc.csv,2,,full_text_fetched,verified,Opposite Party No. 3
+nbcc_makes_cci_rmc.csv,3,,full_text_fetched,verified,Opposite Party No. 4
+nbcc_makes_cci_rmc.csv,4,,full_text_fetched,verified,Opposite Party No. 5
+nbcc_makes_cci_rmc.csv,5,,full_text_fetched,verified,Opposite Party No. 6
+nbcc_makes_cci_rmc.csv,6,,full_text_fetched,verified,Opposite Party No. 7
+nbcc_makes_cci_rmc.csv,7,,full_text_fetched,verified,"Tender No. 4/HR/RC/E-2/2012-13, August 2012"
+nbcc_makes_cci_rmc.csv,8,,full_text_fetched,verified,Basic Price quoted by Shree Cement for different categories of cement in ten districts (in Rs.)
+nbcc_makes_cci_rmc.csv,9,,full_text_fetched,verified,Basic Price quoted by UltraTech for different categories of cement in ten districts (in Rs.)
+nbcc_makes_cci_rmc.csv,10,,full_text_fetched,verified,Basic Price quoted by JAL for different categories of cement in ten districts (in Rs.)
+nbcc_makes_cci_rmc.csv,11,,full_text_fetched,verified,Basic Price quoted by JK Cement for different categories of cement in ten districts (in Rs.)
+nbcc_makes_cci_rmc.csv,12,,full_text_fetched,verified,Basic Price quoted by JK Lakshmi for different categories of cement in ten districts (in Rs.)
+nbcc_makes_cci_rmc.csv,13,,full_text_fetched,verified,Basic Price quoted by ACL for different categories of cement in ten districts (in Rs.)
+nbcc_makes_cci_rmc.csv,14,,full_text_fetched,verified,Basic Price quoted by ACC for different categories of cement in ten districts
+nbcc_makes_cci_rmc.csv,15,,full_text_fetched,verified,Number of districts/ destinations in which the parties emerged as L1 in 2012
+nbcc_makes_cci_rmc.csv,16,,full_text_fetched,verified,Birla Corp won only 3 bids
+nbcc_makes_cci_rmc.csv,17,,full_text_fetched,no quote,
+nbcc_makes_cci_rmc.csv,18,,,no quote,
+nbcc_makes_cci_rmc.csv,19,,full_text_fetched,verified,g) List of approved makes of materials
+nbcc_makes_cci_rmc.csv,20,,,no quote,
+nbcc_makes_cci_rmc.csv,21,,full_text_fetched,no quote,
 ncr_maruti_screen.csv,0,MARUTI,original_pdf,no quote,
 ncr_maruti_screen.csv,1,MARUTI,original_pdf,no quote,
 ncr_maruti_screen.csv,2,MARUTI,original_pdf,no quote,
@@ -311,6 +767,10 @@ news_checks.csv,22,TATACHEM,news_article,verified,"The company's 3 per cent stak
 news_checks.csv,23,RPOWER,news_article,verified,banning them from the securities market for five years and imposing a penalty of Rs 25 crore
 news_checks.csv,24,RPOWER,news_article,verified,"Sebi, in its order on Thursday, noted the cavalier approach of the company's management and promoter in approving loans worth hundreds of crores to companies th"
 news_checks.csv,25,AHLUCONT,news_article,verified,Ahluwalia Contracts (India) slipped 2.78% to Rs 969.20 after the civil construction company's consolidated net profit declined 29.78% to Rs 38.67 crore in Q2 FY
+news_checks.csv,26,PSPPROJECT,exchange_filing,verified,Adani Group in advanced stage talks to buy 60% stake in PSP Projects
+news_checks.csv,27,PSPPROJECT,exchange_filing,verified,Adani Infra to acquire 30% stake in PSP Projects
+news_checks.csv,28,CEMPRO,exchange_filing,verified,in respect of open offer made by  Renew Exim DMCC
+news_checks.csv,29,BLKASHYAP,exchange_filing,verified,regarding Appointment of Mr Vikesh Agarwal as Chief Financial Officer
 stepB_builder_side.csv,0,NBCC,original_pdf,verified,"As a Project Management Consultancy (PMC), NBCC subcontracts project execution to contractors and does not directly procure construction materials or machinery."
 stepB_builder_side.csv,1,NBCC,original_pdf,verified,"NBCC sourced 92.80% of its inputs from MSMEs, including H11.66 crore from MSMEs overall"
 stepB_builder_side.csv,2,NBCC,original_pdf,verified,Share of RPTs in a.  Purchases (Purchases with related parties / Total Purchases) 0.50% 1.32%
@@ -403,6 +863,22 @@ stepB_supplier_side.csv,37,JSL,original_pdf,no quote,
 stepB_supplier_side.csv,38,APLAPOLLO,original_pdf,verified,Customers who represent more than 10% of the total balance of trade receivables are as follows :
 stepB_supplier_side.csv,39,APLAPOLLO,original_pdf,no quote,
 stepB_supplier_side.csv,40,APLAPOLLO,original_pdf,no quote,
+tatachem_salt_volumes.csv,0,,original_pdf,verified,326 371 312
+tatachem_salt_volumes.csv,1,,original_pdf,verified,322 326 338 647 650 75 76 77 150 149
+tatachem_salt_volumes.csv,2,,original_pdf,verified,"354 322 324 1,001 974 71 75 83 221 232"
+tatachem_salt_volumes.csv,3,,original_pdf,verified,326 371 312
+tatachem_salt_volumes.csv,4,,original_pdf,verified,326 371 312
+tatachem_salt_volumes.csv,5,,original_pdf,verified,322 326 338 647 650 75 76 77 150 149
+tatachem_salt_volumes.csv,6,,original_pdf,verified,"354 322 324 1,001 974 71 75 83 221 232"
+tatachem_salt_volumes.csv,7,,original_pdf,verified,"346 354 371 1,348 1,344 70 71 75 291 307"
+tatachem_salt_volumes.csv,8,,original_pdf,verified,326 371 312
+tatachem_salt_volumes.csv,9,,original_pdf,verified,322 326 338 647 650 75 76 77 150 149
+tatachem_salt_volumes.csv,10,,original_pdf,verified,"354 322 324 1,001 974 71 75 83 221 232"
+tatachem_salt_volumes.csv,11,,original_pdf,verified,"346 354 371 1,348 1,344 70 71 75 291 307"
+tatachem_salt_volumes.csv,12,,original_pdf,verified,"Indian volumes were lower, and this was mainly impacted due to very heavy rains, which impacted our operations for almost 10 days, and this led to impact on qua"
+tatachem_salt_volumes.csv,13,,original_pdf,verified,While the sales are more or less the same when you look at Q2FY24 and Q2FY25
+tatachem_salt_volumes.csv,14,,original_pdf,verified,"this weather impact has had 30,000 tons on soda ash and about 40,000 tons on salt."
+tatachem_salt_volumes.csv,15,,original_pdf,verified,Unprecedented heavy rains impacted operations in Mithapur leading to lower production as compared to previous quarter.
 tcpl_salt_kpis.csv,0,,original_pdf,verified,"Salt  revenue  grew  9% during  the  quarter,  driven  by  a strong  8%"
 tcpl_salt_kpis.csv,1,,original_pdf,verified,"Salt  revenue  grew  9% during  the  quarter,  driven  by  a strong  8%"
 tcpl_salt_kpis.csv,2,,original_pdf,verified,"Value -added  salts  grew  35 %, in  line  with  our  premiumization  agenda ."

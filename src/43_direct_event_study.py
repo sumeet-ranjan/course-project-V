@@ -42,8 +42,14 @@ WALL = sorted(set(WIN["NCR"]) | set(WIN["GJ"]))
 def cars_at(t0):
     ar = E.ar_matrix(t0, pre=1, post=60)
     return None if ar is None else pd.DataFrame({w: E.car(ar, *w) for w in WALL}), ar
+ZWIN = [(6, 20), (21, 60)]   # checkpoint-5 review: zero-alpha CARs (beta kept) beside the market-model CARs for the long windows
+def cars_at_za(t0):
+    ar = E.ar_matrix(t0, pre=1, post=60, zero_alpha=True)
+    return None if ar is None else pd.DataFrame({w: E.car(ar, *w) for w in ZWIN})
 PT = E.placebo_t0s(n=1000, post=60)
 PLAC = [cars_at(t)[0] for t in PT]
+PLAC_ZA = [cars_at_za(t) for t in PT]
+PLAC_ZA = [q for p_, q in zip(PLAC, PLAC_ZA) if p_ is not None]
 PLAC = [p for p in PLAC if p is not None]
 def m(C, firms): return C.reindex(firms).mean() if len(firms) else pd.Series(np.nan, index=C.columns)
 def one(C, f): return C.loc[f] if f in C.index else pd.Series(np.nan, index=C.columns)
@@ -55,13 +61,15 @@ rows, firm_rows = [], []
 def record(event, group, bench, fn, n_ex, n_ctl, windows, note=""):
     C0 = CARS[event]; a = fn(C0)
     pl = pd.DataFrame([fn(P) for P in PLAC])
+    az = fn(CARS_ZA[event]); plz = pd.DataFrame([fn(P) for P in PLAC_ZA])
     for w in windows:
         ps = pl[w].dropna()
+        z = dict(statistic_zero_alpha=az[w], p_zero_alpha_two_sided=(plz[w].dropna().abs() >= abs(az[w])).mean()) if w in ZWIN else dict(statistic_zero_alpha=np.nan, p_zero_alpha_two_sided=np.nan)
         rows.append(dict(event=event, event_day=DAY[event], group=group, benchmark=bench, window=f"({w[0]},{w[1]})", n_exposed=n_ex, n_benchmark=n_ctl,
-                         statistic=a[w], p_two_sided=(ps.abs() >= abs(a[w])).mean(), p_one_sided_neg=(ps <= a[w]).mean(), placebo_sd=ps.std(), n_placebo=len(ps), note=note))
-CARS, ARS = {}, {}
+                         statistic=a[w], p_two_sided=(ps.abs() >= abs(a[w])).mean(), p_one_sided_neg=(ps <= a[w]).mean(), placebo_sd=ps.std(), n_placebo=len(ps), **z, note=note))
+CARS, ARS, CARS_ZA = {}, {}, {}
 for ev, d in DAY.items():
-    CARS[ev], ARS[ev] = cars_at(E.t0_of(d))
+    CARS[ev], ARS[ev] = cars_at(E.t0_of(d)); CARS_ZA[ev] = cars_at_za(E.t0_of(d))
 def sel(ev, role=None, group=None):
     g = G[G.event == ev]
     if role: g = g[g.role == role]
@@ -84,7 +92,8 @@ for ev in ("E_NCR_GRAP_2024", "E_NCR_GRAP_2024B"):
     for f in sorted(set(sel(ev))):
         if f in C.index:
             r = G[(G.event == ev) & (G.nse_symbol == f)].iloc[0]
-            firm_rows.append(dict(event=ev, nse_symbol=f, group=r.group, role=r.role, **{f"car_{w[0]}_{w[1]}": C.loc[f, w] for w in WIN["NCR"]}))
+            firm_rows.append(dict(event=ev, nse_symbol=f, group=r.group, role=r.role, **{f"car_{w[0]}_{w[1]}": C.loc[f, w] for w in WIN["NCR"]},
+                                  **{f"car_zero_alpha_{w[0]}_{w[1]}": CARS_ZA[ev].loc[f, w] if f in CARS_ZA[ev].index else np.nan for w in ZWIN}))
 # pooled Stage III starts
 EVS = ["NCR_S3_2022", "NCR_S3_2023", "E_NCR_GRAP_2024", "E_NCR_GRAP_2024B"]
 rng = np.random.default_rng(11)
@@ -94,17 +103,19 @@ for grp in ("confirmed", "unconfirmed"):
         C = CARS[ev]; ex = [c for c in sel(ev, "exposed", grp) if c in C.index]; ctl = [c for c in sel(ev, "control") if c in C.index]
         per[ev] = stat_pool(C, ex, ctl)
     per = pd.DataFrame(per).T; a = per.mean()
+    perz = pd.DataFrame({ev: stat_pool(CARS_ZA[ev], [c for c in sel(ev, "exposed", grp) if c in CARS_ZA[ev].index], [c for c in sel(ev, "control") if c in CARS_ZA[ev].index]) for ev in EVS}).T; az = perz.mean()
     ex0 = sel("E_NCR_GRAP_2024", "exposed", grp); ctl0 = sel("E_NCR_GRAP_2024", "control")
-    pl = []
+    pl, plz = [], []
     for k in range(1000):
         idx = rng.choice(len(PLAC), size=len(EVS), replace=False)
-        pl.append(pd.DataFrame([stat_pool(PLAC[i], ex0, ctl0) for i in idx]).mean())
-    pl = pd.DataFrame(pl)
+        pl.append(pd.DataFrame([stat_pool(PLAC[i], ex0, ctl0) for i in idx]).mean()); plz.append(pd.DataFrame([stat_pool(PLAC_ZA[i], ex0, ctl0) for i in idx]).mean())
+    pl = pd.DataFrame(pl); plz = pd.DataFrame(plz)
     for w in WIN["NCR"]:
         ps = pl[w].dropna()
         rows.append(dict(event="NCR pooled Stage III starts", event_day="; ".join(DAY[e] for e in EVS), group=f"{grp} builders", benchmark="all eligible developer controls, equal-weighted",
                          window=f"({w[0]},{w[1]})", n_exposed=len(ex0), n_benchmark=len(ctl0), statistic=a[w], p_two_sided=(ps.abs() >= abs(a[w])).mean(),
                          p_one_sided_neg=(ps <= a[w]).mean(), placebo_sd=ps.std(), n_placebo=len(ps),
+                         statistic_zero_alpha=az[w] if w in ZWIN else np.nan, p_zero_alpha_two_sided=((plz[w].dropna().abs() >= abs(az[w])).mean() if w in ZWIN else np.nan),
                          note="per event: " + "; ".join(f"{e} {per.loc[e, w]:+.4f}" for e in EVS)))
 # returns on 25 Nov 2024 (day +4 of the 18 Nov event): raw and abnormal
 ar = ARS["E_NCR_GRAP_2024"]; day25 = pd.Timestamp("2024-11-25"); i25 = E.t0_of("2024-11-25") - E.t0_of("2024-11-18")
@@ -124,14 +135,18 @@ for grp in ("pack_footprint", "vadodara_sites"):
            lambda X, ex=ex, nn=nn: stat_matched(X, ex, lambda e: list(nn[nn.match_for == e].nse_symbol)), len(ex), 2, WIN["GJ"],
            note="five firms have no size match within their pool (SRF, UPL, KIRIINDUS, BODALCHEM, ZUARI); they are kept but are not size-matched")
     for f in ex:
-        firm_rows.append(dict(event=ev, nse_symbol=f, group=grp, role="exposed", pool=pool[f], **{f"car_{w[0]}_{w[1]}": C.loc[f, w] for w in WIN["GJ"]}))
+        firm_rows.append(dict(event=ev, nse_symbol=f, group=grp, role="exposed", pool=pool[f], **{f"car_{w[0]}_{w[1]}": C.loc[f, w] for w in WIN["GJ"]},
+                              **{f"car_zero_alpha_{w[0]}_{w[1]}": CARS_ZA[ev].loc[f, w] if f in CARS_ZA[ev].index else np.nan for w in ZWIN}))
 for pl_, cs in pool_of.items():
     for f in cs:
-        if f in C.index: firm_rows.append(dict(event=ev, nse_symbol=f, group="controls", role="control", pool=pl_, **{f"car_{w[0]}_{w[1]}": C.loc[f, w] for w in WIN["GJ"]}))
+        if f in C.index: firm_rows.append(dict(event=ev, nse_symbol=f, group="controls", role="control", pool=pl_, **{f"car_{w[0]}_{w[1]}": C.loc[f, w] for w in WIN["GJ"]},
+                                               **{f"car_zero_alpha_{w[0]}_{w[1]}": CARS_ZA[ev].loc[f, w] if f in CARS_ZA[ev].index else np.nan for w in ZWIN}))
 T = pd.DataFrame(rows); T.round(4).to_csv(DEL + "table1_direct.csv", index=False)
 pd.DataFrame(firm_rows).round(4).to_csv(DEL + "table1_direct_firms.csv", index=False)
 pd.set_option("display.width", 250); pd.set_option("display.max_colwidth", 70)
 print(T.drop(columns=["note", "placebo_sd", "event_day"]).round(3).to_string(index=False))
+if True:
+    fr = pd.DataFrame(firm_rows); print(fr[[c for c in fr.columns if c.startswith(("event", "nse_symbol", "car_21", "car_zero_alpha_21"))]].round(3).to_string(index=False))
 print(t25.round(4).to_string(index=False))
 # ---------------- quarterly DiD -----------------------------------------------------------------------
 import statsmodels.formula.api as smf

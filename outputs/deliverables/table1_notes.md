@@ -35,3 +35,22 @@ of decision G2 (`research/realign/g2_decision.csv`, from `src/45_g2_decision.py`
 - The unconfirmed builders' margins are extreme (distressed firms), so those coefficients are uninformative.
 - statsmodels warned of a degenerate cluster variance in at least one regression.
 - Read the DiD as descriptive.
+
+**Zero-alpha CARs (checkpoint-5 review).**
+- **What they are:** for (+6,+20) and (+21,+60), `table1_direct.csv` adds `statistic_zero_alpha` and
+  `p_zero_alpha_two_sided`, and `table1_direct_firms.csv` adds `car_zero_alpha_6_20` and `car_zero_alpha_21_60`.
+  These are the market-model CARs with the estimated alpha set to zero and beta kept (AR = R − beta × M), with
+  placebo p-values computed the same way. `es_lib.ar_matrix(..., zero_alpha=True)` computes them.
+- **Why:** a strong drift in the estimation window (alpha) is projected into long windows as if it were normal
+  return.
+- **Size of the alpha term** in the (+21,+60) CARs from 18 Nov 2024:
+  - Unitech: −17.7 of −23.5 pp;
+  - RVNL: −13.0 of −17.3;
+  - Anant Raj: −9.5 of −18.1;
+  - NBCC: −6.6 (zero-alpha CAR +4.5%).
+- **Group statistics:** without alpha, the within-zone firms' (+21,+60) mean goes from −7.9% (p = 0.23) to −2.2%
+  (p = 0.75). The unconfirmed builders' difference goes from −1.2% to +11.5% (p = 0.46).
+- **No negative long-window statistic becomes significant.** Two positive ones (the wrong sign for a hit) are
+  significant or close to it without alpha:
+  - the within-zone firms' (+6,+20): +8.2%, p = 0.06;
+  - the Vadodara sites' (+21,+60) against their pool: +20.7%, p = 0.03 (+24.6%, p = 0.02, with alpha).

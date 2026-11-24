@@ -65,8 +65,10 @@ for f in list(links) + COMP:
 A = pd.DataFrame(rows)
 fits = []
 outcomes = [c for c in A.columns if c.startswith("car_")] + ["q3fy25_sales_yoy_pct", "q3fy25_opm_change_pp", "q2fy25_sales_yoy_pct_preban", "q3_minus_q2_sales_yoy_pp"]
-for dose, sample in (("dose_mid", "all 8"), ("dose_low", "all 8"), ("dose_high", "all 8"), ("dose_mid", "without B.L. Kashyap")):
-    AA = A if sample == "all 8" else A[A.nse_symbol != "BLKASHYAP"].reset_index(drop=True)
+TARGETS = {"PSPPROJECT": "takeover target: Adani Infra open offer, 19 Nov 2024", "CEMPRO": "takeover target (then ITD Cementation): Renew Exim DMCC open offer, 25 Oct 2024"}
+A["flag"] = A.nse_symbol.map(lambda f: TARGETS.get(f, ""))
+for dose, sample in (("dose_mid", "all 8"), ("dose_low", "all 8"), ("dose_high", "all 8"), ("dose_mid", "without B.L. Kashyap"), ("dose_mid", "without the takeover targets (PSP, Cemindia)")):
+    AA = A if sample == "all 8" else (A[A.nse_symbol != "BLKASHYAP"] if sample.startswith("without B.L.") else A[~A.nse_symbol.isin(TARGETS)]).reset_index(drop=True)
     d = AA[dose].values
     perms = np.array(list(itertools.permutations(range(len(d)))))
     for o in outcomes:
@@ -98,9 +100,23 @@ B = pd.DataFrame([dict(panel="B: Gujarat forward (H2)", nse_symbol="TATACONSUM",
     note="one link: no slope. Weight = Tata Chemicals' share of Tata Consumer's material input cost (FY24). The buyer's response is a retail price increase (Rs 2 on Rs 28, about 7%, from Oct 2024) with margin held; results-day return is tea-driven (company)")])
 # ---------------- Panel C ----------------
 CT = pd.read_csv(DEL + "cement_market_test.csv"); CT = CT[CT.spec.str.startswith("main")]
-C = pd.DataFrame([dict(panel="C: NCR market level (not a firm link)", nse_symbol=f"cement makers: {r.n_north} with northern capacity vs {r.n_none} with none", link_id="binary dose",
-    link_status="G5: coarse, labelled test; +2.5 pp over (-1,+5) is the result", buyer=f"{r.event} {r.window}", w_mid=np.nan,
+C2 = pd.DataFrame([dict(panel="C2: NCR market level, northern capacity share (comparison; superseded at checkpoint 5)", nse_symbol=f"cement makers: {r.n_north} with northern capacity vs {r.n_none} with none", link_id="binary dose",
+    link_status="G5 result, kept as the comparison: +2.5 pp over (-1,+5)", buyer=f"{r.event} {r.window}", w_mid=np.nan,
     note=f"gap north minus none {r.gap_north_minus_none:+.3f} (p={r.p_two_sided:.2f}); a hit would make the gap negative") for r in CT.itertuples()])
+CF = DEL + "table2_cement_fit.csv"
+if os.path.exists(CF):
+    cf = pd.read_csv(CF)
+    # main rows only: plant-count doses, all makers and without takeover-related makers. The capacity-weighted variant and the
+    # broad flag are in table2_cement_fit.csv; both leave at most one exposed maker in most windows (not identified)
+    cf = cf[cf.dose.isin(["near300_n", "near150_n"]) & ~cf["sample"].str.contains("broad") & cf.coef.notna()]
+    C1 = pd.DataFrame([dict(panel="C: cement makers that deliver to NCR (main cement result; specification in table2_notes.md)", nse_symbol=f"{r.outcome}", link_id=f"dose {r.dose}" + (f" + {r.control}" if isinstance(r.control, str) and r.control else ""),
+        link_status=r.sample, buyer=f"{int(r.n_exposed)} of {int(r.n)} makers with plants near Delhi", w_mid=np.nan,
+        note=f"coefficient on {r.dose} {r.coef:+.3f} (p={r.p_two_sided:.2f}; null s.d. {r.null_sd:.3f}; n={int(r.n)})" + (f"; {r.control} {r.coef_control:+.3f}" if isinstance(r.control, str) and r.control and pd.notna(r.coef_control) else "")
+             + (f"; implied by a full 30-day stop of NCR-near output {r.implied_full_loss_coef:+.3f}: detectable {r.detectable}" if pd.notna(r.implied_full_loss_coef) else ""))
+        for r in cf.itertuples()])
+else:
+    C1 = pd.DataFrame()
+C = pd.concat([C1, C2], ignore_index=True)
 T2 = pd.concat([A, B, C], ignore_index=True); T2.round(4).to_csv(DEL + "table2_dose_response.csv", index=False); F.round(4).to_csv(DEL + "table2_dose_response_fit.csv", index=False)
 pd.set_option("display.width", 250); pd.set_option("display.max_colwidth", 60)
 print(A[["nse_symbol", "w_mid", "buyer_exposure", "dose_mid"] + outcomes].round(3).to_string(index=False))
@@ -115,7 +131,8 @@ GROUPS = [("A: unexposed, unlinked placebo firms", "NCR", sorted(PF[PF.event == 
           ("A: unexposed, unlinked placebo firms (approved with changes; Reliance Power dropped)", "GJ", sorted(PF[PF.event.str.startswith("E_GJ")].nse_symbol)),
           ("B: G2 control firms (developers with no NCR project)", "NCR", ["BRIGADE", "PURVA", "AJMERA", "RUSTOMJEE", "KOLTEPATIL", "SUNTECK", "LODHA", "VASCONEQ"]),
           ("B: G2 control firms (fertiliser and specialty, no Gujarat plant)", "GJ", ["CHAMBLFERT", "NFL", "PARADEEP", "VINATIORGA", "CLEAN", "SUDARSCHEM"]),
-          ("C: unlinked comparison contractors (zero dose)", "NCR", COMP)]
+          ("C: unlinked comparison contractors (zero dose)", "NCR", COMP),
+          ("C: unlinked comparison contractors, without the takeover targets (PSP, Cemindia)", "NCR", [c for c in COMP if c not in ("PSPPROJECT", "CEMPRO")])]
 EVW = {"NCR": [("18 Nov 2024", "2024-11-18", [(-1, 3), (-1, 5), (6, 20), (21, 60)]), ("17 Dec 2024", "2024-12-17", [(-1, 5), (6, 20)])],
        "GJ": [("26 Aug 2024", "2024-08-26", [(-1, 5), (6, 20), (21, 60)])]}
 allf = sorted({f for _, _, fs in GROUPS for f in fs}); allf = [f for f in allf if f in E.R.columns]

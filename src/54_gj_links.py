@@ -15,7 +15,7 @@ P = 758.46 + 818.18
 ws = (P / 15421, 0.36); wb = (P / (5730.20 + 2955.31), P / (4040.26 + 2528.82))
 row = dict(link_id="G001", chain="GJ", supplier="Tata Chemicals Ltd (Mithapur)", supplier_symbol="TATACHEM", buyer="Tata Consumer Products Ltd", buyer_symbol="TATACONSUM",
            in_sample="False", supplier_external="yes", supplier_in_pack_footprint="no (Mithapur, Devbhumi Dwarka)", buyer_external="yes", buyer_in_pack_footprint="no",
-           product="edible salt (vacuum-evaporated, Tata Salt)", trade="input supply (salt)", status="verified (G7): material; cost pass-through, not a shortage",
+           product="edible salt (vacuum-evaporated, Tata Salt)", trade="input supply (salt)", status="verified (G7): material; cost stated by both firms; the volume stall in the storm quarter is unexplained and consistent with lost supply (checkpoint 5)",
            status_reason=("documented on both sides: Tata Chemicals AR FY2024-25 'For edible Salt, Tata Consumer Products Limited (TCPL) continues to be a single customer'; "
                           "Tata Consumer's related-party filings (FY24 purchases Rs 1,576.64 cr); Tata Consumer IAR 2022-23, Responsible Sourcing: 'more than 85% of the salt we offer in the market is sourced from Tata Chemicals'"),
            decided="23 Nov 2026 (G7 R3)", live_from="long-standing (FY24 and FY25 documents)", live_to="", live_at_event="yes",

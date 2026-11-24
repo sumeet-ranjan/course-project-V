@@ -23,15 +23,21 @@ NODES = {"TATACHEM": "hit-firm candidate (Mithapur)", "ACI": "hit-firm candidate
          "ADANIPORTS": "hit-firm candidate (Mundra, Tuna)", "GHCL": "soda ash peer (confound)", "TATACONSUM": "downstream buyer of Tata Chemicals' salt"}
 firms = list(NODES)
 WIN = [(-1, 5), (6, 20), (21, 60)]
-PL = [a.reindex(columns=firms) for a in (E.ar_matrix(t, pre=1, post=60) for t in E.placebo_t0s(n=1000, post=60)) if a is not None]
-t0 = E.t0_of("2024-08-26"); ar = E.ar_matrix(t0, pre=1, post=60).reindex(columns=firms)
+PT_ = E.placebo_t0s(n=1000, post=60); PL, PLZ = [], []
+for t in PT_:
+    a_ = E.ar_matrix(t, pre=1, post=60)
+    if a_ is not None: PL.append(a_.reindex(columns=firms)); PLZ.append(E.ar_matrix(t, pre=1, post=60, zero_alpha=True).reindex(columns=firms))
+ZWIN = [(6, 20), (21, 60)]   # checkpoint-5 review: zero-alpha CAR (beta kept)
+t0 = E.t0_of("2024-08-26"); ar = E.ar_matrix(t0, pre=1, post=60).reindex(columns=firms); arz = E.ar_matrix(t0, pre=1, post=60, zero_alpha=True).reindex(columns=firms)
 rows = []
 for f in firms:
     for w in WIN:
         c = E.car(ar[[f]], *w).iloc[0]; ps = pd.Series([E.car(P[[f]], *w).iloc[0] for P in PL]).dropna()
         rows.append(dict(event="26 Aug 2024 (storm)", nse_symbol=f, node=NODES[f], window=f"({w[0]},{w[1]})", car=c,
-                         p_two_sided=(ps.abs() >= abs(c)).mean() if pd.notna(c) else np.nan, p_one_sided_neg=(ps <= c).mean() if pd.notna(c) else np.nan, n_placebo=len(ps)))
-T = pd.DataFrame(rows); T.round(4).to_csv(DEL + "stepC_gj_node_cars.csv", index=False)
+                         p_two_sided=(ps.abs() >= abs(c)).mean() if pd.notna(c) else np.nan, p_one_sided_neg=(ps <= c).mean() if pd.notna(c) else np.nan, n_placebo=len(ps),
+                         car_zero_alpha=E.car(arz[[f]], *w).iloc[0] if w in ZWIN else np.nan,
+                         p_zero_alpha_two_sided=((pd.Series([E.car(P[[f]], *w).iloc[0] for P in PLZ]).dropna().abs() >= abs(E.car(arz[[f]], *w).iloc[0])).mean() if w in ZWIN and pd.notna(E.car(arz[[f]], *w).iloc[0]) else np.nan)))
+T = pd.DataFrame(rows); T.round(6).to_csv(DEL + "stepC_gj_node_cars.csv", index=False)
 pd.set_option("display.width", 200); print(T.round(3).to_string(index=False))
 # results days: abnormal returns from the market model estimated on [-250,-30] before 26 Aug 2024
 RESULTS = {"TATACONSUM": ["2024-10-17", "2024-10-18", "2024-10-21"], "TATACHEM": ["2024-10-17", "2024-10-18", "2024-10-21"]}   # release times (NSE filing names): Tata Chemicals 17 Oct 2024 18:01 IST -> priced 18 Oct; Tata Consumer 18 Oct 2024 16:52 IST -> priced 21 Oct (17-18 Oct shown as the user asked)

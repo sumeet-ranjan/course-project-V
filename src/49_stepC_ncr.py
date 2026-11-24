@@ -28,13 +28,14 @@ BENCH = ["NIFTY_REALTY", "NIFTY_INFRA", "NIFTY_PSE"]
 EV = {"18 Nov 2024": ("2024-11-18", [(-1, 3), (-1, 5), (6, 20), (21, 60)]), "17 Dec 2024": ("2024-12-17", [(-1, 5), (6, 20)])}
 firms = list(NODES) + COMP + BENCH
 PT = E.placebo_t0s(n=1000, post=60)
-PL = []
+PL, PLZ = [], []
 for t in PT:
     ar = E.ar_matrix(t, pre=1, post=60)
-    if ar is not None: PL.append(ar.reindex(columns=firms))
+    if ar is not None: PL.append(ar.reindex(columns=firms)); PLZ.append(E.ar_matrix(t, pre=1, post=60, zero_alpha=True).reindex(columns=firms))
+ZWIN = [(6, 20), (21, 60)]   # checkpoint-5 review: zero-alpha CAR (beta kept) beside the market-model CAR
 rows = []
 for lab, (day, wins) in EV.items():
-    ar = E.ar_matrix(E.t0_of(day), pre=1, post=60).reindex(columns=firms)
+    ar = E.ar_matrix(E.t0_of(day), pre=1, post=60).reindex(columns=firms); arz = E.ar_matrix(E.t0_of(day), pre=1, post=60, zero_alpha=True).reindex(columns=firms)
     comp_mean = {w: E.car(ar[COMP], *w).mean() for w in wins}
     for f in firms:
         for w in wins:
@@ -43,6 +44,8 @@ for lab, (day, wins) in EV.items():
             rows.append(dict(event=lab, nse_symbol=f, node=NODES.get(f, "comparison contractor (unlinked)" if f in COMP else "benchmark index"), window=f"({w[0]},{w[1]})",
                              car=c, p_two_sided=(ps.abs() >= abs(c)).mean() if pd.notna(c) else np.nan, p_one_sided_neg=(ps <= c).mean() if pd.notna(c) else np.nan,
                              car_minus_unlinked_contractors=c - comp_mean[w] if f in NODES else np.nan, n_placebo=len(ps),
+                             car_zero_alpha=E.car(arz[[f]], *w).iloc[0] if w in ZWIN else np.nan,
+                             p_zero_alpha_two_sided=((pd.Series([E.car(P[[f]], *w).iloc[0] for P in PLZ]).dropna().abs() >= abs(E.car(arz[[f]], *w).iloc[0])).mean() if w in ZWIN and pd.notna(E.car(arz[[f]], *w).iloc[0]) else np.nan),
                              note=("own Q2 FY25 results 14 Nov 2024 after close and call on 18 Nov fall in this window" if (f == "AHLUCONT" and lab == "18 Nov 2024" and w[0] == -1) else "")))
 T = pd.DataFrame(rows); T.round(6).to_csv(DEL + "stepC_ncr_node_cars.csv", index=False)
 pd.set_option("display.width", 220)

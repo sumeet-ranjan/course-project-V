@@ -31,10 +31,26 @@ for q in ("Q1 FY25", "Q2 FY25", "Q3 FY25", "Q4 FY25", "FY25"):
     rv, rs = num(qq, "salt_revenue_growth", fy); vv, vs = num(qq, "salt_volume_growth", fy)
     rows.append(dict(period=q, salt_revenue_growth_pct=rv, salt_volume_growth_pct=vv, implied_price_mix_pp=(rv - vv) if pd.notna(rv) and pd.notna(vv) else np.nan,
                      retail_price_action=PRICE.get(q, ""), market_share=("" if q == "FY25" else text(q, "salt_market_share")), margin_statement=("" if q == "FY25" else text(q, "salt_margin")),
-                     mithapur_mentioned=MITH.get(q, ""), note=("deck slide 24: 'Salt revenue grew 2% with flat volumes'; the Q2 call gives salt volume +1%" if q == "Q2 FY25" else
+                     mithapur_mentioned=MITH.get(q, ""), note=("deck slide 24: 'Salt revenue grew 2% with flat volumes'; the Q2 call's '8% ... 1%' sentence does not say volume or revenue (unlabelled)" if q == "Q2 FY25" else
                                                            "full year, from the Q4 FY25 presentation" if q == "FY25" else ""),
                      sources="; ".join(dict.fromkeys([s for s in (rs, vs) if s]))))
-T = pd.DataFrame(rows); T.to_csv(DEL + "stepC_gj_tcpl_salt.csv", index=False)
+T = pd.DataFrame(rows)
+# checkpoint-5 review: Tata Chemicals' India salt sales volume by quarter (FY24, FY25) beside Tata Consumer's
+TV = RE + "tatachem_salt_volumes.csv"
+if os.path.exists(TV):
+    okv = set(qc[(qc.file == "tatachem_salt_volumes.csv") & (qc.status == "verified")].row)
+    V = pd.read_csv(TV, dtype=str).fillna(""); V = V[V.index.isin(okv) & (V.metric == "salt_sales_volume")]
+    vol = {r.quarter: float(r.value) for r in V.itertuples()}
+    for q in ("Q1", "Q2", "Q3", "Q4"):
+        cur, prev = vol.get(f"{q} FY25"), vol.get(f"{q} FY24")
+        T.loc[T.period == f"{q} FY25", "tatachem_salt_volume_kt"] = cur; T.loc[T.period == f"{q} FY25", "tatachem_salt_volume_kt_fy24"] = prev
+        T.loc[T.period == f"{q} FY25", "tatachem_salt_volume_yoy_pct"] = (100 * (cur / prev - 1)) if cur and prev else np.nan
+    fy25, fy24 = sum(vol.get(f"{q} FY25", np.nan) for q in ("Q1", "Q2", "Q3", "Q4")), sum(vol.get(f"{q} FY24", np.nan) for q in ("Q1", "Q2", "Q3", "Q4"))
+    T.loc[T.period == "FY25", ["tatachem_salt_volume_kt", "tatachem_salt_volume_kt_fy24", "tatachem_salt_volume_yoy_pct"]] = [fy25, fy24, 100 * (fy25 / fy24 - 1)]
+T["mechanism_reading"] = ""
+T.loc[T.period == "Q2 FY25", "mechanism_reading"] = ("storm quarter: cost stated by both firms; Tata Consumer's salt volume stalled (flat, from +8% in Q1) and Tata Chemicals' India salt volume fell "
+                                                    "(322 kt vs 338 kt; 'the numbers are almost same, we were behind a bit from our plan'): unexplained by the companies and consistent with lost supply")
+T.to_csv(DEL + "stepC_gj_tcpl_salt.csv", index=False)
 # magnitude (checkpoint-4 review): the storm cost against the value of the 7% increase
 PURCH = 758.46 + 818.18   # Tata Consumer's FY24 purchases from Tata Chemicals, Rs cr (related-party filings, verified_links.csv G001)
 M = pd.DataFrame([

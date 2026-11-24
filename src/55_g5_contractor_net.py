@@ -27,15 +27,23 @@ add = peer.reindex(E.R.index)
 E.R = pd.concat([E.R, add[[c for c in add.columns if c not in E.R.columns]]], axis=1)
 NODES = {"AHLUCONT": "contractor <- DLF (material)", "BLKASHYAP": "contractor <- DLF (site hit not documented)", "JKIL": "contractor <- NBCC (not material)"}
 COMP = ["NCC", "PSPPROJECT", "CEMPRO", "LT", "CAPACITE"]; COMP_SM = [c for c in COMP if c != "LT"]
+# checkpoint-5 review: two unlinked contractors were takeover targets inside the windows -> every net figure with and without them
+TARGETS = {"PSPPROJECT": "takeover target: NSE news query 19 Nov 2024 15:30 ('Adani Group in advanced stage talks to buy 60% stake'); Adani Infra open offer announced 19 Nov 2024 20:14",
+           "CEMPRO": "takeover target (then ITD Cementation): open offer by Renew Exim DMCC announced 25 Oct 2024 22:25"}
+COMP_EXT = [c for c in COMP if c not in TARGETS]
+ZWIN = [(6, 20), (21, 60)]   # checkpoint-5 review: zero-alpha CARs (beta kept) beside the market-model CARs
 firms = list(NODES) + COMP
-EV = {"18 Nov 2024 (ban day 0; Ahluwalia Q2 results day; Q2 call priced from 19 Nov)": ("2024-11-18", [(-1, 3), (-1, 5), (6, 20), (21, 60), (0, 0), (1, 1), (0, 1)]),
+EV = {"18 Nov 2024 (day 0 of the ban and Ahluwalia's Q2 results day: not separable; Q2 call priced from 19 Nov)": ("2024-11-18", [(-1, 3), (-1, 5), (6, 20), (21, 60), (0, 0), (1, 1), (0, 1)]),
       "17 Dec 2024 (re-imposition)": ("2024-12-17", [(-1, 5), (6, 20)]),
       "12 Feb 2025 (Ahluwalia Q3 results day; Q3 call priced from 13 Feb)": ("2025-02-12", [(0, 0), (1, 1), (0, 1)])}
-PL = [a.reindex(columns=firms) for a in (E.ar_matrix(t, pre=1, post=60) for t in E.placebo_t0s(n=1000, post=60)) if a is not None]
-NOTE = {("BLKASHYAP", "2024-11-18"): "not its own disclosure day: its Q2 FY25 results came out on 11 Nov 2024 at 13:56 (in market hours)",
+PL, PLZ = [], []
+for t in E.placebo_t0s(n=1000, post=60):
+    a_ = E.ar_matrix(t, pre=1, post=60)
+    if a_ is not None: PL.append(a_.reindex(columns=firms)); PLZ.append(E.ar_matrix(t, pre=1, post=60, zero_alpha=True).reindex(columns=firms))
+NOTE = {("BLKASHYAP", "2024-11-18"): "the clean comparison for the ban's day 0: B.L. Kashyap filed nothing between its Q2 results of 11 Nov 2024 (13:56) and a routine trading-window notice on 31 Dec 2024",
         ("BLKASHYAP", "2025-02-12"): "not its own disclosure day: its Q3 FY25 results came out on 7 Feb 2025 at 17:13; it still fell on 12 Feb, so the 12 Feb move is not Ahluwalia-specific",
         ("JKIL", "2024-11-18"): "Ahluwalia's disclosure day; J. Kumar's own results dates not checked", ("JKIL", "2025-02-12"): "Ahluwalia's disclosure day; J. Kumar's own results dates not checked",
-        ("AHLUCONT", "2024-11-18"): "(0,0) = 18 Nov, Q2 results day (and the ban's day 0); (+1,+1) = 19 Nov, first day the Q2 call (GRAP-IV statement) is priced",
+        ("AHLUCONT", "2024-11-18"): "(0,0) = 18 Nov: day 0 of the ban and Q2 results day; not separable. (+1,+1) = 19 Nov, first day the Q2 call (GRAP-IV statement) is priced",
         ("AHLUCONT", "2024-12-17"): "no Ahluwalia disclosure in 26 Dec 2024 - 15 Jan 2025 (NSE announcement list)",
         ("AHLUCONT", "2025-02-12"): "(0,0) = 12 Feb, Q3 results day (the deck filed at 12:33 does not mention the ban); (+1,+1) = 13 Feb, first day the Q3 call (guidance cut) is priced"}
 def stat(ar, f, w, comp):
@@ -43,21 +51,32 @@ def stat(ar, f, w, comp):
     return c, m, c - m
 rows = []
 for lab, (day, wins) in EV.items():
-    t0 = E.t0_of(day); ar = E.ar_matrix(t0, pre=1, post=60).reindex(columns=firms)
+    t0 = E.t0_of(day); ar = E.ar_matrix(t0, pre=1, post=60).reindex(columns=firms); arz = E.ar_matrix(t0, pre=1, post=60, zero_alpha=True).reindex(columns=firms)
     dates = E.DATES
     for w in wins:
         span = f"{dates[t0 + w[0]].date()} to {dates[t0 + w[1]].date()}"
         indiv = "; ".join(f"{c} {E.car(ar[[c]], *w).iloc[0]:+.3f}" for c in COMP)
         for f in NODES:
-            c, m, d = stat(ar, f, w, COMP); _, m2, d2 = stat(ar, f, w, COMP_SM)
+            c, m, d = stat(ar, f, w, COMP); _, m2, d2 = stat(ar, f, w, COMP_SM); _, m3, d3 = stat(ar, f, w, COMP_EXT)
             pc = pd.Series([E.car(P[[f]], *w).iloc[0] for P in PL]).dropna()
             pd_ = pd.Series([stat(P, f, w, COMP)[2] for P in PL]).dropna(); pd2 = pd.Series([stat(P, f, w, COMP_SM)[2] for P in PL]).dropna()
+            pd3 = pd.Series([stat(P, f, w, COMP_EXT)[2] for P in PL]).dropna()
+            if w in ZWIN:
+                cz, mz, dz = stat(arz, f, w, COMP); _, mz3, dz3 = stat(arz, f, w, COMP_EXT)
+                pcz = pd.Series([E.car(P[[f]], *w).iloc[0] for P in PLZ]).dropna()
+                pdz = pd.Series([stat(P, f, w, COMP)[2] for P in PLZ]).dropna(); pdz3 = pd.Series([stat(P, f, w, COMP_EXT)[2] for P in PLZ]).dropna()
+                zcols = dict(car_zero_alpha=cz, p_zero_alpha_two_sided=(pcz.abs() >= abs(cz)).mean(), net_of_unlinked_zero_alpha=dz, p_net_zero_alpha=(pdz.abs() >= abs(dz)).mean(),
+                             net_ex_targets_zero_alpha=dz3, p_net_ex_targets_zero_alpha=(pdz3.abs() >= abs(dz3)).mean())
+            else:
+                zcols = dict(car_zero_alpha=np.nan, p_zero_alpha_two_sided=np.nan, net_of_unlinked_zero_alpha=np.nan, p_net_zero_alpha=np.nan, net_ex_targets_zero_alpha=np.nan, p_net_ex_targets_zero_alpha=np.nan)
             rows.append(dict(event=lab, window=f"({w[0]},{w[1]})", dates=span, nse_symbol=f, node=NODES[f], car=c,
                              p_two_sided=(pc.abs() >= abs(c)).mean(), unlinked_mean=m, net_of_unlinked=d,
                              p_net_two_sided=(pd_.abs() >= abs(d)).mean(), p_net_one_sided_neg=(pd_ <= d).mean(),
+                             unlinked_ex_targets_mean=m3, net_ex_targets=d3, p_net_ex_targets_two_sided=(pd3.abs() >= abs(d3)).mean(),
                              unlinked_small_mid_mean=m2, net_of_unlinked_small_mid=d2, p_net_sm_two_sided=(pd2.abs() >= abs(d2)).mean(),
-                             n_placebo=len(pd_), unlinked_each=indiv, note=NOTE.get((f, day), "")))
-T = pd.DataFrame(rows); T.round(4).to_csv(DEL + "stepC_ncr_contractor_net.csv", index=False)
+                             **zcols, n_placebo=len(pd_), unlinked_each=indiv, note=NOTE.get((f, day), "")))
+T = pd.DataFrame(rows); T.round(6).to_csv(DEL + "stepC_ncr_contractor_net.csv", index=False)
+pd.DataFrame([dict(nse_symbol=k, flag=v) for k, v in TARGETS.items()]).to_csv(DEL + "stepC_ncr_unlinked_flags.csv", index=False)
 pd.set_option("display.width", 250); pd.set_option("display.max_colwidth", 60)
 print(T.drop(columns=["node", "unlinked_each", "event"]).round(3).to_string(index=False))
 # disclosure days, Ahluwalia: abnormal return from the engine (own window) and from the model estimated before 18 Nov 2024

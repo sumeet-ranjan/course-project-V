@@ -142,3 +142,59 @@ Godrej Properties (billing milestones moved from Q3 to Q4). Signature Global, Ma
   - Capacit'e's NBCC order (Leisure Valley, Greater Noida) is dated 14 Feb 2025, after the event.
 - **Cement:** one line kept in the table notes. The two-firm variant was run (+10.6 pp, p = 0.005) and is not
   interpreted, because it rests on two firms.
+
+## Checkpoint-5 review (23 Nov 2026): corrections applied
+- **The call days stand as reported.** 19 Nov −1.3% (p = 0.55) and 13 Feb −2.2% (p = 0.28), net: not
+  distinguishable from zero.
+- **18 Nov for Ahluwalia** is now labelled "day 0 of the ban and Q2 results day; not separable".
+  - **B.L. Kashyap** is placed beside it. It filed nothing between its Q2 results of 11 Nov and a routine
+    trading-window notice on 31 Dec 2024.
+  - Net of the unlinked contractors, on 18 Nov: B.L. Kashyap −5.4% (p = 0.06); Ahluwalia −4.7% (p = 0.04).
+  - Over (−1,+5): B.L. Kashyap +0.1% (p = 0.99); Ahluwalia −7.8% (p = 0.21).
+  - The firm without news of its own fell on day 0 about as much as Ahluwalia.
+- **Takeover targets among the unlinked contractors**, flagged in `stepC_ncr_unlinked_flags.csv`:
+  - PSP Projects: NSE news query at 15:30 on 19 Nov 2024 ("Adani Group in advanced stage talks to buy 60% stake");
+    Adani Infra open offer that evening.
+  - Cemindia, then ITD Cementation: open offer by Renew Exim DMCC, 25 Oct 2024 (after 22:00).
+  - Every net figure is now reported with and without them (columns `net_ex_targets`, `p_net_ex_targets_two_sided`).
+  - Without them: 18 Nov Ahluwalia −4.4% (p = 0.05) and B.L. Kashyap −5.0% (p = 0.07); (−1,+5) Ahluwalia −11.6%
+    (p = 0.08); 19 Nov −0.1% (p = 0.95); 13 Feb −2.7% (p = 0.24).
+- **Zero-alpha CARs (beta kept)** are now beside the market-model CARs for (+6,+20) and (+21,+60), in table 1 and both
+  node tables.
+  - Ahluwalia (+21,+60): −33.4% market model; −29.7% zero-alpha (p = 0.02); net −26.7% (p = 0.06); net without the
+    takeover targets −19.4% (p = 0.15).
+  - 17 Dec (+6,+20): −19.5%; zero-alpha −19.0% (p = 0.03); net −17.1% (p = 0.08).
+  - Your alpha terms reproduce exactly: Unitech −17.7 of −23.5, RVNL −13.0 of −17.3, Anant Raj −9.5 of −18.1,
+    NBCC −6.6.
+- **Steel: the approved makes could not be retrieved.** NBCC's works tenders sit on the e-procurement portal behind a
+  CAPTCHA, which was not attempted. NBCC's general conditions only refer to a "List of approved makes of materials".
+  - The test stops at the materiality bound: DLF's FY24 construction outflow (Rs 1,642 cr) is at most 0.7% (Tata
+    Steel), 0.9% (JSW), 1.6% (SAIL), 3.3% (JSPL) or 4.3% (Jindal Stainless) of a steel maker's FY24 revenue.
+  - No regression.
+
+## Checkpoint-5 review (23 Nov 2026): the cement delivery test (main cement result)
+The specification was written into `outputs/deliverables/table2_notes.md` before the run (12:05 UTC), with two amendments
+made before the run: the geocode rule at 12:20, and plant-count doses at 12:37. Frozen copies and hashes are in
+`research/realign/cement_test_spec_20261123*.md`. Full results are in `table2_notes.md` ("Results").
+- **Who delivers:**
+  - **Plants:** 194 plants of 23 listed makers, from original documents. 20 lie within 300 km of Delhi by road, all
+    UltraTech (9), Shree (5), JK Cement (2), Ambuja (2), ACC (1) and JK Lakshmi (1). Ambuja's and ACC's units come
+    from the site lists in their FY2023-24 annual reports.
+  - **Market:** the CCI order (2017) names the same makers bidding district by district in Haryana.
+  - **Not obtained:** NBCC's approved makes (behind a CAPTCHA, not attempted) and the makers' NCR ready-mix plants.
+- **Result: null.**
+  - Coefficient on the share of plants within 300 km, controlling for the rest of the North: +0.06 (p 0.52) over
+    (−1,+1) with ACC and Ambuja; +0.18 (p 0.19) over (−1,+5); +0.23 (p 0.26) over (+6,+20). For 17 Dec: −0.14
+    (p 0.32) and −0.19 (p 0.37).
+  - The same holds without takeover-related makers and with the 150 km dose.
+  - Q3 volume −0.32 (p 0.31), matched by the pre-ban quarter (−0.28, p 0.50).
+- **Could it detect the ban?** No.
+  - The largest possible Q3 loss is 9.6% of output (Shree), below twice the cross-maker spread of volume growth
+    (15 pp).
+  - A 30-day loss is too small for a CAR test unless the market expected it to last.
+- **Deviation:** the takeover flag was narrowed after the first run, from every merger or stake filing to deals in a
+  cement business, because the broad flag left one exposed maker. Both versions are reported.
+- **Confounds named:** northern prices (the control's coefficient is near zero); Shree's price over volume (its Q2
+  call); deals in Oct-Dec 2024; new capacity (none documented near Delhi); and Q2 results dates (Mangalam, Prism).
+- **Steel:** stops at the materiality bound, with no regression.
+- **The old market-level test** (+2.5 pp, p 0.34) is kept in the notes as the comparison.

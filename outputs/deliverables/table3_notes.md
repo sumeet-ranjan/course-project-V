@@ -42,3 +42,12 @@ Built by `src/58_tables_dose_placebo.py`.
 - Nulls, except 16–24 Dec 2024 (17 Dec (−1,+5)): +5.5% mean (p = 0.07) and +6.3% median (p = 0.05).
   - The rise is led by Capacit'e (+12.1%), PSP (+7.3%) and Cemindia (+6.3%). Its cause was not checked.
   - It inflates Ahluwalia's net figure for that window (−6.6%, p = 0.27), which is not used as evidence.
+
+**Checkpoint-5 review: takeover targets.**
+- PSP Projects (Adani Infra open offer, 19 Nov 2024) and Cemindia, then ITD Cementation (Renew Exim DMCC open offer,
+  25 Oct 2024) were takeover targets inside the windows. Group C is therefore also reported without them (NCC, L&T,
+  Capacit'e).
+- Without them, the remaining three return nulls in every window (p ≥ 0.10). The 16–24 Dec rise falls to +4.6%
+  (p = 0.15).
+- **The re-screen of the Gujarat placebo list stays partial, as you instructed.** The own annual reports of Jindal
+  Steel & Power, Jindal Stainless, Lodha, NBCC, SAIL and NMDC were not read.

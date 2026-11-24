@@ -20,8 +20,10 @@ EST = (-250, -30)
 def t0_of(date):
     return int(np.searchsorted(DATES.values, np.datetime64(pd.Timestamp(date))))
 
-def ar_matrix(t0, pre=10, post=60, min_obs=120):
-    """Abnormal returns for all firms, rows = event days pre..post. NaN firm if thin est window."""
+def ar_matrix(t0, pre=10, post=60, min_obs=120, zero_alpha=False):
+    """Abnormal returns for all firms, rows = event days pre..post. NaN firm if thin est window.
+    zero_alpha=True (checkpoint-5 review): AR = R - beta*M, i.e. the market model with the estimated alpha set to zero
+    and beta kept, so a strong estimation-window drift (alpha) does not enter long-window CARs."""
     a, b = t0 + EST[0], t0 + EST[1]
     if a < 0 or t0 + post >= len(DATES): return None
     y, m = R.iloc[a:b], MKT.iloc[a:b]
@@ -30,7 +32,8 @@ def ar_matrix(t0, pre=10, post=60, min_obs=120):
     beta = (y.sub(y.mean())).mul(mc, axis=0).sum() / ((y.notna()).mul(mc ** 2, axis=0).sum())
     alpha = y.mean() - beta * m.mean()
     w = R.iloc[t0 - pre:t0 + post + 1]
-    ar = w - (alpha.values[None, :] + np.outer(MKT.iloc[t0 - pre:t0 + post + 1].values, beta.values))
+    al = (alpha * 0.0) if zero_alpha else alpha
+    ar = w - (al.values[None, :] + np.outer(MKT.iloc[t0 - pre:t0 + post + 1].values, beta.values))
     ar = ar.loc[:, ok]; ar.index = range(-pre, post + 1)
     return ar
 
