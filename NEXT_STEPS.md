@@ -1,5 +1,7 @@
 # Next steps: plan built from GAP_MAP.md, in the order of INSTRUCTIONS §7
 
+**Status, 24 Nov 2026: closed out.** All four deliverables are final; `HANDOVER.md` is the self-contained briefing and holds the open items (§13: the memo's Conclusion and the final causal claim are the author's) and the gaps (§10). The record below is kept as history.
+
 **Status, 23 Nov 2026:**
 - Done: plan approved; Step 0 (correcting the record); decision G1 accepted and applied (`outputs/deliverables/verified_links.csv`).
 - NCR Step A evidence collected and quote-checked (`research/realign/ncr_stepA_evidence.csv`).

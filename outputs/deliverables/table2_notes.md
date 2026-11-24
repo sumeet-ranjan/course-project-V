@@ -169,150 +169,188 @@ A capacity-weighted share therefore cannot be computed from documents for the ma
 - **Size:** the largest possible loss uses the count share as its stand-in.
 - Everything else in the specification stands.
 
-### Results (run 23 Nov 2026, after the specification and both amendments)
+### Results (final run, 24 Nov 2026)
 
 Built by `src/62_cement_geo.py` (plants, geocodes, road distances) and `src/63_cement_delivery_test.py`. Files:
 `cement_plants_geo.csv` (one row per plant), `table2_cement_makers.csv` (doses, flags, outcomes per maker),
 `table2_cement_fit.csv` (every regression), and Panel C of `table2_dose_response.csv` (the main rows).
 
+**Does any conclusion change after the final fixes? No.**
+- The cement test is still a null in every window, sample and dose, with every p ≥ 0.23.
+- Neither test could detect the largest loss the ban could cause.
+- What changed: the signs are now mixed instead of mostly positive around 18 Nov. The (−1,+1) coefficient turns
+  negative with Mangalam in, and returns to +0.01 without it.
+
+**Fixes in the final run (all decided by the author before it was run).**
+- **Mangalam is not a single-site company.** Its Aligarh grinding unit was added.
+  - Mangalam's FY2024-25 annual report says: "The Company has manufacturing plants in Morak (Rajasthan) and Aligarh
+    (Uttar Pradesh)". This is the company's copy: the NSE copy returned no file, and the FY2023-24 report is a scan with
+    no text.
+  - IBM's Table 1 gives the unit 0.75 MTPA.
+  - Its count dose is 0.50 (1 of 2 plants, at 145 km), against 0.19 by capacity.
+- **Nuvoco added (10 plants).** Its annual report could not be read: the NSE copy refused, the BSE listing returned 403
+  and the company page renders only in JavaScript. Its decks list no plants. The list rests on its own documents:
+  - the Q3 FY25 call: "the Bhiwani grinding unit"; "the Chittor and the Nimbol facility";
+  - the Q3 FY25 deck: capacity build-up, with "Haryana expansion (2024)" of 1.2 MTPA and a 25.0 MTPA total;
+  - the decks' plant awards: Arasmeta, Sonadih, Risda, Jojobera, Panagarh and a "Bihar Cement Plant";
+  - the Q3 press release: Nimbol;
+  - IBM for Mejia.
+
+  A possible Odisha unit is not documented and is left out. Bhiwani lies 118 km from Delhi. The doses are 0.10 by
+  count and 0.05 by capacity.
+- **One row for the Ambuja group.** Ambuja's consolidated row holds ACC's plants and volumes. ACC is therefore no longer
+  a separate observation, and Rajpura is not counted twice. ACC stays in `table2_cement_makers.csv`, marked
+  `in_tests = no`.
+- **Capacity-weighted dose (robustness):** capacity within 300 km ÷ the maker's total capacity in Nov 2024
+  (`research/realign/cement_capacity.csv`, 49 plant capacities and 9 totals).
+  - Plant capacities: IBM, *Indian Minerals Yearbook 2022*, Cement, Table 1 (2020-21). Company documents for plants
+    built or enlarged later: Shree Nawalgarh 3.5, Udaipur Cement Works 4.70, Nuvoco Bhiwani 1.2 and Nimbol 2.3, and JK
+    Cement's own plant page.
+  - Totals: company statements for Nov–Dec 2024. UltraTech's is 151.35 MTPA, the Q3 FY25 total less India Cements.
+  - Three northern plants have no documented capacity and count as zero: UltraTech's Sadhraur (Rajpura, within
+    300 km) and Balara (Pali), and Ambuja's Marwar Mundwa. UltraTech's capacity share near Delhi is therefore a
+    lower bound.
+  - IBM's 2020-21 figures miss later expansions.
+- **Without Mangalam:** reported for the two main doses, because Mangalam's count dose (0.50) is the largest and its Q2
+  results fell in the first windows.
+
 **Data obtained.**
-- **Plants:** 194 grey-cement plants of 23 listed makers, each from an annual report, BRSR, deck or exchange filing.
+- **Plants:** 205 grey-cement plants of 24 listed makers, each from an annual report, BRSR, deck, call, exchange
+  filing or IBM.
+  - 22 lie within 300 km of Delhi by road. Two are integrated units (UltraTech Kotputli 170 km; Shree Nawalgarh
+    255 km); the rest are grinding units.
   - White-cement units and India Cements' plants are left out. India Cements became an UltraTech subsidiary only on
     24 Dec 2024.
-  - 20 plants lie within 300 km of Delhi by road. Two are integrated units (UltraTech Kotputli 170 km; Shree Nawalgarh
-    255 km); the other 18 are grinding units.
-  - Geocodes: two plants fell back to their district centroid (flagged), and one has no road distance (UltraTech's
-    Sarkipar, Chhattisgarh).
-- **Ambuja and ACC:** no deck, annual report or BRSR gives their plants' capacities.
-  - The site lists in their FY2023-24 annual reports give place and state for 34 units: Ambuja 14 and ACC 20, with
-    Asian Concretes' two (`research/realign/cement_plants_D.csv`).
-  - The group's denominator is its own count at 30 Sep 2024: 22 integrated and 21 grinding units
-    (`cement_unit_counts.csv`). The deck's map "as on 30.09.2024" adds no site in a northern state, apart from
-    Penna's Jodhpur clinker line, which was still under construction.
-- **Nuvoco is left out.** Its annual report returned 403, and its decks list no plants. They name a 1.2 MTPA Haryana
-  unit (2024) without its place.
-- **Quarterly figures:** volume for 9 makers in both Q3s and 8 in both Q2s; realisation for 5 makers.
-  - JK Cement's decks returned 403. Its transcript gives no volume.
-  - Shree published no Q3 FY25 realisation.
-  - Ambuja and ACC report net price per bag, not per tonne. Their year-on-year change is used.
-- **Lead distance:** reported for Q3 FY25 by only three makers (UltraTech 377 km, Ambuja 285 km, JK Lakshmi 381 km).
-  `near_lead` is therefore given per maker but cannot be estimated.
+  - Geocodes: two plants fell back to their district centroid (flagged); Nuvoco's Bihar plant is placed at its state
+    (no place given); UltraTech's Sarkipar has no road distance.
+- **Ambuja and ACC units** come from the "Site Location" lists in their FY2023-24 annual reports
+  (`research/realign/cement_plants_D.csv`). The group's denominator is its own count of 43 units at 30 Sep 2024
+  (`cement_unit_counts.csv`).
+- **Quarterly figures:** volume for 8 makers in both Q3s and 7 in both Q2s; realisation for 4.
+  - JK Cement's decks returned 403. Mangalam publishes no volume.
+  - Nuvoco prints no Q3 FY24 volume. Shree published no Q3 FY25 realisation.
+- **Lead distance:** reported for Q3 FY25 by three makers only (UltraTech 377 km, Ambuja 285 km, JK Lakshmi 381 km), so
+  the lead-distance dose cannot be estimated (accepted by the author).
 
-**Doses** (`table2_cement_makers.csv`): share of the maker's plants within 300 km of Delhi by road.
+**Doses** (`table2_cement_makers.csv`)
 
-| Maker | Within 300 km | Within 150 km | Northern plants beyond 300 km | Plants within 300 km |
-|---|---|---|---|---|
-| Shree | 0.29 (5 of 17) | 0.18 | 0.24 | Khushkhera 78 km, Sikandrabad 90, Panipat 106, Laksar 191, Nawalgarh 255 |
-| UltraTech | 0.17 (9 of 53) | 0.09 | 0.17 | Dadri 43, Sikandrabad 65, Jharli 87, Israna 116, Aligarh 141, Kotputli 170, Roorkee 200, Neem Ka Thana 200, Rajpura 244 |
-| JK Cement | 0.17 (2 of 12) | 0.17 | 0.33 | Jharli 100, Aligarh 145 |
-| JK Lakshmi (with Udaipur Cement Works) | 0.14 (1 of 7) | 0.14 | 0.29 | Jhamri 65 |
-| Ambuja group (with ACC, Sanghi, Penna) | 0.07 (3 of 43) | 0.02 | 0.26 | Dadri 43, Roorkee 200, Rajpura 244 (ACC) |
-| ACC | 0.05 (1 of 20) | 0 | 0.25 | Rajpura 244 |
+| Maker | Within 300 km (count) | Within 150 km | Northern plants beyond 300 km | Within 300 km (capacity) | Plants within 300 km |
+|---|---|---|---|---|---|
+| Mangalam | 0.50 (1 of 2) | 0.50 | 0.50 | 0.19 | Aligarh 145 km |
+| Shree | 0.29 (5 of 17) | 0.18 | 0.24 | 0.22 | Khushkhera 78, Sikandrabad 90, Panipat 106, Laksar 191, Nawalgarh 255 |
+| UltraTech | 0.17 (9 of 53) | 0.09 | 0.17 | 0.09 (lower bound) | Dadri 43, Sikandrabad 65, Jharli 87, Israna 116, Aligarh 141, Kotputli 170, Roorkee 200, Neem Ka Thana 200, Rajpura 244 |
+| JK Cement | 0.17 (2 of 12) | 0.17 | 0.33 | 0.15 | Jharli 100, Aligarh 145 |
+| JK Lakshmi (with Udaipur Cement Works) | 0.14 (1 of 7) | 0.14 | 0.29 | 0.08 | Jhamri 65 |
+| Nuvoco | 0.10 (1 of 10) | 0.10 | 0.20 | 0.05 | Bhiwani 118 |
+| Ambuja group (ACC, Sanghi, Penna) | 0.07 (3 of 43) | 0.02 | 0.26 | 0.045 | Dadri 43, Roorkee 200, Rajpura 244 (ACC) |
 
 All other makers have no plant within 300 km. Ambuja's Ropar plant lies just outside, at 310 km.
 
-**Takeover-related makers** (a party to a deal in a cement business: open offer, stake purchase or acquisition of
-control, 1 Oct–31 Dec 2024):
+**Takeover-related makers.** A maker is flagged if it was a party to a deal in a cement business (open offer, stake
+purchase or acquisition of control) in 1 Oct–31 Dec 2024:
 - Ambuja: Orient Cement, 22 Oct.
 - Orient: Ambuja's open offer.
-- UltraTech: India Cements, CCI approval 20 Dec and control 24 Dec; Kesoram's cement business, NCLT sanction
-  26 Nov; a Star Cement stake, 27 Dec.
-- India Cements, the target.
+- UltraTech: India Cements (CCI approval 20 Dec, control 24 Dec); Kesoram's cement business (NCLT sanction 26 Nov); a
+  Star Cement stake (27 Dec).
+- India Cements: the target.
 - Star Cement: UltraTech's stake purchase; a report of an Adani bid, clarified on 4 Dec.
-- Kesoram, which has no prices.
+- Kesoram: the transfer of its cement business (it has no prices).
 
-*Deviation, stated plainly:* the first run flagged every merger or stake filing in the events file. That flag caught
-captive-power stakes (Birla, Heidelberg), internal amalgamations (Shree, JK Cement), promoter transfers (Mangalam), a
-share sale (Ramco) and a rights issue in a subsidiary (Prism). It left one exposed maker after 19 Nov (JK Lakshmi), so the
-regression was not identified. The flag was narrowed to the deals above after that run was seen. Both are reported:
-the broad version is `takeover_flag_broad` and sample "(broad)" in `table2_cement_fit.csv`. Dalmia's "Acquisition"
-filing of 24 Oct 2024 could not be read (403); it is unclassified and kept in.
+The narrowed flag was accepted by the author. Both versions are kept:
+- **Narrowed flag (main):** the "without takeover-related" column below.
+- **Broad flag:** every merger or stake filing in the events file, including captive-power stakes (Birla,
+  Heidelberg), internal amalgamations (Shree, JK Cement), promoter transfers (Mangalam), a share sale (Ramco) and a
+  rights issue in a subsidiary (Prism).
+  - It leaves 7 makers, only two with plants near Delhi (JK Lakshmi, Nuvoco).
+  - Coefficients: +0.056 over (−1,+1) (p = 0.23); +0.076 over (−1,+5) (p = 0.26); +0.075 over (+6,+20)
+    (p = 0.50); 17 Dec −0.038 (p = 0.57) and −0.080 (p = 0.46).
+  - In the first run, before Nuvoco was added, it left one exposed maker and could not be estimated.
+- Dalmia's "Acquisition" filing of 24 Oct 2024 could not be read (403). It is unclassified and kept in.
 
-**Result: no effect detected. The prediction was a negative coefficient on `near300`.**
+**Result: no effect detected.** The prediction was a negative coefficient on the near-Delhi share. The table gives
+coefficients with the northern-rest control.
 
-| Outcome | Coefficient on near300 (with northern-rest control) | p | Without takeover-related makers | Makers (with plants near Delhi) |
-|---|---|---|---|---|
-| CAR 18 Nov (−1,+1), ACC and Ambuja in | +0.056 | 0.52 | +0.056 (p 0.56) | 20 (6) |
-| CAR 18 Nov (−1,+5) | +0.179 | 0.19 | +0.150 (p 0.26) | 18 (4) |
-| CAR 18 Nov (+6,+20) | +0.234 | 0.26 | +0.287 (p 0.15) | 18 (4) |
-| CAR 17 Dec (−1,+5) | −0.137 | 0.32 | −0.051 (p 0.70) | 18 (4) |
-| CAR 17 Dec (+6,+20) | −0.192 | 0.37 | −0.179 (p 0.38) | 18 (4) |
-| Q3 FY25 volume, YoY | −0.319 | 0.31 | −0.356 (p 0.43) | 9 (5) |
-| Q2 FY25 volume, YoY (pre-ban check) | −0.281 | 0.50 | −0.261 (p 0.79) | 8 (5) |
-| Q3 FY25 realisation, YoY | +0.010 | 0.97 | not identified | 5 (3) |
+| Outcome | Count dose | p | Without takeover-related | Without Mangalam | Capacity-weighted | Makers (with plants near Delhi) |
+|---|---|---|---|---|---|---|
+| CAR 18 Nov (−1,+1), Ambuja in | −0.064 | 0.36 | −0.066 (p 0.35) | +0.013 (p 0.87) | −0.115 (p 0.34) | 20 (7) |
+| CAR 18 Nov (−1,+5) | −0.007 | 0.90 | −0.015 (p 0.88) | +0.123 (p 0.37) | +0.038 (p 0.83) | 19 (6) |
+| CAR 18 Nov (+6,+20) | +0.079 | 0.59 | +0.031 (p 0.86) | +0.233 (p 0.23) | +0.243 (p 0.33) | 19 (6) |
+| CAR 17 Dec (−1,+5) | +0.032 | 0.70 | +0.090 (p 0.35) | −0.083 (p 0.54) | −0.056 (p 0.72) | 19 (6) |
+| CAR 17 Dec (+6,+20) | −0.002 | 0.99 | +0.046 (p 0.75) | −0.169 (p 0.40) | −0.098 (p 0.67) | 19 (6) |
+| Q3 FY25 volume, YoY | −0.236 | 0.41 | −0.242 (p 0.40) | (no Mangalam volume) | −0.303 (p 0.47) | 8 (4) |
+| Q2 FY25 volume, YoY (pre-ban check) | −0.164 | 0.63 | not identified (4 makers) | (no Mangalam volume) | −0.198 (p 0.68) | 7 (4) |
+| Q3 FY25 realisation, YoY | not identified (4 makers) | | | | | 4 (2) |
 
-- **Signs:** around 18 Nov the coefficients are positive, the wrong sign; around 17 Dec they are negative. None is
-  distinguishable from zero. `near300` alone and `near150` give the same picture (p ≥ 0.13 in every window and sample).
-- **Northern-rest control:** its coefficient is between −0.04 and +0.07 in every CAR window (p ≥ 0.20).
-- **Reading the size:** at +0.179, a maker with Shree's dose (0.29) moved about 5 pp more than a maker with no plant
-  near Delhi over (−1,+5), in the wrong direction.
-  - The near-Delhi makers' own CARs over (−1,+5) were Shree +2.8%, UltraTech +0.4%, JK Cement +2.7% and JK Lakshmi +7.4%.
-  - Over (+6,+20) they were +12.7%, +3.7%, +9.2% and +11.1%. Their cause was not checked.
-- **Volume:** the negative Q3 coefficient is matched by the pre-ban quarter (−0.28 in Q2), so it predates the ban.
-  - Shree, the highest dose, grew −7.3% in Q2 and −1.4% in Q3.
-  - Every maker with both quarters grew faster in Q3 than in Q2.
-- **The capacity-weighted variant is not identified:** among the exposed makers only JK Cement documents every
-  plant's capacity, as amendment 2 anticipated. UltraTech's North-zone share (about 0.23) remains an upper limit on its
-  capacity share.
+- **Robustness:** `near300` alone and `near150` give the same picture.
+- **Northern-rest control:** its coefficient is between −0.09 and +0.11 in every CAR window and sample (p ≥ 0.21).
+- **The near-Delhi makers' own CARs:**
+  - (−1,+5): Shree +2.8%, UltraTech +0.4%, JK Cement +2.7%, JK Lakshmi +7.4%, Mangalam −1.4%, Nuvoco +1.2%,
+    Ambuja −13.7%. Ambuja's window includes the Adani indictment, so Ambuja is excluded after 19 Nov.
+  - (+6,+20): Shree +12.7%, UltraTech +3.7%, JK Cement +9.2%, JK Lakshmi +11.1%, Mangalam +4.3%, Nuvoco +5.3%.
+  - Their cause was not checked.
+- **Volume:** the negative Q3 coefficient is matched by the pre-ban quarter (Q2 −0.16), so it predates the ban. Shree,
+  the highest dose with volume data, grew −7.3% in Q2 and −1.4% in Q3. Every maker with both quarters grew faster in
+  Q3 than in Q2.
 - **Q3 FY25 statements on NCR:**
   - UltraTech's Q3 deck, North zone: "Infrastructure segment registered degrowth on account of pollution control
     measures taken in Delhi and surrounding regions, projects on hold due to farmers agitation in Punjab and completion
     of major projects like RRTS". Nothing on it in its Q3 call.
-  - Shree held no Q3 FY25 call: NSE shows only results, a press release and investor meetings in Singapore. Its Q3
-    release mentions NCR only for stubble procurement.
+  - Shree held no Q3 FY25 call: NSE shows only results, a press release and investor meetings in Singapore.
   - JK Cement's Q3 call mentions Delhi once, about elections ("not any major disruption").
-  - No mention in the Q3 calls of Ambuja, ACC or JK Lakshmi.
+  - Nuvoco's Q3 call names Bhiwani as its base for growing in the North, without any mention of the ban.
+  - No mention in the Q3 calls of Ambuja, ACC or JK Lakshmi. Mangalam files no deck or call.
 
 **Size and detectability.**
-- **Largest possible Q3 loss** (`near300` × 30 / 92): Shree 9.6% of the quarter's output, UltraTech 5.5%, JK Cement
-  5.4%, JK Lakshmi 4.7%, Ambuja 2.3%, ACC 1.6%.
-- **Quarterly test:** the cross-maker s.d. of Q3 volume growth is 7.5 pp, so twice the spread is 15 pp. Shree's largest
-  possible loss, 9.6%, is below it. A full 30-day stop of all near-Delhi output implies a coefficient of −0.33, against
-  twice the permutation s.d. of 0.59. **The volume test could not detect the ban's largest possible effect.**
-- **CAR test:** 30 days of lost near-Delhi sales are at most `near300` × 30/365 of a year's sales. Even if every lost
-  tonne were lost for good at twice the average margin, and a maker were worth only one year's operating profit, the
-  implied coefficient is about −0.16. That is below twice the smallest placebo s.d. of the coefficient (2 × 0.089 = 0.18).
-  At higher valuations it is proportionally smaller. **The CAR test could detect only a loss the market expected to
-  last or recur, not the ban's direct size.**
+- **Largest possible Q3 loss** (count share × 30 / 92): Mangalam 16.3% of the quarter's output (it publishes no
+  volume), Shree 9.6%, UltraTech 5.5%, JK Cement 5.4%, JK Lakshmi 4.7%, Nuvoco 3.3%, the Ambuja group 2.3%.
+- **Quarterly test:** the cross-maker s.d. of Q3 volume growth is 6.4 pp, so twice the spread is 12.8 pp. Shree's
+  largest possible loss, 9.6%, is below it. A full 30-day stop of all near-Delhi output implies a coefficient of −0.33,
+  against twice the permutation s.d. of 0.52. **The volume test could not detect the ban's largest possible effect.**
+- **CAR test:** 30 days of lost near-Delhi sales are at most the count share × 30/365 of a year's sales.
+  - Even if every lost tonne were lost for good at twice the average margin, the implied coefficient is
+    −0.16 ÷ (firm value in years of operating profit).
+  - Twice the placebo s.d. of the coefficient is 0.15 in the main (−1,+1) specification and 0.21 over (−1,+5).
+  - So the test could detect the direct loss only if a maker were worth about one year's operating profit. For any
+    higher value, it can detect only a loss the market expected to last or recur.
 
 **Confounds named in the specification.**
 - **Northern prices:** carried by the northern-rest variable, whose coefficient is near zero. Regional prices by maker
-  are not published: realisation exists for five makers, as national averages.
+  are not published.
 - **Shree's choice of price over volume**, in its Q2 FY25 call (11 Nov 2024): "we were very clear that we should try to
   retain and give more importance to price over volumes"; "We adopted very deliberately a strategy of value over
-  volume" (`research/realign/cement_kpis_A.csv`). It was stated before the ban and fits Shree's low volume in both
-  quarters.
+  volume" (`research/realign/cement_kpis_A.csv`). It was stated before the ban.
 - **Mergers and stake purchases, Oct–Dec 2024:** see the takeover list above. Every result is also reported without
-  those makers.
-- **New capacity, Apr–Dec 2024:** none documented within 300 km of Delhi.
+  them.
+- **New capacity, Apr–Dec 2024:** none documented within 300 km of Delhi apart from Nuvoco's Bhiwani unit (2024, date
+  not given).
   - UltraTech added units at Karur, Kukurdih, Jharsuguda, APCW and Arakkonam.
   - Shree added Guntur (2 Apr 2024); JK Cement Prayagraj (Jun 2024); Dalmia Ariyalur and Kadapa.
-  - Nuvoco's Haryana unit (2024) is undated and outside the sample.
-  - These raise volumes far from Delhi.
 - **Q2 results dates:**
-  - Mangalam's results (14 Nov, 14:31) fall in (−1,+1) and (−1,+5).
+  - Mangalam's results (14 Nov, 14:31) fall in (−1,+1) and (−1,+5): the without-Mangalam column answers this.
   - Prism's (13 Nov, 12:28) were priced on day −2, but the flag counts them conservatively.
-  - Both are zero-dose makers. JK Lakshmi's results date was not obtained (fetch failed).
+  - JK Lakshmi's results date was not obtained.
 
 **Who delivers: the corroborating sources** (not in the regression).
 - **Market: the CCI order of 19 Jan 2017** (Ref. Case 05 of 2013; Haryana's 2012 tender for 4 lakh t).
   - Seven makers bid by district. Shree, UltraTech, Jaiprakash, JK Cement, Ambuja and JK Lakshmi bid in about ten
     Haryana districts each, and ACC in three.
   - Lowest-bid wins: Shree 30, Jaiprakash 26, JK Cement 21, JK Lakshmi 16, UltraTech 12, Ambuja 12, ACC 6, Birla 3.
-  - The makers that bid are the makers with plants near Delhi in the plant data.
-- **Contracts: not obtained.** NBCC's approved makes of cement, ready-mix and rebar for the packages live in Nov 2024
-  are in the works-tender documents.
-  - Those documents sit on the e-procurement portal, behind a CAPTCHA, and were not attempted.
-  - NBCC's public site lists only corporate tenders. Its general conditions refer to a separate list of approved makes
-    that names no brand.
-- **Ready-mix plants in NCR: not obtained.** UltraTech's plant locator is dynamic; ACC's and Nuvoco's pages show no
+- **Contracts: not obtained.** NBCC's approved makes for the packages live in Nov 2024 sit in works-tender documents.
+  Those are on the e-procurement portal behind a CAPTCHA, which was not attempted. NBCC's general conditions name no
+  brand.
+- **Ready-mix plants in NCR: not obtained.** UltraTech's plant locator is dynamic, and ACC's and Nuvoco's pages show no
   NCR plant locations.
 
-**Steel: stops at the materiality bound, with no regression.** No approved rebar makes could be read, so no mills
-were looked up. DLF's FY24 construction outflow (Rs 1,642 cr) is at most 0.7% (Tata Steel), 0.9% (JSW Steel),
-1.6% (SAIL), 3.3% (JSPL) and 4.3% (Jindal Stainless) of a steel maker's FY24 revenue.
+**Steel: stops at the materiality bound, with no regression.** No approved rebar makes could be read. DLF's FY24
+construction outflow (Rs 1,642 cr) is at most 0.7% (Tata Steel), 0.9% (JSW Steel), 1.6% (SAIL), 3.3% (JSPL) and 4.3%
+(Jindal Stainless) of a steel maker's FY24 revenue.
 
-**Comparison with the old test (Panel C2).** Makers with northern capacity minus makers with none: +2.5 pp over
-(−1,+5), p = 0.34, also the wrong sign. The delivery test separates plants near Delhi from the rest of the North, and
-the near-Delhi coefficient is also positive (+0.18, p = 0.19). Neither test detects propagation to cement makers.
+**Earlier runs, for the record.**
+- **First run (23 Nov 2026):** Mangalam as single-site, Nuvoco missing, ACC and Ambuja both in.
+  - Main coefficients: +0.056 over (−1,+1), +0.179 over (−1,+5), +0.234 over (+6,+20); 17 Dec −0.137 and −0.192.
+  - Q3 volume −0.319. All p ≥ 0.15.
+- **The old market-level test (Panel C2):** makers with northern capacity minus makers with none, +2.5 pp over (−1,+5),
+  p = 0.34.
+
+Neither version detects propagation to cement makers.
 

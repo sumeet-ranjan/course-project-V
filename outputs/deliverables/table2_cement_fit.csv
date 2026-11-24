@@ -1,85 +1,107 @@
 outcome,sample,dose,control,n,n_exposed,exposed,coef,p_two_sided,null_sd,n_null,coef_control,p_control,implied_full_loss_coef,detectable,cross_maker_sd
-"CAR 18 Nov 2024 (-1,1)",all,near300_n,north_rest_n,20,6,AMBUJACEM JKCEMENT JKLAKSHMI SHREECEM ULTRACEMCO ACC,0.0555,0.5232,0.0899,799,-0.0273,0.3342,,,
-"CAR 18 Nov 2024 (-1,1)",all,near300_n,,20,6,AMBUJACEM JKCEMENT JKLAKSHMI SHREECEM ULTRACEMCO ACC,0.0398,0.6521,0.0891,799,,,,,
-"CAR 18 Nov 2024 (-1,1)",all,near150_n,north_rest150_n,20,5,AMBUJACEM JKCEMENT JKLAKSHMI SHREECEM ULTRACEMCO,0.119,0.3179,0.1286,799,-0.0311,0.2866,,,
-"CAR 18 Nov 2024 (-1,1)",all,near300_cap,north_rest_cap,9,1,JKCEMENT,,,,0,,,,,
-"CAR 18 Nov 2024 (-1,1)",without takeover-related,near300_n,north_rest_n,15,4,JKCEMENT JKLAKSHMI SHREECEM ACC,0.0557,0.5557,0.0889,799,-0.0357,0.2365,,,
-"CAR 18 Nov 2024 (-1,1)",without takeover-related,near300_n,,15,4,JKCEMENT JKLAKSHMI SHREECEM ACC,0.0375,0.6834,0.0889,799,,,,,
-"CAR 18 Nov 2024 (-1,1)",without takeover-related,near150_n,north_rest150_n,15,3,JKCEMENT JKLAKSHMI SHREECEM,0.1161,0.3254,0.1244,799,-0.0393,0.2015,,,
-"CAR 18 Nov 2024 (-1,1)",without takeover-related,near300_cap,north_rest_cap,7,1,JKCEMENT,,,,0,,,,,
-"CAR 18 Nov 2024 (-1,1)",without any merger or stake filing (broad),near300_n,north_rest_n,7,2,JKLAKSHMI ACC,0.7961,0.1089,0.5262,799,-0.238,0.2078,,,
-"CAR 18 Nov 2024 (-1,1)",without any merger or stake filing (broad),near300_n,,7,2,JKLAKSHMI ACC,0.2746,0.2979,0.2867,799,,,,,
-"CAR 18 Nov 2024 (-1,1)",without any merger or stake filing (broad),near150_n,north_rest150_n,7,1,JKLAKSHMI,,,,0,,,,,
-"CAR 18 Nov 2024 (-1,1)",without any merger or stake filing (broad),near300_cap,north_rest_cap,3,0,,,,,0,,,,,
-"CAR 18 Nov 2024 (-1,5)",all; ACC and Ambuja excluded,near300_n,north_rest_n,18,4,JKCEMENT JKLAKSHMI SHREECEM ULTRACEMCO,0.1794,0.1915,0.1403,799,0.0117,0.8035,,,
-"CAR 18 Nov 2024 (-1,5)",all; ACC and Ambuja excluded,near300_n,,18,4,JKCEMENT JKLAKSHMI SHREECEM ULTRACEMCO,0.1859,0.1765,0.1374,799,,,,,
-"CAR 18 Nov 2024 (-1,5)",all; ACC and Ambuja excluded,near150_n,north_rest150_n,18,4,JKCEMENT JKLAKSHMI SHREECEM ULTRACEMCO,0.291,0.1577,0.2059,799,0.0043,0.9174,,,
-"CAR 18 Nov 2024 (-1,5)",all; ACC and Ambuja excluded,near300_cap,north_rest_cap,9,1,JKCEMENT,,,,0,,,,,
-"CAR 18 Nov 2024 (-1,5)",without takeover-related; ACC and Ambuja excluded,near300_n,north_rest_n,14,3,JKCEMENT JKLAKSHMI SHREECEM,0.1495,0.2603,0.1328,799,-0.013,0.7434,,,
-"CAR 18 Nov 2024 (-1,5)",without takeover-related; ACC and Ambuja excluded,near300_n,,14,3,JKCEMENT JKLAKSHMI SHREECEM,0.1429,0.2791,0.1302,799,,,,,
-"CAR 18 Nov 2024 (-1,5)",without takeover-related; ACC and Ambuja excluded,near150_n,north_rest150_n,14,3,JKCEMENT JKLAKSHMI SHREECEM,0.2397,0.2265,0.1937,799,-0.0182,0.6934,,,
-"CAR 18 Nov 2024 (-1,5)",without takeover-related; ACC and Ambuja excluded,near300_cap,north_rest_cap,7,1,JKCEMENT,,,,0,,,,,
-"CAR 18 Nov 2024 (-1,5)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_n,north_rest_n,6,1,JKLAKSHMI,,,,0,,,,,
-"CAR 18 Nov 2024 (-1,5)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_n,,6,1,JKLAKSHMI,,,,0,,,,,
-"CAR 18 Nov 2024 (-1,5)",without any merger or stake filing (broad); ACC and Ambuja excluded,near150_n,north_rest150_n,6,1,JKLAKSHMI,,,,0,,,,,
-"CAR 18 Nov 2024 (-1,5)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_cap,north_rest_cap,3,0,,,,,0,,,,,
-"CAR 18 Nov 2024 (6,20)",all; ACC and Ambuja excluded,near300_n,north_rest_n,18,4,JKCEMENT JKLAKSHMI SHREECEM ULTRACEMCO,0.2337,0.2603,0.2123,799,-0.0072,0.8924,,,
-"CAR 18 Nov 2024 (6,20)",all; ACC and Ambuja excluded,near300_n,,18,4,JKCEMENT JKLAKSHMI SHREECEM ULTRACEMCO,0.2296,0.2491,0.2043,799,,,,,
-"CAR 18 Nov 2024 (6,20)",all; ACC and Ambuja excluded,near150_n,north_rest150_n,18,4,JKCEMENT JKLAKSHMI SHREECEM ULTRACEMCO,0.3509,0.2653,0.32,799,-0.0123,0.8473,,,
-"CAR 18 Nov 2024 (6,20)",all; ACC and Ambuja excluded,near300_cap,north_rest_cap,9,1,JKCEMENT,,,,0,,,,,
-"CAR 18 Nov 2024 (6,20)",without takeover-related; ACC and Ambuja excluded,near300_n,north_rest_n,14,3,JKCEMENT JKLAKSHMI SHREECEM,0.2869,0.1502,0.2001,799,0.006,0.9387,,,
-"CAR 18 Nov 2024 (6,20)",without takeover-related; ACC and Ambuja excluded,near300_n,,14,3,JKCEMENT JKLAKSHMI SHREECEM,0.2899,0.1364,0.1925,799,,,,,
-"CAR 18 Nov 2024 (6,20)",without takeover-related; ACC and Ambuja excluded,near150_n,north_rest150_n,14,3,JKCEMENT JKLAKSHMI SHREECEM,0.3753,0.204,0.2965,799,0.0048,0.9337,,,
-"CAR 18 Nov 2024 (6,20)",without takeover-related; ACC and Ambuja excluded,near300_cap,north_rest_cap,7,1,JKCEMENT,,,,0,,,,,
-"CAR 18 Nov 2024 (6,20)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_n,north_rest_n,6,1,JKLAKSHMI,,,,0,,,,,
-"CAR 18 Nov 2024 (6,20)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_n,,6,1,JKLAKSHMI,,,,0,,,,,
-"CAR 18 Nov 2024 (6,20)",without any merger or stake filing (broad); ACC and Ambuja excluded,near150_n,north_rest150_n,6,1,JKLAKSHMI,,,,0,,,,,
-"CAR 18 Nov 2024 (6,20)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_cap,north_rest_cap,3,0,,,,,0,,,,,
-"CAR 17 Dec 2024 (-1,5)",all; ACC and Ambuja excluded,near300_n,north_rest_n,18,4,JKCEMENT JKLAKSHMI SHREECEM ULTRACEMCO,-0.1372,0.3229,0.1403,799,0.0106,0.821,,,
-"CAR 17 Dec 2024 (-1,5)",all; ACC and Ambuja excluded,near300_n,,18,4,JKCEMENT JKLAKSHMI SHREECEM ULTRACEMCO,-0.1312,0.3191,0.1374,799,,,,,
-"CAR 17 Dec 2024 (-1,5)",all; ACC and Ambuja excluded,near150_n,north_rest150_n,18,4,JKCEMENT JKLAKSHMI SHREECEM ULTRACEMCO,-0.1869,0.3579,0.2059,799,0.0109,0.816,,,
-"CAR 17 Dec 2024 (-1,5)",all; ACC and Ambuja excluded,near300_cap,north_rest_cap,9,1,JKCEMENT,,,,0,,,,,
-"CAR 17 Dec 2024 (-1,5)",without takeover-related; ACC and Ambuja excluded,near300_n,north_rest_n,14,3,JKCEMENT JKLAKSHMI SHREECEM,-0.0506,0.6946,0.1328,799,0.0278,0.5282,,,
-"CAR 17 Dec 2024 (-1,5)",without takeover-related; ACC and Ambuja excluded,near300_n,,14,3,JKCEMENT JKLAKSHMI SHREECEM,-0.0365,0.7697,0.1302,799,,,,,
-"CAR 17 Dec 2024 (-1,5)",without takeover-related; ACC and Ambuja excluded,near150_n,north_rest150_n,14,3,JKCEMENT JKLAKSHMI SHREECEM,-0.0773,0.6859,0.1937,799,0.0284,0.5194,,,
-"CAR 17 Dec 2024 (-1,5)",without takeover-related; ACC and Ambuja excluded,near300_cap,north_rest_cap,7,1,JKCEMENT,,,,0,,,,,
-"CAR 17 Dec 2024 (-1,5)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_n,north_rest_n,6,1,JKLAKSHMI,,,,0,,,,,
-"CAR 17 Dec 2024 (-1,5)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_n,,6,1,JKLAKSHMI,,,,0,,,,,
-"CAR 17 Dec 2024 (-1,5)",without any merger or stake filing (broad); ACC and Ambuja excluded,near150_n,north_rest150_n,6,1,JKLAKSHMI,,,,0,,,,,
-"CAR 17 Dec 2024 (-1,5)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_cap,north_rest_cap,3,0,,,,,0,,,,,
-"CAR 17 Dec 2024 (6,20)",all; ACC and Ambuja excluded,near300_n,north_rest_n,18,4,JKCEMENT JKLAKSHMI SHREECEM ULTRACEMCO,-0.1921,0.373,0.2123,799,0.0657,0.3029,,,
-"CAR 17 Dec 2024 (6,20)",all; ACC and Ambuja excluded,near300_n,,18,4,JKCEMENT JKLAKSHMI SHREECEM ULTRACEMCO,-0.1554,0.4255,0.2043,799,,,,,
-"CAR 17 Dec 2024 (6,20)",all; ACC and Ambuja excluded,near150_n,north_rest150_n,18,4,JKCEMENT JKLAKSHMI SHREECEM ULTRACEMCO,-0.2711,0.408,0.32,799,0.0653,0.3166,,,
-"CAR 17 Dec 2024 (6,20)",all; ACC and Ambuja excluded,near300_cap,north_rest_cap,9,1,JKCEMENT,,,,0,,,,,
-"CAR 17 Dec 2024 (6,20)",without takeover-related; ACC and Ambuja excluded,near300_n,north_rest_n,14,3,JKCEMENT JKLAKSHMI SHREECEM,-0.1787,0.3767,0.2001,799,0.049,0.4618,,,
-"CAR 17 Dec 2024 (6,20)",without takeover-related; ACC and Ambuja excluded,near300_n,,14,3,JKCEMENT JKLAKSHMI SHREECEM,-0.1539,0.4168,0.1925,799,,,,,
-"CAR 17 Dec 2024 (6,20)",without takeover-related; ACC and Ambuja excluded,near150_n,north_rest150_n,14,3,JKCEMENT JKLAKSHMI SHREECEM,-0.2541,0.403,0.2965,799,0.0503,0.4556,,,
-"CAR 17 Dec 2024 (6,20)",without takeover-related; ACC and Ambuja excluded,near300_cap,north_rest_cap,7,1,JKCEMENT,,,,0,,,,,
-"CAR 17 Dec 2024 (6,20)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_n,north_rest_n,6,1,JKLAKSHMI,,,,0,,,,,
-"CAR 17 Dec 2024 (6,20)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_n,,6,1,JKLAKSHMI,,,,0,,,,,
-"CAR 17 Dec 2024 (6,20)",without any merger or stake filing (broad); ACC and Ambuja excluded,near150_n,north_rest150_n,6,1,JKLAKSHMI,,,,0,,,,,
-"CAR 17 Dec 2024 (6,20)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_cap,north_rest_cap,3,0,,,,,0,,,,,
-vol_yoy_q3fy25,all,near300_n,north_rest_n,9,5,AMBUJACEM JKLAKSHMI SHREECEM ULTRACEMCO ACC,-0.3194,0.3113,0.2942,10000,0.1858,,-0.3261,no,0.075
-vol_yoy_q3fy25,all,near300_n,,9,5,AMBUJACEM JKLAKSHMI SHREECEM ULTRACEMCO ACC,-0.2263,0.4269,0.2606,10000,,,-0.3261,no,0.075
-vol_yoy_q3fy25,without takeover-related,near300_n,north_rest_n,6,3,JKLAKSHMI SHREECEM ACC,-0.3556,0.4332,0.3755,10000,0.2032,,-0.3261,no,0.0813
-vol_yoy_q3fy25,without takeover-related,near300_n,,6,3,JKLAKSHMI SHREECEM ACC,-0.2698,0.4863,0.3092,10000,,,-0.3261,no,0.0813
-vol_yoy_q3fy25,without any merger or stake filing (broad),near300_n,north_rest_n,2,2,JKLAKSHMI ACC,,,,0,,,-0.3261,,0.1263
-vol_yoy_q3fy25,without any merger or stake filing (broad),near300_n,,2,2,JKLAKSHMI ACC,,,,0,,,-0.3261,,0.1263
-vol_yoy_q2fy25 (pre-ban check),all,near300_n,north_rest_n,8,5,AMBUJACEM JKLAKSHMI SHREECEM ULTRACEMCO ACC,-0.2811,0.4961,0.3742,10000,-0.0329,,-0.3261,no,0.0881
-vol_yoy_q2fy25 (pre-ban check),all,near300_n,,8,5,AMBUJACEM JKLAKSHMI SHREECEM ULTRACEMCO ACC,-0.2924,0.4034,0.3179,10000,,,-0.3261,no,0.0881
-vol_yoy_q2fy25 (pre-ban check),without takeover-related,near300_n,north_rest_n,5,3,JKLAKSHMI SHREECEM ACC,-0.2609,0.787,0.6318,10000,0.0714,,-0.3261,no,0.0981
-vol_yoy_q2fy25 (pre-ban check),without takeover-related,near300_n,,5,3,JKLAKSHMI SHREECEM ACC,-0.2483,0.6216,0.3964,10000,,,-0.3261,no,0.0981
-vol_yoy_q2fy25 (pre-ban check),without any merger or stake filing (broad),near300_n,north_rest_n,2,2,JKLAKSHMI ACC,,,,0,,,-0.3261,,0.1708
-vol_yoy_q2fy25 (pre-ban check),without any merger or stake filing (broad),near300_n,,2,2,JKLAKSHMI ACC,,,,0,,,-0.3261,,0.1708
-real_yoy_q3fy25,all,near300_n,north_rest_n,5,3,AMBUJACEM ULTRACEMCO ACC,0.0101,0.9675,0.1235,10000,-0.0103,,,,0.0117
-real_yoy_q3fy25,all,near300_n,,5,3,AMBUJACEM ULTRACEMCO ACC,0.011,0.8809,0.0835,10000,,,,,0.0117
-real_yoy_q3fy25,without takeover-related,near300_n,north_rest_n,3,1,ACC,,,,0,,,,,0.0155
-real_yoy_q3fy25,without takeover-related,near300_n,,3,1,ACC,,,,0,,,,,0.0155
-real_yoy_q3fy25,without any merger or stake filing (broad),near300_n,north_rest_n,1,1,ACC,,,,0,,,,,
-real_yoy_q3fy25,without any merger or stake filing (broad),near300_n,,1,1,ACC,,,,0,,,,,
+"CAR 18 Nov 2024 (-1,1)",all,near300_n,north_rest_n,20,7,AMBUJACEM JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,-0.064,0.3617,0.0758,799,0.027,0.6008,,,
+"CAR 18 Nov 2024 (-1,1)",all,near300_n,,20,7,AMBUJACEM JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,-0.0406,0.4406,0.0552,799,,,,,
+"CAR 18 Nov 2024 (-1,1)",all,near150_n,north_rest150_n,20,7,AMBUJACEM JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,-0.0717,0.3605,0.086,799,0.0264,0.6333,,,
+"CAR 18 Nov 2024 (-1,1)",all,near300_cap,north_rest_cap,20,7,AMBUJACEM JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,-0.1147,0.3429,0.1336,799,0.0249,0.4718,,,
+"CAR 18 Nov 2024 (-1,1)",without takeover-related,near300_n,north_rest_n,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,-0.0657,0.3529,0.0792,799,0.0129,0.796,,,
+"CAR 18 Nov 2024 (-1,1)",without takeover-related,near300_n,,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,-0.0547,0.3104,0.0586,799,,,,,
+"CAR 18 Nov 2024 (-1,1)",without takeover-related,near150_n,north_rest150_n,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,-0.0784,0.3179,0.0906,799,0.0181,0.7622,,,
+"CAR 18 Nov 2024 (-1,1)",without takeover-related,near300_cap,north_rest_cap,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,-0.1242,0.2979,0.135,799,0.0182,0.6233,,,
+"CAR 18 Nov 2024 (-1,1)",without any merger or stake filing (broad),near300_n,north_rest_n,7,2,JKLAKSHMI NUVOCO,0.0556,0.2343,0.0492,747,0.1112,0.2343,,,
+"CAR 18 Nov 2024 (-1,1)",without any merger or stake filing (broad),near300_n,,7,2,JKLAKSHMI NUVOCO,0.2781,0.2343,0.2462,747,,,,,
+"CAR 18 Nov 2024 (-1,1)",without any merger or stake filing (broad),near150_n,north_rest150_n,7,2,JKLAKSHMI NUVOCO,0.0556,0.2343,0.0492,747,0.1112,0.2343,,,
+"CAR 18 Nov 2024 (-1,1)",without any merger or stake filing (broad),near300_cap,north_rest_cap,7,2,JKLAKSHMI NUVOCO,0.2374,0.8005,0.9688,747,0.0329,0.7229,,,
+"CAR 18 Nov 2024 (-1,1)","all, without Mangalam",near300_n,north_rest_n,19,6,AMBUJACEM JKCEMENT JKLAKSHMI NUVOCO SHREECEM ULTRACEMCO,0.0135,0.8698,0.0951,799,0.0247,0.6283,,,
+"CAR 18 Nov 2024 (-1,1)","all, without Mangalam",near300_cap,north_rest_cap,19,6,AMBUJACEM JKCEMENT JKLAKSHMI NUVOCO SHREECEM ULTRACEMCO,-0.0642,0.5532,0.1345,799,0.0432,0.2315,,,
+"CAR 18 Nov 2024 (-1,5)",all; ACC and Ambuja excluded,near300_n,north_rest_n,19,6,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,-0.0073,0.9049,0.1044,799,0.072,0.3517,,,
+"CAR 18 Nov 2024 (-1,5)",all; ACC and Ambuja excluded,near300_n,,19,6,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,0.0552,0.4693,0.083,799,,,,,
+"CAR 18 Nov 2024 (-1,5)",all; ACC and Ambuja excluded,near150_n,north_rest150_n,19,6,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,-0.0389,0.6959,0.1233,799,0.0888,0.3016,,,
+"CAR 18 Nov 2024 (-1,5)",all; ACC and Ambuja excluded,near300_cap,north_rest_cap,19,6,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,0.0384,0.8348,0.1906,799,0.0462,0.3492,,,
+"CAR 18 Nov 2024 (-1,5)",without takeover-related; ACC and Ambuja excluded,near300_n,north_rest_n,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,-0.0149,0.8773,0.1061,799,0.0264,0.7309,,,
+"CAR 18 Nov 2024 (-1,5)",without takeover-related; ACC and Ambuja excluded,near300_n,,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,0.0076,0.9349,0.0861,799,,,,,
+"CAR 18 Nov 2024 (-1,5)",without takeover-related; ACC and Ambuja excluded,near150_n,north_rest150_n,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,-0.038,0.7159,0.1252,799,0.0406,0.5907,,,
+"CAR 18 Nov 2024 (-1,5)",without takeover-related; ACC and Ambuja excluded,near300_cap,north_rest_cap,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,-0.003,0.9825,0.1831,799,0.0262,0.5982,,,
+"CAR 18 Nov 2024 (-1,5)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_n,north_rest_n,7,2,JKLAKSHMI NUVOCO,0.076,0.261,0.07,747,0.152,0.261,,,
+"CAR 18 Nov 2024 (-1,5)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_n,,7,2,JKLAKSHMI NUVOCO,0.3801,0.261,0.3499,747,,,,,
+"CAR 18 Nov 2024 (-1,5)",without any merger or stake filing (broad); ACC and Ambuja excluded,near150_n,north_rest150_n,7,2,JKLAKSHMI NUVOCO,0.076,0.261,0.07,747,0.152,0.261,,,
+"CAR 18 Nov 2024 (-1,5)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_cap,north_rest_cap,7,2,JKLAKSHMI NUVOCO,-0.2695,0.8286,1.3601,747,0.1138,0.415,,,
+"CAR 18 Nov 2024 (-1,5)","all, without Mangalam; ACC and Ambuja excluded",near300_n,north_rest_n,18,5,JKCEMENT JKLAKSHMI NUVOCO SHREECEM ULTRACEMCO,0.1227,0.3667,0.143,799,0.0703,0.3642,,,
+"CAR 18 Nov 2024 (-1,5)","all, without Mangalam; ACC and Ambuja excluded",near300_cap,north_rest_cap,18,5,JKCEMENT JKLAKSHMI NUVOCO SHREECEM ULTRACEMCO,0.1011,0.5407,0.1986,799,0.0706,0.2153,,,
+"CAR 18 Nov 2024 (6,20)",all; ACC and Ambuja excluded,near300_n,north_rest_n,19,6,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,0.0791,0.587,0.1346,799,-0.0121,0.9136,,,
+"CAR 18 Nov 2024 (6,20)",all; ACC and Ambuja excluded,near300_n,,19,6,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,0.0686,0.5106,0.1157,799,,,,,
+"CAR 18 Nov 2024 (6,20)",all; ACC and Ambuja excluded,near150_n,north_rest150_n,19,6,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,0.0284,0.8861,0.1689,799,0.0277,0.8123,,,
+"CAR 18 Nov 2024 (6,20)",all; ACC and Ambuja excluded,near300_cap,north_rest_cap,19,6,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,0.2435,0.3304,0.2547,799,-0.0099,0.8874,,,
+"CAR 18 Nov 2024 (6,20)",without takeover-related; ACC and Ambuja excluded,near300_n,north_rest_n,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,0.0311,0.8623,0.1387,799,0.0508,0.6521,,,
+"CAR 18 Nov 2024 (6,20)",without takeover-related; ACC and Ambuja excluded,near300_n,,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,0.0744,0.5081,0.1239,799,,,,,
+"CAR 18 Nov 2024 (6,20)",without takeover-related; ACC and Ambuja excluded,near150_n,north_rest150_n,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,-0.0494,0.7972,0.1733,799,0.1063,0.3592,,,
+"CAR 18 Nov 2024 (6,20)",without takeover-related; ACC and Ambuja excluded,near300_cap,north_rest_cap,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,0.204,0.3655,0.2387,799,0.012,0.8761,,,
+"CAR 18 Nov 2024 (6,20)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_n,north_rest_n,7,2,JKLAKSHMI NUVOCO,0.0746,0.5007,0.1052,747,0.1493,0.5007,,,
+"CAR 18 Nov 2024 (6,20)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_n,,7,2,JKLAKSHMI NUVOCO,0.3732,0.5007,0.5262,747,,,,,
+"CAR 18 Nov 2024 (6,20)",without any merger or stake filing (broad); ACC and Ambuja excluded,near150_n,north_rest150_n,7,2,JKLAKSHMI NUVOCO,0.0746,0.5007,0.1052,747,0.1493,0.5007,,,
+"CAR 18 Nov 2024 (6,20)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_cap,north_rest_cap,7,2,JKLAKSHMI NUVOCO,-0.1791,0.9317,2.1447,747,0.1018,0.656,,,
+"CAR 18 Nov 2024 (6,20)","all, without Mangalam; ACC and Ambuja excluded",near300_n,north_rest_n,18,5,JKCEMENT JKLAKSHMI NUVOCO SHREECEM ULTRACEMCO,0.2332,0.2278,0.1932,799,-0.0142,0.8949,,,
+"CAR 18 Nov 2024 (6,20)","all, without Mangalam; ACC and Ambuja excluded",near300_cap,north_rest_cap,18,5,JKCEMENT JKLAKSHMI NUVOCO SHREECEM ULTRACEMCO,0.3014,0.2741,0.2742,799,0.0126,0.9036,,,
+"CAR 17 Dec 2024 (-1,5)",all; ACC and Ambuja excluded,near300_n,north_rest_n,19,6,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,0.0324,0.7046,0.1044,799,-0.0464,0.5357,,,
+"CAR 17 Dec 2024 (-1,5)",all; ACC and Ambuja excluded,near300_n,,19,6,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,-0.0079,0.9424,0.083,799,,,,,
+"CAR 17 Dec 2024 (-1,5)",all; ACC and Ambuja excluded,near150_n,north_rest150_n,19,6,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,0.0961,0.3805,0.1233,799,-0.085,0.3141,,,
+"CAR 17 Dec 2024 (-1,5)",all; ACC and Ambuja excluded,near300_cap,north_rest_cap,19,6,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,-0.0563,0.7171,0.1906,799,-0.0041,0.9111,,,
+"CAR 17 Dec 2024 (-1,5)",without takeover-related; ACC and Ambuja excluded,near300_n,north_rest_n,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,0.09,0.3492,0.1061,799,-0.0392,0.5907,,,
+"CAR 17 Dec 2024 (-1,5)",without takeover-related; ACC and Ambuja excluded,near300_n,,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,0.0567,0.4793,0.0861,799,,,,,
+"CAR 17 Dec 2024 (-1,5)",without takeover-related; ACC and Ambuja excluded,near150_n,north_rest150_n,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,0.126,0.2653,0.1252,799,-0.0582,0.4731,,,
+"CAR 17 Dec 2024 (-1,5)",without takeover-related; ACC and Ambuja excluded,near300_cap,north_rest_cap,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,0.0615,0.7046,0.1831,799,-0.002,0.9675,,,
+"CAR 17 Dec 2024 (-1,5)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_n,north_rest_n,7,2,JKLAKSHMI NUVOCO,-0.0384,0.5716,0.07,747,-0.0768,0.5716,,,
+"CAR 17 Dec 2024 (-1,5)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_n,,7,2,JKLAKSHMI NUVOCO,-0.1921,0.5716,0.3499,747,,,,,
+"CAR 17 Dec 2024 (-1,5)",without any merger or stake filing (broad); ACC and Ambuja excluded,near150_n,north_rest150_n,7,2,JKLAKSHMI NUVOCO,-0.0384,0.5716,0.07,747,-0.0768,0.5716,,,
+"CAR 17 Dec 2024 (-1,5)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_cap,north_rest_cap,7,2,JKLAKSHMI NUVOCO,-0.5304,0.672,1.3601,747,0.0196,0.8635,,,
+"CAR 17 Dec 2024 (-1,5)","all, without Mangalam; ACC and Ambuja excluded",near300_n,north_rest_n,18,5,JKCEMENT JKLAKSHMI NUVOCO SHREECEM ULTRACEMCO,-0.083,0.5369,0.143,799,-0.0448,0.5394,,,
+"CAR 17 Dec 2024 (-1,5)","all, without Mangalam; ACC and Ambuja excluded",near300_cap,north_rest_cap,18,5,JKCEMENT JKLAKSHMI NUVOCO SHREECEM ULTRACEMCO,-0.1094,0.5156,0.1986,799,-0.0248,0.6358,,,
+"CAR 17 Dec 2024 (6,20)",all; ACC and Ambuja excluded,near300_n,north_rest_n,19,6,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,-0.0019,0.99,0.1346,799,0.0532,0.592,,,
+"CAR 17 Dec 2024 (6,20)",all; ACC and Ambuja excluded,near300_n,,19,6,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,0.0443,0.6758,0.1157,799,,,,,
+"CAR 17 Dec 2024 (6,20)",all; ACC and Ambuja excluded,near150_n,north_rest150_n,19,6,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,0.0934,0.5845,0.1689,799,-0.0148,0.9049,,,
+"CAR 17 Dec 2024 (6,20)",all; ACC and Ambuja excluded,near300_cap,north_rest_cap,19,6,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM ULTRACEMCO,-0.098,0.6733,0.2547,799,0.0414,0.5707,,,
+"CAR 17 Dec 2024 (6,20)",without takeover-related; ACC and Ambuja excluded,near300_n,north_rest_n,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,0.0462,0.7534,0.1387,799,-0.0006,0.9962,,,
+"CAR 17 Dec 2024 (6,20)",without takeover-related; ACC and Ambuja excluded,near300_n,,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,0.0457,0.6733,0.1239,799,,,,,
+"CAR 17 Dec 2024 (6,20)",without takeover-related; ACC and Ambuja excluded,near150_n,north_rest150_n,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,0.1134,0.5119,0.1733,799,-0.0455,0.7084,,,
+"CAR 17 Dec 2024 (6,20)",without takeover-related; ACC and Ambuja excluded,near300_cap,north_rest_cap,15,5,JKCEMENT JKLAKSHMI MANGLMCEM NUVOCO SHREECEM,-0.0345,0.8811,0.2387,799,0.0125,0.8698,,,
+"CAR 17 Dec 2024 (6,20)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_n,north_rest_n,7,2,JKLAKSHMI NUVOCO,-0.0804,0.4618,0.1052,747,-0.1609,0.4618,,,
+"CAR 17 Dec 2024 (6,20)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_n,,7,2,JKLAKSHMI NUVOCO,-0.4022,0.4618,0.5262,747,,,,,
+"CAR 17 Dec 2024 (6,20)",without any merger or stake filing (broad); ACC and Ambuja excluded,near150_n,north_rest150_n,7,2,JKLAKSHMI NUVOCO,-0.0804,0.4618,0.1052,747,-0.1609,0.4618,,,
+"CAR 17 Dec 2024 (6,20)",without any merger or stake filing (broad); ACC and Ambuja excluded,near300_cap,north_rest_cap,7,2,JKLAKSHMI NUVOCO,0.0303,1.0,2.1447,747,-0.0909,0.6988,,,
+"CAR 17 Dec 2024 (6,20)","all, without Mangalam; ACC and Ambuja excluded",near300_n,north_rest_n,18,5,JKCEMENT JKLAKSHMI NUVOCO SHREECEM ULTRACEMCO,-0.1685,0.4005,0.1932,799,0.0554,0.5645,,,
+"CAR 17 Dec 2024 (6,20)","all, without Mangalam; ACC and Ambuja excluded",near300_cap,north_rest_cap,18,5,JKCEMENT JKLAKSHMI NUVOCO SHREECEM ULTRACEMCO,-0.1701,0.5031,0.2742,799,0.0134,0.8874,,,
+vol_yoy_q3fy25,all,near300_n,north_rest_n,8,4,AMBUJACEM JKLAKSHMI SHREECEM ULTRACEMCO,-0.2363,0.4149,0.2603,10000,0.1072,,-0.3261,no,0.0635
+vol_yoy_q3fy25,all,near300_n,,8,4,AMBUJACEM JKLAKSHMI SHREECEM ULTRACEMCO,-0.1786,0.4598,0.222,10000,,,-0.3261,no,0.0635
+vol_yoy_q3fy25,all,near300_cap,north_rest_cap,8,4,AMBUJACEM JKLAKSHMI SHREECEM ULTRACEMCO,-0.3034,0.4692,0.3863,10000,-0.0002,,-0.3261,no,0.0635
+vol_yoy_q3fy25,without takeover-related,near300_n,north_rest_n,5,2,JKLAKSHMI SHREECEM,-0.2419,0.3984,0.2635,10000,0.0993,,-0.3261,no,0.0453
+vol_yoy_q3fy25,without takeover-related,near300_n,,5,2,JKLAKSHMI SHREECEM,-0.1961,0.3539,0.173,10000,,,-0.3261,no,0.0453
+vol_yoy_q3fy25,without takeover-related,near300_cap,north_rest_cap,5,2,JKLAKSHMI SHREECEM,-0.2998,0.5393,0.3321,10000,0.0235,,-0.3261,no,0.0453
+vol_yoy_q3fy25,without any merger or stake filing (broad),near300_n,north_rest_n,1,1,JKLAKSHMI,,,,0,,,-0.3261,,
+vol_yoy_q3fy25,without any merger or stake filing (broad),near300_n,,1,1,JKLAKSHMI,,,,0,,,-0.3261,,
+vol_yoy_q3fy25,without any merger or stake filing (broad),near300_cap,north_rest_cap,1,1,JKLAKSHMI,,,,0,,,-0.3261,,
+vol_yoy_q2fy25 (pre-ban check),all,near300_n,north_rest_n,7,4,AMBUJACEM JKLAKSHMI SHREECEM ULTRACEMCO,-0.1641,0.6258,0.3109,10000,-0.126,,-0.3261,no,0.0727
+vol_yoy_q2fy25 (pre-ban check),all,near300_n,,7,4,AMBUJACEM JKLAKSHMI SHREECEM ULTRACEMCO,-0.2126,0.4711,0.2639,10000,,,-0.3261,no,0.0727
+vol_yoy_q2fy25 (pre-ban check),all,near300_cap,north_rest_cap,7,4,AMBUJACEM JKLAKSHMI SHREECEM ULTRACEMCO,-0.1979,0.683,0.4126,10000,-0.1173,,-0.3261,no,0.0727
+vol_yoy_q2fy25 (pre-ban check),without takeover-related,near300_n,north_rest_n,4,2,JKLAKSHMI SHREECEM,,,,0,,,-0.3261,,0.0196
+vol_yoy_q2fy25 (pre-ban check),without takeover-related,near300_n,,4,2,JKLAKSHMI SHREECEM,-0.087,,,0,,,-0.3261,,0.0196
+vol_yoy_q2fy25 (pre-ban check),without takeover-related,near300_cap,north_rest_cap,4,2,JKLAKSHMI SHREECEM,,,,0,,,-0.3261,,0.0196
+vol_yoy_q2fy25 (pre-ban check),without any merger or stake filing (broad),near300_n,north_rest_n,1,1,JKLAKSHMI,,,,0,,,-0.3261,,
+vol_yoy_q2fy25 (pre-ban check),without any merger or stake filing (broad),near300_n,,1,1,JKLAKSHMI,,,,0,,,-0.3261,,
+vol_yoy_q2fy25 (pre-ban check),without any merger or stake filing (broad),near300_cap,north_rest_cap,1,1,JKLAKSHMI,,,,0,,,-0.3261,,
+real_yoy_q3fy25,all,near300_n,north_rest_n,4,2,AMBUJACEM ULTRACEMCO,,,,0,,,,,0.0032
+real_yoy_q3fy25,all,near300_n,,4,2,AMBUJACEM ULTRACEMCO,0.0006,,,0,,,,,0.0032
+real_yoy_q3fy25,all,near300_cap,north_rest_cap,4,2,AMBUJACEM ULTRACEMCO,,,,0,,,,,0.0032
+real_yoy_q3fy25,without takeover-related,near300_n,north_rest_n,2,0,,,,,0,,,,,0.0021
+real_yoy_q3fy25,without takeover-related,near300_n,,2,0,,,,,0,,,,,0.0021
+real_yoy_q3fy25,without takeover-related,near300_cap,north_rest_cap,2,0,,,,,0,,,,,0.0021
+real_yoy_q3fy25,without any merger or stake filing (broad),near300_n,north_rest_n,0,0,,,,,0,,,,,
+real_yoy_q3fy25,without any merger or stake filing (broad),near300_n,,0,0,,,,,0,,,,,
+real_yoy_q3fy25,without any merger or stake filing (broad),near300_cap,north_rest_cap,0,0,,,,,0,,,,,
 real_yoy_q2fy25 (pre-ban check),all,near300_n,north_rest_n,3,1,ULTRACEMCO,,,,0,,,,,0.0206
 real_yoy_q2fy25 (pre-ban check),all,near300_n,,3,1,ULTRACEMCO,,,,0,,,,,0.0206
+real_yoy_q2fy25 (pre-ban check),all,near300_cap,north_rest_cap,3,1,ULTRACEMCO,,,,0,,,,,0.0206
 real_yoy_q2fy25 (pre-ban check),without takeover-related,near300_n,north_rest_n,2,0,,,,,0,,,,,0.0213
 real_yoy_q2fy25 (pre-ban check),without takeover-related,near300_n,,2,0,,,,,0,,,,,0.0213
+real_yoy_q2fy25 (pre-ban check),without takeover-related,near300_cap,north_rest_cap,2,0,,,,,0,,,,,0.0213
 real_yoy_q2fy25 (pre-ban check),without any merger or stake filing (broad),near300_n,north_rest_n,0,0,,,,,0,,,,,
 real_yoy_q2fy25 (pre-ban check),without any merger or stake filing (broad),near300_n,,0,0,,,,,0,,,,,
+real_yoy_q2fy25 (pre-ban check),without any merger or stake filing (broad),near300_cap,north_rest_cap,0,0,,,,,0,,,,,

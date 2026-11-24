@@ -29,7 +29,7 @@ def route(lat, lon):
     r = get(f"https://router.project-osrm.org/route/v1/driving/{DELHI[1]},{DELHI[0]};{lon},{lat}?overview=false"); time.sleep(1.2)
     return r["routes"][0]["distance"] / 1000.0 if r.get("code") == "Ok" and r.get("routes") else np.nan
 def load_plants():
-    fs = [RE + f"cement_plants_{k}.csv" for k in "ABCD" if os.path.exists(RE + f"cement_plants_{k}.csv")]
+    fs = [RE + f"cement_plants_{k}.csv" for k in "ABCDE" if os.path.exists(RE + f"cement_plants_{k}.csv")]
     P = pd.concat([pd.read_csv(f, dtype=str).fillna("").assign(source_file=os.path.basename(f)) for f in fs], ignore_index=True) if fs else pd.DataFrame()
     return P[P.place.astype(str).str.strip() != ""] if len(P) else P     # rows without a place are firm totals, not plants
 def main(test=None):

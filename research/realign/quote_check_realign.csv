@@ -6,6 +6,64 @@ ahlucont_q2q3_quotes.csv,3,AHLUCONT,original_pdf,verified,"some clients of ours 
 ahlucont_q2q3_quotes.csv,4,AHLUCONT,original_pdf,verified,"The primary reason for the labor cost being up, I won't say it is labor shortage. The primary reason is on account of NGT."
 ahlucont_q2q3_quotes.csv,5,AHLUCONT,original_pdf,verified,"we must keep in mind that January also has been badly hit on account of NGT. It is only now that the work has started in real earnest in February. In fact, the "
 ahlucont_q2q3_quotes.csv,6,AHLUCONT,original_pdf,verified,"some of the clients paid for us to hold our labor on site, even when the projects were closed. So, we could just hit the ground running on 3rd or 4th of Februar"
+cement_capacity.csv,0,,full_text,verified,"Asian FCPL ... Asian Cement, Patiala, Punjab 1.50"
+cement_capacity.csv,1,,full_text,verified,"Asian CCPL ... Asian Cement, Solan, Himachal Pradesh 1.30"
+cement_capacity.csv,2,,full_text,verified,"Gagal-I & II, Bilaspur, Himachal Pradesh 4.40"
+cement_capacity.csv,3,,full_text,verified,"Gagal-I & II, Bilaspur, Himachal Pradesh 4.40"
+cement_capacity.csv,4,,full_text,verified,"Lakheri, Bundi, Rajasthan 1.50"
+cement_capacity.csv,5,,full_text,verified,"Tikaria (G), Sultanpur, Uttar Pradesh 2.64"
+cement_capacity.csv,6,,full_text,verified,"Dadri- (G), G B Nagar, Uttar Pradesh 1.50"
+cement_capacity.csv,7,,full_text,verified,"Roorkee (G), Haridwar, Uttarakhand 1.00"
+cement_capacity.csv,8,,full_text,verified,"Ropar (G), Ropar, Punjab 3.00"
+cement_capacity.csv,9,,full_text,verified,"Nalagargh, Solan (G), Solan, Himachal Pradesh 1.50"
+cement_capacity.csv,10,,full_text,verified,"Bathinda (G), Bhatinda, Punjab 1.20"
+cement_capacity.csv,11,,full_text,verified,"Darlaghat, Solan, Solan, Himachal Pradesh 6.8 ... Suli,Rauri Himachal Pradesh 1.60"
+cement_capacity.csv,12,,full_text,verified,"Rabriyawas, Pali, Rajasthan 3.60"
+cement_capacity.csv,13,,full_text,verified,"Raebareli (G), Raebareli, Uttar Pradesh 1.30"
+cement_capacity.csv,14,,full_text,verified,"Chanderia, Chittorgarh, Rajasthan 4.00"
+cement_capacity.csv,15,,full_text,verified,"Kundanganj (G), Raebareli, Uttar Pradesh 2.00"
+cement_capacity.csv,16,,full_text,verified,"Jhansi (G), Jhansi, Uttar Pradesh 2.70"
+cement_capacity.csv,17,,full_text,verified,"Banswara Works, Banswara, Rajasthan 1.80"
+cement_capacity.csv,18,,full_text,verified,"JK Lakshmi Cement Ltd ... Jhajjar (G), Jhajjar, Haryana 1.30"
+cement_capacity.csv,19,,full_text,verified,"JK Lakshmi Cement Ltd ... Sirohi, Sirohi, Rajasthan 8.70"
+cement_capacity.csv,20,,full_text,verified,"Mangalam Cement I & II, Kota, Rajasthan 3.25"
+cement_capacity.csv,21,,full_text,verified,"Mangalam Cement Ltd ... Aligarh(G), Aligarh, Uttar Pradesh 0.75"
+cement_capacity.csv,22,,full_text,verified,"Khushkhera (G), Alwar, Rajasthan 3.50"
+cement_capacity.csv,23,,full_text,verified,"Bulandsahar (G), Sikandrabad, Uttar Pradesh 2.00"
+cement_capacity.csv,24,,full_text,verified,"Panipat (G), Panipat, Haryana 1.50"
+cement_capacity.csv,25,,full_text,verified,"Roorkee (G), Haridwar, Uttrakhand 1.80"
+cement_capacity.csv,26,,full_text,verified,"Jaipur (G), Jaipur, Rajasthan 1.50"
+cement_capacity.csv,27,,full_text,verified,"Bangur Cement, Suratgarh, Rajasthan 3.60 ... Suratgarh (G), Sriganganagar, Rajasthan 1.80"
+cement_capacity.csv,28,,full_text,verified,"Beawar I & II, Ajmer,Rajasthan Unit-III Andheri Deori 3.60"
+cement_capacity.csv,29,,full_text,verified,"Ras, Pali, Rajasthan 3.00 ... Ras New Cement Unit, Ras Rajasthan 4.00"
+cement_capacity.csv,30,,full_text,verified,"Dadri (G), G B Nagar, Uttar Pradesh 1.30"
+cement_capacity.csv,31,,full_text,verified,"Sikandrabad, Bulandsahar, Uttar Pradesh 1.00"
+cement_capacity.csv,32,,full_text,verified,"Jhajjar (G), Jhajjar, Haryana 1.60"
+cement_capacity.csv,33,,full_text,verified,"Panipat(G), Panipat, Haryana 1.30"
+cement_capacity.csv,34,,full_text,verified,"UltraTech Cement Ltd ... Aligarh(G), Aligarh, Uttar Pradesh 1.30"
+cement_capacity.csv,35,,full_text,verified,"Kotputli, Jaipur, Rajasthan 4.00"
+cement_capacity.csv,36,,full_text,verified,"Roorkee (G), Haridwar, Uttarakhand 1.10"
+cement_capacity.csv,37,,full_text,verified,"Binani Cement ... Sikar (G), Sikar, Rajasthan 1.40"
+cement_capacity.csv,38,,full_text,verified,"Bhatinda (G), Bhatinda, Punjab 1.75"
+cement_capacity.csv,39,,full_text,verified,"Bagheri (G & B), Solan, Himachal Pradesh 2.00"
+cement_capacity.csv,40,,full_text,verified,"Baga, Solan, Himachal Pradesh 2.54"
+cement_capacity.csv,41,,full_text,verified,"Aditya, Chittorgarh, Rajasthan 8.00"
+cement_capacity.csv,42,,full_text,verified,"Ayodhya (G), Ambedkar Nagar, Uttar Pradesh 1.00"
+cement_capacity.csv,43,,full_text,verified,"Bara Allahabad, Uttar Pradesh 4.00"
+cement_capacity.csv,44,,full_text,verified,"Nathdwara Cement Ltd.,(earlier Binani Cement Sirohi) 4.85"
+cement_capacity.csv,45,,full_text,verified,"Dalla, Sonebhadra, Uttar Pradesh 0.50"
+cement_capacity.csv,46,,full_text,verified,"Nuvoco Vistas Corp Ltd., Lafarge Cement ... Chittorgarh, Chittorgarh, Rajasthan 2.60"
+cement_capacity.csv,47,,full_text,verified,"2.3 11.0 9.0 1.5 1.2 25.0 ... Greenfield capacity at Nimbol, Rajasthan ... Haryana expansion (2024)"
+cement_capacity.csv,48,,full_text,verified,"2.3 11.0 9.0 1.5 1.2 25.0 ... Greenfield capacity at Nimbol, Rajasthan ... Haryana expansion (2024)"
+cement_capacity.csv,49,,full_text,verified,All India  140.8  25.0  6.3  10.8  11.8  14.7  209.3
+cement_capacity.csv,50,,full_text,verified,The new plant will propel Shree Cement’s manufacturing capacity to 56.4 MTPA
+cement_capacity.csv,51,,full_text,verified,in Odisha. The present combined capacity ofthe Company is about 16.4 Million Tonnes per annum.
+cement_capacity.csv,52,,full_text,verified,## 89 MTPA
+cement_capacity.csv,53,,full_text,verified,## 25 MTPA
+cement_capacity.csv,54,,full_text,verified,Clinker capacity at this moment is 3.1 million tons and cement capacity is 6.25 million tons.
+cement_capacity.csv,55,,full_text,verified,"Mangalam Cement Ltd ... Aligarh(G), Aligarh, Uttar Pradesh 0.75 ... Mangalam Cement I & II, Kota, Rajasthan 3.25"
+cement_capacity.csv,56,,full_text,verified,"Birla Corp. Ltd ... Chanderia, Chittorgarh, Rajasthan 4.00 ... Birla Corp. Ltd (erstwhile Reliance Cement)"
+cement_capacity.csv,57,,full_text,verified,"The India Cements Limited (ICEM) has become  a subsidiary of the Company with effect from 24 th Dec, 2024"
 cement_capacity_regions.csv,0,ULTRACEMCO,fetched_full_text,verified,North  33.3  3.0  2.7  39.0
 cement_capacity_regions.csv,1,SHREECEM,fetched_full_text,verified,Northern region accounts for more than half of our cement and clinker capacity leading to dependency on the region.
 cement_capacity_regions.csv,2,JKCEMENT,fetched_full_text,verified,Ujjain Grinding Unit having a capacity of 1.5 MTPA was commissioned in Nov’23.
@@ -457,6 +515,17 @@ cement_plants_D.csv,30,,full_text,verified,Site Location: Name of Sites Address 
 cement_plants_D.csv,31,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Kudithini Karnataka
 cement_plants_D.csv,32,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Thondebhavi Karnataka
 cement_plants_D.csv,33,,full_text,verified,Site Location: Name of Sites Address of the Sites ... Vizag Andhra Pradesh
+cement_plants_E.csv,0,,full_text,verified,"Company has manufacturing plants in Morak (Rajasthan) ... and Aligarh (Uttar Pradesh), India ... Aligarh Plant: ... K/1, CDF Complex, UPSIDC Industrial Area,"
+cement_plants_E.csv,1,,full_text,verified,with the Bhiwani grinding unit we are very nicely placed to go up North
+cement_plants_E.csv,2,,full_text,verified,the Chittor and the Nimbol facility which we currently use to feed Gujarat
+cement_plants_E.csv,3,,full_text,verified,"greenfield cement plant in Nimbol, Rajasthan"
+cement_plants_E.csv,4,,full_text,verified,"Recognition of Excellence in standard promotion activities to Arasmeta, Sonadih & Risda cement plants"
+cement_plants_E.csv,5,,full_text,verified,"Recognition of Excellence in standard promotion activities to Arasmeta, Sonadih & Risda cement plants"
+cement_plants_E.csv,6,,full_text,verified,"Recognition of Excellence in standard promotion activities to Arasmeta, Sonadih & Risda cement plants"
+cement_plants_E.csv,7,,full_text,verified,Excellence in Energy Management Award” to Jojobera cement plant
+cement_plants_E.csv,8,,full_text,verified,Panagarh Cement Plant
+cement_plants_E.csv,9,,full_text,verified,"Nuvoco Vistas Corp Ltd., Lafarge Cement ... Mejia (G), Bankura, West Bengal 1.65"
+cement_plants_E.csv,10,,full_text,verified,Bihar Cement Plant recognized for Quality Excellence
 cement_unit_counts.csv,0,,full_text,verified,## 89 MTPA Cement Capacity ## 22 Integrated Units ... ## 21 Grinding Units
 contractor_ncr_orderbook.csv,0,AHLUCONT,saved_text,verified,"Delhi NCR Region Projects (as on 31 Dec 2024) - ₹ 54,083 Mn. viz. 33.3% of the Unexecuted Order Book"
 contractor_ncr_orderbook.csv,1,AHLUCONT,saved_text,verified,"Haryana  46,209  28.4"
@@ -701,7 +770,7 @@ ncr_round2_docs.csv,10,BLKASHYAP,original_html,verified,obtained a prestigious w
 ncr_round2_docs.csv,11,ASHIANA,original_pdf,verified,"EAC was 6.01 lakhs square feet in Q2FY25, QoQ decline by 13.64% due to imposition of GRAP related restrictions in Delhi-NCR."
 ncr_round2_docs.csv,12,GODREJPROP,original_pdf,verified,"Gaurav Pandey: And, Praveen, because of NGT ban that you would be aware in NCR, some of the billing milestones had moved from quarter 3 to quarter 4."
 ncr_round2_docs.csv,13,SOBHA,original_pdf,no quote,
-ncr_round2_docs.csv,14,SIGNATURE,search_snippet,no quote,
+ncr_round2_docs.csv,14,SIGNATURE,original_pdf,verified,both of these things are keeping us confident to keep the guidance constant
 ncr_round2_docs.csv,15,MAXESTATES,search_snippet,no quote,
 ncr_round2_docs.csv,16,DLF,original_pdf,verified,Particulars FY24 FY25 FY25 FY25
 ncr_round2_docs.csv,17,DLF,original_pdf,verified,"•Construction 1,642 944 424 521"

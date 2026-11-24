@@ -106,9 +106,9 @@ C2 = pd.DataFrame([dict(panel="C2: NCR market level, northern capacity share (co
 CF = DEL + "table2_cement_fit.csv"
 if os.path.exists(CF):
     cf = pd.read_csv(CF)
-    # main rows only: plant-count doses, all makers and without takeover-related makers. The capacity-weighted variant and the
-    # broad flag are in table2_cement_fit.csv; both leave at most one exposed maker in most windows (not identified)
-    cf = cf[cf.dose.isin(["near300_n", "near150_n"]) & ~cf["sample"].str.contains("broad") & cf.coef.notna()]
+    # main rows: plant-count doses and the capacity-weighted robustness rows; all makers, without takeover-related makers and
+    # without Mangalam. The broad takeover flag is in table2_cement_fit.csv (two exposed makers) and in table2_notes.md
+    cf = cf[cf.dose.isin(["near300_n", "near150_n", "near300_cap"]) & ~cf["sample"].str.contains("broad") & cf.coef.notna()]   # near300_cap: capacity-weighted robustness rows
     C1 = pd.DataFrame([dict(panel="C: cement makers that deliver to NCR (main cement result; specification in table2_notes.md)", nse_symbol=f"{r.outcome}", link_id=f"dose {r.dose}" + (f" + {r.control}" if isinstance(r.control, str) and r.control else ""),
         link_status=r.sample, buyer=f"{int(r.n_exposed)} of {int(r.n)} makers with plants near Delhi", w_mid=np.nan,
         note=f"coefficient on {r.dose} {r.coef:+.3f} (p={r.p_two_sided:.2f}; null s.d. {r.null_sd:.3f}; n={int(r.n)})" + (f"; {r.control} {r.coef_control:+.3f}" if isinstance(r.control, str) and r.control and pd.notna(r.coef_control) else "")

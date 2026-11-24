@@ -147,6 +147,9 @@ if os.path.exists(CF) and os.path.exists(CMK):
     for r in main.itertuples():
         tk = cf[(cf.outcome == r.outcome) & (cf["sample"] == r.sample.replace("all", "without takeover-related")) & (cf.dose == "near300_n") & (cf.control.fillna("") == "north_rest_n")]
         tks = f"; without takeover-related makers {tk.coef.iloc[0]:+.3f} (p={tk.p_two_sided.iloc[0]:.2f}, n={int(tk.n.iloc[0])})" if len(tk) and pd.notna(tk.coef.iloc[0]) else ""
+        for lab, smp, dz, ct in (("capacity-weighted", r.sample, "near300_cap", "north_rest_cap"), ("without Mangalam", r.sample.replace("all", "all, without Mangalam"), "near300_n", "north_rest_n")):
+            q_ = cf[(cf.outcome == r.outcome) & (cf["sample"] == smp) & (cf.dose == dz) & (cf.control.fillna("") == ct)]
+            if len(q_) and pd.notna(q_.coef.iloc[0]): tks += f"; {lab} {q_.coef.iloc[0]:+.3f} (p={q_.p_two_sided.iloc[0]:.2f})"
         add("4c cement makers that deliver to NCR (main cement result, checkpoint 5)", "", f"test: {r.outcome}", "", "outputs/deliverables/table2_cement_fit.csv", "",
             f"coefficient on near300_n (share of the maker's cement plants within 300 km of Delhi by road), controlling for its other northern plants: {r.coef:+.3f} "
             f"(p={r.p_two_sided:.2f}, n={int(r.n)}, of which {int(r.n_exposed)} with plants near Delhi){tks}; other northern plants {r.coef_control:+.3f}",

@@ -1,21 +1,45 @@
 # Climate shocks and supply-chain propagation in India
 
+> **Start with [`HANDOVER.md`](HANDOVER.md).** It is the self-contained briefing: the assignment, the findings, every
+> deliverable with its script and row count, the data and its known errors, the method, the decision log, the gaps and
+> the rules. This README is the short project page.
+
 **Research question (from the assignment):** when a localized, documented extreme event damages the
 physical plants of a listed firm, does the shock propagate along the supply chain to firms that were
 never in the disaster zone? Two deep-dives: **E_NCR_GRAP_2024** (Delhi-NCR construction ban) and
-**E_GJ_FLOOD_2024** (Vadodara floods).
+**E_GJ_FLOOD_2024** (the pack's "Vadodara floods"; in fact the storm that became Cyclonic Storm Asna, on the Saurashtra
+and Kutch coast).
 
-**Scope.** Since 22 Nov 2026, `docs_from_pack/INSTRUCTIONS.md` and `docs_from_pack/README.md` are the
-only definition of scope, method and deliverables. Where any other file in this folder disagrees with
-them, the assignment wins.
-- `GAP_MAP.md`: what exists and what is missing.
-- `NEXT_STEPS.md`: the plan, with the decision points (◆) that are the user's calls.
-- `HANDOVER.md`: environment setup, data traps and permissions.
+**Scope.** `docs_from_pack/INSTRUCTIONS.md` and `docs_from_pack/README.md` are the only definition of scope, method and
+deliverables. Where any other file in this folder disagrees with them, the assignment wins.
+- `HANDOVER.md`: the briefing (read first).
+- `GAP_MAP.md`, `NEXT_STEPS.md`: the plan and its record.
 
 The work of earlier rounds (hazard panels, satellite proxies, pricing) is kept but archived. It is
 not part of the deliverables (see the end of this file).
 
-## Deliverables (§6 of the instructions)
+## Index of the deliverables (all in `outputs/deliverables/`; final state, 24 Nov 2026)
+
+| # | Deliverable | Files | Size | Built by |
+|---|---|---|---|---|
+| 1 | Traced-pathway diagram, NCR | `pathway_NCR.png`, `.svg` | 1 figure | `src/59` |
+| 1 | Evidence table per node, NCR | `evidence_NCR.csv` | 132 rows | `src/47` |
+| 1 | Traced-pathway diagram, Gujarat | `pathway_GJ.png`, `.svg` | 1 figure | `src/59` |
+| 1 | Evidence table per node, Gujarat | `evidence_GJ.csv` | 97 rows | `src/53` |
+| 1 | Lag figure | `fig_lag_paths.png` | 1 figure | `src/59` |
+| 2 | Verified supply-chain links file (replaces the scaffold) | `verified_links.csv` | 128 rows (4 verified) | `src/40` (with `src/46`, `src/54`) |
+| 3(i) | Direct event study and DiD | `table1_direct.csv`, `table1_direct_firms.csv`, `table1_did.csv`, `table1_returns_25nov2024.csv`; notes `table1_notes.md` | 92, 60, 8, 16 rows | `src/43` |
+| 3(ii) | Propagation dose-response | `table2_dose_response.csv`, `table2_dose_response_fit.csv`; notes `table2_notes.md` | 76, 45 rows | `src/58` |
+| 3(ii) | Cement makers that deliver to NCR | `table2_cement_makers.csv`, `table2_cement_fit.csv`, `cement_plants_geo.csv` | 24, 106, 217 rows | `src/63`, `src/62` |
+| 3(iii) | Placebos | `table3_placebo.csv`, `table3_placebo_firms.csv`; notes `table3_notes.md`; firm lists `placebo_firms.csv` | 30, 294, 122 rows | `src/58`, `src/45` |
+| 4 | Memo (3–5 pages) | `memo.md`, `memo.pdf` | 5 A4 pages incl. figure and tables; Conclusion left to the author | `src/61_build_memo.sh` (figure `src/60`) |
+| — | Hit-firm registers | `hit_register_NCR.csv`, `hit_register_GJ.csv` | 45, 40 rows | `src/51` |
+| — | Node measurements behind the diagrams | `stepC_ncr_*.csv`, `stepC_gj_*.csv`, `gj_*.csv`, `cement_market_test*.csv`, `results_days_extra.csv` | see `HANDOVER.md` §4 | `src/49`–`src/57`, `src/50` |
+
+All label columns are in plain words (`src/64`, run last). Every quote in the evidence files is checked against the
+saved original by `src/42` (976 rows: 812 quotes verified, 163 rows without a quote, 0 not found).
+
+## Deliverables: status record (§6 of the instructions)
 
 | # | Deliverable | File (in `outputs/deliverables/`) | Status, 23 Nov 2026 |
 |---|---|---|---|
@@ -25,7 +49,7 @@ not part of the deliverables (see the end of this file).
 | 3(i) | Direct event study / DiD | `table1_direct.csv`, `table1_direct_firms.csv`, `table1_returns_25nov2024.csv`, `table1_did.csv` (read with `table1_notes.md`) | done (Step 1, 23 Nov 2026), on the G2 firm sets; **checkpoint 5**: zero-alpha CARs (beta kept) beside the market-model CARs for (+6,+20) and (+21,+60), here and in both node tables |
 | 3(ii) | Propagation dose-response | `table2_dose_response.csv`, `table2_dose_response_fit.csv`, `table2_notes.md`; cement: `table2_cement_makers.csv`, `table2_cement_fit.csv`, `cement_plants_geo.csv` | **revised (checkpoint 5)** (`src/58`, `src/62`, `src/63`): Panel C is now the cement delivery test (specification written before the run; result null; neither test could detect the ban's largest possible loss); the market-level test kept as the comparison (C2); NCR panel also without the takeover targets (n = 6). Earlier: 8 contractors, dose beside own NCR exposure, Gujarat one link |
 | 3(iii) | Placebos | `table3_placebo.csv`, `table3_placebo_firms.csv`, `table3_notes.md` (firm lists in `placebo_firms.csv`) | **revised (checkpoint 5)**: comparison contractors also without the takeover targets (PSP, Cemindia); Gujarat list without Reliance Power accepted; re-screen left partial as instructed. Earlier: means and medians, Tata Steel flagged |
-| 4 | Memo, 5 pages at most as set | `memo.md`, `memo.pdf` (A4, 4 pages incl. figure and tables; built by `src/61_build_memo.sh`), figure `fig_memo_pathways.png` (`src/60`) | **revised (checkpoint 4)**, with the manual-trace section |
+| 4 | Memo, 5 pages at most as set | `memo.md`, `memo.pdf` (A4, 5 pages incl. figure and tables; built by `src/61_build_memo.sh`), figure `fig_memo_pathways.png` (`src/60`) | **final (24 Nov 2026)**, in the author's voice; Conclusion to be written by the author |
 | — | Hit-firm registers (scope change, 23 Nov 2026) | `hit_register_NCR.csv`, `hit_register_GJ.csv` | NCR 45 rows, Gujarat 40 rows; G7 grades in column `grade` |
 
 ## Decisions taken by the user
@@ -76,6 +100,7 @@ not part of the deliverables (see the end of this file).
 - **23 Nov 2026, G5 (NCR) and G7 (Gujarat):**
   - **G5:** the within-zone mechanism (ban → builders' sites → Ahluwalia) is accepted on documents and quarterly numbers; the price claim was corrected (the late windows hold no Ahluwalia disclosure; disclosure days reported net of unlinked contractors); out-of-zone propagation "not detected"; the cement test's +2.5 pp is the result and its two-firm variant is dropped; two confounds added (small- and mid-cap sell-off of Jan–Feb 2025; Q4 seasonality).
   - **G7:** hit firms graded (material: Tata Chemicals, Archean; confirmed but immaterial: Adani Ports, GE T&D); both rain episodes shown; Archean's price fall checked against peers and news; the Tata chain accepted as a cost pass-through ending in one ~7% retail price increase; propagation measured with salt revenue, volume and price by quarter; Tata Chemicals' 10 Oct and 21 Oct moves flagged as unrelated.
+- **24 Nov 2026, close-out:** the three cement departures accepted (plant-count dose as the main version; the narrowed takeover flag, both versions kept with their numbers; the Ambuja and ACC denominators and no lead-distance dose). Factual fixes: Mangalam's Aligarh grinding unit, Nuvoco's ten plants, a capacity-weighted robustness dose (IBM Indian Minerals Yearbook 2022, Table 1), one row for the Ambuja group; the result is unchanged (null). Final memo in the author's voice (5 pages, Conclusion left to the author); decision codes replaced by plain words in the deliverables (`src/64`); Signature Global's Q3 FY25 call read (no mention of the ban); `HANDOVER.md` rewritten, the earlier one archived.
 - **23 Nov 2026, checkpoint-5 review:** changes 1–7 accepted as applied (the 19 Nov and 13 Feb call days, not distinguishable from zero, go in the memo as they stand); the Gujarat placebo list without Reliance Power accepted, re-screen left partial; NBCC branch closed. New test: cement makers that deliver to NCR replace the market-level test as the main cement result (specification in `table2_notes.md`, written before the run, two amendments before the run; result null). Corrections: Gujarat mechanism reworded with Tata Chemicals' salt volumes; 18 Nov labelled not separable, with B.L. Kashyap beside it; takeover targets among the unlinked contractors flagged, every net figure with and without them; zero-alpha CARs added. Steel stops at the materiality bound (approved makes unreadable).
 - **23 Nov 2026, checkpoint-4 review:** the three corrections accepted (one Tata Salt increase; 12 Feb = Q3 results, 13 Feb = guidance cut; Adani's +5% is August cargo), as were "not detected", the cement +2.5 pp and the four Gujarat grades. Changes: 18 Nov treated like February (results day vs call day); Gujarat placebo list approved with changes (Reliance Power dropped for SEBI's order of 22 Aug 2024, medians, Tata Steel flagged, re-screen); Tata Chemicals' price evidence stated; Tata Consumer Q2 salt added (+2% revenue, flat volume) with a magnitude line; Archean "not attributed"; the cement two-firm variant kept as one note; dose shown beside own NCR exposure; memo framed as transmission inside the zone (NCR) and the one out-of-zone link (Gujarat); GE T&D's 6 Sep filing read; NBCC's contractors unlisted (branch closed).
 
@@ -140,7 +165,7 @@ not part of the deliverables (see the end of this file).
   - **Dose-response, NCR (backward, H3):** dose = builder's share of the contractor's sales × builder's NCR exposure, across 8 contractors (3 linked, 5 at zero dose). No relation with any CAR (exact permutation p = 0.67–1.00). The one "significant" slope, Q3 sales growth (p = 0.05), is matched by the same slope on the pre-ban quarter (p = 0.05): it is B.L. Kashyap's earlier decline, and it vanishes on the change in growth (p = 0.79) or without B.L. Kashyap. **Result: null, with n = 8.**
   - **Gujarat (forward, H2):** one verified link; propagation shows as a cost pass-through into the retail price, not as a price or volume shock at the buyer.
   - **Placebos:** unexposed, unlinked firms and the G2 controls return nulls (NCR placebo firms: mean CAR −1.3% to +2.3%, p = 0.30–0.83). Gujarat placebo list approved with changes: Reliance Power dropped (−20.7% after SEBI's order of 22 Aug 2024 against Anil Ambani); without it mean −3.6% (p = 0.21), median −2.1%; half of Unitech's −16.7% is a market-model artefact; Tata Steel flagged. The Gujarat controls fell together in the storm week (−4.7%, all six firms; cause not identified).
-  - **Cement makers that deliver to NCR (checkpoint 5, main cement result):** 194 plants of 23 makers from original documents; 20 within 300 km of Delhi by road (UltraTech 9, Shree 5, JK Cement 2, Ambuja 2, ACC 1, JK Lakshmi 1). Coefficient on the share of plants within 300 km, with the rest of the North as a control: +0.18 over (−1,+5) (p 0.19), −0.14 for 17 Dec (p 0.32); Q3 volume −0.32 (p 0.31), matched before the ban (Q2 −0.28). **Result: null; the largest possible loss (≤ 9.6% of a quarter's output) is below what either test can detect.** The CCI order (2017) names the same makers bidding in Haryana; NBCC's approved makes and NCR ready-mix plants were not obtained. Steel stops at the materiality bound.
+  - **Cement makers that deliver to NCR (main cement result, final run 24 Nov 2026):** 205 plants of 24 makers from original documents; 22 within 300 km of Delhi by road. Doses (share of plants within 300 km): Mangalam 0.50, Shree 0.29, UltraTech 0.17, JK Cement 0.17, JK Lakshmi 0.14, Nuvoco 0.10, Ambuja group 0.07. Coefficient −0.06 over (−1,+1) (p 0.36), −0.01 over (−1,+5) (p 0.90), +0.03 for 17 Dec (p 0.70); Q3 volume −0.24 (p 0.41), matched before the ban (Q2 −0.16). Without takeover-related makers, without Mangalam, at 150 km or capacity-weighted (IBM Table 1): every p ≥ 0.23. **Result: null; the ban's largest possible loss is below what either test can detect.** NBCC's approved makes and NCR ready-mix plants were not obtained. Steel stops at the materiality bound.
   - Two earlier results remain **withdrawn**: the scaffold test (unverified industry-level guesses) and the earlier "verified links" test (archived README §5.5: wrong NCR hit firms, Petronet links without a confirmed source shock, the Aarti–UPL joint venture before it supplied).
 
 ## Problems found in the pack (handled in `src/common.py`; do not undo)

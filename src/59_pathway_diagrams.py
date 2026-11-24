@@ -54,11 +54,13 @@ def save(fig, name):
 NC = pd.read_csv(DEL + "stepC_ncr_node_cars.csv"); NET = pd.read_csv(DEL + "stepC_ncr_contractor_net.csv"); CT = pd.read_csv(DEL + "cement_market_test.csv")
 def c(sym, ev, w):
     x = NC[(NC.nse_symbol == sym) & (NC.event.str.startswith(ev)) & (NC.window == w)].iloc[0]; return f"{100*x.car:+.1f}% (p {x.p_two_sided:.2f})"
+def o(sym, ev, w):
+    x = NET[(NET.nse_symbol == sym) & (NET.event.str.startswith(ev)) & (NET.window == w)].iloc[0]; return f"{100*x.car:+.1f}% (p {x.p_two_sided:.2f})"
 def n(sym, ev, w):
     x = NET[(NET.nse_symbol == sym) & (NET.event.str.startswith(ev)) & (NET.window == w)].iloc[0]; return f"{100*x.net_of_unlinked:+.1f}% (p {x.p_net_two_sided:.2f})"
 cm = CT[(CT.spec.str.startswith("main")) & (CT.window == "(-1,5)") & (CT.event == "18 Nov 2024")].iloc[0]
 fig, ax = frame("NCR, winter 2024: construction ban (GRAP Stage III/IV) → builders → contractors at NCR sites",
-                "Traced pathway (Step E). Decisions G1-G5 and the checkpoint-4 and checkpoint-5 reviews applied, 23 Nov 2026. Transmission inside the zone: builder to contractor at NCR sites, both under the ban. Out of the zone: not detected.")
+                "Traced pathway. Transmission inside the zone: builder to contractor at NCR sites, both under the ban. Out of the zone: not detected. \"External\" = not among the pack's 81 firms.")
 box(ax, 0.8, 14, 14.2, 38, "GRAP orders (CAQM)",
     "Stage III 15 Nov 2024; Stage IV from 18 Nov 08:00: construction and demolition stopped in Delhi-NCR.\n"
     "Re-imposed 16-17 Dec; Stage III again 3-5, 9-12, 15-17 Jan and 29 Jan - 3 Feb 2025 (PIB releases).\n"
@@ -66,25 +68,25 @@ box(ax, 0.8, 14, 14.2, 38, "GRAP orders (CAQM)",
 box(ax, 17.5, 39, 12, 10, "NBCC: 34 NCR sites", "94% of its plant cost in NCR districts (pack data)", kind="plant")
 box(ax, 17.5, 20, 12, 10, "DLF: 48 NCR sites", "42% of its plant cost in NCR districts (pack data)", kind="plant")
 arrow(ax, (15.3, 40), (17.3, 44), "plain"); arrow(ax, (15.3, 28), (17.3, 25), "plain")
-box(ax, 31, 36, 19.5, 16, "NBCC (confirmed, G3)",
-    "Q3 FY25 call (Feb 2025): Amrapali and 70% of GPRA \"severely hitted by the NGT\"; project-management growth 1.2% against \"8% to 10%\"; ban of \"1.5 months\".\n"
+box(ax, 31, 36, 19.5, 16, "NBCC (confirmed)",
+    "Q3 FY25 call (Feb 2025): \"our major projects are Amrapali and 70% GPRA so these two projects this year severely hitted by the NGT\"; project-management growth 1.2% against \"8% to 10%\"; ban of \"1.5 months\".\n"
     f"CAR to 22 Nov {c('NBCC','18 Nov','(-1,3)')}; consolidated Q3 sales +15.9% YoY.")
-box(ax, 31, 15, 19.5, 18, "DLF (confirmed, G3)",
+box(ax, 31, 15, 19.5, 18, "DLF (confirmed)",
     "Q3 FY25 call (27 Jan 2025): \"the 2 malls in the Delhi NCR were a little delayed because of the GRAP and the stoppage of construction\" (Summit Plaza, Midtown Plaza).\n"
     f"CAR (-1,+5) {c('DLF','18 Nov','(-1,5)')}. Construction outflow Rs 521 cr (Q2) → Rs 591 cr (Q3): cash spend did not fall.")
 arrow(ax, (29.7, 44), (30.8, 44), "doc"); arrow(ax, (29.7, 25), (30.8, 25), "doc")
 # links + nodes
-box(ax, 69.5, 44.5, 30, 8.5, "J. Kumar Infraprojects (no effect)", f"No mention of the ban. CAR (-1,+5) {c('JKIL','18 Nov','(-1,5)')}; Q3 sales +22% YoY. Low dose, as expected.", kind="weak")
+box(ax, 69.5, 44.5, 30, 8.5, "J. Kumar Infraprojects (external; no effect)", f"No mention of the ban. CAR (-1,+5) {c('JKIL','18 Nov','(-1,5)')}; Q3 sales +22% YoY. Low dose, as expected.", kind="weak")
 arrow(ax, (50.7, 47), (69.3, 48.5), "weak", "NBCC = 1.6-3.4% of J. Kumar's sales\n(verified, not material)", ly=0.5)
 box(ax, 69.5, 36, 30, 7, "NBCC's upstream branch: closed", "GPRA contractors in NBCC's filings (Varindera Constructions; Shapoorji Pallonji & Co. Pvt; Girdhari Lal Constructions Pvt) and Gaursons (Amrapali, trade press) were unlisted in Nov 2024: no price or filed quarterly data.", kind="note")
 arrow(ax, (50.7, 40), (69.3, 39.5), "weak", "contractors on GPRA / Amrapali: unlisted", ly=0.4)
-box(ax, 69.5, 17.5, 30, 17, "Ahluwalia Contracts (documented; directly exposed)",
+box(ax, 69.5, 17.5, 30, 17, "Ahluwalia Contracts (external; documented; directly exposed)",
     "Calls: \"GRAP-IV is in place … going to impact this quarter\" (18 Nov 2024); FY25 growth \"8.5%-9%\" against about 10% (12 Feb 2025); lost \"two months in Q3 and nearly a month in Q4 of FY '25\" (2 Jun 2025).\n"
     "Own exposure: 33.3% of its order book in NCR (31 Dec 2024). Δ: Q3 turnover -7.3% YoY; Q4 +4.5% YoY; FY25 +6.3%, below the guidance.\n"
-    f"Price, net of unlinked contractors: 18 Nov (ban day 0 and Q2 results day; not separable) {n('AHLUCONT','18 Nov','(0,0)')}; call days (ban statements) 19 Nov {n('AHLUCONT','18 Nov','(1,1)')}, 13 Feb {n('AHLUCONT','12 Feb','(1,1)')}: not distinguishable from zero. Late falls hold no disclosure: not attributed.\n"
+    f"Price, own abnormal return [net of unlinked contractors]: 18 Nov (ban day 0 and Q2 results day; not separable) {o('AHLUCONT','18 Nov','(0,0)')} [{n('AHLUCONT','18 Nov','(0,0)')}]; call days (ban statements) 19 Nov {o('AHLUCONT','18 Nov','(1,1)')} [{n('AHLUCONT','18 Nov','(1,1)')}], 13 Feb {o('AHLUCONT','12 Feb','(1,1)')} [{n('AHLUCONT','12 Feb','(1,1)')}]: not distinguishable from zero. Late falls hold no disclosure: not attributed.\n"
     "Lag: Q3-Q4 FY25 (Nov 2024 - Feb 2025).")
 arrow(ax, (50.7, 27), (69.3, 27), "doc", "DLF = 3.4-10% of Ahluwalia's sales\n(Arbour; Downtown Ph-2 Rs 1,094.67 cr, 11 Oct 2024)", ly=0.5)
-box(ax, 69.5, 9.5, 30, 6.8, "B.L. Kashyap (not confirmed)", f"No filing 12 Nov-30 Dec: on the ban's day 0 it fell {n('BLKASHYAP','18 Nov','(0,0)')} net, like Ahluwalia. (-1,+5) {n('BLKASHYAP','18 Nov','(-1,5)')}. Q3 sales -25% YoY, but Q2 already -18%.", kind="weak")
+box(ax, 69.5, 9.5, 30, 6.8, "B.L. Kashyap (external; not confirmed)", f"No filing 12 Nov-30 Dec. Ban day 0: own {o('BLKASHYAP','18 Nov','(0,0)')}, net {n('BLKASHYAP','18 Nov','(0,0)')}; it did not persist: net {n('BLKASHYAP','18 Nov','(-1,3)')} over (-1,+3), {n('BLKASHYAP','18 Nov','(-1,5)')} over (-1,+5). Q3 sales -25% YoY, but Q2 already -18%.", kind="weak")
 arrow(ax, (50.7, 19), (69.3, 13), "weak", "DLF = 35-44% of B.L. Kashyap's sales\n(verified; site hit not documented)", ly=-3.6)
 box(ax, 31, 3.2, 19.5, 9, "Cement / steel suppliers (firm level)", "No document on either side links any supplier to DLF or NBCC. DLF's FY24 construction outflow (Rs 1,642 cr) is at most 0.7-14% of any listed supplier's revenue.", kind="break")
 arrow(ax, (40, 14.8), (40, 12.5), "break")
@@ -94,10 +96,10 @@ CFIT = pd.read_csv(DEL + "table2_cement_fit.csv"); CMK = pd.read_csv(DEL + "tabl
 cf_ = lambda o, smp="all; ACC and Ambuja excluded": CFIT[(CFIT.outcome == o) & (CFIT["sample"] == smp) & (CFIT.dose == "near300_n") & (CFIT.control == "north_rest_n")].iloc[0]
 c5, c17, v3, v2 = cf_("CAR 18 Nov 2024 (-1,5)"), cf_("CAR 17 Dec 2024 (-1,5)"), cf_("vol_yoy_q3fy25", "all"), cf_("vol_yoy_q2fy25 (pre-ban check)", "all")
 box(ax, 54, 2.3, 45.5, 6.6, "Cement makers that deliver to NCR (not a firm link; null)",
-    f"Dose: share of a maker's plants within 300 km of Delhi by road (Shree {CMK.loc['SHREECEM','near300_n']:.2f}, UltraTech {CMK.loc['ULTRACEMCO','near300_n']:.2f}, "
-    f"JK Cement {CMK.loc['JKCEMENT','near300_n']:.2f}, JK Lakshmi {CMK.loc['JKLAKSHMI','near300_n']:.2f}). Coefficient {c5.coef:+.2f} over (-1,+5) (p {c5.p_two_sided:.2f}), "
+    f"Dose: share of a maker's plants within 300 km of Delhi by road (Mangalam {CMK.loc['MANGLMCEM','near300_n']:.2f}, Shree {CMK.loc['SHREECEM','near300_n']:.2f}, UltraTech {CMK.loc['ULTRACEMCO','near300_n']:.2f}, "
+    f"JK Cement {CMK.loc['JKCEMENT','near300_n']:.2f}, JK Lakshmi {CMK.loc['JKLAKSHMI','near300_n']:.2f}, Nuvoco {CMK.loc['NUVOCO','near300_n']:.2f}). Coefficient {c5.coef:+.2f} over (-1,+5) (p {c5.p_two_sided:.2f}), "
     f"{c17.coef:+.2f} for 17 Dec (p {c17.p_two_sided:.2f}); Q3 volume {v3.coef:+.2f} (p {v3.p_two_sided:.2f}), as before the ban (Q2 {v2.coef:+.2f}). "
-    "Not detected; the largest possible loss is below what the tests can detect. UltraTech names the curbs as one of three reasons for North infrastructure degrowth.", kind="note", wrap=150)
+    "Not detected, also by capacity and without Mangalam; the largest possible loss is below what the tests can detect. UltraTech names the curbs as one of three reasons for North infrastructure degrowth.", kind="note", wrap=150)
 legend(ax)
 save(fig, "pathway_NCR")
 # ------------------------------- Gujarat -------------------------------
@@ -106,7 +108,7 @@ GN = pd.read_csv(DEL + "stepC_gj_node_cars.csv"); AP = pd.read_csv(DEL + "gj_arc
 g = lambda s, w: (lambda x: f"{100*x.car:+.1f}% (p {x.p_two_sided:.2f})")(GN[(GN.nse_symbol == s) & (GN.window == w)].iloc[0])
 a3 = AP[(AP.window == "(-1,5)")].iloc[0]
 fig, ax = frame("Gujarat, Aug 2024: deep depression → Cyclonic Storm Asna → Tata Chemicals (Mithapur) → Tata Consumer (Tata Salt)",
-                "Traced pathway (Step E). Decisions G1-G7 and the checkpoint-4 and checkpoint-5 reviews applied, 23 Nov 2026. All four hit firms are external to the pack's 81 firms; the one out-of-zone link is a cost passed into the retail price.")
+                "Traced pathway. All four hit firms are external to the pack's 81 firms; the one out-of-zone link is a cost passed into the retail price.")
 box(ax, 0.8, 14, 14.2, 38, "Storm system: Asna",
     "Deep depression over Saurashtra & Kutch, 25-30 Aug 2024; \"INTENSIFIED INTO A CYCLONIC STORM 'ASNA'\" (IMD advisory No. 1, 30 Aug).\n"
     "Rain 25-31 Aug: Jamnagar 525 mm, Porbandar 502 mm, Kachchh 360 mm. An earlier episode, 18-24 Jul: 288, 610 and 86 mm (NASA POWER).\n"
@@ -115,7 +117,7 @@ box(ax, 17.5, 41, 12, 11, "Pack chemical belt (Vadodara)", "GSFC and Gujarat Alk
 box(ax, 17.5, 22, 12, 13.5, "Sites outside the pack's districts", "Mithapur (Devbhumi Dwarka); Hajipir (Kutch); Mundra and Tuna ports (Kutch).", kind="plant")
 box(ax, 17.5, 13.5, 12, 6.5, "Vadodara (in footprint)", "GE T&D India plant.", kind="plant")
 arrow(ax, (15.3, 44), (17.3, 46), "plain"); arrow(ax, (15.3, 29), (17.3, 29), "plain"); arrow(ax, (15.3, 18), (17.3, 17), "plain")
-box(ax, 31, 44, 19.5, 8.5, "No pack firm attributes an effect", "Q2 FY25 calls and NSE filings 25 Aug - 30 Sep 2024 read for 10 firms: no statement. The pack's chain breaks here, at Step A.", kind="break")
+box(ax, 31, 44, 19.5, 8.5, "No pack firm attributes an effect", "Q2 FY25 calls and NSE filings 25 Aug - 30 Sep 2024 read for 10 firms: no statement. The pack's chain breaks here, at the first step (no hit firm).", kind="break")
 arrow(ax, (29.7, 47), (30.8, 47), "break")
 box(ax, 31, 25.5, 19.5, 17, "Tata Chemicals, Mithapur (material hit)",
     "Call: operations hit \"for almost 10 days\"; 30,000 t soda ash and 40,000 t salt lost; Rs 11 cr one-off in PAT (deck), about Rs 40 cr cost (call). Press release: \"heavy rains in July and August\": loss not separable between the two episodes.\n"

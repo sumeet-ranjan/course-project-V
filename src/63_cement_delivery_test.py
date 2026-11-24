@@ -5,8 +5,10 @@ with one amendment made before the run (geocode rule, recorded in the notes).
 Inputs: outputs/deliverables/cement_plants_geo.csv (src/62: plants from original documents, road km to Delhi),
 research/realign/cement_kpis_{A,B,C}.csv (stated capacity, volumes, realisation, lead distance; quotes checked by src/42),
 research/realign/cement_unit_counts.csv (the Ambuja group's own count of units, the denominator of its doses),
+research/realign/cement_capacity.csv (plant capacities, IBM Indian Minerals Yearbook 2022 Table 1 and company documents; Nov-2024 totals),
 research/realign/cement_events_q3fy25.csv (Q2 results dates, M&A and capacity events, Oct-Dec 2024).
-Maker units: listed entities, consolidated: Ambuja = Ambuja + ACC + Sanghi + Penna (ACC also on its own);
+Maker units: listed entities, consolidated: Ambuja = Ambuja + ACC + Sanghi + Penna, one row (ACC's plants and volumes sit inside it, so ACC
+is not a separate observation: no plant is counted twice);
 JK Lakshmi = JK Lakshmi + Udaipur Cement Works; Sagar = Sagar + Andhra Cements. India Cements is on its own (an
 UltraTech associate in Nov 2024, consolidated only from late Dec 2024).
 Denominator: the larger of the stated total capacity (Sep or Dec 2024) and the sum of plant capacities found.
@@ -42,6 +44,15 @@ P = P[P.place.str.strip() != ""]          # placeholder rows (firm totals withou
 UC = pd.read_csv(RE + "cement_unit_counts.csv", dtype=str).fillna("") if os.path.exists(RE + "cement_unit_counts.csv") else pd.DataFrame(columns=["maker_symbol", "units_total"])
 UC = UC[UC.index.isin(okrows("cement_unit_counts.csv"))]
 UNIT_DEN = {r.maker_symbol: float(r.units_total) for r in UC.itertuples()}
+# close-out: capacity-weighted dose (robustness). research/realign/cement_capacity.csv holds plant capacities for every plant in a
+# northern state or within 300 km of Delhi (IBM Indian Minerals Yearbook 2022, Table 1, 2020-21; company documents for newer plants)
+# and each such maker's total capacity in Nov 2024 (place = "TOTAL"). Plants without a documented capacity count as zero (flagged).
+CAPF = RE + "cement_capacity.csv"
+CP = pd.read_csv(CAPF, dtype=str).fillna("") if os.path.exists(CAPF) else pd.DataFrame(columns=["maker_symbol", "place", "capacity_mtpa"])
+CP = CP[CP.index.isin(okrows("cement_capacity.csv"))]
+CAP_TOT = {r.maker_symbol: float(r.capacity_mtpa) for r in CP[CP.place == "TOTAL"].itertuples()}
+CAP_PLANT = {(r.maker_symbol, r.place): float(r.capacity_mtpa) for r in CP[CP.place != "TOTAL"].itertuples()}
+P["cap_doc"] = [CAP_PLANT.get((m, pl), c) for m, pl, c in zip(P.maker_symbol, P.place, P.cap)]
 K = pd.concat([pd.read_csv(RE + f"cement_kpis_{k}.csv", dtype=str).fillna("").reset_index().rename(columns={"index": "rowid"}).assign(srcfile=f"cement_kpis_{k}.csv")
                for k in "ABC" if os.path.exists(RE + f"cement_kpis_{k}.csv")], ignore_index=True)
 K = K[[(int(r.rowid) in okrows(r.srcfile)) for r in K.itertuples()]] if len(K) else K     # only rows whose quote passed src/42
@@ -65,10 +76,19 @@ def doses(unit, g, st, L):
     d = dict(maker=unit, n_plants=n, n_plants_listed=len(g), n_plants_with_capacity=int(g.cap.notna().sum()), plant_capacity_sum=plant_sum, stated_total=st, total_capacity=tot,
              near300_n=(g.road_km <= 300).sum() / n, near150_n=(g.road_km <= 150).sum() / n,
              north_rest_n=(g.north & (g.road_km > 300)).sum() / n, north_rest150_n=(g.north & (g.road_km > 150)).sum() / n,
-             near300_cap=(g[g.road_km <= 300].cap.sum() / tot) if full_cap else np.nan, north_rest_cap=(g[g.north & (g.road_km > 300)].cap.sum() / tot) if full_cap else np.nan,
+             near300_cap=np.nan, north_rest_cap=np.nan, cap_total_used=np.nan, cap_missing="",
              lead_km=L, near_lead_n=((g.road_km <= L).sum() / n) if pd.notna(L) else np.nan,
              nearest_plant_km=g.road_km.min(), plants_within_300=", ".join(g[g.road_km <= 300].place.str[:28]), plants_without_distance=int(g.road_km.isna().sum()))
     d["max_loss_share_q3"] = d["near300_n"] * DAYS_S3 / QDAYS
+    ring = g[(g.road_km <= 300) | g.north]
+    T = CAP_TOT.get(unit, np.nan)
+    if pd.isna(T) and len(ring) == 0: T = 1.0                      # no plant near Delhi or in the North: both capacity shares are zero
+    if pd.isna(T) and g.cap_doc.notna().all() and len(g): T = g.cap_doc.sum()   # every plant documented (JK Cement): own sum
+    if pd.notna(T):
+        d["near300_cap"] = g[g.road_km <= 300].cap_doc.fillna(0).sum() / T
+        d["north_rest_cap"] = g[g.north & (g.road_km > 300)].cap_doc.fillna(0).sum() / T
+        d["cap_total_used"] = T if len(ring) else np.nan
+        d["cap_missing"] = ", ".join(ring[ring.cap_doc.isna()].place.str[:28])
     return d
 rows = []
 subs = sum([v[1:] for v in UNITS.values()], [])
@@ -79,6 +99,7 @@ for unit in sorted(set(P.maker_symbol) | set(UNITS)):
 if "ACC" in set(P.maker_symbol):          # ACC on its own (listed separately)
     g = P[P.maker_symbol == "ACC"]; rows.append(dict(members="ACC", **doses("ACC", g, stated_total("ACC"), lead("ACC"))))
 M = pd.DataFrame(rows).drop_duplicates("maker")
+M["in_tests"] = np.where(M.maker == "ACC", "no: inside the Ambuja group row (one row per group, no plant counted twice)", "yes")
 # ---------- flags: takeover-related and Q2 results in the windows ----------
 EVp = RE + "cement_events_q3fy25.csv"
 EVd = pd.read_csv(EVp, dtype=str).fillna("") if os.path.exists(EVp) else pd.DataFrame(columns=["nse_symbol", "event_type", "an_dt", "what_happened", "counterparty"])
@@ -127,7 +148,7 @@ for out, test in (("vol", IS_VOL), ("real", IS_REAL)):
 pp = pd.read_csv(EXT + "prices_peers.csv", parse_dates=["date"])
 peer = pp.pivot_table(index="date", columns="asset_id", values="adjclose").sort_index().pct_change(fill_method=None)
 add = peer.reindex(E.R.index); E.R = pd.concat([E.R, add[[c for c in add.columns if c not in E.R.columns]]], axis=1)
-M["has_prices"] = M.maker.isin(E.R.columns)
+M["has_prices"] = M.maker.isin(E.R.columns) & (M.in_tests == "yes")
 ADANI = {"ACC", "AMBUJACEM"}
 WINS = [("18 Nov 2024", "2024-11-18", (-1, 1), True), ("18 Nov 2024", "2024-11-18", (-1, 5), False), ("18 Nov 2024", "2024-11-18", (6, 20), False),
         ("17 Dec 2024", "2024-12-17", (-1, 5), False), ("17 Dec 2024", "2024-12-17", (6, 20), False)]
@@ -143,11 +164,14 @@ fits = []
 for evl, day, w, with_adani in WINS:
     t0 = E.t0_of(day); ar = E.ar_matrix(t0, pre=1, post=60).reindex(columns=cm)
     for f in cm: M.loc[M.maker == f, f"car_{day[5:7]}{day[8:10]}_{w[0]}_{w[1]}"] = E.car(ar[[f]], *w).iloc[0]
-    for sample in ("all", "without takeover-related", "without any merger or stake filing (broad)"):
+    for sample in ("all", "without takeover-related", "without any merger or stake filing (broad)", "all, without Mangalam"):
         S = M[M.has_prices & (with_adani | ~M.maker.isin(ADANI))]
         if sample == "without takeover-related": S = S[S.takeover_flag == ""]
         if sample.endswith("(broad)"): S = S[S.takeover_flag_broad == ""]
-        for dose, ctrl in (("near300_n", "north_rest_n"), ("near300_n", None), ("near150_n", "north_rest150_n"), ("near300_cap", "north_rest_cap")):
+        if sample.endswith("without Mangalam"): S = S[S.maker != "MANGLMCEM"]
+        specs = (("near300_n", "north_rest_n"), ("near300_n", None), ("near150_n", "north_rest150_n"), ("near300_cap", "north_rest_cap"))
+        if sample.endswith("without Mangalam"): specs = (("near300_n", "north_rest_n"), ("near300_cap", "north_rest_cap"))
+        for dose, ctrl in specs:
             S_ = S.dropna(subset=[dose] + ([ctrl] if ctrl else []))
             X = S_[[dose] + ([ctrl] if ctrl else [])].values.astype(float); fs = list(S_.maker)
             y = np.array([E.car(ar[[f]], *w).iloc[0] for f in fs], dtype=float)
@@ -163,9 +187,10 @@ for evl, day, w, with_adani in WINS:
 rng = np.random.default_rng(5)
 for out in ("vol_yoy_q3fy25", "vol_yoy_q2fy25", "real_yoy_q3fy25", "real_yoy_q2fy25"):
     for sample in ("all", "without takeover-related", "without any merger or stake filing (broad)"):
-        S = M if sample == "all" else (M[M.takeover_flag == ""] if sample == "without takeover-related" else M[M.takeover_flag_broad == ""])
-        for dose, ctrl in (("near300_n", "north_rest_n"), ("near300_n", None)):
-            S2 = S.dropna(subset=[out]); y = S2[out].values.astype(float); Xd = S2[dose].values.astype(float)
+        S = M[M.in_tests == "yes"]
+        S = S if sample == "all" else (S[S.takeover_flag == ""] if sample == "without takeover-related" else S[S.takeover_flag_broad == ""])
+        for dose, ctrl in (("near300_n", "north_rest_n"), ("near300_n", None), ("near300_cap", "north_rest_cap")):
+            S2 = S.dropna(subset=[out, dose] + ([ctrl] if ctrl else [])); y = S2[out].values.astype(float); Xd = S2[dose].values.astype(float)
             Xc = S2[[ctrl]].values.astype(float) if ctrl else np.empty((len(S2), 0))
             bb, n = ols(y, np.column_stack([Xd, Xc]), full=True); b = bb[0]; bc = bb[1] if ctrl else np.nan
             BS = np.array([ols(y, np.column_stack([rng.permutation(Xd), Xc]), full=True)[0] for _ in range(10000)]) if (n >= 5 and pd.notna(b)) else np.empty((0, 2))
@@ -179,5 +204,5 @@ for out in ("vol_yoy_q3fy25", "vol_yoy_q2fy25", "real_yoy_q3fy25", "real_yoy_q2f
 F = pd.DataFrame(fits)
 M.round(4).to_csv(DEL + "table2_cement_makers.csv", index=False); F.round(4).to_csv(DEL + "table2_cement_fit.csv", index=False)
 pd.set_option("display.width", 250); pd.set_option("display.max_colwidth", 50)
-print(M[["maker", "n_plants", "n_plants_with_capacity", "total_capacity", "near300_n", "near150_n", "north_rest_n", "near300_cap", "lead_km", "max_loss_share_q3", "takeover_flag", "has_prices"]].round(3).to_string(index=False))
+print(M[["maker", "n_plants", "near300_n", "near150_n", "north_rest_n", "near300_cap", "north_rest_cap", "cap_total_used", "cap_missing", "lead_km", "max_loss_share_q3", "in_tests", "has_prices"]].round(3).to_string(index=False))
 print(F.round(3).to_string(index=False))

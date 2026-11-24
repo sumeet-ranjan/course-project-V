@@ -198,3 +198,20 @@ made before the run: the geocode rule at 12:20, and plant-count doses at 12:37. 
   call); deals in Oct-Dec 2024; new capacity (none documented near Delhi); and Q2 results dates (Mangalam, Prism).
 - **Steel:** stops at the materiality bound, with no regression.
 - **The old market-level test** (+2.5 pp, p 0.34) is kept in the notes as the comparison.
+
+## Close-out (24 Nov 2026): the author's calls on the cement test, and the final run
+- **Accepted:** the plant-count dose as the main version; the narrowed takeover flag, with both versions kept with
+  their numbers; the Ambuja and ACC denominators and no lead-distance dose.
+- **Fixed before the final run:**
+  - Mangalam's Aligarh grinding unit (FY2024-25 report; IBM 0.75 MTPA), giving a count dose of 0.50;
+  - Nuvoco's ten plants (Bhiwani 118 km), from its own call, decks and press release and from IBM;
+  - one row for the Ambuja group, so that Rajpura is not counted twice;
+  - a capacity-weighted robustness dose (IBM *Indian Minerals Yearbook 2022*, Table 1, and company documents);
+  - a sample without Mangalam.
+- **Result: unchanged (null).**
+  - Coefficient −0.06 over (−1,+1) (p 0.36), −0.01 over (−1,+5) (p 0.90), +0.03 for 17 Dec (p 0.70).
+  - Every sample and dose gives p ≥ 0.23.
+  - Q3 volume −0.24 (p 0.41), matched before the ban (−0.16).
+  - The signs are now mixed: (−1,+1) turns negative with Mangalam in.
+  - Details are in `outputs/deliverables/table2_notes.md`.
+
